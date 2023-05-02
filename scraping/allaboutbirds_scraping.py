@@ -22,11 +22,6 @@ sim_species_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/species-
 
 #settings for folders
 RAWFOLDER = 'allaboutbirds/'
-
-# how many images to retrieve per species
-MAXIMAGES = 10000
-
-# the number of images returned per page (needed for pagination)
 IMAGESPERPAGE = 24
 
 species = [{
@@ -140,19 +135,6 @@ def get_and_store_image(url: str, path: str):
         shutil.copyfileobj(response.raw, out_file)
     del response  
     
-def center_image(img):
-    '''Convenience function to return a centered image'''
-    size = [256,256]
-    
-    img_size = img.shape[:2]
-    
-    # centering
-    row = (size[1] - img_size[0]) // 2
-    col = (size[0] - img_size[1]) // 2
-    resized = np.zeros(list(size) + [img.shape[2]], dtype=np.uint8)
-    resized[row:(row + img.shape[0]), col:(col + img.shape[1])] = img
-
-    return resized
 # %%
 def show_random_img_from_folder(folder: str):
     '''Show a random image from the given folder'''
@@ -165,35 +147,7 @@ def show_random_img_from_folder(folder: str):
     plt.show()
     
     print(imglocation)
-# %%
-def convert_and_store_img(inputpath: str, outputpath: str):
-    '''Converts an image and resizes it, stores it to disk (ssd in this case)'''
-    
-    # try-catch is necessary here because: 
-    # a) images might be really small for some reason
-    # b) images might be served with a 0-dimension from waarneming.nl (e.g. 512x0) possibly corrupted
-    #    during upload / download
-    # bit of an antipattern for sure.
-    try:
-        img = cv2.imread(inputpath)
-        
-        #calculate tile size
-        if(img.shape[0] > img.shape[1]):
-            tile_size = (int(img.shape[1]*256/img.shape[0]),256)
-        else:
-            tile_size = (256, int(img.shape[0]*256/img.shape[1]))
 
-        #centering + actual resizing
-        img = center_image(cv2.resize(img, dsize=tile_size))
-
-        #output should be 224*224px for a quick vggnet16
-        img = img[16:240, 16:240]
-
-        cv2.imwrite(outputpath, img)
-        
-    except:
-        print(inputpath)
-        pass
 # %%
 def get_photoid_list(species: str) -> list:
     '''Convenience function to return a list of (already-scraped) photo ids for a given species'''
@@ -206,36 +160,46 @@ def get_photoid_list(species: str) -> list:
 # %%
 def id_scraper(species: str):
     photolinks = []
-    # text
-    results = True
     
-    while results:
-        try:
-            #pause for one second out of courtesy
-            time.sleep(1)
+    try:
+        #pause for one second out of courtesy
+        time.sleep(1)
 
-            # construct the url
-            URL = f'https://www.allaboutbirds.org/guide/{species}/id'
+        # construct the url
+        URL = f'https://www.allaboutbirds.org/guide/{species}/id'
 
-            # fetch the url and content
-            page = requests.get(URL)
-            soup = BeautifulSoup(page.content, 'html.parser')
-            photo_tags=soup.findAll('img', {"alt":"Dark-eyed Junco"})
-            text_tags=soup.find('article', {"aria-label":"Size & Shape"})
-            # get the text size & shape
-            children = text_tags.find("p")
-            children = text_tags.find("div").find("p")
-            children = text_tags.find("div").find("span")
+        # fetch the url and content
+        page = requests.get(URL)
+        soup = BeautifulSoup(page.content, 'html.parser')
+        photo_tags=soup.findAll('img', {"alt":"Dark-eyed Junco"})
 
-            if len(photo_tags) == 0 or len(text_tags) == 0:
-                results = False
-                break
-
-            photolinks += photo_tags
-        except Exception as e:
-            print(str(e))
+        # get the text size & shape
+        text_tags=soup.find('article', {"aria-label":"Size & Shape"})
+        size_tag_1 = text_tags.find("p")
+        size_tag_2 = text_tags.find("div").find("p")
+        size_tag_3 = text_tags.find("div").find("span")
             
-        results = False
+        # get the color pattern
+        text_tags=soup.find('article', {"aria-label":"Color Pattern"})
+        color_tag = text_tags.find("p")
+        # get the behaviour
+        text_tags=soup.find('article', {"aria-label":"Behavior"})
+        behavior_tag = text_tags.find("p")
+        # get the habitat
+        text_tags=soup.find('article', {"aria-label":"Habitat"})
+        habitat_tag = text_tags.find("p")
+        # get the regional differences
+        text_tags=soup.find('article', {"aria-label":"Regional Differences"})
+        regional_tag = text_tags.find("p")
+
+
+        photolinks += photo_tags
+        metadata = {"Size": [size_tag_1, size_tag_2, size_tag_3], \
+                    "Color": color_tag, "Behavior": behavior_tag, \
+                    "Habitat": habitat_tag, \
+                    "Regional_Difference": regional_tag}
+    except Exception as e:
+        print(str(e))
         
     #Show a count of how many we've found
     print(f'Found {photolinks} photos for {species}.')
@@ -261,50 +225,31 @@ def id_scraper(species: str):
             time.sleep(1)
     
     #store metadata to flat file
-    # store_meta(species, metadata)
-# %%
-id_scraper('Dark-eyed_Junco')
+    store_meta(species, metadata)
+
 # %%
 def store_meta(species: str, meta: list):
-    '''Store metadata to file for later use/verification'''
+    meta_dict = {}
+    for k in meta.keys():
+        if k == 'Size':
+            meta_dict['Size'] = []
+            for i in range(3):
+                for idx, ele in enumerate(meta[k][i]):
+                    meta_dict['Size'].append(ele.text.strip())
+        else:
+            meta_dict[k] = []
+            for idx, ele in enumerate(meta[k]):
+                    meta_dict[k].append(ele.text.strip())
     
-    with open(f'{species}.txt', 'a+', encoding="utf-8") as f:
-        for item in meta:
-            f.write("%s\n" % item)
-# %%
-def get_metadata(photoid=24691898) -> dict:
-    '''Given a photo-id, return metadata in a dict'''
-    
-    url = 'https://waarneming.nl/photos/'+str(photoid)
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-    tags=soup.find('table',{"class":"table app-content-section photo-detail"})
-    meta =  {}
+    json_object = json.dumps(meta_dict, indent=4)
+    with open(f"{RAWFOLDER}/{species}/meta.json", "w") as outfile:
+        outfile.write(json_object)
 
-    if tags:
-        # find all table rows
-        rows = tags.find_all('tr')
-        values = []
-        keys = []
-        # get the table content and return as two lists
-        for row in rows:
-            # actual content is listed in the <td>, while <th> holds the titles. 
-            descriptions = row.find_all('th')
-            cols = row.find_all('td')
-            for idx, ele in enumerate(descriptions):
-                keys.append(ele.text.strip())
-                values.append(cols[idx].text.strip())
-
-        #create a dict out of the data we fetched
-        meta = dict(zip(keys, values))  
-
-    return meta
-# %%
-#check if the metadata call returns the right stuff
-# get_metadata()
+    return meta_dict        
 
 # %%
 id_scraper('Dark-eyed_Junco')
+            
 #%%
 show_random_img_from_folder(RAWFOLDER+'/Dark-eyed_Junco')
 # %%
