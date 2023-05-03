@@ -69,18 +69,17 @@ def id_scraper(species: str):
     URL = f'https://www.allaboutbirds.org/guide/{species}/id'
 
     try:
-
         #make folders if they don't yet exist
         if not os.path.exists(RAWFOLDER+'/'+species):
             os.makedirs(RAWFOLDER+'/'+species)
         # fetch the url and content
-        if os.path.isfile(RAWFOLDER+'/'+species+'/page.html'):
+        if os.path.isfile(RAWFOLDER+'/'+species+'/id.html'):
             print(f'The page for {species} is already there!!!')
-            with open(RAWFOLDER+'/'+species+'/page.html', 'rb') as f:
+            with open(RAWFOLDER+'/'+species+'/id.html', 'rb') as f:
                 soup = BeautifulSoup(f.read(), 'html.parser')
         else:
             page = requests.get(URL)
-            with open(RAWFOLDER+'/'+species+'/page.html', 'wb+') as f:
+            with open(RAWFOLDER+'/'+species+'/id.html', 'wb+') as f:
                 f.write(page.content)
             soup = BeautifulSoup(page.content, 'html.parser')
         
