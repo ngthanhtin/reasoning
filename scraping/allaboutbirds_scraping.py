@@ -22,7 +22,6 @@ sim_species_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/species-
 
 #settings for folders
 RAWFOLDER = 'allaboutbirds/'
-IMAGESPERPAGE = 24
 
 species = [{
     'name': 'pimpelmees',
@@ -30,99 +29,6 @@ species = [{
 }, {
     'name': 'koolmees',
     'id': '140'
-}, {
-    'name': 'staartmees',
-    'id': '181'
-}, {
-    'name': 'kuifmees',
-    'id': '145'
-}, {
-    'name': 'vink',
-    'id': '193'
-}, {
-    'name': 'merel',
-    'id': '150'
-}, {
-    'name': 'spreeuw',
-    'id': '180'
-}, {
-    'name': 'ringmus',
-    'id': '166'
-}, {
-    'name': 'huismus',
-    'id': '122'
-}, {
-    'name': 'geelgors',
-    'id': '55'
-}, {
-    'name': 'groenling',
-    'id': '261771'
-}, {
-    'name': 'heggenmus',
-    'id': '118'
-}, {
-    'name': 'boomkruiper',
-    'id': '71'
-}, {
-    'name': 'boomklever',
-    'id': '70'
-}, {
-    'name': 'roodborstje',
-    'id': '168'
-}, {
-    'name': 'grotebontespecht',
-    'id': '109'
-}, {
-    'name': 'ekster',
-    'id': '87'
-}, {
-    'name': 'putter',
-    'id': '162'
-},{
-    'name': 'winterkoning',
-    'id': '199'
-},{
-    'name': 'zanglijster',
-    'id': '204'
-},{
-    'name': 'houtduif',
-    'id': '120'
-},{
-    'name': 'turksetortel',
-    'id': '191'
-},{
-    'name': 'holenduif',
-    'id': '119'
-},{
-    'name': 'wittekwikstaart',
-    'id': '202'
-},{
-    'name': 'groenespecht',
-    'id': '40'
-},{
-    'name': 'vlaamsegaai',
-    'id': '92'
-},{
-    'name': 'keep',
-    'id': '127'
-},{
-    'name': 'koperwiek',
-    'id': '141'
-},{
-    'name': 'kramsvogel',
-    'id': '143'
-},{
-    'name': 'wielewaal',
-    'id': '350'
-},{
-    'name': 'kauw',
-    'id': '126'
-},{
-    'name': 'zwartekraai',
-    'id': '208'
-},{
-    'name': 'kokmeeuw',
-    'id': '138'
 }]
 
 print(f'There are {len(species)} birds on the scraping list.')
@@ -218,11 +124,12 @@ def id_scraper(species: str):
                 for child4 in annotation_tag:
                     type_name = child4.find('h3').get_text()
                     description = child4.find('p').get_text()
+                    description = " ".join(description.split()) # remove duplicate spaces and tabs, newlines
                     type_name = type_name.replace('/',' and ') # if any "/" in the string
                 #make folders if they don't yet exist
                 if not os.path.exists(RAWFOLDER+'/'+species+'/'+type_name):
                     os.makedirs(RAWFOLDER+'/'+species+'/'+type_name)
-                    with open("description.txt", 'w') as f:
+                    with open(RAWFOLDER+'/'+species+'/'+type_name+"/description.txt", 'w') as f:
                         f.write(description)
                     for link in img_links:
                         filename = link.split('/')[6]
