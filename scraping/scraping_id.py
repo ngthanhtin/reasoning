@@ -16,22 +16,11 @@ import json
 import multiprocessing as mp
 
 # webpages
-id_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/id'
-gallery_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/photo-gallery'
-sim_species_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/species-compare'
+species = "Dark-eyed_Junco"
+id_page = f'https://www.allaboutbirds.org/guide/{species}/id'
 
 #settings for folders
 RAWFOLDER = 'allaboutbirds/'
-
-species = [{
-    'name': 'pimpelmees',
-    'id': '161'
-}, {
-    'name': 'koolmees',
-    'id': '140'
-}]
-
-print(f'There are {len(species)} birds on the scraping list.')
 
 #%%
 def get_and_store_image(url: str, path: str):
@@ -86,11 +75,11 @@ def id_scraper(species: str):
             soup = BeautifulSoup(page.content, 'html.parser')
         
         # -----Get a representative image for this species-----
-        photo_tags = soup.findAll('img', {"alt":"Dark-eyed Junco"})
+        photo_tags = soup.find('aside', {"aria-label":"Shape Media"}).find("img")
+
         # get the photoids we already have scraped from - the links change
         photoids = get_photoid_list(species)
-        for photo_tag in photo_tags:
-            image_urls = photo_tag.get('data-interchange') # string of list
+        image_urls = photo_tags.get('data-interchange') # string of list
         # Converting string to list
         image_urls = image_urls.replace('[',"")
         image_urls = image_urls.replace(']',"").split(',')
@@ -130,7 +119,7 @@ def id_scraper(species: str):
                 #make folders if they don't yet exist
                 if not os.path.exists(RAWFOLDER+'/'+species+'/'+type_name):
                     os.makedirs(RAWFOLDER+'/'+species+'/'+type_name)
-                with open(RAWFOLDER+'/'+species+'/'+type_name+"/description.txt", 'w') as f:
+                with open(RAWFOLDER+'/'+species+'/'+type_name+"/description.txt", 'a') as f:
                     f.write(description)
                 for link in img_links:
                     filename = link.split('/')[6]
@@ -155,12 +144,17 @@ def id_scraper(species: str):
         habitat_tag = text_tags.find("p")
         # -----Get the regional differences-----
         text_tags=soup.find('article', {"aria-label":"Regional Differences"})
-        regional_tag = text_tags.find("p")
-
-        metadata = {"Size": [size_tag_1, size_tag_2, size_tag_3, size_tag_4], \
-                    "Color": color_tag, "Behavior": behavior_tag, \
-                    "Habitat": habitat_tag, \
-                    "Regional_Difference": regional_tag}
+        if text_tags:
+            regional_tag = text_tags.find("p")
+            metadata = {"Size": [size_tag_1, size_tag_2, size_tag_3, size_tag_4], \
+                        "Color": color_tag, "Behavior": behavior_tag, \
+                        "Habitat": habitat_tag, \
+                        "Regional_Difference": regional_tag}
+            
+        else: # in case there is no regional tag
+            metadata = {"Size": [size_tag_1, size_tag_2, size_tag_3, size_tag_4], \
+                        "Color": color_tag, "Behavior": behavior_tag, \
+                        "Habitat": habitat_tag}
         #store metadata to flat file
         store_meta(species, metadata)
     except Exception as e:
@@ -196,16 +190,12 @@ def store_meta(species: str, meta: list):
     return meta_dict        
 
 # %%
-id_scraper('Dark-eyed_Junco')
+id_scraper('Spotted_Towhee')
             
 #%%
 show_random_img_from_folder(RAWFOLDER+'/Dark-eyed_Junco')
-# %%
-# for s in species[30:]:
-#     bird_scraper(s['name'], s['id'])
-    
-#     # show a random photo
-#     print(str(s['name'])+':')
-#     show_random_img_from_folder(RAWFOLDER+'/'+s['name'])
 
 # %%
+
+species = ['Spotted_Towhee', 'Botteris_Sparrow']
+print(f'There are {len(species)} birds on the scraping list.')
