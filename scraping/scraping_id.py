@@ -130,12 +130,12 @@ def id_scraper(species: str):
                 #make folders if they don't yet exist
                 if not os.path.exists(RAWFOLDER+'/'+species+'/'+type_name):
                     os.makedirs(RAWFOLDER+'/'+species+'/'+type_name)
-                    with open(RAWFOLDER+'/'+species+'/'+type_name+"/description.txt", 'w') as f:
-                        f.write(description)
-                    for link in img_links:
-                        filename = link.split('/')[6]
-                        path = RAWFOLDER+'/'+species+'/'+type_name+'/'+filename
-                        get_and_store_image(link, path)
+                with open(RAWFOLDER+'/'+species+'/'+type_name+"/description.txt", 'w') as f:
+                    f.write(description)
+                for link in img_links:
+                    filename = link.split('/')[6]
+                    path = RAWFOLDER+'/'+species+'/'+type_name+'/'+filename
+                    get_and_store_image(link, path)
 
         # -----Get the text size & shape-----
         text_tags=soup.find('article', {"aria-label":"Size & Shape"})

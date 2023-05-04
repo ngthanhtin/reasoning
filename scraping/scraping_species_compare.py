@@ -111,9 +111,12 @@ def species_compare_scraper(species: str):
                 similarbird_dict[bird_name] = [bird_type, bird_desc]
 
                 # save images
+                #make folders if they don't yet exist
+                if not os.path.exists(RAWFOLDER+'/'+species+'/species_compare/'+bird_name):
+                    os.makedirs(RAWFOLDER+'/'+species+'/species_compare/'+bird_name)
                 for link in img_links:
                     filename = link.split('/')[6]
-                    path = RAWFOLDER+'/'+species+'/species_compare'+'/'+bird_name + "_" + filename
+                    path = RAWFOLDER+'/'+species+'/species_compare'+'/'+bird_name+"/"+filename
                     get_and_store_image(link, path)
             
         # save the descriptions
