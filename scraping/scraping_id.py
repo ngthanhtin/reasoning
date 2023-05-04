@@ -37,6 +37,8 @@ print(f'There are {len(species)} birds on the scraping list.')
 def get_and_store_image(url: str, path: str):
     '''Obtain an image fm the world wide web and store it in the path specified'''
     response = requests.get(url, stream=True)
+    if response.status_code != 200:
+        print(f"Download error {url}")
     with open(path, 'wb') as out_file:
         shutil.copyfileobj(response.raw, out_file)
     del response  
