@@ -16,27 +16,17 @@ import json
 import multiprocessing as mp
 
 # webpages
-id_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/id'
-gallery_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/photo-gallery'
 sim_species_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/species-compare'
 
 #settings for folders
 RAWFOLDER = 'allaboutbirds/'
 
-species = [{
-    'name': 'pimpelmees',
-    'id': '161'
-}, {
-    'name': 'koolmees',
-    'id': '140'
-}]
-
-print(f'There are {len(species)} birds on the scraping list.')
-
 #%%
 def get_and_store_image(url: str, path: str):
     '''Obtain an image fm the world wide web and store it in the path specified'''
     response = requests.get(url, stream=True)
+    if response.status_code != 200:
+        print(f"Download error {url}")
     with open(path, 'wb') as out_file:
         shutil.copyfileobj(response.raw, out_file)
     del response  
@@ -134,12 +124,7 @@ species_compare_scraper('Dark-eyed_Junco')
             
 #%%
 show_random_img_from_folder(RAWFOLDER+'/Dark-eyed_Junco')
-# %%
-# for s in species[30:]:
-#     bird_scraper(s['name'], s['id'])
-    
-#     # show a random photo
-#     print(str(s['name'])+':')
-#     show_random_img_from_folder(RAWFOLDER+'/'+s['name'])
 
 # %%
+species = ['pimpelmees', 'koolmees']
+print(f'There are {len(species)} birds on the scraping list.')

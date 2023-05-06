@@ -76,7 +76,6 @@ def id_scraper(species: str):
         
         # -----Get a representative image for this species-----
         photo_tags = soup.find('aside', {"aria-label":"Shape Media"}).find("img")
-
         # get the photoids we already have scraped from - the links change
         photoids = get_photoid_list(species)
         image_urls = photo_tags.get('data-interchange') # string of list
@@ -197,5 +196,9 @@ show_random_img_from_folder(RAWFOLDER+'/Dark-eyed_Junco')
 
 # %%
 
-species = ['Spotted_Towhee', 'Botteris_Sparrow']
+species = ['Botteris_Sparrow']
 print(f'There are {len(species)} birds on the scraping list.')
+
+for specy in species:
+    id_scraper(specy)
+# %%
