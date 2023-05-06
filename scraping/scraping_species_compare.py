@@ -54,9 +54,13 @@ def get_photoid_list(species: str) -> list:
     
     return ids
 # %%
-def species_compare_scraper(species: str):
-    # construct the url
-    URL = f'https://www.allaboutbirds.org/guide/{species}/species-compare'
+def species_compare_scraper(species: str, url: str = None):
+    if url is None:
+        # construct the url with the specified species
+        URL = f'https://www.allaboutbirds.org/guide/{species}/species-compare'
+    else:
+        species = url.split('/')[-1]
+        URL = url + 'species-compare'
 
     try:
         #make folders if they don't yet exist
@@ -71,7 +75,8 @@ def species_compare_scraper(species: str):
             with open(RAWFOLDER+'/'+species+'/species-compare.html', 'rb') as f:
                 soup = BeautifulSoup(f.read(), 'html.parser')
         else:
-            page = requests.get(URL)
+            headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'}
+            page = requests.get(URL, headers=headers)
             with open(RAWFOLDER+'/'+species+'/species-compare.html', 'wb+') as f:
                 f.write(page.content)
             soup = BeautifulSoup(page.content, 'html.parser')
