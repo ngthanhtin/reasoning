@@ -103,7 +103,9 @@ def species_compare_scraper(species: str, url: str = None):
                 bird_desc = child2.find('p').get_text()
                 bird_desc = " ".join(bird_desc.split()) # remove duplicate spaces and tabs, newlines
                 
-                similarbird_dict[bird_name] = [bird_type, bird_desc]
+                if bird_name not in similarbird_dict:
+                    similarbird_dict[bird_name] = {}
+                similarbird_dict[bird_name][bird_type] = bird_desc
 
                 # save images
                 #make folders if they don't yet exist
@@ -131,5 +133,5 @@ species_compare_scraper('Dark-eyed_Junco')
 show_random_img_from_folder(RAWFOLDER+'/Dark-eyed_Junco')
 
 # %%
-species = ['pimpelmees', 'koolmees']
+species = ['Botteris_Sparrow', 'koolmees']
 print(f'There are {len(species)} birds on the scraping list.')
