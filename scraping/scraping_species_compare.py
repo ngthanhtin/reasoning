@@ -16,6 +16,7 @@ import json
 import multiprocessing as mp
 
 # webpages
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'}
 sim_species_page = 'https://www.allaboutbirds.org/guide/Dark-eyed_Junco/species-compare'
 
 #settings for folders
@@ -24,9 +25,9 @@ RAWFOLDER = 'allaboutbirds/'
 #%%
 def get_and_store_image(url: str, path: str):
     '''Obtain an image fm the world wide web and store it in the path specified'''
-    response = requests.get(url, stream=True)
+    response = requests.get(url, headers=HEADERS, stream=True)
     if response.status_code != 200:
-        print(f"Download error {url}")
+        print(f"Download error {response.status_code} {url}")
     with open(path, 'wb') as out_file:
         shutil.copyfileobj(response.raw, out_file)
     del response  
@@ -75,8 +76,7 @@ def species_compare_scraper(species: str, url: str = None):
             with open(RAWFOLDER+'/'+species+'/species-compare.html', 'rb') as f:
                 soup = BeautifulSoup(f.read(), 'html.parser')
         else:
-            headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'}
-            page = requests.get(URL, headers=headers)
+            page = requests.get(URL, headers=HEADERS)
             with open(RAWFOLDER+'/'+species+'/species-compare.html', 'wb+') as f:
                 f.write(page.content)
             soup = BeautifulSoup(page.content, 'html.parser')
