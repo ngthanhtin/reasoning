@@ -77,6 +77,7 @@ def species_compare_scraper(species: str, url: str = None):
                 soup = BeautifulSoup(f.read(), 'html.parser')
         else:
             page = requests.get(URL, headers=HEADERS)
+            time.sleep(1)
             with open(RAWFOLDER+'/'+species+'/species-compare.html', 'wb+') as f:
                 f.write(page.content)
             soup = BeautifulSoup(page.content, 'html.parser')
@@ -115,6 +116,7 @@ def species_compare_scraper(species: str, url: str = None):
                     filename = link.split('/')[6]
                     path = RAWFOLDER+'/'+species+'/species_compare'+'/'+bird_name+"/"+filename
                     get_and_store_image(link, path)
+                    time.sleep(1)
             
         # save the descriptions
         json_object = json.dumps(similarbird_dict, indent=4)
@@ -127,7 +129,7 @@ def species_compare_scraper(species: str, url: str = None):
         print(str(e))     
 
 # %%
-species_compare_scraper('Dark-eyed_Junco')
+species_compare_scraper('Rock_Pigeon')
             
 #%%
 show_random_img_from_folder(RAWFOLDER+'/Dark-eyed_Junco')
@@ -135,3 +137,8 @@ show_random_img_from_folder(RAWFOLDER+'/Dark-eyed_Junco')
 # %%
 species = ['Botteris_Sparrow', 'koolmees']
 print(f'There are {len(species)} birds on the scraping list.')
+
+# %%
+for specy in species:
+    species_compare_scraper(specy)
+    time.sleep(1)
