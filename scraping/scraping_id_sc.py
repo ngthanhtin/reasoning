@@ -20,10 +20,16 @@ HEADERS = {'accept': '"text/html', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel 
 
 #%%
 #settings for folders
-RAWFOLDER = 'allaboutbirds_pages_2/'
+BIRD_PAGE_FOLDER = 'allaboutbirds_pages_2/'
+ID_FOLDER = 'allaboutbirds_ids/'
+SPECIES_COMPARE_FOLDER = 'allaboutbirds_species_compares/'
 #make folders if they don't yet exist
-if not os.path.exists(RAWFOLDER):
-    os.makedirs(RAWFOLDER)
+if not os.path.exists(BIRD_PAGE_FOLDER):
+    os.makedirs(BIRD_PAGE_FOLDER)
+if not os.path.exists(ID_FOLDER):
+    os.makedirs(ID_FOLDER)
+if not os.path.exists(SPECIES_COMPARE_FOLDER):
+    os.makedirs(SPECIES_COMPARE_FOLDER)
 
 #%%
 def get_and_store_image(url: str, path: str):
@@ -35,15 +41,6 @@ def get_and_store_image(url: str, path: str):
         shutil.copyfileobj(response.raw, out_file)
     del response  
 
-# %%
-def get_photoid_list(species: str) -> list:
-    '''Convenience function to return a list of (already-scraped) photo ids for a given species'''
-    ids = []
-    for r, d, f in os.walk(RAWFOLDER+species):
-        for file in f:
-            ids.append(file.split('.')[0])   
-    
-    return ids
 
 # %%
 # scrape id and species compare pages
@@ -57,13 +54,13 @@ def page_scraper(species, url):
         species_compare_url = url + '/species-compare'
 
     #make folders if they don't yet exist
-    if not os.path.exists(RAWFOLDER+'/'+species):
-        os.makedirs(RAWFOLDER+'/'+species)
+    if not os.path.exists(BIRD_PAGE_FOLDER+'/'+species):
+        os.makedirs(BIRD_PAGE_FOLDER+'/'+species)
 
     is_id_failed = False
     is_species_compare_failed = False
     # fetch the ID url
-    if os.path.isfile(RAWFOLDER+'/'+species+'/id.html'):
+    if os.path.isfile(BIRD_PAGE_FOLDER+'/'+species+'/id.html'):
         print(f'The ID page for {species} is already there!!!')
     else:
         print(f'Scraping ID page {id_url}')
@@ -72,12 +69,12 @@ def page_scraper(species, url):
             print(f"Download error {id_page.status_code} {url}")
             is_id_failed = True
         else:
-            with open(RAWFOLDER+'/'+species+'/id.html', 'wb+') as f:
+            with open(BIRD_PAGE_FOLDER+'/'+species+'/id.html', 'wb+') as f:
                 f.write(id_page.content)
             time.sleep(1)
 
     # fetch the species compare url
-    if os.path.isfile(RAWFOLDER+'/'+species+'/species_compare.html'):
+    if os.path.isfile(BIRD_PAGE_FOLDER+'/'+species+'/species_compare.html'):
         print(f'The scpecies_compare page for {species} is already there!!!')
     else:
         print(f'Scraping Species compare page {id_url}')
@@ -86,7 +83,7 @@ def page_scraper(species, url):
             print(f"Download error {species_compare_page.status_code} {url}")
             is_species_compare_failed = True
         else:
-            with open(RAWFOLDER+'/'+species+'/species_compare.html', 'wb+') as f:
+            with open(BIRD_PAGE_FOLDER+'/'+species+'/species_compare.html', 'wb+') as f:
                 f.write(species_compare_page.content)
             time.sleep(1)
 
@@ -121,7 +118,7 @@ for i, url in enumerate(manual_urls):
     bird_name = url.split('/')[-1]
     bird_names.append(bird_name)
 
-    if not os.path.exists(RAWFOLDER+'/'+bird_name):
+    if not os.path.exists(BIRD_PAGE_FOLDER+'/'+bird_name):
         print(bird_name)
 
     is_id_failed, is_species_compare_failed = page_scraper(bird_name, url)
@@ -129,7 +126,7 @@ for i, url in enumerate(manual_urls):
     num_id_failed += is_id_failed
     num_species_compare_failed+=is_species_compare_failed
 
-print(len(manual_urls), len(os.listdir(RAWFOLDER)))
+print(len(manual_urls), len(os.listdir(BIRD_PAGE_FOLDER)))
 print(f"There are {num_non_links} non-links")
 print(f"ID failed: {num_id_failed}, Specices compare failed: {num_species_compare_failed}")
 
@@ -140,26 +137,31 @@ def store_meta(species: str, meta: list):
     meta_dict = {}
     for k in meta.keys():
         if k == 'Size':
-            meta_dict['Size'] = []
-            for i in range(len(meta[k])):
+            meta_dict['Size'] = {'link':meta['Size']['link'], 'description': []}
+            for i in range(len(meta[k]['description'])):
                 if i == 3: # measurement
-                    for idx, ele in enumerate(meta[k][i]):
+                    for idx, ele in enumerate(meta[k]['description'][i]):
                         if idx == 1:
                             continue
                         if idx == 0: # sex
-                            meta_dict['Size'].append("Sex: "+ ele.text.strip())
+                            meta_dict['Size']['description'].append("Sex: "+ ele.text.strip())
                         else:
-                            meta_dict['Size'].append(ele.text.strip())
+                            meta_dict['Size']['description'].append(ele.text.strip())
                 else:
-                    for idx, ele in enumerate(meta[k][i]):
-                        meta_dict['Size'].append(ele.text.strip())
+                    for idx, ele in enumerate(meta[k]['description'][i]):
+                        meta_dict['Size']['description'].append(ele.text.strip())
         else:
-            meta_dict[k] = []
-            for idx, ele in enumerate(meta[k]):
-                    meta_dict[k].append(ele.text.strip())
+            if 'link' in meta[k]:
+                meta_dict[k] = {'link': meta[k]['link'], 'description': []}
+                for idx, ele in enumerate(meta[k]['description']):
+                        meta_dict[k]['description'].append(ele.text.strip())
+            else:
+                meta_dict[k] = {'description': []}
+                for idx, ele in enumerate(meta[k]['description']):
+                        meta_dict[k]['description'].append(ele.text.strip())
     
     json_object = json.dumps(meta_dict, indent=4)
-    with open(f"{RAWFOLDER}/{species}/meta.json", "w") as outfile:
+    with open(f"{ID_FOLDER}/{species}/meta.json", "w") as outfile:
         outfile.write(json_object)
 
     return meta_dict  
@@ -174,43 +176,70 @@ def id_scraper(species: str, url: str = None):
 
     try:
         #make folders if they don't yet exist
-        if not os.path.exists(RAWFOLDER+'/'+species):
-            os.makedirs(RAWFOLDER+'/'+species)
+        if not os.path.exists(ID_FOLDER+'/'+species):
+            os.makedirs(ID_FOLDER+'/'+species)
         # fetch the url and content
-        if os.path.isfile(RAWFOLDER+'/'+species+'/id.html'):
+        if os.path.isfile(BIRD_PAGE_FOLDER+'/'+species+'/id.html'):
             print(f'The page for {species} is already there!!!')
-            with open(RAWFOLDER+'/'+species+'/id.html', 'rb') as f:
+            with open(BIRD_PAGE_FOLDER+'/'+species+'/id.html', 'rb') as f:
                 soup = BeautifulSoup(f.read(), 'html.parser')
         else:
             page = requests.get(URL, headers=HEADERS)
             time.sleep(1)
-            with open(RAWFOLDER+'/'+species+'/id.html', 'wb+') as f:
+            with open(BIRD_PAGE_FOLDER+'/'+species+'/id.html', 'wb+') as f:
                 f.write(page.content)
             soup = BeautifulSoup(page.content, 'html.parser')
         
-        # -----Get a representative image for this species-----
+        # -----Get "Shape Media" image for this species-----
         photo_tags = soup.find('aside', {"aria-label":"Shape Media"}).find("img")
-        # get the photoids we already have scraped from - the links change
-        photoids = get_photoid_list(species)
-        image_urls = photo_tags.get('data-interchange') # string of list
+        shape_image_urls = photo_tags.get('data-interchange') # string of list
         # Converting string to list
-        image_urls = image_urls.replace('[',"")
-        image_urls = image_urls.replace(']',"").split(',')
-        image_urls = [url for url in image_urls if "http" in url]
-        image_urls = list(set(image_urls))
-        image_url = image_urls[1]
+        shape_image_urls = shape_image_urls.replace('[',"")
+        shape_image_urls = shape_image_urls.replace(']',"").split(',')
+        shape_image_urls = [url for url in shape_image_urls if "http" in url]
+        shape_image_urls = list(set(shape_image_urls))
+
+        # -----Get "Color Pattern Media" image for this species-----
+        photo_tags = soup.find('aside', {"aria-label":"Color Pattern Media"}).find("img")
+        color_image_urls = photo_tags.get('data-interchange') # string of list
+        # Converting string to list
+        color_image_urls = color_image_urls.replace('[',"")
+        color_image_urls = color_image_urls.replace(']',"").split(',')
+        color_image_urls = [url for url in color_image_urls if "http" in url]
+        color_image_urls = list(set(color_image_urls))
+
+        # -----Get "Behavior Media" image for this species-----
+        photo_tags = soup.find('aside', {"aria-label":"Behavior Media"}).find("iframe")
+        behavior_image_urls = photo_tags.get('src') # string of video
         
-        filename = f"common_{species}.jpg"
-        #check if we have encountered this photo before- will be substantially slower with large n
-        if filename.split('.')[0] not in photoids: 
-            path = RAWFOLDER+'/'+species+'/'+filename
-            get_and_store_image(image_url, path)
-            time.sleep(1)
+
+        # -----Get "Habitat Media" image for this species-----
+        photo_tags = soup.find('aside', {"aria-label":"Habitat Media"}).find("img")
+        habitat_image_urls = photo_tags.get('data-interchange') # string of list
+        # Converting string to list
+        habitat_image_urls = habitat_image_urls.replace('[',"")
+        habitat_image_urls = habitat_image_urls.replace(']',"").split(',')
+        habitat_image_urls = [url for url in habitat_image_urls if "http" in url]
+        habitat_image_urls = list(set(habitat_image_urls))
+
+        # -----Get "Regional Differences" image for this species-----
+        photo_tags = soup.find('aside', {"aria-labeledby":"regional-photos"})
+        if photo_tags:
+            photo_tags = photo_tags.find("img")
+            region_image_urls = photo_tags.get('data-interchange') # string of list
+            # Converting string to list
+            region_image_urls = region_image_urls.replace('[',"")
+            region_image_urls = region_image_urls.replace(']',"").split(',')
+            region_image_urls = [url for url in region_image_urls if "http" in url]
+            region_image_urls = list(set(region_image_urls))
+        else:
+            region_image_urls = None
 
         # -----Get the birds types (images, and text annotations)-----
         birdtype_tags=soup.find("section",{"aria-labelledby":"photos-heading"})
         birdtype_tags = birdtype_tags.find("div", {"class":"slider slick-3"})
         
+        bird_type_dict = {}
         children = birdtype_tags.findChildren("div" , recursive=False)
         for child1 in children:
             child2 = child1.findChildren("a", recursive=False)
@@ -233,16 +262,26 @@ def id_scraper(species: str, url: str = None):
                     description = child4.find('p').get_text()
                     description = " ".join(description.split()) # remove duplicate spaces and tabs, newlines
                     type_name = type_name.replace('/',' and ') # if any "/" in the string
-                #make folders if they don't yet exist
-                if not os.path.exists(RAWFOLDER+'/'+species+'/'+type_name):
-                    os.makedirs(RAWFOLDER+'/'+species+'/'+type_name)
-                with open(RAWFOLDER+'/'+species+'/'+type_name+"/description.txt", 'a') as f:
-                    f.write(description)
-                for link in img_links:
-                    filename = link.split('/')[6]
-                    path = RAWFOLDER+'/'+species+'/'+type_name+'/'+filename
-                    get_and_store_image(link, path)
-                    time.sleep(1)
+                # # make folders if they don't yet exist
+                # if not os.path.exists(RAWFOLDER+'/'+species+'/'+type_name):
+                #     os.makedirs(RAWFOLDER+'/'+species+'/'+type_name)
+                # with open(RAWFOLDER+'/'+species+'/'+type_name+"/description.txt", 'a') as f:
+                #     f.write(description)
+                if not type_name in bird_type_dict:
+                    bird_type_dict[type_name] = {"link": [img_links], "description": [description]}
+                else:
+                    bird_type_dict[type_name]["link"].append(img_links)
+                    bird_type_dict[type_name]["description"].append(description)
+                # for link in img_links:
+                #     filename = link.split('/')[6]
+                #     path = RAWFOLDER+'/'+species+'/'+type_name+'/'+filename
+                    # get_and_store_image(link, path)
+                    # time.sleep(1)
+        
+        # save the descriptions
+        json_object = json.dumps(bird_type_dict, indent=4)
+        with open(f"{ID_FOLDER}/{species}/bird_type_dict.json", 'w') as f:
+            f.write(json_object)
 
         # -----Get the text size & shape-----
         text_tags=soup.find('article', {"aria-label":"Size & Shape"})
@@ -262,22 +301,30 @@ def id_scraper(species: str, url: str = None):
         habitat_tag = text_tags.find("p")
         # -----Get the regional differences-----
         text_tags=soup.find('article', {"aria-label":"Regional Differences"})
+
+        metadata = {"Size": {'link': shape_image_urls, 'description':[size_tag_1, size_tag_2, size_tag_3, size_tag_4]}, \
+                        "Color": {'link': color_image_urls, 'description':color_tag}, \
+                        "Behavior": {'link':behavior_image_urls, 'description':behavior_tag}, \
+                        "Habitat": {'link': habitat_image_urls, 'description':habitat_tag}}
+        
         if text_tags:
             regional_tag = text_tags.find("p")
-            metadata = {"Size": {'link': 'abc', 'description':[size_tag_1, size_tag_2, size_tag_3, size_tag_4]}, \
-                        "Color": {'link': 'abc', 'description':color_tag}, \
-                        "Behavior": {'link':'abc', 'description':behavior_tag}, \
-                        "Habitat": {'link': 'abc', 'description':habitat_tag}, \
-                        "Regional_Difference": {'link':'abc', 'description':regional_tag}}
             
+            if region_image_urls:
+                metadata['Regional_Difference'] = {'link':region_image_urls, 'description':regional_tag}
+            else:
+                metadata['Regional_Difference'] = {'description':regional_tag}
         else: # in case there is no regional tag
-            metadata = {"Size": [size_tag_1, size_tag_2, size_tag_3, size_tag_4], \
-                        "Color": color_tag, "Behavior": behavior_tag, \
-                        "Habitat": habitat_tag}
+            metadata = metadata
+        
         #store metadata to flat file
         store_meta(species, metadata)
     except Exception as e:
+        print('huh')
         print(str(e))      
+
+# %%
+id_scraper('Rock_Pigeon')
 
 # %%
 def species_compare_scraper(species: str, url: str = None):
@@ -290,20 +337,20 @@ def species_compare_scraper(species: str, url: str = None):
 
     try:
         #make folders if they don't yet exist
-        if not os.path.exists(RAWFOLDER+'/'+species):
-            os.makedirs(RAWFOLDER+'/'+species)
+        if not os.path.exists(SPECIES_COMPARE_FOLDER+'/'+species):
+            os.makedirs(SPECIES_COMPARE_FOLDER+'/'+species)
         #make folders if they don't yet exist
-        if not os.path.exists(RAWFOLDER+'/'+species+'/species_compare/'):
-            os.makedirs(RAWFOLDER+'/'+species+'/species_compare/')
+        if not os.path.exists(BIRD_PAGE_FOLDER+'/'+species+'/species_compare/'):
+            os.makedirs(BIRD_PAGE_FOLDER+'/'+species+'/species_compare/')
         # fetch the url and content
-        if os.path.isfile(RAWFOLDER+'/'+species+'/species-compare.html'):
+        if os.path.isfile(BIRD_PAGE_FOLDER+'/'+species+'/species-compare.html'):
             print(f'The page for {species} is already there!!!')
-            with open(RAWFOLDER+'/'+species+'/species-compare.html', 'rb') as f:
+            with open(BIRD_PAGE_FOLDER+'/'+species+'/species-compare.html', 'rb') as f:
                 soup = BeautifulSoup(f.read(), 'html.parser')
         else:
             page = requests.get(URL, headers=HEADERS)
             time.sleep(1)
-            with open(RAWFOLDER+'/'+species+'/species-compare.html', 'wb+') as f:
+            with open(BIRD_PAGE_FOLDER+'/'+species+'/species-compare.html', 'wb+') as f:
                 f.write(page.content)
             soup = BeautifulSoup(page.content, 'html.parser')
 
@@ -328,34 +375,33 @@ def species_compare_scraper(species: str, url: str = None):
                 bird_type = child2.find('h5').get_text()
                 bird_desc = child2.find('p').get_text()
                 bird_desc = " ".join(bird_desc.split()) # remove duplicate spaces and tabs, newlines
-                
+
                 if bird_name not in similarbird_dict:
                     similarbird_dict[bird_name] = {}
-                similarbird_dict[bird_name][bird_type] = bird_desc
+                similarbird_dict[bird_name][bird_type] = {'link':img_links, 'description':bird_desc}
 
                 # save images
                 #make folders if they don't yet exist
-                if not os.path.exists(RAWFOLDER+'/'+species+'/species_compare/'+bird_name):
-                    os.makedirs(RAWFOLDER+'/'+species+'/species_compare/'+bird_name)
-                for link in img_links:
-                    filename = link.split('/')[6]
-                    path = RAWFOLDER+'/'+species+'/species_compare'+'/'+bird_name+"/"+filename
-                    get_and_store_image(link, path)
-                    time.sleep(1)
+                # if not os.path.exists(f"{SPECIES_COMPARE_FOLDER}/{species}/{bird_name}"):
+                #     os.makedirs(f"{SPECIES_COMPARE_FOLDER}/{species}/{bird_name}")
+                # for link in img_links:
+                #     filename = link.split('/')[6]
+                #     path = f"{SPECIES_COMPARE_FOLDER}/{species}/{bird_name}/{filename}"
+                #     get_and_store_image(link, path)
+                #     time.sleep(1)
             
         # save the descriptions
         json_object = json.dumps(similarbird_dict, indent=4)
-        with open(RAWFOLDER+'/'+species+'/species_compare'+"/similarbird_dict.json", 'w') as f:
+        with open(f"{SPECIES_COMPARE_FOLDER}/{species}/similarbird_dict.json", 'w') as f:
             f.write(json_object)
         
             
 
     except Exception as e:
         print(str(e))   
-# %%
-id_scraper('Rock_Pigeon')
 
-
+#%%
+species_compare_scraper('Rock_Pigeon')
 # %%
 # species = ['Botteris_Sparrow', 'Rosss_Goose', 'Rock_Pigeon', 'Scaled_Quail']
 # print(f'There are {len(species)} birds on the scraping list.')
