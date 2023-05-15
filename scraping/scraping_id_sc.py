@@ -20,7 +20,7 @@ HEADERS = {'accept': '"text/html', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel 
 
 #%%
 #settings for folders
-BIRD_PAGE_FOLDER = 'allaboutbirds_pages_2/'
+BIRD_PAGE_FOLDER = 'allaboutbirds_pages/'
 ID_FOLDER = 'allaboutbirds_ids/'
 SPECIES_COMPARE_FOLDER = 'allaboutbirds_species_compares/'
 #make folders if they don't yet exist
