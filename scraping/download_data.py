@@ -163,6 +163,8 @@ def download_similar_bird_images(similar_bird_path, similar_bird_data_folder):
             if 'video' in link: # for now, not download video
                 continue
             
+            if '/' in bird_type:
+                bird_type = bird_type.replace("/", " and ")
             filename = f"{similar_bird_name}_{bird_type}.jpg"
             if filename in photo_list:
                 continue
@@ -187,3 +189,16 @@ for bird_name in bird_names:
 
     # ---------------
     download_similar_bird_images(sc_path, similar_bird_data_folder)
+# %%
+# ---- CHECK IF ANY BIRDS DONT HAVE THE SIMILAR BIRDS------- #
+bird_names = os.listdir(SAVE_SC_DATA_FOLDER)
+
+num = 0
+for bird_name in bird_names:
+    bird_path = os.path.join(SAVE_SC_DATA_FOLDER, bird_name)
+    if len(os.listdir(bird_path)) == 0:
+        print(bird_name)
+        num+=1
+print("Number of birds that dont have similar ones: ", num)
+
+# %%
