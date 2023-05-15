@@ -1,0 +1,22 @@
+{
+    "Barn Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63737991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737991-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63737991-720px.jpg"
+            ],
+            "description": "Barn Owls are smaller and more slender than Snowy Owls with buffy and brown tones not seen on Snowy Owls."
+        }
+    },
+    "Gyrfalcon": {
+        "Adult gray morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40537771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40537771-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40537771-720px.jpg"
+            ],
+            "description": "Gyrfalcons are falcons with a more slender profile and much smaller head than an owl. The wings are narrower and more pointed, and the tail is longer."
+        }
+    }
+}

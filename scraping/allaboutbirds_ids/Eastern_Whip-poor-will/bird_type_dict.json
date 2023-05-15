@@ -1,0 +1,62 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303989741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303989741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303989741-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303989921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303989921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303989921-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303989921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303989921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303989921-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303990031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303990031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303990031-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303991421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303991421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303991421-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Round-headed nightjar with a stout chest. Patterned with a complicated mottling of gray and brown, which provides good camouflage. Note gray line of feathers on the back.",
+            "",
+            "Active during the night; typically sleeps during the day, when its camouflaged plumage can make it very hard to spot.",
+            "Round-headed nightjar with line of gray feathers on the back. Females have small buffy tail corners and males have large white tail corners, visible in flight.",
+            ""
+        ]
+    },
+    "Male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303991421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303991421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303991421-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Calls at night, a nearly endless chanting \"whip-poor-will.\" Males have large white flashes in the tail."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303991431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303991431-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303991431-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "Common": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302319981-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302319981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302319981-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302320051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320051-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/37119161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37119161-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37119161-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302320151-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302320151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320151-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302320271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320271-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302320271-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302320261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320261-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302320321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302320321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320321-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Somewhat stocky songbird with a thick, hooked bill. Adults in fresh plumage are bright yellow below with a yellow throat. The dark gray crown contrasts with the white eyebrow, though this can be indistinct on some birds.",
+            "Small and stocky songbird. Rather plain and unmarked overall with a yellowish belly, gray crown, and grayish brown back. Note unmarked wings. Some individuals are brighter than others.",
+            "Small songbird. Pale yellow below with a gray crown and white eyebrow. Easily confused with Warbling and Red-eyed Vireos.",
+            "Often perches horizontally. Upperparts are brownish gray with unmarked wings. Underparts are washed in pale yellow; some individuals are brighter. Note white eyebrow and dark eye.",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302320051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320051-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302320151-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302320151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320151-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302320261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320261-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302320321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302320321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302320321-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Song is a steady series of roughly 3-note phrases that end on an upswing or downswing, as if the bird is asking and answering a question, over and over. It is similar to the songs of several other vireo species, including Red-eyed and Blue-headed.",
+            "Hops between small twigs in trees and shrubs. This video has no audio.",
+            "Jumps up to pick insects off leaves or grabs insects while perched. This video has no audio.",
+            "Note the yellow underparts and plainer face; two features that help separate it from the similar looking Red-eyed Vireo. This video has no audio."
+        ]
+    }
+}

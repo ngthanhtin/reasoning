@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67283021-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67283021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67283021-720px.jpg"
+        ],
+        "description": [
+            "A stocky, medium-sized songbird with short, notched tail and an unusual, twisted bill that crosses when closed.",
+            "",
+            "Larger than a warbler, smaller than a Red-winged Blackbird, but there\u2019s much size variation: the smallest types are barely larger than a Black-capped Chickadee, while the largest are larger than a Brown-headed Cowbird.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67282981-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67282981-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67282981-480px.jpg"
+        ],
+        "description": [
+            "Adult males are brick red overall, with darker wings and tail. Females are mostly yellowish below, brownish or olive brown above. Immatures are brownish above, pale with brownish streaking below.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670293",
+        "description": [
+            "Red Crossbills eat conifer seeds and forage in flocks, which often fly in unison from tree to tree. Crossbills sometimes gather grit on the ground in the morning. Adult males perch on top of conifers to sing and watch for predators. Red Crossbills sometimes attend feeders that offer sunflower seed, especially in the West.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67282991-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67282991-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67282991-480px.jpg"
+        ],
+        "description": [
+            "Chiefly mature coniferous forests in mountains and the boreal forest, but during \u201cirruptions,\u201d single birds and flocks may appear in forests, towns, and backyards far to the south and east of their typical range.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists have discovered that different crossbill populations, some of them previously defined as subspecies, have distinctly different flight calls and bill shapes that are adapted for different types of cones. They now term these different groups \u201ctypes,\u201d rather than subspecies. In some cases, these types behave like full species\u2014that is, only breeding with others of their type. Scientists call this assortative mating. In 2015, the \u201ctype 9\u201d Red Crossbill, known only from Idaho, was elevated to the status of full species, Cassia Crossbill. Studies are now focused on the degrees of difference between the other 10 North American (and more than a dozen Eurasian) types of Red Crossbill. It is possible that more types will become recognized as full species. Currently, field identification of a Red Crossbill type requires a recording of its flight call.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308512681-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512681-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308512681-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695731-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695691-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308512741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512741-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70695721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695721-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large maroon wading bird with a long curved bill. Breeding adults have reddish legs and a bare patch of pink skin in front of the eye, which is bordered in white. In good light, note the metallic green and bronze wings.",
+            "Feeds in shallow marshes, wet ditches, and flooded or irrigated cropfields, often in large flocks.",
+            "Flies with its neck outstretched and head slightly drooping.",
+            "",
+            "Pairs often preen each other during courtship, a behavior known as allopreening."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695731-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308512701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512701-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308512531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512531-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding/immature birds look like adults but lack the bare skin patch and the white border around the eye. Note red eye.",
+            "Often appears all dark, but note rich chestnut body and metallic bronze-and-green wings and tail.",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308512411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512411-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308512571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308512571-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are paler brown overall with a paler cheek and patches of white feathers on the neck.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695711-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695711-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695771-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often perches in low trees and shrubs at the edge of wetlands.",
+            "Found in fresh and saltwater marshes, wetlands, and flooded fields."
+        ]
+    }
+}

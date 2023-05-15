@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64980861-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64980861-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64980861-480px.jpg"
+        ],
+        "description": [
+            "Vesper Sparrows are fairly large sparrows with a chunky body, a fairly small conical bill, and a long, notched tail.",
+            "",
+            "Larger than a Savannah Sparrow, smaller than a Western Meadowlark.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.1-6.3 in (13-16 cm)",
+            "Weight: 0.7-1.0 oz (20-28 g)",
+            "Wingspan: 9.4 in (24 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64980841-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64980841-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64980841-480px.jpg"
+        ],
+        "description": [
+            "Brown overall with crisp streaks. The most notable features include a thin white eyering, white outer tail feathers (seen in flight), and a pale cheek patch. Vesper Sparrows also have a distinctive, but difficult to see, chestnut patch on the shoulder.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667210",
+        "description": [
+            "Spends most of its time on the ground, running or hopping through grass, but isn't as reclusive as some sparrows. Males sing from elevated perches. Found in mixed-sparrow flocks with Savannah Sparrows, Grasshopper Sparrows, Brewer's Sparrows, and Lark Buntings outside of the breeding season.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64980871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64980871-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64980871-480px.jpg"
+        ],
+        "description": [
+            "Found in open grassy areas including prairie, weedy fields, sagebrush steppe, meadows, pastures, and roadsides. Tends to avoid areas with taller grass and wetter areas.",
+            ""
+        ]
+    }
+}

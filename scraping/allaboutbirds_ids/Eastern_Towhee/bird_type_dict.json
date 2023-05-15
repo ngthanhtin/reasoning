@@ -1,0 +1,122 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/311637941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311637941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311637941-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299685481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685481-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299685431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299685431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685431-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/250887241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/250887241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/250887241-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64991971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64991971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64991971-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299685461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64992001-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64992001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992001-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with thick bill and long tail. Male has black throat, head, and upperparts. Sides are rufous; belly is white. Tail corners are white and especially visible in flight.",
+            "",
+            "",
+            "",
+            "Note white flashes in tail corners and white check mark in folded wing. In most of range, eye is dark or reddish.",
+            "",
+            "Occurs in dense shrubby habitats and forest edges. Usually forages on the ground by scratching in thick leaf litter."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299685481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685481-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64991951-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64991951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64991951-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females have brown head, throat, and back; white belly; rufous sides. In most of range, eye is dark.",
+            "Large, long-tailed sparrow typically found on the ground. Females have brown head, throat, and back; white belly; rufous sides."
+        ]
+    },
+    "Adult male (White-eyed)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299685321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685321-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Individuals in Florida and parts of Alabama through North Carolina have pale eyes instead of dark or reddish eyes."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299685431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299685431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685431-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299685501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299685501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with long tail. Juveniles are brownish and heavily streaked from hatching into their first fall.",
+            ""
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/250887241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/250887241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/250887241-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299685501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299685501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299685501-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70707541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70707541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70707541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305336671-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305336671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305336671-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305336671-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305336671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305336671-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305338781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305338781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305338781-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305338241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305338241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305338241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70707601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70707601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70707601-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70707511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70707511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70707511-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small hawk with narrow, pointed wings and long tail. Adults in flight are white below with black primaries and a dark spot on the \"wrists.\"",
+            "Small hawk that is pale gray above with black shoulders and a white head.",
+            "Characteristic hunting behavior involves turning into wind and flapping in order to hover in place while scanning the ground.",
+            "",
+            "Note dark patch on shoulder, dark eyes, and white underparts.",
+            "Perches on exposed branches with a good view of the surroundings. Note white underparts and head.",
+            "During the nonbreeding season often roosts with other White-tailed Kites."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305338241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305338241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305338241-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305338531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305338531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305338531-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70707521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70707521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70707521-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a cinnamon wash on the breast and crown. Like adults they have a white face and dark shoulders.",
+            "Hovers or \"kites\" above the ground watching for prey. Once located it dives straight down, grabbing prey (usually small mammals) with its talons.",
+            "Juveniles have a mottled brown back and a cinnamon wash on the breast and crown. Note dark shoulder and white face."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70707581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70707581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70707581-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in savanna, open woodlands, marshes, desert grasslands, partially cleared lands, and cultivated fields."
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40263701-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40263701-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40263701-480px.jpg"
+        ],
+        "description": [
+            "A small, squat sparrow with a large, flat head, a large bill, and a short, spiky tail.",
+            "",
+            "Larger than a Prairie Warbler, smaller than a Song Sparrow.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.3-5.1 in (11-13 cm)",
+            "Weight: 0.4-0.5 oz (11-15 g)",
+            "Wingspan: 6.3-7.9 in (16-20 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70639211-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70639211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70639211-720px.jpg"
+        ],
+        "description": [
+            "Henslow\u2019s Sparrows are tan and buff marked with sharp black streaks. They have a distinctly greenish-olive wash on the cheek, with a yellow spot between eye and bill. The breast has neat black streaks and the belly is whitish.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238650514",
+        "description": [
+            "Henslow\u2019s Sparrows are extremely secretive, spending much of their time foraging at the bases of grass stalks in dense weedy fields. They prefer to run or walk rather than fly, and when flushed their escape flights are short and erratic.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": "https://player.vimeo.com/video/238650513",
+        "description": [
+            "Henslow\u2019s Sparrows can be found in weedy hayfields or pastures, wet meadows and, in winter, saltmarshes.",
+            ""
+        ]
+    }
+}

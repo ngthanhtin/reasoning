@@ -1,0 +1,32 @@
+{
+    "Black Swift": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40635621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40635621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40635621-1280px.jpg"
+            ],
+            "description": "Black Swifts are much larger than Vaux's Swifts with darker underparts and a slower flight style."
+        }
+    },
+    "Chimney Swift": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113891-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113891-720px.jpg"
+            ],
+            "description": "Chimney Swifts look very similar but their ranges do not overlap; Chimney in the East and Vaux's in the West."
+        }
+    },
+    "Northern Rough-winged Swallow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280781-720px.jpg"
+            ],
+            "description": "Swallows have shorter, less curved and more triangular-shaped wings than swifts. They also have deeper wingbeats that the fluttery flight style of swifts. Northern Rough-winged Swallows, in particular have paler underparts than Chimney Swifts."
+        }
+    }
+}

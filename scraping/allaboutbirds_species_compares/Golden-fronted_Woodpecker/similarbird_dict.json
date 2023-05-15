@@ -1,0 +1,40 @@
+{
+    "Gila Woodpecker": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64993561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993561-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64993561-720px.jpg"
+            ],
+            "description": "Gila Woodpeckers have a tan nape while Golden-fronted have a yellow-orange nape. In flight the rump patch is barred on Gila, but white on Golden-fronted."
+        }
+    },
+    "Gilded Flicker": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40255701-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40255701-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40255701-720px.jpg"
+            ],
+            "description": "Female Gilded Flickers have browner backs and a tan (not yellow-orange) crown and nape."
+        },
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40255671-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40255671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40255671-1280px.jpg"
+            ],
+            "description": "Gilded Flickers have a spotted belly and black chest patch that Golden-fronted Woodpeckers lack. In flight, underwings flash yellow, which is not seen on Golden-fronted."
+        }
+    },
+    "Northern Flicker": {
+        "Male (Red-shafted)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60403251-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60403251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60403251-720px.jpg"
+            ],
+            "description": "Northern Flickers have a spotted belly and black chest patch that Golden-fronted Woodpeckers lack. In flight, underwings flash red, which is not seen on Golden-fronted."
+        }
+    }
+}

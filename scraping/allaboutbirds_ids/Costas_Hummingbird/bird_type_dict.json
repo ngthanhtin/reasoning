@@ -1,0 +1,74 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68930221-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68930221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68930221-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303895381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895381-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303895751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303895751-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303895241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303895241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303896181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303896181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303896181-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small and compact hummingbird with a hunched posture and a short tail. The male's iridescent purple gorget (throat patch) flares out along the sides of the neck like an overgrown mustache.",
+            "Gorget color is dark purple, and feathers extend off the sides of the throat. Fairly short wings; wingtips barely extend past the tail.",
+            "Males repeatedly perch at 3\u20134 favorite spots within their territory, usually a dead twig in a palo verde, acacia, or ironwood, and sing a thin high-pitched whistle to proclaim ownership and keep intruders out.",
+            "",
+            "Found in desert scrub in the Sonoran and Mojave Deserts, and chaparral and sage scrub areas in coastal California where they drink nectar from many desert plants, especially chuparosa and ocotillo."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303895381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895381-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303895331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895331-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68930241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68930241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68930241-720px.jpg"
+            ]
+        ],
+        "description": [
+            "When perched the wings barely extend beyond the tail on this tiny, compact hummingbird. Females are greenish above with a white eyebrow stripe, a grayish cheek patch, and whitish underparts.",
+            "",
+            "A compact hummingbird. When perched, its wings barely extend beyond the tail. Females are greenish above with a white eyebrow stripe and a grayish cheek patch."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303895201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303895201-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature males have variable amounts of adult gorget feathers coming in on the neck. Note whitish underparts and green washing on the sides."
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Least Grebe": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695531-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695531-720px.jpg"
+            ],
+            "description": "Least Grebes are smaller with thinner bills than Pied-billed Grebes, which have a thick and stubby bill. Least Grebes have yellow eyes while Pied-billed Grebes have a dark eye."
+        }
+    },
+    "Horned Grebe": {
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65055711-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65055711-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65055711-720px.jpg"
+            ],
+            "description": "Horned Grebes have a thinner bill than Pied-billed Grebes. Nonbreeding Horned Grebes have white on the chest and face whereas Pied-billed Grebes are brownish overall without white patches."
+        }
+    },
+    "Eared Grebe": {
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65058071-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65058071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65058071-720px.jpg"
+            ],
+            "description": "Nonbreeding Eared Grebes have a white patch on the back of the head and a whitish neck whereas Pied-billed Grebes are brownish overall and lack white patches. Note bill size differences; thin on Eared and stubby on Pied-billed."
+        }
+    },
+    "Green-winged Teal": {
+        "Female/nonbreeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893411-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893411-720px.jpg"
+            ],
+            "description": "Green-winged Teals have flatter, longer bills and bigger heads than Pied-billed Grebes."
+        }
+    }
+}

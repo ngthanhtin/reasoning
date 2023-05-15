@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/32805391-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32805391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32805391-720px.jpg"
+        ],
+        "description": [
+            "A compact, small flycatcher with a big-eyed look and a big head that sometimes shows a peak at the rear. It has a short tail and a small but wide bill.",
+            "",
+            "Larger than a Ruby-crowned Kinglet, smaller than an Eastern Phoebe.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.1-5.9 in (13-15 cm)",
+            "Weight: 0.3-0.6 oz (9-16 g)",
+            "Wingspan: 7.1-7.9 in (18-20 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71378491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71378491-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71378491-480px.jpg"
+        ],
+        "description": [
+            "Yellowish olive overall with a strong white eyering and two whitish wingbars. It has yellowish underparts all the way from its chin to its lower belly.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651185",
+        "description": [
+            "Perches in the lower and middle levels of dense forests, from which it quickly flies out to grab insects in midair or from the vegetation. When perched it nervously turns its head and sometimes gently flicks its tail.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/39409081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39409081-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39409081-480px.jpg"
+        ],
+        "description": [
+            "Found in boreal coniferous forests, bogs, swamps, and peatlands during the breeding season and in dense rainforest, montane evergreen forest, pine-oak forest, and shaded coffee plantations during the winter.",
+            ""
+        ]
+    }
+}

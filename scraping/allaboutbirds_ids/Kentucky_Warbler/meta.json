@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/36734821-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36734821-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/36734821-480px.jpg"
+        ],
+        "description": [
+            "A sturdy songbird with a heavier bill, longer legs, and shorter tail than many other warbler species.",
+            "Larger than a Northern Parula, smaller than a Song Sparrow.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.1 in (13 cm)",
+            "Weight: 0.5-0.5 oz (13-14 g)",
+            "Wingspan: 7.9-8.7 in (20-22 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/36735021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36735021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36735021-720px.jpg"
+        ],
+        "description": [
+            "Males are olive above and yellow below, with a blackish crown and face broken by a yellow eyebrow that wraps around behind the eye. Females and immatures are similar, but the head pattern is less striking."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667867",
+        "description": [
+            "Kentucky Warblers forage mostly on the forest floor, hopping through leaf litter, flipping it with feet and bill, and probing to find hidden invertebrates. They also forage in the forest understory, picking at or flying out for small prey. Wintering birds frequently follow ant swarms, watching from a perch until an invertebrate is flushed by the ants."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/36734831-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/36734831-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36734831-720px.jpg"
+        ],
+        "description": [
+            "Bottomland hardwood forest with lush understory, often near streams or canopy gaps in breeding season. In winter, they use tropical lowland woodland and second growth."
+        ]
+    }
+}

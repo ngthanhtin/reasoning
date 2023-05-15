@@ -1,0 +1,50 @@
+{
+    "American Tree Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64971291-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64971291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64971291-1280px.jpg"
+            ],
+            "description": "American Tree Sparrows have a black-and-yellow bill, instead of a pink bill and don't have as strong of a white eyering like Field Sparrows. They only occur in United States during the winter months."
+        }
+    },
+    "Chipping Sparrow": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg"
+            ],
+            "description": "The head pattern on Chipping Sparrows is more striking than Field Sparrow\u2019s, with a long whitish stripe above the eye and a crisp black line through the eye."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg"
+            ],
+            "description": "Nonbreeding Chipping Sparrow's head pattern is more striking than Field Sparrow\u2019s, with a long buffy stripe above the eye and a brown line through the eye without the eyering seen on Field Sparrows."
+        }
+    },
+    "Swamp Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64985161-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985161-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64985161-720px.jpg"
+            ],
+            "description": "Swamp Sparrows lack the Field Sparrow\u2019s white eyering and pink bill. Swamp Sparrows have obvious reddish-brown highlights in the wings and the underparts are a colder, grayer tone than Field Sparrows."
+        }
+    },
+    "White-crowned Sparrow": {
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978021-1280px.jpg"
+            ],
+            "description": "Immature White-crowned Sparrows are larger than Field Sparrows with mostly gray underparts and more obvious white wingbars. They have a dark eyeline and lack the Field Sparrow's white eyering."
+        }
+    }
+}

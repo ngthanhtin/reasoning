@@ -1,0 +1,45 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71332481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71332481-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71332481-480px.jpg"
+        ],
+        "description": [
+            "This is the largest species of gull in the world. They are stout-bodied, with broad wings, a thick neck, and a heavy, slightly bulbous bill.",
+            "Larger than a Herring Gull, but smaller than a Brown Pelican.",
+            "",
+            "between crow and goose",
+            "Sex: Both Sexes",
+            "Length: 27.9-31.1 in (71-79 cm)",
+            "Weight: 45.9-70.5 oz (1300-2000 g)",
+            "Wingspan: 57.5-63.0 in (146-160 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71332441-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71332441-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71332441-480px.jpg"
+        ],
+        "description": [
+            "Adults are white with slaty-black upperwings and backs. They have dull pink legs, a yellow bill with a red spot near the tip, and darkish eyes. Juveniles are checkered gray-brown and white above; they have white-based, black-tipped tails, black bills, and blackish flight feathers. Over about 4 years, these crisp, cold-toned gulls transition to dark backed adults."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238650735",
+        "description": [
+            "Great Black-backed Gulls are supreme opportunists. They follow fishing boats to pick up scraps of bait and discards, take garbage from trash cans and landfills, patrol beaches looking for morsels that wash up from the sea, harry other seabirds to steal their catches, and ruthlessly prey on smaller birds, eggs, and chicks. They feed with other species of gulls such as Herring Gulls, and roost communally at night."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71332451-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71332451-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71332451-480px.jpg"
+        ],
+        "description": [
+            "Great Black-backed Gulls live along the Atlantic Coast and inland on the Great Lakes. They choose isolated, predator-free sites such as piers or islands for breeding, and then disperse away from the colony for the rest of the year to feed at sea, along coasts, and at landfills."
+        ]
+    }
+}

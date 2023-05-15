@@ -1,0 +1,74 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296754331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754331-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40644411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40644411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40644411-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40644411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40644411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40644411-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296754231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754231-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296754481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754481-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296754481-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/162796381-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/162796381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/162796381-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296754581-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296754581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754581-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296754581-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296754581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754581-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40644401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40644401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40644401-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small rather drab warbler with black-and-buffy head stripes on its flat head.",
+            "Small rather drab warbler with black-and-buffy head stripes on its flat head.",
+            "",
+            "Brownish warbler with black-and-buffy head stripes. Its tail is shorter than most warblers and is square tipped.",
+            "Small warbler with a flat, black-and-buffy striped head. Brownish olive overall with pale legs.",
+            "Spends much of its time in the low understory. The bill is pale and long.",
+            "Breeds in thickly vegetated steep slopes. From a distance note the flat head and long bill.",
+            "",
+            "Breeds in deciduous and mixed forests with a dense understory and steep hillsides."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296754481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296754481-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296754481-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

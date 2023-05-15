@@ -1,0 +1,20 @@
+{
+    "Cedar Waxwing": {
+        "Adult ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874521-1280px.jpg"
+            ],
+            "description": "Cedar Waxwings have white (not reddish) under tail feathers and a brownish and yellow (not gray) belly. They also lack the white wing stripe on Bohemian Waxwings."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59874461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59874461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874461-1280px.jpg"
+            ],
+            "description": "Juvenile Cedar Waxwings have white (not reddish) under tail feathers."
+        }
+    }
+}

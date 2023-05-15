@@ -1,0 +1,92 @@
+{
+    "Adult (Hudsonian)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301232671-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301232671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301232671-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64810241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64810241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64810231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64810231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810231-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301233021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301233021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301233021-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large shorebird with a long body, long neck, and small head. Most distinctive features are the long curved bill and striped head.",
+            "Large-bodied shorebird with a long, curved bill. In flight note brownish color overall.",
+            "Heavy-bodied shorebird with a striped crown and pale eyebrow.",
+            "In migration, frequents various coastal and inland habitats, including fields and beaches. Winters in tidal flats and shorelines, occasionally visiting inland habitats."
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64810241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64810241-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Probes into soft surfaces for invertebrates and small crabs, which it swallows whole."
+        ]
+    },
+    "Adult (European)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64810281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810281-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64810291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810291-720px.jpg"
+            ]
+        ],
+        "description": [
+            "European subspecies have a white rump patch that is visible in flight.",
+            "European subspecies have a whiter base color on the underparts than the Hudsonian subspecies, which is more buff colored below."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64810261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64810261-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301233331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301233331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301233331-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large shorebird with a long body and small head. Most distinctive features are the long curved bill and striped head.",
+            "Widespread shorebird. Breeds in the Arctic in the eastern and western hemispheres, and migrates to South America, Africa, south Asia, and Australia."
+        ]
+    },
+    "Adult (Hudsonian) (with Long-billed Curlew)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64810271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810271-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64810271-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Smaller than a Long-billed Curlew with a shorter bill. Note striped crown and pale eyebrow."
+        ]
+    }
+}

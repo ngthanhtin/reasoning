@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64810291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64810291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64810291-720px.jpg"
+        ],
+        "description": [
+            "A robust, large shorebird with a very long, curved bill and relatively long neck and legs. The wings are long and pointed; the tail is short.",
+            "",
+            "Larger than a Willet, smaller than a Long-billed Curlew.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 16.9-18.1 in (43-46 cm)",
+            "Weight: 10.9-14.3 oz (310-404 g)",
+            "Wingspan: 31.5-32.7 in (80-83 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64810251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64810251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64810251-720px.jpg"
+        ],
+        "description": [
+            "Mostly brownish above, with pale feather edges, tan below, with neat dark stippling. The crown is dark brown with a pale central stripe, and most show a narrow dark eyeline.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239742004",
+        "description": [
+            "Whimbrels probe with their long bills into mudflats or wet sand for invertebrates such as crabs, walking slowly through areas where water is very shallow. Flocks moving in migration, or between roosting and feeding areas, vocalize often. Males sing and display on and above nesting territories in the arctic, often calling loudly when they spot predators or intruders.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64810211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64810211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64810211-720px.jpg"
+        ],
+        "description": [
+            "Arctic tundra during the nesting season; saltmarshes, mudflats, beaches, small islands during migration and winter. They are sometimes found inland after being grounded by storms, taking refuge in farm fields, airports, lakeshores, or other open environments.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Only one subspecies occurs in North America (hudsonicus); another three occur in Eurasia. The four subspecies differ mostly in the pattern of tail, rump, and back. Subspecies hudsonicus is uniformly brown in this area, whereas the three other subspecies have varying amounts of white. The nominate subspecies, phaeopus, which nests from Iceland to central Siberia, has a white rump and back. The very rare subspecies alboaxillaris, which nests in the steppe of southern Russia, is similar but larger and has white underwings. In northeastern Russia, the subspecies variegatus has a brown back and barred white rump. Both phaeopus and variegatus are recorded rarely but almost annually in the United States.",
+            ""
+        ]
+    }
+}

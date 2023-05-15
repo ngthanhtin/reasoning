@@ -1,0 +1,168 @@
+{
+    "Western Gull": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71316891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316891-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316891-720px.jpg"
+            ],
+            "description": "Breeding adult Western Gulls are a darker shade of gray than Herring Gulls. Their bill is also more bulbous than the bill on Herring Gulls."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316871-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316871-1280px.jpg"
+            ],
+            "description": "Nonbreeding adult Western Gulls have very little tan streaking on their neck unlike the heavily streaked nonbreeding adult Herring Gull."
+        },
+        "Second winter": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316841-720px.jpg"
+            ],
+            "description": "Second winter Western Gulls have darker gray feathers coming in on their back than second winter Herring Gulls. They also have a heavier and bulbous-shaped bill."
+        },
+        "First winter": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316831-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316831-720px.jpg"
+            ],
+            "description": "Bill size and shape may be the best way to separate first winter Western Gulls from younger Herring Gulls. The bill on Western is heavier with a bulbous shape, unlike the rather slim and straight bill on Herring Gulls."
+        }
+    },
+    "Ring-billed Gull": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316071-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316071-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316071-720px.jpg"
+            ],
+            "description": "Ring-billed Gulls are smaller and more daintily built than Herring Gulls. Breeding birds have yellow legs and a black line around the bill, whereas breeding Herring Gulls have pink legs and a red mark on the lower bill."
+        },
+        "Second winter": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316051-720px.jpg"
+            ],
+            "description": "Size can help separate Ring-billed Gulls from Herring Gulls at all ages. Ring-billed Gulls are smaller with a daintier body than Herring Gulls."
+        },
+        "First winter": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71315971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71315971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71315971-1280px.jpg"
+            ],
+            "description": "First winter Ring-billed Gulls in general have less streaking on the underparts than first or second winter Herring Gulls."
+        }
+    },
+    "California Gull": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71318281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71318281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318281-1280px.jpg"
+            ],
+            "description": "Breeding adult California Gulls have a dark eye unlike breeding Herring Gulls, which have a pale yellow eye. California Gulls also yellow legs not pink like Herring Gulls."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71318261-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71318261-720px.jpg"
+            ],
+            "description": "Nonbreeding adult California Gulls have dark eyes and yellow legs, whereas nonbreeding Herring Gulls have pale eyes and pink legs."
+        },
+        "First winter": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71318241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71318241-720px.jpg"
+            ],
+            "description": "First winter California Gulls can be separated from first winter Herring Gulls by their smaller size and wings that stick our farther past the end of the tail."
+        }
+    },
+    "Glaucous-winged Gull": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71320931-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71320931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71320931-1280px.jpg"
+            ],
+            "description": "Breeding and nonbreeding adult Glaucous-winged Gulls have pale gray wingtips unlike adult Herring Gulls, which have black wingtips."
+        },
+        "Second winter": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71320881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71320881-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71320881-720px.jpg"
+            ],
+            "description": "First and second winter Glaucous-winged Gulls have pale tan wingtips, whereas first and second winter Herring Gulls have dark brown wingtips."
+        }
+    },
+    "Iceland Gull": {
+        "Adult (Iceland)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39522551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39522551-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39522551-720px.jpg"
+            ],
+            "description": "Adult Iceland Gulls are highly variable, but they often have pale wingtips unlike the dark wingtips on adult Herring Gulls. Their bill is also smaller and slimmer than Herring Gulls."
+        },
+        "Nonbreeding adult (Thayer's)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37761271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37761271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37761271-1280px.jpg"
+            ],
+            "description": "Nonbreeding Iceland Gulls have paler gray wingtips than nonbreeding Herring Gulls. They also have a darker eye and a slimmer bill."
+        },
+        "First winter (Thayer's)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70651341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70651341-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70651341-720px.jpg"
+            ],
+            "description": "First winter Iceland Gulls look very similar to first winter Herring Gulls, but they have a slimmer bill and appear more round-headed that Herring Gulls."
+        }
+    },
+    "Lesser Black-backed Gull": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37801291-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37801291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37801291-720px.jpg"
+            ],
+            "description": "Lesser Black-backed Gulls are darker gray above than Herring Gulls. They also have yellow (not pink) legs."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37801601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37801601-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37801601-720px.jpg"
+            ],
+            "description": "Juvenile Lesser Black-backed Gulls can be separated from juvenile or first winter Herring Gulls by their smudgy black eye patch."
+        }
+    },
+    "Great Black-backed Gull": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71332441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71332441-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71332441-720px.jpg"
+            ],
+            "description": "Great Black-backed Gulls are larger than Herring Gulls with much darker upperparts."
+        },
+        "Second winter": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71332431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71332431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71332431-1280px.jpg"
+            ],
+            "description": "Second winter Great Black-backed Gulls have paler heads than second winter or first winter Herring Gulls. They also have a heftier bulbous bill that is pink at the base and the tip."
+        }
+    }
+}

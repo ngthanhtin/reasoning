@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64985151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64985151-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64985151-480px.jpg"
+        ],
+        "description": [
+            "A medium-sized sparrow with a short, conical bill, a compact, robust body, and a moderately long tail. The overall shape is quite similar to the widespread Song Sparrow.",
+            "",
+            "Slightly larger than a Chipping Sparrow, slightly smaller than a White-throated Sparrow.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.7-5.9 in (12-15 cm)",
+            "Weight: 0.5-0.8 oz (15-23 g)",
+            "Wingspan: 7.1-7.5 in (18-19 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64985161-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64985161-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64985161-720px.jpg"
+        ],
+        "description": [
+            "Swamp Sparrows look quite dark overall, especially in dim or shadowy habitats, where they often remain concealed. Closer views reveal a bright rusty crown and wings (especially the coverts), grayish breast with whitish throat, and gray nape.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239750315",
+        "description": [
+            "Swamp Sparrows perch and forage in vegetation near the ground or water surface, where their rather long legs\u2014longer than those of Song or Lincoln\u2019s Sparrows\u2014enable them to forage well. They typically forage near the water\u2019s edge or in brushy patches within the habitat.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64985191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64985191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64985191-720px.jpg"
+        ],
+        "description": [
+            "Swamp Sparrows are almost always seen near water, even during migration, although migrants sometimes use wet fields and brambles and other low, dense cover.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Swamp Sparrows in the northern and western parts of the range are lighter than those in the south and east. The \"Coastal Plain\" subspecies nigrescens, which breeds in the mid-Atlantic states, is more blackish in the head and nape than the other two subspecies, ericrypta of Canada and northern Minnesota and the very widespread georgiana.",
+            ""
+        ]
+    }
+}

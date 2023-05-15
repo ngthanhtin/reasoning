@@ -1,0 +1,140 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305880301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305880301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305880301-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305874101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305874101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305874101-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305877171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305877171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305877171-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305874191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305874191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305874191-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305878071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305878071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305878071-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63742391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63742391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63742391-480px.jpg"
+            ]
+        ],
+        "description": [
+            "A chunky full-breasted bird with a round head and a stout bill. Breeding males have gray crowns, white cheeks, a black bib, and a chestnut neck.",
+            "Song is a series of two-parted cheep or chirrup notes, given throughout much of the year. Females sometimes sing as well. Breeding males have a broad black bib, whitish cheek, and chestnut head with gray crown.",
+            "",
+            "Stocky Old World sparrow with a stout bill. The male's bib becomes darker black as the breeding season approaches.",
+            "",
+            "Nest in holes of buildings and other structures such as streetlights, gas-station roofs, signs, and the overhanging fixtures that hold traffic lights. Also nests in nest boxes and competes with other species for them."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305874101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305874101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305874101-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305877321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305877321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305877321-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Full-bodied bird of urban environments with a stout bill. Females are a plain buffy-brown overall with dingy gray-brown underparts. Their backs are noticeably striped with buff, black, and brown.",
+            ""
+        ]
+    },
+    "Nonbreeding and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63742401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63742401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63742401-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305878491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305878491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305878491-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding males are streaked brown, black, and buffy above and dingy below. They lack the bright chestnut neck and extensive black bib of breeding males. Note yellowish bill on nonbreeding birds.",
+            ""
+        ]
+    },
+    "Female (with American Tree Sparrow)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305877171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305877171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305877171-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often comes to feeders or eats fallen seeds. Females are stocky and buffy-brown with gray-brown underparts. Note the stout bill, striped back, and broad, pale eyebrow stripe."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305877201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305877201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305877201-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305874191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305874191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305874191-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Eats mainly seeds but may eat berries as well. Nonbreeding males have a yellowish bill and reduced black on the breast."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305878491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305878491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305878491-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in tree cavities and birdhouses, including Purple Martin houses. House Sparrows are aggressive and may evict other species to take over their nest sites."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63742411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63742411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63742411-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Associated with human development. Found in cities, parks, zoos, suburban areas, and around farm buildings."
+        ]
+    }
+}

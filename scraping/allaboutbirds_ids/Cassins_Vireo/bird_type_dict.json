@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302246281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302246281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302246281-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302247241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302247241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302247241-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302247241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302247241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302247241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65761211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761211-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65761211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302247451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302247451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302247451-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302247641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302247641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302247641-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with fairly thick bill. Olive-brownish overall with grayer head and bold white \"spectacles.\" Two white wingbars. Whitish underparts are washed with yellowish on the flanks.",
+            "Small songbird with fairly thick bill. Gray head with bold white \"spectacles\" and clean white throat.",
+            "",
+            "Olive-brown vireo with gray head and bold white \"spectacles.\" Two whitish wingbars and yellowish wash on flanks. Moves deliberately through twigs while foraging.",
+            "",
+            "Can appear fairly drab with less contrast between gray head and brownish back, and reduced wingbars, but white spectacles are usually still distinctive."
+        ]
+    },
+    "Adult (San Lucas)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302247451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302247451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302247451-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky small songbird with heavy bill. Birds from southern Baja California, Mexico, have more extensive yellow on the flanks than other forms."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65761231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761231-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically breeds in mountain forests up to about 8,000 feet elevation; winters at lower elevations, often in woodland along streams. Moves slowly and deliberately through twigs and outer branches while foraging."
+        ]
+    }
+}

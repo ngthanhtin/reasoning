@@ -1,0 +1,42 @@
+{
+    "Scissor-tailed Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/402698091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/402698091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/402698091-1280px.jpg"
+            ],
+            "description": "Scissor-tailed Flycatchers usually have much longer tails than Gray Kingbirds, but young and molting individuals can have short tails. Note Scissor-tailed's smaller bill, frosty head without mask through eye, and salmon-red highlights on flanks and under wing. The normal ranges of the two species have very little overlap."
+        }
+    },
+    "Eastern Kingbird": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/402699851-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/402699851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/402699851-720px.jpg"
+            ],
+            "description": "Eastern Kingbirds are darker above than Gray Kingbirds, with smaller bills. Eastern Kingbirds show a white band at the tip of the tail that Gray Kingbirds lack."
+        }
+    },
+    "Loggerhead Shrike": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65685251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65685251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685251-1280px.jpg"
+            ],
+            "description": "Loggerhead Shrikes are more boldly marked than Gray Kingbirds, with black wings and tail, prominent white in the wings, and a larger and more distinct black mask. Shrikes have shorter, more sharply hooked bills than kingbirds."
+        }
+    },
+    "Loggerhead Kingbird": {
+        "Unknown Type": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/105619151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/105619151-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/105619151-720px.jpg"
+            ],
+            "description": "Loggerhead Kingbirds are brown above, darkest on the head, whereas Gray Kingbirds are a uniform light to medium gray on the head and back. Loggerhead also shows a pale band at the tip of the tail that Gray Kingbird does not have. Loggerhead Kingbirds are widespread in the Caribbean but usually do not occur in the U.S."
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Blue-winged Warbler": {
+        "Adult female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-720px.jpg"
+            ],
+            "description": "Smaller than a Prothonotary Warbler with a black eyeline and wingbars."
+        },
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65533581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533581-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65533581-720px.jpg"
+            ],
+            "description": "Smaller than a Prothonotary Warbler with a black eyeline and wingbars."
+        }
+    },
+    "Yellow Warbler": {
+        "Adult female (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802851-1280px.jpg"
+            ],
+            "description": "Smaller than a Prothonotary Warbler with yellowish (not blue-gray) wings."
+        },
+        "Adult male (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802921-1280px.jpg"
+            ],
+            "description": "Smaller than a Prothonotary Warbler with chestnut streaks on the breast."
+        }
+    }
+}

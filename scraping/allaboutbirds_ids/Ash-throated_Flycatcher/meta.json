@@ -1,0 +1,46 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65682561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682561-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682561-480px.jpg"
+        ],
+        "description": [
+            "This medium-sized flycatcher is long and slender with a long tail. Its head is slightly peaked at the back, making it look rather large headed for its size. It has a medium-sized bill that is thicker than phoebes and Empidonax flycatchers, but smaller than kingbirds.",
+            "Larger than a Western Bluebird, smaller than an American Robin.",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 7.5-8.3 in (19-21 cm)",
+            "Weight: 0.7-1.3 oz (21-38 g)",
+            "Wingspan: 11.8-12.6 in (30-32 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65682591-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682591-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65682591-480px.jpg"
+        ],
+        "description": [
+            "Ash-throated Flycatchers are grayish brown overall with a pale yellow belly and cinnamon edges on the primary feathers in the wing. The underside of the tail has a broad stroke of cinnamon down the center bordered by brownish gray. The cinnamon stripe does not reach the tip of the tail; the tip of the tail is brownish gray. Two whitish wingbars mark the wings. The head and face is uniformly ashy gray with a whitish throat. Males and females look similar."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668573",
+        "description": [
+            "Like other flycatchers in the",
+            "Myiarchus",
+            "genus, these birds tend to lean forward on perches and move their heads up and down, especially when agitated. They also tip their heads side to side while looking around from a perch. Ash-throated Flycatchers spend most of their time at eye level, sallying out from low perches in trees and shrubs to nab an insect or two."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65682601-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682601-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65682601-480px.jpg"
+        ],
+        "description": [
+            "The Ash-throated Flycatcher occupies dry scrub, open woodlands, and deserts in the West. They usually avoid humid forested areas, but do occur in woodlands along streams in dry regions."
+        ]
+    }
+}

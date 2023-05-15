@@ -1,0 +1,48 @@
+{
+    "Surf Scoter": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63899851-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63899851-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63899851-720px.jpg"
+            ],
+            "description": "Males have a large white patch on the back of the neck that male White-winged Scoters lack."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63899821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63899821-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63899821-720px.jpg"
+            ],
+            "description": "Females have a darker cap than White-winged Scoters and lack the white wing patch."
+        }
+    },
+    "Black Scoter": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63901801-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901801-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63901801-720px.jpg"
+            ],
+            "description": "Males are entirely black and have a yellow knob on their bill that White-winged Scoters lack."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-1280px.jpg"
+            ],
+            "description": "Females have a darker crown and a whiter cheek patch than female White-winged Scoters."
+        }
+    },
+    "American Coot": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg"
+            ],
+            "description": "American Coots are smaller with a thinner bill than White-winged Scoters. They also lack the pale spots on the head of male and female White-winged Scoters."
+        }
+    }
+}

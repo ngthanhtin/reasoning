@@ -1,0 +1,74 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67283591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283591-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67283591-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67283601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283601-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306342571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306342571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306342571-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67283581-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67283581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283581-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306343581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306343581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306343581-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, somewhat chunky finch with a conical bill and a notched tail. Adult males have a brighter red peaked crown. Note nearly unstreaked underparts.",
+            "Visits sunflower seed feeders, especially during winter. Uses the heavy conical bill to crack sunflower seeds with ease.",
+            "The peaked crown is brighter red than the rest of the body.",
+            "Adult males have a brighter red crown and red washing down the heavily streaked back. Like other finches, the tail is notched.",
+            ""
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67283601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283601-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306339431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306339431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306339431-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306339971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306339971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306339971-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky looking finch. Females/immature males are brown overall with short, crisp streaks on the underparts.",
+            "Females/immature males have short, crisp streaks on the belly and heavy streaking on the back.",
+            "Stocky finch with a peaked crown. Females/immature males are streaky brown overall with heavy streaking on the back."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67283571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283571-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in evergreen forests in the mountains up to about 10,000 feet elevation. Feeds heavily on seeds of pines and quaking aspen."
+        ]
+    }
+}

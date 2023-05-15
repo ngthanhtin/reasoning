@@ -1,0 +1,104 @@
+{
+    "Adult (Red)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66115301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66115301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66115301-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297896551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297896551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297896551-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297893571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297893571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297893571-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66115311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66115311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66115311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, chunky sparrow with a rounded head. Plumage varies; eastern form is rich reddish brown with coarse, blurry streaks. Face is gray; bill is black and yellow.",
+            "Males sing a sequence of about a dozen rich, whistled notes lasting 2\u20133 seconds in all. During summer they sing vigorously at any time from before dawn until after dark.",
+            "Most Fox Sparrows have yellowish bills with gray tinges to the upper mandible. The \"Red\" form has a mostly gray face with variable reddish brown on the cheek.",
+            "Found on or near the ground in thickets, overgrown fields, spruce-tamarack bogs, woodland edges, willow and alder tangles, chaparral, manzanita, and other dense brushy areas."
+        ]
+    },
+    "Adult (Sooty)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297896551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297896551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297896551-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297893341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297893341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297893341-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, chunky sparrow with rounded head. The \"Sooty\" form lives along the Pacific Coast. Upperparts are dark brown; face is grayish; bill is gray and yellow.",
+            "Some \"Sooty\" Fox Sparrows are a more flat gray brown without the reddish tones. The heavy spots (often chevron shaped) coalesce into larger patches on the breast."
+        ]
+    },
+    "Adult (Thick-billed)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66115251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66115251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66115251-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297894061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297894061-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297894061-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297893631-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297893631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297893631-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with very thick bill. The \"Thick-billed\" form lives mainly in the Sierra Nevada and Cascade mountains of California and Oregon. Slate gray head and back with brown wings and tail; heavily spotted underparts.",
+            "",
+            ""
+        ]
+    },
+    "Adult (Slate-colored)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297893951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297893951-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297893951-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297895401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297895401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297895401-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, chunky sparrow. Head and back are gray; wings and tail are bright rufous. The \"Slate-colored\" form breeds in interior western North America and winters mainly along the Pacific Coast.",
+            ""
+        ]
+    },
+    "Juvenile (Sooty)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297893681-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297893681-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297893681-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305351301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305351301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305351301-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70708501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70708501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70708501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender and buoyant raptor with narrow, pointed wings and a deeply forked tail.",
+            "Juveniles look very similar to adults but have a slight buffy wash on their head and breast."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305351771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305351771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305351771-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305351771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305351771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305351771-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305352371-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305352371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305352371-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305352421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305352421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305352421-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305352421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305352421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305352421-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70708511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70708511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70708511-480px.jpg"
+            ]
+        ],
+        "description": [
+            "When perched, note long and slender look and long forked tail. The gleaming white head contrasts with its black back.",
+            "Small-bodied, long-winged raptor with very buoyant flight style. Often twists tail to adjust position as it flies.",
+            "Most often seen in flight soaring on thermals with little flapping. Captures and eats prey in flight.",
+            "A crisp black-and-white raptor with a deeply forked tail that soars gracefully over swamps, marshes, large rivers, and savannas with tall trees.",
+            "Graceful black-and-white raptor with long, forked tail and elegant soaring style. Wingbeats are smooth and slow.",
+            "Builds nests of small sticks high in trees in open woodlands or swamps."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70708511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70708511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70708511-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Roosts with other Swallow-tailed Kites in tall trees often near swamps or wetlands."
+        ]
+    }
+}

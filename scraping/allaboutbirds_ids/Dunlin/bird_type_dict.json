@@ -1,0 +1,86 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301478601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301478601-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301478601-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64821911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64821911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64821911-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64821871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64821871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64821871-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64821881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64821881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64821881-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky, medium-sized shorebird with a long, drooping bill. Breeding adults have a distinctive black belly and a rusty mottled back. Note black legs.",
+            "Breeds in wet coastal tundra.",
+            "Medium-sized, short-necked sandpiper with a long drooping bill. Breeding birds have a black belly patch.",
+            "Breeding adults have a rusty mottled back. In flight, note dark stripe down the center of the tail and white outer tail feathers."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301478211-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301478211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301478211-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301478211-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301478211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301478211-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301478471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301478471-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301478471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky shorebird with a short neck and a long drooping bill. Nonbreeding birds have a grayish brown hood and a brownish back.",
+            "During the nonbreeding season, forages in mudflats and shallow water. Probes, picks, and jabs at aquatic invertebrates often with the bill open.",
+            "In flight, note darker line of feathers down the center of the tail and white outer tail feathers."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301478611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301478611-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301478611-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301478371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301478371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301478371-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Stocky, short-necked shorebird. Juveniles have mottled backs and brownish faces. Black belly feathers grow in as they age."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64821921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64821921-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64821921-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Winters along mudflats, estuaries, marshes, flooded fields, sandy beaches, and shores of lakes and ponds."
+        ]
+    }
+}

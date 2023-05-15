@@ -1,0 +1,32 @@
+{
+    "Black-billed Cuckoo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66038761-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66038761-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66038761-720px.jpg"
+            ],
+            "description": "Black-billed Cuckoos have thin white strips on the underside of the tail while Yellow-billed Cuckoos have large white circles on the tail. Also note bill color differences."
+        }
+    },
+    "Mangrove Cuckoo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40628341-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40628341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40628341-720px.jpg"
+            ],
+            "description": "Mangrove Cuckoos have peachy washed underparts while Yellow-billed Cuckoos have entirely white underparts."
+        }
+    },
+    "Mourning Dove": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-1280px.jpg"
+            ],
+            "description": "Mourning Doves are plumper, with smaller heads and less lanky proportions than cuckoos."
+        }
+    }
+}

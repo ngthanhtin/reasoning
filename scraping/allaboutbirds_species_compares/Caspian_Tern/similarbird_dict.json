@@ -1,0 +1,76 @@
+{
+    "Royal Tern": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71427371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71427371-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427371-1280px.jpg"
+            ],
+            "description": "Royal Terns are slightly smaller with a smaller, more orange bill than Caspian Terns. They have less black on the underside of the primary feathers than Caspian Terns."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71427581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427581-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71427581-720px.jpg"
+            ],
+            "description": "Nonbreeding Royal Terns have extensive white on the crown, whereas Caspian Terns are mostly dark on the top of the head with a small area of streaks or white on the forehead. Royal Terns have this white head pattern for most of the year."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71427391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427391-1280px.jpg"
+            ],
+            "description": "Juvenile Royal Terns have a yellowish bill and extensive white on the crown, whereas young Caspian Terns have reddish bills and all or mostly dark crowns."
+        }
+    },
+    "Elegant Tern": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40627131-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40627131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40627131-720px.jpg"
+            ],
+            "description": "Elegant Terns are smaller and slimmer than the bulky-bodied Caspian Tern. Elegant's bill is long, slender, and slightly curved, unlike Caspian's very heavy, bright-red bills."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70195271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70195271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70195271-720px.jpg"
+            ],
+            "description": "Elegant Terns are smaller and slimmer than Caspian Terns. The Elegant's long, slender bill is orange rather than red. In nonbreeding plumage Elegant has a white forehead."
+        }
+    },
+    "Forster's Tern": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/72456071-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/72456071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/72456071-720px.jpg"
+            ],
+            "description": "Forster's Terns are smaller than Caspian Terns, with a much more slender bill, narrower wings, and a deeply forked tail."
+        }
+    },
+    "Common Tern": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71336131-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71336131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71336131-720px.jpg"
+            ],
+            "description": "Common Terns are smaller than Caspian Terns, with a much more slender bill, narrower wings, and a deeply forked tail."
+        }
+    },
+    "Sandwich Tern": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37247211-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37247211-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37247211-720px.jpg"
+            ],
+            "description": "Sandwich Terns are smaller than Caspian Terns, with a less bulky body, narrower wings, and a more slender, black bill with yellow tip."
+        }
+    }
+}

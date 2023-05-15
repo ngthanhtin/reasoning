@@ -1,0 +1,74 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296747851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296747851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296747851-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296748261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296748261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296748261-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65615251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65615251-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65615291-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65615291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615291-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65615301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615301-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, long-tailed and long-necked game bird. Males are gaudy with green head, white collar, and coppery body plumage with black and white spots.",
+            "",
+            "When flushed, bursts vertically into flight with loud wing flapping; typically flies short distance to cover. Long tail, coppery body, and white collar are distinctive.",
+            "Large game bird with gaudy plumage: green head with red facial skin; white collar; and gold to coppery body with black and white spots.",
+            "Large game bird typically seen on agricultural lands and grassy or brushy areas."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296747981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296747981-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296747981-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296748221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296748221-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296748221-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65615271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615271-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Fairly large, long-tailed and long-necked game bird. Females are brown overall marked with black, particularly on the back and wings.",
+            "Fairly large, long-tailed and long-necked game bird. Females are brown overall marked with black, particularly on the back and wings.",
+            "Fairly large game bird with long, pointed tail. Usually forages on the ground in agricultural, grassy or brushy areas. Females form flocks of up to 18 birds in summer and 30 or more in winter."
+        ]
+    },
+    "Female and juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65615311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are fairly large, brownish game birds with long, pointed tails. Juveniles are mobile from hatching; up to 15 may be seen with one female."
+        ]
+    }
+}

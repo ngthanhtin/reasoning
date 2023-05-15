@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67356541-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67356541-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67356541-480px.jpg"
+        ],
+        "description": [
+            "A small songbird with a short, conical bill and a fairly short tail. Subspecies on the Aleutian and Pribilof Islands are considerably larger, shaped more like a grosbeak than a small finch.",
+            "",
+            "Larger than an American Goldfinch, slightly smaller than a House Sparrow (except on Alaskan islands, where they are nearly as large as an Evening Grosbeak).",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.5-8.3 in (14-21 cm)",
+            "Weight: 0.8-2.1 oz (22-60 g)",
+            "Wingspan: 13.0 in (33 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67356601-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67356601-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67356601-720px.jpg"
+        ],
+        "description": [
+            "Adult males are rich brown suffused with pink on the body, with gray sides of the head and a black forecrown and throat. Adult females are similar but with less extensive pink. The bill is yellow. Juveniles are brownish overall with grayish wings and a dusky bill.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648494",
+        "description": [
+            "Hops along on the ground in search of seeds and insects, typically near snowfields or snowmelt. In winter, often forages in flocks mixed with other rosy-finch species, which fly up in whirls from feeding areas and roadsides.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67356581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67356581-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67356581-480px.jpg"
+        ],
+        "description": [
+            "Nests high on mountains, in boulder fields and cliffs, and forages on scree slopes, ice fields, glaciers, meadows, and avalanche areas. Descends to open areas in lower elevations in winter, sometimes into forests and towns, especially where there are feeders.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize six subspecies, three that have mostly grayish faces, three that have gray in the crown but brownish cheeks. Two of the gray-headed subspecies\u2014griseonucha and umbrina\u2014live on the Aleutian and the Pribilof Islands, respectively. These are both very large subspecies, weighing twice as much as the continental subspecies. The other gray-headed subspecies, the small littoralis, is often called \u201cHepburn\u2019s\u201d Rosy-Finch. It nests from mainland Alaska south to California. Three rather similar subspecies with gray crown markings and brown cheeks, tephrocotis, wallowa, and dawsoni, nest farther east, in interior mountains of the West.",
+            ""
+        ]
+    }
+}

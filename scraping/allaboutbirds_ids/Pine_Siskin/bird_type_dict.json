@@ -1,0 +1,122 @@
+{
+    "Adult (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306420291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306420291-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306420291-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306421861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306421861-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306421861-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306421861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306421861-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306421861-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306421661-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306421661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306421661-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306421981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306421981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306421981-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67276621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276621-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small finch with a sharp, pointed bill and a short, notched tail. Adults are brown and streaky overall with subtle yellow edgings on the wings and tail.",
+            "Small, streaky finch with a sharply pointed bill and notched tail.",
+            "Small, heavily streaked finch with yellow tones in the wings and tail. Note the sharply pointed bill that is thinner than in other finches.",
+            "Brown and streaky finch with a sharply pointed bill. Cannot be reliably sexed based on the amount of yellow in the wings.",
+            "",
+            "Found in evergreen or mixed forests with open canopies, weedy fields, scrubby thickets, or backyards and gardens."
+        ]
+    },
+    "Immature (Northern)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67276581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult (green morph)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67276601-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67276601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276601-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306422031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306422031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306422031-720px.jpg"
+            ]
+        ],
+        "description": [
+            "The rarely encountered \"green morph\" has more intense yellow and green plumage tones and often reduced streaking below.",
+            ""
+        ]
+    },
+    "Adult male (Chiapas)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306421441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306421441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306421441-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Adult male resident in the highlands of s. Chiapas and w. Guatemala have a black cap, gray lightly streaked underparts and brighter yellow edging in the wings and tail."
+        ]
+    },
+    "Female (Chiapas)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306421531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306421531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306421531-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67276571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67276571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look similar to adults, but have buffy edging on their wing feathers."
+        ]
+    },
+    "Flock (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306420391-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306420391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306420391-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

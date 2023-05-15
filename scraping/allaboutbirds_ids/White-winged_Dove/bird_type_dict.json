@@ -1,0 +1,74 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308431191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308431191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308431191-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66037301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66037301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66037291-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66037291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037291-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308431071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308431071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308431071-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66037261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037261-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66037261-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66037311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037311-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66037311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Medium-sized dove with small head and short, square-tipped tail. Pale brown overall with white stripe along wing; becomes large white patch on inner wing in flight.",
+            "Note large white crescent along wing when perched; in flight it becomes a large white patch.",
+            "Medium-sized dove with short, white-tipped tail. Wingtips are blackish, contrasting with white inner wing.",
+            "",
+            "Medium-sized dove with distinctive flight pattern: gray-brown body; white inner wing with black wingtips; dark tail with white corners.",
+            "Often found in dense, thorny forests, but increasingly common in towns."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308430981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308430981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308430981-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66037281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66037281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037281-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically found in dry habitats with mix of trees for nesting and open areas, grasslands, fields, or desert scrub for feeding."
+        ]
+    }
+}

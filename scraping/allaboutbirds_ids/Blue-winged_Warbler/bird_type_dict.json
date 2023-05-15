@@ -1,0 +1,104 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296764091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296764091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296764091-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666131-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296764211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296764211-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296764211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666151-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666151-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666181-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666181-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666181-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666181-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a small, pointed black bill. Adult males have two obvious wingbars and a black eyeline.",
+            "Song consists of a thin, high buzz followed by a trill; a beee-buzz as if the bird was inhaling and then exhaling.",
+            "Males are bright yellow below with a thin black eyeline.",
+            "Males are bright yellow below with white undertail coverts. The wings are steely blue-gray with 2 prominent wingbars. Note thin black eyeline.",
+            "Picks insects off foliage often while hanging upside down. Note white undertail coverts.",
+            "Males sing a beee-buzz from exposed perches; inhaling on the beee and exhaling on the buzz.",
+            "Found in areas with shrubby undergrowth."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are often paler than males with a grayer eyeline and a more olive crown, but some are not separable from males."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63666121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666121-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with a thin, pointed bill. Immature birds have a pinkish bill, yellow undertail coverts, and very thin (almost invisible) wingbars."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296764211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296764211-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296764211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females pull off strips of bark from vines and other shrubs to build a cup-shapped nest.",
+            "Females nest on or near the ground and sit tight on the eggs for 11\u201312 days."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666111-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often forages at the outer edges of branches where it takes insects from vegetation. Some individuals cannot be accurately sexed."
+        ]
+    }
+}

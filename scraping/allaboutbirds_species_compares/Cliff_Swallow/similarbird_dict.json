@@ -1,0 +1,52 @@
+{
+    "Cave Swallow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68122181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68122181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122181-1280px.jpg"
+            ],
+            "description": "Cave Swallows have paler, buff-colored faces and throats, whereas Cliff Swallows have rusty faces and a dark throat. They also tend to have darker cinnamon rumps than Cliff Swallows."
+        }
+    },
+    "Barn Swallow": {
+        "Adult (American)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68123021-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68123021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68123021-720px.jpg"
+            ],
+            "description": "Barn Swallows are similarly colored, but have longer, forked tails and longer, slimmer bodies than Cliff Swallows."
+        }
+    },
+    "Northern Rough-winged Swallow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280751-1280px.jpg"
+            ],
+            "description": "Northern Rough-winged Swallows lack the Cliff Swallow\u2019s pale rump and dark throat."
+        }
+    },
+    "Chimney Swift": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113891-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113891-720px.jpg"
+            ],
+            "description": "Chimney Swifts are smaller than swallows, with narrower, more curved wings and much stiffer wingbeats. They are dark overall unlike Cliff Swallows, which have whitish underparts."
+        }
+    },
+    "Vaux's Swift": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66114141-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg"
+            ],
+            "description": "Vaux's Swifts are smaller than swallows, with narrower, more curved wings and much stiffer wingbeats. They are much more uniformly dark overall than Cliff Swallows."
+        }
+    }
+}

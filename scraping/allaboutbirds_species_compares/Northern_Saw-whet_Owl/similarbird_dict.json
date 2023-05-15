@@ -1,0 +1,42 @@
+{
+    "Boreal Owl": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63333271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63333271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63333271-1280px.jpg"
+            ],
+            "description": "Boreal Owls are slightly larger than Northern Saw-whet Owls, with a crisp dark border going most of the way around the face. Boreal's facial disk is clean white, whereas Saw-whet's is tinged with buff."
+        }
+    },
+    "Eastern Screech-Owl": {
+        "Adult gray morph (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60389751-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60389751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60389751-720px.jpg"
+            ],
+            "description": "Eastern Screech-Owls have small ear tufts while Northern Saw-whet Owls have round heads without ear tufts. Screech-owls also have more finely marked underparts."
+        }
+    },
+    "Western Screech-Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66045411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66045411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045411-1280px.jpg"
+            ],
+            "description": "Western Screech-Owls have small ear tufts while Northern Saw-whet Owls have round heads without ear tufts. Screech-owls also have more finely marked underparts."
+        }
+    },
+    "Barred Owl": {
+        "Adult (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60394891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394891-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60394891-720px.jpg"
+            ],
+            "description": "Barred Owls are much larger than Northern Saw-whet Owls (nearly three times their size), and they have brown (not yellow) eyes and darker faces."
+        }
+    }
+}

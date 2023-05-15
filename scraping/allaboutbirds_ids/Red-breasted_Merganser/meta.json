@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63911811-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63911811-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63911811-480px.jpg"
+        ],
+        "description": [
+            "A large, slim, and long-bodied diving duck with a fairly long neck and a long, thin, serrated bill. A shaggy crest of feathers gives the head a distinctive profile.",
+            "",
+            "Larger than a Ruddy Duck, smaller than a Common Loon.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 20.1-25.2 in (51-64 cm)",
+            "Weight: 28.2-47.6 oz (800-1350 g)",
+            "Wingspan: 26.0-29.1 in (66-74 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63911841-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63911841-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63911841-480px.jpg"
+        ],
+        "description": [
+            "Breeding males have a cinnamon chest, a white neck band, and a shaggy green head. Female and nonbreeding males are brownish gray overall with a brownish chin, a dingy breast, and a brown shaggy head. In flight both sexes have a prominent white lower wing panel.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648852",
+        "description": [
+            "Red-breasted Mergansers tend to sit low in the water and fly at an angle with the head higher than their feet. They swim with the head partially submerged, diving underwater to capture small fish with their serrated bill.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63911861-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63911861-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63911861-720px.jpg"
+        ],
+        "description": [
+            "Breeds in the boreal forest on fresh, brackish, and saltwater wetlands, typically close to the coast. During migration and on the wintering grounds, uses marine waters, lakes, and rivers. They tend to use saltwater, including estuaries and bays, more often than Common Merganser.",
+            ""
+        ]
+    }
+}

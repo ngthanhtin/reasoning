@@ -1,0 +1,86 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70694471-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70694471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694471-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305196661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305196661-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70694421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70694421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694421-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, long-legged wading bird with a football-shaped body and a long, curved bill. Adults have white bodies, bright red legs, a bare patch of red skin around the eye, and a red bill.",
+            "Flies with its neck out straight and its legs trailing behind. Note black wingtips.",
+            "Probes for insects and crustaceans beneath the surface of wetlands with their long curved bill. Note pale blue eye of adult birds."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305196151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196151-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305196821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196821-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70694481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694481-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature birds are a patchwork of white and brown with a pink bill and legs.",
+            "Heavy-bodied wading bird with broad wings. Immatures in flight are white below with brown primaries and secondaries.",
+            "Immature birds are mottled white and brown. As they age they acquire more white plumage."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305196151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196151-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Mixed flocks of adult and immature individuals form in coastal and inland habitats, such as marshes and mangrove swamps."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305196281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305196281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305196281-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large wading bird with a curved bill. Juveniles are brown above with a paler brown streaky neck and white below. Juveniles have an orangish pink bill."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70694491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70694491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694491-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in freshwater marshes, coastal estuaries, mangroves, flooded pastures, mudflats, and swamps."
+        ]
+    }
+}

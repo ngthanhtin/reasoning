@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66116701-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66116701-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66116701-720px.jpg"
+        ],
+        "description": [
+            "Song Sparrows are medium-sized and fairly bulky sparrows. For a sparrow, the bill is short and stout and the head fairly rounded. The tail is long and rounded, and the wings are broad.",
+            "Slightly smaller than a Dark-eyed Junco; slightly larger than a Chipping Sparrow",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.7-6.7 in (12-17 cm)",
+            "Weight: 0.4-1.9 oz (12-53 g)",
+            "Wingspan: 7.1-9.4 in (18-24 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66116641-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66116641-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66116641-480px.jpg"
+        ],
+        "description": [
+            "Song Sparrows are streaky and brown with thick streaks on a white chest and flanks. On a closer look, the head is an attractive mix of warm red-brown and slaty gray, though these shades, as well as the amount of streaking, vary extensively across North America."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/237944716",
+        "description": [
+            "Song Sparrows flit through dense, low vegetation or low branches, occasionally moving onto open ground after food. Flights are short and fluttering, with a characteristic downward pumping of the tail. Male Song Sparrows sing from exposed perches such as small trees."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66116711-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66116711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66116711-480px.jpg"
+        ],
+        "description": [
+            "Look for Song Sparrows in nearly any open habitat, including marsh edges, overgrown fields, backyards, desert washes, and forest edges. Song Sparrows commonly visit bird feeders and build nests in residential areas."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Scientists recognize 24 subspecies of Song Sparrows and have described some 52 forms: they are one of the most regionally variable birds in North America. In general, coastal and northern birds are darker and streakier, with southern and desert birds wearing paler plumages."
+        ]
+    }
+}

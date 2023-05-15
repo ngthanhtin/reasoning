@@ -1,0 +1,42 @@
+{
+    "Canyon Towhee": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64988801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988801-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64988801-720px.jpg"
+            ],
+            "description": "Canyon Towhees have buffy tones to the face, while California Towhee has darker rusty tones. The two species have very little range overlap."
+        }
+    },
+    "Abert's Towhee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64989231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989231-1280px.jpg"
+            ],
+            "description": "Abert's Towhee has a pale bill and dark face, unlike the more uniform brown of California Towhee. The two species have little range overlap."
+        }
+    },
+    "California Thrasher": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67455671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67455671-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67455671-720px.jpg"
+            ],
+            "description": "California Thrashers have the same overall color (even the warm brown under the tail) but they have a longer tail and a strongly downcurved beak unlike California Towhee."
+        }
+    },
+    "Spotted Towhee": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64991491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64991491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64991491-1280px.jpg"
+            ],
+            "description": "Spotted Towhees are more colorful than California Towhees: brown upperparts, head, and throat (black in male Spotted), rufous sides, and white belly."
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67458111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67458111-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67458111-480px.jpg"
+        ],
+        "description": [
+            "Varied Thrushes are stocky songbirds with large, rounded heads, straight bills, and long legs. Usually seen standing horizontally on the ground or in a tree, they often look plump-bellied with a relatively short tail.",
+            "About the size of an American Robin; smaller than a Steller\u2019s Jay.",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 7.5-10.2 in (19-26 cm)",
+            "Weight: 2.3-3.5 oz (65-100 g)",
+            "Wingspan: 13.4-15.0 in (34-38 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67458071-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67458071-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67458071-720px.jpg"
+        ],
+        "description": [
+            "Male Varied Thrushes are dark blue-gray on the back and rich burnt-orange below with a sooty-black breastband and orange line over the eye. The wings are blackish with two orange bars and orange edging to the flight feathers. Females have the same patterns, but are paler gray-brown than males."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667539",
+        "description": [
+            "Varied Thrushes hop on the ground or low in shrubs and trees. They eat mainly insects and other arthropods in the summer and switch to nuts and fruit in fall and winter. On breeding territories, male Varied Thrushes sit on exposed perches to sing their haunting, trilling songs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67458091-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67458091-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67458091-480px.jpg"
+        ],
+        "description": [
+            "Varied Thrushes breed in dark understories of humid evergreen and mixed forests along the Pacific Coast. In the winter, many move into dense parks, gardens, and backyards. Varied Thrushes are rare but regular winter visitors to the Upper Midwest and Northeast."
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Snow Goose": {
+        "Adult white morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg"
+            ],
+            "description": "The Snow Goose is larger with a bigger bill than Ross's Goose. It has a black line or grinning patch on the bill that Ross's Goose lacks."
+        },
+        "Adult blue morph": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59939631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939631-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939631-720px.jpg"
+            ],
+            "description": "The Snow Goose is larger with a bigger bill than Ross's Goose. The Blue morph Snow Goose also has a black line or grinning patch on the bill that Ross's Goose lacks."
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70033761-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70033761-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70033761-480px.jpg"
+        ],
+        "description": [
+            "Arctic Terns are slender terns with long, angular wings and pointed wingtips. They have a small round head with a steep forehead and extremely short legs. Breeding adults have a deeply forked tail.",
+            "",
+            "Larger than a Least Tern, smaller than a Caspian Tern.",
+            "",
+            "between robin and crow",
+            "Sex: Both Sexes",
+            "Length: 11.0-15.3 in (28-39 cm)",
+            "Weight: 3.2-4.2 oz (90-120 g)",
+            "Wingspan: 25.6-29.5 in (65-75 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70033661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70033661-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70033661-480px.jpg"
+        ],
+        "description": [
+            "Breeding adults are pale gray above and below. They have a full black cap that extends down the back of the neck, a red bill, and red legs. Nonbreeding birds have a white forehead with smaller black cap restricted to the back of the head and neck. Nonbreeders also have a black bill, black legs, and a dark gray bar across the shoulder (carpal bar).",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668435",
+        "description": [
+            "Arctic Terns fly gracefully with rowing wingbeats over open waters, diving down to pick fish from or just below the water's surface. They tend to hover above foraging areas and nesting colonies more often than the similar Common Tern. They migrate over the Atlantic and Pacific Oceans often far out to sea.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/32800781-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32800781-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32800781-480px.jpg"
+        ],
+        "description": [
+            "Arctic Terns breed across the Arctic in treeless areas with little to no vegetation, in open boreal forests, and on islands and barrier beaches on the northeastern Atlantic Coast. They migrate over the Atlantic and Pacific Oceans to food-rich waters around Antarctica where they hang out on pack ice during the Southern Hemisphere's summer.",
+            ""
+        ]
+    }
+}

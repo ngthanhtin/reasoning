@@ -1,0 +1,38 @@
+{
+    "White-crowned Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978031-1280px.jpg"
+            ],
+            "description": "White-crowned Sparrows have bright white stripes on the head and yellow, orange, or pink bills, which Golden-crowned Sparrows lack."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978001-720px.jpg"
+            ],
+            "description": "Immature White-crowned Sparrows lack the golden forehead patch of immature Golden-crowned Sparrows. White-crowned has a colorful bill; Golden-crowned's is grayish."
+        }
+    },
+    "White-throated Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64980371-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64980371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64980371-720px.jpg"
+            ],
+            "description": "White-throated Sparrows have crisp white throats and yellow in front of the eye rather than on the crown."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64980331-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64980331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64980331-1280px.jpg"
+            ],
+            "description": "\"Tan-striped\" White-throated Sparrows have crisp white throats and yellow in front of the eye rather than on the crown."
+        }
+    }
+}

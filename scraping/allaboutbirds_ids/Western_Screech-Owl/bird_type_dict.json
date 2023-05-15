@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/311369771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311369771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311369771-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297357031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297357031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297357031-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297357031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297357031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297357031-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66045391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045391-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66045381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66045381-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66045381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66045381-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045421-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045421-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small stocky owl with a squarish head and little ear tufts. Plumage color varies from gray to brown, but generally has dark streaks on the belly, a dark border around the face, and a dark bill.",
+            "Small stocky owl with a squarish head and little ear tufts. Individuals in the southwestern U.S. tend to be paler gray.",
+            "Active at night. Note small ear tufts and yellow eyes.",
+            "Small owl with small ear tufts. Birds in British Columbia have more red-toned plumage.",
+            "Small stocky owl with a squarish head and little ear tufts. Plumage color varies from gray to brown, but generally has dark streaks on the belly, a dark border around the face, and a dark bill.",
+            "Call is a series of high, accelerating whistles, like the sound of a dropped ping-pong ball coming to rest. Usually males give the call, but sometimes females join in for a duet.",
+            "Found in forests, particularly among deciduous trees. They spend daylight hours in a roost hole sometimes looking out from the entrance.",
+            "Roosts and nests in cavities in trees\u2014and cactus. Also uses birdhouses with appropriately sized entry holes."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297357091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297357091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297357091-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in holes in trees. Juveniles are covered in fluffy white down."
+        ]
+    }
+}

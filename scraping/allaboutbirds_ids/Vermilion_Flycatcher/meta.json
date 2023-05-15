@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65682371-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65682371-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682371-480px.jpg"
+        ],
+        "description": [
+            "A fairly small, stocky flycatcher with an upright posture. Fairly flat headed and barrel chested, with a slender tail and a broad, straight bill.",
+            "",
+            "Larger than a Blue-gray Gnatcatcher, smaller than an Ash-throated Flycatcher.",
+            "",
+            "between sparrow and robin",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65682331-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682331-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682331-720px.jpg"
+        ],
+        "description": [
+            "Adult males are brilliant orange-red with a dark brown mask through the eyes and brown back, wings, and tail. Females and immatures are gray-brown with faint streaks on the breast and a salmon-red blush on the underparts. The bill is black.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238638789",
+        "description": [
+            "Vermilion Flycatchers spend long periods sitting on exposed perches such as the tops of shrubs and fence lines. They watch for flying insects, catching them in midair by quick flights (sallies), and often returning to the same perch.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65682401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682401-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682401-480px.jpg"
+        ],
+        "description": [
+            "Open, shrubby habitats including scrubby desert, lightly cultivated lands, and riverine woodlands, and shrubby tropical lowlands.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "There are no regional differences among Vermilion Flycatchers in the United States, but some populations in South America are entirely ashy gray-brown.",
+            ""
+        ]
+    }
+}

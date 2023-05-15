@@ -1,0 +1,30 @@
+{
+    "Glossy Ibis": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70695221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695221-1280px.jpg"
+            ],
+            "description": "Adult Glossy Ibises lack the white border around the eye that breeding White-faced Ibises have."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695191-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695191-720px.jpg"
+            ],
+            "description": "Juvenile Glossy Ibises and juvenile White-faced Ibises often cannot be separated unless at close range. The most reliable feature separating them is eye color: dark on Glossy and red on White-faced."
+        }
+    },
+    "White Ibis": {
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70694451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70694451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694451-720px.jpg"
+            ],
+            "description": "Juvenile White Ibises have white underparts; juvenile White-faced Ibises are brown below."
+        }
+    }
+}

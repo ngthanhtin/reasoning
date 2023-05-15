@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65684491-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65684491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65684491-720px.jpg"
+        ],
+        "description": [
+            "The Eastern Kingbird is a sturdy, medium-sized songbird with a large head, upright posture, square-tipped tail, and a relatively short, straight bill.",
+            "Smaller than an American Robin; larger than an Eastern Phoebe.",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 7.5-9.1 in (19-23 cm)",
+            "Weight: 1.2-1.9 oz (33-55 g)",
+            "Wingspan: 13.0-15.0 in (33-38 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65684501-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65684501-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65684501-480px.jpg"
+        ],
+        "description": [
+            "Eastern Kingbirds are blackish above and white below. The head is a darker black than the wings and back, and the black tail has a conspicuous white tip."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648427",
+        "description": [
+            "Eastern Kingbirds often perch in the open atop trees or along utility lines or fences. They fly with very shallow, rowing wingbeats and a raised head, usually accompanied by metallic, sputtering calls. Eastern Kingbirds are visual hunters, sallying out from perches to snatch flying insects."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65684481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65684481-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65684481-480px.jpg"
+        ],
+        "description": [
+            "Eastern Kingbirds breed in open habitats such as yards, fields, pastures, grasslands, or wetlands, and are especially abundant in open places along forest edges or water. They spend winters in forests of South America."
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63901801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901801-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63901801-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302050331-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302050331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302050331-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized sea duck with a fairly small, straight bill. All black except for yellow knob at base of bill.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63901791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302050391-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302050391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302050391-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63901781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63901781-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized sea duck with a fairly small, straight bill. Brownish overall with pale face and neatly delineated dark cap.",
+            "",
+            "Medium-sized brownish sea duck with a small, straight bill. Distinctive face pattern: pale cheeks and sharply defined dark cap."
+        ]
+    },
+    "Adult males and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63901791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often found in small flocks, sometimes with other scoter species. Call is a soft whistling. Female lacks yellow knob on bill and has pale cheek with neat dark cap."
+        ]
+    },
+    "Adult male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302050641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302050641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302050641-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized sea duck with a straight, thin bill. In flight, wings are all dark. Breeding males have yellow knob on bill; females have pale cheeks with neat, dark cap."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/162830451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/162830451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/162830451-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Brownish sea duck with dark-capped head pattern reminiscent of female but yellowish knob at base of bill like adult male."
+        ]
+    },
+    "Adult male and female (with Surf Scoter)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63901811-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63901811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901811-480px.jpg"
+            ]
+        ],
+        "description": [
+            "May occur in flocks with other scoter species. Bill considerably smaller and straighter than Surf Scoter's (second from left)."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302050271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302050271-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302050271-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found mainly in saltwater along rocky coastlines."
+        ]
+    }
+}

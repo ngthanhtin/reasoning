@@ -1,0 +1,41 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65681771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65681771-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65681771-480px.jpg"
+        ],
+        "description": [
+            "This slender, long-tailed flycatcher appears large-headed for a bird of its size. The head often looks flat on top, but phoebes sometimes raise their head feathers into a small peak at the back.",
+            "Larger than a Dark-eyed Junco, smaller than an American Robin.",
+            "between sparrow and robin",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65681761-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65681761-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65681761-480px.jpg"
+        ],
+        "description": [
+            "Say\u2019s Phoebes are pale brownish gray above with a cinnamon belly, a blackish tail, and a gray breast. Male and female are similar. The immature is similar to the adult, but browner and may have a buffy wingbar."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238665523",
+        "description": [
+            "Like other phoebes, the Say\u2019s Phoebe often wags or pumps its tail when perched, although not as frequently as Eastern and Black phoebes. When foraging, Say\u2019s often perch around eye level on exposed twigs, jumping up to snatch a flying insect and returning to the same or a nearby perch."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65681791-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65681791-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65681791-720px.jpg"
+        ],
+        "description": [
+            "Say\u2019s Phoebes live in open country, sagebrush, badlands, dry barren foothills, canyons, and borders of deserts; they avoid forests. They often gravitate to buildings and aren\u2019t closely tied to watercourses like other phoebes."
+        ]
+    }
+}

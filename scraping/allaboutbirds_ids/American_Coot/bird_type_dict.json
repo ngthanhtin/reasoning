@@ -1,0 +1,86 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303193191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303193191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303193191-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71547151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547151-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303193371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303193371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303193371-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303193641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303193641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303193641-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303193971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303193971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303193971-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Plump waterbird with a rounded head and a sloping bill. Adults are dark gray overall with a white bill tipped in a ring of black.",
+            "On land appears rather chickenlike. Note the long lobed toes that help propel it in the water.",
+            "With good views note the red eye and the white shield that is topped with red.",
+            "To get airborne, coots typically need to beat their wings while running across the water for many yards.",
+            ""
+        ]
+    },
+    "Adults": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71547151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547151-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Bulky-bodied, ducklike bird with small, pointed bill. Typically feeds from the surface of the water but sometimes dives."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547101-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are pale grayish below with a pale bill."
+        ]
+    },
+    "Adult and chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303193541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303193541-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303193541-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Right after hatching chicks have bare red spots on their heads, rusty-colored down around their head, and a red bill."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303193781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303193781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303193781-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in ponds, marshes, reservoirs, lake edges, roadside ditches, sewage treatment ponds, and saltwater inlets or salt marshes."
+        ]
+    }
+}

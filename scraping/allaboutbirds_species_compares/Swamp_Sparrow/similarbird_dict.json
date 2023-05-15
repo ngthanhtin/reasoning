@@ -1,0 +1,50 @@
+{
+    "Chipping Sparrow": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg"
+            ],
+            "description": "Chipping Sparrows are less likely to be found in wetlands than Swamp Sparrows. They have a dark (not reddish) line through the eye and a whitish face and throat."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg"
+            ],
+            "description": "Chipping Sparrows are more common in uplands than Swamp Sparrows. Nonbreeding Chipping has a dark line through the eye and lacks Swamp's extensive reddish brown in the wings."
+        }
+    },
+    "Field Sparrow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64972791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972791-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972791-720px.jpg"
+            ],
+            "description": "Field Sparrows have a white eyering, white wingbars, and a pink bill. They occur in drier areas than Swamp Sparrows."
+        }
+    },
+    "American Tree Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64971291-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64971291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64971291-1280px.jpg"
+            ],
+            "description": "American Tree Sparrows have a black-and-yellow bill and two white wingbars, without Swamp Sparrow's extensive rufous color in the wings."
+        }
+    },
+    "Lincoln's Sparrow": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64984571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64984571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64984571-1280px.jpg"
+            ],
+            "description": "Adult Lincoln's Sparrows are much streakier than Swamp Sparrows, with a pale eyering and buffy wash to the breast. Immature Swamp Sparrows are streaky and can be very similar to immature Lincoln's."
+        }
+    }
+}

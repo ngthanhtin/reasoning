@@ -1,0 +1,62 @@
+{
+    "Loggerhead Shrike": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65685251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65685251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685251-1280px.jpg"
+            ],
+            "description": "Shrikes have the same overall pattern as mockingbirds but have blacker wings, a bigger head, a black mask, and a heavy, hooked bill unlike Northern Mockingbirds which have grayer wings and face and a thin bill."
+        }
+    },
+    "Northern Shrike": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65685791-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65685791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685791-720px.jpg"
+            ],
+            "description": "Shrikes have the same overall pattern as mockingbirds but have blacker wings, a bigger head, a black mask, and a heavy, hooked bill unlike Northern Mockingbirds which have grayer wings and face and a thin bill."
+        }
+    },
+    "Gray Catbird": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/62999411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/62999411-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/62999411-720px.jpg"
+            ],
+            "description": "Gray Catbirds are darker gray, with no white in the wings or tail like Northern Mockingbirds."
+        }
+    },
+    "Townsend's Solitaire": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67469871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67469871-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67469871-720px.jpg"
+            ],
+            "description": "Townsend's Solitaires are birds of the mountains; they have a white eyering and a small, buffy mark in the wing rather than bold white wingbars seen on Northern Mockingbirds in flight."
+        }
+    },
+    "Blue-gray Gnatcatcher": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68033861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68033861-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68033861-720px.jpg"
+            ],
+            "description": "Blue-gray Gnatcatchers are less than half the size of a Northern Mockingbird, with a white eyering and a tendency to flit quietly through high branches unlike mockingbirds which are loud and conspicuous."
+        }
+    },
+    "Sage Thrasher": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32805051-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32805051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32805051-720px.jpg"
+            ],
+            "description": "Sage Thrashers have streaked underparts whereas Northern Mockingbirds have clean whitish underparts. Sage Thrashers do not flash white in wings or tail like mockingbirds."
+        }
+    }
+}

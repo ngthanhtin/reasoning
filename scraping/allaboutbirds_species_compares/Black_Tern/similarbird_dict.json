@@ -1,0 +1,40 @@
+{
+    "Least Tern": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37812051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37812051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37812051-720px.jpg"
+            ],
+            "description": "Least Terns are smaller than Black Terns with paler back and wings. Least has a very slender yellow bill unlike Black Tern's black bill. Breeding Least Terns have a fully black cap with white forehead, whereas nonbreeding Black Tern has a small black cap surrounded by white and a dark ear spot."
+        },
+        "Immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37888291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37888291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37888291-1280px.jpg"
+            ],
+            "description": "Immature Least Terns are smaller and paler than Black Terns, which have dark gray-brown back and wings."
+        }
+    },
+    "Forster's Tern": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71337121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71337121-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71337121-1280px.jpg"
+            ],
+            "description": "Forster's Terns are larger and paler gray above than Black Terns, with more slender wings and a deeply forked tail. Nonbreeding Forster's has a distinct black ear patch but lacks nonbreeding Black Tern's small black cap."
+        }
+    },
+    "Common Tern": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71336231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71336231-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71336231-720px.jpg"
+            ],
+            "description": "Common Terns are larger and paler gray above than Black Terns. Nonbreeding Common has more extensive black on the head than nonbreeding Black Tern."
+        }
+    }
+}

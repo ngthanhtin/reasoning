@@ -1,0 +1,46 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40627131-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40627131-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40627131-480px.jpg"
+        ],
+        "description": [
+            "A medium-sized, slender tern with a long, thin, slightly drooping bill. The wings are long, slender and pointed. The tail is medium length and forked. In breeding season Elegant Terns have a shaggy crest.",
+            "",
+            "Larger than a Common Tern, smaller than a Royal Tern.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63289491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289491-720px.jpg"
+        ],
+        "description": [
+            "Breeding adults are pale gray above, white with pink bloom below (often hard to see). They have a shaggy black crest, orange bill, dark gray outer primaries, and dark legs. Nonbreeding adults have white foreheads and lack the rosy tint below. Juveniles are grayer and more patterned above, with a gray crown.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639240",
+        "description": [
+            "Flies above the water and dives into the sea, capturing small fish in the bill. Often forages in large flocks, mixed with other seabird species. Breeds in very dense colonies on islands and beaches.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70195341-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70195341-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70195341-720px.jpg"
+        ],
+        "description": [
+            "Nests on beaches and sandy islands. Forages close to the shore over ocean waters, where currents and upwelling concentrate prey (northern anchovy in particular). Usually forages within 10 miles of land, and often within sight of land.",
+            ""
+        ]
+    }
+}

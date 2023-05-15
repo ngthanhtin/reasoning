@@ -1,0 +1,74 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66028931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66028931-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66028931-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large waterbird with a long tail, a long S-shaped neck, and a daggerlike bill. Adult males are black with silvery to white streaks on the back and wings."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304386431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304386431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304386431-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304386571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304386571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304386571-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304386641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304386641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304386641-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66028871-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66028871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66028871-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66028911-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66028911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66028911-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females/immatures have pale head, neck, and breast and a dark belly. Note long S-shaped neck and daggerlike bill.",
+            "Large waterbird with large, broad wings. Flies with neck outstretched. Sometimes soars high in the sky riding thermals.",
+            "Holds wings out to dry after being in the water.",
+            "Swims low in the water often with its body partly or mostly submerged with only its neck or bill visible.",
+            "Found in shallow, slow-moving, sheltered waters and uses nearby perches and banks for drying and sunning."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304386431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304386431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304386431-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in trees often overhanging water where it builds a bulky platform of sticks. This video has no audio."
+        ]
+    },
+    "Adult male and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66028891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66028891-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66028891-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in loose groups. Usually nests in a tree near water."
+        ]
+    }
+}

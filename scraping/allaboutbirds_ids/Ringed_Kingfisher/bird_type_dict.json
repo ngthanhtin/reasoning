@@ -1,0 +1,98 @@
+{
+    "Female (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303691911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303691911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303691911-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303651781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303651781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303651781-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71379041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71379041-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71379041-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303651761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303651761-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303651761-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large kingfisher with heavy bill and ragged crest. Females have a blue breast band and chestnut belly.",
+            "Very large, heavy-billed kingfisher. Females usually show a thin white band separating blue breast from chestnut belly.",
+            "In flight, females have extensive rufous under the wing and tail.",
+            "In flight, females show rufous or chestnut underwings and under the tail; in males these areas are white."
+        ]
+    },
+    "Adult male (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/82200251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/82200251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/82200251-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large kingfisher with heavy bill and ragged crest. Males are mostly chestnut below from breast through belly."
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/82200251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/82200251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/82200251-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303651751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303651751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303651751-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Hunts for fish from perches over freshwater. Often jerks the tail and head upwards while perched.",
+            "Large kingfisher with white collar, white spotting in wings and tail. Note chestnut extends all the way down the belly."
+        ]
+    },
+    "Immature male (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71378971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71378971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71378971-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immatures usually show some female-like plumage including some blue feathering across breast."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71378971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71378971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71378971-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females have a blue breast band and chestnut or rufous belly, separated by a narrow white border. Often jerks the tail and head upwards while perched."
+        ]
+    },
+    "Female (Patagonian)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303651771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303651771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303651771-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The subspecies that breeds in southern South America has a shorter bill and darker blue upperparts than the northern subspecies."
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70695191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695191-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70695191-480px.jpg"
+        ],
+        "description": [
+            "A medium-sized wading bird with compact body, long neck, long legs, and long, curved bill.",
+            "",
+            "Larger than a Cattle Egret, slightly smaller than a night-heron.",
+            "",
+            "between crow and goose",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70695221-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695221-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70695221-480px.jpg"
+        ],
+        "description": [
+            "The plumage appears dark, almost blackish, at a distance or in poor light. At close range, much of the body is maroon, with the wing coverts showing metallic green, bronze, and violet tones.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669082",
+        "description": [
+            "Glossy Ibises occur in flocks, both at nesting colonies and when foraging. They typically feed by lowering the bill into water, mud, or soil, to feel for prey, and they often feed among many other species of wading birds.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70695231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695231-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70695231-480px.jpg"
+        ],
+        "description": [
+            "Glossy Ibises frequent almost any wetland environment with shallow water or exposed mud and also readily feeds in farm fields or open areas where soils are moist.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "None.",
+            ""
+        ]
+    }
+}

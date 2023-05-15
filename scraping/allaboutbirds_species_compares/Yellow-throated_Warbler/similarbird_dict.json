@@ -1,0 +1,48 @@
+{
+    "Blackburnian Warbler": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64801381-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64801381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801381-720px.jpg"
+            ],
+            "description": "Female and immature Blackburnian Warblers have a yellowish (not white) eyebrow and a streakier, browner back than Yellow-throated Warblers."
+        },
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64801421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801421-1280px.jpg"
+            ],
+            "description": "Males have a bright orange (not yellow) throat and a streakier and darker back than Yellow-throated Warblers."
+        }
+    },
+    "Pine Warbler": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64893901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64893901-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64893901-720px.jpg"
+            ],
+            "description": "Pine Warblers have a yellow-green (not gray) back and do not have streaked flanks like Yellow-throated Warblers."
+        }
+    },
+    "Magnolia Warbler": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798661-1280px.jpg"
+            ],
+            "description": "Female/immature Magnolia Warblers lack the Yellow-throated Warbler's black mask."
+        },
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64798651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798651-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798651-720px.jpg"
+            ],
+            "description": "Adult male Magnolia Warblers have a black necklace that Yellow-throated Warblers lack."
+        }
+    }
+}

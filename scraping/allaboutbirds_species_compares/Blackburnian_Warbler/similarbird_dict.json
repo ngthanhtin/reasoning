@@ -1,0 +1,62 @@
+{
+    "Yellow-throated Warbler": {
+        "Adult ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64894611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64894611-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64894611-720px.jpg"
+            ],
+            "description": "Yellow-throated Warblers have plainer gray upperparts than Blackburnian Warblers with a yellow (not orange) throat."
+        }
+    },
+    "Cerulean Warbler": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38661331-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38661331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38661331-720px.jpg"
+            ],
+            "description": "Female Cerulean Warblers have a blue tint on the back unlike female/immature Blackburnian Warblers and lack the triangular ear patch."
+        }
+    },
+    "Bay-breasted Warbler": {
+        "Nonbreeding female/immature male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64800361-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64800361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64800361-1280px.jpg"
+            ],
+            "description": "Nonbreeding Bay-breasted Warblers lack the pale eyebrow and streaky flanks of nonbreeding Blackburnian Warblers."
+        }
+    },
+    "Blackpoll Warbler": {
+        "Nonbreeding female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64804661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64804661-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64804661-720px.jpg"
+            ],
+            "description": "Nonbreeding Blackpoll Warblers lack the pale eyebrow and triangular cheek patch of nonbreeding Blackburnian Warblers. Also note thinner wingbars."
+        }
+    },
+    "Cape May Warbler": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64516191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64516191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64516191-1280px.jpg"
+            ],
+            "description": "Female Cape May Warblers have more even streaking on the throat and flanks and thinner wingbars than female/immature Blackburnian Warblers. Also note greenish rump on Cape May, absent on Blackburnian."
+        }
+    },
+    "Palm Warbler": {
+        "Nonbreeding/immature (Western)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64892951-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64892951-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64892951-720px.jpg"
+            ],
+            "description": "Nonbreeding/immature Palm Warblers often occur lower to the ground and constantly bob their tail unlike Blackburnian Warblers. They lack wingbars and are browner overall (especially on the face) than Blackburnian Warblers."
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304380021-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304380021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380021-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304380241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304381311-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304381311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304381311-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304381271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304381271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304381271-720px.jpg"
+            ]
+        ],
+        "description": [
+            "An all dark, long-winged, fork-tailed bird of tropical oceans. Males have a bare patch of red skin on the throat (gular sac), barely visible outside the breeding season.",
+            "Soars across tropical oceans with the occasional slow beat of its wings.",
+            "",
+            ""
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304380241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304380601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304380601-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304381021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304381021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304381021-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Soars effortlessly on its long wings using its deeply forked tail to steer. Females have a dark head and white breast patch.",
+            "Flies on large angular wings with long tail trialing behind. The tail is deeply forked, but is often held closed.",
+            "Unlike other seabirds, they lack waterproof feathers and cannot easily take flight from the ground. They typically take flight from an elevated perch that faces into the wind."
+        ]
+    },
+    "Immature male (stage 4)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/37110361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37110361-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37110361-480px.jpg"
+            ]
+        ],
+        "description": [
+            "An all dark fork-tailed bird of tropical oceans. Soars effortlessly on its long wings, which have a pronounced bend. Males have a bare patch of red skin on the throat (gular sac), barely visible outside the breeding season."
+        ]
+    },
+    "Immature female (Stage 3)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304380601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304380601-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Spends most of its time in the air, gliding for hours with little to no wing movements. Immature females have a white head and belly."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304380741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304380741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304380741-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a white head and belly."
+        ]
+    },
+    "Juvenile (stage 1)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304381021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304381021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304381021-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a white head and belly."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/37109821-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37109821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37109821-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Flaps with deep wing beats when needed, otherwise soars effortlessly across tropical oceans. Note immatures and females with white heads and breasts."
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66115701-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115701-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115701-480px.jpg"
+        ],
+        "description": [
+            "The Dark-eyed Junco is a medium-sized sparrow with a rounded head, a short, stout bill and a fairly long, conspicuous tail.",
+            "Slightly larger than a Chipping Sparrow.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.5-6.3 in (14-16 cm)",
+            "Weight: 0.6-1.1 oz (18-30 g)",
+            "Wingspan: 7.1-9.8 in (18-25 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66115711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115711-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115711-480px.jpg"
+        ],
+        "description": [
+            "Juncos vary across the country (see Regional Differences), but in general they\u2019re dark gray or brown birds brightened up by a pink bill and white outer tail feathers that periodically flash open, particularly in flight."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667141",
+        "description": [
+            "Dark-eyed Juncos are birds of the ground. They hop around the bases of trees and shrubs in forests or venture out onto lawns looking for fallen seeds. You\u2019ll often hear their high chip notes, given almost absent-mindedly while foraging, or intensifying as they take short, low flights through cover."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66115771-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115771-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66115771-480px.jpg"
+        ],
+        "description": [
+            "Dark-eyed Juncos breed in coniferous or mixed-coniferous forests across Canada, the western U.S., and in the Appalachians. During winter you\u2019ll find them in open woodlands, fields, parks, roadsides, and backyards."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "There is a huge range of geographic variation in the Dark-eyed Junco. Among the 15 described races, six forms are easily recognizable in the field and five used to be considered separate species until the 1980s. A field guide is the best place to look for complete illustration of ranges and plumages, but in general there are two widespread forms of the Dark-eyed Junco: \u201cslate-colored\u201d junco of the eastern United States and most of Canada, which is smooth gray above; and \u201cOregon\u201d junco, found across much of the western U.S., with a dark hood, warm brown back and rufous flanks. Other more restricted variations include the slate-colored-like \u201cwhite-winged\u201d and Oregon-like \u201cpink-sided\u201d juncos of the Rockies and western Great Plains; and the Yellow-eyed Junco-like \u201cred-backed\u201d and \u201cgray-headed\u201d juncos of the Southwest."
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "American Flamingo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39391241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39391241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39391241-720px.jpg"
+            ],
+            "description": "In flight American Flamingos can be separated from Roseate Spoonbills by their black flight feathers and longer neck and legs."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39391251-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39391251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39391251-720px.jpg"
+            ],
+            "description": "Juvenile American Flamingos are whiter than juvenile Roseate Spoonbills with obvious black in the wing."
+        }
+    }
+}

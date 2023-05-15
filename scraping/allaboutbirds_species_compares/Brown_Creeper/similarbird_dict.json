@@ -1,0 +1,62 @@
+{
+    "White-breasted Nuthatch": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68039391-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68039391-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68039391-720px.jpg"
+            ],
+            "description": "Nuthatches usually move down tree trunks instead of up like Brown Creepers. They have shorter tails and they don\u2019t lean on them for support the way Brown Creepers do. Nuthatches are much grayer on the back, totally lacking the streaky brown camouflage of Brown Creepers."
+        }
+    },
+    "Red-breasted Nuthatch": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68040881-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68040881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68040881-720px.jpg"
+            ],
+            "description": "Nuthatches have shorter tails and don't lean on them for support the way Brown Creepers do. Red-breasted Nuthatches are grayer and lack the streaky brown camouflage of Brown Creepers."
+        }
+    },
+    "Pygmy Nuthatch": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68038661-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68038661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68038661-720px.jpg"
+            ],
+            "description": "Pygmy Nuthatches have a shorter bill than Brown Creepers and they don't have streaks on the back like Brown Creepers."
+        }
+    },
+    "Brown-headed Nuthatch": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68038751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68038751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68038751-1280px.jpg"
+            ],
+            "description": "Brown-headed Nuthatches are grayer above than the streaky-backed Brown Creeper."
+        }
+    },
+    "Golden-crowned Kinglet": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/161342541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/161342541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161342541-720px.jpg"
+            ],
+            "description": "Golden-crowned Kinglets sound like Brown Creepers and live in the same habitats, but they are green and gray with a short, straight bill and short tail. They forage among branches and needles rather than on bark."
+        }
+    },
+    "Black-and-white Warbler": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666541-720px.jpg"
+            ],
+            "description": "Black-and-white Warblers forage in a similar manner to Brown Creepers, but they are much more strongly patterned in black and white, with shorter tails that they don\u2019t use for support like creepers do."
+        }
+    }
+}

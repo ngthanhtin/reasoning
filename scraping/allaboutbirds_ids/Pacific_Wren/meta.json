@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68036681-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68036681-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68036681-480px.jpg"
+        ],
+        "description": [
+            "One of the smallest wrens in the United States, the Pacific Wren has a short, stubby tail which it usually holds upright. Their small size and short tail give them a round appearance. They have short wings and a thin bill.",
+            "Larger than a Rufous Hummingbird, smaller than a Chestnut-backed Chickadee.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 3.1-4.7 in (8-12 cm)",
+            "Weight: 0.3-0.4 oz (8-12 g)",
+            "Wingspan: 4.7-6.3 in (12-16 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68036701-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68036701-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68036701-480px.jpg"
+        ],
+        "description": [
+            "This wren is brown overall with darker brownish-black barring on the wings, tail, and belly. The face is also brown with a slight pale mark over the eyebrow."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668238",
+        "description": [
+            "Pacific Wrens quickly hop through the understory moving more like a mouse than a bird as they investigate upturned roots and decaying logs for food. These energetic birds often bob their heads or entire bodies when they are standing still. In flight they rapidly beat their tiny wings to move short distances between cover."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68036731-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68036731-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68036731-480px.jpg"
+        ],
+        "description": [
+            "Pacific Wrens are most common in old-growth evergreen forests. They also live in deciduous forests, treeless islands in Alaska, and in mixed-species forests near streams. Wrens forage and build nests near fallen logs, upturned tree roots, dead trees, and thick understory cover of mosses and ferns, often near water. During the nonbreeding season, winter wrens use more types of habitats including parks and gardens."
+        ]
+    }
+}

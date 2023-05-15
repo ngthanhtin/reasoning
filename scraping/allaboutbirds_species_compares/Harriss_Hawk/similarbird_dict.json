@@ -1,0 +1,66 @@
+{
+    "Common Black Hawk": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40622801-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40622801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40622801-720px.jpg"
+            ],
+            "description": "Common Black Hawks are black overall, lacking the reddish brown shoulder patches of Harris's Hawks."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40622821-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40622821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40622821-720px.jpg"
+            ],
+            "description": "Common Black Hawks have even broader wings than Harris's Hawks, and shorter tails."
+        }
+    },
+    "White-tailed Hawk": {
+        "Adult light morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40623111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40623111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40623111-720px.jpg"
+            ],
+            "description": "White-tailed Hawks have longer, more pointed wings and shorter tails than Harris's Hawks. Light-morph White-tailed Hawks have extensively white underparts, whereas Harris's Hawks are uniform dark brown."
+        },
+        "Immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71377761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71377761-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71377761-720px.jpg"
+            ],
+            "description": "White-tailed Hawks have longer, more pointed wings and shorter tails than Harris's Hawks."
+        }
+    },
+    "Ferruginous Hawk": {
+        "Dark morph": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/32634101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32634101-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32634101-720px.jpg"
+            ],
+            "description": "Ferruginous Hawks are larger than Harris's Hawks with longer wings. Dark-morph Ferruginous Hawks have a white tail, lack the wide black band on Harris's Hawks."
+        },
+        "Light morph": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/32633921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32633921-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32633921-720px.jpg"
+            ],
+            "description": "Ferruginous Hawks are larger than Harris's Hawks with longer wings. Light morph Ferruginous Hawks are lighter overall with very white underparts, unlike the uniform dark brown of Harris's Hawks."
+        }
+    },
+    "Northern Harrier": {
+        "Adult female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70774751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70774751-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70774751-720px.jpg"
+            ],
+            "description": "Northern Harriers have longer, narrower wings than Harris's Hawks and they lack the reddish shoulder patches and white band at the end of the tail."
+        }
+    }
+}

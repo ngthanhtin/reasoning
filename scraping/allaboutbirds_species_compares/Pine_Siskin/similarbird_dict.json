@@ -1,0 +1,32 @@
+{
+    "House Finch": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-1280px.jpg"
+            ],
+            "description": "Female/immature House Finches are heftier than Pine Siskins, with a much thicker bill and a longer tail. House Finches lack yellow in the wings and tail seen on Pine Siskins."
+        }
+    },
+    "American Goldfinch": {
+        "Nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737391-1280px.jpg"
+            ],
+            "description": "American Goldfinches are slightly larger than Pine Siskins. Although they can show yellowish tones in winter, they never have the bold streaking on the breast and back that is a hallmark of the Pine Siskin."
+        }
+    },
+    "Common Redpoll": {
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67278111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278111-720px.jpg"
+            ],
+            "description": "Common Redpolls have a shorter bill than Pine Siskins and they don't have yellow in the wings or tail."
+        }
+    }
+}

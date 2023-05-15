@@ -1,0 +1,158 @@
+{
+    "Male (Pacific)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308552621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308552621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308552621-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68041741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68041741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68041741-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Tiny, kinglet-sized birds. They are plump and large-headed, with a long tail and a short, stubby bill. Plain brown and gray overall, but plumage color varies geographically.",
+            "Tiny, kinglet-sized bird with a long tail and short bill. Almost always on the move twittering as it goes. Birds along the coast have browner crowns."
+        ]
+    },
+    "Male (Interior)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308552891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308552891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308552891-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Tiny with a long tail and short bill. Individuals in the interior are paler gray and have gray crowns with tan cheeks while those closer to the coast have brown crowns."
+        ]
+    },
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308552891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308552891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308552891-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nervously flits around from branch to branch in the understory of oak forests, evergreen woodlands, dry scrublands, streamsides, and suburbs."
+        ]
+    },
+    "Male (melanotis Group)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308553051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308553051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308553051-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308556521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308556521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308556521-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Males in southwest Texas southward through Mexico have black masks and females have brown masks. The mask color tends to get darker as one moves farther south.",
+            "Females in southwest Texas southward through Mexico have brown masks while males have black masks, the color of which become darker as one heads farther south."
+        ]
+    },
+    "Female (Pacific)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308556091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308556091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308556091-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Tiny bird that looks like a ping-pong ball with a long tail. Females have pale eyes while males and juveniles have dark eyes."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308556091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308556091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308556091-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Males and females help build a hanging socklike nest made from spider webs and plant material."
+        ]
+    },
+    "Female (Interior)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308555001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308555001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308555001-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Individuals in the interior have grayer crowns and brown cheeks. Females have pale eyes while males and juveniles have dark eyes."
+        ]
+    },
+    "Female (melanotis Group)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308558661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308558661-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308558661-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308558661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308558661-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308558661-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Parents feed fledglings for up to 2 weeks after they leave the nest."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308553421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308553421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308553421-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308553391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308553391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308553391-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Sprightly, social songbirds often seen in constantly twittering flocks."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68041781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68041781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68041781-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in open woods or scrubby areas, particularly pine-oak woodlands and chaparral, as well as suburbs and parks."
+        ]
+    }
+}

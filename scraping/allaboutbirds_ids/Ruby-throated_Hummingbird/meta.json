@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60395581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60395581-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60395581-480px.jpg"
+        ],
+        "description": [
+            "The Ruby-throated Hummingbird is a small hummingbird with a slender, slightly downcurved bill and fairly short wings that don\u2019t reach all the way to the tail when the bird is sitting.",
+            "Same size as a Black-chinned Hummingbird",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 2.8-3.5 in (7-9 cm)",
+            "Weight: 0.1-0.2 oz (2-6 g)",
+            "Wingspan: 3.1-4.3 in (8-11 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63289981-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289981-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289981-720px.jpg"
+        ],
+        "description": [
+            "Ruby-throated Hummingbirds are bright emerald or golden-green on the back and crown, with gray-white underparts. Males have a brilliant iridescent red throat that looks dark when it\u2019s not in good light."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238666112",
+        "description": [
+            "Ruby-throated Hummingbirds fly straight and fast but can stop instantly, hover, and adjust their position up, down, or backwards with exquisite control. They often visit hummingbird feeders and tube-shaped flowers and defend these food sources against others. You may also see them plucking tiny insects from the air or from spider webs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60395521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60395521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60395521-720px.jpg"
+        ],
+        "description": [
+            "Ruby-throated Hummingbirds live in open woodlands, forest edges, meadows, grasslands, and in parks, gardens, and backyards."
+        ]
+    }
+}

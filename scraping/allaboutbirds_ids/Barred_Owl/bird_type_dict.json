@@ -1,0 +1,68 @@
+{
+    "Adult (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297388681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297388681-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297388681-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60394891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60394891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394841-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394841-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60394851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394851-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60394901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394901-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60394901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394901-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Fairly large, with dark eyes and a yellow bill. Buffy below with dark streaks, and brown on the back with white mottling.",
+            "Upperparts are brown with mottling, and the tail is brown with white barring.",
+            "Mostly nocturnal, but sometimes active in morning and evening. Tends to sit quietly, swiveling head to listen for prey. Note round head and brown eyes.",
+            "Often occurs as pairs throughout the year.",
+            "Typically conceals itself amid branches and foliage to sleep during the day. Sometimes discovered by forest birds and mobbed or scolded; their calls can be a good way to find owls.",
+            "Hunts for a variety of prey, including amphibians and fish.",
+            "Typically occurs in well wooded habitats, but will come to edges and more open areas.",
+            "Flies with broad, rounded wings. Big head and flat face gives a blunt-headed appearance in flight that can help distinguish from hawks."
+        ]
+    },
+    "Juvenile (Northern)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60394831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60394831-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are gray and fluffy with darker brown barring and mottling throughout."
+        ]
+    }
+}

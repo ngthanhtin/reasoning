@@ -1,0 +1,52 @@
+{
+    "Willow Flycatcher": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38663041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38663041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38663041-720px.jpg"
+            ],
+            "description": "Willow Flycatchers have greener heads and upperparts, paler sides, and wider and whiter wing bars (at least in adults) than Eastern Wood-Pewees. They do not tend to sally and return to the same perch like pewees."
+        }
+    },
+    "Acadian Flycatcher": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/36210031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/36210031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/36210031-1280px.jpg"
+            ],
+            "description": "Acadian Flycatchers usually have an obvious white eyering that Eastern Wood-Pewees do not have and they have a paler belly."
+        }
+    },
+    "Eastern Phoebe": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65681481-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65681481-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65681481-720px.jpg"
+            ],
+            "description": "Eastern Phoebes have darker brown upperparts and no wingbars while Eastern Wood-Pewees are grayer with grayish wingbars. Their underparts tend to be cleaner white, without a vested look."
+        }
+    },
+    "Olive-sided Flycatcher": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38663861-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38663861-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38663861-720px.jpg"
+            ],
+            "description": "Olive-sided Flycatchers are larger, with a larger head and a thicker and longer bill than Eastern Wood-Pewees."
+        }
+    },
+    "Western Wood-Pewee": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65617091-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg"
+            ],
+            "description": "Western Wood-Pewees look nearly identical to Eastern Wood-Pewees, but their breeding ranges hardly overlap and their calls are different, the best way to separate them."
+        }
+    }
+}

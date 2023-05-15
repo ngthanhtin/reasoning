@@ -1,0 +1,42 @@
+{
+    "Laysan Albatross": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67654611-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67654611-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67654611-720px.jpg"
+            ],
+            "description": "Laysan Albatrosses have a white head and underparts, and variable white in the underside of the wing; Black-footed Albatrosses are mostly brown."
+        }
+    },
+    "Short-tailed Albatross": {
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68097461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68097461-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68097461-720px.jpg"
+            ],
+            "description": "Short-tailed Albatross has a very large, pink bill, whereas Black-footed Albatross has a smaller, dark bill and a pale patch on the face."
+        }
+    },
+    "Sooty Shearwater": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71007601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71007601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71007601-1280px.jpg"
+            ],
+            "description": "Sooty Shearwaters are much smaller than Black-footed Albatross, with much quicker, shallower wingbeats and a smaller and more slender bill."
+        }
+    },
+    "Northern Fulmar": {
+        "Dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32806041-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32806041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32806041-1280px.jpg"
+            ],
+            "description": "Northern Fulmars are much smaller than Black-footed Albatrosses, with a much shorter bill and a prominent \"tubenose.\""
+        }
+    }
+}

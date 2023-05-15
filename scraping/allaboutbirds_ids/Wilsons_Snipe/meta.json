@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64829071-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64829071-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64829071-480px.jpg"
+        ],
+        "description": [
+            "Wilson\u2019s Snipes are medium-sized, pudgy shorebirds with short, stocky legs. The bill is straight and very long (several times the length of the head). The head is rounded and the tail is short.",
+            "About the size of a Killdeer, but heavier-bodied and less lanky.",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 10.6-12.6 in (27-32 cm)",
+            "Weight: 2.8-5.2 oz (79-146 g)",
+            "Wingspan: 16.1-17.3 in (41-44 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64829101-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64829101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64829101-720px.jpg"
+        ],
+        "description": [
+            "These birds are intricately patterned in buff and brown stripes and bars. The dark head has prominent buffy to whitish stripes. The dark back has three long buffy streaks, one running down each edge, one down the center. The buff chest is streaked and spotted with brown; the sides are heavily barred with black. In flight, the wings are dark above and below."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669779",
+        "description": [
+            "Wilson\u2019s Snipes forage by methodically probing in muddy ground for earthworms and other invertebrates. Their heads move up and down somewhat like a sewing machine running at slow speed. Individuals usually sit tight until suddenly flushing near your feet and flying off in fast zigzags. Displaying males fly high in the sky and make a curious whistling noise (\u201cwinnowing\u201d), created by air passing over his modified outer tail feathers."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64829111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64829111-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64829111-480px.jpg"
+        ],
+        "description": [
+            "Wilson\u2019s Snipe live in muddy pond edges, damp fields, and other wet, open habitats. Typically these contain thick, low vegetation into which these well-camouflaged birds can disappear."
+        ]
+    }
+}

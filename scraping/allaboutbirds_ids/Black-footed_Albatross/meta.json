@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70095101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70095101-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70095101-480px.jpg"
+        ],
+        "description": [
+            "A very large seabird with long, narrow wings, a heavy head and neck, and a long, hooked bill.",
+            "Much larger than a Western Gull, slightly smaller than a Short-tailed Albatross",
+            "goose-sized or larger",
+            "Sex: Both Sexes",
+            "Length: 25.2-29.1 in (64-74 cm)",
+            "Weight: 77.6-151.7 oz (2200-4300 g)",
+            "Wingspan: 76.0-85.0 in (193-216 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70095201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70095201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70095201-720px.jpg"
+        ],
+        "description": [
+            "Dark brown overall, sometimes with whitish plumage in uppertail and undertail coverts or on the face. Feet and bill blackish."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240084434",
+        "description": [
+            "Albatrosses have a very distinctive flight style known as dynamic soaring. They rarely flap their wings except in very light winds. They typically fly low to the water, sometimes down in the wave troughs, and then swoop up into the sky, catch the wind, and accelerate downwind before swooping low to the water again. Often forages in groups, sometimes mixed with other seabirds and marine mammals."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/32805541-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32805541-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32805541-480px.jpg"
+        ],
+        "description": [
+            "Nests on low, sandy islands in the tropical North Pacific. Forages both near to shore (though usually not within sight of land) and far offshore, in places where upwelling or converging currents concentrate nutrients and prey at the sea surface."
+        ]
+    }
+}

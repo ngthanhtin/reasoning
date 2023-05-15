@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40264201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40264201-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40264201-480px.jpg"
+        ],
+        "description": [
+            "A squat, thickset seabird with a heavy body, a short neck, and a heavy bill with (during breeding season) a short vertical spike near the base. It has broad, pointed wings, short legs, and large, webbed feet.",
+            "",
+            "Larger than a Cassin's Auklet, smaller than a Tufted Puffin.",
+            "",
+            "between robin and crow",
+            "Sex: Both Sexes",
+            "Length: 11.0-11.4 in (28-29 cm)",
+            "Weight: 12.3-21.9 oz (350-620 g)",
+            "Wingspan: 23.2-24.4 in (59-62 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71005341-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005341-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71005341-480px.jpg"
+        ],
+        "description": [
+            "Breeding adults are cloudy gray, with two white plumes on the face and a thick orange-yellow bill with a prominent pale \u201chorn.\" Nonbreeding adults lack the horn and have much less white on the face. Juveniles resemble nonbreeding adults but have a smaller, darker bill.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238637376",
+        "description": [
+            "Swims underwater to chase prey, driving it toward the surface, then grasping it with the bill. May also feed at the sea bottom or from undersea structures. Often forages in large flocks, mixed with other seabird species. Breeds in very dense colonies, where adults are active mostly at night.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71005441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005441-720px.jpg"
+        ],
+        "description": [
+            "Nests on rocky islands and cliffs. Forages in littoral (near to shore) ocean areas where upwelling brings nutrients and fish toward the surface. Found less often in estuaries and lagoons. Seldom found more than 10 miles from shore.",
+            ""
+        ]
+    }
+}

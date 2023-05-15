@@ -1,0 +1,74 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297068091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297068091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297068091-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297068191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297068191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297068191-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64902351-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64902351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64902351-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a yellow face and beady black eye. Adult males have a brighter yellow face and a black chin. Note clean white underparts.",
+            "",
+            "Winters in high-elevation pine and pine-oak forests in Mexico and Central America. Breeds in evergreen mountain forests of California, Oregon, and Washington."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297068191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297068191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297068191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a yellow face and beady black eye. Adult females have a paler yellow face and a yellow chin. Note clean white underparts."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64902361-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64902361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64902361-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64902371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64902371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64902371-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immatures have a pale yellow face with a dusky cheek and a yellow eyering. Breeds in tall evergreen forests.",
+            "Immatures have a pale yellow face with a dusky cheek and a yellow eyering."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64902371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64902371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64902371-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64902381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64902381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64902381-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Females and immatures have a pale yellow face with a dusky cheek and a yellow eyering. Note yellow chin and clean white underparts."
+        ]
+    }
+}

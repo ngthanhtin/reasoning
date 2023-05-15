@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65763751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65763751-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65763751-480px.jpg"
+        ],
+        "description": [
+            "Warbling Vireos are small, chunky songbirds with thick, straight, slightly hooked bills. They are medium-sized for vireos, with a fairly round head and medium-length bill and tail.",
+            "Slightly larger than a Black-capped Chickadee; smaller than a House Finch.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.7-5.1 in (12-13 cm)",
+            "Weight: 0.3-0.6 oz (10-16 g)",
+            "Wingspan: 8.7 in (22 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65763771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65763771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65763771-720px.jpg"
+        ],
+        "description": [
+            "Warbling Vireos are gray-olive above and whitish below, washed on the sides and vent with yellow. They have a dark line through the eye and a white line over the eye. The lores (the area between the eye and bill) are white in most individuals. Typically, the brightest plumage on Warbling Vireos is on vent or flanks. Worn midsummer birds can be nearly entirely gray above and whitish below."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643461",
+        "description": [
+            "Warbling Vireos forage sluggishly, intently peering at leaf surfaces from a single perch before pouncing or moving on. They eat mostly caterpillars. They give their loud, rollicking, finch-like song frequently on summer territories."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65763801-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65763801-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65763801-480px.jpg"
+        ],
+        "description": [
+            "Deciduous forest is the favored habitat of Warbling Vireos throughout the year, though they also use some mixed coniferous and deciduous habitats. Even on migration they typically occur in areas with taller trees."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Western birds tend to be a bit drabber than eastern birds, though plumage color varies more with season than from east to west. Western birds also have slightly longer bills, but this difference is only rarely useable in the field. The two forms have similar, but diagnosably different songs, western birds having higher-pitched, less \u201csing-songy,\u201d less caroling, and slightly longer songs than those of eastern birds. The two forms meet near the western edge of the Great Plains, and both forms breed in, at least, Colorado."
+        ]
+    }
+}

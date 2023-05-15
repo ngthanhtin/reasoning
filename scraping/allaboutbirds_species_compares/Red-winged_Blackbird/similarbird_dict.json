@@ -1,0 +1,30 @@
+{
+    "Tricolored Blackbird": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/73006841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/73006841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/73006841-720px.jpg"
+            ],
+            "description": "Tricolored and Red-winged Blackbirds overlap in California. Male Tricolored Blackbirds can be distinguished by their overall glossier plumage and a white (not yellow) border on their shoulders or epaulets."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/73006861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/73006861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/73006861-1280px.jpg"
+            ],
+            "description": "Tricolored and Red-winged Blackbirds overlap in California. Female Tricolored Blackbirds are a somewhat colder charcoal-gray overall with less streaking than female Red-winged Blackbirds."
+        }
+    },
+    "Song Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66116641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66116641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66116641-1280px.jpg"
+            ],
+            "description": "Song Sparrows and other streaky sparrows sometimes look like female Red-winged Blackbirds, though they are smaller and shorter tailed, with a shorter, thicker bill than a blackbird."
+        }
+    }
+}

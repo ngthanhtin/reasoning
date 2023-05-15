@@ -1,0 +1,30 @@
+{
+    "Great Blue Heron": {
+        "Adult (Blue form)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314201-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314201-720px.jpg"
+            ],
+            "description": "Great Blue Herons have a larger yellow (not dark) bill than Sandhill Cranes. They also have black feathers on their head and lack the red crown patch seen on Sandhill Cranes."
+        }
+    },
+    "Whooping Crane": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40623921-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40623921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40623921-720px.jpg"
+            ],
+            "description": "Whooping Cranes are larger than Sandhill Cranes with entirely white (not gray) bodies."
+        },
+        "Adult with juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40623981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40623981-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40623981-720px.jpg"
+            ],
+            "description": "Juvenile Whooping Cranes are brownish above and white below, not gray like juvenile Sandhill Cranes."
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "Cassin's Kingbird": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65683151-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65683151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683151-1280px.jpg"
+            ],
+            "description": "Cassin's Kingbirds have a darker gray chest and head than Western Kingbirds. The tail feathers on Cassin's are tipped in white while Western Kingbirds show with outer tail feathers in flight."
+        }
+    },
+    "Tropical Kingbird": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/36815591-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/36815591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/36815591-720px.jpg"
+            ],
+            "description": "The yellow on the chest of Tropical Kingbirds extends farther up the chest than it does on Western Kingbirds. In flight, Tropical Kingbirds have a plain tail while Western Kingbirds have white outer tail feathers."
+        }
+    },
+    "Couch's Kingbird": {
+        "Unknown Type": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70194181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70194181-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70194181-720px.jpg"
+            ],
+            "description": "The yellow on the chest of Couch's Kingbirds extends farther up the chest than it does on Western Kingbirds. In flight, Couch's Kingbirds have a plain tail while Western Kingbirds have white outer tail feathers."
+        }
+    },
+    "Ash-throated Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65682561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65682561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65682561-1280px.jpg"
+            ],
+            "description": "Ash-throated Flycatchers have a paler yellow belly than Western Kingbirds. They also have cinnamon in the wings and the tail that Western Kingbirds lack."
+        }
+    },
+    "Great Crested Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65682771-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65682771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65682771-1280px.jpg"
+            ],
+            "description": "Great Crested Flycatchers have a paler yellow belly and a browner crown than Western Kingbirds. They also have cinnamon in the wings and the tail that Western Kingbirds lack."
+        }
+    }
+}

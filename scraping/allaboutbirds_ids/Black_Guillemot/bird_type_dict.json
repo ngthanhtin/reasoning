@@ -1,0 +1,74 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302773181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302773181-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302773181-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66029531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66029531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66029531-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302774191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302774191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302774191-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66029511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66029511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66029511-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66029521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66029521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66029521-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized black-and-white seabird with a thin and sharp bill. Note red legs.",
+            "Potbellied black seabird with white underwings bordered in black.",
+            "",
+            "Nests on rocky coastlines.",
+            "Black seabird with white wing patches and bright red legs and feet. Forages in waters close to shore."
+        ]
+    },
+    "Nonbreeding adult and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302773691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302773691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302773691-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302773351-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302773351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302773351-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302774141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302774141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302774141-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding birds have whitish heads and underparts.",
+            "Nonbreeding birds in the high arctic (mandtii subspecies) are whiter overall than nonbreeding birds in the Atlantic.",
+            ""
+        ]
+    },
+    "Breeding adults": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302773691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302773691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302773691-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Forages by diving, using its wings to propel itself underwater. Catches fish, worms, and other prey from near the bottom."
+        ]
+    }
+}

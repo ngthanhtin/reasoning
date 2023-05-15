@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64828081-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64828081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64828081-480px.jpg"
+        ],
+        "description": [
+            "A chunky, medium-sized shorebird with a long, straight bill and moderately long legs.",
+            "",
+            "Larger than a Lesser Yellowlegs, smaller than a Greater Yellowlegs.",
+            "",
+            "robin-sized",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64828031-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64828031-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64828031-480px.jpg"
+        ],
+        "description": [
+            "Breeding adults have brown, black, and gold upperparts and are pale orange with darker speckling below (colors limited to the neck and upper breast in eastern subspecies). Nonbreeding adults are quite plain, grayish brown above and pale below, with some speckling on breast and sides. Juveniles in fresh plumage have orange breast and dark feathers with striking gold edges above.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651012",
+        "description": [
+            "In saltwater environments, Short-billed Dowitchers feed most heavily during falling and rising tides, rapidly probing mudflats with their long bills in a sewing-machinelike motion. During highest and lowest tides, they rest and preen in flocks. During the breeding season, males make graceful song-flights over their territories.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64828061-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64828061-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64828061-480px.jpg"
+        ],
+        "description": [
+            "Breeds in boreal wetlands near treeline. Winters largely in saltwater estuaries and lagoons. Migrating birds utilize almost any freshwater or saltwater wetland with shallow water, as well as flooded agricultural fields and sewage ponds.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Three subspecies, readily identified in breeding plumage but otherwise very similar, are caurinus (breeding in Alaska), hendersoni (central and western Canada), and griseus (northeastern Canada). During the breeding season, these subspecies are mostly geographically separate, but the ranges of griseus and hendersoni come into contact along the southwestern shore of Hudson Bay. Of these three subspecies, the western caurinus is the most heavily marked below in breeding plumage, almost as strongly marked as Long-billed Dowitcher, and shows orange tones below as far as the legs. The central hendersoni is very lightly marked below and shows beautiful orange tones well past the legs, recalling Red Knot in breeding plumage. The eastern griseus shows extensive spotting on the breast and bars on the flanks but very little color below, mostly paler buff-orange on the neck and upper breast.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "Rose-breasted Grosbeak": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63733391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63733391-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63733391-720px.jpg"
+            ],
+            "description": "Rose-breasted Grosbeaks only overlap with Black-headed Grosbeaks in the Great Plains. Female Rose-breasted Grosbeaks tend to have more streaking on a whiter breast, whereas female Black-headed have an orange-buffy breast without streaking in the center. They also tend to have a whiter eyebrow."
+        }
+    },
+    "Blue Grosbeak": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67447331-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67447331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447331-720px.jpg"
+            ],
+            "description": "Female/immature Blue Grosbeaks lack the bold stripes on the head that female Black-headed Grosbeaks have."
+        }
+    },
+    "Spotted Towhee": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64991441-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64991441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64991441-720px.jpg"
+            ],
+            "description": "Spotted Towhees have a considerably smaller bill and a longer tail than Black-headed Grosbeaks. The orange coloring is restrict to their sides unlike the fully orange belly on adult male Black-headed Grosbeaks."
+        }
+    },
+    "Red-winged Blackbird": {
+        "Female (Red-winged)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg"
+            ],
+            "description": "Female Red-winged Blackbirds have a longer and more pointed bill than Black-headed Grosbeaks. Females also have bold streaking over the entire breast that female/immature Black-headed do not have."
+        }
+    },
+    "Bullock's Oriole": {
+        "Adult male ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67358881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67358881-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67358881-720px.jpg"
+            ],
+            "description": "Bullock\u2019s Orioles are slimmer overall with a thinner bill than Black-headed Grosbeaks. Adult males are brighter orange than the more muted cinnamon-colored grosbeak."
+        }
+    },
+    "Cassin's Finch": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67283541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67283541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283541-720px.jpg"
+            ],
+            "description": "Female/immature Cassin's Finches have considerably smaller bills, more uniform brown streaking throughout, less white in the wings, and lack the female Black-headed Grosbeak\u2019s buffy breast."
+        }
+    },
+    "Purple Finch": {
+        "Female/immature (Western)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67284201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67284201-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67284201-720px.jpg"
+            ],
+            "description": "Female/immature Purple Finches have considerably smaller bills, more uniform brown streaking throughout, less white in the wings, and lack the female Black-headed Grosbeak\u2019s buffy breast."
+        }
+    }
+}

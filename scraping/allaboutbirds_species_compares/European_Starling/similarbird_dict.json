@@ -1,0 +1,76 @@
+{
+    "Common Grackle": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67364561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364561-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67364561-720px.jpg"
+            ],
+            "description": "Common Grackles are larger with a longer tail than European Starlings. They also have dark legs, a dark bill, and yellow eyes whereas starlings have pinkish legs, a yellow bill (breeding birds), and a dark eye."
+        }
+    },
+    "Brewer's Blackbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67373991-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67373991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67373991-720px.jpg"
+            ],
+            "description": "Brewer's Blackbirds have a thicker and darker bill than the thin, pointed yellow bill on breeding European Starlings. Brewer's Blackbirds also do not show the intricate iridescent patterns like the starling."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67373981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67373981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67373981-1280px.jpg"
+            ],
+            "description": "Females could be confused with juvenile European Starlings, but they have a thicker bill and a longer tail."
+        }
+    },
+    "Rusty Blackbird": {
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67375011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67375011-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67375011-720px.jpg"
+            ],
+            "description": "Rusty Blackbirds are larger and chunkier than European Starlings. They also have a yellow eye whereas European Starlings have a dark eye."
+        },
+        "Nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67375041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67375041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67375041-720px.jpg"
+            ],
+            "description": "Nonbreeding male Rusty Blackbirds are mottled brown and black unlike the intricate iridescent pattern of European Starlings. They also have a yellow eye whereas starlings have a dark eye."
+        }
+    },
+    "Red-winged Blackbird": {
+        "Female (Red-winged) ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg"
+            ],
+            "description": "Female Red-winged Blackbirds are brown and heavily streaked unlike juvenile or nonbreeding European Starlings\u2014juveniles are tan and unstreaked and nonbreeding birds are heavily spotted."
+        }
+    },
+    "Brown-headed Cowbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362321-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362321-720px.jpg"
+            ],
+            "description": "Brown-headed Cowbirds have a thick conical bill whereas European Starlings have a thin and pointed bill."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362271-720px.jpg"
+            ],
+            "description": "Female Brown-headed Cowbirds could be confused with juvenile European Starlings, but cowbirds have a thick conical bill while starlings have a long and pointed bill."
+        }
+    }
+}

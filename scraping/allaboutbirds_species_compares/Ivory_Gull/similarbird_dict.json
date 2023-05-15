@@ -1,0 +1,28 @@
+{
+    "Ross's Gull": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68949051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68949051-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68949051-720px.jpg"
+            ],
+            "description": "In flight, Ross's Gulls are more slender than Ivory Gulls with darker wings and a wedge-shaped tail with long central tail feathers."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68949111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68949111-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68949111-720px.jpg"
+            ],
+            "description": "Ross's Gulls are smaller and more slender than Ivory Gulls, with light gray wings. Immature Ivory Gulls have black spots on the wings, but no Ivory Gull plumages have gray wings."
+        },
+        "First winter": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68949061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68949061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68949061-1280px.jpg"
+            ],
+            "description": "Immature Ross's Gulls have a striking black-and-gray wing pattern in flight and a dark-tipped, wedge-shaped tail, unlike the slender dark bars on the wings of immature Ivory Gulls."
+        }
+    }
+}

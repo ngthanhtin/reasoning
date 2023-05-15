@@ -1,0 +1,22 @@
+{
+    "Pelagic Cormorant": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/402057181-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/402057181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/402057181-720px.jpg"
+            ],
+            "description": "Pelagic Cormorants are slightly smaller and more slender than Red-faced Cormorants, with a very slender, dark bill."
+        }
+    },
+    "Double-crested Cormorant": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/402058641-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/402058641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/402058641-720px.jpg"
+            ],
+            "description": "Double-crested Cormorants are larger than Red-faced, with a large bill and thick neck usually held bent in flight. Double-crested lacks the white flank patch of breeding Red-faced."
+        }
+    }
+}

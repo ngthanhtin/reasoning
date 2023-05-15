@@ -1,0 +1,22 @@
+{
+    "Lapland Longspur": {
+        "Nonbreeding/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38661841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38661841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38661841-720px.jpg"
+            ],
+            "description": "Nonbreeding/immature Lapland Longspurs lack the Snow Bunting's white wing patch and they have streaking on their sides that nonbreeding Snow Buntings don't have."
+        }
+    },
+    "Horned Lark": {
+        "Female ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68927551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68927551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68927551-1280px.jpg"
+            ],
+            "description": "Female Horned Larks lack the Snow Bunting's white wing patch and they have a yellow (not white) throat."
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308521041-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308521041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308521041-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308521811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308521811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308521811-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308522281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308522281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522281-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308522281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308522281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522281-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308522821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308522821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522821-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308522861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522861-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308522371-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308522371-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Tiny, slim songbird with a thin, straight bill, and a long tail. Gray overall with a mostly black tail. Breeding males have a black cap.",
+            "Quickly hops from branch to branch in search for insects among desert trees and shrubs.",
+            "Breeding males have a black cap. Note the white ovals on an otherwise black tail.",
+            "Found in thorny scrublands featuring mesquite, creosote bush, ocotillo, and cactus in southwestern U.S. and northern Mexico.",
+            "",
+            "Tiny grayish songbird with a black tail that it often flicks. This video has no audio.",
+            "Small energetic bird with an expressive tail. The tail is mostly black except for white spots on the outer tail feathers. Those white edges form ovals on a closed tail as seen from beneath."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308521811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308521811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308521811-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308522861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522861-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Tiny songbird with a thin bill and long tail. Females are grayish above and whitish below. Their tail is mostly black with white tips on the outer tail feathers that are visible in flight and from underneath when perched.",
+            ""
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308522011-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308522011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308522011-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small and dainty with a small bill and long tail. Grayish above and white below. Note black line above the eye on nonbreeding males."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68033291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68033291-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68033291-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in desert scrub with ocotillo, prickly pear, cholla, and mesquite as well as washes densely lined with creosote and salt bush."
+        ]
+    }
+}

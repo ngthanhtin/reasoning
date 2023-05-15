@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64902381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64902381-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64902381-480px.jpg"
+        ],
+        "description": [
+            "A small songbird with classic warbler proportions, including a moderately long tail and a rather short, slender, straight bill.",
+            "",
+            "Larger than a Bushtit, smaller than a White-crowned Sparrow.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.5 in (14 cm)",
+            "Weight: 0.3-0.5 oz (9-13 g)",
+            "Wingspan: 7.9 in (20 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64902391-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64902391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64902391-720px.jpg"
+        ],
+        "description": [
+            "Breeding males have a golden-yellow head and a black throat, with a dark gray back and two white wingbars. The upper breast is white with blackish streaking. Adult females and nonbreeding males have similar patterning but with subdued colors.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648207",
+        "description": [
+            "Flits and hops quickly along high branches, typically of evergreens, to glean insects and spiders from branches and foliage. During migration and winter, joins mixed-species foraging flocks.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64902351-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64902351-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64902351-480px.jpg"
+        ],
+        "description": [
+            "Tall coniferous forests, especially fir, pine, spruce, Douglas-fir, redwood, and sequoia, usually in mountainous areas. Winters in pine, pine-oak, and cloud forest habitats in mountains of Mexico and northern Central America. Migrants also occur in stream corridors forests, at desert oases, and in suburban parks.",
+            ""
+        ]
+    }
+}

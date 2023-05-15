@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68929251-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg"
+        ],
+        "description": [
+            "A medium-sized woodpecker with a fairly square head, a long, straight, chisel-like bill, and stiff, long tail feathers to lean against on tree trunks. The bill is nearly the same length as the head.",
+            "About a third again larger than a Downy Woodpecker",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 7.1-10.2 in (18-26 cm)",
+            "Weight: 1.4-3.4 oz (40-95 g)",
+            "Wingspan: 13.0-16.1 in (33-41 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68929231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68929231-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68929231-480px.jpg"
+        ],
+        "description": [
+            "Hairy Woodpeckers are contrastingly black and white. The black wings are checkered with white; the head has two white stripes (and, in males, a flash of red toward the back of the head). A large white patch runs down the center of the black back."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238649257",
+        "description": [
+            "Hairy Woodpeckers hitch up tree trunks and along main branches. They sometimes feed at the bases of trees, along fallen logs, and even on the ground at times. They have the slowly undulating flight pattern of most woodpeckers."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68929221-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68929221-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68929221-720px.jpg"
+        ],
+        "description": [
+            "Hairy Woodpeckers are birds of mature forests across the continent. They\u2019re also found in woodlots, suburbs, parks, and cemeteries, as well as forest edges, open woodlands of oak and pine, recently burned forests, and stands infested by bark beetles."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Hairy Woodpeckers vary a great deal over their broad range. Northern birds tend to be larger than southern. East of the Rockies they are white below with extensively spotted wings while western birds have much less spotting in the wings and narrower facial stripes. Birds in the Pacific Northwest are brown and black (rather than white and black); they look coffee-stained. Interestingly, Downy Woodpeckers show these same regional patterns of variation."
+        ]
+    }
+}

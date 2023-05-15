@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64913381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64913381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64913381-720px.jpg"
+        ],
+        "description": [
+            "Canada Warblers are small, well-proportioned birds with a straight, sharp bill. Compared to other warblers, they have a slightly longer tail with a fuller chest.",
+            "",
+            "Larger than a Wilson's Warbler, smaller than a Red-eyed Vireo.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.7-5.9 in (12-15 cm)",
+            "Weight: 0.3-0.5 oz (9-13 g)",
+            "Wingspan: 6.7-8.7 in (17-22 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64913361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64913361-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64913361-480px.jpg"
+        ],
+        "description": [
+            "Canada Warblers are steely blue-gray above and bright yellow below with an obvious whitish eyering. The most noticeable feature is the broken black necklace across the chest on adult males. Females also have a necklace, but it's not as bold.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648323",
+        "description": [
+            "Moves rapidly, hopping and fluttering between branches in the understory often with its tail cocked.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64913431-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64913431-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64913431-720px.jpg"
+        ],
+        "description": [
+            "Found in mixed conifer and deciduous forests with a shrubby understory. It frequents forest slopes filled with rhododendrons in the southern Appalachian Mountains, aspen and poplar forests in Canada, and forested wetlands in the central part of its range.",
+            ""
+        ]
+    }
+}

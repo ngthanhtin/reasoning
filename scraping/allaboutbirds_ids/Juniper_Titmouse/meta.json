@@ -1,0 +1,41 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68044111-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68044111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68044111-480px.jpg"
+        ],
+        "description": [
+            "The Juniper Titmouse is a small songbird, but the long body, short neck, and medium-long tail makes it appear bigger than it is. A short crest gives the fairly large head a pointed silhouette. The short bill is fairly thick and round.",
+            "Larger than a Bushtit, smaller than a Dark-eyed Junco.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68044081-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68044081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68044081-720px.jpg"
+        ],
+        "description": [
+            "The Juniper Titmouse is gray overall with a slightly paler gray belly. The dark eye stands out on an otherwise plain gray bird. The bill is also dark."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/237957040",
+        "description": [
+            "Juniper Titmice are acrobats of the pinyon-juniper forest. Their strong feet allow them to hang upside down from branches while they forage for seeds and insects. They hop and fly in an undulating motion between trees and shrubs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68044091-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68044091-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68044091-720px.jpg"
+        ],
+        "description": [
+            "The Juniper Titmouse occurs in pinyon pine and juniper woodlands from about 2,250-8,000 feet. These cavity-nesting birds tend to nest in mature woodlands, where older pinyon and juniper trees offer a ready supply of cavities for nesting."
+        ]
+    }
+}

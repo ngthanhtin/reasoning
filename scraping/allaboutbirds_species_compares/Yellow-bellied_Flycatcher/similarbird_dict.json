@@ -1,0 +1,42 @@
+{
+    "Least Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65617801-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65617801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65617801-720px.jpg"
+            ],
+            "description": "Least Flycatchers are slightly smaller than Yellow-bellied Flycatchers with a smaller bill. They have paler bellies compared to Yellow-bellied Flycatchers, although beware of paler worn birds (especially in summer). Least sing a harsh che-beck, whereas Yellow-bellied sing a softer che-lek."
+        }
+    },
+    "Acadian Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/36209501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/36209501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/36209501-1280px.jpg"
+            ],
+            "description": "Acadian Flycatchers have whitish underparts while Yellow-bellied Flycatchers have yellowish underparts including the chin and throat. Note vocal differences."
+        }
+    },
+    "Alder Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32803181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32803181-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32803181-720px.jpg"
+            ],
+            "description": "Alder Flycatchers have a very narrow eyering while Yellow-bellied Flycatchers have a more obvious eyering. Alder also has a paler belly compared to Yellow-bellied's yellow-olive belly."
+        }
+    },
+    "Willow Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38663041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38663041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38663041-720px.jpg"
+            ],
+            "description": "Willow Flycatchers have a very narrow (often nonexistent) eyering, while Yellow-bellied Flycatchers have a more obvious eyering. Willow also has a paler belly compared to Yellow-bellied's yellow-olive belly."
+        }
+    }
+}

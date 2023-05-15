@@ -1,0 +1,68 @@
+{
+    "Breeding": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67630431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67630431-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67630391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67630391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630391-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67630421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67630421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630421-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67630401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67630401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630401-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small auk with round head and very thick, short bill. In breeding plumage, note dark throat. Pale eye, orange bill, and single white streak behind eye visible all year.",
+            "Small auk with round head and very thick, short bill. All-dark upperparts with pale streak behind eye.",
+            "In flight, note all-dark upperparts contrasting with white underparts.",
+            "Pairs perform displays including coordinated calling and \"billing\" or rubbing the bills together, near nesting sites during breeding season."
+        ]
+    },
+    "Breeding and nonbreeding": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67631201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small auk with very thick, short, orange bill. Nonbreeding birds (right) have white extending up onto the throat; breeding birds have dark throats."
+        ]
+    },
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67631201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically selects nesting sites along high cliffs with rocky crevices or within steep grassy slopes where burrowing is possible. Occasionally chooses to use abandoned burrows from previous auklet pairs."
+        ]
+    },
+    "Breeding adult with Least Auklet": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67630441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630441-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds on rocky cliffs and slopes on islands of the Bering Sea; forages and winters at sea."
+        ]
+    }
+}

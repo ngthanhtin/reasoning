@@ -1,0 +1,98 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979771-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979601-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979591-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979591-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299326841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299326841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299326841-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299326851-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299326851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299326851-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with long tail and pink bill. Gray head with extensive black face and bib. Streaky brown upperparts; white belly with streaked flanks.",
+            "Foraging at a feeding station with House Sparrow, White-winged Dove, Gambel's Quail, House Finch and White-crowned Sparrow.",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979601-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, plump sparrow with pink bill. Nonbreeding adults are brown on the face and washed brown on the flanks. Black bib is variable in size and may contain white in winter."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979561-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979561-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979591-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979591-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299326851-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299326851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299326851-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979791-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979791-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299326731-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299326731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299326731-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with pink bill and long tail. Immatures have buffy-brown heads and a white throat outlined by dark \"mustache\" stripes and the streaky beginnings of a bib.",
+            "Large sparrow with pink bill and long tail. Immature has brown head and white throat outlined by dark \"mustache\" stripes.",
+            "",
+            "Large, plump sparrow with pink bill, buffy brown head, and dark brown streaks on the flanks. Back is brown with blackish stripes.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299326731-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299326731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299326731-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in patchy forest and tundra of northern Canada. Winters in grasslands and shrubby areas including agricultural fields, prairie, old fields, and thickets along streams."
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Prairie Warbler": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64895071-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64895071-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64895071-720px.jpg"
+            ],
+            "description": "Prairie Warbler is smaller than Palm Warbler, with black (not brown or rusty) stripes on the flanks."
+        },
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64895061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64895061-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64895061-720px.jpg"
+            ],
+            "description": "Smaller than Palm Warbler with black (not brown or rusty) stripes on the flanks and no prominent eyebrow."
+        }
+    },
+    "Cape May Warbler": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64516241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64516241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64516241-1280px.jpg"
+            ],
+            "description": "Cape May Warblers are smaller than Palm Warblers with rusty on the face but not on the crown or breast like Palm Warblers. Generally not found on the ground and does not bob tail like Palm Warblers."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64516221-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64516221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64516221-1280px.jpg"
+            ],
+            "description": "Female and immature Cape May Warbler is smaller than Palm Warbler with a shorter tail and no eyebrow stripe. Often found in the canopy and does not bob tail like Palm Warblers."
+        }
+    },
+    "Yellow-rumped Warbler": {
+        "Adult male (Myrtle)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66119031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66119031-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66119031-720px.jpg"
+            ],
+            "description": "Yellow-rumped Warblers have yellow on the rump (above the tail) not under the tail as in Palm Warblers. Found in trees and shrubs, not on the ground like Palm Warblers."
+        },
+        "Female (Myrtle)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66119021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66119021-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66119021-720px.jpg"
+            ],
+            "description": "Female Yellow-rumped can be brownish like Palm Warbler, but they have white under the tail and yellow above the tail whereas Palm Warblers have yellow under the tail."
+        }
+    },
+    "Louisiana Waterthrush": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63000191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63000191-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63000191-720px.jpg"
+            ],
+            "description": "Louisiana Waterthrushes are larger than Palm Warblers with white (not yellow) undertail coverts."
+        }
+    },
+    "Northern Waterthrush": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63002141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63002141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63002141-1280px.jpg"
+            ],
+            "description": "Northern Waterthrushes are larger than Palm Warblers with white (not yellow) undertail coverts."
+        }
+    },
+    "American Pipit": {
+        "Nonbreeding/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67453391-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67453391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67453391-1280px.jpg"
+            ],
+            "description": "American Pipits are plainer, streakier birds without the yellow tones of Palm Warblers."
+        }
+    }
+}

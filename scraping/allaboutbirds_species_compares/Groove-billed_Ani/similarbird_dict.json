@@ -1,0 +1,22 @@
+{
+    "Smooth-billed Ani": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/53480501-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53480501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/53480501-720px.jpg"
+            ],
+            "description": "Smooth-billed Ani has a taller bill and more feathers around the eye than Groove-billed Ani. They can also be separated by voice."
+        }
+    },
+    "Fish Crow": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70580021-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70580021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70580021-720px.jpg"
+            ],
+            "description": "Fish Crows have a thinner and pointer bill than the parrot-shaped bill on Groove-billed Ani."
+        }
+    }
+}

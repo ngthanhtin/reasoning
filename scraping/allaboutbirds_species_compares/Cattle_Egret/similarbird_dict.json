@@ -1,0 +1,32 @@
+{
+    "Great Egret": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70610211-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70610211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610211-1280px.jpg"
+            ],
+            "description": "Great Egrets are much larger than Cattle Egrets with a much longer and thinner neck. In flight, Great Egrets have much slower and deeper wingbeats than Cattle Egrets."
+        }
+    },
+    "Snowy Egret": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70611051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70611051-720px.jpg"
+            ],
+            "description": "Snowy Egrets are taller and more slender than Cattle Egrets. They have a black bill, whereas adult Cattle Egrets have a yellow bill. Snowy Egrets are usually found in wetter habitats than Cattle Egrets."
+        }
+    },
+    "Little Blue Heron": {
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70689341-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70689341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70689341-720px.jpg"
+            ],
+            "description": "Juvenile Little Blue Herons are mostly white, but they are more slender than Cattle Egrets, with greener legs and more grayish at the base of the bill."
+        }
+    }
+}

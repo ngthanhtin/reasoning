@@ -1,0 +1,104 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303339391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303339391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303339391-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small gull with a thin black bill. Breeding adults have an entirely black head with thin white eye crescents and red legs."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71311591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71311591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71311591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/169495621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169495621-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/169495621-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small and delicate looking gull with a thin black bill. Nonbreeding adults have a black smudge behind the eye and pink legs.",
+            "In flight, nonbreeding adults have a white tail and black tips on the primaries."
+        ]
+    },
+    "Breeding adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71311591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71311591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71311591-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found along lakes, rivers, marshes, bays, and beaches. Note thin black bill, dark hood on the adult, and black ear patch on the immature."
+        ]
+    },
+    "First winter": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71311531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71311531-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71311531-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303339751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303339751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303339751-480px.jpg"
+            ]
+        ],
+        "description": [
+            "First winter birds have a black smudge behind the eye and a black bar across the wings that is visible on resting and flying birds.",
+            "First winter birds show the characteristic \"M\" pattern on the back and have pale underwings, only showing black on the tips of the feathers. Note black tail band."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303339601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303339601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303339601-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71311521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71311521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71311521-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are a patchwork of brown and gray, but note the dark spot behind the eye.",
+            "Juveniles have a black \"M\" pattern with a mottled brown-and-gray body."
+        ]
+    },
+    "First summer": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303339671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303339671-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303339671-480px.jpg"
+            ]
+        ],
+        "description": [
+            "First summer birds start to acquire black feathers on the head. Note dark spot behind the eye."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71311601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71311601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71311601-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds around lakes and marshes in the boreal forest. Winters along lakes, rivers, marshes, bays, and beaches along the coast."
+        ]
+    }
+}

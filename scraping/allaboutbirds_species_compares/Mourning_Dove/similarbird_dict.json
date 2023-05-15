@@ -1,0 +1,72 @@
+{
+    "Eurasian Collared-Dove": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66035091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66035091-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66035091-720px.jpg"
+            ],
+            "description": "Eurasian-collared Dove has a square-tipped tail and a black crescent on the back of the neck rather than the Mourning Dove's tapered tail and black cheek smudge. They also lack the Mourning Dove's dark wing spots."
+        }
+    },
+    "White-winged Dove": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg"
+            ],
+            "description": "White-winged Doves have short, square-tipped tails rather than Mourning Dove's long, tapered tail. The White-winged's wing patch is visible even at rest."
+        }
+    },
+    "Rock Pigeon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66031271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66031271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66031271-720px.jpg"
+            ],
+            "description": "Rock Pigeons are larger than Mourning Doves and have shorter tails with overall gray rather than brown plumage."
+        }
+    },
+    "Band-tailed Pigeon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66034641-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66034641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66034641-720px.jpg"
+            ],
+            "description": "Band-tailed Pigeons are larger than Mourning Doves with square-tipped tails and overall dark grayish, rather than pale brown, plumage."
+        }
+    },
+    "White-tipped Dove": {
+        "Adult (White tipped) ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40627871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40627871-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40627871-720px.jpg"
+            ],
+            "description": "White-tipped Doves are darker gray above than Mourning Doves and have square-tipped tails."
+        }
+    },
+    "Common Ground Dove": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66036531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66036531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66036531-1280px.jpg"
+            ],
+            "description": "Common Ground-Doves are smaller than adult Mourning Doves and have short, square-tipped tails. Compared with juvenile Mourning Doves, they have less scaling and a bright red or pink base to the bill."
+        }
+    },
+    "Inca Dove": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66035501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66035501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66035501-1280px.jpg"
+            ],
+            "description": "Inca Doves are smaller than adult Mourning Doves and are extensively scaled, with chestnut wing patches that are visible in flight. The square-tipped tail helps set it apart from juvenile Mourning Doves."
+        }
+    }
+}

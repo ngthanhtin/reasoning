@@ -1,0 +1,86 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/245438551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/245438551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/245438551-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/245438621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/245438621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/245438621-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/245438621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/245438621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/245438621-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky with a conical bill. Males are glossy black overall.",
+            "",
+            "Song is a bubbling purring, followed by an ascending series of short, high notes."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/245438591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/245438591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/245438591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/245438591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/245438591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/245438591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/53489301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/53489301-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized bird with a conical, sharply pointed bill. Females are tan overall with a faint paler eyebrow.",
+            "Note the fairly long, thick-based bill that comes to a sharp point, characteristic of cowbirds.",
+            "Chunky bird with a conical bill. Females are tan overall and have little to no streaking on the belly."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/53489351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489351-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/53489351-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are dull brown with a streaky belly."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/53489311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often feeds in mixed flocks of other blackbirds on the ground or in trees and shrubs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/53489321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489321-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in open or semiopen habitats, especially agricultural areas with patches of trees and shrubs."
+        ]
+    }
+}

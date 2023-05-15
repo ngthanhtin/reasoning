@@ -1,0 +1,116 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302124271-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302124271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302124271-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302126591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302126591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302126591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63912481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912481-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63912481-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, compact duck with a stout, scoop-shaped bill, and a long, stiff tail that is often held up. Breeding males have a blue bill and chestnut bodies.",
+            "Small, compact duck. Breeding males have a blue bill and a white cheek patch.",
+            "Males stick their tails straight up while striking their bills against their inflated necks, creating bubbles in the water during courtship displays."
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161973051-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/161973071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161973071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/161973071-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63912471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912471-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63912471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "",
+            "Small, compact ducks with a stout, scoop-shaped bill. Females have a whitish cheek with a black stripe across it."
+        ]
+    },
+    "Nonbreeding male (Ruddy)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161973051-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small and compact diving duck that sits relatively low in the water. Sometimes it cocks its tail up above the water and other times lays it flat on the water's surface."
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63912441-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63912441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912441-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63912461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912461-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, compact duck with a big head and scoop-shaped bill. Nonbreeding males have a dark cap and solid white cheek.",
+            "Small, compact ducks with a stout, scoop-shaped bill, and a long, stiff tail often held up. Nonbreeding males have a dark cap and a white cheek."
+        ]
+    },
+    "Female and chick (North American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302124671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302124671-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302124671-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63912451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63912451-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Compact shape, raised tail, and white cheek distinctive at a distance. Often congregates in groups on lakes during the winter."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302127451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302127451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302127451-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in wetlands and reservoirs with dense emergent vegetation."
+        ]
+    }
+}

@@ -74,7 +74,7 @@ def page_scraper(species, url):
             time.sleep(1)
 
     # fetch the species compare url
-    if os.path.isfile(BIRD_PAGE_FOLDER+'/'+species+'/species_compare.html'):
+    if os.path.isfile(BIRD_PAGE_FOLDER+'/'+species+'/species-compare.html'):
         print(f'The scpecies_compare page for {species} is already there!!!')
     else:
         print(f'Scraping Species compare page {id_url}')

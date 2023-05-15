@@ -1,0 +1,140 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305535681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305535681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305535681-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305535961-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305535961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305535961-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305535961-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305535961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305535961-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68280341-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68280341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280341-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, broad-chested swallow with a slightly hooked bill and long, tapered wings. Adult males are iridescent, dark blue-purple overall with brown-black wings and tail.",
+            "In flight, note long, tapered wings and forked tail. Adult males are dark purplish overall, but often appear black.",
+            "Adult males are iridescent, dark blue-purple overall, but often look black.",
+            "In the East, nests with other Purple Martins in artificial nest boxes clustered together in groups."
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305538661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305538661-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305536141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305536141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305536141-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305538771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538771-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305538771-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305538881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538881-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large and chunky swallow. Females/immatures are duller, with variable amounts of gray on the head and chest and a dingy lower belly. Note gray collar around the neck.",
+            "Females/immatures in flight look brownish below with a paler speckled belly.",
+            "Large and long-bodied with a small head and bill. Females/immatures are duller, with variable amounts of gray on the head and chest and a dingy lower belly with variable amounts of speckling.",
+            ""
+        ]
+    },
+    "Female with young": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305538661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305538661-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Purple Martins commonly utilize artificial nest box colonies when raising their young."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305536381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305536381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305536381-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305536291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305536291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305536291-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305538771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538771-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305538771-480px.jpg"
+            ]
+        ],
+        "description": [
+            "A Purple Martin's dark body, long wings, and notched tail are all easily visible in flight."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305538881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538881-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often perches on wires and other manmade structures to rest, preen, or sunbathe."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280351-720px.jpg"
+            ]
+        ],
+        "description": [
+            "In the West, nests in holes in trees with dozens of martins nesting nearby."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305538871-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305538871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305538871-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

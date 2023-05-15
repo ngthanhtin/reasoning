@@ -1,0 +1,50 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63898051-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63898051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63898051-480px.jpg"
+        ],
+        "description": [
+            "Harlequin Ducks are small, compact waterfowl with a large, rounded head, small bill, and a steep forehead.",
+            "",
+            "Larger than a Bufflehead, smaller than a Mallard.",
+            "",
+            "crow-sized",
+            "Sex: Male",
+            "Length: 13.4-18.1 in (34-46 cm)",
+            "Weight: 17.3-26.8 oz (490-760 g)",
+            "Wingspan: 22.1-26.0 in (56-66 cm)",
+            "Female"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63898021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63898021-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63898021-480px.jpg"
+        ],
+        "description": [
+            "Breeding male Harlequin Ducks are a spectacular slate blue with white stripes and chestnut sides. The head is elaborately marked with a white crescent in front of the eye, and chestnut highlights on the brow. Females are overall grayish-brown, with white around the bill and eye, and a neat white spot on the rear of the cheek.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240081257",
+        "description": [
+            "Harlequin Ducks dive for aquatic invertebrates often in turbulent rivers and coastal waters.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63898031-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63898031-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63898031-480px.jpg"
+        ],
+        "description": [
+            "Breeds in mountain streams and rivers, often in and around whitewater, and usually in forested areas. Winters along rocky coastlines exposed to rough water.",
+            ""
+        ]
+    }
+}

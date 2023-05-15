@@ -1,0 +1,104 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64803561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803561-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64803521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803521-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64803541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803541-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64803541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64803531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64803531-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64803571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803571-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Somewhat stocky and stout billed for a warbler. Often holds tail up above wings. Breeding males have a yellow crown, black mask, white cheeks, and chestnut sides.",
+            "Sweet whistled song ends abruptly; often likened to saying \"pleased-to-pleased-to-meet-you.\"",
+            "Chestnut sides and yellow crown are distinctive. Extent of chestnut on the sides varies among individuals. Often holds tail up above wings.",
+            "Breeds in scrubby woodlands, forest edges, and other thick, regrowing areas.",
+            ""
+        ]
+    },
+    "Breeding female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64803521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803521-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64803501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64803501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeding females are paler than males with less streaking on the back. Note yellow crown and chestnut sides.",
+            ""
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64803551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64803551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803551-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often holds tail up above wings. Females/immature males have bright yellow-green crown and white eyering on a gray face. They have little to no chestnut on the flanks."
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64803501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64803501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stout-billed for a warbler. Nonbreeding males have chestnut sides, a yellow crown and back, and a pale face with a white eyering."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64803531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64803531-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64803571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64803571-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in early successional deciduous woods. Uses a variety of forested and shrubby areas during migration."
+        ]
+    }
+}

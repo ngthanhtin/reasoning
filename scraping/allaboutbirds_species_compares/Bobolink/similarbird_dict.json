@@ -1,0 +1,56 @@
+{
+    "Lark Bunting": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64974701-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64974701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64974701-720px.jpg"
+            ],
+            "description": "Breeding male Lark Buntings have large white patches on the wing but not on the back or rump like breeding male Bobolinks."
+        },
+        "Nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64974691-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64974691-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64974691-720px.jpg"
+            ],
+            "description": "Nonbreeding male Lark Buntings have dark streaking down the belly and are darker overall than female/nonbreeding Bobolinks, which have unstreaked bellies. Also note white wing patch on Buntings, but not on female/nonbreeding Bobolinks."
+        },
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64974711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64974711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64974711-1280px.jpg"
+            ],
+            "description": "Female/immature Lark Buntings have streaked bellies while female/nonbreeding Bobolinks have streaked backs. They also have thicker bills than Bobolinks."
+        }
+    },
+    "Red-winged Blackbird": {
+        "Breeding male (Red-winged)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744251-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744251-720px.jpg"
+            ],
+            "description": "Breeding male Red-winged Blackbirds are entirely black except for the red and yellow shoulder patches unlike male Bobolinks, which are black and white overall."
+        },
+        "Female (Red-winged)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg"
+            ],
+            "description": "Female Red-winged Blackbirds are darker overall and more heavily streaked throughout than female/nonbreeding Bobolinks."
+        }
+    },
+    "Grasshopper Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32804001-1280px.jpg"
+            ],
+            "description": "Grasshopper Sparrows have more complicated head patterns, with streaks on the back of the neck instead of the Bobolink\u2019s smooth, buffy head."
+        }
+    }
+}

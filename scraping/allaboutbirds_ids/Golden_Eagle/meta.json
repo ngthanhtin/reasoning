@@ -1,0 +1,43 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60322141-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60322141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60322141-720px.jpg"
+        ],
+        "description": [
+            "Golden Eagles are one of the largest birds in North America. The wings are broad like a Red-tailed Hawk's, but longer. At distance, the head is relatively small and the tail is long, projecting farther behind than the head sticks out in front.",
+            "goose-sized or larger",
+            "Sex: Both Sexes",
+            "Length: 27.6-33.1 in (70-84 cm)",
+            "Weight: 105.8-216.1 oz (3000-6125 g)",
+            "Wingspan: 72.8-86.6 in (185-220 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60322131-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60322131-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60322131-480px.jpg"
+        ],
+        "description": [
+            "Adult Golden Eagles are dark brown with a golden sheen on the back of the head and neck. For their first several years of life, young birds have neatly defined white patches at the base of the tail and in the wings."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651446",
+        "description": [
+            "Usually found alone or in pairs, Golden Eagles typically soar or glide with wings lifted into a slight \u201cV\u201d and the wingtip feathers spread like fingers. They capture prey on or near the ground, locating it by soaring, flying low over the ground, or hunting from a perch."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60322121-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60322121-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60322121-720px.jpg"
+        ],
+        "description": [
+            "Golden Eagles favor partially or completely open country, especially around mountains, hills, and cliffs. They use a variety of habitats ranging from arctic to desert, including tundra, shrublands, grasslands, coniferous forests, farmland, and areas along rivers and streams. Found mostly in the western half of the U.S., they are rare in eastern states."
+        ]
+    }
+}

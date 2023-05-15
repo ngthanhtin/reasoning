@@ -1,0 +1,104 @@
+{
+    "Adult (American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304986701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304986701-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304986701-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70692991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692991-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304986921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304986921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304986921-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky and compact heron. Often tucks neck into its body creating a hunchbacked look. Adults have a black cap and back that contrasts with its whitish to pale gray belly and gray wings.",
+            "Squat heron with hunchbacked posture, flat head, and fairly short legs.",
+            "Flies with its neck tucked in with only part of its feet trailing behind. In flight, note pale underparts."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70692991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692991-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70693021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70693021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70693021-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Thick-necked heron with a thick bill. Juveniles are brown and streaky overall. Note pale yellowish bill.",
+            "Juveniles are brown overall with heavy blurry streaking on their neck and white spotting on their wings."
+        ]
+    },
+    "Immature (American)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70693041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70693041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70693041-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature birds have a mix of juvenile and adult plumage. This individual has faint streaking on the chest, a dark gray cap, and a nearly complete dark gray back."
+        ]
+    },
+    "Adult (Eurasian)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304988101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304988101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304988101-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304988121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304988121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304988121-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Adult (Dusky)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70693051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70693051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70693051-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70692971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70692971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692971-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Residents in southern South America are darker brown overall with a gray cap.",
+            "Often stands motionless while watching for prey. Individuals in southern South America are darker below with a paler gray cap."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70692981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692981-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in wetland habitats including estuaries, marshes, streams, lakes, and reservoirs."
+        ]
+    }
+}

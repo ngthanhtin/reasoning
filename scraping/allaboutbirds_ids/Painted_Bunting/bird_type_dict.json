@@ -1,0 +1,92 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385111-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385111-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385121-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297337551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297337551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297337551-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky, finchlike bird with a stubby, thick, seed-eating bill. Adult males are unmistakable with their brilliant blue head, green back, red rump and red belly.",
+            "Feeds on seeds for the majority of the year, but eats more insects during the breeding season.",
+            "Males are stunningly colored with blue heads, red underparts, and green backs. Forages on the ground most often in dense cover, among grasses, or at seed feeders.",
+            "Breeds in dense brush, often adjacent to thick, grassy areas or woodland edges.",
+            "Males sing a sweet musical jumble when attracting mates or defending territories."
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385121-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67385101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385101-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females and immatures are a uniform, bright yellow-green overall, with a pale eyering.",
+            "Stocky bird with a finchlike conical bill. Females/immatures are yellow-green overall, with a pale eyering. Oftentimes appears dull overall, but in general appears greener than similar species."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297337611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297337611-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297337611-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Female and immature with House Finch": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67385101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385101-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Both local and vagrant Painted Buntings often seek out bird feeders as an easy source of food."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Usually occupies riparian thickets, shrubby areas, and open woodlands throughout the year."
+        ]
+    }
+}

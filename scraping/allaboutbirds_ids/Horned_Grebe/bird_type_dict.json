@@ -1,0 +1,92 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304534481-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304534481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304534481-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304534591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304534591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304534591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304535101-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304535101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304535101-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304535231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304535231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304535231-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65055731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65055731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65055731-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Fairly small grebe with short, straight bill. Breeding adults have black head with rich golden tufts, black back, and cinnamon neck, breast, and sides.",
+            "Fairly small grebe with head that appears large in breeding plumage thanks to puffy feathers. Note linear golden head tufts (\"horns\") and cinnamon neck and breast.",
+            "Courtship often happens during spring migration; pairs have several displays involving rearing up out of the water and coordinating their movements in \"dances.\"",
+            "",
+            "Breeds in small ponds and marshes, mainly north of 50 degrees North latitude; builds nest out of floating mass of vegetation."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304534591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304534591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304534591-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304535211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304535211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304535211-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65055741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65055741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65055741-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Fairly small grebe with small head and short, straight bill. Nonbreeding birds have black head sharply contrasting with white cheek, gray-black upperparts, and grayish white underparts. Note white-tipped bill.",
+            "",
+            "Often occurs in flocks and winters on large bodies of water, particularly saltwater but also freshwater to a lesser extent."
+        ]
+    },
+    "Molting adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304535701-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304535701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304535701-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304536651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304536651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304536651-480px.jpg"
+            ]
+        ],
+        "description": [
+            "When molting into breeding plumage, can show mix of gold or chestnut breeding coloration with grayish nonbreeding plumage.",
+            "In flight shows clean border of black cap with white neck. Leading edge of wing is dark in nonbreeding plumage. Feet are lobed, not webbed."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304534761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304534761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304534761-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small-bodied grebe with long neck and short, straight bill. Immatures resemble nonbreeding adults, with black cap and clean white cheek, but with grayish wash to neck."
+        ]
+    }
+}

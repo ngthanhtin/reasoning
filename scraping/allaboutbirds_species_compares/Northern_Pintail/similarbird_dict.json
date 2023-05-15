@@ -1,0 +1,60 @@
+{
+    "Cinnamon Teal": {
+        "Female/nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/174520431-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/174520431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/174520431-720px.jpg"
+            ],
+            "description": "The Cinnamon Teal is smaller than a Northern Pintail with a darker cap and shorter neck."
+        }
+    },
+    "Blue-winged Teal": {
+        "Female/nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60292821-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60292821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60292821-720px.jpg"
+            ],
+            "description": "The Blue-winged Teal is smaller than a Northern Pintail with a shorter neck and tail. The face and cap are often darker on female Blue-winged Teal than on Northern Pintail."
+        }
+    },
+    "Mallard": {
+        "Female (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60021801-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60021801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60021801-720px.jpg"
+            ],
+            "description": "A female Mallard has an orangish (not dark) bill, a shorter neck, and a darker crown than a female Northern Pintail."
+        }
+    },
+    "Green-winged Teal": {
+        "Female/nonbreeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893411-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893411-720px.jpg"
+            ],
+            "description": "The Green-winged Teal is smaller than a Northern Pintail with a darker crown and a buffy stripe at the rear not seen on a female Northern Pintail."
+        }
+    },
+    "Gadwall": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65533451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65533451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533451-720px.jpg"
+            ],
+            "description": "A female Gadwall has a shorter neck than a female Northern Pintail. It also has an orangish bill, whereas a female Northern Pintail has a black bill."
+        },
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65533461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533461-1280px.jpg"
+            ],
+            "description": "A Gadwall has a shorter neck than a Northern Pintail. Compared to a female Northern Pintail, a breeding male Gadwall has rusty feathers on the side that female pintail lack."
+        }
+    }
+}

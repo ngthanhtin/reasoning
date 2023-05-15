@@ -1,0 +1,58 @@
+{
+    "Bar-tailed Godwit": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/46320861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/46320861-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/46320861-720px.jpg"
+            ],
+            "description": "Bar-tailed Godwits are smaller than Marbled Godwits. Breeding birds have a cinnamon neck and underparts unlike breeding Marbled Godwits."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/46320841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/46320841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/46320841-720px.jpg"
+            ],
+            "description": "Nonbreeding Bar-tailed Godwits have a streaked gray back whereas nonbreeding Marbled Godwits have a marbled brown back."
+        }
+    },
+    "Black-tailed Godwit": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/45198481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/45198481-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/45198481-720px.jpg"
+            ],
+            "description": "The rare Black-tailed Godwit has a rusty-colored neck whereas the neck on Marbled Godwits is brownish."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/45198501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/45198501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/45198501-1280px.jpg"
+            ],
+            "description": "The rare Black-tailed Godwit during the nonbreeding season has a plain gray back while Marbled Godwit has a marbled back."
+        }
+    },
+    "Whimbrel": {
+        "Adult (Hudsonian)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64810251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810251-1280px.jpg"
+            ],
+            "description": "Whimbrels have a bill that curves downward not slightly upward like Marbled Godwits. They also have stripes on their head which Marbled Godwits lack."
+        }
+    },
+    "Long-billed Curlew": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64810681-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64810681-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64810681-720px.jpg"
+            ],
+            "description": "Long-billed Curlews have a longer bill that curves downward not slightly upward like Marbled Godwits."
+        }
+    }
+}

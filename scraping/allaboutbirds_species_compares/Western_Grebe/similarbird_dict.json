@@ -1,0 +1,32 @@
+{
+    "Clark's Grebe": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65074871-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65074871-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65074871-720px.jpg"
+            ],
+            "description": "Clark's Grebes have brighter yellow bills than Western Grebes, and the bill has a dark line along the top. The black cap of Clark's does not extend down to surround the eye, as it does on Western."
+        }
+    },
+    "Red-necked Grebe": {
+        "Nonbreeding": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65057141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65057141-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65057141-720px.jpg"
+            ],
+            "description": "Red-necked Grebes are smaller and less slender than Western Grebes. They have a stouter bill and are more gray-washed (less clean-cut black and white) than Western Grebes."
+        }
+    },
+    "Common Loon": {
+        "Nonbreeding/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63918031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63918031-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63918031-720px.jpg"
+            ],
+            "description": "Common Loons are larger and stockier than Western Grebes, with a shorter neck, a larger head, and a much heftier, daggerlike, all-dark bill."
+        }
+    }
+}

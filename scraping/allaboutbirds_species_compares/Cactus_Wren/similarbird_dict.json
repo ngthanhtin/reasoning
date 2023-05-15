@@ -1,0 +1,42 @@
+{
+    "Sage Thrasher": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32805051-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32805051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32805051-720px.jpg"
+            ],
+            "description": "Sage Thrashers are more slender than Cactus Wrens, with a shorter bill. They are also plainer and more gray-brown, lacking the heavily barred upperparts and strong white eyebrow of a Cactus Wren."
+        }
+    },
+    "Canyon Wren": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68036991-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68036991-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68036991-720px.jpg"
+            ],
+            "description": "Canyon Wrens are smaller than Cactus Wrens with a clean white throat and solid russet belly unlike Cactus Wrens. Canyon Wrens also tend to be in rockier canyons than Cactus Wrens."
+        }
+    },
+    "Rock Wren": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/39523701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39523701-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39523701-720px.jpg"
+            ],
+            "description": "Rock Wrens are much smaller, with a shorter tail, a fainter eyebrow stripe, and less heavy spotting and barring than Cactus Wrens. Rock Wrens also tend to be in rockier habitats while Cactus Wrens tend to be in cactus filled areas."
+        }
+    },
+    "Bewick's Wren": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68034921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68034921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68034921-1280px.jpg"
+            ],
+            "description": "Bewick\u2019s Wrens are less strongly marked than Cactus Wrens, with a clean gray-white belly and solid brown back, where as Cactus Wrens have a speckled belly and striped back."
+        }
+    }
+}

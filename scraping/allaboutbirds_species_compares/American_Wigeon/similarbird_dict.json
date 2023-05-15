@@ -1,0 +1,56 @@
+{
+    "Eurasian Wigeon": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40711281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40711281-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40711281-720px.jpg"
+            ],
+            "description": "Eurasian Wigeons can be separated from American Wigeons by their head and forehead color; Eurasians have a chestnut head and a buffy forehead and American Wigeons have a grayish brown head and a white crown."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40640171-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40640171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40640171-1280px.jpg"
+            ],
+            "description": "Female Eurasian Wigeons have a rustier head than female American Wigeons. Best told by the silver (not white) underwings on Eurasian Wigeons in flight."
+        }
+    },
+    "Green-winged Teal": {
+        "Breeding male (American)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893401-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893401-720px.jpg"
+            ],
+            "description": "Green-winged Teals are smaller than American Wigeons with a chestnut face and neck, and a vertical white bar on its side that wigeons lack."
+        },
+        "Female/nonbreeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893411-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893411-720px.jpg"
+            ],
+            "description": "Female Green-winged Teals are smaller than American Wigeons with a larger bill. They also have a creamy streak near the rear that wigeons lack."
+        }
+    },
+    "Gadwall": {
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65533461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533461-1280px.jpg"
+            ],
+            "description": "Breeding male Gadwalls lack the male American Wigeon's white forehead and have darker body plumage and bill than female American Wigeons."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65533451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65533451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533451-720px.jpg"
+            ],
+            "description": "Female Gadwalls can be separated from female American Wigeons by their longer orange bill."
+        }
+    }
+}

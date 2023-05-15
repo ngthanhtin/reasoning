@@ -1,0 +1,42 @@
+{
+    "Pacific Wren": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68036701-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68036701-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68036701-720px.jpg"
+            ],
+            "description": "The Pacific Wren is nearly identical to the Winter Wren, but there\u2019s almost no range overlap. Winter Wrens occur in the East and Pacific Wrens in the West\u2014west of the Great Plains, although the two species do come into contact in northeastern British Columbia in Canada."
+        }
+    },
+    "House Wren": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59860711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59860711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59860711-1280px.jpg"
+            ],
+            "description": "House Wrens are more widespread, less shy, and more likely to be found in backyards than Winter Wrens. House Wrens have longer tails than Winter Wrens and have less barring on the flanks."
+        }
+    },
+    "Marsh Wren": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68035331-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68035331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68035331-720px.jpg"
+            ],
+            "description": "Marsh Wrens have boldly streaked marks on their backs that Winter Wrens lack, and live in wet marshy areas, places that Winter Wrens avoid."
+        }
+    },
+    "Bewick's Wren": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68034931-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68034931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68034931-720px.jpg"
+            ],
+            "description": "Bewick\u2019s Wrens are larger than Winter Wrens with a clean white eyebrow, an unstreaked gray belly, and an unstreaked brown back."
+        }
+    }
+}

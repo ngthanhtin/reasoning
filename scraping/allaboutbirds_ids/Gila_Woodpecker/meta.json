@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64993581-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64993581-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64993581-480px.jpg"
+        ],
+        "description": [
+            "A medium-sized woodpecker with a long, pointed bill.",
+            "",
+            "Larger than a Ladder-backed Woodpecker, smaller than a Gilded Flicker.",
+            "",
+            "between robin and crow",
+            "Sex: Both Sexes",
+            "Length: 8.7-9.4 in (22-24 cm)",
+            "Weight: 1.8-2.8 oz (51-79 g)",
+            "Wingspan: 15.8-16.5 in (40-42 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64993561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64993561-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64993561-480px.jpg"
+        ],
+        "description": [
+            "Gila Woodpeckers are grayish brown birds with brilliant black-and-white barring on the wings, back, and tail. In flight, the outer wings are black with a crescent-shaped white patch at the base of the primary feathers. Males have a red patch in the center of the crown.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239739619",
+        "description": [
+            "Gila Woodpeckers spend much of the day foraging in taller desert vegetation (trees and saguaro cactus especially). The catch insects by pecking, gleaning, and probing, focusing on larger branches and trunks. In the morning and late afternoon they perch in conspicuous places, call frequently, and make short flights around their territories, often driving out other woodpeckers and many songbird species.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64993531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64993531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64993531-720px.jpg"
+        ],
+        "description": [
+            "Stands of saguaro cactus, desert scrub, arroyos and washes, and small towns.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "One subspecies is found in the United States and south through Mexico (uropygialis), while two subspecies (brewsteri, cardonensis) are endemic to Mexico\u2019s Baja California peninsula. The plumages of the subspecies differ only subtly.",
+            ""
+        ]
+    }
+}

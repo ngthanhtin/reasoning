@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308461461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308461461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308461461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308461621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308461621-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308461621-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308461621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308461621-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308461621-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308462881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308462881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308462881-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308462761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308462761-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308462761-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40628331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40628331-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40628331-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Long and slender with a stout bill that is yellow below and black above. Brown above with a peachy wash below. Note dark face mask.",
+            "Long and slender with a long tail that has large white spots as seen from below.",
+            "Often secretive and difficult to see. Sings a guttural \"coo.\"",
+            "",
+            "",
+            "Individuals show variation in plumage color. Those in the Lesser Antilles tend to be more cinnamon below."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308462771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308462771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308462771-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308462141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308462141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308462141-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in mangroves and woodland scrub. Perches motionless in thick vegetation where it can be hard to spot. Note yellow lower bill, peachy wash on belly and large white tail spots."
+        ]
+    }
+}

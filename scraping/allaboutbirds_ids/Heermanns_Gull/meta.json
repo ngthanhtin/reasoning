@@ -1,0 +1,33 @@
+{
+    "Size": {
+        "description": [
+            "A medium-sized gull with long wings, a fairly rounded head, and a straight, relatively long bill that is less heavy and angled than bills of larger gulls.",
+            "",
+            "Larger than a Mew Gull, slightly smaller than a California Gull.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 18.1-20.9 in (46-53 cm)",
+            "Weight: 13.1-22.7 oz (371-643 g)",
+            "Wingspan: 40.9-45.3 in (104-115 cm)"
+        ]
+    },
+    "Color": {
+        "description": [
+            "Breeding adults are dark gray above, gray below, with a white head, black legs, and a red bill with black tip. Nonbreeding adults are similar but with streaky heads. Immatures are very dark sooty brown overall, with a pale bill that shows a dusky tip.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "description": [
+            "Seizes small fish near the water\u2019s surface, either in flight or while sitting on the water. Also picks at marine animals and sometimes carrion at lower tides on beaches, tidepools, and estuaries. Often chases other seabirds to steal their fish, and groups often harass Brown Pelicans for fish still in their pouches. Breeds in dense colonies near Elegant Terns.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "description": [
+            "Nests on rocky islands, mostly in the Gulf of California. Forages in ocean waters, usually within sight of land, often with terns, pelicans, cormorants, boobies, and sea lions. Also forages along beaches and in sheltered harbors and estuaries. Very rare inland.",
+            ""
+        ]
+    }
+}

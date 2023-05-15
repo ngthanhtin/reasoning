@@ -1,0 +1,80 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/311371841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311371841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311371841-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67271841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67271841-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67271871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271871-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, heavyset finch with a very thick, conical bill. Adult males are yellow and black birds with a prominent white patch in the wings. Note bright-yellow stripe over the eye.",
+            "Flashy white wing patches help make it conspicuous in foliage. Also note hefty pale bill and yellow eyebrow.",
+            "Heavy-bodied finch with a hefty bill. Adult males are mustard yellow below with a brighter yellow eyebrow."
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67271841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67271841-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67271851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271851-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67271821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67271821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271821-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large and stocky finch with an enormous bill. Females/immatures are mostly gray, with white-and-black wings and a greenish-yellow tinge to the neck and flanks.",
+            "Females/immatures are grayish overall with a yellow wash on the neck. Note black-and-white wings with a white rectangular patch.",
+            "Uses its hefty bill to crush sunflower seeds at bird feeders."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/250755161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/250755161-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/250755161-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67271831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271831-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67271831-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67271881-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67271881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271881-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Makes very erratic movements south into the continental United States in some winters, when they can become common at backyard feeders.",
+            "Often found in flocks, particularly in winter in evergreen and deciduous forests."
+        ]
+    }
+}

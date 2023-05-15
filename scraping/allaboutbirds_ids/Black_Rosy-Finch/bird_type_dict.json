@@ -1,0 +1,104 @@
+{
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308040821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308040821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308040821-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63734811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63734791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734791-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized finch of alpine areas. Blackish brown overall with a gray crown and pink highlights on the wings and lower belly. The bill is yellow during the nonbreeding season and black during the breeding season.",
+            "Medium-sized finch of alpine areas. Blackish brown overall with a gray crown and pink highlights on the wings and lower belly. The bill is yellow during the nonbreeding season and black during the breeding season.",
+            "This nonbreeding adult has extensive pink on the belly unlike some others that show much less pink. Note blackish brown back, chest and cheeks that contrast with the gray crown."
+        ]
+    },
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63734811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63734781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63734781-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308039721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308039721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308039721-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308040181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308040181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308040181-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63734821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63734821-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Forage for seeds and insects along the margins of melting snow or in areas blown free of snow.",
+            "Breeding birds are darker black overall with a small gray crown, pink highlights on the wings and lower belly, and a dark bill.",
+            "Walks and hops along the ground while foraging for seeds and insects.",
+            "Breeds in alpine areas above treeline, usually near rock piles and cliffs.",
+            "Breeds in alpine areas, usually near rock piles, and cliffs. Winters in open country, including mountain meadows, high deserts, valleys, and plains."
+        ]
+    },
+    "Nonbreeding adult and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308039721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308039721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308039721-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308040181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308040181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308040181-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized finch with a conical seed-eating bill. Nonbreeding birds are grayish overall, some with little or no pink highlights on the wings or lower belly.",
+            "Chunky finch with a conical bill. Nonbreeding birds are blackish below with a gray crown, blackish cheeks, and a yellow bill. The amount of pink on the lower belly varies among individuals."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63734831-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63734831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734831-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are brownish overall with buffy wingbars."
+        ]
+    },
+    "Nonbreeding adult (with Brown-capped Rosy-Finch)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63734801-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63734801-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734801-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Forms flocks during the winter, sometimes with other rosy-finches. Note that it is much darker overall than Brown-capped Rosy-Finches."
+        ]
+    }
+}

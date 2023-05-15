@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67474361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67474361-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67474361-480px.jpg"
+        ],
+        "description": [
+            "Kinglets are tiny songbirds with relatively large heads, almost no neck, and thin tails. They have very small, thin, straight bills.",
+            "Smaller than a chickadee or warbler; about the same size as a Golden-crowned Kinglet.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 3.5-4.3 in (9-11 cm)",
+            "Weight: 0.2-0.3 oz (5-10 g)",
+            "Wingspan: 6.3-7.1 in (16-18 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67474351-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67474351-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67474351-720px.jpg"
+        ],
+        "description": [
+            "Ruby-crowned Kinglets are olive-green birds with a prominent white eyering and white wingbar. This wingbar contrasts with an adjacent blackish bar in the wing. The \u201cruby crown\u201d of the male is only occasionally visible."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643270",
+        "description": [
+            "These are restless, acrobatic birds that move quickly through foliage, typically at lower and middle levels. They flick their wings almost constantly as they go."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67474391-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67474391-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67474391-480px.jpg"
+        ],
+        "description": [
+            "Ruby-crowned Kinglets breed in tall, dense conifer forests such as spruce, fir, and tamarack. In winter and during migration, also look for them in shrubby habitats, deciduous forests, parks, and suburbs."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ruby-crowned Kinglets in coastal southern Alaska and British Columbia are slightly smaller and darker colored than elsewhere in their range."
+        ]
+    }
+}

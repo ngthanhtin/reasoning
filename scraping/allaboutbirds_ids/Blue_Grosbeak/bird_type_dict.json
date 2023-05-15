@@ -1,0 +1,92 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67447361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447361-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297329821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297329821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297329821-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297330031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297330031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297330031-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67447351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447351-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447351-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67447351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447351-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447351-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky songbird with a very large, triangular bill that seems to cover its entire face. Breeding males are deep blue overall with chestnut wingbars.",
+            "",
+            "Sings a warbling song while perched at high points in shrubs and small trees. Combination of large bill and deep blue color with chestnut wingbars is distinctive.",
+            "Found in old fields, hedgerows, and scrubby areas that are starting to grow back into woodlands. In drier regions, often found in shrubby areas along watercourses.",
+            ""
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297329821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297329821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297329821-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67447321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447321-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67447321-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky fincklike songbird with a hefty bill. Females/immatures are cinnamon overall with brown wingbars. Note unstreaked underparts.",
+            "Females/immatures are cinnamon brown overall with brown wingbars and unstreaked underparts. Note large triangular-shaped bill."
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67447341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447341-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Full-bodied with a large triangular-shaped bill. Nonbreeding males are patchy blue and cinnamon overall with chestnut wingbars."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297330031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297330031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297330031-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Breeding male and female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67447351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447351-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67447351-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

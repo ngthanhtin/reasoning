@@ -1,0 +1,22 @@
+{
+    "White Ibis": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70694411-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70694411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694411-720px.jpg"
+            ],
+            "description": "In flight, note that the White Ibis lack's the Wood Stork's entirely black primaries and secondaries."
+        }
+    },
+    "American White Pelican": {
+        "Flock": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70589251-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70589251-720px.jpg"
+            ],
+            "description": "The American White Pelican has a shorter neck, and a very large, yellowish bill, unlike the Wood Stork's longer neck and darker bill. The black on the wings doesn't extend across the entire wing as it does on Wood Stork."
+        }
+    }
+}

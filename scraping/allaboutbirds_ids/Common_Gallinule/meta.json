@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71546901-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71546901-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71546901-480px.jpg"
+        ],
+        "description": [
+            "Common Gallinules are medium-sized marsh birds with long legs and toes. In profile, note the small head, thin neck, and small, thin bill. Swimming birds frequently hold their wings up, such that the wingtips stick up on the back.",
+            "",
+            "Larger than a Sora, smaller than a Mallard.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 12.6-13.8 in (32-35 cm)",
+            "Weight: 10.9-16.1 oz (310-456 g)",
+            "Wingspan: 21.3-24.4 in (54-62 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71546991-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71546991-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71546991-480px.jpg"
+        ],
+        "description": [
+            "Common Gallinules are mostly charcoal gray birds with a white stripe down their sides and white outer tail feathers. Adults have a bright red shield on their forehead and a red bill tipped in yellow. Immature birds look similar to adults, but lack the red shield and bill.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/246011829",
+        "description": [
+            "Common Gallinules swim like a duck, pushing their head forward, and walk on top of marsh vegetation like the rail they are. When they walk they tend to crouch down and slowly flick their tail up revealing white undertail feathers. They often stay close to emergent marsh vegetation, but swim out in the open from time to time.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71546961-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71546961-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71546961-480px.jpg"
+        ],
+        "description": [
+            "They reside in freshwater or brackish marshes, ponds, and lakes with a mix of submerged, floating, and emergent vegetation and open water. They also forage in smaller ditches, canals, and rice fields.",
+            ""
+        ]
+    }
+}

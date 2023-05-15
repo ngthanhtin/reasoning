@@ -1,0 +1,52 @@
+{
+    "Swainson's Thrush": {
+        "Adult (Olive-backed)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67460781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67460781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67460781-1280px.jpg"
+            ],
+            "description": "Swainson\u2019s Thrushes have a bolder, buffy eyering compared with Hermit Thrush's thin white eyering. Swainson's tail does not contrast with the color of the back; Hermit's tail is redder than its brown back."
+        }
+    },
+    "Veery": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67469171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67469171-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67469171-720px.jpg"
+            ],
+            "description": "Veeries are entirely reddish brown with weaker breast spotting than Hermit Thrushes, which have a brown back and reddish tail."
+        }
+    },
+    "Gray-cheeked Thrush": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38662011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38662011-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38662011-720px.jpg"
+            ],
+            "description": "Gray-cheeked Thrushes are grayer overall without the contrasting reddish brown tail of Hermit Thrushes."
+        }
+    },
+    "Bicknell's Thrush": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39455251-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39455251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39455251-720px.jpg"
+            ],
+            "description": "Bicknell's Thrushes are grayer overall without the contrasting reddish brown tail of Hermit Thrushes."
+        }
+    },
+    "Wood Thrush": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67458521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67458521-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67458521-720px.jpg"
+            ],
+            "description": "Wood Thrushes have bold, black breast spots, so distinct that you can make out each individual spot, unlike the smudgy brown spots of Hermit Thrushes. Wood Thrushes are larger than Hermit Thrushes."
+        }
+    }
+}

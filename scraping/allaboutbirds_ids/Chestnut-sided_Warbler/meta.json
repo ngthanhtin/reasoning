@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64803501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64803501-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64803501-480px.jpg"
+        ],
+        "description": [
+            "An slim warbler with a relatively long tail that it often holds cocked, or raised above the body line, which makes the tail appear longer still.",
+            "",
+            "Larger than a Ruby-crowned Kinglet, smaller than a Song Sparrow.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.7-5.5 in (12-14 cm)",
+            "Weight: 0.4-0.5 oz (10.7-14.3 g)",
+            "Wingspan: 7.5-8.3 in (19-21 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64803561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64803561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64803561-720px.jpg"
+        ],
+        "description": [
+            "Breeding adults are crisp gray-and-white birds with a yellow crown, black face markings, and rich chestnut flanks. Males are more richly marked than females. In nonbreeding plumage, adults and immatures are bright lime-green above with a neat white eyering, two wingbars, and pale gray to white underparts.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643727",
+        "description": [
+            "Chestnut-sided Warblers flit and hop along slender branches, carefully inspecting the undersides of deciduous leaves. Look for them in saplings and shrubs more often than in tall trees. They often raise the tail and droop the wings as they move through the branches.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64803571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64803571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64803571-720px.jpg"
+        ],
+        "description": [
+            "They nest in young deciduous regrowth and other thickets, where small trees and shrubs have been regenerating for a few years after a disturbance such as logging or wind storm. They are also found in stunted highland oak forest at the southern end of their breeding range. Migrating and wintering birds are found in a great variety of brushy, successional, and mature forested environments.",
+            ""
+        ]
+    }
+}

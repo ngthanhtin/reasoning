@@ -1,0 +1,146 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60018911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60018911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018911-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60018901-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60018901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018901-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301259061-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301259061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301259061-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301259931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301259931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301259931-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Dark brown body contrasting with a pale brown head and yellow bill.",
+            "",
+            "In flight shows contrasting white underwings.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60018901-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60018901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018901-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60018891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018891-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60018891-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301260121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301260121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301260121-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301260121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301260121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301260121-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Dark brown body contrasting with a pale brown head and dull olive bill.",
+            "In flight shows dark bluish-purple secondaries bordered by black.",
+            "",
+            ""
+        ]
+    },
+    "Males and female with Mallards": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301259061-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301259061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301259061-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301262411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301262411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301262411-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The female has a darker and duller bill than the male, but is otherwise quite similar."
+        ]
+    },
+    "Male (hybrid with Mallard)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301255221-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301255221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301255221-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Males and females": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301255221-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301255221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301255221-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Female and chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301260251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301260251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301260251-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Male and female (with Mallard)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301265671-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301265671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301265671-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often flocks with other ducks, especially Mallards."
+        ]
+    },
+    "Flock (with Mallard)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301259851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301259851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301259851-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

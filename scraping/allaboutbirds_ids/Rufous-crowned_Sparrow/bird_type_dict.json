@@ -1,0 +1,74 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990421-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990401-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990401-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990411-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990411-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64990431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990431-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64990431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990431-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990441-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990441-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990441-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Long-tailed sparrow with rufous cap, white eyering, and strong white-and-black \"mustache\" or malar stripes.",
+            "Overall grayish sparrow with rusty stripes on the back. Strong face pattern with rufous crown, white eyering, and dark stripes at sides of the throat.",
+            "Walks or hops, pecking or scratching at the ground for seeds and insects often under the protective cover of shrubs or dense grasses.",
+            "Long-tailed, grayish sparrow with rusty stripes on back. Rufous cap and stripe through eye; white eyering.",
+            "Found in open, shrubby areas on dry slopes with patchy ground cover. Avoids dense woody habitats.",
+            "Males sing a mix of slurs and chatters with a bubbly quality reminiscent of a House Wren in spring and summer from exposed perches or while in flight.",
+            "Found in open, shrubby areas on dry slopes, often with areas of bare rock or patches of sparse grass.",
+            "Drinks water from small pools or gathers dew from vegetation. This video has no audio.",
+            "Look for Rufous-crowned Sparrows in spring or early summer when males sing in the early morning from exposed perches."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299671921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299671921-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299671921-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

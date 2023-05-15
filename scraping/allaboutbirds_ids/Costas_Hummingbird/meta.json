@@ -1,0 +1,41 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68930211-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68930211-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68930211-480px.jpg"
+        ],
+        "description": [
+            "Costa's Hummingbirds are small and compact hummingbirds with a hunched posture. Their short tail barely meets their short wings when perched. The male's gorget (throat patch) flares out along the sides of the neck like an overgrown mustache.",
+            "Larger than a Calliope Hummingbird, smaller than an Anna's Hummingbird.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68930221-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68930221-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68930221-480px.jpg"
+        ],
+        "description": [
+            "Adult male Costa's Hummingbirds have an iridescent purple crown and gorget, a green back, and a green vest. Females and immatures are greenish above with a white eyebrow stripe and whitish underparts."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239748254",
+        "description": [
+            "They drink nectar from many desert plants, especially chuparosa and ocotillo, and they snap up small flying insects in midair. Male Costa's Hummingbirds dive in a broad U-shaped pattern, while giving a high-pitched accelerating and decelerating whistle."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68930191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68930191-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68930191-480px.jpg"
+        ],
+        "description": [
+            "Costa\u2019s Hummingbirds occur in desert scrub in the Sonoran and Mojave Deserts, and chaparral and sage scrub areas in coastal California. During the nonbreeding season they use similar dry habitats as well as parks, gardens, and higher elevation mountains."
+        ]
+    }
+}

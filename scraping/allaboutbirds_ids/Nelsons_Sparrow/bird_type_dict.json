@@ -1,0 +1,92 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/311384101-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/311384101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311384101-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, flat-headed sparrow with a short bill and round belly. The face and breast have a pale orangish wash. The nape and cheek are gray. The breast is streaked."
+        ]
+    },
+    "Adult (Interior)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299389941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299389941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299389941-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299389941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299389941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299389941-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299390041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299390041-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299390041-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/38839211-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38839211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38839211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/38839211-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38839211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38839211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299390081-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299390081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299390081-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Interior populations are brighter and have well-defined cinnamon streaks on the flanks.",
+            "The song starts with a harsh introductory chip followed by a short, rasping trill.",
+            "",
+            "Small sparrow with a round belly and short bill. Washed in pale orange-buff with a gray cheek and nape.",
+            "During the breeding season, habitats used varies widely among geographically isolated populations. However, all populations inhabit tidal marshes in the southeastern United States during the nonbreeding season.",
+            ""
+        ]
+    },
+    "Adult (Atlantic Coast)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/38839651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38839651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38839651-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/38840641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38840641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38840641-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Atlantic populations are paler with blurry streaks on the flanks.",
+            "Breeds in wet meadows, marshes, and saltmarshes. Note \"pot-bellied\" look and orangish wash to the face and gray cheek patch."
+        ]
+    },
+    "Juvenile (Atlantic Coast)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299390251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299390251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299390251-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299390271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299390271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299390271-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    }
+}

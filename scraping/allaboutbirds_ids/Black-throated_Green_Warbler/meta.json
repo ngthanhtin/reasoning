@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64909671-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64909671-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64909671-720px.jpg"
+        ],
+        "description": [
+            "The Black-throated Green Warbler is a medium-sized warbler similar in size and shape to many others in the Setophaga genus. Plump and seemingly large-headed, with a thick, straight bill and shortish tail.",
+            "",
+            "Larger than a kinglet, smaller than a titmouse.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.3-4.7 in (11-12 cm)",
+            "Weight: 0.3-0.4 oz (7-11 g)",
+            "Wingspan: 6.7-7.9 in (17-20 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64909721-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64909721-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64909721-720px.jpg"
+        ],
+        "description": [
+            "These are olive-green birds, white below, with yellow faces and black on the front. Adult males are stunning, with a bright yellow face and extensive black on the throat turning to black streaks on the flanks. Two bright white wingbars. Females and young birds are patterned like males, but duller and lacking the extensive black on the throat.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668830",
+        "description": [
+            "Active and agile, Black-throated Green Warblers primarily forage for small insects hiding in the bases of the leaves of tall trees. Breeding males sing on exposed perches where their bright head is conspicuous. In fall migration and winter, they often join mixed-species flocks with resident birds.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64909691-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg"
+        ],
+        "description": [
+            "Black-throated Green Warblers use coniferous and mixed forests in the north, deciduous forests in the south, and coastal cypress swamps in the case of the unique \u201cWayne\u2019s\u201d subspecies. Migrating birds will frequent any woody habitat, even coming down from the canopy to forage on fruiting shrubs. Wintering birds are typically found in the canopies of tall mature forests in Middle America, but sometimes occur in secondary growth as well.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The southeastern \u201cWayne\u2019s\u201d subspecies, which occurs in coastal cypress swamps of Virginia and the Carolinas, is slightly smaller than other populations.",
+            ""
+        ]
+    }
+}

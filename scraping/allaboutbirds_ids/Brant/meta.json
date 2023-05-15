@@ -1,0 +1,56 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59942461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59942461-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59942461-480px.jpg"
+        ],
+        "description": [
+            "A compact, small goose with a stubby bill and a relatively short neck compared to most geese.",
+            "",
+            "Larger than a Mallard, smaller than a Canada Goose.",
+            "",
+            "goose-sized or larger",
+            "Sex: Male",
+            "Length: 23.3-24.5 in (59.2-62.2 cm)",
+            "Weight: 41.1-61.3 oz (1165-1737 g)",
+            "Wingspan: 41.3-42.5 in (105-108 cm)",
+            "Female"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59942441-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59942441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59942441-480px.jpg"
+        ],
+        "description": [
+            "Adults have a black head, neck, and breast with variable white neck markings. They have, brown wings, white undertail, and pale flanks and belly that can vary from pale brown (in eastern North America) to blackish (in the West). Juveniles have pale fringes on the wing coverts and little or no white on the neck.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238647042",
+        "description": [
+            "Brant spend most of the year in flocks. They forage by grazing or by swimming into shallow water and tipping forward to reach aquatic vegetation. Flocks form tight swarm-like groupings, less linear than skeins of Canada Geese. They give distinctive, grating calls that are often the first clue to their presence. On breeding grounds, they nest on the ground in small colonies near water.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59942481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59942481-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59942481-480px.jpg"
+        ],
+        "description": [
+            "Breeds in the Arctic on marshlands, islands, and tundra. Stops over in similar habitats to molt before migrating south. Winters on lagoons, estuaries, mudflats, and saltmarshes near sand spits, barrier beaches, and ocean shores.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "In eastern North America, the Atlantic Brant has a mottled brown-and-white belly (subspecies hrota; known in the United Kingdom as Light-bellied Brent Goose). In the West, the much darker Black Brant (subspecies nigricans) is common. Birders around Puget Sound may also see a gray-bellied form, often called Gray-bellied Brant, which breeds only in the Parry Islands of northwestern Canada. Other subspecies occur in the species Old World range.",
+            ""
+        ]
+    }
+}

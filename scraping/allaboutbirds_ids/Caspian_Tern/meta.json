@@ -1,0 +1,33 @@
+{
+    "Size": {
+        "description": [
+            "A large, heavy-bodied seabird (and largest of all terns), with a large head; thick, straight, pointed bill; and shallowly forked tail. The long, pointed wings are broad for a tern.",
+            "",
+            "The largest tern species. Larger than a Ring-billed Gull, smaller than a Herring Gull.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 18.5-21.3 in (47-54 cm)",
+            "Weight: 18.7-27.6 oz (530-782 g)",
+            "Wingspan: 49.6-50.4 in (126-128 cm)"
+        ]
+    },
+    "Color": {
+        "description": [
+            "White overall, with pale gray upperwings. From below, the outer primaries in the wing are dark gray. Breeding adults have a black crown; winter adults and juveniles have a partially black crown with grayish speckling. The bill is coral red with a dusky tip. Feet and legs are blackish.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "description": [
+            "Flies slowly above the water, then dives swiftly on prey (mostly fish). Usually plunges underwater but sometimes catches fish without submerging. Rests and roosts in flocks, often among other terns and gulls. Nests in large colonies or solitarily, always near water.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "description": [
+            "Breeds in open flat areas along coastlines, beaches, or on islands, very near freshwater or saltwater. Migrates through interior of continent and along coastlines, using rivers, reservoirs, lagoons, estuaries, and ocean waters. Winters mostly in coastal zones near saltwater, less often on interior lakes or rivers.",
+            ""
+        ]
+    }
+}

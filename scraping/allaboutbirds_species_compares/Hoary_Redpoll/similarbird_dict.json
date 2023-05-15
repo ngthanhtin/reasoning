@@ -1,0 +1,48 @@
+{
+    "Common Redpoll": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67278061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278061-1280px.jpg"
+            ],
+            "description": "Common Redpolls are often darker overall with a larger bill than Hoary Redpolls, but there is overlap, which makes separating the paler commons from hoaries difficult. They have streaked undertail coverts and tend to have more streaking on the sides compared to Hoary Redpolls, which have unstreaked undertail coverts and lighter streaked sides."
+        },
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67278111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278111-720px.jpg"
+            ],
+            "description": "Common Redpolls are often darker overall with a larger bill than Hoary Redpolls, but some commons can be paler, so care should be taken with ID. They have streaked undertail coverts and more streaking on the sides compared to Hoary Redpolls, which have unstreaked undertail coverts and lightly streaked sides."
+        }
+    },
+    "House Finch": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63736771-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63736771-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63736771-720px.jpg"
+            ],
+            "description": "House Finches are larger with a larger bill than Hoary Redpolls. Adult males have more red on the head and breast than Hoary Redpolls."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-1280px.jpg"
+            ],
+            "description": "House Finches are larger with a larger bill than Hoary Redpolls. Females/immatures are darker brown and more heavily streaked than female Hoary Redpolls. They also lack the Hoary Redpoll's red crown."
+        }
+    },
+    "Pine Siskin": {
+        "Adult (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67276581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-720px.jpg"
+            ],
+            "description": "Pine Siskins are browner overall and have a longer bill than Hoary Redpolls. Pine Siskins have yellow edging on the wings unlike juvenile Hoary Redpolls."
+        }
+    }
+}

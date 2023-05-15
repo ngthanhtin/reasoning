@@ -1,0 +1,188 @@
+{
+    "Adult (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305676551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305676551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305676551-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305679861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305679861-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305679861-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305677341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305677341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305677341-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305679441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305679441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305679441-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70780531-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70780531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780531-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, long-tailed hawk with a small head. Adults are blue-gray above, with narrow, horizontal red-orange bars on the breast.",
+            "",
+            "Small raptor with short, rounded wings, which are often pushed forward. Note the long square-tipped tail.",
+            "Sometimes the white bases of the feathers on the back are visible. Note long square-tipped tail with a narrow, white terminal band.",
+            "Eats primarily songbirds about the size of an American Robin and smaller."
+        ]
+    },
+    "Immature (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305679861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305679861-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305679861-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305676681-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305676681-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305676681-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305677501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305677501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305677501-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Note small head and large eye. The very long tail distinguishes this and other accipiters from other types of hawks. Immatures are brown overall with yellow eyes.",
+            "Small raptor with thin legs and small feet. Immature birds are brown above with thick brown streaks below.",
+            "Often flies with its wings pushed forward with quick and snappy wingbeats."
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305677341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305677341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305677341-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Distinctive flight style of a few quick wingbeats followed by a short glide. Note fairly small head. Because of their small size, in windy conditions Sharp-shinned Hawks can appear unsteady in flight."
+        ]
+    },
+    "Adult (Madrean)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305678041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305678041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305678041-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Resident birds along the Sierra Madre del Sur in Guerrero to western Oaxaca, Mexico, are paler below with a pale cheek, a chestnut-washed belly, and chestnut leg feathers."
+        ]
+    },
+    "Adult and immature (Northern)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305678041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305678041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305678041-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Short, rounded wings and very long tail are distinctive of accipiters. Although postures can change in flight, the small head nestled in crook of wings, and square-tipped tail, can be useful marks for Sharp-shinned Hawk."
+        ]
+    },
+    "Adult (White-breasted)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70780561-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70780561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780561-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Adults resident from Chiapas, Mexico, south to Nicaragua have white unmarked underparts and a white cheek that contrasts with the gray crown."
+        ]
+    },
+    "Immature (White-breasted)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305679841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305679841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305679841-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult (Plain-breasted)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305680141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305680141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305680141-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305679051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305679051-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305679051-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Residents in the Andes from western Venezuela to Bolivia have variable underpart colors from very pale to heavily barred."
+        ]
+    },
+    "Adult (Rufous-thighed)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305678861-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305678861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305678861-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Residents in eastern Bolivia, southern Brazil, Paraguay, Uruguay, and northern Argentina are nearly black above with rich chestnut-colored feathers on the legs."
+        ]
+    },
+    "Immature (Rufous-thighed)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305680151-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305680151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305680151-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult (Caribbean)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305680921-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305680921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305680921-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70780631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70780631-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in forests and forest edge."
+        ]
+    }
+}

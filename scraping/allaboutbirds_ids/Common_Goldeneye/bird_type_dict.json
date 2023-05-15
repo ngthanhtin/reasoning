@@ -1,0 +1,110 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302057041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057041-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302057041-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302057181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302057181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057181-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302057231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057231-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302057281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057281-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized duck with a triangular head and a sloping bill. Body is mostly white with white windows along the folded wing. Head is iridescent green (often looks black), with an round white spot behind the bill.",
+            "Found on inland lakes and rivers as well as coastal waters. Feeds mainly along shorelines in relatively shallow water where it dives under water for aquatic invertebrates, fish, and fish eggs.",
+            "When around females, males frequently display by stretching the head backward against the back and then popping forward.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302057181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302057181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057181-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63907811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63907811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63907811-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63907741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63907741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63907741-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63907781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63907781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63907781-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized grayish-brown duck with a triangular head and a sloping bill. Females have a warm brown head that contrasts with its gray body. Bill is mostly blackish, with yellow at the tip only.",
+            "In flight, shows extensive white on inner half of blackish wing. The female's brown head contrasts with its gray body.",
+            "Females occasionally show mostly yellowish bill (usually mostly blackish with yellow tip). Forehead slopes gradually to meet the bill. Warm brown head contrasts with grayish body.",
+            "Fairly high, peaked head with a forehead that slopes gradually to meet the mostly blackish bill. Adults' golden eyes can be visible from fairly long distance."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63907751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63907751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63907751-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized duck with a forehead the slopes downward to meet the bill. Immatures show less white in the wings than adult males. White face patch is round."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63907821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63907821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63907821-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized, mostly brown duck; immatures lacks golden eye of adults."
+        ]
+    },
+    "Female and chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63907831-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63907831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63907831-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females have white collar around the neck that can be obscured depending on the bird's posture. Ducklings have dark heads with fluffy cream-white throats."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302057391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302057391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302057391-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Fairly common on inland lakes and rivers as well as coastal waters. Forms flocks."
+        ]
+    }
+}

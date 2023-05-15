@@ -1,0 +1,76 @@
+{
+    "Common Grackle": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67364531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364531-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364531-720px.jpg"
+            ],
+            "description": "Common Grackles are larger than Brewer's Blackbirds with a longer tail and a heavier bill. Male Common Grackles have a bluish sheen on the head, whereas Brewer's have a purplish sheen."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67364591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364591-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364591-720px.jpg"
+            ],
+            "description": "Common Grackles are larger than Brewer's Blackbirds with a longer tail and a heavier bill. Female Common Grackles are darker brown overall than female Brewer's Blackbirds."
+        }
+    },
+    "Rusty Blackbird": {
+        "Nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67375041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67375041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67375041-720px.jpg"
+            ],
+            "description": "Nonbreeding male Rusty Blackbirds have rusty markings on the head, wing, and back whereas nonbreeding male Brewer's Blackbirds are dark brown overall without rusty markings."
+        },
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67374981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67374981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67374981-1280px.jpg"
+            ],
+            "description": "Breeding male Rusty Blackbirds are less glossy than breeding male Brewer's Blackbirds."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67375031-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67375031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67375031-720px.jpg"
+            ],
+            "description": "Female Rusty Blackbirds are more of a buffy or rusty color than female Brewer's Blackbirds. They also have a pale eye while most female Brewer's have a dark eye (some female Brewer's occasionally show a pale eye)."
+        }
+    },
+    "Red-winged Blackbird": {
+        "Female (Red-winged)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg"
+            ],
+            "description": "Female Red-winged Blackbirds are much streakier than female Brewer's Blackbirds."
+        }
+    },
+    "European Starling": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67454961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67454961-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67454961-720px.jpg"
+            ],
+            "description": "European Starlings are squatter, with shorter tails than Brewer's Blackbirds. They have dark eyes whereas male Brewer's have pale eyes."
+        }
+    },
+    "Brown-headed Cowbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362321-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362321-720px.jpg"
+            ],
+            "description": "Brown-headed Cowbirds have a shorter tail and thicker neck than Brewer's Blackbirds. They have a triangular-shaped bill and a dark eye whereas Brewer's Blackbirds have a longer, pointier bill. Male cowbirds have a dark rather than pale eye."
+        }
+    }
+}

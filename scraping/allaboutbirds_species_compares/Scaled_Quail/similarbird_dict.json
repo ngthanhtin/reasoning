@@ -1,0 +1,20 @@
+{
+    "Gambel's Quail": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65613811-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65613811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613811-720px.jpg"
+            ],
+            "description": "Female Gambel's Quail are grayish overall without the sandy or buffy tones of Scaled Quail. Gambel's have a rounded head with a forward-facing head plume, rather than Scaled's peaked, backward-facing crest."
+        },
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65613831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613831-1280px.jpg"
+            ],
+            "description": "Gambel's Quail are grayish birds with chestnut sides, whereas Scaled Quail is a sandy brown with delicate scaling. Gambel's has a forward-curving head plume, unlike Scaled Quail's short, backward-facing crest."
+        }
+    }
+}

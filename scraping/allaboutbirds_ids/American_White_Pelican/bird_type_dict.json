@@ -1,0 +1,86 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304461551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304461551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304461551-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589271-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304461171-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304461171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304461171-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304461341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304461341-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304461341-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Huge snow-white waterbird with a long neck, and a massive bill. A yellow plate forms on the upper bill of breeding adults.",
+            "Huge snow-white waterbird with a long neck, and a massive bill. A yellow plate forms on the upper bill of breeding adults.",
+            "Large but graceful flyer with black flight feathers and a white body.",
+            "Soars gracefully on very broad, stable wings. Often soars using thermals."
+        ]
+    },
+    "Breeding adults": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589271-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often occurs in flocks. The vertical plate near the tip of the bill indicates breeding individuals. All white when on the ground, but note black flight feathers when wing is spread."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70589261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70589261-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large waterbird with a long yellow bill with an extendable pouch used to scoop fish out of the water."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70589251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589251-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70589301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70589301-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often travels and forages in large flocks, sometimes traveling long distances in V-formations.",
+            "Frequently seen in groups whether it be loafing, migrating, or foraging."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70589291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589291-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically breeds on islands in shallow wetlands in the interior of the continent. They spend winters on coastal waters, bays, and estuaries."
+        ]
+    }
+}

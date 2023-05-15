@@ -1,0 +1,22 @@
+{
+    "American Crow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59858041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59858041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59858041-720px.jpg"
+            ],
+            "description": "American Crows are smaller than Common Ravens with smaller bill. They also lack the Common Raven's shaggy throat feathers and wedge-shaped tail."
+        }
+    },
+    "Chihuahuan Raven": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70579921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579921-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70579921-720px.jpg"
+            ],
+            "description": "Where Chihuahuan and Common Ravens overlap, the Chihuahuan tends to be in desert areas at lower elevations and the Common Raven in forested areas at higher elevations. Chihuahuan Ravens are smaller than Common Ravens with a higher-pitched call. They also have white bases to the body feathers not gray like Common Ravens."
+        }
+    }
+}

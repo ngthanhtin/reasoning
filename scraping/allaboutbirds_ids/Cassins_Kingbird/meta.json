@@ -1,0 +1,46 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65683151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65683151-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65683151-480px.jpg"
+        ],
+        "description": [
+            "A compact, powerfully built flycatcher with a heavy, straight bill, smallish head, and moderately long wings and tail.",
+            "",
+            "Slightly larger than a Western Kingbird, smaller than a Northern Mockingbird.",
+            "",
+            "robin-sized",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65683161-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65683161-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65683161-480px.jpg"
+        ],
+        "description": [
+            "A gray-headed bird with a neat white throat and a lemon-yellow belly. The wings and tail are brownish; the tail does not have white outer feathers, but often shows a pale tip.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639216",
+        "description": [
+            "Perches conspicuously high on branches or wires in open environments. Flies out to catch aerial insects. Also picks insects from the ground or from vegetation.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65683171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65683171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65683171-720px.jpg"
+        ],
+        "description": [
+            "Nests in lightly wooded to open areas. Found from lowlands with scattered trees (such as desert scrub, agricultural areas, grasslands, cottonwood-edged rivers) up into canyons and foothills with pine, oak, juniper, and pinyon pine.",
+            ""
+        ]
+    }
+}

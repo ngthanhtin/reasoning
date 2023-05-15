@@ -1,0 +1,22 @@
+{
+    "Bushtit": {
+        "Male (Pacific)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68041771-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68041771-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68041771-720px.jpg"
+            ],
+            "description": "Bushtits are smaller than Wrentits\u2014about the size of a kinglet, whereas Wrentits are sparrow sized. Bushtits have smaller features all around: smaller bills, shorter legs, and smaller heads. Bushtits are also more active and easier to see than Wrentits."
+        }
+    },
+    "Oak Titmouse": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68050311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68050311-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68050311-720px.jpg"
+            ],
+            "description": "Oak Titmice have crests and shorter tails than Wrentits. Titmice also forage actively in trees and shrubs whereas Wrentits tend to stay hidden in shrubs."
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297386341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297386341-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297386341-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113121-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113161-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113161-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113171-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113171-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113171-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113171-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, long-legged owl that is active during the day. Adults are mottled brown and white with yellow eyes and a yellow bill. Birds in Florida and the Caribbean tend to have whiter spots than western Burrowing Owls.",
+            "Long-legged owl with a flat headed look. Mottled brown and white with yellow eyes and a yellow bill.",
+            "Hunts on or near the ground during the day.",
+            "Nests in underground burrows in open, treeless areas with low, sparse vegetation.",
+            "Burrowing Owls typically self-preen, although it is not uncommon for mates to preen each other.",
+            "Found in grasslands, deserts, sagebrush flats, golf courses, pastures, agricultural fields, airport medians, road embankments, cemeteries, and urban vacant lots. Often perches on fence posts or other elevated structures.",
+            "Burrowing Owls are mainly crepuscular foragers, meaning that they hunt at dawn and dusk. Some common food items include grasshoppers, crickets, mice, and voles, but they generally consume anything that they can physically handle."
+        ]
+    },
+    "Adults": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113121-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Burrowing Owls use open grasslands, deserts, prairies, and agricultural areas throughout North and South America."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297386451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297386451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297386451-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Nests in underground burrows. Juveniles stick together near the nest burrow for several weeks after hatching. Note unmarked pale belly."
+        ]
+    },
+    "Adult with immatures": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297386451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297386451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297386451-480px.jpg"
+            ]
+        ],
+        "description": [
+            "When developing, young birds can stand upright and walk at about 2 weeks of age. Juveniles typically stay near the nest burrow until they join the parents to forage at dusk ."
+        ]
+    }
+}

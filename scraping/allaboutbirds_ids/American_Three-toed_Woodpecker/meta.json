@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/37165121-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/37165121-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/37165121-720px.jpg"
+        ],
+        "description": [
+            "A small woodpecker with a stout body and a fairly short but strong, chisel-like bill.",
+            "",
+            "Larger than a Downy Woodpecker, smaller than a Hairy Woodpecker.",
+            "",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 8.3-9.1 in (21-23 cm)",
+            "Weight: 1.6-2.4 oz (44.8-67.9 g)",
+            "Wingspan: 14.6-15.3 in (37-39 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/37591201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/37591201-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/37591201-480px.jpg"
+        ],
+        "description": [
+            "A black-and-white woodpecker with (in males) a yellow patch on the forehead. The back is black with messy white barring and white spots in the wings. The underparts are white with fine blackish barring on the flanks. The face is black with a white line behind the eye and a thin white line below the cheek. The outer tail feathers are white, usually with a few black bars. Juveniles of both sexes have a small yellow crown patch.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239042611",
+        "description": [
+            "Forages by flaking or scaling bark from tree trunks, rarely excavating deeply into wood. Often spends long periods working on a single tree before moving on. Both sexes call and drum frequently in the spring and early summer.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/37165191-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/37165191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/37165191-480px.jpg"
+        ],
+        "description": [
+            "Disturbed forest such as young burned areas, bark beetle outbreaks, and windthrows in western and northern coniferous forests.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Three subspecies are named: dorsalis in the Rocky Mountains, bacatus in the Great Lakes eastward, and fasciatus from Alaska and western Canada southward into Idaho and Oregon. These subspecies differ mostly in the plumage of the back. Eastern bacatus has a very dark back with narrow pale bars that can be difficult to see at a distance, Rocky Mountain dorsalis has a back that appears almost white, and the back of northwestern fasciatus varies from dark to whitish.",
+            ""
+        ]
+    }
+}

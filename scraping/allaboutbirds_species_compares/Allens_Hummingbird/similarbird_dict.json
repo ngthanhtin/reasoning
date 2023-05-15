@@ -1,0 +1,40 @@
+{
+    "Rufous Hummingbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68934051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68934051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68934051-1280px.jpg"
+            ],
+            "description": "Male Rufous Hummingbirds usually have an orange back and rump, but beware that some have a green back, like Allen\u2019s. If you can, get a good look at the spread tail; the outermost tail feather is broad in Rufous Hummingbirds but narrow on Allen's Hummingbirds."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68934081-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68934081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68934081-720px.jpg"
+            ],
+            "description": "Female/immature Rufous Hummingbirds are nearly indistinguishable in the field and many are best left unidentified. If you can, get a good look at the spread tail; the outermost tail feather is broad in Rufous Hummingbirds but narrow on Allen's Hummingbirds."
+        }
+    },
+    "Broad-tailed Hummingbird": {
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65766281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766281-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766281-720px.jpg"
+            ],
+            "description": "Female Broad-tailed Hummingbirds are slightly larger than Allen's Hummingbirds with a longer and broader tail. They have less coppery coloring in the tail than female/immature Allen's Hummingbirds."
+        }
+    },
+    "Calliope Hummingbird": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65766631-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65766631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766631-720px.jpg"
+            ],
+            "description": "Female Calliope Hummingbirds are smaller than Allen's Hummingbirds and their tail barely meets their wingtips when perched; Allen's tail extends past the wings. Female Calliopes also have a paler peachy wash on their sides than female Allen's."
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308404421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308404421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308404421-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308404981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308404981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308404981-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308404981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308404981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308404981-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308404861-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308404861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308404861-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70033581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70033581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70033581-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70262781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70262781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70262781-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, slender tern with angular wings that are silvery below. Breeding adults have a thin red bill and a gray belly. Note long forked tail.",
+            "Short-legged tern with a long tail that extends beyond the wingtips while at rest on breeding adults. Bill and legs are bright red on breeding adults.",
+            "Adults frequently give a high-pitched kip when foraging or while at the breeding colony.",
+            "Small tern with a long, forked tail and pointed all gray wings. Plunge dives for small fish, aquatic insects, and crustaceans.",
+            "Males often feed females small fish during courtship and to maintain pair bonds.",
+            "Nests on the ground in open tundra, boreal forest, or on rocky islands and beaches."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308407421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308407421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308407421-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308405151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308405151-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308405151-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Short-legged, slender tern. Nonbreeding birds have a reduced black cap that extends back from the eye. The legs and bill are black during the nonbreeding season.",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308406861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308406861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308406861-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308405081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308405081-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308405081-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a scaly-looking back and a smudgy black crown with a white forehead.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "Gambel's Quail": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65613831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613831-1280px.jpg"
+            ],
+            "description": "Gambel's Quail live in deserts largely to the east of the California Quail's native range, with little overlap. Male Gambel's Quail has a brighter reddish-brown crown and a buffy belly."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65613811-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65613811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613811-720px.jpg"
+            ],
+            "description": "Female Gambel's Quail has a buffy, not scaled, belly, and is plainer gray on the back of the neck compared to the scaled appearance of female California Quail."
+        }
+    },
+    "Mountain Quail": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37884311-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37884311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37884311-720px.jpg"
+            ],
+            "description": "Both sexes of Mountain Quail have a long, slender plume coming straight up off the head, unlike California's shorter, curved head plume. Mountain Quail has thick, vertical white stripes on the sides rather than the finer horizontal stripes of California Quail."
+        }
+    },
+    "Chukar": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/39398791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39398791-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39398791-720px.jpg"
+            ],
+            "description": "Chukar is sandy brown overall with strong black stripes on the sides and a heavy, bright-red bill. They lack the curved head plume of California Quail."
+        }
+    },
+    "Gray Partridge": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37892831-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37892831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37892831-1280px.jpg"
+            ],
+            "description": "Male Gray Partridges have a tawny face and reddish brown barring on the gray sides, unlike California Quail's chestnut sides and white stripes."
+        }
+    }
+}

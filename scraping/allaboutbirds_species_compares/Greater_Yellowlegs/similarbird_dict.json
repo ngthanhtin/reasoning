@@ -1,0 +1,40 @@
+{
+    "Lesser Yellowlegs": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838631-1280px.jpg"
+            ],
+            "description": "Lesser Yellowlegs are smaller with a shorter and thinner bill than Greater Yellowlegs although size can be difficult to judge on single birds. Breeding Lesser Yellowlegs have fewer markings on the flanks than breeding Greater Yellowlegs."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838651-1280px.jpg"
+            ],
+            "description": "Lesser Yellowlegs are smaller with a shorter and thinner bill than Greater Yellowlegs. Nonbreeding birds have less streaking on the neck than nonbreeding Greater Yellowlegs."
+        }
+    },
+    "Solitary Sandpiper": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64834191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64834191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64834191-1280px.jpg"
+            ],
+            "description": "Solitary Sandpipers are smaller than Greater Yellowlegs with olive (not yellow) legs. They also have white spots on the back while Greater Yellowlegs have more mottling on the back."
+        }
+    },
+    "Stilt Sandpiper": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/72062201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/72062201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/72062201-1280px.jpg"
+            ],
+            "description": "Stilt Sandpipers are smaller than Greater Yellowlegs with a slightly drooping bill (the bill on Greater Yellowlegs is slightly upturned)."
+        }
+    }
+}

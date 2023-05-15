@@ -1,0 +1,98 @@
+{
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302342581-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302342581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302342581-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65685841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685841-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302344661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302344661-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302344661-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65685851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65685851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685851-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302342861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302342861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302342861-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky, big-headed songbird with thick, hooked bill. Gray head with black mask that narrows as it meets the bill and usually does not cover the top of the bill. White flashes in wings and tail.",
+            "Chunky songbird with thick, hooked bill. More brownish than adult, with fine brownish bars on the underside. Narrow black mask.",
+            "",
+            "Immatures have finely barred underparts and indistinct or incomplete masks. Shrikes often sit on exposed perches and swoop down to catch prey on the ground.",
+            "Predatory songbird; catches insects, birds, and small mammals. Breeds in far northern North America; for most birders, typically seen in winter."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65685841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685841-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65685821-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65685821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685821-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308810691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308810691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308810691-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65685851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65685851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685851-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65685811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65685811-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65685811-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302342861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302342861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302342861-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302344401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302344401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302344401-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Adults often have underparts finely barred with gray. Mask is narrow and usually does not extend over eye or bill.",
+            "",
+            "",
+            "In flight shows prominent white flashes in the wings and outer tail.",
+            "",
+            "Lives in open, brushy or grassy landscapes with exposed perches such as shrubs and fencerows."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302344661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302344661-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302344661-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

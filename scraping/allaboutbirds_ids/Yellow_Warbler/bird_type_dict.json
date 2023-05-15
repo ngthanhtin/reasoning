@@ -1,0 +1,134 @@
+{
+    "Adult male (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297046671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297046671-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297046671-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297046811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297046811-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297046811-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802921-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64802941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64802941-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64802931-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64802931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802931-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, round-headed warbler with a beady black eye and stout bill. Adult males are bright yellow overall with a yellow-green back and chestnut streaks on the breast.",
+            "Hops between branches to forage for insects on leaf surfaces: typical warbler behavior.",
+            "Small, round-headed warbler with a beady black eye and stout bill. Adult males are bright yellow overall with a yellow-green back and chestnut streaks on the breast.",
+            "Breeds in shrubby thickets and woods, particularly along watercourses and in wetlands.",
+            "Distinctive entirely yellow warbler. Often found foraging in shrubby understories."
+        ]
+    },
+    "Adult female (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297046811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297046811-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297046811-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, round-headed warbler with a beady black eye and stout bill. Females are yellow overall with a yellow-green back and mostly unstreaked yellow underparts."
+        ]
+    },
+    "Adult male (Mangrove)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802881-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Yellow (Mangrove) Warblers along the coast of Mexico, Central America, and northern South America have chestnut heads and chestnut streaking on the breast."
+        ]
+    },
+    "Female and immature (Mangrove)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297046881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297046881-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297046881-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Female and immature (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297046881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297046881-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297046881-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Commonly occupies riparian thickets or young forests during migration and in the breeding season."
+        ]
+    },
+    "Adult male (Golden)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802901-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Most Yellow (Golden) Warblers have a chestnut-capped and are residents in mangroves in the West Indies."
+        ]
+    },
+    "Immature (Northern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64802891-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802911-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immatures are paler yellow overall, although some can be almost entirely grayish.",
+            "Immatures vary from pale yellow to brownish to grayish. Note large beady black eye and stout bill."
+        ]
+    },
+    "Adult female (Northern) at nest": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64802891-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802921-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Builds a deep cup nest constructed with grasses, strips of bark, and spider webs.",
+            "Only female Yellow Warblers incubate the eggs, while males continuously forage to feed their mates."
+        ]
+    }
+}

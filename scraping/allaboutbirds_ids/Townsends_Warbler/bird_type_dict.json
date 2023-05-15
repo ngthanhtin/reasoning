@@ -1,0 +1,92 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297064161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064161-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297064231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297064231-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64897491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64897491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64897511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64897511-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64897541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897541-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird. Adult males have a black ear patch surrounded by yellow. Note thick white wingbars, black cap and throat, and yellow crescent below the eye.",
+            "",
+            "Adult males have a black ear patch surrounded by yellow. Note thick white wingbars, black cap and throat, and yellow crescent beneath the eye.",
+            "",
+            "Breeds in tall evergreen and mixed evergreen-deciduous forests."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297064231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297064231-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297064471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064471-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64897541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897541-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The black markings on females/immatures are paler and the throat is mostly yellow. Note dark ear patch surrounded by yellow and streaked sides.",
+            "",
+            ""
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64897521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64897521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897521-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297064471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297064471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The black markings on immatures are paler and the throat is yellow. Note dark ear patch surrounded by yellow and streaked sides.",
+            "The black markings on immatures are paler and the throat is yellow. Note dark ear patch surrounded by yellow and streaked sides."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64897511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64897511-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The black markings on adult females are paler and the throat is mostly yellow (some have dark mottling on the throat). Note dark ear patch surrounded by yellow and streaked sides."
+        ]
+    }
+}

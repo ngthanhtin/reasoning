@@ -1,0 +1,30 @@
+{
+    "Ruddy Turnstone": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64811941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64811941-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64811941-720px.jpg"
+            ],
+            "description": "Ruddy Turnstones have bright orange legs and a uniquely patterned black-and-white face while Black Turnstones have dark legs and are blackish overall without patterning on the face."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64811911-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64811911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64811911-720px.jpg"
+            ],
+            "description": "Nonbreeding Ruddy Turnstones are browner than nonbreeding Black Turnstones with orange (not dark) legs."
+        }
+    },
+    "Rock Sandpiper": {
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40542591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40542591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40542591-1280px.jpg"
+            ],
+            "description": "Rock Sandpipers have longer legs and a longer slightly drooping bill than Black Turnstones. They are also gray overall while Black Turnstones have much darker plumage."
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67279061-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67279061-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67279061-480px.jpg"
+        ],
+        "description": [
+            "A compact, medium-sized finch with slightly forked tail and heavy, crossed bill.",
+            "",
+            "Larger than a Pine Siskin, smaller than a Pine Grosbeak.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.9-6.7 in (15-17 cm)",
+            "Weight: 0.8-0.9 oz (24-26 g)",
+            "Wingspan: 10.2-11.0 in (26-28 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67279021-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67279021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67279021-480px.jpg"
+        ],
+        "description": [
+            "Adult males are rose-pink with black wings and tail and two white wingbars. Females and young males are yellowish but with the same wing and tail pattern. Immatures are brownish, streaked below, with whitish wingbars.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238641497",
+        "description": [
+            "White-winged Crossbills remain in flocks year-round, even during the nesting season. They forage mostly in spruce and tamarack, prying open the cones with their crossed bills to eat the seeds. They also take grit from the ground and eat insects during summer. In years when spruce and other cones are scarce, large numbers irrupt, or wander far out of the usual range.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67279041-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67279041-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67279041-720px.jpg"
+        ],
+        "description": [
+            "Boreal forests, mostly spruce and tamarack. During irruptions, look for them in spruces (including ornamental plantings), hemlock forests, weedy fields, and occasionally at backyard bird feeders.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "North America has one subspecies (leucoptera), and Eurasia has a larger subspecies, bifasciata, often called \u201cTwo-barred\u201d Crossbill. Eurasian birds have larger bills and less black in the plumage. They also have different songs.",
+            ""
+        ]
+    }
+}

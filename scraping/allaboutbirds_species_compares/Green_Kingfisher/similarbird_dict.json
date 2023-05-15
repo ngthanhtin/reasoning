@@ -1,0 +1,38 @@
+{
+    "Belted Kingfisher": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/402712711-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/402712711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/402712711-720px.jpg"
+            ],
+            "description": "Belted Kingfishers are larger than Green Kingfishers. They usually show a prominent crest, and they are steely blue on the head and back, rather than green."
+        },
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/402713321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/402713321-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/402713321-720px.jpg"
+            ],
+            "description": "Belted Kingfishers are larger than Green Kingfishers, with blue, rather than green head and upperparts. Belted Kingfishers are the only kingfisher species in most of the U.S. and Canada, except for southern Texas and Arizona."
+        }
+    },
+    "Amazon Kingfisher": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/233760081-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/233760081-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/233760081-720px.jpg"
+            ],
+            "description": "Amazon Kingfishers are larger than Green Kingfishers, with a stronger crest than Green Kingfisher usually shows. Note Amazon's limited white in outer tail, compared to Green's extensive white."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/44417511-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/44417511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/44417511-720px.jpg"
+            ],
+            "description": "Amazon Kingfishers are larger than Green Kingfishers, with a stronger crested appearance and limited white in the outer tail. Female Amazon has one breast band, while female Green has two."
+        }
+    }
+}

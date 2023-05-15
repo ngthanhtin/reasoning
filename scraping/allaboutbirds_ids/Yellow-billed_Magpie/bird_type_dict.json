@@ -1,0 +1,92 @@
+{
+    "Adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302393761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302393761-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302393761-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302394171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394171-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302394701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394701-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302394841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394841-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Striking long-tailed bird of California's Central Valley with a yellow bill. Its white belly and wing patches stand out against its black head and iridescent blue wings and tail.",
+            "In flight, the wings flash white and the long tail streams behind.",
+            "Often seen hoping or walking on the ground foraging for grain, acorns, carrion, and small mammals. Note long tail and bright yellow bill.",
+            "Striking black, white, and blue member of the corvid family with a long tail and yellow bill. Highly social bird that forages, nests, and roosts in groups."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302395031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302395031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302395031-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302395031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302395031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302395031-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302394531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394531-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302394531-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302394841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394841-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302395001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302395001-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302395001-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Vocal and conspicuous bird of the Central Valley. Often found with other magpies perched in the open and calling.",
+            "Often seen hoping or walking on the ground foraging for grain, acorns, carrion, and small mammals. Note long tail and bright yellow bill.",
+            "Frequently heard and seen calling from atop trees or fence posts. Note yellow bill and long tail.",
+            ""
+        ]
+    },
+    "Adult ": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302394701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394701-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Forages on the ground in pastures and fields. Eats insects, carrion, and seeds."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302394911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302394911-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Restricted to the Central Valley in California. Found in oak savannas, open areas with large trees, and along streams. Also forages in grassland, pasture, fields, and orchards."
+        ]
+    }
+}

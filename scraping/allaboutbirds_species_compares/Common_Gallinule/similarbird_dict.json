@@ -1,0 +1,38 @@
+{
+    "American Coot": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg"
+            ],
+            "description": "The American Coot lacks the Common Gallinule's white stripe down the sides. It also has a white (not red) bill."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547101-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547101-720px.jpg"
+            ],
+            "description": "Juvenile American Coots differ from juvenile Common Gallinules by the color of the underparts: pale gray on American Coots and darker gray on Common Gallinules."
+        }
+    },
+    "Purple Gallinule": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71546831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546831-1280px.jpg"
+            ],
+            "description": "Purple Gallinules lack the white stripe down their sides that Common Gallinules have. They are also more brightly colored than Common Gallinules."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71546311-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71546311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546311-720px.jpg"
+            ],
+            "description": "Juvenile Purple Gallinules are pale brown with bronze tints in the wings, whereas juvenile Common Gallinules are brownish gray overall."
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302847681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302847681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302847681-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/169491691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169491691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169491691-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302847891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302847891-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302847891-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71005341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71005341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71005341-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302848031-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302848031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302848031-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71005441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71005441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71005441-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized stocky seabird. Breeding adults have a characteristic \"horn\" that protrudes from its orange bill and two white plumes on its face. Dark gray above and paler gray below.",
+            "",
+            "Stocky seabird with a portly whitish belly. Flight often looks labored.",
+            "Breeding adults have a characteristic \"horn\" that protrudes from its orange bill. White facial plumes not always visible on breeding birds. Note yellow eye.",
+            "",
+            "Rarely glides when flying, instead continuously flaps its wings, flying low over the water."
+        ]
+    },
+    "Nonbreeding adult and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/169491691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169491691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169491691-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding birds appear dark overall. Some nonbreeding birds may have reduced white plumes on the face."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302848051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302848051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302848051-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67377571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67377571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67377571-720px.jpg"
+        ],
+        "description": [
+            "Eastern Meadowlarks are chunky, medium-sized songbirds with short tails and long, spear-shaped bills. In flight, their rounded wings, short tails, and long bills help set them apart from other grassland songbirds.",
+            "Slightly larger but more compact than an American Robin; smaller than a Blue Jay.",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 7.5-10.2 in (19-26 cm)",
+            "Weight: 3.2-5.3 oz (90-150 g)",
+            "Wingspan: 13.8-15.8 in (35-40 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67377581-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67377581-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67377581-480px.jpg"
+        ],
+        "description": [
+            "Eastern Meadowlarks are pale brown marked with black, with bright-yellow underparts and a bold black V across the chest. Though most of the tail is brown with blackish barring, the outer feathers are white and conspicuous during flight."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238642162",
+        "description": [
+            "Eastern Meadowlarks walk on the ground, often concealed by grasses or crops. Males sing beautiful, flutelike songs from exposed perches, particularly fenceposts. Their flight is a distinctive sequence of rapid fluttering and short glides, usually low to the ground. In winter you may see flocks of meadowlarks hunting insects in fields."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67377561-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67377561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67377561-480px.jpg"
+        ],
+        "description": [
+            "Eastern Meadowlarks live in farm fields, grasslands, and wet fields. They nest on the ground and sing from exposed perches such as treetops, fenceposts, and utility lines."
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40263691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40263691-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40263691-480px.jpg"
+        ],
+        "description": [
+            "A small and chunky sparrow with a large, flat head. It has a short tail and very short, rounded wings.",
+            "",
+            "Smaller than a Song Sparrow. About the size of a Marsh Wren.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.7-5.1 in (12-13 cm)",
+            "Weight: 0.4-0.6 oz (12-16.3 g)",
+            "Wingspan: 6.3-7.1 in (16-18 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70695481-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70695481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695481-480px.jpg"
+        ],
+        "description": [
+            "Distinctively orange-buff all over, particularly on the head and upper breast. It has black streaks on the back and wings and a grayish-purple spot on the back of the neck. The belly is white. The bill is gray.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238645831",
+        "description": [
+            "Walks or hops on the ground, often among dense grasses. Does not flush readily, and prefers to escape from disturbances on foot. When they do fly, their flights are short, with quick, weak wingbeats before disappearing back into the vegetation.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/32804521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32804521-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32804521-480px.jpg"
+        ],
+        "description": [
+            "Open habitat, especially marshy or boggy meadows with a dense cover of grasses or sedges.",
+            ""
+        ]
+    }
+}

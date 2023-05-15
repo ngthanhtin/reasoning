@@ -1,0 +1,92 @@
+{
+    "Adult (Black-necked)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297914651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297914651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297914651-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806541-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297914701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297914701-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297914701-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64806511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64806511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806511-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297914791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297914791-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297914791-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64806571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Tall and lanky shorebird with a delicate-looking body. Black above and white below with pink legs.",
+            "Forages in shallow water wetlands, picking the surface for small aquatic invertebrates and flies.",
+            "In flight, its long pink legs stick out far beyond the tail. Note black wings and a white V on the back.",
+            "Tall and slender shorebird with pink legs and a thin black bill.",
+            "Found in shallow wetlands gracefully foraging for aquatic invertebrates. Note dainty appearance and pink legs.",
+            "Nests on the ground on matted vegetation, on small mounds above the water, or on floating mats of vegetation."
+        ]
+    },
+    "Adult (White-backed)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806541-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Lanky, delicate looking shorebird. Individuals in South America (White-backed) have a white collar across upper back that North American birds lack."
+        ]
+    },
+    "Adult (Hawaiian)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64806521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806521-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Resident individuals on the Hawaiian Islands have more black on the forehead and cheeks than individuals breeding in North America."
+        ]
+    },
+    "Juvenile (Black-necked)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64806601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64806601-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look similar to adults but are slightly browner with faint scalloping on the back and paler pink legs."
+        ]
+    },
+    "Adult (with American Avocet)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297914881-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297914881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297914881-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in shallow water wetlands often foraging with other Black-necked Stilts."
+        ]
+    }
+}

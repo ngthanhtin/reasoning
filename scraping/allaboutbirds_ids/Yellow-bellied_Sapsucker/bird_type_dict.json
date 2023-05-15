@@ -1,0 +1,62 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297655981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297655981-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297655981-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297656101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297656101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297656101-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65051941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65051941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65051941-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65051981-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65051981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65051981-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65051971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65051971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65051971-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Woodpecker with a stout bill and vertical white wing patches. Males have a red crown and throat.",
+            "Males typically drill holes in dead hardwood trees for nesting spaces.",
+            "Hitches up and down trees in typical woodpecker fashion. Note the vertical white wing patches and red forehead and throat.",
+            "Drills neat rows of shallow holes to access tree sap.",
+            "Found in mixed evergreen and deciduous forests with aspen and birch trees."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297656101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297656101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297656101-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Sapsuckers have vertical white wing patches along the side of the folded wing. Underparts vary from whitish to pale yellow. Females have a red crown and a white throat."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297656161-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297656161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297656161-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a brownish wash over their bodies and a finely spotted crown. Like adults they have vertical white wing patches."
+        ]
+    }
+}

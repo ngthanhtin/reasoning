@@ -1,0 +1,56 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63908621-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63908621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63908621-720px.jpg"
+        ],
+        "description": [
+            "A small, stocky diving duck with a large, oddly shaped, oblong head. The bill is relatively small and the forehead relatively steep compared with a Common Goldeneye.",
+            "",
+            "Larger than a Bufflehead, smaller than a Common Merganser.",
+            "",
+            "crow-sized",
+            "Sex: Male",
+            "Length: 16.9-19.1 in (43-48.4 cm)",
+            "Weight: 37.9-46.6 oz (1075-1320 g)",
+            "Wingspan: 27.6-28.7 in (70-73 cm)",
+            "Female"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63908641-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63908641-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63908641-480px.jpg"
+        ],
+        "description": [
+            "Adult males are snow white below, smartly patterned with black and white above. At close range the head has a purple gloss. The eye is bright yellow with a white crescent between the eye and the bill. Females are grayish with a coppery head and a partly or mostly yellow bill.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670686",
+        "description": [
+            "Barrow\u2019s Goldeneyes swim and rest on the water, diving for extended periods to forage on invertebrate prey. Their flight is swift, with rapid wingbeats, and they fly easily through dense forests. Females often call softly as they fly. Antic courtship behaviors are often seen during calm days in winter.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63908611-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63908611-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63908611-720px.jpg"
+        ],
+        "description": [
+            "Breeds in shallow freshwater lakes, ponds, and sloughs of mountains and forests. Winters along mostly rocky marine coastlines.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "For a species with such widely separated populations, the Barrow\u2019s Goldeneye shows little variation from place to place. All populations belong to the same subspecies. Female Barrow's Goldeneyes breeding in Iceland do not get extensively yellow bills like North American birds, having only a yellow or orangish band on the outer third of the otherwise dusky bill.",
+            ""
+        ]
+    }
+}

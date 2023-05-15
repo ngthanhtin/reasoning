@@ -1,0 +1,60 @@
+{
+    "Hairy Woodpecker": {
+        "Male (eastern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68929231-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68929231-720px.jpg"
+            ],
+            "description": "Hairy Woodpeckers are larger than Downy Woodpeckers with a longer bill. The outer tail feathers on Hairy Woodpeckers are unmarked, but they are spotted on Downy Woodpeckers."
+        },
+        "Female (Rocky Mts.)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68929241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68929241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929241-1280px.jpg"
+            ],
+            "description": "Hairy Woodpeckers are larger than Downy Woodpeckers and have a larger bill that is almost as long as the entire head."
+        }
+    },
+    "Red-cockaded Woodpecker": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71003511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71003511-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71003511-720px.jpg"
+            ],
+            "description": "Red-cockaded Woodpeckers have a black-and-white barred back and a large white cheek patch unlike Downy Woodpeckers that have a white patch down the back and two stripes on the face."
+        }
+    },
+    "Ladder-backed Woodpecker": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65054631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054631-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054631-720px.jpg"
+            ],
+            "description": "Ladder-backed Woodpeckers have a barred black-and-white back unlike Downy Woodpeckers."
+        }
+    },
+    "Nuttall's Woodpecker": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68929651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929651-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68929651-720px.jpg"
+            ],
+            "description": "Nuttall's Woodpeckers have a barred black-and-white back, lacking the Downy Woodpecker's white back patch."
+        }
+    },
+    "Yellow-bellied Sapsucker": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65051951-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65051951-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65051951-720px.jpg"
+            ],
+            "description": "Yellow-bellied Sapsuckers have a white wing patch and a red crown that Downy Woodpeckers don't have."
+        }
+    }
+}

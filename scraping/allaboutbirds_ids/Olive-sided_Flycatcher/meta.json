@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71000911-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71000911-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71000911-480px.jpg"
+        ],
+        "description": [
+            "A stocky, barrel-chested flycatcher, with a large head and a heavy, long bill for its size. It has rather long wings that can make the tail look short.",
+            "",
+            "Larger than a Western Wood-Pewee, smaller than a Western Kingbird.",
+            "",
+            "between sparrow and robin",
+            "Sex: Both Sexes",
+            "Length: 7.1-7.9 in (18-20 cm)",
+            "Weight: 1.0-1.4 oz (28-40.4 g)",
+            "Wingspan: 12.4-13.6 in (31.5-34.5 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71000691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71000691-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71000691-480px.jpg"
+        ],
+        "description": [
+            "Sooty gray-brown above (with olive tones only in optimal light and fresh plumage), paler below. The dark gray sides of the breast contrast with white in the center, making it look as if the bird is wearing a vest. From the rear, large white tufts at the sides of the back are sometimes visible.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238646006",
+        "description": [
+            "Olive-sided Flycatchers spend much of their time perched high in trees, watching for large flying insects. They catch these insects by sallying\u2014flying out in quick pursuit, seizing the prey in its bill, and returning to the same perch.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/38663861-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/38663861-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/38663861-720px.jpg"
+        ],
+        "description": [
+            "Breeds mostly in northern and montane coniferous forest from sea level to timberline and the edge of the tundra. They are most numerous in mid- and higher-elevation forest in mountains (3,000\u20137,000 feet elevation) and around burned or boggy areas with numerous openings and dead trees. Migrants and wintering birds also favor gaps in coniferous forest.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "A subspecies known as majorinus breeds in southern California and northern Baja California. These individuals have longer wings and tails than Olive-sided Flycatchers in the rest of the range.",
+            ""
+        ]
+    }
+}

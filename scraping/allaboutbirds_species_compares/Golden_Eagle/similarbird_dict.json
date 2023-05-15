@@ -1,0 +1,66 @@
+{
+    "Bald Eagle": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60329441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329441-1280px.jpg"
+            ],
+            "description": "Adult Bald Eagles have a white head unlike Golden Eagles."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60329001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329001-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60329001-720px.jpg"
+            ],
+            "description": "Juvenile Bald Eagles are patchy white beneath, lacking the oval white patches on the wings of juvenile Golden Eagles."
+        }
+    },
+    "Turkey Vulture": {
+        "Adult (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60317321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60317321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60317321-1280px.jpg"
+            ],
+            "description": "Turkey Vultures have smaller, unfeathered red heads than Golden Eagles."
+        }
+    },
+    "Red-tailed Hawk": {
+        "Adult light morph (calurus/alascensis)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60384911-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60384911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60384911-1280px.jpg"
+            ],
+            "description": "Red-tailed Hawks are smaller with shorter wings and a smaller head than Golden Eagles."
+        },
+        "Adult dark morph (calurus/alascensis)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60384801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60384801-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60384801-720px.jpg"
+            ],
+            "description": "Dark morph Red-tailed Hawks are smaller than Golden Eagles with white (not dark) primaries and secondaries."
+        }
+    },
+    "Ferruginous Hawk": {
+        "Dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32678251-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32678251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32678251-720px.jpg"
+            ],
+            "description": "When perched, Ferruginous Hawks have rusty tones in the breast and wing coverts and lack the eagle's golden nape."
+        },
+        "Light morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32633821-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32633821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32633821-720px.jpg"
+            ],
+            "description": "Ferruginous Hawks are paler under the wing and tail than Golden Eagles with more chestnut color in the wings."
+        }
+    }
+}

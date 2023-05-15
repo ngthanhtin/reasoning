@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64802871-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64802871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64802871-720px.jpg"
+        ],
+        "description": [
+            "Yellow Warblers are small, evenly proportioned songbirds with medium-length tails and rounded heads. For a warbler, the straight, thin bill is relatively large.",
+            "About the same size as a Yellow-rumped Warbler; slightly larger than an American Goldfinch.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 4.7-5.1 in (12-13 cm)",
+            "Weight: 0.3-0.4 oz (9-11 g)",
+            "Wingspan: 6.3-7.9 in (16-20 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64802921-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64802921-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64802921-720px.jpg"
+        ],
+        "description": [
+            "Yellow Warblers are uniformly yellow birds. Males are a bright, egg-yolk yellow with reddish streaks on the underparts. Both sexes flash yellow patches in the tail. The face is unmarked, accentuating the large black eye."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238649624",
+        "description": [
+            "Look for Yellow Warblers near the tops of tall shrubs and small trees. They forage restlessly, with quick hops along small branches and twigs to glean caterpillars and other insects. Males sing their sweet, whistled songs from high perches."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64802931-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64802931-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64802931-720px.jpg"
+        ],
+        "description": [
+            "Yellow Warblers breed in shrubby thickets and woods, particularly along watercourses and in wetlands. Common trees include willows, alders, and cottonwoods across North America and up to about 9,000 feet in the West. In winter they mainly occur in mangrove forests of Central and South America."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Yellow Warblers differ only slightly across continental North America. Various subspecies that live year-round in the Caribbean and in mangrove forests of Central and South America have bright chestnut on the crown or over the entire head; these subspecies are often referred to as \u201cGolden\u201d or \u201cMangrove\u201d Yellow Warblers. There is a very small population of \u201cMangrove\u201d Yellow Warblers in extreme south Texas."
+        ]
+    }
+}

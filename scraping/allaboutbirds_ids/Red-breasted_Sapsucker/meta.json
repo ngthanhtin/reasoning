@@ -1,0 +1,50 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65053391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65053391-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65053391-480px.jpg"
+        ],
+        "description": [
+            "A medium-sized woodpecker with a long body, large, rounded head, and a chisel-like bill.",
+            "A medium-sized woodpecker. Larger than a Downy Woodpecker, smaller than a Northern Flicker.",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 7.9-8.7 in (20-22 cm)",
+            "Weight: 1.9-2.2 oz (53.1-63.5 g)",
+            "Wingspan: 14.6-16.0 in (37-40.6 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65053401-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65053401-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65053401-480px.jpg"
+        ],
+        "description": [
+            "Both male and female Red-breasted Sapsuckers have a red head and breast with a white spot between the eye and the bill. The back is mottled black and white and the wings are black with a large vertical white patch. Underparts are mostly white, with dark streaks on the side and a yellowish wash on the belly."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238637343",
+        "description": [
+            "The Red-breasted Sapsucker clings to the side of tree trunks and forages for insects in crevices by tapping, probing, and prying at the bark. They drill rows of shallow holes in the bark from which they lick up the flowing sap."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65053421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65053421-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65053421-480px.jpg"
+        ],
+        "description": [
+            "Red-breasted Sapsuckers breed in coniferous forests, often with some deciduous trees, as well as orchards and second-growth woodlands. In the winter, they move to wooded areas, including parks and suburbs, in coastal areas and at lower elevations."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The Red-breasted Sapsucker has two described subspecies, ruber and daggetti. Birds of the subspecies ruber in the northern part of the range (from southeastern Alaska to southern Oregon) have deeper and more extensive red on the head and breast. Birds of the subspecies daggetti that live in the mountains of southwest Oregon to southern California have a more prominent white malar stripe and tend to be smaller than ruber.",
+            ""
+        ]
+    }
+}

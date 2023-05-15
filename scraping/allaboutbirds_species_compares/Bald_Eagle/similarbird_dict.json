@@ -1,0 +1,50 @@
+{
+    "Golden Eagle": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60322141-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60322141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322141-720px.jpg"
+            ],
+            "description": "In flight, Golden Eagles have smaller heads and seemingly longer tails than Bald Eagles. Goldens have solid inner wing linings, while juvenile Bald Eagles have mottled wing linings. They also soar with wings slightly raised, whereas Bald Eagles fly on straight wings."
+        },
+        "Immature with Bald Eagle": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60322111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322111-720px.jpg"
+            ],
+            "description": "The Bald Eagle on the left has mottled underwings and lack's the Golden Eagle's (right) white wrist patches."
+        }
+    },
+    "Turkey Vulture": {
+        "Adult (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60317261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60317261-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60317261-720px.jpg"
+            ],
+            "description": "Turkey Vultures are common, large, and dark soaring birds, but they have much smaller, darker heads than Bald Eagles and they hold their wings in a pronounced V-shape when soaring. They often teeter as they soar, whereas Bald Eagles hold their wings flat like a board and are steady."
+        }
+    },
+    "Black Vulture": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70706101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70706101-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70706101-720px.jpg"
+            ],
+            "description": "Black Vultures have a much shorter tail and smaller head than Bald Eagles. They are solid black underneath, without the mottling of immature Bald Eagles or the white head of adults."
+        }
+    },
+    "Red-tailed Hawk": {
+        "Juvenile dark morph (calurus/alascensis)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60384831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60384831-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60384831-720px.jpg"
+            ],
+            "description": "At distance, Red-tailed Hawks have a similar shape to Bald Eagles but their wings are shorter, their heads smaller, and you can usually see that the bird's body and wings are paler than a Bald Eagle."
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666521-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666521-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63666491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666491-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63666481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666481-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666531-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with a thin, slightly curved bill. Striped black and white overall. Males have a black ear patch.",
+            "Creeps up and down trees and main branches like a nuthatch.",
+            "Song is a thin whistle that sounds like a squeaky wheel spinning. The other, louder song audible here is a Common Yellowthroat.",
+            "Heavily streaked black and white. Tail is dark with white spots on outer tail feathers.",
+            "Small songbird that is heavily streaked black and white.",
+            "Picks insects from bark of twigs, branches, and tree trunks. Much less likely to forage among leaves than other warblers."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666511-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666531-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are often paler, with a white throat, a grayish ear patch, and sometimes a wash of buff on the flanks.",
+            "Creeps up and down trees and main branches like a nuthatch."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666511-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63666481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666481-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically forages on trunks and main branches, like a nuthatch. Note black-spotted undertail coverts.",
+            "White undertail coverts with black spots are a distinctive field mark of Black-and-white Warblers."
+        ]
+    },
+    "Immature female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with a slightly curved bill. Immature and female birds have a whiter throat and a grayish ear patch."
+        ]
+    }
+}

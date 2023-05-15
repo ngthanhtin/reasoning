@@ -1,0 +1,86 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297084201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297084201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297084201-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky songbirds noticeably larger and heavier-bodied than warblers. Breeding males are bright yellow with black wings and a flaming orange-red head. Note yellow shoulder and white wingbar."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297084461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297084461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297084461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297084891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297084891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297084891-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297085031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297085031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297085031-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297084751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297084751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297084751-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized songbird with a thicker bill. Females are yellowish overall with dark wings marked by 2 wingbars.",
+            "Some females are paler than others. This female has pale grayish underparts and yellowish undertail coverts.",
+            "",
+            "Females are yellowish overall with a gray back and darker wings marked by 2 wingbars."
+        ]
+    },
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297084461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297084461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297084461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67449141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67449141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449141-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Quietly and methodically scans for insects and plucks them from twigs, branches, leaves, and flowers in the upper portions of forest trees and shrubs.",
+            "Breeds in evergreen and mixed forests. During migration found in nearly any shrubby or wooded habitats, and even in fairly open country."
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297084591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297084591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297084591-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding males look similar to breeding males, but have a yellow head that slowly becomes red as they molt into breeding plumage."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67449091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449091-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature males have a scalloped-looking back. Head color varies from yellow to patchy red."
+        ]
+    }
+}

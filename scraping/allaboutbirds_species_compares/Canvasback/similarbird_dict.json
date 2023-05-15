@@ -1,0 +1,74 @@
+{
+    "Redhead": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63894341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63894341-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63894341-720px.jpg"
+            ],
+            "description": "Redheads are smaller than Canvasbacks with a blue (not black) bill, a steeper forehead, and a gray (not white) back."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63894381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63894381-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63894381-720px.jpg"
+            ],
+            "description": "Female Redheads have a rounder head than the gently sloping heads of Canvasbacks and a darker brown back."
+        }
+    },
+    "Greater Scaup": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895751-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895751-720px.jpg"
+            ],
+            "description": "Note the steeper forehead and darker back seen of Greater Scaups compared to Canvasbacks."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895781-720px.jpg"
+            ],
+            "description": "Female scaup have a white spot behind the bill that female Canvasbacks lack."
+        }
+    },
+    "Lesser Scaup": {
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63896301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896301-1280px.jpg"
+            ],
+            "description": "Note the steeper forehead and darker back on Lesser Scaups compared to Canvasbacks."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63896231-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63896231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896231-720px.jpg"
+            ],
+            "description": "Female scaup have a white spot behind the bill that female Canvasbacks lack."
+        }
+    },
+    "Ring-necked Duck": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895181-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895181-720px.jpg"
+            ],
+            "description": "Ring-necked Ducks have a steeper forehead and darker back compared to Canvasbacks. Also note the white spur on Ring-necked Ducks that is absent on Canvasbacks."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895211-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895211-1280px.jpg"
+            ],
+            "description": "Ring-necked Ducks are smaller than Canvasbacks with a darker back and steeper forehead."
+        }
+    }
+}

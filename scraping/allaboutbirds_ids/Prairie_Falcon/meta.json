@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71547461-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71547461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71547461-480px.jpg"
+        ],
+        "description": [
+            "Prairie Falcons are large falcons about the size of a peregrine. They have pointed wings and medium-long tails.",
+            "Larger than a Merlin; smaller than a Swainson's Hawk.",
+            "between crow and goose",
+            "Sex: Both Sexes",
+            "Length: 14.6-18.5 in (37-47 cm)",
+            "Weight: 14.8-38.8 oz (420-1100 g)",
+            "Wingspan: 35.4-44.5 in (90-113 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71547441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71547441-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71547441-480px.jpg"
+        ],
+        "description": [
+            "Prairie Falcons are brown above and pale with brown markings on the breast and belly. From below, they show dark under the wing from the \"armpit\" to the wrist. From above, the tail is paler and contrasts with the back and wings. They have a pale stripe above the eye and a brown mustache stripe."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240082179",
+        "description": [
+            "Prairie Falcons often hunt from low altitudes, flapping powerfully across open areas and surprising prey by hugging the ground contours to stay out of view."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71547451-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71547451-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71547451-480px.jpg"
+        ],
+        "description": [
+            "They occur in wide-open habitats of the West, including sagebrush, desert, prairie, agricultural fields, and alpine meadows up to about 11,000 feet elevation. They nest on ledges on sheer rocky cliffs."
+        ]
+    }
+}

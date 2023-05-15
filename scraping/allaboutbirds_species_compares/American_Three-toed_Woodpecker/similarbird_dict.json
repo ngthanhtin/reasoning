@@ -1,0 +1,40 @@
+{
+    "Black-backed Woodpecker": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70036501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70036501-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70036501-720px.jpg"
+            ],
+            "description": "Black-backed Woodpeckers have a solid black back, whereas American Three-toed Woodpeckers have at least some barring on the back."
+        }
+    },
+    "Hairy Woodpecker": {
+        "Female (Rocky Mts.)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68929241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68929241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929241-1280px.jpg"
+            ],
+            "description": "Hairy Woodpeckers have a white patch down the center of the back, whereas America Three-toed Woodpeckers have barring on the back (except populations in the Rockies, which have less barring)."
+        },
+        "Male (Rocky Mts.)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68929201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929201-1280px.jpg"
+            ],
+            "description": "Hairy Woodpeckers have unmarked sides, whereas American Three-toed Woodpeckers have barred sides."
+        }
+    },
+    "Downy Woodpecker": {
+        "Female (Rocky Mts.)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60397921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60397921-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60397921-720px.jpg"
+            ],
+            "description": "Downy Woodpeckers are smaller and lack the barred sides of American Three-toed Woodpeckers."
+        }
+    }
+}

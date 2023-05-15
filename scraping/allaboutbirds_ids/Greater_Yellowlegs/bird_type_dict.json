@@ -1,0 +1,68 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64836521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836521-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64836531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836531-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64836511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836511-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64836551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64836551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836551-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender, long-necked, and small-headed shorebird with bright yellow legs. Breeding birds have heavy barring on the flanks, sometimes extending across the belly.",
+            "Call is a string of three or four sharp, high-pitched notes. Note slightly upturned bill more than 1.5x as long as the head.",
+            "Tall and gangly shorebird with bright yellow legs and a long bill. Breeding birds often have heavily streaked underparts. Stands upright.",
+            "Breeds in wet bogs with small wooded islands, and forests with wet clearings covered with mosses and lichens."
+        ]
+    },
+    "Nonbreeding and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64836531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836531-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301791371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301791371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301791371-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64836561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836561-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender shorebird with a small head and bright yellow legs. The bill is long and slightly upturned. Juveniles are browner above with crisp markings.",
+            "In flight, note white rump and plain wings.",
+            "Juveniles are browner above with crisp markings. Note bright yellow legs and long bill. Stands upright."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64836571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836571-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64836571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Winters in wide variety of shallow fresh and saltwater habitats."
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65680391-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65680391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65680391-480px.jpg"
+        ],
+        "description": [
+            "A slim, small songbird with an upright posture, a large head that often looks peaked, and a straight, fairly wide bill. The tail is moderately long.",
+            "",
+            "Slightly larger than a Chestnut-backed Chickadee, smaller than a Black Phoebe.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.5-6.7 in (14-17 cm)",
+            "Weight: 0.3-0.4 oz (8-12 g)",
+            "Wingspan: 7.9-9.1 in (20-23 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65680381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65680381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65680381-720px.jpg"
+        ],
+        "description": [
+            "In fresh plumage, pale greenish brown above, pale below with lemon wash and brownish breast. The wings and tail are dark with strongly contrasting pale wingbars. Worn birds can look brownish above, dingy pale gray below, with weak wingbars.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668085",
+        "description": [
+            "Flies out from perches at middle heights in trees and understory, usually capturing insects in flight just below the canopy, less often picking insects from vegetation. Nests in shady mountain ravines, sometimes placing nests on banks or human-made structures rather than in trees.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65680401-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65680401-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65680401-480px.jpg"
+        ],
+        "description": [
+            "Nests in shady but partly open coniferous and mixed forests, usually near streams in ravines and canyons of foothills and mountains. Migrants stop in similar interior woodland settings. Winters in lowland and mountain forests of western Mexico.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The three subspecies of Pacific-slope Flycatcher differ very slightly. A brightly colored subspecies (insulicola) breeds only on the Channel Islands in California; it has a different song and might some day be considered a separate species. Another, paler subspecies (cineritius) inhabits the mountains of southern Baja California, Mexico.",
+            ""
+        ]
+    }
+}

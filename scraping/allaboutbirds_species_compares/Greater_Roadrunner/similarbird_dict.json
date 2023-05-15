@@ -1,0 +1,22 @@
+{
+    "Ring-necked Pheasant": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65615281-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65615281-720px.jpg"
+            ],
+            "description": "Female Ring-necked Pheasants have much smaller heads and shorter legs than a Greater Roadrunner. They show less dark streaking above and tend to occur in less dry habitats than roadrunners."
+        }
+    },
+    "Scaled Quail": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65609501-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65609501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65609501-720px.jpg"
+            ],
+            "description": "Scaled Quail share the Greater Roadrunner\u2019s desert habitat, but are much smaller and shorter-legged, with a plain back and wings and a heavily scaled belly (roadrunners have unmarked bellies)."
+        }
+    }
+}

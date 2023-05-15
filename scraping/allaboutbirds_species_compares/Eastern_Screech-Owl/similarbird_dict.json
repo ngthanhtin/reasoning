@@ -1,0 +1,22 @@
+{
+    "Western Screech-Owl": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66045431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66045431-1280px.jpg"
+            ],
+            "description": "The Western Screech-Owl looks very similar but has little or no range overlap with the Eastern Screech-Owl. Vocalizations differ: Western has an accelerating series of hoots, while Eastern has a descending whinny."
+        }
+    },
+    "Northern Saw-whet Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg"
+            ],
+            "description": "Northern Saw-whet Owls are slightly smaller than Eastern Screech-Owls and lack ear tufts. They also have less intricately barred underparts."
+        }
+    }
+}

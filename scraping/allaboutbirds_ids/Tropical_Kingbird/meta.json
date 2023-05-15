@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/36815591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36815591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36815591-720px.jpg"
+        ],
+        "description": [
+            "A powerfully built flycatcher with a big head and a heavy, long bill. It has pointed but broad wings, and its medium-length tail shows a shallow notch in the center.",
+            "",
+            "Larger than a Western Kingbird, smaller than a Green Jay.",
+            "",
+            "robin-sized",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/32805291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32805291-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32805291-480px.jpg"
+        ],
+        "description": [
+            "A gray-headed bird with bright yellow underparts and a pale gray-green back. It has a whitish throat and dark gray-brown wings and tail.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238638951",
+        "description": [
+            "Forages by catching large flying insects on the wing, sallying out from a favored perch (often a telephone line) and returning to it to consume the prey. Also feeds on fruits, particularly during cooler weather. Perches conspicuously and when nesting flies out to confront many sorts of birds that come too close to the nest.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40642221-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40642221-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40642221-720px.jpg"
+        ],
+        "description": [
+            "Found in almost any open or semiopen habitat in most of the range; in the United States, favors parks, towns, and rural areas with scattered trees for nesting and other perches for hunting, often near water.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize three subspecies, which differ mostly in intensity of their plumage colors: satrapa from the United States south to Venezuela; despotes in eastern Brazil; and the larger melancholicus across the remainder of South America. Both despotes and melancholicus are more vividly yellow below than satrapa.",
+            ""
+        ]
+    }
+}

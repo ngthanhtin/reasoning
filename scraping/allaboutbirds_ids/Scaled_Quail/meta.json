@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65609541-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65609541-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65609541-480px.jpg"
+        ],
+        "description": [
+            "A compact chickenlike bird with a small head and a distinctive short crest. It has a plump body, short tail, and short, strong legs.",
+            "",
+            "Slightly larger than a Northern Bobwhite; about the same size as a Gambel\u2019s Quail.",
+            "",
+            "between robin and crow",
+            "Sex: Both Sexes",
+            "Length: 10.0-12.0 in (25.4-30.5 cm)",
+            "Weight: 6.2-6.7 oz (177-191 g)",
+            "Wingspan: 15.0 in (38 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65609501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65609501-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65609501-480px.jpg"
+        ],
+        "description": [
+            "Adults are pale brownish with elegant dark scaling on the underparts. The head is plain brown with a buffy accent on the crest. The back is bluish gray and the wings are brown stippled with buff. Juveniles are similar but have a shorter crest, and the upperwing has a more ornate pattern.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643382",
+        "description": [
+            "Forages in small groups (coveys) by walking slowly along the ground, pecking at seeds and insects or nipping vegetation. Males sing from conspicuous perches in spring. Often seen along roadsides in small groups, which usually run away or flush into flight.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65609531-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg"
+        ],
+        "description": [
+            "Desert grasslands and sparsely vegetated shrublands with plants like yucca, cholla, mesquite, skunkbush sumac, prickly pear, sandsage, pinyon, and juniper.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The four subspecies of Scaled Quail differ in their plumages. Two northern subspecies (hargravei and pallida) of southeastern Arizona through western Texas are paler than the Mexican subspecies squamata. Subspecies castanogastris, which ranges from central Texas into Mexico, is even paler and shows a deep chestnut belly patch.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "Rufous Hummingbird": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68934081-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68934081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68934081-720px.jpg"
+            ],
+            "description": "Female Rufous Hummingbirds are slightly smaller with a shorter tail than female Broad-tailed Hummingbirds. Their tail barely extends beyond the wings, whereas it extends well beyond on Broad-tailed. Females also lack the female Broad-tailed's grayer cheeks and white eyering."
+        }
+    },
+    "Allen's Hummingbird": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65775891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65775891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65775891-1280px.jpg"
+            ],
+            "description": "Female Allen's Hummingbirds are slightly smaller with a shorter tail than female Broad-tailed Hummingbirds. Their tail barely extends beyond the wings, whereas it extends well beyond on Broad-tailed. Females lack the female Broad-tailed's white eyering."
+        }
+    },
+    "Anna's Hummingbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66120941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66120941-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66120941-720px.jpg"
+            ],
+            "description": "Adult male Anna's Hummingbirds have a rosy-red crown, whereas adult male Broad-tailed Hummingbirds have a green crown."
+        },
+        "Female/immature male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66120971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66120971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66120971-1280px.jpg"
+            ],
+            "description": "Female and immature Anna's Hummingbirds have a white arc over the eye that extends down the side of the face, instead of the pale eyering on female Broad-tailed Hummingbirds."
+        }
+    },
+    "Ruby-throated Hummingbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60395561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60395561-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60395561-720px.jpg"
+            ],
+            "description": "Ruby-throated Hummingbirds don't overlap with Broad-tailed Hummingbirds on the breeding grounds. Male Ruby-throats have a dark eye patch, whereas male Broad-tailed have a thin white line separating their eye from their throat."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60395531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60395531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60395531-1280px.jpg"
+            ],
+            "description": "Female Ruby-throated Hummingbirds have dusky cheek patches, whereas female Broad-tailed Hummingbirds have spotted cheeks and throat. Note that their breeding ranges do not overlap."
+        }
+    }
+}

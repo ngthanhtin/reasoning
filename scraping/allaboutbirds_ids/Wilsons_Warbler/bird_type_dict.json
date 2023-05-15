@@ -1,0 +1,80 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297073391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297073391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297073391-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64914621-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64914621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914621-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914591-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914581-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a small, thin bill and beady black eye. Entirely yellow below with an olive back. Adult males have a black cap.",
+            "",
+            "Entirely yellow below with an olive back. Adult males have a black cap.",
+            "Small entirely yellow warbler save for the black cap on adult males. Spends most of its time in the understory.",
+            "",
+            ""
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64914621-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64914621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914621-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914611-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914611-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a small, thin bill and beady black eye. Females and immatures have an olive crown. Some females show a small black cap.",
+            "Females and immatures have an olive crown, but some females can have a small black cap. Note small patch of black feathers on the crown of this individual.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in wet meadows and thickets near streams, especially those with willows and alders. Also found in aspen stands and young stands of evergreen trees."
+        ]
+    }
+}

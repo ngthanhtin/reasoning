@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60314231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60314231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60314231-720px.jpg"
+        ],
+        "description": [
+            "Largest of the North American herons with long legs, a sinuous neck, and thick, daggerlike bill. Head, chest, and wing plumes give a shaggy appearance. In flight, the Great Blue Heron curls its neck into a tight \u201cS\u201d shape; its wings are broad and rounded and its legs trail well beyond the tail.",
+            "Taller and much heavier than a Great Egret; smaller and much less bulky than a Sandhill Crane.",
+            "goose-sized or larger",
+            "Sex: Both Sexes",
+            "Length: 38.2-53.9 in (97-137 cm)",
+            "Weight: 74.1-88.2 oz (2100-2500 g)",
+            "Wingspan: 65.8-79.1 in (167-201 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60314201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60314201-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60314201-480px.jpg"
+        ],
+        "description": [
+            "Great Blue Herons appear blue-gray from a distance, with a wide black stripe over the eye. In flight, the upper side of the wing is two-toned: pale on the forewing and darker on the flight feathers. A pure white subspecies occurs in coastal southern Florida."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238635838",
+        "description": [
+            "Hunting Great Blue Herons wade slowly or stand statue-like, stalking fish and other prey in shallow water or open fields. Watch for the lightning-fast thrust of the neck and head as they stab with their strong bills. Their very slow wingbeats, tucked-in neck and trailing legs create an unmistakable image in flight."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60314311-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60314311-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60314311-480px.jpg"
+        ],
+        "description": [
+            "Look for Great Blue Herons in saltwater and freshwater habitats, from open coasts, marshes, sloughs, riverbanks, and lakes to backyard goldfish ponds. They also forage in grasslands and agricultural fields. Breeding birds gather in colonies or \u201cheronries\u201d to build stick nests high off the ground."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "An all-white subspecies, the Great White Heron, is found in coastal areas of southern Florida, along with individuals that are intermediate in plumage (showing a grayish body with a mostly white head and neck), known as \u201cW\u00fcrdemann\u2019s Heron.\u201d"
+        ]
+    }
+}

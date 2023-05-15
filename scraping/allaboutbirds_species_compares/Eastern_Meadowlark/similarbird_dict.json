@@ -1,0 +1,32 @@
+{
+    "Western Meadowlark": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67378741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67378741-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67378741-720px.jpg"
+            ],
+            "description": "Western Meadowlarks have less white on the outer tail feathers than Easterns, but this difference can be hard to judge."
+        }
+    },
+    "Bobolink": {
+        "Female/nonbreeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67379781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67379781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67379781-720px.jpg"
+            ],
+            "description": "Female and nonbreeding Bobolinks are smaller and slimmer, with much shorter bills and more uniform buff coloring than Eastern Meadowlarks."
+        }
+    },
+    "Savannah Sparrow": {
+        "Adult (Savannah)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64981751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64981751-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64981751-720px.jpg"
+            ],
+            "description": "Savannah Sparrows are much smaller with a shorter bill and whitish, not yellow, underparts unlike the large and long-billed Eastern Meadowlark."
+        }
+    }
+}

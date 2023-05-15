@@ -1,0 +1,146 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305568151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305568151-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305568151-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305572991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305572991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305572991-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305574931-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305574931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305574931-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305568421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305568421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305568421-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305576321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305576321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305576321-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small streamlined songbird with a tiny bill, long, pointed wings and a short, squared or slightly notched tail. Adults are blue-green above and white below with blackish flight feathers.",
+            "In flight, note streamlined body, squared or slightly notched tail and broad wings. Adults are blue-green above with a black mask around their eye and tiny white crescents on the sides of their rump.",
+            "",
+            "Adults are iridescent blue-green with a thin black mask around the eye.",
+            "Breeds in open habitats such as fields and wetlands, usually adjacent to water. Nests in artificial nest boxes as well as holes in trees."
+        ]
+    },
+    "Immature female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305575211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305575211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305575211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305571401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305571401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305571401-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Long-bodied songbird with a small head and bill. First year females may be brownish above with hints of blue-green; adult females can be nearly as blue-green as males.",
+            ""
+        ]
+    },
+    "Adult male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305575211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305575211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305575211-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305569761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305569761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305569761-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult female with juveniles": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305572991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305572991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305572991-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305571401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305571401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305571401-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280101-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305570271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305570271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305570271-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305575731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305575731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305575731-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The wings are broad and the tail is squared or slightly notched. Juveniles are brown above with a small white crescent on the sides of its rump.",
+            "",
+            "Juveniles are brown above and white below, but some juveniles and females can show a weak, blurry gray-brown breast band."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305568421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305568421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305568421-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305573231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305573231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305573231-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Forms large flocks during migration and when foraging over wetlands, water, and agricultural fields."
+        ]
+    }
+}

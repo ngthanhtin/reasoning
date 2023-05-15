@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67364561-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67364561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67364561-720px.jpg"
+        ],
+        "description": [
+            "Common Grackles are large, lanky blackbirds with long legs and long tails. The head is flat and the bill is longer than in most blackbirds, with the hint of a downward curve. In flight, the wings appear short in comparison to the tail. Males are slightly larger than females.",
+            "Larger than a Red-winged Blackbird; about the same size as a Mourning Dove",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 11.0-13.4 in (28-34 cm)",
+            "Weight: 2.6-5.0 oz (74-142 g)",
+            "Wingspan: 14.2-18.1 in (36-46 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67364531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67364531-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67364531-480px.jpg"
+        ],
+        "description": [
+            "Common Grackles appear black from a distance, but up close their glossy purple heads contrast with bronzy-iridescent bodies. A bright golden eye gives grackles an intent expression. Females are slightly less glossy than males. Young birds are dark brown with a dark eye."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670867",
+        "description": [
+            "You\u2019ll often find Common Grackles in large flocks, flying or foraging on lawns and in agricultural fields. They strut on their long legs, pecking for food rather than scratching. At feeders Common Grackles dominate smaller birds. When resting they sit atop trees or on telephone lines, keeping up a raucous chattering. Flight is direct, with stiff wingbeats."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67364571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67364571-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67364571-480px.jpg"
+        ],
+        "description": [
+            "Common Grackles thrive around agricultural fields, feedlots, city parks, and suburban lawns. They\u2019re also common in open habitats including woodland, forest edges, meadows, and marshes."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The \u201cbronzed grackle\u201d race of the Common Grackle, breeding roughly west of the Appalachians and in New England, has the characteristic bronzy back. Birds of the Southeast, from North Carolina to Louisiana, often called the \u201cFlorida grackle,\u201d are darker green on the back rather than bronzy, and they're purple on the belly. An intermediate race along the Eastern seaboard is sometimes called the purple grackle."
+        ]
+    }
+}

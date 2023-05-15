@@ -1,0 +1,32 @@
+{
+    "Grasshopper Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32804001-1280px.jpg"
+            ],
+            "description": "Grasshopper Sparrows have an unstreaked breast unlike Baird's Sparrows."
+        }
+    },
+    "Henslow's Sparrow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40263701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40263701-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40263701-720px.jpg"
+            ],
+            "description": "Henslow's Sparrows have more rust color in the wings than Baird's Sparrow and a more olive-colored face."
+        }
+    },
+    "LeConte's Sparrow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40263691-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40263691-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40263691-720px.jpg"
+            ],
+            "description": "LeConte's Sparrows lack the dark mustache stripe seen on Baird's Sparrows and have finer streaking on the chest."
+        }
+    }
+}

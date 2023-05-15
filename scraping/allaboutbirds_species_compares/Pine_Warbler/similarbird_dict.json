@@ -1,0 +1,76 @@
+{
+    "Yellow-throated Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65760791-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760791-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65760791-720px.jpg"
+            ],
+            "description": "Yellow-throated Vireos have a thicker hooked bill than Pine Warblers with distinct yellow spectacles and unstreaked flanks."
+        }
+    },
+    "Cape May Warbler": {
+        "Adult female/immature male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64516221-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64516221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64516221-1280px.jpg"
+            ],
+            "description": "Adult female/immature male Cape May Warblers have a thinner bill than Pine Warblers with more distinct streaking on the flanks."
+        },
+        "Immature female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64516201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64516201-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64516201-720px.jpg"
+            ],
+            "description": "Immature Cape May Warblers have narrower wingbars than immature Pine Warblers with more distinct streaking on the flanks."
+        }
+    },
+    "Bay-breasted Warbler": {
+        "Nonbreeding female/immature male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64800361-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64800361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64800361-1280px.jpg"
+            ],
+            "description": "Nonbreeding female/immature male Bay-breasted Warblers have a thinner bill, more obvious wingbars, and cleaner flanks (often with chestnut wash) than Pine Warblers."
+        }
+    },
+    "Yellow Warbler": {
+        "Adult female (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802851-1280px.jpg"
+            ],
+            "description": "Yellow Warblers are brighter yellow overall than Pine Warblers and lack wingbars."
+        },
+        "Immature (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64802891-720px.jpg"
+            ],
+            "description": "Immature Yellow Warblers are brighter yellow overall than Pine Warblers and lack wingbars."
+        }
+    },
+    "Blackpoll Warbler": {
+        "Nonbreeding female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64804661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64804661-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64804661-720px.jpg"
+            ],
+            "description": "Nonbreeding female/immature Blackpoll Warblers have a thinner bill, a longer eyeline, and more distinct wingbars than Pine Warblers."
+        },
+        "Breeding female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64804671-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64804671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64804671-720px.jpg"
+            ],
+            "description": "Female Blackpoll Warblers have a thinner bill, a longer eyeline, and more distinct wingbars than Pine Warblers."
+        }
+    }
+}

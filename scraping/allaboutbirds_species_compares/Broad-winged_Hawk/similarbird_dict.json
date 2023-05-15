@@ -1,0 +1,82 @@
+{
+    "Red-shouldered Hawk": {
+        "Adult (lineatus group)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71533441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71533441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71533441-1280px.jpg"
+            ],
+            "description": "In flight, adult Red-shouldered Hawks show black-and-white checkered flight feathers and several narrow bands in the tail, unlike Broad-winged Hawk's pale underwings and broad bands in the tail."
+        },
+        "Juvenile (lineatus group)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71533341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71533341-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71533341-720px.jpg"
+            ],
+            "description": "In flight, juvenile Red-shouldered Hawks usually show a reddish wash on the underwing coverts, and they usually show pale or translucent crescents in the primaries, both features that Broad-winged lacks."
+        }
+    },
+    "Cooper's Hawk": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60324921-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60324921-720px.jpg"
+            ],
+            "description": "Cooper's Hawks are differently shaped than Broad-winged Hawks, with much longer tails. Adult Cooper's Hawks have a reddish eye, gray upperparts, and fine reddish barring on the breast."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60324941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60324941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324941-1280px.jpg"
+            ],
+            "description": "In flight, Cooper's Hawks have much longer tails than Broad-winged Hawks. They tend to flap and glide rather than soar for extended periods with wings open, as Broad-winged Hawks do."
+        }
+    },
+    "Sharp-shinned Hawk": {
+        "Adult (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70780501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780501-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780501-720px.jpg"
+            ],
+            "description": "Adult Sharp-shinned Hawks are gray above and finely barred reddish on the breast, unlike the overall brown tones of Broad-winged. They have much longer tails than Broad-winged Hawks, and the eye of adult Sharp-shinned is reddish."
+        },
+        "Immature (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70780581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780581-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70780581-720px.jpg"
+            ],
+            "description": "Sharp-shinned Hawks have much longer tails and shorter, more barred wings than Broad-winged Hawks. In flight they flap and glide intermittently, but rarely soar for long periods without flapping, as Broad-winged Hawks do."
+        }
+    },
+    "Red-tailed Hawk": {
+        "Adult light morph (borealis)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60384771-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60384771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60384771-720px.jpg"
+            ],
+            "description": "Red-tailed Hawks are larger than Broad-winged Hawks. They have dark bars across the inner half of the leading edge of the underwing (patagium). Adult Red-tailed Hawks have reddish tails without the strong black-and-white bands of Broad-winged."
+        },
+        "Juvenile (borealis)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60384851-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60384851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60384851-1280px.jpg"
+            ],
+            "description": "Red-tailed Hawks are larger than Broad-winged Hawks, with a distinct \"belly band\" of brown streaks."
+        },
+        "Juvenile light morph (calurus/alascensis) ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60384881-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60384881-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60384881-720px.jpg"
+            ],
+            "description": "Like adults, young Red-tailed Hawks have the dark patagium along the leading edge of the wing from shoulder to wrist. They also usually have a belly band of dark streaks and a mostly unmarked chest."
+        }
+    }
+}

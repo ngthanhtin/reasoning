@@ -1,0 +1,74 @@
+{
+    "Canvasback": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63893981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893981-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63893981-720px.jpg"
+            ],
+            "description": "Canvasbacks are larger with a more gently sloping forehead and a whiter back than Redheads."
+        },
+        "Female with Redhead": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893941-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893941-720px.jpg"
+            ],
+            "description": "The Canvasback on the right is larger with a more gently sloping forehead and paler sides than the Redhead on the left."
+        }
+    },
+    "Greater Scaup": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895751-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895751-720px.jpg"
+            ],
+            "description": "From a distance Greater Scaup can look similar to Redheads, but they have whiter sides."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895781-720px.jpg"
+            ],
+            "description": "Female Greater Scaup have a white spot around the bill that female Redheads lack."
+        }
+    },
+    "Lesser Scaup": {
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63896301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896301-1280px.jpg"
+            ],
+            "description": "From a distance Lesser Scaup look similar to Redheads, but they have whiter sides."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63896231-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63896231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896231-720px.jpg"
+            ],
+            "description": "Female Lesser Scaup have a white spot around the bill that female Redheads lack."
+        }
+    },
+    "Ring-necked Duck": {
+        "Adult male and female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40711161-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40711161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40711161-720px.jpg"
+            ],
+            "description": "Ring-necked Ducks look similar to Redheads at a distance, but they have a darker back than Redheads with a white spur on the side that Redheads lack."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895211-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895211-1280px.jpg"
+            ],
+            "description": "Female Ring-necked Ducks have a darker brown back than female Redheads. They also have a white spot around the bill that Redheads lack."
+        }
+    }
+}

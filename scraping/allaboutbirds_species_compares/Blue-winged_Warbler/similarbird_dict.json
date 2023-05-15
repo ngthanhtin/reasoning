@@ -1,0 +1,20 @@
+{
+    "Golden-winged Warbler": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/161007131-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161007131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/161007131-720px.jpg"
+            ],
+            "description": "Male Golden-winged Warblers have a black (not yellow) throat and a yellow wing patch that Blue-winged Warblers lack."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/161003121-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161003121-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161003121-720px.jpg"
+            ],
+            "description": "Female Golden-winged Warblers are whitish below (not yellow) and have a yellow wing patch that Blue-winged Warblers lack."
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/161007131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/161007131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161007131-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/161003121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161003121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161003121-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/38457901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38457901-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38457901-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296757921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757921-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296757921-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296757951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757951-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296757951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757951-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Golden-winged Warblers are slim, silvery gray birds with golden flashes on the head and wings. Males have a black throat and mask with 2 white facial stripes.",
+            "Typical song starts with a long, buzzy note followed by 3\u20136 shorter, lower notes.",
+            "Small warbler. Males have a yellow crown, a black throat, and ear patch, 2 white facial stripes, and golden wing patch. Outer tail feathers flash white in flight.",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/161003121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161003121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161003121-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296757921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757921-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296757921-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/38454641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38454641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38454641-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296757951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296757951-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Slim warbler with thin, sharply pointed bill. Females have a greenish yellow crown, a dusky gray throat and cheek, and golden wing patch.",
+            "Females lack the male\u2019s black mask and bib.",
+            "Females have a grayish throat and mask and a yellow crown.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Band-tailed Pigeon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66034641-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66034641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66034641-720px.jpg"
+            ],
+            "description": "Band-tailed Pigeons have a white crescent on the neck and a pale tip to the tail unlike the dark-tipped tail on Rock Pigeons. Band-tailed Pigeons occur more often in forested areas than in towns like Rock Pigeons."
+        }
+    },
+    "Mourning Dove": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-1280px.jpg"
+            ],
+            "description": "Mourning Doves are smaller than Rock Pigeons and have a longer, pointier tail. They are tan overall rather than gray like the Rock Pigeon."
+        }
+    },
+    "Eurasian Collared-Dove": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66035091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66035091-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66035091-720px.jpg"
+            ],
+            "description": "Eurasian Collared-Doves are smaller than Rock Pigeons, with a longer, square-tipped tail. They are uniform sandy brown except for a black collar on the neck."
+        }
+    },
+    "White-winged Dove": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg"
+            ],
+            "description": "White-winged Doves are smaller than Rock Pigeons, with a white patch on the wings that is visible both in flight and at rest."
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297333661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297333661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297333661-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297333881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297333881-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297333881-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Sparrow-sized, stocky bird with a short tail and a conical bill. Breeding males are bright blue overall, with slightly richer blue on the head.",
+            "Sings a bright, lively song of sharp, clear, high-pitched notes, with most of the notes doubled. (First song heard from off-camera is an Ovenbird, not an Indigo Bunting.)",
+            "Found in weedy and brushy areas, especially where fields meet forests."
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297333881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297333881-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297333881-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297333941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297333941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297333941-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297333941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297333941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297333941-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385741-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385741-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Sparrow-sized but finchlike in appearance with a conical bill. Females/immatures are brownish, with faint streaking on the breast and sometimes a touch of blue on the wings, tail, or rump. Note white throat.",
+            "",
+            "Note tinges of blue at shoulder and in tail; otherwise, plumage is brown with faint streaks on the breast and a whitish throat.",
+            "Stocky with a conical bill. Females/immatures are brownish overall (darker above and paler below) with blue highlights in the wings and tail. Note tan wingbars."
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67385761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385761-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67385761-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Finchlike with a short tail and conical bill. Nonbreeding males are covered in irregular patches of blue and brown.",
+            "Can look blotchy during molt, with patches of blue breeding plumage mixing with brownish nonbreeding plumage. Note normal bill (not grosbeak sized) and compact proportions with short tail."
+        ]
+    },
+    "Males and females and immature males": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often feeds in flocks in weedy fields, clinging to stems and eating small seeds."
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "Eared Grebe": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65058061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65058061-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65058061-720px.jpg"
+            ],
+            "description": "Eared Grebes in breeding plumage have black necks and a fan-shaped splay of golden head feathers, whereas Horned Grebes have a chestnut neck and golden tufts that run straight back across the head."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65058071-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65058071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65058071-720px.jpg"
+            ],
+            "description": "Eared Grebes in nonbreeding plumage have a less clean-cut head pattern than Horned Grebes. Eared has a gray smudge behind the eye, rather than Horned's clear border between crown, cheek, and neck."
+        }
+    },
+    "Red-necked Grebe": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65057131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65057131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65057131-720px.jpg"
+            ],
+            "description": "Red-necked Grebes are larger with stouter bills than Horned Grebes. The bill is yellow and in breeding plumage Red-necked lacks the golden tufts and red eye of Horned."
+        },
+        "Nonbreeding": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65057141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65057141-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65057141-720px.jpg"
+            ],
+            "description": "Red-necked Grebes are larger with stouter bills than Horned Grebes. In nonbreeding plumage look for the Red-necked's yellowish bill, grayish cheek, and (at close range) dark eye."
+        }
+    },
+    "Pied-billed Grebe": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63919931-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63919931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63919931-720px.jpg"
+            ],
+            "description": "Pied-billed Grebes are smaller than Horned Grebes, with a short neck and thick but stubby bill. In breeding plumage they are brownish overall with a black ring on the bill."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63919951-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63919951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63919951-1280px.jpg"
+            ],
+            "description": "In nonbreeding plumage Pied-billed Grebes can be warm brown on the neck, but at this time of year Horned Grebes are black and white. Pied-billed is smaller, shorter-necked, with a thicker, stubbier bill."
+        }
+    }
+}

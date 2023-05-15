@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67272461-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67272461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67272461-480px.jpg"
+        ],
+        "description": [
+            "Lesser Goldfinches are tiny, stub-billed songbirds with long, pointed wings, and short, notched tails.",
+            "Smaller than a Song Sparrow; about the size of an American Goldfinch.",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 3.5-4.3 in (9-11 cm)",
+            "Weight: 0.3-0.4 oz (8-11.5 g)",
+            "Wingspan: 5.9-7.9 in (15-20 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67272481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67272481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67272481-720px.jpg"
+        ],
+        "description": [
+            "Males are bright yellow below with a glossy black cap and white patches in the wings; their backs can be glossy black or dull green (particularly on the West Coast). They have a black tail with large, white corners. Females and immatures have olive backs, dull yellow underparts, and black wings marked by two whitish wingbars."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648645",
+        "description": [
+            "Lesser Goldfinches gather in groups of up to several hundred at a time. They feed on seeds and grains, both in weedy fields and at bird feeders. Their flocks mix with other seed-eating songbirds, especially at bird feeding stations."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67272471-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67272471-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67272471-480px.jpg"
+        ],
+        "description": [
+            "Lesser Goldfinches feed in weedy fields, budding treetops, and the brush of open areas and edges. Depending on food availability, they may concentrate in mountain canyons and desert oases, but they are also fairly common in suburbs."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Adult males from the eastern edge of the range in the U.S. (and south into Central America) have black backs; those in the southwest and west are green-backed. Females are similar in appearance throughout the range."
+        ]
+    }
+}

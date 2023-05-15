@@ -1,0 +1,56 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60310501-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60310501-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60310501-480px.jpg"
+        ],
+        "description": [
+            "A relatively small duck with sizable head and rather long bill, longer than Blue-winged Teal\u2019s but shorter than Northern Shoveler\u2019s.",
+            "",
+            "Larger than a Green-winged Teal, smaller than a Northern Shoveler.",
+            "",
+            "crow-sized",
+            "Sex: Male",
+            "Length: 15.1-16.9 in (38.4-42.8 cm)",
+            "Weight: 11.8-14.1 oz (335-401 g)",
+            "Wingspan: 21.3-22.4 in (54-57 cm)",
+            "Female"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60310511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60310511-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60310511-480px.jpg"
+        ],
+        "description": [
+            "Breeding male has red eye, long dark bill, and mostly vivid rusty plumage, with brownish back, white underwing. Female, immature, and nonbreeding male are mostly rich brownish overall. All adults have sky-blue patch in open wing, similar to other teal and shovelers.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238646607",
+        "description": [
+            "Flocks of Cinnamon Teal dabble for food at the water\u2019s surface in marshes, sometimes feeding like shoveler flocks, moving in the same direction as they feed.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60310521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60310521-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60310521-480px.jpg"
+        ],
+        "description": [
+            "Cinnamon Teal breed and molt in freshwater wetlands with emergent vegetation in western North America. Similar freshwater wetlands, estuaries, mangrove swamps, and reservoirs are used in winter.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Only one subspecies (septentrionalium) occurs in North America. Another four subspecies occur in South America: tropica and borreroi are endemic to Colombia, while orinomus and cyanoptera are found from Peru southward. These subspecies differ in the intensity of rusty color in males, the extent of spotting in their plumage, and also in the degree of size difference between male and female.",
+            ""
+        ]
+    }
+}

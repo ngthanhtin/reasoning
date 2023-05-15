@@ -1,0 +1,56 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/55025061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/55025061-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/55025061-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/55025081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/55025081-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/55025081-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303336241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303336241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303336241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/55025051-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/55025051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/55025051-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Plump gull with a thin bill. Adults are entirely white with a yellow-tipped bill and a dark eye.",
+            "Ivory Gulls are highly opportunistic foragers, foraging on small fish, invertebrates, and small mammals, as well as carcasses and human trash.",
+            "The only all white gull. Note thin yellow-tipped bill and black eyes and legs.",
+            "Breeds on rocky islands and cliffs near pack ice in the high Arctic. In the winter found near pack and drift ice."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/55025081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/55025081-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/55025081-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/55025071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/55025071-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/55025071-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/169492691-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/169492691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169492691-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Full-bellied gull with a small head and thin bill. Immatures have a dark mask around the face and black speckling on the wings and tail.",
+            "The amount of black markings on immature birds varies; some have a slight smudge on the face and light speckling on the wings and tail, while others have a dark mask and heavy speckling.",
+            "The amount of black speckling on the wings and tail of immatures is variable, but they usually have black-tipped flight feathers and wing coverts."
+        ]
+    }
+}

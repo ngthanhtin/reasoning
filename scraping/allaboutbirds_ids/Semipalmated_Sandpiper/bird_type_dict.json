@@ -1,0 +1,86 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301537841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537841-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301537841-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small shorebird with a short neck and small head. Breeding birds can have some rusty mottling on the back or have more of a gray-brown color."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824431-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small shorebird with a short neck and small head. The bill is dark and may droop slightly at the tip. Nonbreeding birds have faint streaking on the breast, clean flanks, and dark legs.",
+            "In flight, note dark stripe down the center of the tail bordered by whitish outer tail feathers."
+        ]
+    },
+    "Juveniles": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824491-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Forms large flocks during migration and winter. Note relatively short, straight bill and dark legs."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824521-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64824511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824511-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a scaly looking back without any rusty coloring. Note darker cap and eyebrow stripe.",
+            "Juveniles have a scaly looking back caused by white edges to the feathers, and they lack rusty coloring. Note darker cap and eyebrow stripe."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824481-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824481-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Winters and migrates along mudflats, sandy beaches, shores of lakes and ponds, and wet meadows."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824541-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in large foraging or roosting flocks of up to several thousand individuals during migration and on the wintering grounds."
+        ]
+    }
+}

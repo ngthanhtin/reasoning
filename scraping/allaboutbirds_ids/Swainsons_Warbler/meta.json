@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/39400611-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39400611-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/39400611-480px.jpg"
+        ],
+        "description": [
+            "A solidly built songbird, with a rather flat head, heavy bill and strong legs for a warbler.",
+            "",
+            "Larger than a Carolina Chickadee, smaller than an Eastern Towhee; close in length to a Yellow-rumped Warbler but sturdier.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 5.1-5.5 in (13-14 cm)",
+            "Weight: 0.4-0.5 oz (11-15 g)",
+            "Wingspan: 8.7-9.4 in (22-24 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71090001-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71090001-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71090001-480px.jpg"
+        ],
+        "description": [
+            "Brownish olive above, pale below, with brown cap (in males, with chestnut cast in good light), pale supercilium (\u201ceyebrow\u201d), and indistinct eyeline.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238641616",
+        "description": [
+            "Forages unobtrusively, largely on the ground, walking through leaf litter and flipping leaves with long bill to find prey. Males sing from favorite perches in spring. Flies swiftly between perches.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40644781-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40644781-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40644781-720px.jpg"
+        ],
+        "description": [
+            "Breeds in southeastern forests with well-developed understory, especially bottomland hardwood forests and moist mountain ravines, but also in young pine plantations in some areas. Winters in many different forested habitats in the Caribbean.",
+            ""
+        ]
+    }
+}

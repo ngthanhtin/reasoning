@@ -1,0 +1,53 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71311591-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71311591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71311591-480px.jpg"
+        ],
+        "description": [
+            "A small, ternlike gull, with slender bill, rather narrow, pointed wings, and slim body.",
+            "",
+            "Larger than a Common Tern, smaller than a Ring-billed Gull.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 11.0-11.8 in (28-30 cm)",
+            "Weight: 7.4-8.3 oz (210-234 g)",
+            "Wingspan: 35.4-39.4 in (90-100 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71311551-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71311551-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71311551-480px.jpg"
+        ],
+        "description": [
+            "Breeding adults have black heads, red legs, and large white triangles in the wingtips that contrast with the gray wings. Nonbreeding birds are mostly white with grayish upperwings, white primaries (edged in black), and a gray spot on the cheek. Immatures are similar to nonbreeding adults but upperwing is edged in dark gray, and the tail is tipped in black.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71311561-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71311561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71311561-720px.jpg"
+        ],
+        "description": [
+            "In the nonbreeding season, Bonaparte\u2019s Gulls form tight, swift flocks that feed largely on small fish by dipping and diving, sometimes stealing fish from other birds. Migrants can occur over many types of open water and even follow farm plows to take worms and insects. When breeding, they eat mainly aerial insects, which they capture in flight. In flight style and in their harsh calls, they resemble terns.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71311601-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71311601-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71311601-480px.jpg"
+        ],
+        "description": [
+            "Numerous aquatic habitats during migration and the nonbreeding season, from rivers to lakes, bays to open ocean. Breeding birds in the far north nest in trees and forage over taiga forest, tundra, and open waters of rivers, lakes, and bays.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Plumbeous Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65763191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65763191-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65763191-720px.jpg"
+            ],
+            "description": "Plumbeous Vireo is less colorful than Black-capped Vireo: mostly uniform gray, without the Black-capped's black head and greenish back."
+        }
+    },
+    "Blue-headed Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761591-1280px.jpg"
+            ],
+            "description": "Blue-headed Vireo has a bluish-gray, not black, head. It breeds in mature forests, not scrub, and overlaps with Black-capped Vireo only during migration."
+        }
+    },
+    "Hutton's Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65760551-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65760551-720px.jpg"
+            ],
+            "description": "Hutton's Vireo lacks the bold black cap of Black-capped Vireo."
+        }
+    }
+}

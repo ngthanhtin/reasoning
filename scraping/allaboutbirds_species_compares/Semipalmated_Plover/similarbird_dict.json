@@ -1,0 +1,66 @@
+{
+    "Piping Plover": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39531551-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39531551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39531551-720px.jpg"
+            ],
+            "description": "Piping Plovers are paler overall than Semipalmated Plovers, with a narrower and incomplete breast band."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/34648511-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/34648511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/34648511-720px.jpg"
+            ],
+            "description": "Juvenile Piping Plovers are paler and do not have a complete dark breast band like juvenile Semipalmated Plovers."
+        },
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37881491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37881491-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37881491-720px.jpg"
+            ],
+            "description": "In flight, Piping Plovers look much paler and have a white band across the top of the tail. Semipalmated Plovers have a darker brown tail."
+        }
+    },
+    "Wilson's Plover": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32803031-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32803031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32803031-720px.jpg"
+            ],
+            "description": "Wilson's Plovers have a longer bill than Semipalmated Plovers. They also have beige legs while all plumages of Semipalmated Plovers have yellow legs."
+        }
+    },
+    "Snowy Plover": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/34647051-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/34647051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/34647051-720px.jpg"
+            ],
+            "description": "Snowy Plovers are paler overall than Semipalmated Plovers and do not have a complete breast band like Semipalmated Plovers."
+        },
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39430311-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39430311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39430311-720px.jpg"
+            ],
+            "description": "Snowy Plovers are paler overall than Semipalmated Plovers and do not have a complete breast band like Semipalmated Plovers."
+        }
+    },
+    "Killdeer": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64809651-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64809651-720px.jpg"
+            ],
+            "description": "Killdeer are larger than Semipalmated Plovers with two breast bands instead of one."
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64809651-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64809651-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64809651-480px.jpg"
+        ],
+        "description": [
+            "Killdeer have the characteristic large, round head, large eye, and short bill of all plovers. They are especially slender and lanky, with a long, pointed tail and long wings.",
+            "Similar in size to American Robin, but with longer legs and wings.",
+            "robin-sized",
+            "Sex: Both Sexes",
+            "Length: 7.9-11.0 in (20-28 cm)",
+            "Weight: 2.6-4.5 oz (75-128 g)",
+            "Wingspan: 18.1-18.9 in (46-48 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64809691-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64809691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64809691-720px.jpg"
+        ],
+        "description": [
+            "Brownish-tan on top and white below. The white chest is barred with two black bands, and the brown face is marked with black and white patches. The bright orange-buff rump is conspicuous in flight."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/237957088",
+        "description": [
+            "Killdeer spend their time walking along the ground or running ahead a few steps, stopping to look around, and running on again. When disturbed they break into flight and circle overhead, calling repeatedly. Their flight is rapid, with stiff, intermittent wingbeats."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64809711-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64809711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64809711-720px.jpg"
+        ],
+        "description": [
+            "Look for Killdeer on open ground with low vegetation (or no vegetation at all), including lawns, golf courses, driveways, parking lots, and gravel-covered roofs, as well as pastures, fields, sandbars and mudflats. This species is one of the least water-associated of all shorebirds."
+        ]
+    }
+}

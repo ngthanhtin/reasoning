@@ -1,0 +1,146 @@
+{
+    "Adult white morph": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/295417571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295417571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295417571-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/78204831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/78204831-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/78204831-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/295418191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295418191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/295418191-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/295418191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295418191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/295418191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "All white plumage with black wingtips visible at rest. The pink bill shows a curved base and a prominent black grin patch.",
+            "Forages in wide-open spaces, such as cultivated fields and shallow wetlands during the nonbreeding season.",
+            "In flight, all white with black primaries. Distinguishing Snow and Ross's geese in flight is difficult but can be attempted with direct comparisons or good views of the head and bill structure\u2014longer in Snow, more compact in Ross's.",
+            "Snow Geese typically give numerous nasal honks in flight. Their black wingtips are highly visible in flight even at a distance."
+        ]
+    },
+    "Adult blue morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/78204831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/78204831-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/78204831-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Blue morph is the same shape and size as the white morph, with a variably dark body and a white head. Note the curved bill base and the black grin patch on the pink bill."
+        ]
+    },
+    "Adult intermediate morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939631-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Dark-plumaged birds are quite variable and may show a white belly contrasting with dark body plumage. The orange color on the head is from iron oxides that stain white plumage while foraging."
+        ]
+    },
+    "Juvenile white morph": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/295418531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295418531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295418531-720px.jpg"
+            ]
+        ],
+        "description": [
+            "White with dusky gray-brown on head, neck, and wings. Bill and legs are dusky pink. The large black grin patch on the bill is a useful character."
+        ]
+    },
+    "Juvenile blue morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/295419491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295419491-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/295419491-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Entirely dark sooty gray at rest; long bill structure with an arched grin patch is identical to the pattern shown by paler Snow Geese."
+        ]
+    },
+    "Flock (white and blue morphs)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/295419491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295419491-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/295419491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939431-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Snow Geese often form massive flocks during the nonbreeding season, and often make mass exoduses.",
+            "This flock in the Midwest contains both white and blue morph individuals. Blue morphs tend to be more common in the Midwest and along the Gulf Coast."
+        ]
+    },
+    "Adult blue morph and adult white morph": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/295419351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295419351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295419351-720px.jpg"
+            ]
+        ],
+        "description": [
+            "White and blue morphs commonly flock together, but white almost always outnumber blue. Note the white armpits of the blue morph adult here\u2014this contrast helps to distinguish this color variant from other species of dark geese which have dark underwings."
+        ]
+    },
+    "Adult blue morph (with Canada Goose)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939431-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Shorter-necked and more compact at rest than Canada Goose. This dark morph adult shows a mostly dark body with white head and a large pale upperwing patch."
+        ]
+    },
+    "Adult white morph and adult blue morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939421-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often forages in large flocks during migration and winter. White and blue morphs flock together and interbreed freely, though white morphs are more common."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59939781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939781-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Frequently occurs in shimmering flocks of hundreds of thousands during migration and winter."
+        ]
+    }
+}

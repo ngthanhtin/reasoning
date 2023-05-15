@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66114161-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66114161-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114161-480px.jpg"
+        ],
+        "description": [
+            "A small-bodied bird with long, very narrow swept-back wings that curve along both leading and trailing edges.",
+            "",
+            "Larger than an Anna\u2019s Hummingbird, smaller than a Barn Swallow.",
+            "",
+            "between sparrow and robin",
+            "Sex: Both Sexes",
+            "Length: 4.3 in (11 cm)",
+            "Weight: 0.5-0.8 oz (15-22 g)",
+            "Wingspan: 11.0 in (28 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66114141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114141-480px.jpg"
+        ],
+        "description": [
+            "Brownish overall, with throat, chest, and uppertail a slightly paler brownish gray.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239747843",
+        "description": [
+            "A highly aerial species normally observed only during flight, which is fluttery, stiff-winged, and rapid, often in flocks or pairs.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66114171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114171-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114171-480px.jpg"
+        ],
+        "description": [
+            "Nests and roost in large hollow trees in mature and old-growth coniferous and mixed forests. Forages over forest, rivers, lakes, fields, and gaps in forest, such as burned areas. Flocks preparing for migration roost in trees and also in chimneys, including in urban areas.",
+            ""
+        ]
+    }
+}

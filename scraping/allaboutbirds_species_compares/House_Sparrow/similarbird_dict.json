@@ -1,0 +1,62 @@
+{
+    "Eurasian Tree Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40259731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40259731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40259731-1280px.jpg"
+            ],
+            "description": "Eurasian Tree Sparrows, which live around St. Louis, Missouri, in the United States have an entirely rufous crown and a dark spot on the cheek unlike the grayish-cheeked House Sparrow."
+        }
+    },
+    "Dickcissel": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67381971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67381971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67381971-1280px.jpg"
+            ],
+            "description": "The female Dickcissel has a longer, heavier bill than a female House Sparrow. It also has a yellow eyebrow that the House Sparrow does not have."
+        }
+    },
+    "Black-throated Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32803411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32803411-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32803411-720px.jpg"
+            ],
+            "description": "Black-throated Sparrows have a white eyebrow and mustache stripe not seen on House Sparrows."
+        }
+    },
+    "Harris's Sparrow": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64979601-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64979601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64979601-720px.jpg"
+            ],
+            "description": "Harris's Sparrows have a plain brown face, without the male House Sparrow's white cheeks and chestnut neck."
+        }
+    },
+    "White-crowned Sparrow": {
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978001-720px.jpg"
+            ],
+            "description": "Juvenile White-crowned Sparrows have reddish-brown crowns and thin white wingbars, whereas female House Sparrows have a pale brown crown without distinct wingbars."
+        }
+    },
+    "House Finch": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-1280px.jpg"
+            ],
+            "description": "Female House Finches have heavily streaked underparts and lack the female House Sparrow's broad buffy eyebrow stripe."
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054151-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68054151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054151-720px.jpg"
+        ],
+        "description": [
+            "Tiny, large-headed but small-billed, with a rather long, narrow tail and short, rounded wings.",
+            "The smallest, shortest-tailed chickadee",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 3.9-4.7 in (10-12 cm)",
+            "Weight: 0.3-0.4 oz (7-12 g)",
+            "Wingspan: 7.5 in (19 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054211-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68054211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054211-720px.jpg"
+        ],
+        "description": [
+            "The Chestnut-backed Chickadee is boldly black and white on the head like other chickadees, but the back is a rich chestnut instead of the more typical slaty gray. The flanks can be either rich brown (north of San Francisco) or dull gray (central and southern California)."
+        ]
+    },
+    "Behavior": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054181-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68054181-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054181-480px.jpg"
+        ],
+        "description": [
+            "Active and acrobatic, clinging to small limbs and twigs or hanging upside down from cones. In winter, Chestnut-backed Chickadees flock with kinglets and nuthatches. Flight is generally short and undulating, with flock members setting out to cross openings one at a time."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054201-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68054201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054201-480px.jpg"
+        ],
+        "description": [
+            "Chestnut-backed Chickadees are found in dense coniferous and mixed coniferous forests of the Pacific Coast. You can also find them in shrubs, trees, and parks of cities, towns, and suburbs."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Chestnut-backed Chickadees have dark chestnut flanks over most of their range, but birds from the central California coast (from Marin County southward) have gray flanks with limited chestnut toward the tail."
+        ]
+    }
+}

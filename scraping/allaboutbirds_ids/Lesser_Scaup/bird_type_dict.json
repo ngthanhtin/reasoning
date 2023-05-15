@@ -1,0 +1,80 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63896301-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63896301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896301-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301544491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301544491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301544491-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized diving duck with a tall, peaked head. Glossy black head, front, and rear with a gray back and white sides. Head is purplish-iridescent, but is only visible with ideal lighting.",
+            "All plumages have a white wing stripe that extends halfway along the wing (through the secondaries), but usually does not reach the primary feathers."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301543611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301543611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301543611-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301545701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301545701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301545701-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301545251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301545251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301545251-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized diving duck with a tall, peaked head and a fairly straight bill. Females are rich brown overall, with a darker head and white patch next to the bill. Note that the back of the head is flat.",
+            "Medium-sized diving duck with a peaked head and a smallish straight bill. Females can show only small amounts of white on the face like this individual. They acquire yellow eyes with age.",
+            "Medium-sized diving duck with a peak to the back of the head (inconspicuous in some postures), and head that is often darker than body. Can be very difficult to tell from Greater Scaup."
+        ]
+    },
+    "Breeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301543611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301543611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301543611-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found on lakes and ponds during migration and winter. Note the peaked head and that the back of the head is flat."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63896281-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63896281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63896281-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding males have a dark head with a yellow eye. The body is mottled brown-gray."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301545631-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301545631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301545631-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often uses shallow freshwater lakes and ponds on migration. In winter also occurs in bays, estuaries, and lagoons."
+        ]
+    }
+}

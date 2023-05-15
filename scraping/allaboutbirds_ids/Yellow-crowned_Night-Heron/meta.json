@@ -1,0 +1,41 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70693901-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70693901-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70693901-480px.jpg"
+        ],
+        "description": [
+            "Yellow-crowned Night-Herons are fairly small herons with stocky bodies and short, thick necks, and short legs. They have large, blocky heads with thick, relatively short bills. In flight, the wings are broad and rounded.",
+            "Larger than a Cattle Egret; smaller and stockier than a Great Egret.",
+            "between crow and goose",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70693871-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70693871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70693871-720px.jpg"
+        ],
+        "description": [
+            "Adults are cloudy gray birds with a bold face pattern: a black head with large white cheek patch, and a creamy yellow crown and head plumes. Immatures are brown with fine white spots on the back and wings; the underparts are streaky. The legs are orange-yellow, brighter in adults."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240083341",
+        "description": [
+            "Yellow-crowned Night-Herons slowly stalk prey in or near shallow water, usually alone, with a hunched, forward-leaning posture. They perch quietly on stumps and tree branches, often over water. The majority of their prey is crustaceans, especially crabs and crayfish."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70693891-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70693891-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70693891-720px.jpg"
+        ],
+        "description": [
+            "They are most common in coastal wetlands barrier islands, saltmarshes, drainage ditches, and mangroves; they also occur inland along bottomland forests, swamps, and sometimes wet lawns or fields."
+        ]
+    }
+}

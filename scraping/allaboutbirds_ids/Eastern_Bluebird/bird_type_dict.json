@@ -1,0 +1,110 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303809061-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303809061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809061-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303809101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303809101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809101-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63740031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63740031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63740031-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303809721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303809721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809721-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303809721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303809721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809721-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small thrush with a round head and big belly. Males are blue above with a rusty throat and chest.",
+            "Typically sits on fairly low perches and scans the ground for food. Note round head and small, straight bill.",
+            "Small thrush with a round head. Males are deep blue above and rusty or brick-red on the throat and breast.",
+            "On males the rusty color wraps up the side of the neck.",
+            "Song is a low, somewhat squeaky warbling that lasts about 2 seconds."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303809101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303809101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809101-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303809441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809441-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are grayish above with bluish wings and tail, and a subdued orange-brown breast.",
+            "Small thrush with a round head and belly. Females are dull bluish gray above with varying amounts of blue on the wings and tail."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303809211-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303809211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809211-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have spotting on their backs and chest with variable amounts of blue in the wings and tail."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303809441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303809441-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63740081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63740081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63740081-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are mostly brown above, but note the blue tinges to the wings and tail.",
+            "Small thrush with a round belly and head. Females are paler than males with a rusty chest and throat that wraps up the side of the neck."
+        ]
+    },
+    "Breeding male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63740091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63740091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63740091-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in holes in trees or nest boxes."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63740091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63740091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63740091-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often nests in nest boxes. Males may bring food items to females during courtship."
+        ]
+    }
+}

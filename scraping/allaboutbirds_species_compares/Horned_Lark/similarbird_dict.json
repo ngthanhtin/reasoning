@@ -1,0 +1,78 @@
+{
+    "Lapland Longspur": {
+        "Nonbreeding ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38661841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38661841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38661841-720px.jpg"
+            ],
+            "description": "Longspurs can often be found foraging with Horned Larks, but they are smaller and have a thicker bill than Horned Larks. Nonbreeding Lapland Longspurs lack the Horned Lark's black breast band."
+        }
+    },
+    "Chestnut-collared Longspur": {
+        "Nonbreeding": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70148641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70148641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70148641-1280px.jpg"
+            ],
+            "description": "Nonbreeding Chestnut-collared Longspurs are drabber overall and lack the Horned Lark's black breast band."
+        }
+    },
+    "Thick-billed Longspur": {
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/39460091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39460091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39460091-1280px.jpg"
+            ],
+            "description": "Breeding male Thick-billed Longspurs have a black mark on their breast, but their mark is much thicker than the Horned Lark's. They are also smaller and have a thicker bill."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39506131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39506131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39506131-1280px.jpg"
+            ],
+            "description": "Longspurs can often be found foraging with Horned Larks, but they are smaller and have a thicker bill than Horned Larks. Female Thick-billed Longspurs are more heavily streaked than Horned Larks."
+        }
+    },
+    "Smith's Longspur": {
+        "Nonbreeding ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40253821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40253821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40253821-1280px.jpg"
+            ],
+            "description": "Nonbreeding Smith's Longspurs are more heavily streaked than Horned Larks with 2 white wingbars."
+        }
+    },
+    "Sprague's Pipit": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39462611-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39462611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39462611-1280px.jpg"
+            ],
+            "description": "Spraque's Pipits are smaller than Horned Larks and are more heavily streaked on the back and breast. In flight Sprague's Pipits flash white outertail feathers, whereas Horned Larks flash black."
+        }
+    },
+    "American Pipit": {
+        "Nonbreeding/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67453391-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67453391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67453391-1280px.jpg"
+            ],
+            "description": "Nonbreeding/immature American Pipits have streaked chests and lack the Horned Lark's black breast band. In flight American Pipits flash white outertail feathers, whereas Horned Larks flash black."
+        },
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67453361-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67453361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67453361-720px.jpg"
+            ],
+            "description": "Breeding American Pipits lack the Horned Lark's black breast band. In flight American Pipits flash white outertail feathers, whereas Horned Larks flash black."
+        }
+    }
+}

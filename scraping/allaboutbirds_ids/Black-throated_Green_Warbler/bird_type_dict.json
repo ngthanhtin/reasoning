@@ -1,0 +1,92 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/162294151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/162294151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/162294151-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64909711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909711-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64909671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909671-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird. Adult males have a bright yellow face with a dusky ear patch, a black throat, and a green back. Note heavy black streaking on the sides.",
+            "Song is a buzzy series of about five notes, with the second to last usually lower in pitch. It's often described as \"zee-zee-zee-zoo-zee.\"",
+            "Forages nimbly in small outer twigs of mature trees.",
+            "Males have bright yellow heads and extensive black on the throat and chest."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64909711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909711-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64909671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909671-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Adult females have a yellow face with a dusky ear patch, a white throat, and a green back. Note yellow wash across vent and black streaked sides.",
+            "Adult females have a yellow face with a dusky ear patch and a green back. Some females have bits of black on the throat. Note yellow wash across vent and black streaked sides."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64909701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909701-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64909701-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immatures have pale yellow faces with a dusky ear patch and white throat. Streaking on the side can be crisp or messy as on this individual."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64909731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64909731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909731-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females/immatures have a yellow face with a dusky ear patch and a green crown and back.",
+            "Females and immatures lack the extensive black on the front. Note the two white wingbars."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64909691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64909691-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in boreal evergreen forests and evergreen-deciduous forests."
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305597801-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597801-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305597521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305597521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597521-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305597851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305597851-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305598051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305598051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305598051-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305597771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597771-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305597781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305597781-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305597871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597871-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305597871-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305598031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305598031-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305598031-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with a small head and tiny bill. Adults are brown above with a brown breast band and a white swoosh on the neck.",
+            "",
+            "In flight, note pale belly and darker wings with a brown band across the chest.",
+            "Brown above and white below with a brown band across its chest.",
+            "",
+            "",
+            "Adults are brown above with a white throat that wraps up around the side of the neck. Note slightly forked tail.",
+            ""
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305597521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305597521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305597521-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in burrows excavated using its feet and bill, placed along banks and bluffs of rivers and streams, as well as gravel quarries and roadcuts."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68123461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68123461-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68123461-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305598081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305598081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305598081-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in burrows; forages for insects fairly low over fields, water, and other open areas.",
+            ""
+        ]
+    }
+}

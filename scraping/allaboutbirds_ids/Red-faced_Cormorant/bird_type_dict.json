@@ -1,0 +1,80 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304390341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304390341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304390341-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40622411-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304390371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304390371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304390371-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/33117981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/33117981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/33117981-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small cormorant with slender bill and red facial skin. Breeding adults have two short crests and square white patches on the flanks.",
+            "Small cormorant with pale bill, blue at base. Breeding adults are glossy purple-green, with short crests on the forecrown and hindcrown.",
+            "Small cormorant of the North Pacific with small, light-colored bill, red facial skin, and fairly thick neck. Breeding adults have white flank patches.",
+            "Breeding adults have vivid red facial skin, glossy sheen to head, neck, and body, light yellow bill with bluish base, and two short crests."
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40622411-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests on cliffs, typically alone or in small groups rather than in large colonies. Note extensive red facial skin and pale bill."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304390361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304390361-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304390361-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small cormorant of the North Pacific. Immatures have slender, light-colored bill and lack the bright facial skin and glossy plumage of adults."
+        ]
+    },
+    "Breeding adult (with Pelagic Cormorants)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/32802191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32802191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32802191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Red-faced Cormorant (center) is slightly larger and more thick-set than Pelagic Cormorants, with brighter facial skin and pale bill."
+        ]
+    },
+    "Breeding adult (with Pelagic Cormorant)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40622401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40622401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40622401-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Red-faced Cormorant (second from left) is slightly larger and more thick-set than Pelagic Cormorants, with brighter facial skin and pale bill."
+        ]
+    }
+}

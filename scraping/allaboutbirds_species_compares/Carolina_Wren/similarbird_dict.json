@@ -1,0 +1,22 @@
+{
+    "House Wren": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59860711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59860711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59860711-1280px.jpg"
+            ],
+            "description": "House Wrens are smaller, darker brown, and shorter tailed than Carolina Wrens. They also lack the white chest and eyebrow stripe of Carolina Wrens."
+        }
+    },
+    "Bewick's Wren": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68034921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68034921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68034921-1280px.jpg"
+            ],
+            "description": "Bewick\u2019s Wrens are a grayer, longer-tailed western counterpart of the Carolina Wren. Where they overlap in the central U.S., look for the more subdued coloration of Bewick\u2019s Wren compared with the warm buffy or reddish-brown of the Carolina Wren."
+        }
+    }
+}

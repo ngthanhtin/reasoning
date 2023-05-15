@@ -1,0 +1,44 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59954151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59954151-480px.jpg"
+        ],
+        "description": [
+            "Mute Swans are very large waterfowl. They have heavy bodies, short legs, and a long, slender neck habitually held in a graceful S. The large, flat bill has a bulging knob at the base.",
+            "Among the largest of waterfowl: more than double the size of a Snow Goose and about the same size as a Trumpeter Swan.",
+            "goose-sized or larger",
+            "Sex: Both Sexes",
+            "Length: 50.0-59.8 in (127-152 cm)",
+            "Weight: 194.0-504.4 oz (5500-14300 g)",
+            "Wingspan: 81.9-93.7 in (208-238 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59954111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954111-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954111-480px.jpg"
+        ],
+        "description": [
+            "Mute Swans are entirely white with a bill that is orange with a black base. Young swans (cygnets) may be dusky brown-gray all over, with a gray-black bill."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238642927",
+        "description": [
+            "Mute Swans spend most of their time floating on the water. They feed by grazing on underwater vegetation in shallow water, tipping up their bodies if necessary. These aggressive birds often hold their wings half-raised in a display as they swim toward an intruder."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59954101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954101-720px.jpg"
+        ],
+        "description": [
+            "Look for Mute Swans in city-park ponds, as well as rivers, lakes, and estuaries."
+        ]
+    }
+}

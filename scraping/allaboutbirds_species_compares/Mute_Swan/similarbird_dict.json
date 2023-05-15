@@ -1,0 +1,56 @@
+{
+    "Tundra Swan": {
+        "Adult (Bewick's)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59956011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59956011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59956011-1280px.jpg"
+            ],
+            "description": "Tundra Swans are smaller than Mute Swans with a black (not orange) bill. They often hold their neck straighter than Mute Swans."
+        },
+        "Adult (Whistling)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59956021-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59956021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59956021-720px.jpg"
+            ],
+            "description": "Tundra Swans are smaller than Mute Swans with a black (not orange) bill. Neck and tail shape also differ; Tundra Swans hold their neck straighter and have shorter and more rounded tail feathers than Mute Swans."
+        },
+        "Juvenile (Whistling)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59955961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59955961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59955961-1280px.jpg"
+            ],
+            "description": "Juvenile Tundra Swans are smaller than Mute Swans with a pinker bill."
+        }
+    },
+    "Trumpeter Swan": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954771-1280px.jpg"
+            ],
+            "description": "Trumpeter Swans have a black (not orange) bill and hold neck straighter than Mute Swans Their tail feathers are also shorter and more rounded than the tail feathers on Mute Swans."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954811-1280px.jpg"
+            ],
+            "description": "Juvenile Trumpeter Swans have a black-and-pink bill while juvenile Mute Swans have a dusky-pinkish bill."
+        }
+    },
+    "Snow Goose": {
+        "Adult white morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg"
+            ],
+            "description": "Snow Geese are much smaller with a shorter neck than Mute Swans."
+        }
+    }
+}

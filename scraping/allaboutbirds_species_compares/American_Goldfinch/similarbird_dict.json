@@ -1,0 +1,58 @@
+{
+    "Lesser Goldfinch": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67272491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67272491-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67272491-720px.jpg"
+            ],
+            "description": "Adult male Lesser Goldfinches have a complete black crown unlike the partial crown seen on adult male American Goldfinches. They also lack the American Goldfinch's bright yellow back."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67272461-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67272461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67272461-720px.jpg"
+            ],
+            "description": "Female Lesser Goldfinches have a white rectangle on the wings that female American Goldfinches lack. They also have yellow undertail coverts, whereas the undertail coverts on American Goldfinches are white."
+        }
+    },
+    "Lawrence's Goldfinch": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/33188871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/33188871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/33188871-1280px.jpg"
+            ],
+            "description": "Male Lawrence's Goldfinches are grayer overall than American Goldfinches with a black face not seen on either female or male American Goldfinches."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/33188901-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/33188901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/33188901-720px.jpg"
+            ],
+            "description": "Female Lawrence's Goldfinches have a gray head and back, whereas female American Goldfinches have a yellow head and olive back."
+        }
+    },
+    "Pine Siskin": {
+        "Adult (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67276581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-720px.jpg"
+            ],
+            "description": "Pine Siskins have coarse brown streaks on the breast and back unlike the unstreaked American Goldfinch."
+        }
+    },
+    "Evening Grosbeak": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67271811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271811-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67271811-720px.jpg"
+            ],
+            "description": "Evening Grosbeaks are about twice the size of a goldfinch, with a huge bill and large white wing patches rather than wingbars seen on American Goldfinches."
+        }
+    }
+}

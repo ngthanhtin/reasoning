@@ -1,0 +1,48 @@
+{
+    "Lesser Yellowlegs": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838631-1280px.jpg"
+            ],
+            "description": "Lesser Yellowlegs have longer, brighter yellow legs than Solitary Sandpipers."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838651-1280px.jpg"
+            ],
+            "description": "Lesser Yellowlegs are taller than Solitary Sandpipers. Their backs are mottled while the backs of Solitary Sandpipers are more spotted."
+        }
+    },
+    "Greater Yellowlegs": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64836521-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64836521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836521-720px.jpg"
+            ],
+            "description": "Greater Yellowlegs are bigger with longer and brighter yellow legs than Solitary Sandpipers. Breeding birds have barred flanks while Solitary Sandpipers have unmarked flanks."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64836531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64836531-1280px.jpg"
+            ],
+            "description": "Greater Yellowlegs are bigger with longer and brighter yellow legs than Solitary Sandpipers."
+        }
+    },
+    "Stilt Sandpiper": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/72062201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/72062201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/72062201-1280px.jpg"
+            ],
+            "description": "Stilt Sandpipers have a longer, more drooping bill than Solitary Sandpipers. They also have a pale eyebrow while Solitary Sandpipers have an eyering."
+        }
+    }
+}

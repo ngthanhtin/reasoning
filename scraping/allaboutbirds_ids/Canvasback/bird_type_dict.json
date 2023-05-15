@@ -1,0 +1,110 @@
+{
+    "Male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893981-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301319301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301319301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301319301-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large diving duck with a sloping forehead and a stout neck. Breeding males have black chests and rears with a white body.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/141748541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/141748541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/141748541-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893961-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large diving duck with a sloping forehead and a stout neck. Females have pale bodies and dark chests and rears.",
+            "Large brownish duck with gracefully sloping forehead and bill."
+        ]
+    },
+    "Breeding males": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/141748541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/141748541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/141748541-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Note gracefully sloping forehead transitioning to bill, and clean white back."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63894001-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63894001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63894001-480px.jpg"
+            ]
+        ],
+        "description": [
+            "In flight, note dark neck, head, and rear with white body and underwings."
+        ]
+    },
+    "Eclipse male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301319261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301319261-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301319261-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding males are browner than breeding males."
+        ]
+    },
+    "Female (with Redhead)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63893941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63893941-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Sloping head shape and paler body distinguishes Canvasback (middle) from similar Redhead (left)."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893991-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in small lakes, deep marshes, sheltered bays of large freshwater and alkali lakes, ponds, sloughs, potholes, and shallow river impoundments."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893971-720px.jpg"
+            ]
+        ],
+        "description": [
+            "In winter found in deep freshwater lakes and coastal waters including brackish and saltwater estuaries, shallow bays, and harbors. Often in large groups."
+        ]
+    }
+}

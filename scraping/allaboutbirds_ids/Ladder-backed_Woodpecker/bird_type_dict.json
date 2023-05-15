@@ -1,0 +1,80 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65054631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65054631-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65054601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054601-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65054601-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65054651-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65054651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054651-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small black-and-white woodpecker. A ladder of stripes goes all the way up the back. Males have a red crown that extends from the eye to the back of the head.",
+            "Small woodpecker with a red crown and whitish face. The flanks are streaked and often washed in buff.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65054611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054611-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65054611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054611-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65054651-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65054651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054651-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65054661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65054661-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small black-and-white barred woodpecker with streaky sides. Females have a buffy patch in front of the eye and do not have any red markings.",
+            "",
+            "Some females have a darker buffy wash on the belly and in front of the eye than others.",
+            ""
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65054641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054641-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65054641-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Agile woodpecker often found foraging on thinner trees and saplings. Males have a red crown that females lack."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65054661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65054661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65054661-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in desert and desert scrub."
+        ]
+    }
+}

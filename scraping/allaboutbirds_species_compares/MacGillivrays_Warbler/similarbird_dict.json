@@ -1,0 +1,38 @@
+{
+    "Connecticut Warbler": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38661451-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38661451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38661451-720px.jpg"
+            ],
+            "description": "Connecticut Warblers have a complete eyering unlike MacGillivray's broken eyering. Note range differences."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/36815041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/36815041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/36815041-720px.jpg"
+            ],
+            "description": "Immature Connecticut Warblers have a complete eyering unlike MacGillivray's broken eyering. Note range differences."
+        }
+    },
+    "Mourning Warbler": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64454351-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64454351-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64454351-720px.jpg"
+            ],
+            "description": "Mourning Warblers do not have white crescents above and below the eye like MacGillivray's Warblers. Ranges do not overlap."
+        },
+        "Adult female/immature male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64454401-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64454401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64454401-720px.jpg"
+            ],
+            "description": "Mourning Warblers do not have white crescents above and below the eye like MacGillivray's Warblers. Ranges do not overlap."
+        }
+    }
+}

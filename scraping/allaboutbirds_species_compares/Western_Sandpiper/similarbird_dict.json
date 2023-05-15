@@ -1,0 +1,84 @@
+{
+    "Semipalmated Sandpiper": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824531-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824531-720px.jpg"
+            ],
+            "description": "Semipalmated Sandpipers have a smaller head and a slimmer-bodied look than Western Sandpipers. In breeding plumage, Semipalmated Sandpipers have duller rusty upperparts, a darker face, and cleaner flanks than Westerns."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-1280px.jpg"
+            ],
+            "description": "Semipalmated Sandpipers have a smaller head, a slimmer-bodied look, and often a shorter bill than Western Sandpipers. Nonbreeding birds tend to be browner than Westerns, which are more gray, but they can be difficult to readily separate in the field."
+        }
+    },
+    "Least Sandpiper": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822761-1280px.jpg"
+            ],
+            "description": "Least Sandpipers are slightly smaller than Western Sandpipers with yellow (not black) legs and a browner and smudgier breast."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64822711-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64822711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822711-720px.jpg"
+            ],
+            "description": "Nonbreeding Least Sandpipers have yellow, not black legs like Western Sandpipers. Their breast is also browner and smudgier than Western Sandpipers."
+        }
+    },
+    "Baird's Sandpiper": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/39413511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39413511-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39413511-720px.jpg"
+            ],
+            "description": "Baird's Sandpipers are larger with a longer and straighter bill than Western Sandpipers. They also have darker faces than Westerns and more smudging on the breast."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39434211-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39434211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39434211-720px.jpg"
+            ],
+            "description": "Baird's Sandpipers are large than Western Sandpipers. Their long wings extend farther past the end of the tail than they do on Western Sandpipers. Also note darker face and breast on Bairds than Westerns."
+        }
+    },
+    "White-rumped Sandpiper": {
+        "Molting adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37807661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37807661-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37807661-720px.jpg"
+            ],
+            "description": "White-rumped Sandpipers are larger with a darker breast than Western Sandpipers. Their face also appears darker than the whitish face of Western Sandpipers. In flight, note the white rump that Westerns lack."
+        }
+    },
+    "Sanderling": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814541-1280px.jpg"
+            ],
+            "description": "Sanderlings are larger with a thicker bill than Western Sandpipers. Breeding Sanderlings have a chestnut neck while breeding Westerns have a whitish streaked neck."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64814471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64814471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814471-1280px.jpg"
+            ],
+            "description": "Sanderlings are larger with a thicker bill than Western Sandpipers. Nonbreeding birds often show a darker shoulder bar that Westerns do not have. They also have cleaner and whiter underparts than Westerns."
+        }
+    }
+}

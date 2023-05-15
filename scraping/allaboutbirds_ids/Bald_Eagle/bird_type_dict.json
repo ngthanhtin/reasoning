@@ -1,0 +1,134 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306062281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306062281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306062281-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306062831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306062831-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306062831-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306063921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063921-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60329441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329441-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60328971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60328971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60328971-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60329061-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60329061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329061-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60328981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60328981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60328981-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large raptor with long, broad wings. Dark brown body contrasts with its white head and tail.",
+            "Voice is a high, weak-sounding whinny.",
+            "Often scavenges food or eats carrion.",
+            "When perched appears very large, with brown body and contrasting white head and bright yellow bill.",
+            "Will hunt for fish when near water.",
+            "In flight, notice very long, broad wings held fairly flat. Large head just out ahead of the wings as far or farther than tail trails behind.",
+            "Constructs enormous stick nests, usually in large trees."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306062831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306062831-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306062831-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306063031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063031-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306063711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063711-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306063711-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a brown body with brown and white mottled wings. The tail is also mottled with a dark band at the tip.",
+            "Amount of white in the wings is variable on juveniles.",
+            "The amount of white feathering can be highly variable on juveniles and second year birds."
+        ]
+    },
+    "Second year": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306063921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063921-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60329061-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60329061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329061-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60329011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329011-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60329011-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Second year birds are strongly mottled brown and white.",
+            "Second year birds have a mostly white belly, with some brown mottling, a brown chest, and a broad brown mask on the face."
+        ]
+    },
+    "Adult with nestlings": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60328971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60328971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60328971-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Builds huge stick nests in trees, usually some distance below the top of the tree. Juveniles are mottled brown and white, with dark heads."
+        ]
+    },
+    "Fourth year": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306063271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306063271-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306063271-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Fourth year birds look like adults with some brown feathers on the otherwise white head."
+        ]
+    },
+    "Adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60329051-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60329051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329051-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Will form groups during the nonbreeding season, when different age classes can be seen together."
+        ]
+    }
+}

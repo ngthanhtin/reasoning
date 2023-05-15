@@ -1,0 +1,116 @@
+{
+    "Nonbreeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302051251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302051251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302051251-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302052061-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302052061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302052061-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small sea duck with a small bill and very long, slender tail feathers. White head outlines dark face and neck; white plumes cover brown back.",
+            "In flight, note long tail. White collar, dark breast, and white belly are distinctive."
+        ]
+    },
+    "Nonbreeding female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63902981-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63902981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63902981-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63902931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63902931-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63902931-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63902991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63902991-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63902991-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small sea duck with a small bill. Back, wings and breast are brown, contrasting with white head and smudgy brown cheek.",
+            "Small sea duck with a small bill, all dark wings, and white sides on the rump.",
+            "Female lacks the male's long tail. Mostly white face with dark cheek and fairly small, straight bill."
+        ]
+    },
+    "Nonbreeding male and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63902981-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63902981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63902981-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often found in groups on coastal marine waters and large freshwater lakes during the winter."
+        ]
+    },
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63902971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63902971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63902971-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small sea duck with a small bill and very long tail feathers. Dark head and neck outlines white face patch (reverse of nonbreeding male's pattern)."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302051381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302051381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302051381-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature males lack the long tail and white back feathers, but have yellow-orange tip to bill like adult males."
+        ]
+    },
+    "Female and chick": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63903001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63903001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63903001-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females lack the long tail. Brownish overall with white patch around and behind eye, and a white collar."
+        ]
+    },
+    "Nonbreeding male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302052591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302052591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302052591-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small sea duck with a small, straight bill. Adult male has long tail; female lacks it."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63902951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63902951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63902951-480px.jpg"
+            ]
+        ],
+        "description": [
+            "In winter usually found in salt water, especially sandy coastlines. Often occurs in flocks."
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67472541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472541-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303804091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303804091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303804091-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67472491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67472491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67472491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67472491-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67472531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472531-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small stocky thrush with a thin bill and short tail. Usually perches upright. Males are shiny blue above with rust-orange extending from a vest on the breast onto the upper back. Note blue throat.",
+            "",
+            "Round-bellied thrush with a small thin bill. Adult males have a rich rusty-orange vest that extends up over the wings onto the back. Note blue throat.",
+            "",
+            "Stocky and round-bellied thrush. Adult males have a rusty-orange breast and flanks and a pale blue belly that grades to grayish white. Note blue throat."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303804091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303804091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303804091-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303804231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303804231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303804231-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67472561-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67472561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472561-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67472581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472581-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small stocky thrush. Some females are duller than others. Dull females are gray-buff with a pale orange wash on the breast and blue tints to the wings and tail.",
+            "",
+            "Small stocky thrush. Some females/immatures are brighter than others. Bright birds are brighter gray-blue above with a pale chestnut breast and whitish belly.",
+            "Nests in holes in trees or nest boxes."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303803941-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303803941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303803941-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67472581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472581-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look like females, but have spotting on the back and streaking on the breast.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303804231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303804231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303804231-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67472551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67472551-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in open woodlands, backyards, burned areas, and farmland."
+        ]
+    }
+}

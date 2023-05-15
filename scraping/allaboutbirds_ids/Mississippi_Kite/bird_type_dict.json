@@ -1,0 +1,116 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305526961-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305526961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305526961-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305527051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305527051-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305533591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533591-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305533591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533591-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305533571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533571-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305533321-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305533321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533321-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305532611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305532611-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305532611-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305532611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305532611-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305532611-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, slender raptor with narrow and pointed wings and a long tail. Note dark tail in flight.",
+            "Slim, graceful raptor with pale head, dark eye patch, and dark gray wings.",
+            "",
+            "Slim raptor with pointed wings and long tail that can show a shallow fork. At close range, note striking pattern gray-black-white pattern in wings.",
+            "Pale gray overall with darker gray wings and a black tail. At close range note the red eye and dark eye patch.",
+            "Adults are pale gray below and darker gray above with a long black tail. Note dark eye patch.",
+            "Graceful and buoyant fliers that catch insects on the wing.",
+            "Eats mainly insects, typically caught and eaten on the wing. Often sits on exposed perches and scans for prey."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305527051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305527051-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small raptor with pointed wings and a long tail. Immatures have a banded tail and mottled looking wings. Younger juveniles have brown streaking on the belly."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305533781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305533781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533781-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305527141-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305527141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527141-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Juveniles have heavily streaked bellies. Note long wings and tail."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305533321-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305533321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305533321-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70774231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70774231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70774231-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Forms large flocks during migration. Flight style is light and buoyant.",
+            "Forms large flocks during migration."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70774291-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70774291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70774291-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in bottomland hardwood forests and in tree-lined areas including windbreaks, shelterbelts, parks, and urban areas."
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64807711-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64807711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807711-480px.jpg"
+        ],
+        "description": [
+            "A large, heavyset shorebird with a very long, thick straight bill. The neck is heavy and the legs are long and thick.",
+            "",
+            "Larger than a Willet, smaller than a Long-billed Curlew.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64807771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807771-720px.jpg"
+        ],
+        "description": [
+            "Adults are blackish with a brilliant orange-red bill and yellow eye ringed with red. At close range the wings, tail, and back are dark brown. Juveniles are brownish overall, with outer portion of bill dusky.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239705420",
+        "description": [
+            "Forages on shellfish using its heavy bill\u2014either by smashing open the shell, prying it open, or jabbing into the shell while it's partly open, then cutting the adductor muscle that holds the shell closed. Walks slowly along rocky shores at lower tides, looking for prey. Rests and preens, often in roosts of a dozen or more, during high tide. Quite vocal year-round but especially when breeding, when duetting adults perform display flights in tandem.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64807751-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64807751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807751-480px.jpg"
+        ],
+        "description": [
+            "Nests on islands, headlands, and beaches. Forages in adjacent rocky shorelines and tidepools, sometimes on open tidal flats, rarely in grassy areas.",
+            ""
+        ]
+    }
+}

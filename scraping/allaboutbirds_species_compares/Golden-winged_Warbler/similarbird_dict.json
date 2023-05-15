@@ -1,0 +1,20 @@
+{
+    "Blue-winged Warbler": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666151-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666151-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666151-720px.jpg"
+            ],
+            "description": "Blue-winged Warblers have blueish wings with 2 white wingbars unlike Golden-winged Warblers. They are also yellow (not whitish) below."
+        },
+        "Adult female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63666131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63666131-720px.jpg"
+            ],
+            "description": "Blue-winged Warblers are yellow below while Golden-winged Warblers are whitish below."
+        }
+    }
+}

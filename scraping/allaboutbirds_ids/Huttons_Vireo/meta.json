@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65760531-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65760531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65760531-480px.jpg"
+        ],
+        "description": [
+            "A small vireo with a large head, short bill, rather short wings, and a moderately long tail.",
+            "",
+            "Larger than a Ruby-crowned Kinglet, smaller than a Cassin\u2019s Vireo.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes",
+            "Length: 3.9-4.7 in (10-12 cm)",
+            "Weight: 0.3-0.5 oz (9-15 g)",
+            "Wingspan: 7.5-8.3 in (19-21 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65760551-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65760551-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65760551-480px.jpg"
+        ],
+        "description": [
+            "Grayish olive above, pale gray below (sometimes with pale olive tones to the flanks). The wings are darker with two wingbars. The face shows an incomplete eyering, thicker in front of and behind the eye (similar to the Ruby-crowned Kinglet\u2019s face pattern).",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/237957001",
+        "description": [
+            "Forages slowly along branches at middle heights and above, searching for insects, which it captures by picking from twigs and leaves or by hover-gleaning. During the nonbreeding season, pairs join large mixed flocks of woodland songbirds.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65760571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65760571-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65760571-480px.jpg"
+        ],
+        "description": [
+            "Lives year-round in evergreen oak, coniferous, and mixed forests, as well as locally in stream corridors and in chaparral on offshore islands.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Twelve subspecies have been named. They differ in plumage tones, with coastal subspecies more richly colored (greenish) and interior subspecies from arid environments paler (more grayish).",
+            ""
+        ]
+    }
+}

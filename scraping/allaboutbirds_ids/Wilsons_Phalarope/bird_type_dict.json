@@ -1,0 +1,122 @@
+{
+    "Breeding female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831941-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small shorebird with long legs, a slender neck, and a very thin, straight, bill. Breeding females are more brightly colored than males with a dark stripe down the neck, a blue-gray back, and a peachy neck."
+        ]
+    },
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64832001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64832001-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64832001-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64831891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831891-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender shorebird with a thin bill. Males are often duller than females, lacking the black neck stripe.",
+            "In flight, note white rump, grayish tail, and plain grayish wings."
+        ]
+    },
+    "Breeding females and males": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64832001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64832001-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64832001-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Classic foraging behavior is to swim in tight circles, creating a vortex that brings prey items up toward the surface."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831911-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831911-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64832011-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64832011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64832011-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831951-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831951-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have a dark cap and scaly-looking backs that vary in color from grayish to rusty.",
+            "Slender shorebird with a long, thin bill. Juveniles have a dark cap and a scaly-looking back that varies from grayish to rusty. Sits high in the water.",
+            "Juveniles and nonbreeding adults have yellow legs. When foraging on land moves quickly and frantically."
+        ]
+    },
+    "Juvenile (with Semipalmated Sandpiper)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831901-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831901-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Larger than \"peep\" sandpipers (like Semipalmated, at right). Juveniles and nonbreeding adults have yellow legs. Juveniles have a dark cap and white neck and belly."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831981-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831981-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831961-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831961-480px.jpg"
+            ]
+        ],
+        "description": [
+            "When foraging on land moves quickly, often in a crouched position.",
+            "Note white neck and belly, thin bill, and slender-bodied look."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831991-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831991-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Regularly swims in open water and often spins in circles to bring small food items within reach of its slender bill. Sits high in the water."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64831971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64831971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64831971-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in marshes and spends winters in South America, mainly on high lakes in the Andes. On migration, large numbers congregate on salty lakes and coastal marshes of western North America."
+        ]
+    }
+}

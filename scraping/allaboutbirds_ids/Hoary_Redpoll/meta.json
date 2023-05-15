@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67277561-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67277561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67277561-480px.jpg"
+        ],
+        "description": [
+            "A very small songbird with a short, notched tail and a thick-based but very small bill that looks \u201cpushed in\u201d compared to Common Redpoll. Fluffed up plumage often makes this species appear portly.",
+            "",
+            "Larger than a Golden-crowned Kinglet, smaller than a House Finch.",
+            "",
+            "sparrow-sized or smaller",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67277511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67277511-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67277511-480px.jpg"
+        ],
+        "description": [
+            "Hoary Redpolls are pale whitish birds with gray-brown streaks. Adults have a small red patch on the forecrown. They have darker gray tail and wings, with bold white wingbars. Some individuals have a rosy tint to the rump and underparts, or a buff tint to the face and back. Adult females are less strikingly white overall than males. Juveniles are brownish and streaky, often with buff tones in the face.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669810",
+        "description": [
+            "Forages, often in flocks, by picking seeds off the ground or directly from plants. Often clings upside-down to reach seeds, buds, catkins, or insects. Gathers in larger flocks after breeding, sometimes joining flocks of Common Redpolls.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67277531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67277531-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67277531-480px.jpg"
+        ],
+        "description": [
+            "Nests mostly in tundra where there are shrubs or stunted trees, sometimes in crevices of rocky areas. Typically winters in the Arctic, north of (or above) treeline, occasionally farther south, where usually found in weedy fields and sometimes at bird feeders.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize two subspecies. The larger, paler hornemanni nests in northern Greenland and Baffin Island. The smaller, somewhat darker exilipes nests in northern Canada and Alaska, as well as in northernmost Eurasia.",
+            ""
+        ]
+    }
+}

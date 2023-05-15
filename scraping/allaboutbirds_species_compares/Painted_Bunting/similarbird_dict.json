@@ -1,0 +1,42 @@
+{
+    "Varied Bunting": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40259421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40259421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40259421-1280px.jpg"
+            ],
+            "description": "Female Varied Buntings are browner overall than female Painted Buntings, which are more yellow-green."
+        }
+    },
+    "Indigo Bunting": {
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67385741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385741-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67385741-720px.jpg"
+            ],
+            "description": "Female/immature Indigo Buntings are browner overall and have wingbars, whereas female Painted Buntings are more yellow-green and lack wingbars."
+        }
+    },
+    "Lazuli Bunting": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67386611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67386611-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67386611-720px.jpg"
+            ],
+            "description": "Female/immature Lazuli Buntings are browner overall with pale wingbars, whereas female Painted Buntings are more yellow-green and lack wingbars."
+        }
+    },
+    "Lesser Goldfinch": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67272501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67272501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67272501-1280px.jpg"
+            ],
+            "description": "Female/immature Lesser Goldfinches are smaller and more compact than Painted Buntings. They have whitish wingbars, which Painted Buntings lack."
+        }
+    }
+}

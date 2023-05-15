@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63899821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63899821-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63899821-480px.jpg"
+        ],
+        "description": [
+            "A medium-sized sea duck with sturdy neck, rather large head, and heavy, broad bill.",
+            "",
+            "Smaller than a Mallard, larger than a teal.",
+            "",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 18.9-23.6 in (48-60 cm)",
+            "Weight: 31.8-45.6 oz (900-1293 g)",
+            "Wingspan: 29.9-30.3 in (76-77 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63899851-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63899851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63899851-480px.jpg"
+        ],
+        "description": [
+            "Adult males are jet black with orange, white, and black bill and white patches at the nape, forecrown, and base of the bill. Females are dark brown with dark gray bills and usually show two patches of white on the face.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669666",
+        "description": [
+            "Surf Scoters rest on the water\u2019s surface and dive for their prey. Flocks of thousands can be seen in migration along ocean coasts. They begin courtship displays soon after settling in on their wintering grounds, especially on calm days.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63899831-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63899831-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63899831-480px.jpg"
+        ],
+        "description": [
+            "Surf Scoters nest in the far north where boreal forest gives way to tundra. They are most easily found in migration and winter, when they occur along ocean coasts, bays, and estuaries. Migrants can occur on lakes and reservoirs inland, especially as they wait out bad weather.",
+            ""
+        ]
+    }
+}

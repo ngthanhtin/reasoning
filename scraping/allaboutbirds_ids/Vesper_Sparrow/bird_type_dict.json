@@ -1,0 +1,86 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299337031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299337031-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299337951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337951-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299337951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337951-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299337971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299337971-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299337321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299337321-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299337251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337251-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299337651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299337651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337651-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299337881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337881-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299337881-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium to large sparrow with fairly small bill. Prominent white eyering and white outer tail feathers.",
+            "",
+            "Song consists of two to four long, clear whistles, followed by musical slurs and trills. Note prominent eyering.",
+            "",
+            "",
+            "Medium to large sparrow with streaked breast, white eyering, white outer tail feathers. Rufous patch at shoulder is usually hard to see in the field.",
+            "Medium to large sparrow with small bill and round head. Prominent white eyering. Rufous patch at shoulder is often hard to see in the field.",
+            "Fairly large sparrow of grasslands and fields. White eyering and pale spot outlined in dark just below and behind eye create distinctive face pattern."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299337311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299337311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337311-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299337931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337931-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299337531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299337531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299337531-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Occurs in open habitats including prairie, grasslands, agricultural areas, sagebrush, old fields, and wooded edges."
+        ]
+    }
+}

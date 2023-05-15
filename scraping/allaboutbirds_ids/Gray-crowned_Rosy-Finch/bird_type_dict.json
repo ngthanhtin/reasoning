@@ -1,0 +1,104 @@
+{
+    "Adult (Hepburn's)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307951151-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307951151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951151-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356571-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized, chunky finch. The \"Hepburn's\" form breeds along the Pacific Northwest coast and has gray cheeks, a blackish throat, and a rich brown body with rosy highlights on the wings and belly.",
+            "Size and plumage varies regionally. Individuals breeding along the coasts of Alaska, Canada, and the Pacific Northwest have gray cheeks and a richer brown belly."
+        ]
+    },
+    "Adult (Gray-crowned)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307951371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307951371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951371-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307951371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307951371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951371-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67356601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356601-720px.jpg"
+            ]
+        ],
+        "description": [
+            "A chunky brownish finch with pink highlights and a gray crown. The \"Gray-crowned\" form of interior North America has brown cheeks. The bill is yellow during the winter and black during the breeding season.",
+            "Breeds in alpine environments near snowline. Nest is made of moss, lichen, plant fibers, and animal hair and hidden in a rocky crevice.",
+            "Chunky brown finch with pink highlights on the wings and belly. Birds of interior North America have brown cheeks. The bill is yellow during the nonbreeding season and black during the breeding season."
+        ]
+    },
+    "Adult (Pribilof Is.)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/307951541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951541-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Individuals on the Pribilof Islands are larger than other forms and they have a darker throat and chest."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/307951761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951761-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are brown overall, lacking the gray crown and pink highlights."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/307951841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307951841-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356561-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356561-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Forms large nomadic flocks during the nonbreeding season in open areas, including mountain meadows, shrublands, roadsides, cultivated areas, and rocky hillsides."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67356581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356581-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in alpine areas, usually near snowfields, glaciers, talus, rockpiles, and cliffs."
+        ]
+    }
+}

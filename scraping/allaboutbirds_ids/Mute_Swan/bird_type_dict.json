@@ -1,0 +1,110 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954151-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954111-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954121-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954161-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954091-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954091-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large and entirely white with a long neck, bright orange bill, black skin around the face, and black legs.",
+            "Skims plants from the surface or submerges head to reach vegetation in deeper water.",
+            "In display or when threatened will partly raise its wings while swimming.",
+            "Flies with neck outstretched. Entirely white with black legs and bright orange bill.",
+            "Flies with its head and neck extended with shallow wingbeats.",
+            "Can be extremely aggressive toward other swans and waterfowl.",
+            "Swims with its long neck curved into an S and often holds its wings raised slightly above its back."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Immatures have paler, dusky-pinkish bills."
+        ]
+    },
+    "Adults and immatures with Mallards": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954121-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Eats aquatic vegetation in city-park ponds, as well as rivers, lakes, and estuaries."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954101-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Older juveniles can have extensive dusky-brownish highlights on the body."
+        ]
+    },
+    "Adult and juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954161-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Young juveniles are fluffy and entirely pale gray with black bills and legs."
+        ]
+    },
+    "Adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found on a variety of water bodies, including small ponds and large reservoirs."
+        ]
+    }
+}

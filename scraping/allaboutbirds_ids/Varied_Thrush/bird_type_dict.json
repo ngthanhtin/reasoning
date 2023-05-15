@@ -1,0 +1,92 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303793391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303793391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303793391-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303793791-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303793791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303793791-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303794801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794801-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303794801-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303794131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303794131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794131-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303794131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303794131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794131-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308806691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308806691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308806691-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303794511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794511-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky, large thrush with a round head and a straight bill. Adult males are blue-gray on the back and rich burnt orange below with a sooty-black breastband and orange line over the eye.",
+            "",
+            "",
+            "Usually seen standing on the ground or perched horizontally in a tree. Note burnt-orange throat and belly separated by a dark breast band.",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303793791-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303793791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303793791-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303794801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794801-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303794801-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303794301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303794301-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303794511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303794511-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large full-bodied thrush. Females/immatures are browner overall than adult males but still have a burnt-orange breast, wingbars, and eyebrows.",
+            "",
+            "Stocky, large thrush with a round head and a straight bill. Females/immatures are paler than adult males with a browner back and a fainter gray breast band.",
+            "Breeds in dark understories of humid evergreen and mixed forests along the Pacific Coast. In the winter, many move into dense parks, gardens, and backyards."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67458081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67458081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67458081-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look like females/immatures but have a paler eyebrow and a dingy grayish breast with spotting."
+        ]
+    }
+}

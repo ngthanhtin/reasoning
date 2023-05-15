@@ -1,0 +1,41 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59936971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59936971-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59936971-480px.jpg"
+        ],
+        "description": [
+            "The Black-bellied Whistling-Duck is a large, gooselike duck with a long neck, long legs, and short tail. In flight, look for their broad wings, long neck, and hunched back.",
+            "About the size of a Cattle Egret; slightly larger than a Fulvous Whistling-Duck.",
+            "between crow and goose",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59936941-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59936941-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59936941-480px.jpg"
+        ],
+        "description": [
+            "Black-bellied Whistling-Ducks are dark overall: a chestnut breast and black belly are set off by a bright-pink bill and legs, grayish face, and broad white wing stripe, also visible in flight. Immatures are duller than adults, with a dark bill, pale breast, and mottled black belly."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643893",
+        "description": [
+            "Flocks of Black-bellied Whistling-Ducks regularly feed on waste grain in agricultural fields, often at night. Listen for their high-pitched whistles as they travel from feeding fields to roosting sites. They often perch in trees and on logs over water. They nest in cavities and they take readily to nest boxes."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59936961-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59936961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59936961-480px.jpg"
+        ],
+        "description": [
+            "Black-bellied Whistling-Ducks roam edges of shallow ponds, golf courses, city parks, and schoolyards. They also frequent agricultural fields, particularly flooded rice fields. They seem to readily adopt human-altered habitats, and this has helped them move north into the southern U.S. in recent decades."
+        ]
+    }
+}

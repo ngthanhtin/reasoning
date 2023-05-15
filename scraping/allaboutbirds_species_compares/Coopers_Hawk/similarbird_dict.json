@@ -1,0 +1,66 @@
+{
+    "Sharp-shinned Hawk": {
+        "Adult (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70780521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780521-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70780521-720px.jpg"
+            ],
+            "description": "Tail shape although not always easy to discern helps separate Sharp-shinned from Cooper's. Sharp-shinned Hawks have a square-tipped tail, whereas Cooper's Hawks have a rounded tail."
+        },
+        "Immature (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70780581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780581-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70780581-720px.jpg"
+            ],
+            "description": "Sharp-shinned Hawks have a smaller head than Cooper's Hawks that barely sticks out past its wing, whereas the head of a Cooper's Hawks sticks out beyond its wings. Also note the square-tipped tail on Sharpies and rounded tail on Cooper's."
+        }
+    },
+    "Northern Goshawk": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39233471-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39233471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39233471-720px.jpg"
+            ],
+            "description": "Northern Goshawks are much larger than Cooper's Hawks. Adult goshawks are all gray with a strong white eyebrow, longer wings, and a shorter tail than Cooper's Hawks."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39231651-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39231651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39231651-720px.jpg"
+            ],
+            "description": "Juvenile goshawks have a pale eyebrow that helps separate them from juvenile Cooper's Hawks. They also have thick streaks on their buffy underparts and an irregularly barred tail, whereas juvenile Cooper's Hawks have whiter underparts and an evenly banded tail."
+        }
+    },
+    "Broad-winged Hawk": {
+        "Adult light morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71534291-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71534291-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71534291-720px.jpg"
+            ],
+            "description": "Buteos such as the Broad-winged Hawk have longer, rounder wings and shorter tails than Cooper's Hawks."
+        }
+    },
+    "Peregrine Falcon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60410421-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60410421-720px.jpg"
+            ],
+            "description": "Peregrine Falcons have pointier wings than Cooper's Hawks. Adults have dark gray barring on their underparts unlike adult Cooper's Hawks, which have rusty barring and juveniles, which have brown streaks."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60410471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60410471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410471-1280px.jpg"
+            ],
+            "description": "Peregrine Falcons have pointer wings than Cooper's Hawks. Immature birds have finer barring on their tails than either adult or immature Cooper's Hawks."
+        }
+    }
+}

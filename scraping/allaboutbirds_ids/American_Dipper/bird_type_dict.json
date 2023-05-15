@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303932641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303932641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303932641-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303932901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303932901-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303932901-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303933231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303933231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303933231-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67477591-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67477591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67477591-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67477551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67477551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67477551-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky, round-bodied bird with a short tail. Adults are grayish brown overall. Breeding birds have an all dark bill.",
+            "Often seen perched on rocks in the middle of a rushing stream where they frequently bob up and down.",
+            "",
+            "Often holds its short tail up and bounces up and down on rocks in rushing streams.",
+            "Builds domed nests on cliff ledges, behind waterfalls, on boulders, and on dirt banks or under bridges, but always above or close to fast moving streams."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303932901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303932901-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303932901-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303933091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303933091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303933091-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky, round-bellied bird with a short tail. Some nonbreeding adults can have barred underparts and a yellowish bill.",
+            "Grayish brown bird at home in rushing streams where it forages underwater for aquatic insects."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/375474131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/375474131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/375474131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky, round-bellied bird with a short tail. Juveniles look similar to adults, but have barred underparts and a yellowish bill."
+        ]
+    }
+}

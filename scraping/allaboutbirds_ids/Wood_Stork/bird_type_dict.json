@@ -1,0 +1,104 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304101231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304101231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304101231-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304101711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304101711-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304101711-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304102291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102291-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65616691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65616691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65616691-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304102041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102041-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Massive wading bird with long legs and a long and heavy curved bill. White overall with black flight feathers. The head is bare and scaly.",
+            "Massive wading bird with an enormous wingspan. White overall with black flight feathers. Often soars in thermals like raptors, with long neck extended and long legs trailing behind.",
+            "",
+            "Tall wading bird with a bald and scaly head and neck. White overall with black flight feathers.",
+            "Colonial nester in trees and shrubs in flooded woodlands or coastal sites."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304101421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304101421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304101421-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look similar to adults, but have a pale bill that darkens over time and grayish feathers on the neck that are slowly lost as they get older."
+        ]
+    },
+    "Adult and juveniles": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304101421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304101421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304101421-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nests in colonies where it builds a messy stick nest in trees near water."
+        ]
+    },
+    "Adult with Turkey Vulture": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304102291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102291-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often seen soaring in thermals with vultures or other raptors."
+        ]
+    },
+    "Chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304102341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304102341-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adults": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304102341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304102341-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304102041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304102041-720px.jpg"
+            ]
+        ],
+        "description": [
+            "When approaching a roosting site, it drops its legs and awkwardly comes in for a landing.",
+            "Walks slowly through wetlands with its bill in the water feeling for fish and other prey. This video has no audio."
+        ]
+    }
+}

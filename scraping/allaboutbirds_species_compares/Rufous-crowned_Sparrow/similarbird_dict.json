@@ -1,0 +1,30 @@
+{
+    "Rufous-winged Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40533441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40533441-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40533441-720px.jpg"
+            ],
+            "description": "Rufous-winged Sparrow is duller than Rufous-crowned Sparrow, with mixed gray and rufous in the crown and without the white eyering or white mustache stripe. The lower mandible is yellow in Rufous-winged but gray in Rufous-crowned."
+        }
+    },
+    "Chipping Sparrow": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg"
+            ],
+            "description": "Chipping Sparrows have a black line through the eye and lack the dark mustache stripe of Rufous-crowned Sparrow. In breeding plumage, Chipping Sparrows have a white stripe over the eye."
+        },
+        "Nonbreeding ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg"
+            ],
+            "description": "Chipping Sparrows have a dark, not rufous, line through the eye and lack Rufous-crowned's dark mustache stripe."
+        }
+    }
+}

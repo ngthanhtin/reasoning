@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70591151-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70591151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70591151-480px.jpg"
+        ],
+        "description": [
+            "Brown Pelicans are huge, stocky seabirds. They have thin necks and very long bills with a stretchy throat pouch used for capturing fish. Their wings are very long and broad and are often noticeably bowed when the birds are gliding.",
+            "Huge. Slightly smaller than an American White Pelican; much larger than a Herring Gull.",
+            "goose-sized or larger",
+            "Sex: Both Sexes",
+            "Length: 39.4-53.9 in (100-137 cm)",
+            "Weight: 70.5-176.4 oz (2000-5000 g)",
+            "Wingspan: 78.7 in (200 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70591211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70591211-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70591211-480px.jpg"
+        ],
+        "description": [
+            "Adult Brown Pelicans are gray-brown birds with yellow heads and white necks. In breeding plumage, the back and sides of the neck turn a rich, dark reddish-brown. Immatures are gray-brown above (including the head and neck) with pale whitish belly and breast."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238640638",
+        "description": [
+            "Brown Pelicans feed by plunging into the water, stunning small fish with the impact of their large bodies and scooping them up in their expandable throat pouches. When not foraging, pelicans stand around fishing docks, jetties, and beaches or cruise the shoreline. In flight, lines of pelicans glide on their broad wings, often surfing updrafts along wave faces or cliffs. Their wingbeats are slow, deep, and powerful."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70591201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70591201-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70591201-480px.jpg"
+        ],
+        "description": [
+            "Brown Pelicans live along southern and western sea coasts and are rarely seen inland (except at the Salton Sea in California, where they are regular in large numbers). They nest in colonies, often on isolated islands free of land predators."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "On the Pacific Coast, Brown Pelican adults have red skin on their throats in the breeding season. On the Atlantic and Gulf Coasts, Brown Pelicans are slightly smaller and their throat skin is greenish black."
+        ]
+    }
+}

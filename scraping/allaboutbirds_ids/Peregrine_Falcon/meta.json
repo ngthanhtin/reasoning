@@ -1,0 +1,43 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60410451-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60410451-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60410451-480px.jpg"
+        ],
+        "description": [
+            "Peregrine Falcons are the largest falcon over most of the continent, with long, pointed wings and a long tail. Be sure to look at shape as well as size\u2014long primary feathers give the Peregrine a long-winged shape. As with most raptors, males are smaller than females, so Peregrines can overlap with large female Merlins or small male Gyrfalcons.",
+            "crow-sized",
+            "Sex: Both Sexes",
+            "Length: 14.2-19.3 in (36-49 cm)",
+            "Weight: 18.7-56.4 oz (530-1600 g)",
+            "Wingspan: 39.4-43.3 in (100-110 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60410401-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60410401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60410401-480px.jpg"
+        ],
+        "description": [
+            "Adults are blue-gray above with barred underparts and a dark head with thick sideburns. Juveniles are heavily marked, with vertical streaks instead of horizontal bars on the breast. Despite considerable age-related and geographic variation, an overall steely, barred look remains."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670139",
+        "description": [
+            "Peregrine Falcons catch medium-sized birds in the air with swift, spectacular dives, called stoops. In cities they are masterful at catching pigeons. Elsewhere they feed especially on shorebirds and ducks. They often sit on high perches, waiting for the right opportunity to make their aerial assault."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60410501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60410501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60410501-720px.jpg"
+        ],
+        "description": [
+            "Look for Peregrine Falcons perching or nesting on skyscrapers, water towers, cliffs, power pylons, and other tall structures. If a mudflat full of shorebirds and ducks suddenly erupts from the ground, scan the skies. A Peregrine (or Merlin) is probably in the area. Peregrines can be seen all over North America, but they are more common along coasts."
+        ]
+    }
+}

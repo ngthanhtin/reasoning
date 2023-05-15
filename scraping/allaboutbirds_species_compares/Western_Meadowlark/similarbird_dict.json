@@ -1,0 +1,42 @@
+{
+    "Eastern Meadowlark": {
+        "Breeding adult (Eastern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67377581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67377581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67377581-1280px.jpg"
+            ],
+            "description": "Eastern and Western Meadowlarks are best separated by voice. For silent birds, look for darker head stripes and a mostly white (not yellow), mustache stripe on Eastern. They also show slightly more white in the tail in flight than Western."
+        }
+    },
+    "Horned Lark": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68927611-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68927611-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68927611-720px.jpg"
+            ],
+            "description": "Horned Larks are smaller than meadowlarks, with a shorter bill and white underparts, unlike the yellow-bellied Western Meadowlark."
+        }
+    },
+    "Yellow-headed Blackbird": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67376551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67376551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67376551-1280px.jpg"
+            ],
+            "description": "Female Yellow-headed Blackbirds have more yellow on the head and a much darker body than Western Meadowlarks. They lack the Western Meadowlark's streaky back."
+        }
+    },
+    "Red-winged Blackbird": {
+        "Female (Red-winged)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg"
+            ],
+            "description": "Female Red-winged Blackbirds are more slender and darker than Western Meadowlarks, and they lack yellow on the breast."
+        }
+    }
+}

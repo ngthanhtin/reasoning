@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66025501-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66025501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66025501-480px.jpg"
+        ],
+        "description": [
+            "A large, heavy-bodied seabird with a long neck, and a fairly long bill with a hooked tip. It has a medium-length tail, short legs, and large, webbed feet.",
+            "",
+            "Larger than a Double-crested Cormorant, smaller than a Brown Pelican.",
+            "",
+            "between crow and goose",
+            "Sex: Both Sexes",
+            "Length: 27.6-31.1 in (70-79 cm)",
+            "Weight: 49.4-95.2 oz (1400-2700 g)",
+            "Wingspan: 42.5 in (108 cm)"
+        ]
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66025531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66025531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66025531-720px.jpg"
+        ],
+        "description": [
+            "Adults in breeding plumage are mostly blackish, with blue eyes, vivid blue throat skin surrounded by a buffy band, and whiskery white feathers on the head, neck, and shoulders. Nonbreeding adults are uniformly black. Juveniles are brownish overall, with the throat skin surrounded by buffy plumage.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238645550",
+        "description": [
+            "Forages by diving (with a quick upward leap) and swimming underwater, catching prey by driving it toward the surface, then grasping it with the bill, or by seizing prey from the bottom or from undersea structures. Often forages in large flocks, mixed with other seabird species and sometimes marine mammals. Breeds in very dense colonies.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66025521-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66025521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66025521-480px.jpg"
+        ],
+        "description": [
+            "Nests on rocky islands and cliffs. Forages in littoral (nearshore) ocean areas where upwelling brings nutrients toward the surface and attracts fish. Feeds less often in estuaries and lagoons. Seldom found more than 10 miles from shore unless making migratory movements.",
+            ""
+        ]
+    }
+}

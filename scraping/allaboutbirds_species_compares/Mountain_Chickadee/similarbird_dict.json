@@ -1,0 +1,52 @@
+{
+    "Black-capped Chickadee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60411301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60411301-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60411301-720px.jpg"
+            ],
+            "description": "Black-capped Chickadees lack the Mountain Chickadee's white stripe over the eye. Black-capped tends to be seen among deciduous trees along drainages, while Mountain Chickadees are more often found in evergreen forests."
+        }
+    },
+    "Bridled Titmouse": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68051841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68051841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68051841-720px.jpg"
+            ],
+            "description": "Bridled Titmouse has a pointed crest to the head, unlike Mountain Chickadee's rounded head. The Bridled Titmouse's stripe over the eye extends down the neck, unlike Mountain Chickadee's."
+        }
+    },
+    "Boreal Chickadee": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68052651-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68052651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68052651-720px.jpg"
+            ],
+            "description": "Boreal Chickadees have limited overlap with Mountain Chickadees, mainly in northwestern Canada. Boreal Chickadee has a brown head and no white stripe over the eye."
+        }
+    },
+    "Chestnut-backed Chickadee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68054161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054161-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054161-720px.jpg"
+            ],
+            "description": "Chestnut-backed Chickadee lacks a white stripe over the eye and has a rich brown back, unlike Mountain Chickadee's gray back."
+        }
+    },
+    "Carolina Chickadee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68055161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68055161-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68055161-720px.jpg"
+            ],
+            "description": "Carolina Chickadees don't overlap in range with Mountain Chickadees. They also lack Mountain's white stripe over the eye."
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "Orchard Oriole": {
+        "Adult male (Orchard)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67361081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67361081-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67361081-720px.jpg"
+            ],
+            "description": "Orchard Orioles are noticeably smaller than Baltimore Orioles. Male Orchard Orioles are rich chestnut, never bright orange like Baltimore Orioles."
+        },
+        "Female (Orchard)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67361111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67361111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67361111-1280px.jpg"
+            ],
+            "description": "Female Orchard Orioles never show any orange tones like female Baltimore Orioles. They also have unmarked grayish-yellow backs while female Baltimore Orioles have some streaking on the back."
+        }
+    },
+    "Bullock's Oriole": {
+        "Adult male ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67358881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67358881-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67358881-720px.jpg"
+            ],
+            "description": "Bullock\u2019s Oriole occurs mostly west of the Baltimore Oriole's range, but the two species occasionally hybridize in the Great Plains. Male Bullock\u2019s have orange (not black) faces and a larger white patch in the wings compared to Baltimore Orioles."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67358911-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67358911-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67358911-720px.jpg"
+            ],
+            "description": "Female Bullock's Orioles have a whitish belly whereas female Baltimore Orioles have an orangish belly."
+        }
+    },
+    "American Robin": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60412911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60412911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60412911-1280px.jpg"
+            ],
+            "description": "Some people occasionally mistake American Robins for Baltimore Orioles, but robins are thrushes with shorter bills, rounder heads, solid-brown backs, and a more subdued shade of orange on the breast."
+        }
+    }
+}

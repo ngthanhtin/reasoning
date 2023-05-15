@@ -1,0 +1,46 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66047081-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66047081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66047081-480px.jpg"
+        ],
+        "description": [
+            "The Northern Pygmy-Owl is small and compact, with a large, circular head that lacks ear tufts. The tail is long and the wings are fairly short and rounded.",
+            "Smaller but plumper than a Mountain Bluebird; larger than an Elf Owl.",
+            "robin-sized",
+            "Sex: Both Sexes"
+        ]
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66047111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66047111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66047111-720px.jpg"
+        ],
+        "description": [
+            "Northern Pygmy-Owls are brown with fine white speckles on the head and white spots on the back. The back of the neck features two dark patches that look like eyespots. The eyes and bill are yellow."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668905",
+        "description": [
+            "Northern Pygmy-Owls hunt by day, making them easier to see than many owls, especially when they perch on tops of conifer trees. They eat mainly small birds, which they sometimes hunt at bird feeders. They fly in an undulating pattern, like a woodpecker."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66047131-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66047131-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66047131-480px.jpg"
+        ],
+        "description": [
+            "They occupy montane forests of western North America, typically among conifers. Look for them in towns, especially during winter when they move to lower elevations."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Individuals along the wet Pacific slope are darker and browner and have a fairly slow trill; Northern Pygmy-Owls in the drier Rocky Mountains down through Mexico are lighter and grayer with a faster trill."
+        ]
+    }
+}

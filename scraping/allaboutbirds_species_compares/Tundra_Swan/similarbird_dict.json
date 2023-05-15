@@ -1,0 +1,48 @@
+{
+    "Mute Swan": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-1280px.jpg"
+            ],
+            "description": "Mute Swans are larger than Tundra Swans with an orange bill."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954141-720px.jpg"
+            ],
+            "description": "Mute Swans are larger than Tundra Swans with a pinkish-gray bill that is black (not pink) at the base."
+        }
+    },
+    "Trumpeter Swan": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954771-1280px.jpg"
+            ],
+            "description": "Trumpeter Swans are larger than Tundra Swans. The area where the bill meets the head is V-shaped on Trumpeter Swans, but U-shaped on Tundra Swans."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954811-1280px.jpg"
+            ],
+            "description": "Trumpeter Swans are larger than Tundra Swans. Juveniles have a pinkish bill that is black at the base, but it is pink at the base on Tundra Swans."
+        }
+    },
+    "Snow Goose": {
+        "Adult white morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg"
+            ],
+            "description": "Snow Geese are smaller than Tundra Swans with a small pink bill."
+        }
+    }
+}

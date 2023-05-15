@@ -1,0 +1,42 @@
+{
+    "Pacific-slope Flycatcher": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65680391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65680391-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65680391-720px.jpg"
+            ],
+            "description": "Pacific-slope Flycatchers look nearly identical to Cordilleran flycatchers and are best separated by voice and range with Pacific-slope in the western coastal states and Cordilleran in the interior west."
+        }
+    },
+    "Dusky Flycatcher": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39457521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39457521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39457521-1280px.jpg"
+            ],
+            "description": "Dusky Flycatchers do not have a teardrop shaped eyering while Cordilleran Flycatchers do."
+        }
+    },
+    "Hammond's Flycatcher": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/39408021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39408021-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39408021-720px.jpg"
+            ],
+            "description": "Hammond's Flycatchers have a smaller bill than Cordilleran Flycatchers and do not have a teardrop shaped eyering."
+        }
+    },
+    "Western Wood-Pewee": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65617091-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg"
+            ],
+            "description": "Western Wood-Pewees are larger than Cordilleran Flycatchers and do not have a teardrop shaped eyering."
+        }
+    }
+}

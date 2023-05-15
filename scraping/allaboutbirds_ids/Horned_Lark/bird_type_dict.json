@@ -1,0 +1,128 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308603561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308603561-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308603561-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308603741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308603741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308603741-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308604021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604021-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68927541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68927541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68927541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308604371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308604371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604371-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308604761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604761-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308604901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604901-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308604901-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, sparrowlike bird with a long body and a small bill. Brownish above and pale below with a black chest band. Males have a black mask and variable amounts of yellow on the head and throat. Also note tiny hornlike feathers that sometimes stick straight up on the head.",
+            "Small, sparrow-sized bird with thin, straight bill. Tiny black \"horns\" on the sides of the crown can be raised or lowered. Note sandy brown back contrasting with blackish tail.",
+            "Males have tiny hornlike feathers on top of the head that can be raised and lowered.",
+            "Sandy to rusty brown above with a black tail that is especially noticeable in flight. Back and throat color vary across the range from rusty to sandy and from pale yellow to bright yellow.",
+            "Slender sparrowlike bird with a small head and bill. Males have a black mask, black breast band, and yellow throat. Their namesake horns are not always visible.",
+            "",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308603741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308603741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308603741-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308604151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604151-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females lack the male's black mask and are generally paler, with only a slight yellow wash on the throat and a brown breast band.",
+            "Small songbird with a small head and bill. Females have a pale yellow wash on the throat and a dusky breast band. They lack the male's black eye patch."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308603891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308603891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308603891-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308604971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308604971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604971-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are brown overall with white-edged feathers and a brown breast band.",
+            ""
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308604911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604911-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308604941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308604941-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308808831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308808831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308808831-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68927581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68927581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68927581-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in open country with very short or no vegetation, including bare agricultural fields. Often difficult to spot on bare ground thanks to their small size and brown and sandy-colored backs."
+        ]
+    }
+}

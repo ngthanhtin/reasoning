@@ -1,0 +1,50 @@
+{
+    "Saltmarsh Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40641631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40641631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40641631-1280px.jpg"
+            ],
+            "description": "Saltmarsh Sparrows are smaller than Seaside Sparrows. They are buffier and less gray overall than Seaside Sparrows, which tend to look quite dark."
+        }
+    },
+    "Nelson's Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39344931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39344931-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39344931-720px.jpg"
+            ],
+            "description": "Nelson's Sparrows are smaller with a shorter bill than Seaside Sparrows. They have a buffier wash on the face and breast than Seaside Sparrows."
+        }
+    },
+    "Savannah Sparrow": {
+        "Adult (Belding's)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64981741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64981741-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64981741-720px.jpg"
+            ],
+            "description": "Savannah Sparrow (Belding's) have a smaller bill than Seaside Sparrows. They tend to be paler brown overall especially on the face and neck, which are gray on Seaside Sparrows."
+        },
+        "Adult (Savannah)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64981761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64981761-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64981761-720px.jpg"
+            ],
+            "description": "Savannah Sparrows have a smaller bill than Seaside Sparrows. They tend to be paler brown overall especially on the face and neck, which are gray on Seaside Sparrows."
+        }
+    },
+    "Song Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66116641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66116641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66116641-1280px.jpg"
+            ],
+            "description": "Song Sparrows are plumper with a rounder head and shorter bill than Seaside Sparrows."
+        }
+    }
+}

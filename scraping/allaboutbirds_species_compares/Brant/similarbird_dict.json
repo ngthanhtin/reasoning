@@ -1,0 +1,38 @@
+{
+    "Canada Goose": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59953191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59953191-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59953191-720px.jpg"
+            ],
+            "description": "Canada Goose has an obvious white cheek or chinstrap that Brant lack."
+        }
+    },
+    "Cackling Goose": {
+        "Adult (Taverner's)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950691-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950691-1280px.jpg"
+            ],
+            "description": "All forms of Cackling Goose have a white cheek or chinstrap that Brant lack."
+        },
+        "Adult (minima)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950681-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950681-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950681-720px.jpg"
+            ],
+            "description": "All forms of Cackling Goose have a white cheek or chinstrap that Brant lack."
+        },
+        "Adult (Aleutian)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950661-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950661-720px.jpg"
+            ],
+            "description": "All forms of Cackling Goose have a white cheek or chinstrap that Brant lack; Cackling also lacks the blackish chest patch and dark brown body of Brant."
+        }
+    }
+}

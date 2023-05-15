@@ -1,0 +1,66 @@
+{
+    "Masked Booby": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/49129141-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/49129141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/49129141-720px.jpg"
+            ],
+            "description": "Adult Masked Boobies have black along the trailing edge of the wings, while Northern Gannets only have black wingtips. Masked Boobies only regularly overlap with Northern Gannets in the Gulf of Mexico and adjacent waters."
+        },
+        "Immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/49129111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/49129111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/49129111-1280px.jpg"
+            ],
+            "description": "Immature Masked Boobies usually have a dark head with a white collar. Young Northern Gannets are patchy brown but don't usually have a dark head (except as juveniles, when they are entirely dark)."
+        }
+    },
+    "Red-footed Booby": {
+        "Adult light morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/49131221-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/49131221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/49131221-720px.jpg"
+            ],
+            "description": "Red-footed Boobies are smaller than Northern Gannets with more black in the wings and a bit of pink on the face that gannets do not have."
+        },
+        "Adult dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/49131231-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/49131231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/49131231-720px.jpg"
+            ],
+            "description": "Dark-morph Red-footed Boobies are paler brown than juvenile Northern Gannets."
+        }
+    },
+    "Brown Booby": {
+        "Adult (Atlantic)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/44485791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/44485791-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/44485791-720px.jpg"
+            ],
+            "description": "Brown Boobies are darker brown above than juvenile and immature Northern Gannets."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/44486031-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/44486031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/44486031-720px.jpg"
+            ],
+            "description": "Immature Brown Boobies have an obvious line separating their dark brown breast from their dingy brown belly that juvenile and immature Northern Gannets do not show."
+        }
+    },
+    "Blue-footed Booby": {
+        "Immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/44485181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/44485181-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/44485181-720px.jpg"
+            ],
+            "description": "Blue-footed Boobies are not likely to be found in the Atlantic where Northern Gannets occur. Separated from juvenile and immature gannets by smaller size."
+        }
+    }
+}
