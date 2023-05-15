@@ -137,7 +137,11 @@ def store_meta(species: str, meta: list):
     meta_dict = {}
     for k in meta.keys():
         if k == 'Size':
-            meta_dict['Size'] = {'link':meta['Size']['link'], 'description': []}
+            if 'link' in meta['Size']:
+                meta_dict['Size'] = {'link':meta['Size']['link'], 'description': []}
+            else:
+                meta_dict['Size'] = {'description': []}
+
             for i in range(len(meta[k]['description'])):
                 if i == 3: # measurement
                     for idx, ele in enumerate(meta[k]['description'][i]):
@@ -191,37 +195,74 @@ def id_scraper(species: str, url: str = None):
             soup = BeautifulSoup(page.content, 'html.parser')
         
         # -----Get "Shape Media" image for this species-----
-        photo_tags = soup.find('aside', {"aria-label":"Shape Media"}).find("img")
-        shape_image_urls = photo_tags.get('data-interchange') # string of list
-        # Converting string to list
-        shape_image_urls = shape_image_urls.replace('[',"")
-        shape_image_urls = shape_image_urls.replace(']',"").split(',')
-        shape_image_urls = [url for url in shape_image_urls if "http" in url]
-        shape_image_urls = list(set(shape_image_urls))
+        photo_tags = soup.find('aside', {"aria-label":"Shape Media"})
+        if photo_tags:
+            photo_tags = photo_tags.find("img")
+            shape_image_urls = photo_tags.get('data-interchange') # string of list
+            # Converting string to list
+            shape_image_urls = shape_image_urls.replace('[',"")
+            shape_image_urls = shape_image_urls.replace(']',"").split(',')
+            shape_image_urls = [url for url in shape_image_urls if "http" in url]
+            shape_image_urls = list(set(shape_image_urls))
+        else:
+            shape_image_urls = None
 
         # -----Get "Color Pattern Media" image for this species-----
-        photo_tags = soup.find('aside', {"aria-label":"Color Pattern Media"}).find("img")
-        color_image_urls = photo_tags.get('data-interchange') # string of list
-        # Converting string to list
-        color_image_urls = color_image_urls.replace('[',"")
-        color_image_urls = color_image_urls.replace(']',"").split(',')
-        color_image_urls = [url for url in color_image_urls if "http" in url]
-        color_image_urls = list(set(color_image_urls))
+        photo_tags = soup.find('aside', {"aria-label":"Color Pattern Media"})
+        if photo_tags:
+            photo_tags = photo_tags.find("img")
+            color_image_urls = photo_tags.get('data-interchange') # string of list
+            # Converting string to list
+            color_image_urls = color_image_urls.replace('[',"")
+            color_image_urls = color_image_urls.replace(']',"").split(',')
+            color_image_urls = [url for url in color_image_urls if "http" in url]
+            color_image_urls = list(set(color_image_urls))
+        else:
+            color_image_urls = None
 
         # -----Get "Behavior Media" image for this species-----
-        photo_tags = soup.find('aside', {"aria-label":"Behavior Media"}).find("iframe")
-        behavior_image_urls = photo_tags.get('src') # string of video
-        
-
+        photo_tags = soup.find('aside', {"aria-label":"Behavior Media"})
+        if photo_tags:
+            photo_tags = photo_tags.find("iframe")
+            if photo_tags:
+                behavior_image_urls = photo_tags.get('src') # string of video 
+            else:
+                photo_tags = soup.find('aside', {"aria-label":"Behavior Media"})
+                if photo_tags:
+                    photo_tags = photo_tags.find("img")
+                    if photo_tags:
+                        behavior_image_urls = photo_tags.get('data-interchange') # string of list
+                        # Converting string to list
+                        behavior_image_urls = behavior_image_urls.replace('[',"")
+                        behavior_image_urls = behavior_image_urls.replace(']',"").split(',')
+                        behavior_image_urls = [url for url in behavior_image_urls if "http" in url]
+                        behavior_image_urls = list(set(behavior_image_urls))  
+                    else:
+                        behavior_image_urls = None
+                # else:
+                #     behavior_image_urls = None
+                
         # -----Get "Habitat Media" image for this species-----
-        photo_tags = soup.find('aside', {"aria-label":"Habitat Media"}).find("img")
-        habitat_image_urls = photo_tags.get('data-interchange') # string of list
-        # Converting string to list
-        habitat_image_urls = habitat_image_urls.replace('[',"")
-        habitat_image_urls = habitat_image_urls.replace(']',"").split(',')
-        habitat_image_urls = [url for url in habitat_image_urls if "http" in url]
-        habitat_image_urls = list(set(habitat_image_urls))
-
+        photo_tags = soup.find('aside', {"aria-label":"Habitat Media"})
+        if photo_tags:
+            photo_tags = photo_tags.find("img")
+            if photo_tags:
+                habitat_image_urls = photo_tags.get('data-interchange') # string of list
+                # Converting string to list
+                habitat_image_urls = habitat_image_urls.replace('[',"")
+                habitat_image_urls = habitat_image_urls.replace(']',"").split(',')
+                habitat_image_urls = [url for url in habitat_image_urls if "http" in url]
+                habitat_image_urls = list(set(habitat_image_urls))
+            else:
+                photo_tags = soup.find('aside', {"aria-label":"Habitat Media"})
+                photo_tags = photo_tags.find("iframe")
+                if photo_tags:
+                    habitat_image_urls = photo_tags.get('src') # string of video
+                else:
+                    habitat_image_urls = None
+        else:
+            habitat_image_urls = None
+        
         # -----Get "Regional Differences" image for this species-----
         photo_tags = soup.find('aside', {"aria-labeledby":"regional-photos"})
         if photo_tags:
@@ -289,7 +330,7 @@ def id_scraper(species: str, url: str = None):
         size_tag_2 = text_tags.find("div").find("p")
         size_tag_3 = text_tags.find("div").find("span")
         size_tag_4 = text_tags.find("div").find("ul").find_all('li')
-
+        
         # -----Get the color pattern-----
         text_tags=soup.find('article', {"aria-label":"Color Pattern"})
         color_tag = text_tags.find("p")
@@ -301,11 +342,27 @@ def id_scraper(species: str, url: str = None):
         habitat_tag = text_tags.find("p")
         # -----Get the regional differences-----
         text_tags=soup.find('article', {"aria-label":"Regional Differences"})
-
-        metadata = {"Size": {'link': shape_image_urls, 'description':[size_tag_1, size_tag_2, size_tag_3, size_tag_4]}, \
-                        "Color": {'link': color_image_urls, 'description':color_tag}, \
-                        "Behavior": {'link':behavior_image_urls, 'description':behavior_tag}, \
-                        "Habitat": {'link': habitat_image_urls, 'description':habitat_tag}}
+        
+        metadata = {}
+        if shape_image_urls:
+            metadata["Size"] = {'link': shape_image_urls, 'description':[size_tag_1, size_tag_2, size_tag_3, size_tag_4]}
+        else:
+            metadata["Size"] = {'description':[size_tag_1, size_tag_2, size_tag_3, size_tag_4]}
+        
+        if color_image_urls:
+            metadata['Color'] = {'link': color_image_urls, 'description':color_tag}
+        else:
+            metadata['Color'] = {'description':color_tag}
+        
+        if behavior_image_urls:
+            metadata['Behavior'] = {'link':behavior_image_urls, 'description':behavior_tag}
+        else:
+            metadata['Behavior'] = {'description':behavior_tag}
+        
+        if habitat_image_urls:
+            metadata['Habitat'] = {'link': habitat_image_urls, 'description':habitat_tag}
+        else:
+            metadata['Habitat'] = {'description':habitat_tag}
         
         if text_tags:
             regional_tag = text_tags.find("p")
@@ -339,13 +396,10 @@ def species_compare_scraper(species: str, url: str = None):
         #make folders if they don't yet exist
         if not os.path.exists(SPECIES_COMPARE_FOLDER+'/'+species):
             os.makedirs(SPECIES_COMPARE_FOLDER+'/'+species)
-        #make folders if they don't yet exist
-        if not os.path.exists(BIRD_PAGE_FOLDER+'/'+species+'/species_compare/'):
-            os.makedirs(BIRD_PAGE_FOLDER+'/'+species+'/species_compare/')
         # fetch the url and content
         if os.path.isfile(BIRD_PAGE_FOLDER+'/'+species+'/species-compare.html'):
             print(f'The page for {species} is already there!!!')
-            with open(BIRD_PAGE_FOLDER+'/'+species+'/species-compare.html', 'rb') as f:
+            with open(BIRD_PAGE_FOLDER+'/'+species+'/species_compare.html', 'rb') as f:
                 soup = BeautifulSoup(f.read(), 'html.parser')
         else:
             page = requests.get(URL, headers=HEADERS)
@@ -372,7 +426,13 @@ def species_compare_scraper(species: str, url: str = None):
                 img_links = list(set(img_links))
                 
                 bird_name = child1.get_text()
-                bird_type = child2.find('h5').get_text()
+
+                bird_type = child2.find('h5')
+                if bird_type:
+                    bird_type = bird_type.get_text()
+                else:
+                    bird_type = 'Unknown Type'
+                
                 bird_desc = child2.find('p').get_text()
                 bird_desc = " ".join(bird_desc.split()) # remove duplicate spaces and tabs, newlines
 
@@ -389,7 +449,7 @@ def species_compare_scraper(species: str, url: str = None):
                 #     path = f"{SPECIES_COMPARE_FOLDER}/{species}/{bird_name}/{filename}"
                 #     get_and_store_image(link, path)
                 #     time.sleep(1)
-            
+        
         # save the descriptions
         json_object = json.dumps(similarbird_dict, indent=4)
         with open(f"{SPECIES_COMPARE_FOLDER}/{species}/similarbird_dict.json", 'w') as f:
@@ -401,13 +461,43 @@ def species_compare_scraper(species: str, url: str = None):
         print(str(e))   
 
 #%%
-species_compare_scraper('Rock_Pigeon')
+species_compare_scraper('Tropical_Kingbird')
+
 # %%
-# species = ['Botteris_Sparrow', 'Rosss_Goose', 'Rock_Pigeon', 'Scaled_Quail']
-# print(f'There are {len(species)} birds on the scraping list.')
+species = os.listdir('allaboutbirds_pages_2')
+print(f'There are {len(species)} birds on the scraping list.')
 
-# for specy in species:
-#     id_scraper(specy)
+for specy in species:
+    id_scraper(specy)
 
+#%%
+for specy in species:
+    species_compare_scraper(specy)
+
+# %%
+# check classes that cannot be parsed
+ids = os.listdir('allaboutbirds_ids')
+print(f'There are {len(ids)} birds on the scraping list.')
+species_compares = os.listdir('allaboutbirds_species_compares')
+print(f'There are {len(species_compares)} birds on the scraping list.')
+
+num_id_failed = {'0': 0, '1': 0}
+for id in ids:
+    path = os.path.join('allaboutbirds_ids', id)
+    if len(os.listdir(path)) == 0:
+        num_id_failed['0'] += 1
+    if len(os.listdir(path)) == 1:
+        print(id)
+        num_id_failed['1'] += 1
+print(num_id_failed)
+
+# %%
+num_sc_failed = 0
+for sc in species_compares:
+    path = os.path.join('allaboutbirds_species_compares', sc)
+    if len(os.listdir(path)) == 0:
+        print(sc)
+        num_sc_failed += 1
+print(num_sc_failed)
 
 # %%
