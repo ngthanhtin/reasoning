@@ -7,19 +7,19 @@
                 " https://www.allaboutbirds.org/guide/assets/photo/67363301-720px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/67363291-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67363291-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/67363291-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/516796-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/516796-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/516796-480px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/67363281-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/67363281-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67363281-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/67363281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67363281-480px.jpg"
             ],
             [
+                " https://www.allaboutbirds.org/guide/assets/photo/67363311-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/67363311-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67363311-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67363311-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/67363311-480px.jpg"
             ]
         ],
         "description": [
@@ -32,9 +32,9 @@
     "Female": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/67363291-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/67363291-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/67363291-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/67363291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67363291-480px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/67363321-720px.jpg",
@@ -51,8 +51,8 @@
         "link": [
             [
                 "https://www.allaboutbirds.org/guide/assets/photo/67363331-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67363331-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67363331-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/67363331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67363331-720px.jpg"
             ]
         ],
         "description": [

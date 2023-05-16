@@ -2,14 +2,14 @@
     "Adult (Arizona)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/302387251-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/302387251-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/302387251-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/302387251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387251-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/302387931-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/302387931-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/302387931-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402965-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402965-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402965-720px.jpg"
             ]
         ],
         "description": [
@@ -20,19 +20,19 @@
     "Adult": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/302387931-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/302387931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387931-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/302387931-720px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/302387461-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302387461-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/302387461-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/302387461-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/302387461-480px.jpg"
             ],
             [
+                "https://www.allaboutbirds.org/guide/assets/photo/302387541-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/302387541-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/302387541-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/302387541-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/302387541-720px.jpg"
             ]
         ],
         "description": [
@@ -44,9 +44,9 @@
     "Juvenile (Arizona)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/302387371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387371-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/302387371-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/302387371-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/302387371-480px.jpg"
             ]
         ],
         "description": [
@@ -57,8 +57,8 @@
         "link": [
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/302387731-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/302387731-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/302387731-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/302387731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387731-720px.jpg"
             ]
         ],
         "description": [

@@ -2,28 +2,28 @@
     "Adult (Black-necked)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/297914651-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/297914651-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297914651-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/297914651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297914651-720px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/64806541-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478183-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478183-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478183-480px.jpg"
             ],
             [
+                "https://www.allaboutbirds.org/guide/assets/photo/297914701-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297914701-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297914701-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/297914701-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/297914701-720px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/64806511-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/64806511-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/64806511-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/64806511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64806511-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/297914791-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297914791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297914791-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/297914791-480px.jpg"
             ],
             [
@@ -44,9 +44,9 @@
     "Adult (White-backed)": {
         "link": [
             [
+                " https://www.allaboutbirds.org/guide/assets/photo/64806541-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/64806541-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/64806541-480px.jpg"
             ]
         ],
         "description": [
@@ -56,8 +56,8 @@
     "Adult (Hawaiian)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/64806521-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/64806521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64806521-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/64806521-720px.jpg"
             ]
         ],
@@ -80,8 +80,8 @@
     "Adult (with American Avocet)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/297914881-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/297914881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297914881-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297914881-720px.jpg"
             ]
         ],

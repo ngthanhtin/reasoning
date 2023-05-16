@@ -2,24 +2,24 @@
     "Adult (Atlantic)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/299384491-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/299384491-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/299384491-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/299384491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299384491-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/299384761-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/299384761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384761-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/299384761-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/299384731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384731-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/299384731-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/299384731-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/299384731-480px.jpg"
             ],
             [
                 "https://www.allaboutbirds.org/guide/assets/photo/39346971-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/39346971-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/39346971-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/39346971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39346971-720px.jpg"
             ]
         ],
         "description": [
@@ -32,9 +32,9 @@
     "Adult (Gulf of Mexico)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/299384761-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/299384761-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/299384761-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478461-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478461-720px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/40695411-480px.jpg",
@@ -42,9 +42,9 @@
                 " https://www.allaboutbirds.org/guide/assets/photo/40695411-720px.jpg"
             ],
             [
+                "https://www.allaboutbirds.org/guide/assets/photo/299384721-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/299384721-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/299384721-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/299384721-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/299384721-480px.jpg"
             ]
         ],
         "description": [
@@ -56,9 +56,9 @@
     "Adult (Cape Sable)": {
         "link": [
             [
+                " https://www.allaboutbirds.org/guide/assets/photo/308772991-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/308772991-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/308772991-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/308772991-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/308772991-720px.jpg"
             ]
         ],
         "description": [
@@ -68,9 +68,9 @@
     "Juvenile (Atlantic)": {
         "link": [
             [
+                " https://www.allaboutbirds.org/guide/assets/photo/299385801-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/299385801-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/299385801-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/299385801-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/299385801-480px.jpg"
             ]
         ],
         "description": [
@@ -80,8 +80,8 @@
     "Juvenile (Gulf of Mexico)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/299384171-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/299384171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384171-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/299384171-480px.jpg"
             ]
         ],

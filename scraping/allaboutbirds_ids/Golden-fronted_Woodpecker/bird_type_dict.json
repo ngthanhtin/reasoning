@@ -3,18 +3,18 @@
         "link": [
             [
                 "https://www.allaboutbirds.org/guide/assets/photo/297686591-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297686591-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297686591-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/297686591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297686591-720px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/64994361-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/64994361-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/64994361-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/64994361-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64994361-480px.jpg"
             ],
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/309039351-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/309039351-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/309039351-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/309039351-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/309039351-480px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/64994351-720px.jpg",
@@ -32,8 +32,8 @@
     "Female (Northern)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/297686691-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/297686691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297686691-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297686691-720px.jpg"
             ]
         ],
@@ -44,9 +44,9 @@
     "Adult female and male (Northern)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/297686691-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/297686691-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297686691-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410037-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/410037-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410037-480px.jpg"
             ]
         ],
         "description": [
@@ -56,9 +56,9 @@
     "Male (Velasquez's)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/64994371-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/64994371-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/64994371-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/64994371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64994371-720px.jpg"
             ]
         ],
         "description": [
@@ -68,9 +68,9 @@
     "Female (Velasquez's)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/64994341-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/64994341-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/64994341-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/64994341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64994341-720px.jpg"
             ]
         ],
         "description": [

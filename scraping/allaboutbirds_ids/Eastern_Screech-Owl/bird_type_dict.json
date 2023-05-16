@@ -2,9 +2,9 @@
     "Adult gray morph (McCall's)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/297361511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297361511-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297361511-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/297361511-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/297361511-480px.jpg"
             ]
         ],
         "description": [
@@ -15,18 +15,18 @@
         "link": [
             [
                 "https://www.allaboutbirds.org/guide/assets/photo/297361621-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297361621-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297361621-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/297361621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297361621-720px.jpg"
             ],
             [
+                " https://www.allaboutbirds.org/guide/assets/photo/60389731-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/60389731-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/60389731-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/60389731-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/60389731-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/60389741-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/60389741-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/60389741-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/414686-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/414686-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/414686-480px.jpg"
             ]
         ],
         "description": [
@@ -38,14 +38,14 @@
     "Adult gray morph (Northern)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/297361621-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297361621-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297361621-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/474750-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/474750-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/474750-720px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/60389691-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/60389691-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/60389691-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/414120-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/414120-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/414120-720px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/60389741-720px.jpg",
@@ -62,9 +62,9 @@
     "Adult brown morph (Northern)": {
         "link": [
             [
+                "https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/60389761-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg"
             ]
         ],
         "description": [
@@ -86,9 +86,9 @@
     "Juveniles (Northern)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/60389741-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/60389741-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/60389741-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/474879-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/474879-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/474879-480px.jpg"
             ]
         ],
         "description": [

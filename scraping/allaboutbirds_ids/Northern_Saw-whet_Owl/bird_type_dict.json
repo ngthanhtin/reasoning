@@ -2,19 +2,19 @@
     "Adult (acadicus)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/297402651-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297402651-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297402651-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297402651-720px.jpg"
             ],
             [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/66113271-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/66113271-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/66113271-480px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/297403001-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297403001-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/297403001-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/297403001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297403001-720px.jpg"
             ],
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/66113281-480px.jpg",
@@ -32,9 +32,9 @@
     "Juvenile (acadicus)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/297402691-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/297402691-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297402691-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/297402691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297402691-480px.jpg"
             ]
         ],
         "description": [
@@ -44,14 +44,14 @@
     "Adult": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/297402691-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297402691-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297402691-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/408451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408451-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/66113271-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/66113271-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408443-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/408443-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408443-720px.jpg"
             ]
         ],
         "description": [
@@ -62,9 +62,9 @@
     "Adult (Haida Gwaii)": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/297403121-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/297403121-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/297403121-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/297403121-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297403121-480px.jpg"
             ]
         ],
         "description": [
@@ -74,9 +74,9 @@
     "Juvenile": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/66113281-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/66113281-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/66113281-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/417013-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/417013-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/417013-720px.jpg"
             ]
         ],
         "description": [

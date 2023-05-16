@@ -7,13 +7,13 @@
                 " https://www.allaboutbirds.org/guide/assets/photo/302124271-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/302126591-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302126591-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/302126591-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/302126591-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/302126591-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/63912481-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/63912481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912481-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/63912481-480px.jpg"
             ]
         ],
@@ -26,19 +26,19 @@
     "Female and immature male": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161973051-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/161973051-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/161973071-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/161973071-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/161973071-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/161973071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161973071-480px.jpg"
             ],
             [
+                "https://www.allaboutbirds.org/guide/assets/photo/63912471-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/63912471-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/63912471-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/63912471-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/63912471-480px.jpg"
             ]
         ],
         "description": [
@@ -50,9 +50,9 @@
     "Nonbreeding male (Ruddy)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/161973051-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/161973051-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/475154-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475154-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475154-720px.jpg"
             ]
         ],
         "description": [
@@ -63,13 +63,13 @@
         "link": [
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/63912441-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/63912441-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/63912441-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/63912441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63912441-480px.jpg"
             ],
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/63912461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912461-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/63912461-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/63912461-720px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/63912461-480px.jpg"
             ]
         ],
         "description": [
@@ -80,9 +80,9 @@
     "Female and chick (North American)": {
         "link": [
             [
+                "https://www.allaboutbirds.org/guide/assets/photo/302124671-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/302124671-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/302124671-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/302124671-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/302124671-720px.jpg"
             ]
         ],
         "description": [
@@ -92,9 +92,9 @@
     "Flock": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/63912451-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/63912451-720px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/63912451-480px.jpg"
+                "https://www.allaboutbirds.org/guide/assets/photo/63912451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63912451-480px.jpg"
             ]
         ],
         "description": [
@@ -104,9 +104,9 @@
     "Habitat": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/302127451-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/302127451-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/302127451-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/302127451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302127451-480px.jpg"
             ]
         ],
         "description": [

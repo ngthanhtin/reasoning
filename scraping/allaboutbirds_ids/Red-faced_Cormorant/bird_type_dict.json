@@ -2,24 +2,24 @@
     "Breeding adult": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/304390341-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/304390341-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/304390341-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/304390341-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304390341-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40622411-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/40622411-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/304390371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304390371-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/304390371-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/304390371-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/304390371-480px.jpg"
             ],
             [
+                " https://www.allaboutbirds.org/guide/assets/photo/33117981-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/33117981-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/33117981-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/33117981-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/33117981-480px.jpg"
             ]
         ],
         "description": [
@@ -32,9 +32,9 @@
     "Common": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/40622411-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/40622411-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/452731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/452731-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/452731-480px.jpg"
             ]
         ],
         "description": [
@@ -44,8 +44,8 @@
     "Immature": {
         "link": [
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/304390361-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/304390361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304390361-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/304390361-480px.jpg"
             ]
         ],
@@ -56,8 +56,8 @@
     "Breeding adult (with Pelagic Cormorants)": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/32802191-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/32802191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32802191-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/32802191-480px.jpg"
             ]
         ],
@@ -69,8 +69,8 @@
         "link": [
             [
                 " https://www.allaboutbirds.org/guide/assets/photo/40622401-480px.jpg",
-                "https://www.allaboutbirds.org/guide/assets/photo/40622401-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/40622401-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/40622401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40622401-480px.jpg"
             ]
         ],
         "description": [

@@ -7,18 +7,18 @@
                 "https://www.allaboutbirds.org/guide/assets/photo/67630431-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/67630391-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/67630391-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67630391-720px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/67630391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630391-480px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/67630421-480px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/67630421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630421-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/67630421-720px.jpg"
             ],
             [
-                " https://www.allaboutbirds.org/guide/assets/photo/67630401-720px.jpg",
                 "https://www.allaboutbirds.org/guide/assets/photo/67630401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67630401-720px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/67630401-480px.jpg"
             ]
         ],
@@ -32,9 +32,9 @@
     "Breeding and nonbreeding": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/67631201-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg"
             ]
         ],
         "description": [
@@ -44,9 +44,9 @@
     "Breeding adult": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67631201-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67631201-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/484275-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/484275-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/484275-720px.jpg"
             ]
         ],
         "description": [
@@ -56,9 +56,9 @@
     "Breeding adult with Least Auklet": {
         "link": [
             [
-                "https://www.allaboutbirds.org/guide/assets/photo/67630441-480px.jpg",
                 " https://www.allaboutbirds.org/guide/assets/photo/67630441-720px.jpg",
-                " https://www.allaboutbirds.org/guide/assets/photo/67630441-480px.jpg"
+                " https://www.allaboutbirds.org/guide/assets/photo/67630441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67630441-480px.jpg"
             ]
         ],
         "description": [

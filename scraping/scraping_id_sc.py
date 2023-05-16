@@ -286,6 +286,10 @@ def id_scraper(species: str, url: str = None):
             child2 = child1.findChildren("a", recursive=False)
             for child3 in child2:
                 img_tag = child3.findChildren("img", recursive=False)
+                if len(img_tag) == 0: # there is a video tag
+                    img_tag = child3.find("img")
+                    img_tag = [img_tag]
+                    
                 for child4 in img_tag:
                     img_links = child4.get('data-interchange') # string of list
                     # Converting string to list
@@ -381,7 +385,7 @@ def id_scraper(species: str, url: str = None):
         print(str(e))      
 
 # %%
-id_scraper('Rock_Pigeon')
+id_scraper('American_Crow')
 
 # %%
 def species_compare_scraper(species: str, url: str = None):
@@ -464,7 +468,7 @@ def species_compare_scraper(species: str, url: str = None):
 species_compare_scraper('Tropical_Kingbird')
 
 # %%
-species = os.listdir('allaboutbirds_pages_2')
+species = os.listdir('allaboutbirds_pages')
 print(f'There are {len(species)} birds on the scraping list.')
 
 for specy in species:
