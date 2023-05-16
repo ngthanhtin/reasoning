@@ -1,1 +1,1 @@
-# Densenet121-Image-Classification-Deployed-using-Flask
+# Image-Classification OR Image-2-Text Deployed-using-Flask
