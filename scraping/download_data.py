@@ -93,8 +93,8 @@ def download_bird_type_images(bird_type_path, bird_type_data_folder):
                 link = next((item for item in links if '720' in item), None)
                 if not link: # there is no 720 px images, or it is a video link
                     link = links if isinstance(links, str) else links[0]
-                if 'video' in link: # for now, not download video
-                    continue
+                # if 'video' in link: # for now, allows download video thumbnail
+                #     continue
             
                 filename = f"{k}_{i}.jpg"
                 if filename in photo_list:
@@ -103,7 +103,7 @@ def download_bird_type_images(bird_type_path, bird_type_data_folder):
                 if success == 0:
                     print(bird_type_path)
                     num_failure += 1
-                time.sleep(1)
+                time.sleep(1.2)
 
     return num_failure
 
@@ -126,6 +126,17 @@ for bird_name in bird_names:
     download_meta_images(meta_path, metadata_data_folder)
 
 #%%
+# root_path = './allaboutbirds_data/id_data/'
+# bird_names = os.listdir(root_path)
+# for bird in bird_names:
+#     path = f"{root_path}/{bird}/bird_type_data/"
+#     for file_name in os.listdir(path):
+#         file = path + file_name
+#         if os.path.isfile(file):
+#             print('Deleting file:', file)
+#             os.remove(file)
+
+# %%
 # ------ DOWNLOAD BIRD TYPE DATA -------- #
 bird_names = os.listdir(ID_FOLDER)
 
