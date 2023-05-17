@@ -4,6 +4,9 @@ from generate_html import generate_html, generate_html_2
 from torchvision import models
 import json, os
 
+from PIL import Image
+from image2text.blip2 import blip_captioning
+
 app = Flask(__name__)
 
 UPLOAD_FOLDER = './static/'
@@ -35,10 +38,17 @@ def upload_file():
         if 'file1' not in request.files:
             return 'there is no file1 in form!'
         file1 = request.files['file1']
-        path = os.path.join(app.config['UPLOAD_FOLDER'], file1.filename)
+        # path = os.path.join(app.config['UPLOAD_FOLDER'], file1.filename)
+        file_type = file1.filename.split('.')[-1]
+        path = os.path.join(app.config['UPLOAD_FOLDER'], f'current.{file_type}')
+        
         file1.save(path)
-        get_image_class(path)
-        return redirect(url_for('success', name=path.split('/')[-1]))
+        
+        # get_image_class(path)
+        
+        return '', 204
+        # return render_template('home.html')
+        # return redirect(url_for('success', name=path.split('/')[-1]))
 
 @app.route("/aifunction/", methods=['GET', 'POST'])
 def move_forward():
@@ -49,8 +59,22 @@ def move_forward():
         generate_html_2(text)
         return render_template('home_answer.html')
     if request.form.get('image2textBtn') == 'Image2Text':
-        print("Image2Text is developing...")
-        return render_template('index.html')
+        image_files = os.listdir(UPLOAD_FOLDER)
+        image_path = None
+        for filename in image_files:
+            if 'current' in filename:
+                image_path = os.path.join(UPLOAD_FOLDER, filename)
+
+        if not image_path:
+            print("Image2Text is developing...")
+            return render_template('test.html')
+        else:
+            image = Image.open(image_path)
+            print("Progessing....")
+            text = blip_captioning(image)
+            print("Caption: ", text)
+            generate_html_2(text)
+            return render_template('home_answer.html')
 
 
 @app.route('/success/<name>')
