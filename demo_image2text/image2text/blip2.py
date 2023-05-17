@@ -1,18 +1,17 @@
 from PIL import Image
 import requests
-from transformers import Blip2Processor, Blip2ForConditionalGeneration
 import torch
 import time
 
-def blip_captioning(image: Image):
+def blip_captioning(model, processor, image: Image):
     device = "cuda:7" if torch.cuda.is_available() else "cpu"
 
     t1 = time.time()
-    processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
-    model = Blip2ForConditionalGeneration.from_pretrained(
-        "Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16
-    )
-    model.to(device)
+    # processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
+    # model = Blip2ForConditionalGeneration.from_pretrained(
+    #     "Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16
+    # )
+    # model.to(device)
     print("Time for loading model: ", time.time() - t1)
 
     t1 = time.time()
