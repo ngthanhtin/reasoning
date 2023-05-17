@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from get_prediction import get_prediction
-from generate_html import generate_html
+from generate_html import generate_html, generate_html_2
 from torchvision import models
 import json, os
 
@@ -22,7 +22,6 @@ def get_image_class(path):
     # get_image(path)
     # path = get_path(path)
     images_with_tags = get_prediction(model, imagenet_class_mapping, path)
-    print(images_with_tags)
     generate_html(images_with_tags)
 
 @app.route('/')
@@ -41,12 +40,17 @@ def upload_file():
         get_image_class(path)
         return redirect(url_for('success', name=path.split('/')[-1]))
 
-# @app.route('/', methods=['POST', 'GET'])
-# def get_data():
-#     if request.method == 'POST':
-#         user = request.form['search']
-#         get_image_class(user)
-#         return redirect(url_for('success', name=get_directory(user)))
+@app.route("/aifunction/", methods=['GET', 'POST'])
+def move_forward():
+    if request.form.get('clsBtn') == 'Classification':
+        print("Classification is developing...")
+        text = request.form['input_text']
+        print('You entered: ', text)
+        generate_html_2(text)
+        return render_template('home_answer.html')
+    if request.form.get('image2textBtn') == 'Image2Text':
+        print("Image2Text is developing...")
+        return render_template('index.html')
 
 
 @app.route('/success/<name>')

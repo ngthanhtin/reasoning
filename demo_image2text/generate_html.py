@@ -91,3 +91,21 @@ def generate_html(image_class_dict):
     #
     with open('templates/image_class.html', 'w') as f:
         f.write(str(home))
+
+
+def generate_html_2(input_text):
+    with open('templates/home.html', 'rb') as f:
+        home = Soup(f.read(), 'html.parser')
+    
+    text_html = "<p>" + input_text + "</p>"
+    text_soup = Soup(text_html, 'html.parser')
+
+    begin_tag = home.find("div", {"name":"col2","class":"col-md-6"})
+    begin_tag.append(text_soup)
+
+    # for data in home(['script']): # used to delete unnecessary tags
+    #     data.decompose()
+
+    #
+    with open('templates/home_answer.html', 'w') as f:
+        f.write(str(home))
