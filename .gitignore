@@ -2,3 +2,10 @@ allaboutbirds/
 scraping/old_searching/
 demo_image2text/__pycache__/
 demo_image2text/__init__.py
+demo_image2text/image2text/__pycache__
+*.zip
+scraping/allaboutbirds_data/
+demo_image2text/templates/test.html
+demo_image2text/templates/home_answer.html
+test.py
+templates/test.py
