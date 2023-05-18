@@ -3,6 +3,7 @@ scraping/old_searching/
 demo_image2text/__pycache__/
 demo_image2text/__init__.py
 demo_image2text/image2text/__pycache__
+demo_image2text/image2text/image_text_matching/__pycache__
 *.zip
 scraping/allaboutbirds_data/
 demo_image2text/templates/test.html
