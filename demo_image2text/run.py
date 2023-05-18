@@ -8,6 +8,8 @@ from PIL import Image
 from image2text.blip2 import blip_captioning
 from transformers import Blip2Processor, Blip2ForConditionalGeneration
 import torch
+import clip
+from image2text.image_text_matching.clip_matching import image_text_matching
 
 app = Flask(__name__)
 
@@ -20,15 +22,19 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 imagenet_class_mapping = json.load(open('imagenet_class_index.json'))
 
 # Make sure to pass `pretrained` as `True` to use the pretrained weights:
-classification_model = models.densenet121(weights='IMAGENET1K_V1')
+classification_model = models.densenet121(weights='IMAGENET1K_V1').to(DEVICE)
 # Since we are using our model only for inference, switch to `eval` mode:
 classification_model.eval()
 
-blip2_processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
-blip2_model = Blip2ForConditionalGeneration.from_pretrained(
-        "Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16
-    )
-blip2_model.to(DEVICE)
+# blip2_processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
+# blip2_model = Blip2ForConditionalGeneration.from_pretrained(
+#         "Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16
+#     )
+# blip2_model.to(DEVICE)
+
+clip_model, clip_preprocess = clip.load("ViT-B/32", device='cuda:7', jit=False)
+clip_model.eval()
+clip_model.requires_grad_(False)
 # ----------------------------------------#
 
 def get_image_class(path):
@@ -46,11 +52,14 @@ def home():
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
+        # TODO: remove all current.* in static folder
+
         if 'file1' not in request.files:
             return 'there is no file1 in form!'
         file1 = request.files['file1']
         # path = os.path.join(app.config['UPLOAD_FOLDER'], file1.filename)
         file_type = file1.filename.split('.')[-1]
+        print('haha')
         path = os.path.join(app.config['UPLOAD_FOLDER'], f'current.{file_type}')
         
         file1.save(path)
@@ -58,11 +67,10 @@ def upload_file():
         # get_image_class(path)
         
         return '', 204
-        # return render_template('home.html')
-        # return redirect(url_for('success', name=path.split('/')[-1]))
 
 @app.route("/aifunction/", methods=['GET', 'POST'])
 def move_forward():
+    
     if request.form.get('clsBtn') == 'Classification':
         image_files = os.listdir(UPLOAD_FOLDER)
         image_path = None
@@ -92,15 +100,21 @@ def move_forward():
         else:
             image = Image.open(image_path)
             print("Progessing....")
-            text = blip_captioning(blip2_model, blip2_processor, image)
-            print("Caption: ", text)
-            generate_html_2(text)
+            # text = blip_captioning(blip2_model, blip2_processor, image)
+            text = request.form['input_text']
+            texts, similarities = image_text_matching(clip_model, clip_preprocess, image, text)
+
+            similarities, texts = zip(*sorted(zip(similarities, texts)))
+            similarities, texts = similarities[::-1], texts[::-1]
+            render_text = ''.join(f"{text}: {str(sim)} <br>" for text, sim in zip(texts, similarities))
+    
+            generate_html_2(render_text, image_path)
             return render_template('home_answer.html')
 
 
-@app.route('/success/<name>')
+@app.route('/')
 def success(name):
-    return render_template('image_class.html')
+    return render_template('home_answer.html')
 
 
 if __name__ == '__main__' :
