@@ -1,26 +1,32 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65055711-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65055711-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65055711-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65055711-480px.jpg"
         ],
-        "description": [
-            "A small, compact waterbird with a compact body, relatively short neck, blocky head (sometimes peaked), and straight, narrow bill, very unlike a duck's bill.",
-            "",
-            "Slightly larger than an Eared Grebe, smaller than a Red-necked Grebe.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 12.2-15.0 in (31-38 cm)",
-            "Weight: 10.6-20.1 oz (300-570 g)",
-            "Wingspan: 17.3-18.1 in (44-46 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small, compact waterbird with a compact body, relatively short neck, blocky head (sometimes peaked), and straight, narrow bill, very unlike a duck's bill."
+            ],
+            "Compared Size": [
+                "Slightly larger than an Eared Grebe, smaller than a Red-necked Grebe."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 12.2-15.0 in (31-38 cm)",
+                "Weight: 10.6-20.1 oz (300-570 g)",
+                "Wingspan: 17.3-18.1 in (44-46 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65055691-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65055691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65055691-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65055691-480px.jpg"
         ],
         "description": [
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65055731-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65055731-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65055731-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65055731-720px.jpg"
         ],
         "description": [

@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64806501-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64806501-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64806501-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64806501-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64806501-480px.jpg"
         ],
-        "description": [
-            "A tall but small-bodied shorebird with very long legs, a long neck, small head, and thin, straight bill.",
-            "",
-            "Smaller than a Willet, larger than a Lesser Yellowlegs.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 13.8-15.3 in (35-39 cm)",
-            "Weight: 5.3-6.2 oz (150-176 g)",
-            "Wingspan: 28.1-29.7 in (71.5-75.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A tall but small-bodied shorebird with very long legs, a long neck, small head, and thin, straight bill."
+            ],
+            "Compared Size": [
+                "Smaller than a Willet, larger than a Lesser Yellowlegs."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 13.8-15.3 in (35-39 cm)",
+                "Weight: 5.3-6.2 oz (150-176 g)",
+                "Wingspan: 28.1-29.7 in (71.5-75.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64806561-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64806561-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64806561-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64806561-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64806561-480px.jpg"
         ],
         "description": [
             "These birds are black above and white below, with white around the eye and rosy pink legs. In females and immatures the black areas can be brownish.",
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64806571-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64806571-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64806571-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64806571-480px.jpg"
         ],
         "description": [

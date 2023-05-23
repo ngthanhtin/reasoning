@@ -2,25 +2,33 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64814541-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64814541-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64814541-480px.jpg"
         ],
-        "description": [
-            "Sanderlings are small, plump sandpipers with a stout bill about the same length as the head. These and other sandpipers in the genus",
-            "Calidris",
-            "are often called \u201cpeeps\u201d; Sanderlings are medium-sized members of this group.",
-            "About the same size as a Dunlin. Smaller than a Red Knot; larger than a Least Sandpiper.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.1-7.9 in (18-20 cm)",
-            "Weight: 1.4-3.5 oz (40-100 g)",
-            "Wingspan: 13.8 in (35 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Sanderlings are small, plump sandpipers with a stout bill about the same length as the head. These and other sandpipers in the genus",
+                "Calidris",
+                "are often called \u201cpeeps\u201d; Sanderlings are medium-sized members of this group."
+            ],
+            "Compared Size": [
+                "About the same size as a Dunlin. Smaller than a Red Knot; larger than a Least Sandpiper."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-7.9 in (18-20 cm)",
+                "Weight: 1.4-3.5 oz (40-100 g)",
+                "Wingspan: 13.8 in (35 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64814511-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64814511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64814511-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64814511-720px.jpg"
         ],
         "description": [
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64814551-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64814551-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64814551-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64814551-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64814551-720px.jpg"
         ],
         "description": [
             "During migration and winter, they forage on beaches but will also use mudflats. Sanderlings nest in the High Arctic on gravel patches and low-growing, wet tundra."

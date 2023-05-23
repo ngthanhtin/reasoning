@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/62999411-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/62999411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/62999411-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/62999411-720px.jpg"
         ],
-        "description": [
-            "A medium-sized, slender songbird with a long, rounded, black tail and a narrow, straight bill. Catbirds are fairly long legged and have broad, rounded wings.",
-            "Slightly smaller than a Northern Mockingbird",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 8.3-9.4 in (21-24 cm)",
-            "Weight: 0.8-2.0 oz (23.2-56.5 g)",
-            "Wingspan: 8.7-11.8 in (22-30 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized, slender songbird with a long, rounded, black tail and a narrow, straight bill. Catbirds are fairly long legged and have broad, rounded wings."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Northern Mockingbird"
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.3-9.4 in (21-24 cm)",
+                "Weight: 0.8-2.0 oz (23.2-56.5 g)",
+                "Wingspan: 8.7-11.8 in (22-30 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/62999421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/62999421-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/62999421-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/62999421-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/62999421-480px.jpg"
         ],
         "description": [
             "Catbirds give the impression of being entirely slaty gray. With a closer look you\u2019ll see a small black cap, blackish tail, and a rich rufous-brown patch under the tail."

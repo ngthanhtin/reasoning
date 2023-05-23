@@ -2,26 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/63000191-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63000191-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63000191-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63000191-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63000191-480px.jpg"
         ],
-        "description": [
-            "A large, somewhat plump warbler, with a stout bill (bigger than Northern Waterthrush\u2019s), rather short tail, and long legs.",
-            "",
-            "Larger than a Yellow Warbler, smaller than an Eastern Bluebird. Slightly larger than Northern Waterthrush.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.9-6.1 in (15-15.5 cm)",
-            "Weight: 0.6-0.8 oz (18.2-22.9 g)",
-            "Wingspan: 9.4-10.6 in (24-27 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large, somewhat plump warbler, with a stout bill (bigger than Northern Waterthrush\u2019s), rather short tail, and long legs."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow Warbler, smaller than an Eastern Bluebird. Slightly larger than Northern Waterthrush."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-6.1 in (15-15.5 cm)",
+                "Weight: 0.6-0.8 oz (18.2-22.9 g)",
+                "Wingspan: 9.4-10.6 in (24-27 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63000161-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63000161-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63000161-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63000161-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63000161-480px.jpg"
         ],
         "description": [
             "Brownish above, with a very prominent white eyebrow (supercilium); pale below, with dark streaks. The supercilium is thicker in Louisiana than in \u200bNorthern, and tends to flare at the rear. The legs are bright pink.",
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63000201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63000201-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63000201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63000201-480px.jpg"
         ],
         "description": [

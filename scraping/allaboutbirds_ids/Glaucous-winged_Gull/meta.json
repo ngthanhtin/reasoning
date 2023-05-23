@@ -1,16 +1,22 @@
 {
     "Size": {
-        "description": [
-            "A large, heavyset gull with a big, somewhat flat head and a long, heavy bill with a thick tip and pronounced angle along the lower edge.",
-            "",
-            "Larger than an Iceland Gull, smaller than a Glaucous Gull.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 19.7-23.2 in (50-59 cm)",
-            "Weight: 31.8-42.3 oz (900-1200 g)",
-            "Wingspan: 47.2-56.3 in (120-143 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large, heavyset gull with a big, somewhat flat head and a long, heavy bill with a thick tip and pronounced angle along the lower edge."
+            ],
+            "Compared Size": [
+                "Larger than an Iceland Gull, smaller than a Glaucous Gull."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 19.7-23.2 in (50-59 cm)",
+                "Weight: 31.8-42.3 oz (900-1200 g)",
+                "Wingspan: 47.2-56.3 in (120-143 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

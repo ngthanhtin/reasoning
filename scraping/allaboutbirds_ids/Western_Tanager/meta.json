@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67449111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67449111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67449111-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67449111-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67449111-480px.jpg"
         ],
-        "description": [
-            "Western Tanagers are stocky songbirds; fairly small yet noticeably larger and heavier-bodied than warblers. They have short, thick-based bills and medium-length tails.",
-            "Larger than a Yellow Warbler; smaller than an American Robin.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Western Tanagers are stocky songbirds; fairly small yet noticeably larger and heavier-bodied than warblers. They have short, thick-based bills and medium-length tails."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow Warbler; smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67449081-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67449081-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67449081-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67449081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67449081-480px.jpg"
         ],
         "description": [
             "Adult male Western Tanagers are yellow birds with black wings and a flaming orange-red head. The wings have two bold wingbars; the upper one yellow and the lower white. The back and tail are black. Adult females have red restricted to the front of the face, with subdued yellow-green plumage on the body. Immatures in fall lack red, while in spring show less red on the head relative to that on adults of their respective sex."
@@ -31,9 +39,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67449141-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67449141-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67449141-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67449141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67449141-720px.jpg"
         ],
         "description": [
             "Western Tanagers breed in coniferous forests, though they are not particularly choosy about which conifer species. They breed in juniper-pine mixtures at low elevation, up to spruce-fir near treeline. During migration, you may find them in nearly any shrubby or wooded habitats, and even in fairly open country. Their winter habitat in Middle America is generally in pine-oak woodland and forest edge."

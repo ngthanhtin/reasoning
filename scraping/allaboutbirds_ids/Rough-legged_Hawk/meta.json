@@ -1,26 +1,34 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/71545911-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71545911-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71545911-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71545911-480px.jpg"
         ],
-        "description": [
-            "Rough-legged Hawks are fairly large hawks with broad wings that, compared to other",
-            "Buteo",
-            "hawks, are fairly long and narrow. The tail is also longer than in many other buteos. The wingtips are broad and often swept back slightly from the wrist, giving a hint of an M shape to the wing. The bill is fairly small.",
-            "Larger than an American Crow; slightly smaller and less bulky than a Red-tailed Hawk.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 18.5-20.5 in (47-52 cm)",
-            "Weight: 25.2-49.4 oz (715-1400 g)",
-            "Wingspan: 52.0-54.3 in (132-138 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Rough-legged Hawks are fairly large hawks with broad wings that, compared to other",
+                "Buteo",
+                "hawks, are fairly long and narrow. The tail is also longer than in many other buteos. The wingtips are broad and often swept back slightly from the wrist, giving a hint of an M shape to the wing. The bill is fairly small."
+            ],
+            "Compared Size": [
+                "Larger than an American Crow; slightly smaller and less bulky than a Red-tailed Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.5-20.5 in (47-52 cm)",
+                "Weight: 25.2-49.4 oz (715-1400 g)",
+                "Wingspan: 52.0-54.3 in (132-138 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71545851-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71545851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71545851-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71545851-480px.jpg"
         ],
         "description": [
@@ -36,9 +44,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/71545791-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71545791-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71545791-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71545791-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71545791-480px.jpg"
         ],
         "description": [
             "These hawks breed in the Arctic. In winter, they migrate to open habitats such as fields, prairies, deserts, and airports in the U.S. and southern Canada.",

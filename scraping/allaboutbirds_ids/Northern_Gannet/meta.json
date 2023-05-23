@@ -1,28 +1,34 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66025421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66025421-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66025421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66025421-480px.jpg"
         ],
-        "description": [
-            "A nearly albatross-sized, heavy-bodied seabird, with long, pointed wings, tail, and bill.",
-            "",
-            "Larger than a Great Black-backed Gull, smaller than a Brown Pelican.",
-            "",
-            "goose-sized or larger",
-            "Sex: Male",
-            "Length: 36.8-43.3 in (93.5-110 cm)",
-            "Weight: 87.1-122.4 oz (2470-3470 g)",
-            "Wingspan: 70.9-72.4 in (180-184 cm)",
-            "Female"
-        ]
+        "description": {
+            "Shape": [
+                "A nearly albatross-sized, heavy-bodied seabird, with long, pointed wings, tail, and bill."
+            ],
+            "Compared Size": [
+                "Larger than a Great Black-backed Gull, smaller than a Brown Pelican."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 36.8-43.3 in (93.5-110 cm)",
+                "Weight: 87.1-122.4 oz (2470-3470 g)",
+                "Wingspan: 70.9-72.4 in (180-184 cm)",
+                "Female"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/66025391-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66025391-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66025391-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66025391-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66025391-480px.jpg"
         ],
         "description": [
             "Adults are snow white with black wingtips and yellow heads; juveniles are uniformly sooty brown; and subadults are intermediate between these plumages, often appearing a patchwork of dark and light feathering.",
@@ -38,9 +44,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66025371-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66025371-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66025371-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66025371-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66025371-720px.jpg"
         ],
         "description": [
             "Open oceans and occasionally in large bays. Nests on cliffs in Atlantic Canada, Iceland, and Europe.",

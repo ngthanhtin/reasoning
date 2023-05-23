@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68052641-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68052641-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68052641-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68052641-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68052641-480px.jpg"
         ],
-        "description": [
-            "A small songbird with husky body and head, and a slim, rather long tail.",
-            "",
-            "About the size of a Black-capped Chickadee.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A small songbird with husky body and head, and a slim, rather long tail."
+            ],
+            "Compared Size": [
+                "About the size of a Black-capped Chickadee."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68052651-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68052651-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68052651-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68052651-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68052651-720px.jpg"
         ],
         "description": [
             "A grayish brown bird with a rich brown cap, a small black bib, and small white cheek (gray at the rear). Whitish below, with pinkish buff sides.",
@@ -34,8 +40,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68052671-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68052671-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68052671-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68052671-480px.jpg"
         ],
         "description": [

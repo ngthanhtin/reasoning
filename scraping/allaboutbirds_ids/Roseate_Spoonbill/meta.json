@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70703691-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70703691-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70703691-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70703691-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70703691-720px.jpg"
         ],
-        "description": [
-            "Roseate Spoonbills are medium-sized waterbirds with a football-shaped body and long legs. The long bill that is flattened into a spoon at the end protrudes from their small head. They fly with their long necks outstretched and often rest with it curled into an S.",
-            "",
-            "Larger than a White Ibis, smaller than a Great Blue Heron.",
-            "",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 27.9-33.9 in (71-86 cm)",
-            "Weight: 42.3-63.5 oz (1200-1800 g)",
-            "Wingspan: 47.2-51.2 in (120-130 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Roseate Spoonbills are medium-sized waterbirds with a football-shaped body and long legs. The long bill that is flattened into a spoon at the end protrudes from their small head. They fly with their long necks outstretched and often rest with it curled into an S."
+            ],
+            "Compared Size": [
+                "Larger than a White Ibis, smaller than a Great Blue Heron."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 27.9-33.9 in (71-86 cm)",
+                "Weight: 42.3-63.5 oz (1200-1800 g)",
+                "Wingspan: 47.2-51.2 in (120-130 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70703661-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70703661-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70703661-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70703661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70703661-720px.jpg"
         ],
         "description": [
             "Roseate Spoonbills are pale pink birds with brighter pink shoulders and rump. They have a white neck and a partially feathered, yellowish green head from which their red eyes shine. Juveniles are paler pink and have a completely feathered head for 3 years until they attain adult breeding plumage.",
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/70703731-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70703731-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70703731-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70703731-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70703731-480px.jpg"
         ],
         "description": [
             "Roseate Spoonbills forage in the shallows of fresh, brackish, and marine waters including bays, mangroves, forested swamps, and wetlands. They nest and roost in trees and shrubs along the water's edge.",

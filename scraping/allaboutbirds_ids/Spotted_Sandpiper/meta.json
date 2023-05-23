@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64833191-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64833191-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64833191-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64833191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64833191-720px.jpg"
         ],
-        "description": [
-            "The Spotted Sandpiper is a medium-sized shorebird with a bill slightly shorter than its head and a body that tapers to a longish tail. They have a rounded breast and usually appear as though they are leaning forward.",
-            "Slightly smaller than a Killdeer",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.1-7.9 in (18-20 cm)",
-            "Weight: 1.2-1.8 oz (34-50 g)",
-            "Wingspan: 14.6-15.8 in (37-40 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Spotted Sandpiper is a medium-sized shorebird with a bill slightly shorter than its head and a body that tapers to a longish tail. They have a rounded breast and usually appear as though they are leaning forward."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Killdeer"
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-7.9 in (18-20 cm)",
+                "Weight: 1.2-1.8 oz (34-50 g)",
+                "Wingspan: 14.6-15.8 in (37-40 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64833231-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64833231-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64833231-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64833231-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64833251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64833251-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64833251-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64833251-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64833251-480px.jpg"
         ],
         "description": [
             "Look for Spotted Sandpipers nearly anywhere near water\u2014along streambanks, rivers, ponds, lakes, and beaches, particularly on rocky shores. This species is one of the most widespread breeding shorebirds in the United States and is commonly seen near freshwater, even in otherwise arid or forested regions."

@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70582381-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70582381-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70582381-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70582381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582381-720px.jpg"
         ],
-        "description": [
-            "A large and sturdy bird with a long tail and hefty legs. This uncrested jay has a big flat head and a heavy bill.",
-            "",
-            "Larger than an Eastern Towhee, smaller than an American Crow.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 9.1-11.0 in (23-28 cm)",
-            "Weight: 2.3-3.3 oz (66-92 g)",
-            "Wingspan: 13.0-14.2 in (33-36 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large and sturdy bird with a long tail and hefty legs. This uncrested jay has a big flat head and a heavy bill."
+            ],
+            "Compared Size": [
+                "Larger than an Eastern Towhee, smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-11.0 in (23-28 cm)",
+                "Weight: 2.3-3.3 oz (66-92 g)",
+                "Wingspan: 13.0-14.2 in (33-36 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70582411-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70582411-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70582411-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70582411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582411-720px.jpg"
         ],
         "description": [
             "Dull blue overall with a whitish forehead and a pale gray back and belly. Juveniles are grayer overall than adults and lack the adult\u2019s blue head.",
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70582421-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70582421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70582421-720px.jpg"
         ],
         "description": [

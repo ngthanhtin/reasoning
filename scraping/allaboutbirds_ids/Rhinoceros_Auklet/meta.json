@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/40264201-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40264201-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40264201-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/40264201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40264201-720px.jpg"
         ],
-        "description": [
-            "A squat, thickset seabird with a heavy body, a short neck, and a heavy bill with (during breeding season) a short vertical spike near the base. It has broad, pointed wings, short legs, and large, webbed feet.",
-            "",
-            "Larger than a Cassin's Auklet, smaller than a Tufted Puffin.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 11.0-11.4 in (28-29 cm)",
-            "Weight: 12.3-21.9 oz (350-620 g)",
-            "Wingspan: 23.2-24.4 in (59-62 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A squat, thickset seabird with a heavy body, a short neck, and a heavy bill with (during breeding season) a short vertical spike near the base. It has broad, pointed wings, short legs, and large, webbed feet."
+            ],
+            "Compared Size": [
+                "Larger than a Cassin's Auklet, smaller than a Tufted Puffin."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.0-11.4 in (28-29 cm)",
+                "Weight: 12.3-21.9 oz (350-620 g)",
+                "Wingspan: 23.2-24.4 in (59-62 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71005341-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71005341-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005341-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71005341-480px.jpg"
         ],
         "description": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/71005441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005441-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71005441-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71005441-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71005441-480px.jpg"
         ],
         "description": [
             "Nests on rocky islands and cliffs. Forages in littoral (near to shore) ocean areas where upwelling brings nutrients and fish toward the surface. Found less often in estuaries and lagoons. Seldom found more than 10 miles from shore.",

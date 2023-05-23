@@ -2,21 +2,29 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/66034631-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66034631-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66034631-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66034631-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66034631-720px.jpg"
         ],
-        "description": [
-            "Band-tailed Pigeons are large, stocky pigeons with small heads, long, rounded tails, and thick-based, pointed wings.",
-            "Slightly larger than a Rock Pigeon; smaller than an American Crow.",
-            "crow-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Band-tailed Pigeons are large, stocky pigeons with small heads, long, rounded tails, and thick-based, pointed wings."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Rock Pigeon; smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/66034641-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66034641-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66034641-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66034641-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66034641-480px.jpg"
         ],
         "description": [
             "They are soft blue-gray above and purplish-gray below, with a white crescent on the back of the neck. The upper half of the tail is gray, fading to a pale gray band at the tip. The wings are unmarked pale gray with dark wingtips noticeable in flight. The bill and feet are yellow."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66034621-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66034621-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66034621-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66034621-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66034621-480px.jpg"
         ],
         "description": [
             "Band-tailed Pigeons live in mature coniferous forests in Western mountains, damp forests of the West Coast, and conifer-oak woodlands. They also visit forested suburban parks, fields, orchards, and backyard birdfeeders to forage."

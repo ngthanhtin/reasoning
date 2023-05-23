@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68279831-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68279831-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68279831-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68279831-480px.jpg"
         ],
-        "description": [
-            "Violet-green Swallows are small sleek birds with long pointed wings and slightly forked tails. Their wingtips extend beyond their short tail\u2014especially noticeable when perched.",
-            "About the same size as a Bank Swallow, but smaller than a Barn Swallow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7 in (12 cm)",
-            "Weight: 0.5 oz (14 g)",
-            "Wingspan: 10.6 in (27 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Violet-green Swallows are small sleek birds with long pointed wings and slightly forked tails. Their wingtips extend beyond their short tail\u2014especially noticeable when perched."
+            ],
+            "Compared Size": [
+                "About the same size as a Bank Swallow, but smaller than a Barn Swallow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7 in (12 cm)",
+                "Weight: 0.5 oz (14 g)",
+                "Wingspan: 10.6 in (27 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68279821-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68279821-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68279821-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68279821-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68279821-480px.jpg"
         ],
         "description": [
             "On first look, Violet-green Swallows appear dark above and crisp white below. In good light, the greenish-bronze back and iridescent violet rump come to life. All individuals have white bellies that wrap around to the upper side of the rump, creating \"saddlebags.\" Males have white cheek patches while females and juveniles have dusky cheeks. Juveniles have grayish-brown backs and crowns."

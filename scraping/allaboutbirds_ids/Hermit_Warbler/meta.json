@@ -2,20 +2,26 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64902381-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64902381-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64902381-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64902381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64902381-720px.jpg"
         ],
-        "description": [
-            "A small songbird with classic warbler proportions, including a moderately long tail and a rather short, slender, straight bill.",
-            "",
-            "Larger than a Bushtit, smaller than a White-crowned Sparrow.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5 in (14 cm)",
-            "Weight: 0.3-0.5 oz (9-13 g)",
-            "Wingspan: 7.9 in (20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small songbird with classic warbler proportions, including a moderately long tail and a rather short, slender, straight bill."
+            ],
+            "Compared Size": [
+                "Larger than a Bushtit, smaller than a White-crowned Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5 in (14 cm)",
+                "Weight: 0.3-0.5 oz (9-13 g)",
+                "Wingspan: 7.9 in (20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [

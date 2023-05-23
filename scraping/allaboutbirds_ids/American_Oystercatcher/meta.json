@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64807501-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64807501-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64807501-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64807501-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64807501-480px.jpg"
         ],
-        "description": [
-            "A large, thickset shorebird with a long, stout bill, a large head, robust neck, and long, thick legs.",
-            "",
-            "Larger than a Willet, smaller than a Herring Gull.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A large, thickset shorebird with a long, stout bill, a large head, robust neck, and long, thick legs."
+            ],
+            "Compared Size": [
+                "Larger than a Willet, smaller than a Herring Gull."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64807481-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg"
         ],
         "description": [
             "American Oystercatchers look black-and-white from a distance, with a bright orange-red bill. At closer range, the back and wings are brown, with a black head and breast, white underparts, yellow eye, and red eyering. In flight, look for a white wingbar and white tail base.",

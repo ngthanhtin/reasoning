@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/63002141-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63002141-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63002141-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63002141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63002141-720px.jpg"
         ],
-        "description": [
-            "A large but trim warbler with a short, fine bill, a rather short tail, and long legs. The bill is smaller than Louisiana Waterthrush\u2019s.",
-            "",
-            "Larger than a Yellow Warbler, smaller than an Eastern Bluebird.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.5 in (12-14 cm)",
-            "Weight: 0.5-0.7 oz (14.7-19.2 g)",
-            "Wingspan: 8.9-10.0 in (22.5-25.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large but trim warbler with a short, fine bill, a rather short tail, and long legs. The bill is smaller than Louisiana Waterthrush\u2019s."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow Warbler, smaller than an Eastern Bluebird."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.5-0.7 oz (14.7-19.2 g)",
+                "Wingspan: 8.9-10.0 in (22.5-25.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63002171-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63002171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63002171-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63002171-480px.jpg"
         ],
         "description": [
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63002131-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63002131-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63002131-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63002131-480px.jpg"
         ],
         "description": [

@@ -5,17 +5,23 @@
             " https://www.allaboutbirds.org/guide/assets/photo/65074871-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65074871-480px.jpg"
         ],
-        "description": [
-            "A large waterbird with a very long, slender neck, a fine, straight bill, and a relatively small body.",
-            "",
-            "Larger and more slender than a Mallard, much smaller and slighter than a Common Loon.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 21.6-29.5 in (55-75 cm)",
-            "Weight: 25.3-44.4 oz (718-1258 g)",
-            "Wingspan: 22.8-25.2 in (58-64 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large waterbird with a very long, slender neck, a fine, straight bill, and a relatively small body."
+            ],
+            "Compared Size": [
+                "Larger and more slender than a Mallard, much smaller and slighter than a Common Loon."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 21.6-29.5 in (55-75 cm)",
+                "Weight: 25.3-44.4 oz (718-1258 g)",
+                "Wingspan: 22.8-25.2 in (58-64 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [

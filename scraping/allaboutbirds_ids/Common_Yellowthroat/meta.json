@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66117571-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66117571-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66117571-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66117571-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66117571-720px.jpg"
         ],
-        "description": [
-            "Common Yellowthroats are small songbirds with chunky, rounded heads and medium-length, slightly rounded tails.",
-            "Smaller than a Yellow-breasted Chat; larger than a Ruby-crowned Kinglet.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.1 in (11-13 cm)",
-            "Weight: 0.3-0.3 oz (9-10 g)",
-            "Wingspan: 5.9-7.5 in (15-19 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Common Yellowthroats are small songbirds with chunky, rounded heads and medium-length, slightly rounded tails."
+            ],
+            "Compared Size": [
+                "Smaller than a Yellow-breasted Chat; larger than a Ruby-crowned Kinglet."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.3-0.3 oz (9-10 g)",
+                "Wingspan: 5.9-7.5 in (15-19 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66117621-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66117621-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66117621-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66117621-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66117621-480px.jpg"
         ],
         "description": [
             "Adult males are bright yellow below, with a sharp black face mask and olive upperparts. A thin whitish line sets off the black mask from the head and neck. Immature males show traces of the full mask of adult males. Females are a plain olive brown, usually with yellow brightening the throat and under the tail. They lack the black mask."

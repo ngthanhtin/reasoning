@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64979601-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64979601-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64979601-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64979601-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64979601-720px.jpg"
         ],
-        "description": [
-            "Harris's Sparrows are large and chunky sparrows. Their big barrel-shaped chest makes their round head look a little small for their body. They have a long tail and a medium-sized conical bill.",
-            "Larger than a Song Sparrow, smaller than an Eastern Towhee.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 6.7-7.9 in (17-20 cm)",
-            "Weight: 0.9-1.7 oz (26-49 g)",
-            "Wingspan: 10.6 in (27 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Harris's Sparrows are large and chunky sparrows. Their big barrel-shaped chest makes their round head look a little small for their body. They have a long tail and a medium-sized conical bill."
+            ],
+            "Compared Size": [
+                "Larger than a Song Sparrow, smaller than an Eastern Towhee."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-7.9 in (17-20 cm)",
+                "Weight: 0.9-1.7 oz (26-49 g)",
+                "Wingspan: 10.6 in (27 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64979771-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64979771-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64979771-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64979771-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64979771-480px.jpg"
         ],
         "description": [
             "Harris's Sparrows are streaky brown and black overall with a black bib, face, and crown. As they get older, the black areas around the face change from patchy black in juveniles to fully black in adults. Breeding adults have a gray cheek and nape while these areas are brown in nonbreeding birds. Juveniles and adults in all seasons have a pink bill, a white belly, and black streaks down the back."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64979551-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64979551-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64979551-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64979551-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64979551-480px.jpg"
         ],
         "description": [
             "Harris's Sparrows breed exclusively in northern Canada in areas of open tundra mixed with white pine, black spruce, larch, alder, and willow. In winter they use hedgerows, agricultural fields, shrubby pastures, backyards, and shrubby areas near streams of the southern Great Plains."

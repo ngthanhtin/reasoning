@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71318251-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71318251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71318251-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71318251-480px.jpg"
         ],
-        "description": [
-            "The California Gull is a medium-sized gull with a round head. The bill is slender compared to other gull species. In flight the wings are long and pointed.",
-            "Larger than a Ring-billed Gull, smaller than a Herring Gull.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 18.5-21.3 in (47-54 cm)",
-            "Weight: 15.2-36.9 oz (430-1045 g)",
-            "Wingspan: 51.2 in (130 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The California Gull is a medium-sized gull with a round head. The bill is slender compared to other gull species. In flight the wings are long and pointed."
+            ],
+            "Compared Size": [
+                "Larger than a Ring-billed Gull, smaller than a Herring Gull."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.5-21.3 in (47-54 cm)",
+                "Weight: 15.2-36.9 oz (430-1045 g)",
+                "Wingspan: 51.2 in (130 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71318281-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71318281-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71318281-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71318281-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71318281-720px.jpg"
         ],
         "description": [
             "Breeding adult California Gulls are white-headed gulls with a medium gray back, yellow legs, and a dark eye. Nonbreeding adults have brown streaking on the head. Adults have a yellow bill with small black ring and a red spot on the lower mandible\u2014brighter on breeding gulls. In their first year, they are mottled brown and white and often have a paler face. The bill is pink with a black tip and the legs are pinkish. Second-year California Gulls are also mottled brown but begin to show gray on the back. They have a dark eye and bluish legs. Third-year gulls look very similar to adults."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71318301-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71318301-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71318301-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71318301-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71318301-480px.jpg"
         ],
         "description": [
             "California Gulls breed on sparsely vegetated islands and levees in inland lakes and rivers. They forage in any open area where they can find food including garbage dumps, scrublands, pastures, orchards, meadows, and farms. In the winter they forage along the Pacific Coast and use mostly marine areas including mudflats, estuaries, deltas, and beaches."

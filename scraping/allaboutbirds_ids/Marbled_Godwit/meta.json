@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64811461-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64811461-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64811461-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64811461-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64811461-720px.jpg"
         ],
-        "description": [
-            "Large, long-legged shorebird with an extremely long, slightly upturned bill. A small round head sits atop a thin neck. In flight its legs stick out beyond the tail.",
-            "",
-            "Larger than a Willet, smaller than a Long-billed Curlew.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 16.5-18.9 in (42-48 cm)",
-            "Weight: 10.1-16.0 oz (285-454 g)",
-            "Wingspan: 27.6-31.9 in (70-81 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Large, long-legged shorebird with an extremely long, slightly upturned bill. A small round head sits atop a thin neck. In flight its legs stick out beyond the tail."
+            ],
+            "Compared Size": [
+                "Larger than a Willet, smaller than a Long-billed Curlew."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.5-18.9 in (42-48 cm)",
+                "Weight: 10.1-16.0 oz (285-454 g)",
+                "Wingspan: 27.6-31.9 in (70-81 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64811441-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64811441-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64811441-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64811441-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64811441-480px.jpg"
         ],
         "description": [
             "Breeds in shortgrass prairies near wetlands. During migration and on the wintering grounds, found on mudflats, salt ponds, beaches, estuaries, and wetlands.",

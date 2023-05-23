@@ -2,24 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/63919961-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63919961-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63919961-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63919961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63919961-480px.jpg"
         ],
-        "description": [
-            "Pied-billed Grebes are small, chunky swimming birds. They have compact bodies and slender necks, with relatively large, blocky heads and short, thick bills. They have virtually no tail.",
-            "Smaller than an American Coot; about the size of a Green-winged Teal.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 11.8-15.0 in (30-38 cm)",
-            "Weight: 8.9-20.0 oz (253-568 g)",
-            "Wingspan: 17.7-24.4 in (45-62 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Pied-billed Grebes are small, chunky swimming birds. They have compact bodies and slender necks, with relatively large, blocky heads and short, thick bills. They have virtually no tail."
+            ],
+            "Compared Size": [
+                "Smaller than an American Coot; about the size of a Green-winged Teal."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-15.0 in (30-38 cm)",
+                "Weight: 8.9-20.0 oz (253-568 g)",
+                "Wingspan: 17.7-24.4 in (45-62 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/63919931-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63919931-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63919931-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63919931-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63919931-480px.jpg"
         ],
         "description": [
             "These are brown birds, slightly darker above and more tawny-brown on the underparts. During spring and summer, the crown and nape are dark and the throat is black. While breeding, the bill is whitish with a black band (\u201cpied\u2019), but otherwise is yellow-brown. Juveniles have striped faces."
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63919941-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63919941-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63919941-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63919941-480px.jpg"
         ],
         "description": [

@@ -5,20 +5,28 @@
             "https://www.allaboutbirds.org/guide/assets/photo/59860711-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59860711-720px.jpg"
         ],
-        "description": [
-            "Small and compact, with a flat head and fairly long, curved beak. Short-winged, often keeping its longish tail either cocked above the line of the body or slightly drooped.",
-            "Smaller than a Carolina Wren; chickadee-sized.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.1 in (11-13 cm)",
-            "Weight: 0.3-0.4 oz (10-12 g)",
-            "Wingspan: 5.9 in (15 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Small and compact, with a flat head and fairly long, curved beak. Short-winged, often keeping its longish tail either cocked above the line of the body or slightly drooped."
+            ],
+            "Compared Size": [
+                "Smaller than a Carolina Wren; chickadee-sized."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.3-0.4 oz (10-12 g)",
+                "Wingspan: 5.9 in (15 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/59860691-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/59860691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59860691-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59860691-480px.jpg"
         ],
         "description": [

@@ -1,26 +1,34 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65617351-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65617351-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65617351-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65617351-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617351-720px.jpg"
         ],
-        "description": [
-            "Eastern Wood-Pewees are medium-sized flycatchers with long wings and tails. Like other pewee species, they have short legs, upright posture, and a peaked crown that tends to give the head a triangular shape. Their long wings are an important clue to separate them from",
-            "Empidonax",
-            "flycatcher species.",
-            "A bit smaller than an Eastern Bluebird; larger than a chickadee.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.9 in (15 cm)",
-            "Weight: 0.3-0.7 oz (10-19 g)",
-            "Wingspan: 9.1-10.2 in (23-26 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Eastern Wood-Pewees are medium-sized flycatchers with long wings and tails. Like other pewee species, they have short legs, upright posture, and a peaked crown that tends to give the head a triangular shape. Their long wings are an important clue to separate them from",
+                "Empidonax",
+                "flycatcher species."
+            ],
+            "Compared Size": [
+                "A bit smaller than an Eastern Bluebird; larger than a chickadee."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9 in (15 cm)",
+                "Weight: 0.3-0.7 oz (10-19 g)",
+                "Wingspan: 9.1-10.2 in (23-26 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65617361-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65617361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617361-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65617361-480px.jpg"
         ],
         "description": [
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65617341-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65617341-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65617341-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65617341-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65617341-480px.jpg"
         ],
         "description": [
             "Eastern Wood-Pewees are most common in deciduous forest and woodland, but you may find them in nearly any forested habitat, even smaller woodlots, for breeding as long as it is fairly open. As migrants, these pewees can occur in nearly any woodlot or other treed area."

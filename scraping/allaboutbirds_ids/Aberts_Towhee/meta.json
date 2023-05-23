@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64989241-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64989241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64989241-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64989241-480px.jpg"
         ],
-        "description": [
-            "A large sparrow with a short, conical bill, an elongated body for a sparrow, and a rather long tail. The overall shape is similar to Northern Cardinal (but with a smaller bill and without the crest).",
-            "",
-            "Slightly larger than a Northern Cardinal, smaller than a Woodhouse\u2019s Scrub-Jay.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 8.3-9.1 in (21.2-23.1 cm)",
-            "Weight: 1.5-1.9 oz (42.5-54.9 g)",
-            "Wingspan: 10.4-11.6 in (26.5-29.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large sparrow with a short, conical bill, an elongated body for a sparrow, and a rather long tail. The overall shape is similar to Northern Cardinal (but with a smaller bill and without the crest)."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Northern Cardinal, smaller than a Woodhouse\u2019s Scrub-Jay."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.3-9.1 in (21.2-23.1 cm)",
+                "Weight: 1.5-1.9 oz (42.5-54.9 g)",
+                "Wingspan: 10.4-11.6 in (26.5-29.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64989231-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64989231-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64989231-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64989231-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64989231-480px.jpg"
         ],
         "description": [
             "Abert\u2019s Towhee is grayish-brown above, pinkish brown below, with rusty undertail coverts and black plumage bordering a pale grayish bill.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64989251-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64989251-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64989251-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64989251-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64989251-480px.jpg"
         ],
         "description": [
             "Low, dense cover along desert streams and riverbeds with cottonwoods, willows, or mesquite.",

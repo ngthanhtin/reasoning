@@ -5,12 +5,20 @@
             " https://www.allaboutbirds.org/guide/assets/photo/67356121-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67356121-480px.jpg"
         ],
-        "description": [
-            "The Pine Grosbeak is a large and plump, heavy-chested finch with a round head. Its bill is thick and conical, but much stubbier than in other finch species. The tail is long and slightly notched.",
-            "Larger than a Cassin's Finch, smaller than a Steller's Jay.",
-            "robin-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "The Pine Grosbeak is a large and plump, heavy-chested finch with a round head. Its bill is thick and conical, but much stubbier than in other finch species. The tail is long and slightly notched."
+            ],
+            "Compared Size": [
+                "Larger than a Cassin's Finch, smaller than a Steller's Jay."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -31,8 +39,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67356141-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67356141-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67356141-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67356141-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67356141-480px.jpg"
         ],
         "description": [
             "Pine Grosbeaks inhabit open spruce, fir, and pine forests as well as subalpine forests. In winter they tend to use mountain ash, maple, and ash forests with abundant seeds."

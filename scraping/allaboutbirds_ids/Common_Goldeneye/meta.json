@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63907741-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63907741-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63907741-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63907741-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63907741-720px.jpg"
         ],
-        "description": [
-            "Common Goldeneyes are medium sized ducks with large heads. The bill is fairly small and narrow. It slopes smoothly downward from the face, giving the head an overall triangular shape. Goldeneyes are diving ducks with streamlined bodies and short tails.",
-            "Larger than a Green-winged Teal; smaller than a Common Merganser",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 15.8-20.1 in (40-51 cm)",
-            "Weight: 21.2-45.9 oz (600-1300 g)",
-            "Wingspan: 30.3-32.7 in (77-83 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Common Goldeneyes are medium sized ducks with large heads. The bill is fairly small and narrow. It slopes smoothly downward from the face, giving the head an overall triangular shape. Goldeneyes are diving ducks with streamlined bodies and short tails."
+            ],
+            "Compared Size": [
+                "Larger than a Green-winged Teal; smaller than a Common Merganser"
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.8-20.1 in (40-51 cm)",
+                "Weight: 21.2-45.9 oz (600-1300 g)",
+                "Wingspan: 30.3-32.7 in (77-83 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63907721-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63907721-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63907721-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63907721-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63907721-720px.jpg"
         ],
         "description": [
             "Adult male Common Goldeneyes appear mostly black and white: the head is mostly black with a round white spot near the bill and a bright yellow eye. The back is black but the sides are white, making the body appear mostly white. Females have brown heads and gray back and wings. The bill is black with variable amounts of yellow at the tip. In flight, both sexes have large white patches in the wings."
@@ -27,9 +35,9 @@
     },
     "Behavior": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63907731-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63907731-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63907731-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63907731-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63907731-720px.jpg"
         ],
         "description": [
             "These are diving ducks that often forage in flocks and dive simultaneously. They tend to forage in fairly shallow waters (up to 20 feet deep). They are fast fliers; their wings make a distinctive whistling sound in flight. When females are nearby, males frequently display by stretching the head backward against their back and then popping their head forward.",
@@ -39,8 +47,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/63907801-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63907801-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63907801-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63907801-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63907801-480px.jpg"
         ],
         "description": [
             "They nest in tree cavities in the boreal forest of northern North America. They spend winters mainly in protected coastal waters as well as on large inland lakes and rivers."

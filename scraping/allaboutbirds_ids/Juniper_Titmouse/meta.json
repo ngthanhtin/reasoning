@@ -1,21 +1,29 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68044111-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68044111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68044111-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68044111-480px.jpg"
         ],
-        "description": [
-            "The Juniper Titmouse is a small songbird, but the long body, short neck, and medium-long tail makes it appear bigger than it is. A short crest gives the fairly large head a pointed silhouette. The short bill is fairly thick and round.",
-            "Larger than a Bushtit, smaller than a Dark-eyed Junco.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "The Juniper Titmouse is a small songbird, but the long body, short neck, and medium-long tail makes it appear bigger than it is. A short crest gives the fairly large head a pointed silhouette. The short bill is fairly thick and round."
+            ],
+            "Compared Size": [
+                "Larger than a Bushtit, smaller than a Dark-eyed Junco."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68044081-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68044081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68044081-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68044081-720px.jpg"
         ],
         "description": [

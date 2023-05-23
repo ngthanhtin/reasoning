@@ -1,16 +1,22 @@
 {
     "Size": {
-        "description": [
-            "A small and delicately built seabird with a thin, pointed bill; long, pointed wings; a shallowly forked tail; and short legs.",
-            "",
-            "Larger than a Least Tern, smaller than a Common Tern.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 9.1-14.2 in (23-36 cm)",
-            "Weight: 1.8-2.1 oz (50-60 g)",
-            "Wingspan: 22.4-23.6 in (57-60 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small and delicately built seabird with a thin, pointed bill; long, pointed wings; a shallowly forked tail; and short legs."
+            ],
+            "Compared Size": [
+                "Larger than a Least Tern, smaller than a Common Tern."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-14.2 in (23-36 cm)",
+                "Weight: 1.8-2.1 oz (50-60 g)",
+                "Wingspan: 22.4-23.6 in (57-60 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

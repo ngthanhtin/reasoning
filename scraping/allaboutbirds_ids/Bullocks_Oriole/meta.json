@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67358911-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67358911-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67358911-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67358911-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67358911-480px.jpg"
         ],
-        "description": [
-            "Bullock's Orioles are medium-sized songbirds with slim but sturdy bodies and medium-long tails. Orioles are related to blackbirds and share their long, thick-based, sharply pointed bills.",
-            "Larger than a Yellow Warbler; about the same size but slimmer than a Brewer's Blackbird.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 6.7-7.5 in (17-19 cm)",
-            "Weight: 1.0-1.5 oz (29-43 g)",
-            "Wingspan: 12.2 in (31 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Bullock's Orioles are medium-sized songbirds with slim but sturdy bodies and medium-long tails. Orioles are related to blackbirds and share their long, thick-based, sharply pointed bills."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow Warbler; about the same size but slimmer than a Brewer's Blackbird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-7.5 in (17-19 cm)",
+                "Weight: 1.0-1.5 oz (29-43 g)",
+                "Wingspan: 12.2 in (31 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67358881-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67358881-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67358881-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67358881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67358881-480px.jpg"
         ],
         "description": [
             "Adult males are bright orange with a black back and large white wing patch. The face is orange with a black line through the eye and a black throat. Females and immatures are yellowish-orange on the head and tail, with grayish back and white-edged wing coverts. Immature males show a black throat patch."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67358891-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67358891-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67358891-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67358891-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67358891-720px.jpg"
         ],
         "description": [
             "Look for them in open woodland along streams, particularly among cottonwoods. They also occur in orchards, parks, and oak or mesquite woodlands."

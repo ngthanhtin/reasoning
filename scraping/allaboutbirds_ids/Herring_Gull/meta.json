@@ -2,23 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/71319271-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71319271-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71319271-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71319271-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71319271-480px.jpg"
         ],
-        "description": [
-            "Herring Gulls are large gulls with hefty bills and robust bodies. In flight, they look barrel-chested and broad-winged compared to smaller species such as Ring-billed Gulls.",
-            "Larger than a Ring-billed Gull, smaller than Western or Great Black-backed Gull.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 22.1-26.0 in (56-66 cm)",
-            "Weight: 28.2-44.1 oz (800-1250 g)",
-            "Wingspan: 53.9-57.5 in (137-146 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Herring Gulls are large gulls with hefty bills and robust bodies. In flight, they look barrel-chested and broad-winged compared to smaller species such as Ring-billed Gulls."
+            ],
+            "Compared Size": [
+                "Larger than a Ring-billed Gull, smaller than Western or Great Black-backed Gull."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 22.1-26.0 in (56-66 cm)",
+                "Weight: 28.2-44.1 oz (800-1250 g)",
+                "Wingspan: 53.9-57.5 in (137-146 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71319301-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71319301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71319301-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71319301-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71319401-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71319401-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71319401-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71319401-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71319401-480px.jpg"
         ],
         "description": [
             "Look for Herring Gulls in winter along coasts and near large reservoirs, lakes, and major rivers. They feed in habitats as diverse as open water, mudflats, plowed fields, and garbage dumps, and gather in almost any open space near food. In summer, they\u2019re most likely to be seen along the Atlantic Coast, Great Lakes, and coastal Alaska; they also breed across the boreal far north."

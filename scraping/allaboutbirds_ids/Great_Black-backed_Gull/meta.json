@@ -1,26 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71332481-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71332481-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71332481-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71332481-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71332481-480px.jpg"
         ],
-        "description": [
-            "This is the largest species of gull in the world. They are stout-bodied, with broad wings, a thick neck, and a heavy, slightly bulbous bill.",
-            "Larger than a Herring Gull, but smaller than a Brown Pelican.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 27.9-31.1 in (71-79 cm)",
-            "Weight: 45.9-70.5 oz (1300-2000 g)",
-            "Wingspan: 57.5-63.0 in (146-160 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "This is the largest species of gull in the world. They are stout-bodied, with broad wings, a thick neck, and a heavy, slightly bulbous bill."
+            ],
+            "Compared Size": [
+                "Larger than a Herring Gull, but smaller than a Brown Pelican."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 27.9-31.1 in (71-79 cm)",
+                "Weight: 45.9-70.5 oz (1300-2000 g)",
+                "Wingspan: 57.5-63.0 in (146-160 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71332441-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71332441-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71332441-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71332441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71332441-720px.jpg"
         ],
         "description": [
             "Adults are white with slaty-black upperwings and backs. They have dull pink legs, a yellow bill with a red spot near the tip, and darkish eyes. Juveniles are checkered gray-brown and white above; they have white-based, black-tipped tails, black bills, and blackish flight feathers. Over about 4 years, these crisp, cold-toned gulls transition to dark backed adults."
@@ -34,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71332451-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71332451-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71332451-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71332451-480px.jpg"
         ],
         "description": [

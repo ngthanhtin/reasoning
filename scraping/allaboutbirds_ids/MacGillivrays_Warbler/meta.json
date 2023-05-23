@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64453181-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64453181-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64453181-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64453181-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64453181-480px.jpg"
         ],
-        "description": [
-            "A compact, small songbird with a full body for a warbler and a thick neck. The bill is straight and thin overall, although heavier than many other warblers\u2019 bills. The tail is medium length and the legs are fairly long.",
-            "",
-            "Slightly larger than a Common Yellowthroat, slightly smaller than a Pine Warbler.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.9-5.9 in (10-15 cm)",
-            "Weight: 0.3-0.5 oz (9-13 g)",
-            "Wingspan: 7.5 in (19 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A compact, small songbird with a full body for a warbler and a thick neck. The bill is straight and thin overall, although heavier than many other warblers\u2019 bills. The tail is medium length and the legs are fairly long."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Common Yellowthroat, slightly smaller than a Pine Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-5.9 in (10-15 cm)",
+                "Weight: 0.3-0.5 oz (9-13 g)",
+                "Wingspan: 7.5 in (19 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64453201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64453201-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64453201-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64453201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64453201-480px.jpg"
         ],
         "description": [
             "Adult males are rich golden-olive above, bright yellow below, with a dark gray hood extending down to the chest. The face has white crescents (arcs) above and below the eye and blackish lores (the area between eye and bill). Adult females are similar but duller in color. Immatures are mostly olive brown above, with whitish eye arcs and a grayish or brownish version of the hood, broken up by a pale throat.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64453211-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64453211-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64453211-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64453211-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64453211-480px.jpg"
         ],
         "description": [
             "Nests and forages in dense shrubby vegetation, second growth, and along streams with dense underbrush. Migrants typically occur in similar habitats. Winters in dense habitats in Central America, from coastal mangrove and edges of thorn forest into cloud forest.",

@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65052431-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65052431-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65052431-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65052431-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65052431-480px.jpg"
         ],
-        "description": [
-            "The Red-naped Sapsucker is a medium-sized woodpecker with a slight peak to the back of the head. It clings vertically to trees giving it an elongated appearance. The bill is stout and sharply pointed.",
-            "Larger than a Downy Woodpecker, smaller than a Northern Flicker.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.5-8.3 in (19-21 cm)",
-            "Weight: 1.1-2.3 oz (32-66 g)",
-            "Wingspan: 16.1-16.9 in (41-43 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Red-naped Sapsucker is a medium-sized woodpecker with a slight peak to the back of the head. It clings vertically to trees giving it an elongated appearance. The bill is stout and sharply pointed."
+            ],
+            "Compared Size": [
+                "Larger than a Downy Woodpecker, smaller than a Northern Flicker."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-8.3 in (19-21 cm)",
+                "Weight: 1.1-2.3 oz (32-66 g)",
+                "Wingspan: 16.1-16.9 in (41-43 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65052391-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65052391-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65052391-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65052391-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65052391-480px.jpg"
         ],
         "description": [
             "Red-naped Sapsuckers are black and white overall with a red cap, nape, and throat. They have a long white bar on the folded wing. A black stripe through the eye is bordered by white stripes. The belly is mottled black and white, with a dingy or yellowish cast. Female Red-naped Sapsuckers have a white patch on the chin while males have entirely red chins. Juveniles have a brown cap and an overall brown wash on their belly and head."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65052421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65052421-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65052421-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65052421-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65052421-480px.jpg"
         ],
         "description": [
             "Red-naped Sapsuckers breed in mixed forests of willow, aspen, birch, ponderosa pine, juniper, or Douglas-fir. They tend to avoid oak or pine-oak forests during the breeding season, but use them during migration and winter, along with orchards and woodlands near streams."

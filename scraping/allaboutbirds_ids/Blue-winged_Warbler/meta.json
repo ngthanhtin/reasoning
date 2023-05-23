@@ -2,20 +2,26 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65533581-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65533581-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65533581-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65533581-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65533581-480px.jpg"
         ],
-        "description": [
-            "Blue-winged Warblers are small, well-proportioned birds with a sharp and pointed bill. Compared to other warblers, the rather heavy black bill and eyeline give them a pointy-headed look.",
-            "",
-            "Larger than a Blue-gray Gnatcatcher, smaller than a Field Sparrow.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-4.7 in (11-12 cm)",
-            "Weight: 0.3 oz (9 g)",
-            "Wingspan: 5.9 in (15 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Blue-winged Warblers are small, well-proportioned birds with a sharp and pointed bill. Compared to other warblers, the rather heavy black bill and eyeline give them a pointy-headed look."
+            ],
+            "Compared Size": [
+                "Larger than a Blue-gray Gnatcatcher, smaller than a Field Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-4.7 in (11-12 cm)",
+                "Weight: 0.3 oz (9 g)",
+                "Wingspan: 5.9 in (15 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63666191-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63666191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63666191-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63666191-480px.jpg"
         ],
         "description": [

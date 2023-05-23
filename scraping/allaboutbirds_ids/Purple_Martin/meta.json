@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68280331-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68280331-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68280331-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68280331-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68280331-720px.jpg"
         ],
-        "description": [
-            "Purple Martins are very large, broad-chested swallows. They have stout, slightly hooked bills, short, forked tails, and long, tapered wings.",
-            "Smaller than an American Robin; larger than a Tree Swallow.",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 7.5-7.9 in (19-20 cm)",
-            "Weight: 1.6-2.1 oz (45-60 g)",
-            "Wingspan: 15.3-16.1 in (39-41 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Purple Martins are very large, broad-chested swallows. They have stout, slightly hooked bills, short, forked tails, and long, tapered wings."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin; larger than a Tree Swallow."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-7.9 in (19-20 cm)",
+                "Weight: 1.6-2.1 oz (45-60 g)",
+                "Wingspan: 15.3-16.1 in (39-41 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68280401-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68280401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68280401-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68280401-480px.jpg"
         ],
         "description": [

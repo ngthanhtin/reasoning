@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70611081-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70611081-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70611081-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70611081-720px.jpg"
         ],
-        "description": [
-            "These are medium-sized herons with long, thin legs and long, slender, bills. Their long, thin neck sets the small head well away from the body.",
-            "Smaller than a Great Egret; larger than a Cattle Egret.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 22.1-26.0 in (56-66 cm)",
-            "Weight: 13.1 oz (370 g)",
-            "Wingspan: 39.4 in (100 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "These are medium-sized herons with long, thin legs and long, slender, bills. Their long, thin neck sets the small head well away from the body."
+            ],
+            "Compared Size": [
+                "Smaller than a Great Egret; larger than a Cattle Egret."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 22.1-26.0 in (56-66 cm)",
+                "Weight: 13.1 oz (370 g)",
+                "Wingspan: 39.4 in (100 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70611051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70611051-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70611051-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70611051-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70611051-480px.jpg"
         ],
         "description": [
             "Adult Snowy Egrets are all white with a black bill, black legs, and yellow feet. They have a patch of yellow skin at the base of the bill. Immature Snowy Egrets have duller, greenish legs."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70611041-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70611041-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70611041-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70611041-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70611041-480px.jpg"
         ],
         "description": [
             "They are most common along the coast, though they do breed patchily in inland wetlands. Snowy Egrets nest colonially, usually on protected islands, and often with other small herons. They concentrate on mudflats, beaches, and wetlands, but also forage in wet agricultural fields and along the edges of rivers and lakes."

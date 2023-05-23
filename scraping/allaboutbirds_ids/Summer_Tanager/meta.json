@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67450001-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67450001-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67450001-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67450001-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67450001-480px.jpg"
         ],
-        "description": [
-            "Summer Tanagers are medium-sized, chunky songbirds with big bodies and large heads. They have large, thick, blunt-tipped bills.",
-            "Smaller than an American Robin; larger than a Yellow Warbler.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Summer Tanagers are medium-sized, chunky songbirds with big bodies and large heads. They have large, thick, blunt-tipped bills."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin; larger than a Yellow Warbler."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67450051-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67450051-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67450051-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67450051-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67450051-480px.jpg"
         ],
         "description": [
             "Adult male Summer Tanagers are entirely bright red. Females and immature males are bright yellow-green\u2014yellower on the head and underparts and slightly greener on the back and wings. The bill is pale. Molting immature males can be patchy yellow and red."

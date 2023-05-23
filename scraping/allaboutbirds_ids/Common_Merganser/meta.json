@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63910941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63910941-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63910941-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63910941-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63910941-480px.jpg"
         ],
-        "description": [
-            "These are large, long-bodied ducks with thin, pointed wings. Their bills are straight and narrow, unlike the wide, flat bill of a \u201ctypical\u201d duck. Females have shaggy crests on the backs of their heads.",
-            "Smaller than a Canada Goose; slightly larger than a Mallard.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 21.3-27.9 in (54-71 cm)",
-            "Weight: 31.8-76.2 oz (900-2160 g)",
-            "Wingspan: 33.9 in (86 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "These are large, long-bodied ducks with thin, pointed wings. Their bills are straight and narrow, unlike the wide, flat bill of a \u201ctypical\u201d duck. Females have shaggy crests on the backs of their heads."
+            ],
+            "Compared Size": [
+                "Smaller than a Canada Goose; slightly larger than a Mallard."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 21.3-27.9 in (54-71 cm)",
+                "Weight: 31.8-76.2 oz (900-2160 g)",
+                "Wingspan: 33.9 in (86 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63910971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63910971-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63910971-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63910971-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63910971-480px.jpg"
         ],
         "description": [
             "Adult males are crisply patterned with gleaming white bodies and dark, iridescent-green heads for most of the year. The back is black and the bill red. Females and immatures are gray-bodied with a white chest and rusty-cinnamon heads. From late summer to mid-autumn, males wear a nonbreeding plumage that looks very similar to female plumage. In flight, both sexes show large white patches on the upperwings (larger in adult males).",
@@ -34,9 +42,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63910991-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63910991-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63910991-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63910991-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63910991-480px.jpg"
         ],
         "description": [
             "These ducks live mainly on freshwater rivers and lakes. They are rare in the ocean, but they sometimes use saltwater estuaries in winter. They nest in tree cavities in northern forests near rivers and lakes."

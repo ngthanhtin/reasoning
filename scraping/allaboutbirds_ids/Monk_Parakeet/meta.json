@@ -1,23 +1,30 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71547541-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71547541-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71547541-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71547541-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71547541-720px.jpg"
         ],
-        "description": [
-            "A fairly small parakeet with a long, pointed tail and fairly narrow, pointed wings. Like other parakeets, they have large heads and large, hooked bills.",
-            "",
-            "Larger than a European Starling; smaller than a Rock Pigeon.",
-            "between robin and crow",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A fairly small parakeet with a long, pointed tail and fairly narrow, pointed wings. Like other parakeets, they have large heads and large, hooked bills."
+            ],
+            "Compared Size": [
+                "Larger than a European Starling; smaller than a Rock Pigeon."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71547631-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71547631-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71547631-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71547631-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71547631-720px.jpg"
         ],
         "description": [
             "Monk Parakeets are green with a gray face and breast. The bill is pale pink. In flight, the primary and outer secondary flight feathers are blue."
@@ -32,8 +39,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/71547601-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71547601-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71547601-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71547601-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71547601-480px.jpg"
         ],
         "description": [
             "In their native South America, Monk Parakeets live in dry, open habitats. In the U.S. they live in urban and suburban settings, where they feed on ornamental fruit trees and often nest on human structures such as power transformers. They are established in many U.S. cities including San Diego, Phoenix, Dallas, San Antonio, Houston, New Orleans, Chicago, New York, Providence, Miami, and St. Petersburg."

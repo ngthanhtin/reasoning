@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66120111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66120111-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66120111-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66120111-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66120111-480px.jpg"
         ],
-        "description": [
-            "A small, fairly slender hummingbird with a fairly straight bill.",
-            "Same size as Ruby-throated Hummingbird",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.5 in (9 cm)",
-            "Weight: 0.1-0.2 oz (2.3-4.9 g)",
-            "Wingspan: 4.3 in (11 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small, fairly slender hummingbird with a fairly straight bill."
+            ],
+            "Compared Size": [
+                "Same size as Ruby-throated Hummingbird"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.5 in (9 cm)",
+                "Weight: 0.1-0.2 oz (2.3-4.9 g)",
+                "Wingspan: 4.3 in (11 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66120141-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66120141-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66120141-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66120141-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66120141-720px.jpg"
         ],
         "description": [
             "Dull metallic green above and dull grayish-white below. Males have a velvety black throat with a thin, iridescent purple base. Females have a pale throat. In both sexes, the flanks are glossed with dull metallic green. Female\u2019s three outer tail feathers have broad white tips. The bill is black."
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66120131-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66120131-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66120131-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66120131-480px.jpg"
         ],
         "description": [

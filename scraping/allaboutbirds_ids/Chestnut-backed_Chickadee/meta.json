@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054151-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68054151-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68054151-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68054151-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68054151-480px.jpg"
         ],
-        "description": [
-            "Tiny, large-headed but small-billed, with a rather long, narrow tail and short, rounded wings.",
-            "The smallest, shortest-tailed chickadee",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.9-4.7 in (10-12 cm)",
-            "Weight: 0.3-0.4 oz (7-12 g)",
-            "Wingspan: 7.5 in (19 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Tiny, large-headed but small-billed, with a rather long, narrow tail and short, rounded wings."
+            ],
+            "Compared Size": [
+                "The smallest, shortest-tailed chickadee"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-4.7 in (10-12 cm)",
+                "Weight: 0.3-0.4 oz (7-12 g)",
+                "Wingspan: 7.5 in (19 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68054211-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68054211-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68054211-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68054211-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054211-480px.jpg"
         ],
         "description": [
             "The Chestnut-backed Chickadee is boldly black and white on the head like other chickadees, but the back is a rich chestnut instead of the more typical slaty gray. The flanks can be either rich brown (north of San Francisco) or dull gray (central and southern California)."
@@ -37,9 +45,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68054201-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68054201-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68054201-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68054201-480px.jpg"
         ],
         "description": [
             "Chestnut-backed Chickadees are found in dense coniferous and mixed coniferous forests of the Pacific Coast. You can also find them in shrubs, trees, and parks of cities, towns, and suburbs."

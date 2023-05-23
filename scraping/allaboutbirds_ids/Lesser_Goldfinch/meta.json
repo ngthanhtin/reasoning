@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67272461-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67272461-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67272461-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67272461-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67272461-480px.jpg"
         ],
-        "description": [
-            "Lesser Goldfinches are tiny, stub-billed songbirds with long, pointed wings, and short, notched tails.",
-            "Smaller than a Song Sparrow; about the size of an American Goldfinch.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.5-4.3 in (9-11 cm)",
-            "Weight: 0.3-0.4 oz (8-11.5 g)",
-            "Wingspan: 5.9-7.9 in (15-20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Lesser Goldfinches are tiny, stub-billed songbirds with long, pointed wings, and short, notched tails."
+            ],
+            "Compared Size": [
+                "Smaller than a Song Sparrow; about the size of an American Goldfinch."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.5-4.3 in (9-11 cm)",
+                "Weight: 0.3-0.4 oz (8-11.5 g)",
+                "Wingspan: 5.9-7.9 in (15-20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/67272481-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67272481-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67272481-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67272481-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67272481-480px.jpg"
         ],
         "description": [
             "Males are bright yellow below with a glossy black cap and white patches in the wings; their backs can be glossy black or dull green (particularly on the West Coast). They have a black tail with large, white corners. Females and immatures have olive backs, dull yellow underparts, and black wings marked by two whitish wingbars."

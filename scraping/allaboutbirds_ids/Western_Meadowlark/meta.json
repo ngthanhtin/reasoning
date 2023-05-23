@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67378781-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67378781-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67378781-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67378781-480px.jpg"
         ],
-        "description": [
-            "The Western Meadowlark is the size of a robin but chunkier and shorter-tailed, with a flat head, long, slender bill, and a round-shouldered posture that nearly conceals its neck. The wings are rounded and short for the bird\u2019s size and the tail is short, stiff, and spiky.",
-            "About the size of an American Robin, but with a shorter tail.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 6.3-10.2 in (16-26 cm)",
-            "Weight: 3.1-4.1 oz (89-115 g)",
-            "Wingspan: 16.1 in (41 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Western Meadowlark is the size of a robin but chunkier and shorter-tailed, with a flat head, long, slender bill, and a round-shouldered posture that nearly conceals its neck. The wings are rounded and short for the bird\u2019s size and the tail is short, stiff, and spiky."
+            ],
+            "Compared Size": [
+                "About the size of an American Robin, but with a shorter tail."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-10.2 in (16-26 cm)",
+                "Weight: 3.1-4.1 oz (89-115 g)",
+                "Wingspan: 16.1 in (41 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67378741-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67378741-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67378741-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67378741-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67378741-720px.jpg"
         ],
         "description": [
             "Western Meadowlarks have yellow underparts with intricately patterned brown, black and buff upperparts. A black \u201cV\u201d crosses the bright yellow breast; it is gray in winter. Contrasting stripes of dark brown and light buff mark the head. The outer tail feathers flash white in flight."
@@ -34,8 +42,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67378791-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67378791-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67378791-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67378791-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67378791-480px.jpg"
         ],
         "description": [
             "Western Meadowlarks seek the wide open spaces of native grasslands and agricultural fields for spring and summer breeding and winter foraging. Look for them among low to medium-height grasses more so than in tall fields. They also occur along the weedy verges of roads, marsh edges, and mountain meadows up to 10,000 feet."

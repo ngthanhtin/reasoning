@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68037171-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68037171-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68037171-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68037171-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68037171-480px.jpg"
         ],
-        "description": [
-            "Brown Creepers are tiny yet lanky songbirds. They have long, spine-tipped tails, slim bodies, and slender, decurved bills.",
-            "Smaller than a White-breasted Nuthatch; larger than a Golden-crowned Kinglet.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.5 in (12-14 cm)",
-            "Weight: 0.2-0.3 oz (5-10 g)",
-            "Wingspan: 6.7-7.9 in (17-20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Brown Creepers are tiny yet lanky songbirds. They have long, spine-tipped tails, slim bodies, and slender, decurved bills."
+            ],
+            "Compared Size": [
+                "Smaller than a White-breasted Nuthatch; larger than a Golden-crowned Kinglet."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.2-0.3 oz (5-10 g)",
+                "Wingspan: 6.7-7.9 in (17-20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68037151-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68037151-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68037151-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68037151-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68037151-480px.jpg"
         ],
         "description": [
             "Streaked brown and buff above, with their white underparts usually hidden against a tree trunk, Brown Creepers blend easily into bark. Their brownish heads show a broad, buffy stripe over the eye (supercilium)."
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68037181-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68037181-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68037181-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68037181-480px.jpg"
         ],
         "description": [

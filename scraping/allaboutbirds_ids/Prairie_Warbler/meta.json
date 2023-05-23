@@ -5,17 +5,25 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64895061-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64895061-480px.jpg"
         ],
-        "description": [
-            "Small songbird with thin, straight bill. Slender, with a long tail and long legs relative to other warblers.",
-            "Larger than a Blue-gray Gnatcatcher, slightly smaller than a Yellow-rumped Warbler.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Small songbird with thin, straight bill. Slender, with a long tail and long legs relative to other warblers."
+            ],
+            "Compared Size": [
+                "Larger than a Blue-gray Gnatcatcher, slightly smaller than a Yellow-rumped Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64895071-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64895071-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64895071-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64895071-480px.jpg"
         ],
         "description": [
@@ -31,8 +39,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64895111-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64895111-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64895111-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64895111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64895111-720px.jpg"
         ],
         "description": [
             "Prairie Warblers are found in scrubby, second-growth habitats such as overgrown pastures, regenerating woodlands, pine stands, and powerline cuts. The Florida subspecies lives in mangrove forests."

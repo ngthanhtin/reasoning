@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/71336181-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71336181-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71336181-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71336181-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71336181-480px.jpg"
         ],
-        "description": [
-            "Common Terns have long, narrow, angular wings and pointed wingtips. Unlike gulls, this tern has a straight, slender bill. The tail is forked and the legs are short.",
-            "",
-            "Larger than a Least Tern, smaller than a Caspian Tern.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 12.2-15.0 in (31-38 cm)",
-            "Weight: 3.3-7.0 oz (93-200 g)",
-            "Wingspan: 29.5-31.5 in (75-80 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Common Terns have long, narrow, angular wings and pointed wingtips. Unlike gulls, this tern has a straight, slender bill. The tail is forked and the legs are short."
+            ],
+            "Compared Size": [
+                "Larger than a Least Tern, smaller than a Caspian Tern."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 12.2-15.0 in (31-38 cm)",
+                "Weight: 3.3-7.0 oz (93-200 g)",
+                "Wingspan: 29.5-31.5 in (75-80 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71336191-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71336191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71336191-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71336191-720px.jpg"
         ],
         "description": [
@@ -30,8 +36,8 @@
     },
     "Behavior": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71336231-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71336231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71336231-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71336231-720px.jpg"
         ],
         "description": [
@@ -41,9 +47,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71336211-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71336211-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71336211-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71336211-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71336211-720px.jpg"
         ],
         "description": [
             "Common Terns nest on rocky islands, barrier beaches, and saltmarshes and forage over open waters including inlets, lakes, and marine waters. During the breeding season they frequent both salt and freshwater, but during the winter they tend to stick to marine environments.",

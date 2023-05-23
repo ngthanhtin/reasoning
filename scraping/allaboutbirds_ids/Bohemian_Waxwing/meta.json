@@ -5,22 +5,28 @@
             " https://www.allaboutbirds.org/guide/assets/photo/59879551-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/59879551-480px.jpg"
         ],
-        "description": [
-            "Bohemian Waxwings are full-bellied, thick-necked birds with a shaggy crest atop a pin head. The wings are broad and pointed, like a starling's. The tail is fairly short and square-tipped.",
-            "",
-            "Larger than a bluebird, smaller than an American Robin.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 6.3-7.5 in (16-19 cm)",
-            "Weight: 1.6-2.4 oz (45-69 g)",
-            "Wingspan: 13.0 in (33 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Bohemian Waxwings are full-bellied, thick-necked birds with a shaggy crest atop a pin head. The wings are broad and pointed, like a starling's. The tail is fairly short and square-tipped."
+            ],
+            "Compared Size": [
+                "Larger than a bluebird, smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.5 in (16-19 cm)",
+                "Weight: 1.6-2.4 oz (45-69 g)",
+                "Wingspan: 13.0 in (33 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/59881001-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59881001-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59881001-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59881001-720px.jpg"
         ],
         "description": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/59879511-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59879511-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/59879511-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/59879511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59879511-720px.jpg"
         ],
         "description": [
             "Bohemian Waxwings breed in open evergreen forests and spend the nonbreeding season in open areas that have plentiful fruit, from city parks to forest patches near streams.",

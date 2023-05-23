@@ -2,24 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64991491-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64991491-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64991491-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64991491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64991491-480px.jpg"
         ],
-        "description": [
-            "A large sparrow with a thick, pointed bill, short neck, chunky body, and long, rounded tail.",
-            "About a third again bigger than a Song Sparrow and twice as heavy. Smaller than a robin.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 6.7-8.3 in (17-21 cm)",
-            "Weight: 1.2-1.7 oz (33-49 g)",
-            "Wingspan: 11.0 in (28 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large sparrow with a thick, pointed bill, short neck, chunky body, and long, rounded tail."
+            ],
+            "Compared Size": [
+                "About a third again bigger than a Song Sparrow and twice as heavy. Smaller than a robin."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-8.3 in (17-21 cm)",
+                "Weight: 1.2-1.7 oz (33-49 g)",
+                "Wingspan: 11.0 in (28 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/64991441-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64991441-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64991441-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64991441-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64991441-480px.jpg"
         ],
         "description": [
             "Male Spotted Towhees have jet-black upperparts and throat; their wings and back are spotted bright white. The flanks are warm rufous and the belly is white. Females have the same pattern but are grayish brown where males are black. In flight, look for white corners to the black tail.",
@@ -34,8 +42,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64991481-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64991481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64991481-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64991481-480px.jpg"
         ],
         "description": [

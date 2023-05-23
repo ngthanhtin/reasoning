@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/71547151-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71547151-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71547151-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71547151-480px.jpg"
         ],
-        "description": [
-            "The American Coot is a plump, chickenlike bird with a rounded head and a sloping bill. Their tiny tail, short wings, and large feet are visible on the rare occasions they take flight.",
-            "About two-thirds the size of a Mallard.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 15.5-16.9 in (39.4-42.9 cm)",
-            "Weight: 21.2-24.7 oz (600-700 g)",
-            "Wingspan: 23.0-25.0 in (58.4-63.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The American Coot is a plump, chickenlike bird with a rounded head and a sloping bill. Their tiny tail, short wings, and large feet are visible on the rare occasions they take flight."
+            ],
+            "Compared Size": [
+                "About two-thirds the size of a Mallard."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.5-16.9 in (39.4-42.9 cm)",
+                "Weight: 21.2-24.7 oz (600-700 g)",
+                "Wingspan: 23.0-25.0 in (58.4-63.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71547041-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71547041-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71547041-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71547041-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71547041-720px.jpg"
         ],
         "description": [
             "Coots are dark-gray to black birds with a bright-white bill and forehead. The legs are yellow-green. At close range you may see a small patch of red on the forehead."
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/71547061-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71547061-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71547061-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71547061-480px.jpg"
         ],
         "description": [

@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67450191-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67450191-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67450191-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67450191-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67450191-480px.jpg"
         ],
-        "description": [
-            "A medium-sized, full-bodied songbird with a small conical bill.",
-            "",
-            "Larger than a Dark-eyed Junco, smaller than an American Robin.",
-            "",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 5.9 in (15 cm)",
-            "Weight: 1.1-1.6 oz (31-46 g)",
-            "Wingspan: 11.8 in (30 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized, full-bodied songbird with a small conical bill."
+            ],
+            "Compared Size": [
+                "Larger than a Dark-eyed Junco, smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9 in (15 cm)",
+                "Weight: 1.1-1.6 oz (31-46 g)",
+                "Wingspan: 11.8 in (30 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67450281-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67450281-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450281-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67450281-720px.jpg"
         ],
         "description": [
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67450261-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67450261-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67450261-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67450261-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67450261-480px.jpg"
         ],
         "description": [
             "Breeds on rocky tundra. Winters in open weedy and grassy fields and along shores of lakes and oceans. Often concentrates on shorelines where debris piles up along the edge from wave or wind action.",

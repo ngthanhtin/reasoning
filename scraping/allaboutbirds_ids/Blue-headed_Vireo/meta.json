@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65761591-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65761591-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65761591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg"
         ],
-        "description": [
-            "A stocky small songbird with medium-length tail and fairly heavy, hooked bill and thick legs (compared to warblers).",
-            "",
-            "Larger than a Carolina Chickadee, smaller than a Tufted Titmouse.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.9 in (12-15 cm)",
-            "Weight: 0.5-0.6 oz (13.2-17.2 g)",
-            "Wingspan: 8.7-9.5 in (22.2-24.2 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A stocky small songbird with medium-length tail and fairly heavy, hooked bill and thick legs (compared to warblers)."
+            ],
+            "Compared Size": [
+                "Larger than a Carolina Chickadee, smaller than a Tufted Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.9 in (12-15 cm)",
+                "Weight: 0.5-0.6 oz (13.2-17.2 g)",
+                "Wingspan: 8.7-9.5 in (22.2-24.2 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65761581-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65761581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761581-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65761581-720px.jpg"
         ],
         "description": [
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65761621-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65761621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761621-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65761621-480px.jpg"
         ],
         "description": [

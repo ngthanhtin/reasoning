@@ -1,26 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60312471-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60312471-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60312471-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60312471-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60312471-720px.jpg"
         ],
-        "description": [
-            "The aptly named Northern Shoveler has a shovel-shaped bill that quickly sets it apart from other dabbling ducks. It is a medium-sized duck that tends to sit with its rear a bit higher out of the water almost like its bill is pulling its front half down.",
-            "",
-            "Larger than an American Coot, smaller than a Mallard.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 17.3-20.1 in (44-51 cm)",
-            "Weight: 14.1-28.9 oz (400-820 g)",
-            "Wingspan: 27.2-33.1 in (69-84 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The aptly named Northern Shoveler has a shovel-shaped bill that quickly sets it apart from other dabbling ducks. It is a medium-sized duck that tends to sit with its rear a bit higher out of the water almost like its bill is pulling its front half down."
+            ],
+            "Compared Size": [
+                "Larger than an American Coot, smaller than a Mallard."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 17.3-20.1 in (44-51 cm)",
+                "Weight: 14.1-28.9 oz (400-820 g)",
+                "Wingspan: 27.2-33.1 in (69-84 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60312481-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60312481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60312481-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60312481-480px.jpg"
         ],
         "description": [
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/60312541-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60312541-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60312541-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/60312541-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60312541-480px.jpg"
         ],
         "description": [
             "Northern Shovelers forage in shallow wetlands, coastal marshes, rice fields, flooded fields, lakes, and sewage lagoons. They nest along the margins of wetlands or in neighboring grassy areas.",

@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71005641-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71005641-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005641-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/71005641-480px.jpg"
         ],
-        "description": [
-            "Sage Thrashers are fairly small songbirds with relatively long legs and tail. They are the smallest of the thrashers. The bill is much shorter and straighter than the bills of other thrashers. When perched, Sage Thrashers often stand erect with their wings slightly drooped, like a thrush.",
-            "Larger but more slender than a Western Bluebird; slightly smaller than a Northern Mockingbird.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.9-9.1 in (20-23 cm)",
-            "Weight: 1.4-1.8 oz (40-50 g)",
-            "Wingspan: 12.6 in (32 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Sage Thrashers are fairly small songbirds with relatively long legs and tail. They are the smallest of the thrashers. The bill is much shorter and straighter than the bills of other thrashers. When perched, Sage Thrashers often stand erect with their wings slightly drooped, like a thrush."
+            ],
+            "Compared Size": [
+                "Larger but more slender than a Western Bluebird; slightly smaller than a Northern Mockingbird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.9-9.1 in (20-23 cm)",
+                "Weight: 1.4-1.8 oz (40-50 g)",
+                "Wingspan: 12.6 in (32 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/32805071-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32805071-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32805071-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32805071-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/32805071-480px.jpg"
         ],
         "description": [
             "Look for Sage Thrashers in expanses of dense sagebrush with scattered bunchgrasses and bare ground. During migration and winter, they occupy a broader rage of open, arid habitats, such as grasslands with scattered shrubs and open pinyon-juniper woodlands."

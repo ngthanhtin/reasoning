@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65615501-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65615501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65615501-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65615501-480px.jpg"
         ],
-        "description": [
-            "Ruffed Grouse are fairly small grouse with a short, triangular crest and a long, fan-shaped tail. They have short legs and often look slimmer than other grouse species.",
-            "About the size of an American Crow; distinctly smaller than a Wild Turkey.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 15.8-19.7 in (40-50 cm)",
-            "Weight: 15.9-26.5 oz (450-750 g)",
-            "Wingspan: 19.7-25.2 in (50-64 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Ruffed Grouse are fairly small grouse with a short, triangular crest and a long, fan-shaped tail. They have short legs and often look slimmer than other grouse species."
+            ],
+            "Compared Size": [
+                "About the size of an American Crow; distinctly smaller than a Wild Turkey."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.8-19.7 in (40-50 cm)",
+                "Weight: 15.9-26.5 oz (450-750 g)",
+                "Wingspan: 19.7-25.2 in (50-64 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/65615471-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65615471-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65615471-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65615471-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65615471-480px.jpg"
         ],
         "description": [
             "Ruffed Grouse are intricately patterned with dark bars and spots on either a reddish-brown or grayish background. Dark bars down the side of the neck continue and widen on the belly. The tail is finely barred, with one wide, black band near the tip."

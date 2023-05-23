@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64798661-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64798661-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64798661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg"
         ],
-        "description": [
-            "A small songbird with a small bill and a long, narrow tail.",
-            "",
-            "Larger than a Ruby-crowned Kinglet, smaller than a Red-eyed Vireo.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.1 in (11-13 cm)",
-            "Weight: 0.2-0.5 oz (6-15 g)",
-            "Wingspan: 6.3-7.9 in (16-20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small songbird with a small bill and a long, narrow tail."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.2-0.5 oz (6-15 g)",
+                "Wingspan: 6.3-7.9 in (16-20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64798711-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64798711-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64798711-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64798711-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64798711-480px.jpg"
         ],
         "description": [
             "Breeds in small conifers, especially young spruces, in purely coniferous stands or mixed forests. During migration found in dense vegetation often at forest edges.",

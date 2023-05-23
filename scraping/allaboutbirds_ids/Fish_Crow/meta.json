@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70580031-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70580031-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70580031-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70580031-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70580031-720px.jpg"
         ],
-        "description": [
-            "Fish Crows fit the standard crow shape: hefty, well-proportioned birds with heavy bills, sturdy legs, and broad wings. At rest, Fish Crows\u2019 wings fall short of their medium-length, square tails.",
-            "Very slightly smaller than an American Crow.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 14.2-15.8 in (36-40 cm)",
-            "Weight: 6.9-11.6 oz (195-330 g)",
-            "Wingspan: 33.1 in (84 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Fish Crows fit the standard crow shape: hefty, well-proportioned birds with heavy bills, sturdy legs, and broad wings. At rest, Fish Crows\u2019 wings fall short of their medium-length, square tails."
+            ],
+            "Compared Size": [
+                "Very slightly smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 14.2-15.8 in (36-40 cm)",
+                "Weight: 6.9-11.6 oz (195-330 g)",
+                "Wingspan: 33.1 in (84 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70580021-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70580021-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70580021-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70580021-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70580021-480px.jpg"
         ],
         "description": [
             "Fish Crows are all black. Immatures are less glossy and can become brownish as their feathers wear in their first year."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70580061-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70580061-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70580061-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70580061-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70580061-480px.jpg"
         ],
         "description": [
             "Fish Crows live along the coasts and inland along major freshwater rivers and lakes. You may find Fish Crows in a wide variety of habitats near water, often in towns and cities near parks, docks, and landfills. They share many habitats with American Crows."

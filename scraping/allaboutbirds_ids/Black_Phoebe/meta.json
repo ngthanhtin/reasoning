@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65681201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65681201-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681201-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65681201-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65681201-720px.jpg"
         ],
-        "description": [
-            "Black Phoebes are small, plump songbirds with large heads and medium-long, squared tails. They often show a slight peak at the rear of the crown. The bill is straight and thin.",
-            "Smaller than a Western Scrub-Jay; larger than an American Goldfinch.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Black Phoebes are small, plump songbirds with large heads and medium-long, squared tails. They often show a slight peak at the rear of the crown. The bill is straight and thin."
+            ],
+            "Compared Size": [
+                "Smaller than a Western Scrub-Jay; larger than an American Goldfinch."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65681211-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681211-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65681211-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65681211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65681211-720px.jpg"
         ],
         "description": [
             "Black Phoebes are mostly sooty gray on the upperparts and chest, with a slightly darker black head. The belly is clean white, and the wing feathers are edged with pale gray."
@@ -31,8 +39,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65681221-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65681221-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681221-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65681221-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65681221-480px.jpg"
         ],
         "description": [
             "In the U.S., you\u2019ll almost always find these flycatchers near water. They live along streams, rivers, lakes, and the Pacific Ocean\u2014even around cattle tanks. As long as there is water present and some kind of ledge or overhang on which to anchor a mud nest, Black Phoebes could be around."

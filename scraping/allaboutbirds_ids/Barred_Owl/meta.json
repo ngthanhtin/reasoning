@@ -2,24 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/60394891-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg"
         ],
-        "description": [
-            "Barred Owls are large, stocky owls with rounded heads, no ear tufts, and medium length, rounded tails.",
-            "Smaller than a Great Horned Owl; larger than a Barn Owl.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 16.9-19.7 in (43-50 cm)",
-            "Weight: 16.6-37.0 oz (470-1050 g)",
-            "Wingspan: 39.0-43.3 in (99-110 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Barred Owls are large, stocky owls with rounded heads, no ear tufts, and medium length, rounded tails."
+            ],
+            "Compared Size": [
+                "Smaller than a Great Horned Owl; larger than a Barn Owl."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-19.7 in (43-50 cm)",
+                "Weight: 16.6-37.0 oz (470-1050 g)",
+                "Wingspan: 39.0-43.3 in (99-110 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60394841-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg"
         ],
         "description": [
             "Barred Owls are mottled brown and white overall, with dark brown, almost black, eyes. The underparts are mostly marked with vertical brown bars on a white background, while the upper breast is crossed with horizontal brown bars. The wings and tail are barred brown and white."

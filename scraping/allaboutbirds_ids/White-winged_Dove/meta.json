@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66037291-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66037291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66037291-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66037291-720px.jpg"
         ],
-        "description": [
-            "White-winged Doves are plump, square-tailed doves with relatively long, thin bills and small heads.",
-            "Smaller than a Eurasian Collared-Dove; larger than a Mourning Dove.",
-            "robin-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "White-winged Doves are plump, square-tailed doves with relatively long, thin bills and small heads."
+            ],
+            "Compared Size": [
+                "Smaller than a Eurasian Collared-Dove; larger than a Mourning Dove."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/66037301-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66037301-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66037301-480px.jpg"
         ],
         "description": [
             "White-winged Doves are brown overall, with a dark line on the cheek. A white stripe at the edge of the folded wing becomes, as the bird takes flight, a bright flash in the middle of a dark wing. The tail is tipped in white and set off with black stripes from the gray underside. Their faces are ornately marked with a black streak on the cheek, and blue skin around the red eyes."
@@ -32,8 +40,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66037281-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66037281-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66037281-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66037281-480px.jpg"
         ],
         "description": [

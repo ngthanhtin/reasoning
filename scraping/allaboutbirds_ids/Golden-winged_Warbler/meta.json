@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/161007131-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/161007131-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/161007131-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/161007131-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/161007131-480px.jpg"
         ],
-        "description": [
-            "Golden-winged Warblers are small songbirds with fairly slim bodies and short tails. They have a thin, straight bill that is sharply pointed.",
-            "Slightly smaller than a Black-capped Chickadee",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Golden-winged Warblers are small songbirds with fairly slim bodies and short tails. They have a thin, straight bill that is sharply pointed."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Black-capped Chickadee"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/38457901-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/38457901-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/38457901-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/38457901-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/38457901-720px.jpg"
         ],
         "description": [
             "Adult males are silvery gray with a strong black-and-white face pattern, yellow crown, and large yellow patches on the wings. Females are similar but lack the male\u2019s black mask and bib. Hybrids with the Blue-winged Warbler can produce a mostly light gray form (\u201cBrewster\u2019s\u201d) or a mostly golden form (\u201cLawrence\u2019s\u201d)."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/38454641-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/38454641-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/38454641-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/38454641-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/38454641-480px.jpg"
         ],
         "description": [
             "Golden-winged Warblers breed in tangled, shrubby habitats such as regenerating clearcuts, wet thickets, and tamarack bogs. They often move into nearby woodland when the young have fledged. They spend winters in open woodlands and shade-coffee plantations of Central and South America."

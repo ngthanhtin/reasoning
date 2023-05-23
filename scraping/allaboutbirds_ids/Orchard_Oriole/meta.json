@@ -2,23 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67361111-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67361111-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67361111-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67361111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67361111-720px.jpg"
         ],
-        "description": [
-            "Orchard Orioles are slim songbirds, larger than warblers and vireos. They have medium-length tails, rounded heads, and a straight, sharply pointed bill.",
-            "Larger than a Yellow Warbler; smaller than a Baltimore Oriole.",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 5.9-7.1 in (15-18 cm)",
-            "Weight: 0.6-1.0 oz (16-28 g)",
-            "Wingspan: 9.8 in (25 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Orchard Orioles are slim songbirds, larger than warblers and vireos. They have medium-length tails, rounded heads, and a straight, sharply pointed bill."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow Warbler; smaller than a Baltimore Oriole."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-7.1 in (15-18 cm)",
+                "Weight: 0.6-1.0 oz (16-28 g)",
+                "Wingspan: 9.8 in (25 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67361081-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67361081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67361081-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67361081-720px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67361101-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67361101-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67361101-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67361101-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67361101-480px.jpg"
         ],
         "description": [
             "Orchard Orioles spend summers in open woodlands and areas of scattered trees across the eastern United States and southern Canada. Look for them along river edges, in pastures with scattered trees, and in parks and orchards."

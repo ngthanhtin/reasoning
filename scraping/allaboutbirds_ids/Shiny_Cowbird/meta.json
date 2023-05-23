@@ -5,12 +5,20 @@
             " https://www.allaboutbirds.org/guide/assets/photo/53489301-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/53489301-480px.jpg"
         ],
-        "description": [
-            "A stout songbird with a short, thick-based, finely pointed bill and moderately long wings and tail.",
-            "Slightly larger than an Eastern Bluebird, smaller than a Red-winged Blackbird.",
-            "robin-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A stout songbird with a short, thick-based, finely pointed bill and moderately long wings and tail."
+            ],
+            "Compared Size": [
+                "Slightly larger than an Eastern Bluebird, smaller than a Red-winged Blackbird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -31,8 +39,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/53489321-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/53489321-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/53489321-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/53489321-480px.jpg"
         ],
         "description": [

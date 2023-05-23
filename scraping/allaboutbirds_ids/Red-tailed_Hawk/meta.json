@@ -1,28 +1,36 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60384771-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60384771-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60384771-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60384771-720px.jpg"
         ],
-        "description": [
-            "Red-tailed Hawks are large hawks with typical",
-            "Buteo",
-            "proportions: very broad, rounded wings and a short, wide tail. Large females seen from a distance might fool you into thinking you\u2019re seeing an eagle. (Until an actual eagle comes along.)",
-            "The Red-tailed is the second-largest",
-            "Buteo",
-            "hawk in North America, after Ferruginous Hawk.",
-            "between crow and goose",
-            "Sex: Male",
-            "Length: 17.7-22.1 in (45-56 cm)",
-            "Weight: 24.3-45.9 oz (690-1300 g)",
-            "Wingspan: 44.9-52.4 in (114-133 cm)",
-            "Female",
-            "Length: 19.7-25.6 in (50-65 cm)Weight: 31.8-51.5 oz (900-1460 g)Wingspan: 44.9-52.4 in (114-133 cm)",
-            "Length: 19.7-25.6 in (50-65 cm)",
-            "Weight: 31.8-51.5 oz (900-1460 g)",
-            "Wingspan: 44.9-52.4 in (114-133 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Red-tailed Hawks are large hawks with typical",
+                "Buteo",
+                "proportions: very broad, rounded wings and a short, wide tail. Large females seen from a distance might fool you into thinking you\u2019re seeing an eagle. (Until an actual eagle comes along.)"
+            ],
+            "Compared Size": [
+                "The Red-tailed is the second-largest",
+                "Buteo",
+                "hawk in North America, after Ferruginous Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 17.7-22.1 in (45-56 cm)",
+                "Weight: 24.3-45.9 oz (690-1300 g)",
+                "Wingspan: 44.9-52.4 in (114-133 cm)",
+                "Female",
+                "Length: 19.7-25.6 in (50-65 cm)Weight: 31.8-51.5 oz (900-1460 g)Wingspan: 44.9-52.4 in (114-133 cm)",
+                "Length: 19.7-25.6 in (50-65 cm)",
+                "Weight: 31.8-51.5 oz (900-1460 g)",
+                "Wingspan: 44.9-52.4 in (114-133 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -42,9 +50,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60384901-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60384901-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60384901-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60384901-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/60384901-480px.jpg"
         ],
         "description": [
             "The Red-tailed Hawk is a bird of open country. Look for it along fields and perched on telephones poles, fenceposts, or trees standing alone or along edges of fields."

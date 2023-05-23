@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65609541-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65609541-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65609541-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65609541-480px.jpg"
         ],
-        "description": [
-            "A compact chickenlike bird with a small head and a distinctive short crest. It has a plump body, short tail, and short, strong legs.",
-            "",
-            "Slightly larger than a Northern Bobwhite; about the same size as a Gambel\u2019s Quail.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 10.0-12.0 in (25.4-30.5 cm)",
-            "Weight: 6.2-6.7 oz (177-191 g)",
-            "Wingspan: 15.0 in (38 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A compact chickenlike bird with a small head and a distinctive short crest. It has a plump body, short tail, and short, strong legs."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Northern Bobwhite; about the same size as a Gambel\u2019s Quail."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 10.0-12.0 in (25.4-30.5 cm)",
+                "Weight: 6.2-6.7 oz (177-191 g)",
+                "Wingspan: 15.0 in (38 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65609501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65609501-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65609501-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65609501-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65609501-480px.jpg"
         ],
         "description": [
             "Adults are pale brownish with elegant dark scaling on the underparts. The head is plain brown with a buffy accent on the crest. The back is bluish gray and the wings are brown stippled with buff. Juveniles are similar but have a shorter crest, and the upperwing has a more ornate pattern.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65609531-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg"
         ],
         "description": [
             "Desert grasslands and sparsely vegetated shrublands with plants like yucca, cholla, mesquite, skunkbush sumac, prickly pear, sandsage, pinyon, and juniper.",

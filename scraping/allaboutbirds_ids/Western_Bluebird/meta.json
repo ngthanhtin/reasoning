@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67472541-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67472541-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67472541-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67472541-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67472541-480px.jpg"
         ],
-        "description": [
-            "Western Bluebirds are small thrushes that usually perch upright. They are stocky with thin, straight bills and fairly short tails.",
-            "Larger than a sparrow; smaller than an American Robin.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 6.3-7.5 in (16-19 cm)",
-            "Weight: 0.8-1.1 oz (24-31 g)",
-            "Wingspan: 11.4-13.4 in (29-34 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Western Bluebirds are small thrushes that usually perch upright. They are stocky with thin, straight bills and fairly short tails."
+            ],
+            "Compared Size": [
+                "Larger than a sparrow; smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.5 in (16-19 cm)",
+                "Weight: 0.8-1.1 oz (24-31 g)",
+                "Wingspan: 11.4-13.4 in (29-34 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67472491-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67472491-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67472491-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67472491-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67472491-720px.jpg"
         ],
         "description": [
             "Male Western Bluebirds are shiny blue above with rust-orange extending from a vest on the breast onto the upper back. Females are gray-buff with a pale orange wash on the breast and blue tints to the wings and tail. The throat is blue in males and gray-buff in females, and the lower belly is whitish."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67472551-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67472551-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67472551-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67472551-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67472551-720px.jpg"
         ],
         "description": [
             "Look for Western Bluebirds in open woodland, both coniferous and deciduous. They also live in backyards, burned areas, and farmland, from sea level far up into the mountains."

@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60320531-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60320531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60320531-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60320531-480px.jpg"
         ],
-        "description": [
-            "Ospreys are very large, distinctively shaped hawks. Despite their size, their bodies are slender, with long, narrow wings and long legs. Ospreys fly with a marked kink in their wings, making an M-shape when seen from below.",
-            "Smaller than a Bald Eagle; larger and longer-winged than a Red-tailed Hawk.",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 21.3-22.8 in (54-58 cm)",
-            "Weight: 49.4-70.5 oz (1400-2000 g)",
-            "Wingspan: 59.1-70.9 in (150-180 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Ospreys are very large, distinctively shaped hawks. Despite their size, their bodies are slender, with long, narrow wings and long legs. Ospreys fly with a marked kink in their wings, making an M-shape when seen from below."
+            ],
+            "Compared Size": [
+                "Smaller than a Bald Eagle; larger and longer-winged than a Red-tailed Hawk."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 21.3-22.8 in (54-58 cm)",
+                "Weight: 49.4-70.5 oz (1400-2000 g)",
+                "Wingspan: 59.1-70.9 in (150-180 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60320581-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60320581-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60320581-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60320581-720px.jpg"
         ],
         "description": [

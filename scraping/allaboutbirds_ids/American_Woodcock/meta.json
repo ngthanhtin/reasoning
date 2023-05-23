@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64829511-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64829511-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64829511-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64829511-720px.jpg"
         ],
-        "description": [
-            "American Woodcocks are plump, short-legged shorebirds with very long, straight bills. Their large heads, short necks, and short tails give them a bulbous look on the ground and in flight. The wings are broad and rounded compared to most other shorebirds.",
-            "Bigger and plumper than a Killdeer; slightly smaller than a Rock Pigeon.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 9.8-12.2 in (25-31 cm)",
-            "Weight: 4.1-9.8 oz (116-279 g)",
-            "Wingspan: 16.5-18.9 in (42-48 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "American Woodcocks are plump, short-legged shorebirds with very long, straight bills. Their large heads, short necks, and short tails give them a bulbous look on the ground and in flight. The wings are broad and rounded compared to most other shorebirds."
+            ],
+            "Compared Size": [
+                "Bigger and plumper than a Killdeer; slightly smaller than a Rock Pigeon."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.8-12.2 in (25-31 cm)",
+                "Weight: 4.1-9.8 oz (116-279 g)",
+                "Wingspan: 16.5-18.9 in (42-48 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64829541-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64829541-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64829541-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64829541-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64829541-720px.jpg"
         ],
         "description": [
             "They are well camouflaged in light brown, black, buff, and gray-brown tones. The face is buffy, the crown blackish. They are light gray across the neck and back, with dark-and-light patterned shoulders and brown wings. The underparts are buffy to almost orange."
@@ -34,9 +42,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64829531-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64829531-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64829531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64829531-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64829531-480px.jpg"
         ],
         "description": [
             "Look for American Woodcock in forests, forest edges, old fields, and wet meadows of eastern North America."

@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67460821-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67460821-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67460821-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67460821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67460821-480px.jpg"
         ],
-        "description": [
-            "Swainson\u2019s Thrushes are medium-sized thrushes\u2014slim songbirds with round heads and short, straight bills. Their fairly long wings and medium-length tail can make the back half of the bird appear long.",
-            "Smaller than an American Robin; larger than a White-throated Sparrow.",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 6.3-7.5 in (16-19 cm)",
-            "Weight: 0.8-1.6 oz (23-45 g)",
-            "Wingspan: 11.4-12.2 in (29-31 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Swainson\u2019s Thrushes are medium-sized thrushes\u2014slim songbirds with round heads and short, straight bills. Their fairly long wings and medium-length tail can make the back half of the bird appear long."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin; larger than a White-throated Sparrow."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.5 in (16-19 cm)",
+                "Weight: 0.8-1.6 oz (23-45 g)",
+                "Wingspan: 11.4-12.2 in (29-31 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67460781-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67460781-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67460781-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67460781-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67460781-480px.jpg"
         ],
         "description": [
             "These medium-brown birds with pale underparts have spotted chests and large buffy eyerings that extend in front of the eye, creating \u201cspectacles.\u201d The whitish throat is bordered on each side with a dark brown stripe. Swainson\u2019s Thrushes breeding on the Pacific slope of the U.S. and Canada have warmer brown upperparts (see Regional Differences)."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67460831-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67460831-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67460831-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67460831-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67460831-480px.jpg"
         ],
         "description": [
             "This is a forest bird, rarely found far from closed-canopy forest. Breeding habitat is a mix of deciduous and coniferous forest (though sometimes includes pure deciduous forest). In the Rocky Mountains and in Pacific states, look for them in dense alder thickets along streams running through coniferous forest."

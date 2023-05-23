@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67362641-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67362641-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67362641-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67362641-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67362641-480px.jpg"
         ],
-        "description": [
-            "A solidly built songbird with a thick-based, sharply pointed, slightly curved bill. Males have a thick neck, especially when they fluff out the feathers of the nape during displays.",
-            "",
-            "Larger than a Brown-headed Cowbird, smaller than an Eastern or Western Meadowlark; similar in size to a Red-winged Blackbird.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.9 in (20 cm)",
-            "Weight: 2.3-2.6 oz (64.9-73.9 g)",
-            "Wingspan: 13.0 in (33 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A solidly built songbird with a thick-based, sharply pointed, slightly curved bill. Males have a thick neck, especially when they fluff out the feathers of the nape during displays."
+            ],
+            "Compared Size": [
+                "Larger than a Brown-headed Cowbird, smaller than an Eastern or Western Meadowlark; similar in size to a Red-winged Blackbird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.9 in (20 cm)",
+                "Weight: 2.3-2.6 oz (64.9-73.9 g)",
+                "Wingspan: 13.0 in (33 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67362621-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67362621-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67362621-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67362621-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67362621-480px.jpg"
         ],
         "description": [
             "Adult males are blackish with a soft bronze sheen. The wings appear purplish blue at close range. Adult females and juveniles in the eastern part of the range are blackish; in the western part of the range they are grayish brown. Adults have vivid red eyes; juveniles have dark eyes.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67362631-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67362631-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67362631-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67362631-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67362631-480px.jpg"
         ],
         "description": [
             "Open habitats such as chaparral, mesquite bosques, coastal prairie, farmland, pasture, golf courses, lightly wooded canyons, and riparian corridors.",

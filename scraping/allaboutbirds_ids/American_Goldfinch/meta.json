@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63737391-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63737391-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63737391-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg"
         ],
-        "description": [
-            "A small finch with a short, conical bill and a small, head, long wings, and short, notched tail.",
-            "Smaller than a Tufted Titmouse",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.1 in (11-13 cm)",
-            "Weight: 0.4-0.7 oz (11-20 g)",
-            "Wingspan: 7.5-8.7 in (19-22 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small finch with a short, conical bill and a small, head, long wings, and short, notched tail."
+            ],
+            "Compared Size": [
+                "Smaller than a Tufted Titmouse"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.4-0.7 oz (11-20 g)",
+                "Wingspan: 7.5-8.7 in (19-22 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/63737371-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63737371-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63737371-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63737371-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63737371-720px.jpg"
         ],
         "description": [
             "Adult males in spring and early summer are bright yellow with black forehead, black wings with white markings, and white patches both above and beneath the tail. Adult females are duller yellow beneath, olive above. Winter birds are drab, unstreaked brown, with blackish wings and two pale wingbars."

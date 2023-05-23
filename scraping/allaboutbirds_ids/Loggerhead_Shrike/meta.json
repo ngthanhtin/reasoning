@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65685241-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65685241-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65685241-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65685241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65685241-480px.jpg"
         ],
-        "description": [
-            "Loggerhead Shrikes are thick-bodied songbirds. They have large, blocky heads and a thick bill with a small hook. The tail is fairly long and rounded.",
-            "Smaller and more slender than an American Robin; larger and longer-tailed than a Western Bluebird.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.9-9.1 in (20-23 cm)",
-            "Weight: 1.2-1.8 oz (35-50 g)",
-            "Wingspan: 11.0-12.6 in (28-32 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Loggerhead Shrikes are thick-bodied songbirds. They have large, blocky heads and a thick bill with a small hook. The tail is fairly long and rounded."
+            ],
+            "Compared Size": [
+                "Smaller and more slender than an American Robin; larger and longer-tailed than a Western Bluebird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.9-9.1 in (20-23 cm)",
+                "Weight: 1.2-1.8 oz (35-50 g)",
+                "Wingspan: 11.0-12.6 in (28-32 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65685251-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65685251-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65685251-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65685251-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65685251-480px.jpg"
         ],
         "description": [
             "The Loggerhead Shrike is a gray bird with a black mask and white flashes in the black wings. The gray head contrasts with the wide, black mask, black bill, and white throat. The tail is black with white corners; the wings are black with white at the base of the primaries that form a small \u201chandkerchief\u201d spot when the wing is closed and larger white patches in flight. Juveniles have darker barring above and below."
@@ -37,9 +45,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65685261-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65685261-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65685261-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65685261-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65685261-480px.jpg"
         ],
         "description": [
             "Open country with scattered shrubs and trees is the typical habitat of Loggerhead Shrike, but the species can also be found in more heavily wooded habitats with large openings and in very short habitats with few or no trees."

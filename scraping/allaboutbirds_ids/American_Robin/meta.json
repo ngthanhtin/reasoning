@@ -5,21 +5,29 @@
             "https://www.allaboutbirds.org/guide/assets/photo/60412951-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60412951-720px.jpg"
         ],
-        "description": [
-            "American Robins are fairly large songbirds with a large, round body, long legs, and fairly long tail. Robins are the largest North American thrushes, and their profile offers a good chance to learn the basic shape of most thrushes. Robins make a good reference point for comparing the size and shape of other birds, too.",
-            "The largest North American thrush, almost half again as big as a bluebird.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.9-11.0 in (20-28 cm)",
-            "Weight: 2.7-3.0 oz (77-85 g)",
-            "Wingspan: 12.2-15.8 in (31-40 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "American Robins are fairly large songbirds with a large, round body, long legs, and fairly long tail. Robins are the largest North American thrushes, and their profile offers a good chance to learn the basic shape of most thrushes. Robins make a good reference point for comparing the size and shape of other birds, too."
+            ],
+            "Compared Size": [
+                "The largest North American thrush, almost half again as big as a bluebird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.9-11.0 in (20-28 cm)",
+                "Weight: 2.7-3.0 oz (77-85 g)",
+                "Wingspan: 12.2-15.8 in (31-40 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60412911-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60412911-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60412911-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60412911-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60412911-480px.jpg"
         ],
         "description": [
             "American Robins are gray-brown birds with warm orange underparts and dark heads. In flight, a white patch on the lower belly and under the tail can be conspicuous. Compared with males, females have paler heads that contrast less with the gray back."
@@ -34,8 +42,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60412971-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60412971-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60412971-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60412971-480px.jpg"
         ],
         "description": [

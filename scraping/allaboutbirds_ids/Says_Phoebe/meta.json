@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65681771-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65681771-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681771-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65681771-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65681771-480px.jpg"
         ],
-        "description": [
-            "This slender, long-tailed flycatcher appears large-headed for a bird of its size. The head often looks flat on top, but phoebes sometimes raise their head feathers into a small peak at the back.",
-            "Larger than a Dark-eyed Junco, smaller than an American Robin.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "This slender, long-tailed flycatcher appears large-headed for a bird of its size. The head often looks flat on top, but phoebes sometimes raise their head feathers into a small peak at the back."
+            ],
+            "Compared Size": [
+                "Larger than a Dark-eyed Junco, smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65681761-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65681761-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65681761-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681761-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65681761-720px.jpg"
         ],
         "description": [
             "Say\u2019s Phoebes are pale brownish gray above with a cinnamon belly, a blackish tail, and a gray breast. Male and female are similar. The immature is similar to the adult, but browner and may have a buffy wingbar."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65681791-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65681791-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65681791-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681791-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65681791-480px.jpg"
         ],
         "description": [
             "Say\u2019s Phoebes live in open country, sagebrush, badlands, dry barren foothills, canyons, and borders of deserts; they avoid forests. They often gravitate to buildings and aren\u2019t closely tied to watercourses like other phoebes."

@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60324881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60324881-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60324881-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60324881-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60324881-480px.jpg"
         ],
-        "description": [
-            "A medium-sized hawk with the classic accipiter shape: broad, rounded wings and a very long tail. In Cooper\u2019s Hawks, the head often appears large, the shoulders broad, and the tail rounded.",
-            "Larger than a Sharp-shinned Hawk and about crow-sized, but males can be much smaller.",
-            "crow-sized",
-            "Sex: Male",
-            "Length: 14.6-15.3 in (37-39 cm)",
-            "Weight: 7.8-14.5 oz (220-410 g)",
-            "Wingspan: 24.4-35.4 in (62-90 cm)",
-            "Female",
-            "Length: 16.5-17.7 in (42-45 cm)Weight: 11.6-24.0 oz (330-680 g)Wingspan: 29.5-35.4 in (75-90 cm)",
-            "Length: 16.5-17.7 in (42-45 cm)",
-            "Weight: 11.6-24.0 oz (330-680 g)",
-            "Wingspan: 29.5-35.4 in (75-90 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized hawk with the classic accipiter shape: broad, rounded wings and a very long tail. In Cooper\u2019s Hawks, the head often appears large, the shoulders broad, and the tail rounded."
+            ],
+            "Compared Size": [
+                "Larger than a Sharp-shinned Hawk and about crow-sized, but males can be much smaller."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 14.6-15.3 in (37-39 cm)",
+                "Weight: 7.8-14.5 oz (220-410 g)",
+                "Wingspan: 24.4-35.4 in (62-90 cm)",
+                "Female",
+                "Length: 16.5-17.7 in (42-45 cm)Weight: 11.6-24.0 oz (330-680 g)Wingspan: 29.5-35.4 in (75-90 cm)",
+                "Length: 16.5-17.7 in (42-45 cm)",
+                "Weight: 11.6-24.0 oz (330-680 g)",
+                "Wingspan: 29.5-35.4 in (75-90 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -38,9 +46,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60324871-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60324871-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60324871-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60324871-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60324871-480px.jpg"
         ],
         "description": [
             "Wooded habitats from deep forests to leafy subdivisions and backyards."

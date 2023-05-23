@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65071971-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65071971-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65071971-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65071971-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65071971-480px.jpg"
         ],
-        "description": [
-            "A large, slender waterbird with a very long neck, a large head that may show a peak, and a long, slender, pointed bill.",
-            "",
-            "Larger than a Mallard, smaller than a Common Loon.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 21.6-29.5 in (55-75 cm)",
-            "Weight: 40.1-64.4 oz (1138-1826 g)",
-            "Wingspan: 22.8-25.2 in (58-64 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large, slender waterbird with a very long neck, a large head that may show a peak, and a long, slender, pointed bill."
+            ],
+            "Compared Size": [
+                "Larger than a Mallard, smaller than a Common Loon."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 21.6-29.5 in (55-75 cm)",
+                "Weight: 40.1-64.4 oz (1138-1826 g)",
+                "Wingspan: 22.8-25.2 in (58-64 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65071981-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65071981-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65071981-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65071981-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65071981-720px.jpg"
         ],
         "description": [
             "Breeding birds use freshwater lakes; nonbreeding birds are found in both freshwater and saltwater environments, though never far from shore in oceans.",

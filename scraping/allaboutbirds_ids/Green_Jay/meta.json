@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70601871-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70601871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70601871-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70601871-720px.jpg"
         ],
-        "description": [
-            "A sturdy jay without a crest. It has a thick, straight bill, a long, rounded tail, and fairly long legs. In flight the wings are broad and rounded.",
-            "",
-            "Larger than a Northern Mockingbird, smaller than a Northern Flicker; similar in size to a Blue Jay.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A sturdy jay without a crest. It has a thick, straight bill, a long, rounded tail, and fairly long legs. In flight the wings are broad and rounded."
+            ],
+            "Compared Size": [
+                "Larger than a Northern Mockingbird, smaller than a Northern Flicker; similar in size to a Blue Jay."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/36660891-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/36660891-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/36660891-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/36660891-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36660891-480px.jpg"
         ],
         "description": [
             "Rich green above and pale yellow-green below, with a blue crown, black throat and eyepatch, and yellow outer tail feathers.",
@@ -35,8 +41,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/36661771-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/36661771-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/36661771-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/36661771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36661771-480px.jpg"
         ],
         "description": [
             "Woodlands, thickets, and parks, especially sites with native trees, but also citrus orchards and parks.",

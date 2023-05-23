@@ -5,21 +5,28 @@
             " https://www.allaboutbirds.org/guide/assets/photo/398359701-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/398359701-480px.jpg"
         ],
-        "description": [
-            "A large flycatcher with a big head, straight, heavy bill, and a rather long, notched tail.",
-            "Larger than an Eastern Bluebird, smaller than an American Robin.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 9.1-9.4 in (23-24 cm)",
-            "Weight: 1.3-1.8 oz (37-51.2 g)",
-            "Wingspan: 14.0 in (35.6 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large flycatcher with a big head, straight, heavy bill, and a rather long, notched tail."
+            ],
+            "Compared Size": [
+                "Larger than an Eastern Bluebird, smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-9.4 in (23-24 cm)",
+                "Weight: 1.3-1.8 oz (37-51.2 g)",
+                "Wingspan: 14.0 in (35.6 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/398359051-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/398359051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/398359051-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/398359051-480px.jpg"
         ],
         "description": [
@@ -29,9 +36,9 @@
     },
     "Behavior": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/398365261-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/398365261-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/398365261-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/398365261-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/398365261-480px.jpg"
         ],
         "description": [
             "Forages conspicuously, perching high in open areas to scan for insects, which the birds chase down in rapid, agile flight, sometimes over long distances. Vocal and inquisitive.",
@@ -40,9 +47,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/398364851-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/398364851-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/398364851-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/398364851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/398364851-720px.jpg"
         ],
         "description": [
             "Nests in coastal areas, especially open and semiopen habitats, mangrove forest edges, and towns. Winters in similar habitats as well as openings in rainforest and in open valleys and cities of the northern Andes."

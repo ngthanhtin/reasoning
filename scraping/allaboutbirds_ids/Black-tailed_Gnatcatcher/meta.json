@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68033231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033231-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68033231-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68033231-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68033231-480px.jpg"
         ],
-        "description": [
-            "A tiny, slim songbird with a thin, straight bill, small body, and long tail.",
-            "Larger than a Costa\u2019s Hummingbird; smaller than a Black-throated Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.1 in (11-13 cm)",
-            "Weight: 0.2-0.2 oz (5.1-6 g)",
-            "Wingspan: 5.5-5.9 in (14-15 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A tiny, slim songbird with a thin, straight bill, small body, and long tail."
+            ],
+            "Compared Size": [
+                "Larger than a Costa\u2019s Hummingbird; smaller than a Black-throated Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.2-0.2 oz (5.1-6 g)",
+                "Wingspan: 5.5-5.9 in (14-15 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68033281-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68033281-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68033281-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68033281-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68033281-480px.jpg"
         ],
         "description": [
             "Black-tailed Gnatcatchers are gray overall with a fine white eyering, and a black tail with white flashes on the underside. They are darker gray above, with paler gray underparts. Breeding males have a black cap."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68033291-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68033291-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68033291-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68033291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033291-480px.jpg"
         ],
         "description": [
             "Look for Black-tailed Gnatcatchers in desert scrub, including washes densely lined with creosote and salt bush as well as areas studded with ocotillo, prickly pear, cholla, and mesquite."

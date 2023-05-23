@@ -1,26 +1,32 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64810291-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64810291-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64810291-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64810291-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64810291-480px.jpg"
         ],
-        "description": [
-            "A robust, large shorebird with a very long, curved bill and relatively long neck and legs. The wings are long and pointed; the tail is short.",
-            "",
-            "Larger than a Willet, smaller than a Long-billed Curlew.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 16.9-18.1 in (43-46 cm)",
-            "Weight: 10.9-14.3 oz (310-404 g)",
-            "Wingspan: 31.5-32.7 in (80-83 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A robust, large shorebird with a very long, curved bill and relatively long neck and legs. The wings are long and pointed; the tail is short."
+            ],
+            "Compared Size": [
+                "Larger than a Willet, smaller than a Long-billed Curlew."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-18.1 in (43-46 cm)",
+                "Weight: 10.9-14.3 oz (310-404 g)",
+                "Wingspan: 31.5-32.7 in (80-83 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64810251-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64810251-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64810251-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64810251-720px.jpg"
         ],
         "description": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64810211-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64810211-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64810211-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64810211-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64810211-480px.jpg"
         ],
         "description": [
             "Arctic tundra during the nesting season; saltmarshes, mudflats, beaches, small islands during migration and winter. They are sometimes found inland after being grounded by storms, taking refuge in farm fields, airports, lakeshores, or other open environments.",

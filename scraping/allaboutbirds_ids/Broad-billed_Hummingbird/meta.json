@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68934741-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68934741-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68934741-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68934741-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68934741-480px.jpg"
         ],
-        "description": [
-            "A rather small hummingbird with a long, straight bill and a tail that is notched in the center. Males have fuller tails than females, with rounded corners (females\u2019 tails have squared corners).",
-            "",
-            "About the size of a Ruby-throated or Black-chinned Hummingbird, smaller than a Blue-throated Mountain-gem.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A rather small hummingbird with a long, straight bill and a tail that is notched in the center. Males have fuller tails than females, with rounded corners (females\u2019 tails have squared corners)."
+            ],
+            "Compared Size": [
+                "About the size of a Ruby-throated or Black-chinned Hummingbird, smaller than a Blue-throated Mountain-gem."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68934691-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68934691-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68934691-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68934691-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68934691-480px.jpg"
         ],
         "description": [
             "Adult males are rich green with a shimmering blue throat (gorget) and a red bill tipped in black. Females are golden-green above, gray below, with a white line behind the eye. Immatures are similar to females (immature males often show the beginning of a blue-green gorget).",

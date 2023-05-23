@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70999041-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70999041-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70999041-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70999041-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70999041-720px.jpg"
         ],
-        "description": [
-            "Looks superficially like a gull. A heavyset, medium-sized seabird with a short neck, stout body, large head, and long wings. The bill is stout and hooked, with two nasal tubes on the top edge.",
-            "",
-            "Larger than a Ring-billed Gull, smaller than a Herring Gull.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 15.3-19.7 in (39-50 cm)",
-            "Weight: 15.9-35.3 oz (450-1000 g)",
-            "Wingspan: 39.4-44.1 in (100-112 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Looks superficially like a gull. A heavyset, medium-sized seabird with a short neck, stout body, large head, and long wings. The bill is stout and hooked, with two nasal tubes on the top edge."
+            ],
+            "Compared Size": [
+                "Larger than a Ring-billed Gull, smaller than a Herring Gull."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.3-19.7 in (39-50 cm)",
+                "Weight: 15.9-35.3 oz (450-1000 g)",
+                "Wingspan: 39.4-44.1 in (100-112 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70999231-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70999231-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70999231-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70999231-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70999231-720px.jpg"
         ],
         "description": [
             "Most fulmars are \"light morph\": gray above and white below, a pattern similar to large gulls. Some \"dark morphs\" occur in the North Pacific and are pale to dark gray all over.",
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/32806021-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32806021-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32806021-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/32806021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32806021-720px.jpg"
         ],
         "description": [
             "Nests in dense colonies on rocky islands and cliffs. Forages far offshore, where upwelling brings nutrients and fish toward the surface. Also collects around fishing vessels to scavenge discarded fish parts.",

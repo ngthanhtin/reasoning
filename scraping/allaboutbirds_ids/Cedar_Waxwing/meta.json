@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/59874521-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59874521-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59874521-480px.jpg"
         ],
-        "description": [
-            "The Cedar Waxwing is a medium-sized, sleek bird with a large head, short neck, and short, wide bill. Waxwings have a crest that often lies flat and droops over the back of the head. The wings are broad and pointed, like a starling\u2019s. The tail is fairly short and square-tipped.",
-            "Slightly smaller than a Bohemian Waxwing",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 5.5-6.7 in (14-17 cm)",
-            "Weight: 1.1 oz (32 g)",
-            "Wingspan: 8.7-11.8 in (22-30 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Cedar Waxwing is a medium-sized, sleek bird with a large head, short neck, and short, wide bill. Waxwings have a crest that often lies flat and droops over the back of the head. The wings are broad and pointed, like a starling\u2019s. The tail is fairly short and square-tipped."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Bohemian Waxwing"
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.7 in (14-17 cm)",
+                "Weight: 1.1 oz (32 g)",
+                "Wingspan: 8.7-11.8 in (22-30 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/59874471-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59874471-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59874471-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59874471-720px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59874491-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/59874491-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59874491-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59874491-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/59874491-720px.jpg"
         ],
         "description": [
             "Look for Cedar Waxwings in woodlands of all kinds, and at farms, orchards, and suburban gardens where there are fruiting trees or shrubs."

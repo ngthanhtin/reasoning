@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63901811-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63901811-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63901811-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63901811-480px.jpg"
         ],
-        "description": [
-            "A stocky, medium-sized seaduck with a short tail, rounded head, and a broad bill that does not slope up to the forehead, as the Surf Scoter's bill does. Male Black Scoters have a rounded knob at the base of the bill.",
-            "",
-            "Larger than a Long-tailed Duck, smaller than a White-winged Scoter.",
-            "",
-            "crow-sized",
-            "Sex: Male",
-            "Length: 16.9-19.3 in (43-49 cm)",
-            "Weight: 30.4-38.8 oz (862-1100 g)",
-            "Wingspan: 27.6-28.4 in (70-72 cm)",
-            "Female"
-        ]
+        "description": {
+            "Shape": [
+                "A stocky, medium-sized seaduck with a short tail, rounded head, and a broad bill that does not slope up to the forehead, as the Surf Scoter's bill does. Male Black Scoters have a rounded knob at the base of the bill."
+            ],
+            "Compared Size": [
+                "Larger than a Long-tailed Duck, smaller than a White-winged Scoter."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 16.9-19.3 in (43-49 cm)",
+                "Weight: 30.4-38.8 oz (862-1100 g)",
+                "Wingspan: 27.6-28.4 in (70-72 cm)",
+                "Female"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63901801-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63901801-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63901801-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63901801-480px.jpg"
         ],
         "description": [
@@ -39,8 +45,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/63901751-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63901751-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63901751-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63901751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63901751-480px.jpg"
         ],
         "description": [
             "Winters on coastal ocean waters. Found during migration on inland lakes and larger rivers. Breeds on boreal forest lakes.",

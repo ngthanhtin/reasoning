@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63910041-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63910041-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63910041-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63910041-480px.jpg"
         ],
-        "description": [
-            "Hooded Mergansers are small ducks with a thin bill and a fan-shaped, collapsible crest that makes the head look oversized and oblong. In flight, the wings are thin and the tail is relatively long and rounded.",
-            "Smaller than a Red-breasted Merganser; larger than a Bufflehead.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 15.8-19.3 in (40-49 cm)",
-            "Weight: 16.0-31.0 oz (453-879 g)",
-            "Wingspan: 23.6-26.0 in (60-66 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Hooded Mergansers are small ducks with a thin bill and a fan-shaped, collapsible crest that makes the head look oversized and oblong. In flight, the wings are thin and the tail is relatively long and rounded."
+            ],
+            "Compared Size": [
+                "Smaller than a Red-breasted Merganser; larger than a Bufflehead."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.8-19.3 in (40-49 cm)",
+                "Weight: 16.0-31.0 oz (453-879 g)",
+                "Wingspan: 23.6-26.0 in (60-66 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63910051-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63910051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63910051-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63910051-720px.jpg"
         ],
         "description": [

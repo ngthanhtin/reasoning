@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/67456841-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67456841-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67456841-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67456841-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67456841-480px.jpg"
         ],
-        "description": [
-            "A lanky songbird with a long, curved bill, long tail, and thick legs, recalling a mockingbird but bulkier and with a different bill.",
-            "",
-            "Slightly larger than an American Robin, smaller than a Woodhouse\u2019s Scrub-Jay.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 10.6-11.0 in (27-28 cm)",
-            "Weight: 2.1-3.3 oz (60.8-93.6 g)",
-            "Wingspan: 13.4-13.6 in (34-34.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A lanky songbird with a long, curved bill, long tail, and thick legs, recalling a mockingbird but bulkier and with a different bill."
+            ],
+            "Compared Size": [
+                "Slightly larger than an American Robin, smaller than a Woodhouse\u2019s Scrub-Jay."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 10.6-11.0 in (27-28 cm)",
+                "Weight: 2.1-3.3 oz (60.8-93.6 g)",
+                "Wingspan: 13.4-13.6 in (34-34.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67456821-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67456821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67456821-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67456821-480px.jpg"
         ],
         "description": [

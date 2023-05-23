@@ -5,20 +5,26 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64812671-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64812671-480px.jpg"
         ],
-        "description": [
-            "A small, stout shorebird with a short neck, a short, slightly upturned bill, and rather short legs.",
-            "",
-            "Larger than a Sanderling, smaller than a Wandering Tattler.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A small, stout shorebird with a short neck, a short, slightly upturned bill, and rather short legs."
+            ],
+            "Compared Size": [
+                "Larger than a Sanderling, smaller than a Wandering Tattler."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64812681-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64812681-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64812681-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64812681-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64812681-720px.jpg"
         ],
         "description": [
             "A dark blackish-brown bird with a neat white belly and a bold black-and-white pattern in flight. Breeding adults have a white spot next to the bill and white breast speckling. Nonbreeding adults are similar but with less white (mostly limited to wings, tail, and belly). Juveniles are similar but more brownish than blackish. The striking flight pattern features two white stripes on each wing, a white back stripe, and a mostly white tail with a thick black band near the tip.",
@@ -34,8 +40,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64812741-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64812741-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64812741-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64812741-480px.jpg"
         ],
         "description": [

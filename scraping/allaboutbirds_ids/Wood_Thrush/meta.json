@@ -5,21 +5,29 @@
             "https://www.allaboutbirds.org/guide/assets/photo/67458521-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67458521-480px.jpg"
         ],
-        "description": [
-            "The Wood Thrush's pot-bellied body, short tail, straight bill, big head, and upright posture give it the profile of a scaled-down American Robin.",
-            "Smaller than an American Robin, larger than a Hermit Thrush.",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 7.5-8.3 in (19-21 cm)",
-            "Weight: 1.4-1.8 oz (40-50 g)",
-            "Wingspan: 11.8-13.4 in (30-34 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Wood Thrush's pot-bellied body, short tail, straight bill, big head, and upright posture give it the profile of a scaled-down American Robin."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin, larger than a Hermit Thrush."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-8.3 in (19-21 cm)",
+                "Weight: 1.4-1.8 oz (40-50 g)",
+                "Wingspan: 11.8-13.4 in (30-34 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67458541-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67458541-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67458541-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67458541-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67458541-480px.jpg"
         ],
         "description": [
             "Wood Thrushes are warm reddish-brown above and white with bold black spots on their underparts. Juveniles show a somewhat muted version of the same pattern. All have a bold, white eyering."
@@ -34,8 +42,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/67458531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67458531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67458531-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67458531-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67458531-480px.jpg"
         ],
         "description": [
             "The Wood Thrush breeds in deciduous and mixed forests in the eastern U.S. where there are large trees, moderate understory, shade, and abundant leaf litter for foraging. They winter in lowland tropical forests in Central America."

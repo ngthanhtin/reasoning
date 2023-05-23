@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67385761-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67385761-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67385761-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67385761-480px.jpg"
         ],
-        "description": [
-            "Indigo Buntings are small (roughly sparrow-sized), stocky birds with short tails and short, thick, conical bills. In flight, the birds appear plump with short, rounded tails.",
-            "Sparrow-sized; slightly smaller than a House Finch",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.1 in (12-13 cm)",
-            "Weight: 0.4-0.6 oz (12-18 g)",
-            "Wingspan: 7.5-8.7 in (19-22 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Indigo Buntings are small (roughly sparrow-sized), stocky birds with short tails and short, thick, conical bills. In flight, the birds appear plump with short, rounded tails."
+            ],
+            "Compared Size": [
+                "Sparrow-sized; slightly smaller than a House Finch"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.1 in (12-13 cm)",
+                "Weight: 0.4-0.6 oz (12-18 g)",
+                "Wingspan: 7.5-8.7 in (19-22 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67385731-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67385731-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67385731-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67385731-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67385771-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67385771-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67385771-720px.jpg"
         ],
         "description": [
             "Look for Indigo Buntings in weedy and brushy areas, especially where fields meet forests. They love edges, hedgerows, overgrown patches, and brushy roadsides. When not singing from the tallest perches in the area, they can often be seen foraging among seed-laden shrubs and grasses."

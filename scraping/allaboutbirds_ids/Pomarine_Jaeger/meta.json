@@ -5,23 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/40624151-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/40624151-480px.jpg"
         ],
-        "description": [
-            "Bulky gull-like seabird; the largest and most barrel chested of the three jaegers. At all ages, note broad wings. Breeding adults are unique with elongated spoon-shaped central tail feathers. Bill is also thicker than other jaegers.",
-            "",
-            "Larger than a Parasitic Jaeger; smaller than a Herring Gull.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 16.5-24.0 in (42-61 cm)",
-            "Weight: 18.4-30.1 oz (521-852 g)",
-            "Wingspan: 45.3-52.0 in (115-132 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Bulky gull-like seabird; the largest and most barrel chested of the three jaegers. At all ages, note broad wings. Breeding adults are unique with elongated spoon-shaped central tail feathers. Bill is also thicker than other jaegers."
+            ],
+            "Compared Size": [
+                "Larger than a Parasitic Jaeger; smaller than a Herring Gull."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.5-24.0 in (42-61 cm)",
+                "Weight: 18.4-30.1 oz (521-852 g)",
+                "Wingspan: 45.3-52.0 in (115-132 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/32801961-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32801961-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32801961-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/32801961-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/32801961-720px.jpg"
         ],
         "description": [
             "Note blackish-brown upperparts, messy black cap that extends below the bill, and extensive white flash on upper and underside of outer wing. Rare dark morph adult is entirely blackish-brown but still has white wing flashes. Immature birds are variable, but in general they are barred with brown above and have bold black-and-white bars on the underwing and undertail coverts. Typically shows white shafts on 6 to 8 outer wing feathers (more than other jaegers) and more obvious white flash on underwing.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/32801981-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32801981-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32801981-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/32801981-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/32801981-480px.jpg"
         ],
         "description": [
             "Breeds on Arctic tundra, spends the rest of the year at sea.",

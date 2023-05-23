@@ -5,22 +5,28 @@
             " https://www.allaboutbirds.org/guide/assets/photo/70690191-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70690191-480px.jpg"
         ],
-        "description": [
-            "A fairly large, powerfully built but elegant heron. Reddish Egrets have long, sturdy legs, long necks, and thick, daggerlike bills. The feathers of the head and neck are often extended, giving a shaggy appearance.",
-            "",
-            "Larger than a Snowy Egret, smaller than a Great Egret.",
-            "",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 27.6-31.5 in (70-80 cm)",
-            "Weight: 24.7-30.0 oz (700-850 g)",
-            "Wingspan: 45.3-46.5 in (115-118 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A fairly large, powerfully built but elegant heron. Reddish Egrets have long, sturdy legs, long necks, and thick, daggerlike bills. The feathers of the head and neck are often extended, giving a shaggy appearance."
+            ],
+            "Compared Size": [
+                "Larger than a Snowy Egret, smaller than a Great Egret."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 27.6-31.5 in (70-80 cm)",
+                "Weight: 24.7-30.0 oz (700-850 g)",
+                "Wingspan: 45.3-46.5 in (115-118 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70690111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70690111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70690111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70690111-720px.jpg"
         ],
         "description": [
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/70690101-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70690101-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70690101-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70690101-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70690101-480px.jpg"
         ],
         "description": [
             "Salt flats and lagoons around barrier islands, keys, mangrove forests.",

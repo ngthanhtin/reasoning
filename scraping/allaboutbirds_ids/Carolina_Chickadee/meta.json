@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68055171-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68055171-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68055171-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68055171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68055171-480px.jpg"
         ],
-        "description": [
-            "This tiny, approachable bird has a short neck and large head, giving it a distinctive spherical body shape. Its tail is fairly long and narrow. Its bill is a bit thicker than a warbler\u2019s but thinner than a finch\u2019s.",
-            "Smaller than a White-breasted Nuthatch",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.9-4.7 in (10-12 cm)",
-            "Weight: 0.3-0.4 oz (8-12 g)",
-            "Wingspan: 5.9-7.9 in (15-20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "This tiny, approachable bird has a short neck and large head, giving it a distinctive spherical body shape. Its tail is fairly long and narrow. Its bill is a bit thicker than a warbler\u2019s but thinner than a finch\u2019s."
+            ],
+            "Compared Size": [
+                "Smaller than a White-breasted Nuthatch"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-4.7 in (10-12 cm)",
+                "Weight: 0.3-0.4 oz (8-12 g)",
+                "Wingspan: 5.9-7.9 in (15-20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68055161-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68055161-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68055161-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68055161-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68055161-480px.jpg"
         ],
         "description": [
             "Carolina Chickadees have a black cap and bib separated by stark white cheeks. The back, wings, and tail are soft gray."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68055191-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68055191-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68055191-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68055191-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68055191-720px.jpg"
         ],
         "description": [
             "Forested areas or urban and suburban yards or parks with large trees."

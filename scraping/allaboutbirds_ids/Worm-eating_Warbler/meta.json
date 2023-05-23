@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63318201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63318201-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63318201-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63318201-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63318201-480px.jpg"
         ],
-        "description": [
-            "A small songbird, shaped like many other warblers but with a rather long, spikelike bill and moderately long wings and tail.",
-            "Larger than a Ruby-crowned Kinglet, smaller than a Song Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.4-5.2 in (11.2-13.1 cm)",
-            "Weight: 0.4-0.5 oz (12-14 g)",
-            "Wingspan: 7.9-8.7 in (20-22 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small songbird, shaped like many other warblers but with a rather long, spikelike bill and moderately long wings and tail."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.4-5.2 in (11.2-13.1 cm)",
+                "Weight: 0.4-0.5 oz (12-14 g)",
+                "Wingspan: 7.9-8.7 in (20-22 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/40644391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40644391-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/40644391-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40644391-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/40644391-480px.jpg"
         ],
         "description": [
             "Brownish olive above with rich buff head and underparts, a black eyeline and crown stripes, and pinkish legs.",
@@ -35,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/40644381-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/40644381-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40644381-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/40644381-480px.jpg"
         ],
         "description": [

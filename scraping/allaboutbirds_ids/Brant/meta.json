@@ -1,22 +1,28 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/59942461-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59942461-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/59942461-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/59942461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59942461-480px.jpg"
         ],
-        "description": [
-            "A compact, small goose with a stubby bill and a relatively short neck compared to most geese.",
-            "",
-            "Larger than a Mallard, smaller than a Canada Goose.",
-            "",
-            "goose-sized or larger",
-            "Sex: Male",
-            "Length: 23.3-24.5 in (59.2-62.2 cm)",
-            "Weight: 41.1-61.3 oz (1165-1737 g)",
-            "Wingspan: 41.3-42.5 in (105-108 cm)",
-            "Female"
-        ]
+        "description": {
+            "Shape": [
+                "A compact, small goose with a stubby bill and a relatively short neck compared to most geese."
+            ],
+            "Compared Size": [
+                "Larger than a Mallard, smaller than a Canada Goose."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 23.3-24.5 in (59.2-62.2 cm)",
+                "Weight: 41.1-61.3 oz (1165-1737 g)",
+                "Wingspan: 41.3-42.5 in (105-108 cm)",
+                "Female"
+            ]
+        }
     },
     "Color": {
         "link": [

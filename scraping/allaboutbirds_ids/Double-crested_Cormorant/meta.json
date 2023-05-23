@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66027281-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66027281-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66027281-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66027281-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66027281-480px.jpg"
         ],
-        "description": [
-            "Double-crested Cormorants are large waterbirds with small heads on long, kinked necks. They have thin, strongly hooked bills, roughly the length of the head. Their heavy bodies sit low in the water.",
-            "The size of a small goose; larger than Neotropic Cormorant, but smaller than Great Cormorant.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 27.6-35.4 in (70-90 cm)",
-            "Weight: 42.3-88.2 oz (1200-2500 g)",
-            "Wingspan: 44.9-48.4 in (114-123 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Double-crested Cormorants are large waterbirds with small heads on long, kinked necks. They have thin, strongly hooked bills, roughly the length of the head. Their heavy bodies sit low in the water."
+            ],
+            "Compared Size": [
+                "The size of a small goose; larger than Neotropic Cormorant, but smaller than Great Cormorant."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 27.6-35.4 in (70-90 cm)",
+                "Weight: 42.3-88.2 oz (1200-2500 g)",
+                "Wingspan: 44.9-48.4 in (114-123 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66027231-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66027231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66027231-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66027231-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66027291-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66027291-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66027291-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66027291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66027291-480px.jpg"
         ],
         "description": [
             "Double-crested Cormorants are the most widespread cormorant in North America, and the one most frequently seen in freshwater. They breed on the coast as well as on large inland lakes. They form colonies of stick nests built high in trees on islands or in patches of flooded timber."

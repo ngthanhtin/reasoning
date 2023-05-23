@@ -5,23 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/65057151-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65057151-480px.jpg"
         ],
-        "description": [
-            "A thickset waterbird, similar in size to many ducks, but with a longer neck and a heavy, pointed bill.",
-            "",
-            "Almost as large as a Mallard; intermediate between Horned Grebe and Western Grebe.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 16.9-22.1 in (43-56 cm)",
-            "Weight: 28.2-56.4 oz (800-1600 g)",
-            "Wingspan: 24.0-34.6 in (61-88 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A thickset waterbird, similar in size to many ducks, but with a longer neck and a heavy, pointed bill."
+            ],
+            "Compared Size": [
+                "Almost as large as a Mallard; intermediate between Horned Grebe and Western Grebe."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-22.1 in (43-56 cm)",
+                "Weight: 28.2-56.4 oz (800-1600 g)",
+                "Wingspan: 24.0-34.6 in (61-88 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65057131-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65057131-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65057131-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65057131-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65057131-720px.jpg"
         ],
         "description": [
             "Nonbreeding birds are mostly dark gray above, paler below, with pale cheeks and sides of neck. Breeding adults have a rusty red breast and foreneck, with a smart black cap and sharply defined white cheek. Immatures are similar to nonbreeding adults but head pattern is less distinct.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65057111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65057111-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65057111-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65057111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65057111-480px.jpg"
         ],
         "description": [
             "Numerous aquatic habitats during migration and the nonbreeding season, from rivers to lakes, bays to open ocean; nesting birds select mostly larger lakes.",

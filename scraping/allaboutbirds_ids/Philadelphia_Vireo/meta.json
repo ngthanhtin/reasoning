@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/32804881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32804881-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32804881-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32804881-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/32804881-480px.jpg"
         ],
-        "description": [
-            "A small songbird; small for a vireo but still chunkier than a warbler. The bill is small compared with other vireos.",
-            "Larger than a Ruby-crowned Kinglet, slightly smaller than a Red-eyed Vireo.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.2-4.9 in (10.7-12.5 cm)",
-            "Weight: 0.4-0.6 oz (10.3-16.1 g)",
-            "Wingspan: 7.5-8.3 in (19-21 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small songbird; small for a vireo but still chunkier than a warbler. The bill is small compared with other vireos."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, slightly smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.2-4.9 in (10.7-12.5 cm)",
+                "Weight: 0.4-0.6 oz (10.3-16.1 g)",
+                "Wingspan: 7.5-8.3 in (19-21 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [

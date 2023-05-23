@@ -5,20 +5,26 @@
             "https://www.allaboutbirds.org/guide/assets/photo/67277561-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67277561-480px.jpg"
         ],
-        "description": [
-            "A very small songbird with a short, notched tail and a thick-based but very small bill that looks \u201cpushed in\u201d compared to Common Redpoll. Fluffed up plumage often makes this species appear portly.",
-            "",
-            "Larger than a Golden-crowned Kinglet, smaller than a House Finch.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A very small songbird with a short, notched tail and a thick-based but very small bill that looks \u201cpushed in\u201d compared to Common Redpoll. Fluffed up plumage often makes this species appear portly."
+            ],
+            "Compared Size": [
+                "Larger than a Golden-crowned Kinglet, smaller than a House Finch."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/67277511-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67277511-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67277511-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67277511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67277511-720px.jpg"
         ],
         "description": [
             "Hoary Redpolls are pale whitish birds with gray-brown streaks. Adults have a small red patch on the forecrown. They have darker gray tail and wings, with bold white wingbars. Some individuals have a rosy tint to the rump and underparts, or a buff tint to the face and back. Adult females are less strikingly white overall than males. Juveniles are brownish and streaky, often with buff tones in the face.",
@@ -34,9 +40,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67277531-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67277531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67277531-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67277531-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67277531-720px.jpg"
         ],
         "description": [
             "Nests mostly in tundra where there are shrubs or stunted trees, sometimes in crevices of rocky areas. Typically winters in the Arctic, north of (or above) treeline, occasionally farther south, where usually found in weedy fields and sometimes at bird feeders.",

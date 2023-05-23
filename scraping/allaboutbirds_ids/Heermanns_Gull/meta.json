@@ -1,16 +1,22 @@
 {
     "Size": {
-        "description": [
-            "A medium-sized gull with long wings, a fairly rounded head, and a straight, relatively long bill that is less heavy and angled than bills of larger gulls.",
-            "",
-            "Larger than a Mew Gull, slightly smaller than a California Gull.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 18.1-20.9 in (46-53 cm)",
-            "Weight: 13.1-22.7 oz (371-643 g)",
-            "Wingspan: 40.9-45.3 in (104-115 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized gull with long wings, a fairly rounded head, and a straight, relatively long bill that is less heavy and angled than bills of larger gulls."
+            ],
+            "Compared Size": [
+                "Larger than a Mew Gull, slightly smaller than a California Gull."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-20.9 in (46-53 cm)",
+                "Weight: 13.1-22.7 oz (371-643 g)",
+                "Wingspan: 40.9-45.3 in (104-115 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66030571-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66030571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66030571-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66030571-480px.jpg"
         ],
-        "description": [
-            "A medium-sized seabird with a small head and medium-length, sharply pointed bill. The neck and tail are fairly short; the wings are short and narrow (helps with \u201cflying\u201d underwater).",
-            "Larger than a Pied-billed Grebe, smaller than a Common Murre.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 11.8-13.8 in (30-35 cm)",
-            "Weight: 15.9-19.4 oz (450-550 g)",
-            "Wingspan: 21.6-23.2 in (55-59 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized seabird with a small head and medium-length, sharply pointed bill. The neck and tail are fairly short; the wings are short and narrow (helps with \u201cflying\u201d underwater)."
+            ],
+            "Compared Size": [
+                "Larger than a Pied-billed Grebe, smaller than a Common Murre."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-13.8 in (30-35 cm)",
+                "Weight: 15.9-19.4 oz (450-550 g)",
+                "Wingspan: 21.6-23.2 in (55-59 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -35,8 +43,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/66030581-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66030581-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66030581-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66030581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66030581-720px.jpg"
         ],
         "description": [
             "Nests on rocky islands, shorelines, and cliffs. Forages near the ocean shoreline and in openings in sea ice."

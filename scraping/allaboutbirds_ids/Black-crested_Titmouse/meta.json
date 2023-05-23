@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68043611-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68043611-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68043611-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68043611-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043611-480px.jpg"
         ],
-        "description": [
-            "A medium-sized songbird with a long tail, short bill, and distinctive crest.",
-            "Larger than a Carolina Chickadee, slightly smaller than a Red-eyed Vireo.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.9 in (15 cm)",
-            "Weight: 0.5-0.7 oz (15.2-18.4 g)",
-            "Wingspan: 9.1-9.8 in (23-25 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized songbird with a long tail, short bill, and distinctive crest."
+            ],
+            "Compared Size": [
+                "Larger than a Carolina Chickadee, slightly smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9 in (15 cm)",
+                "Weight: 0.5-0.7 oz (15.2-18.4 g)",
+                "Wingspan: 9.1-9.8 in (23-25 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/68043591-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68043591-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68043591-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68043591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043591-480px.jpg"
         ],
         "description": [
             "Medium gray above, pale below, with grayish flanks and black crest; sides and forehead sometimes tinged buff."
@@ -34,9 +42,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68043581-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68043581-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68043581-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68043581-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043581-480px.jpg"
         ],
         "description": [
             "A wide variety of wooded habitats, from mesquite bosques to montane evergreen forests, oak scrub, or suburbs.",

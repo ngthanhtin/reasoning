@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63734251-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63734251-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63734251-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63734251-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63734251-720px.jpg"
         ],
-        "description": [
-            "Smaller and more slender than an American Robin, Baltimore Orioles are medium-sized, sturdy-bodied songbirds with thick necks and long legs. Look for their long, thick-based, pointed bills, a hallmark of the blackbird family they belong to.",
-            "About the size of a Red-winged Blackbird, but slimmer.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 6.7-7.5 in (17-19 cm)",
-            "Weight: 1.1-1.4 oz (30-40 g)",
-            "Wingspan: 9.1-11.8 in (23-30 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Smaller and more slender than an American Robin, Baltimore Orioles are medium-sized, sturdy-bodied songbirds with thick necks and long legs. Look for their long, thick-based, pointed bills, a hallmark of the blackbird family they belong to."
+            ],
+            "Compared Size": [
+                "About the size of a Red-winged Blackbird, but slimmer."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-7.5 in (17-19 cm)",
+                "Weight: 1.1-1.4 oz (30-40 g)",
+                "Wingspan: 9.1-11.8 in (23-30 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/63734211-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63734211-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63734211-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63734211-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734211-480px.jpg"
         ],
         "description": [
             "Adult males are flame-orange and black, with a solid-black head and one white bar on their black wings. Females and immature males are yellow-orange on the breast, grayish on the head and back, with two bold white wing bars."
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63734191-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63734191-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63734191-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63734191-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734191-480px.jpg"
         ],
         "description": [
             "Look for Baltimore Orioles high in leafy deciduous trees, but not in deep forests: they\u2019re found in open woodland, forest edge, orchards, and stands of trees along rivers, in parks, and in backyards."

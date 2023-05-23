@@ -1,26 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/39344721-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/39344721-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39344721-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/39344721-480px.jpg"
         ],
-        "description": [
-            "Grasshopper Sparrow is on the small side for a sparrow, with a distinctive compact shape. The head is large and flat-crowned, with a conspicuous bill. Tail is very short.",
-            "",
-            "Among the smallest birds in its habitat; slightly smaller than a Savannah Sparrow.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-4.5 in (10.8-11.5 cm)",
-            "Weight: 0.5-0.7 oz (14-20 g)",
-            "Wingspan: 7.9 in (20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Grasshopper Sparrow is on the small side for a sparrow, with a distinctive compact shape. The head is large and flat-crowned, with a conspicuous bill. Tail is very short."
+            ],
+            "Compared Size": [
+                "Among the smallest birds in its habitat; slightly smaller than a Savannah Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-4.5 in (10.8-11.5 cm)",
+                "Weight: 0.5-0.7 oz (14-20 g)",
+                "Wingspan: 7.9 in (20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/32804001-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32804001-480px.jpg"
         ],
         "description": [

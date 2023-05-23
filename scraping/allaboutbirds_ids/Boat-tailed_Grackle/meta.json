@@ -2,24 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67363931-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67363931-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67363931-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67363931-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67363931-480px.jpg"
         ],
-        "description": [
-            "Boat-tailed Grackles are large, lanky songbirds with rounded crowns, long legs, and fairly long, pointed bills. Males have very long tails that make up almost half their body length and that they typically hold folded in a V-shape, like the keel of a boat.",
-            "Smaller than a Fish Crow; larger than a Common Grackle.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 10.2-14.6 in (26-37 cm)",
-            "Weight: 3.3-8.4 oz (93-239 g)",
-            "Wingspan: 15.3-19.7 in (39-50 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Boat-tailed Grackles are large, lanky songbirds with rounded crowns, long legs, and fairly long, pointed bills. Males have very long tails that make up almost half their body length and that they typically hold folded in a V-shape, like the keel of a boat."
+            ],
+            "Compared Size": [
+                "Smaller than a Fish Crow; larger than a Common Grackle."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 10.2-14.6 in (26-37 cm)",
+                "Weight: 3.3-8.4 oz (93-239 g)",
+                "Wingspan: 15.3-19.7 in (39-50 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67363941-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67363941-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67363941-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67363941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67363941-480px.jpg"
         ],
         "description": [
             "Males are glossy black all over. Females are dark brown above and russet below, with a subtle face pattern made up of a pale eyebrow, dark cheek, and pale \u201cmustache\u201d stripe. Eye color ranges from dull brown along the western Gulf Coast to bright yellow along the Atlantic Coast."
@@ -34,8 +42,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67363881-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67363881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67363881-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67363881-480px.jpg"
         ],
         "description": [

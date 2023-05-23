@@ -5,20 +5,28 @@
             "https://www.allaboutbirds.org/guide/assets/photo/63893401-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63893401-720px.jpg"
         ],
-        "description": [
-            "Green-winged Teal are very small ducks. They have short, blocky bodies and their tails sit high out of the water. The head is large, the neck is short, and the bill is relatively small.",
-            "A very small duck: much smaller than a Mallard; slightly larger than an Eared Grebe. About the size of a Pied-billed Grebe.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 12.2-15.3 in (31-39 cm)",
-            "Weight: 4.9-17.6 oz (140-500 g)",
-            "Wingspan: 20.5-23.2 in (52-59 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Green-winged Teal are very small ducks. They have short, blocky bodies and their tails sit high out of the water. The head is large, the neck is short, and the bill is relatively small."
+            ],
+            "Compared Size": [
+                "A very small duck: much smaller than a Mallard; slightly larger than an Eared Grebe. About the size of a Pied-billed Grebe."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 12.2-15.3 in (31-39 cm)",
+                "Weight: 4.9-17.6 oz (140-500 g)",
+                "Wingspan: 20.5-23.2 in (52-59 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63893391-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63893391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63893391-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63893391-720px.jpg"
         ],
         "description": [
@@ -34,8 +42,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/63893451-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63893451-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63893451-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63893451-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63893451-480px.jpg"
         ],
         "description": [
             "Green-winged Teal feed on shallow bodies of water and in flooded fields. They breed in dense vegetation along river deltas. During migration and winter, look for them on shallow wetlands, coastal marshes and estuaries."

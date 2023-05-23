@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63899821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63899821-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63899821-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63899821-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63899821-480px.jpg"
         ],
-        "description": [
-            "A medium-sized sea duck with sturdy neck, rather large head, and heavy, broad bill.",
-            "",
-            "Smaller than a Mallard, larger than a teal.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 18.9-23.6 in (48-60 cm)",
-            "Weight: 31.8-45.6 oz (900-1293 g)",
-            "Wingspan: 29.9-30.3 in (76-77 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized sea duck with sturdy neck, rather large head, and heavy, broad bill."
+            ],
+            "Compared Size": [
+                "Smaller than a Mallard, larger than a teal."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.9-23.6 in (48-60 cm)",
+                "Weight: 31.8-45.6 oz (900-1293 g)",
+                "Wingspan: 29.9-30.3 in (76-77 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63899851-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63899851-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63899851-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63899851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63899851-720px.jpg"
         ],
         "description": [
             "Adult males are jet black with orange, white, and black bill and white patches at the nape, forecrown, and base of the bill. Females are dark brown with dark gray bills and usually show two patches of white on the face.",

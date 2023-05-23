@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65681491-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65681491-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65681491-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681491-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65681491-480px.jpg"
         ],
-        "description": [
-            "The Eastern Phoebe is a plump songbird with a medium-length tail. It appears large-headed for a bird of its size. The head often appears flat on top, but phoebes sometimes raise the feathers up into a peak. Like most small flycatchers, they have short, thin bills used for catching insects.",
-            "Slightly larger than a Tufted Titmouse.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5-6.7 in (14-17 cm)",
-            "Weight: 0.6-0.7 oz (16-21 g)",
-            "Wingspan: 10.2-11.0 in (26-28 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Eastern Phoebe is a plump songbird with a medium-length tail. It appears large-headed for a bird of its size. The head often appears flat on top, but phoebes sometimes raise the feathers up into a peak. Like most small flycatchers, they have short, thin bills used for catching insects."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Tufted Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.7 in (14-17 cm)",
+                "Weight: 0.6-0.7 oz (16-21 g)",
+                "Wingspan: 10.2-11.0 in (26-28 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65681481-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65681481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65681481-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65681481-720px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65681461-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65681461-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681461-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65681461-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65681461-720px.jpg"
         ],
         "description": [
             "These birds favor open woods such as yards, parks, woodlands, and woodland edges. Phoebes usually breed around buildings or bridges on which they construct their nests under the protection of an eave or ledge."

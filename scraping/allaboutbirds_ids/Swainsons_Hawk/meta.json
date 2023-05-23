@@ -2,21 +2,29 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/60333361-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60333361-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60333361-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60333361-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60333361-480px.jpg"
         ],
-        "description": [
-            "Swainson\u2019s Hawks are buteos, meaning they are large hawks with fairly broad wings and short tails. However, Swainson\u2019s Hawks are less hefty than many other buteos. They are slimmer and longer-winged, with their wings typically held in a shallow V when soaring.",
-            "Larger than a Cooper\u2019s Hawk; smaller than a Ferruginous Hawk.",
-            "between crow and goose",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Swainson\u2019s Hawks are buteos, meaning they are large hawks with fairly broad wings and short tails. However, Swainson\u2019s Hawks are less hefty than many other buteos. They are slimmer and longer-winged, with their wings typically held in a shallow V when soaring."
+            ],
+            "Compared Size": [
+                "Larger than a Cooper\u2019s Hawk; smaller than a Ferruginous Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/62810721-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/62810721-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/62810721-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/62810721-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/62810721-480px.jpg"
         ],
         "description": [
             "Though they can be quite variable, most Swainson\u2019s Hawks are light-bellied birds with a dark or reddish-brown chest and brown or gray upperparts. They have distinctive underwings with white wing linings that contrast strongly with blackish flight feathers. Most males have gray heads; females tend to have brown heads. Dark individuals also occur; these vary from reddish to nearly all black, with reduced contrast on the underwings."
@@ -30,8 +38,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/32869631-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32869631-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32869631-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32869631-480px.jpg"
         ],
         "description": [

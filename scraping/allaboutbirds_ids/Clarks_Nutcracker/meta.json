@@ -1,21 +1,29 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70580641-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70580641-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70580641-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70580641-480px.jpg"
         ],
-        "description": [
-            "Clark\u2019s Nutcrackers are the size of a jay but the shape of a crow, with short tails and rounded, crestless heads. The bill is long, straight, and sharp-tipped.",
-            "Smaller than an American Crow; about the size of a Steller\u2019s Jay but more compact.",
-            "between robin and crow",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Clark\u2019s Nutcrackers are the size of a jay but the shape of a crow, with short tails and rounded, crestless heads. The bill is long, straight, and sharp-tipped."
+            ],
+            "Compared Size": [
+                "Smaller than an American Crow; about the size of a Steller\u2019s Jay but more compact."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70580621-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70580621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70580621-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70580621-480px.jpg"
         ],
         "description": [
@@ -30,8 +38,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70580671-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70580671-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70580671-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70580671-720px.jpg"
         ],
         "description": [

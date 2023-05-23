@@ -2,23 +2,29 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/70695191-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70695191-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70695191-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70695191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695191-720px.jpg"
         ],
-        "description": [
-            "A medium-sized wading bird with compact body, long neck, long legs, and long, curved bill.",
-            "",
-            "Larger than a Cattle Egret, slightly smaller than a night-heron.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized wading bird with compact body, long neck, long legs, and long, curved bill."
+            ],
+            "Compared Size": [
+                "Larger than a Cattle Egret, slightly smaller than a night-heron."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70695221-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70695221-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70695221-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70695221-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70695221-480px.jpg"
         ],
         "description": [
             "The plumage appears dark, almost blackish, at a distance or in poor light. At close range, much of the body is maroon, with the wing coverts showing metallic green, bronze, and violet tones.",

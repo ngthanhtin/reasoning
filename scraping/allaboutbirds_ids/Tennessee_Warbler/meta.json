@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64440371-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64440371-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64440371-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64440371-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64440371-480px.jpg"
         ],
-        "description": [
-            "Small and stocky for a warbler, with a short tail and a thin and sharply pointed bill (markedly smaller and more pointed than a Red-eyed Vireo's bill).",
-            "",
-            "Larger than a Golden-crowned Kinglet, slightly smaller than a Yellow-rumped Warbler.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.9-5.1 in (10-13 cm)",
-            "Weight: 0.3-0.3 oz (8-10 g)",
-            "Wingspan: 7.5-7.9 in (19-20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Small and stocky for a warbler, with a short tail and a thin and sharply pointed bill (markedly smaller and more pointed than a Red-eyed Vireo's bill)."
+            ],
+            "Compared Size": [
+                "Larger than a Golden-crowned Kinglet, slightly smaller than a Yellow-rumped Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-5.1 in (10-13 cm)",
+                "Weight: 0.3-0.3 oz (8-10 g)",
+                "Wingspan: 7.5-7.9 in (19-20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64440461-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg"
         ],
         "description": [
             "Tennessee Warblers breed in coniferous or mixed deciduous-coniferous forest across Canada. On migration they can occur in most types of forests and woodlands. Winters in second-growth tropical forests.",

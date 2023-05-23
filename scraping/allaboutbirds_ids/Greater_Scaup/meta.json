@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63895761-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63895761-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63895761-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63895761-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63895761-480px.jpg"
         ],
-        "description": [
-            "The Greater Scaup is a medium-sized diving duck with a rounded head.",
-            "",
-            "Larger than a Green-winged Teal, smaller than a Canvasback.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 15.3-22.1 in (39-56 cm)",
-            "Weight: 25.6-48.0 oz (726-1360 g)",
-            "Wingspan: 28.4-31.1 in (72-79 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Greater Scaup is a medium-sized diving duck with a rounded head."
+            ],
+            "Compared Size": [
+                "Larger than a Green-winged Teal, smaller than a Canvasback."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.3-22.1 in (39-56 cm)",
+                "Weight: 25.6-48.0 oz (726-1360 g)",
+                "Wingspan: 28.4-31.1 in (72-79 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63895801-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63895801-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63895801-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63895801-720px.jpg"
         ],
         "description": [

@@ -1,16 +1,22 @@
 {
     "Size": {
-        "description": [
-            "A large-bodied, thick-necked bird with a heavy, straight bill. The wings are fairly long and often show \u201cfingers\u201d at the tips. The tail is long with a slight wedge or diamond shape.",
-            "",
-            "Larger than an American Crow, smaller than a Common Raven.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 18.1-20.9 in (46-53 cm)",
-            "Weight: 15.6-23.5 oz (442-667 g)",
-            "Wingspan: 40.9-43.3 in (104-110 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large-bodied, thick-necked bird with a heavy, straight bill. The wings are fairly long and often show \u201cfingers\u201d at the tips. The tail is long with a slight wedge or diamond shape."
+            ],
+            "Compared Size": [
+                "Larger than an American Crow, smaller than a Common Raven."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-20.9 in (46-53 cm)",
+                "Weight: 15.6-23.5 oz (442-667 g)",
+                "Wingspan: 40.9-43.3 in (104-110 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

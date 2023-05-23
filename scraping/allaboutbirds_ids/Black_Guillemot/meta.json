@@ -2,26 +2,32 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/66029491-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66029491-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66029491-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66029491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66029491-720px.jpg"
         ],
-        "description": [
-            "A medium-sized seabird with a heavy body and fairly short, pointed wings. It has a small head and relatively short neck. The bill is straight and sharply pointed.",
-            "",
-            "Larger than a Pied-billed Grebe, smaller than a Surf Scoter.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 11.8-12.6 in (30-32 cm)",
-            "Weight: 11.3-17.1 oz (320-485 g)",
-            "Wingspan: 20.5-22.8 in (52-58 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized seabird with a heavy body and fairly short, pointed wings. It has a small head and relatively short neck. The bill is straight and sharply pointed."
+            ],
+            "Compared Size": [
+                "Larger than a Pied-billed Grebe, smaller than a Surf Scoter."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-12.6 in (30-32 cm)",
+                "Weight: 11.3-17.1 oz (320-485 g)",
+                "Wingspan: 20.5-22.8 in (52-58 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66029501-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66029501-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66029501-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66029501-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66029501-480px.jpg"
         ],
         "description": [
             "Breeding adults are mostly deep black with large white patches on the wings visible when the wings are folded. The underwings are white with black border. The legs and feet are bright red. Nonbreeding adults retain the black-and-white wing pattern but have mostly whitish head, neck, and underparts. Immatures are similar but with grayish feathers in the head, neck, and sides, and less white in the upperwing.",
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66029511-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66029511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66029511-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66029511-480px.jpg"
         ],
         "description": [

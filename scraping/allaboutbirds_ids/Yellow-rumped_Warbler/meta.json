@@ -5,20 +5,28 @@
             " https://www.allaboutbirds.org/guide/assets/photo/66119101-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66119101-480px.jpg"
         ],
-        "description": [
-            "Yellow-rumped Warblers are fairly large, full-bodied warblers with a large head, sturdy bill, and long, narrow tail.",
-            "Large warbler; about the size of a Black-capped Chickadee",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.5 in (12-14 cm)",
-            "Weight: 0.4-0.5 oz (12-13 g)",
-            "Wingspan: 7.5-9.1 in (19-23 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Yellow-rumped Warblers are fairly large, full-bodied warblers with a large head, sturdy bill, and long, narrow tail."
+            ],
+            "Compared Size": [
+                "Large warbler; about the size of a Black-capped Chickadee"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.4-0.5 oz (12-13 g)",
+                "Wingspan: 7.5-9.1 in (19-23 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66119111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66119111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66119111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66119111-720px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66119131-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66119131-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66119131-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66119131-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66119131-480px.jpg"
         ],
         "description": [
             "In summer, Yellow-rumped Warblers are birds of open coniferous forests and edges, and to a lesser extent deciduous forests. In fall and winter they move to open woods and shrubby habitats, including coastal vegetation, parks, and residential areas."

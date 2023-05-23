@@ -1,18 +1,24 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65763191-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65763191-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65763191-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65763191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65763191-480px.jpg"
         ],
-        "description": [
-            "A small, sturdy songbird with a fairly thick, short, and slightly hooked bill.",
-            "",
-            "Larger than a Red-breasted Nuthatch, smaller than a Red-eyed Vireo.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A small, sturdy songbird with a fairly thick, short, and slightly hooked bill."
+            ],
+            "Compared Size": [
+                "Larger than a Red-breasted Nuthatch, smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -34,8 +40,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65763201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65763201-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65763201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65763201-480px.jpg"
         ],
         "description": [

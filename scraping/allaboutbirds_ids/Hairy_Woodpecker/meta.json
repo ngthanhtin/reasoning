@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68929251-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg"
         ],
-        "description": [
-            "A medium-sized woodpecker with a fairly square head, a long, straight, chisel-like bill, and stiff, long tail feathers to lean against on tree trunks. The bill is nearly the same length as the head.",
-            "About a third again larger than a Downy Woodpecker",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.1-10.2 in (18-26 cm)",
-            "Weight: 1.4-3.4 oz (40-95 g)",
-            "Wingspan: 13.0-16.1 in (33-41 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized woodpecker with a fairly square head, a long, straight, chisel-like bill, and stiff, long tail feathers to lean against on tree trunks. The bill is nearly the same length as the head."
+            ],
+            "Compared Size": [
+                "About a third again larger than a Downy Woodpecker"
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-10.2 in (18-26 cm)",
+                "Weight: 1.4-3.4 oz (40-95 g)",
+                "Wingspan: 13.0-16.1 in (33-41 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [

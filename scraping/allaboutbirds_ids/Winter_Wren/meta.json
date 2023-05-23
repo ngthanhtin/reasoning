@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68035611-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68035611-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68035611-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68035611-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68035611-480px.jpg"
         ],
-        "description": [
-            "The Winter Wren is a plump round ball with a stubby tail that it usually holds straight up. Its bill is small and thin, in keeping with its diminutive appearance.",
-            "Larger than a Ruby-throated Hummingbird, smaller than a Carolina Wren.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.1-4.7 in (8-12 cm)",
-            "Weight: 0.3-0.4 oz (8-12 g)",
-            "Wingspan: 4.7-6.3 in (12-16 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Winter Wren is a plump round ball with a stubby tail that it usually holds straight up. Its bill is small and thin, in keeping with its diminutive appearance."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-throated Hummingbird, smaller than a Carolina Wren."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.1-4.7 in (8-12 cm)",
+                "Weight: 0.3-0.4 oz (8-12 g)",
+                "Wingspan: 4.7-6.3 in (12-16 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68035601-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68035601-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035601-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68035601-480px.jpg"
         ],
         "description": [

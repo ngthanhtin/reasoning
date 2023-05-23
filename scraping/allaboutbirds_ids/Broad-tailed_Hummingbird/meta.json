@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65766281-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65766281-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65766281-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65766281-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65766281-480px.jpg"
         ],
-        "description": [
-            "Broad-tailed Hummingbirds, though tiny, are medium-sized for a North American hummingbird. They have a slender body, a big head, and a long straight bill. Its tail is relatively long for a hummingbird, extending beyond the wingtips when perched.",
-            "Larger than a Calliope Hummingbird, slightly smaller than a Rufous Hummingbird.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Broad-tailed Hummingbirds, though tiny, are medium-sized for a North American hummingbird. They have a slender body, a big head, and a long straight bill. Its tail is relatively long for a hummingbird, extending beyond the wingtips when perched."
+            ],
+            "Compared Size": [
+                "Larger than a Calliope Hummingbird, slightly smaller than a Rufous Hummingbird."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65766321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65766321-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65766321-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65766321-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65766321-480px.jpg"
         ],
         "description": [
             "The Broad-tailed Hummingbird is iridescent green above with greenish or buffy flanks and a white chest and line down the belly. Adult males have a rose-magenta throat patch (gorget). Females and juveniles have green spots on their throats and cheeks and a pale eyering. When they spread their tail in flight, they flash white tail tips."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65766291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65766291-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65766291-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65766291-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65766291-480px.jpg"
         ],
         "description": [
             "Broad-tailed Hummingbirds breed in high-elevation meadows, shrubby habitats near pine-oak and evergreen forests, and forest openings within pinyon-juniper, oak woodlands, and evergreen forests in the western United States."

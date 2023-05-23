@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70691271-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70691271-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70691271-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70691271-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70691271-480px.jpg"
         ],
-        "description": [
-            "Compared with other herons, Cattle Egrets are noticeably small and compact. They have relatively short legs and a short thick neck. The straight, daggerlike bill is shorter and thicker than other herons. They have medium-length, broad, rounded wings.",
-            "Smaller and stockier than a Snowy Egret; larger than a Rock Pigeon.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 18.1-22.1 in (46-56 cm)",
-            "Weight: 9.5-18.1 oz (270-512 g)",
-            "Wingspan: 34.6-37.8 in (88-96 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Compared with other herons, Cattle Egrets are noticeably small and compact. They have relatively short legs and a short thick neck. The straight, daggerlike bill is shorter and thicker than other herons. They have medium-length, broad, rounded wings."
+            ],
+            "Compared Size": [
+                "Smaller and stockier than a Snowy Egret; larger than a Rock Pigeon."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-22.1 in (46-56 cm)",
+                "Weight: 9.5-18.1 oz (270-512 g)",
+                "Wingspan: 34.6-37.8 in (88-96 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70691031-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70691031-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70691031-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70691031-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70691031-480px.jpg"
         ],
         "description": [
             "Adult Cattle Egrets are all white with a yellow bill and legs. In breeding plumage they have golden plumes on their head, chest, and back. Juveniles have dark legs and bill."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70691021-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70691021-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70691021-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70691021-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70691021-480px.jpg"
         ],
         "description": [
             "They forage in flocks in upland areas such as pastures and fields, generally focusing on drier habitats than other species of white herons."

@@ -5,15 +5,23 @@
             " https://www.allaboutbirds.org/guide/assets/photo/60408671-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60408671-480px.jpg"
         ],
-        "description": [
-            "The Pileated Woodpecker is a very large woodpecker with a long neck and a triangular crest that sweeps off the back of the head. The bill is long and chisel-like, about the length of the head. In flight, the wings are broad and the bird can seem crowlike.",
-            "Nearly the size of an American Crow",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 15.8-19.3 in (40-49 cm)",
-            "Weight: 8.8-12.3 oz (250-350 g)",
-            "Wingspan: 26.0-29.5 in (66-75 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Pileated Woodpecker is a very large woodpecker with a long neck and a triangular crest that sweeps off the back of the head. The bill is long and chisel-like, about the length of the head. In flight, the wings are broad and the bird can seem crowlike."
+            ],
+            "Compared Size": [
+                "Nearly the size of an American Crow"
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.8-19.3 in (40-49 cm)",
+                "Weight: 8.8-12.3 oz (250-350 g)",
+                "Wingspan: 26.0-29.5 in (66-75 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60408741-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60408741-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60408741-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60408741-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60408741-720px.jpg"
         ],
         "description": [
             "Pileated Woodpeckers are forest birds that require large, standing dead trees and downed wood. Forests can be evergreen, deciduous, or mixed and are often old, particularly in the West. In the East they live in young forests as well and may even be seen in partially wooded suburbs and backyards."

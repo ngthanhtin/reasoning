@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64810681-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64810681-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64810681-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64810681-480px.jpg"
         ],
-        "description": [
-            "Large, long-legged shorebird with a very long, thin curved bill. It has a heavy football-shaped body, a long neck, and a small round head.",
-            "",
-            "Larger than a Whimbrel, smaller than a Great Egret.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 19.7-25.6 in (50-65 cm)",
-            "Weight: 17.3-33.5 oz (490-950 g)",
-            "Wingspan: 24.4-35.0 in (62-89 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Large, long-legged shorebird with a very long, thin curved bill. It has a heavy football-shaped body, a long neck, and a small round head."
+            ],
+            "Compared Size": [
+                "Larger than a Whimbrel, smaller than a Great Egret."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 19.7-25.6 in (50-65 cm)",
+                "Weight: 17.3-33.5 oz (490-950 g)",
+                "Wingspan: 24.4-35.0 in (62-89 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64810671-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64810671-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64810671-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64810671-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64810671-720px.jpg"
         ],
         "description": [
             "Speckled and barred in browns above with a pale cinnamon wash throughout and a plain cinnamon belly. The head and neck are pale with faint streaks and the lower bill is pink at the base. In flight, the upper and lower wings are strongly cinnamon.",

@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67284201-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67284201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67284201-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67284201-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67284201-720px.jpg"
         ],
-        "description": [
-            "Among the small forest birds like chickadees, kinglets, and nuthatches, Purple Finches are large and chunky. Their powerful, conical beaks are larger than any sparrow\u2019s. The tail seems short and is clearly notched at the tip.",
-            "About the same size as House Finch and House Sparrow",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-6.3 in (12-16 cm)",
-            "Weight: 0.6-1.1 oz (18-32 g)",
-            "Wingspan: 8.7-10.2 in (22-26 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Among the small forest birds like chickadees, kinglets, and nuthatches, Purple Finches are large and chunky. Their powerful, conical beaks are larger than any sparrow\u2019s. The tail seems short and is clearly notched at the tip."
+            ],
+            "Compared Size": [
+                "About the same size as House Finch and House Sparrow"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-6.3 in (12-16 cm)",
+                "Weight: 0.6-1.1 oz (18-32 g)",
+                "Wingspan: 8.7-10.2 in (22-26 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67284371-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67284371-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67284371-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67284371-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67284181-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67284181-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67284181-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67284181-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67284181-720px.jpg"
         ],
         "description": [
             "Purple Finches breed mainly in coniferous forests or mixed deciduous and coniferous woods. During winter you can find them in a wider variety of habitats, including shrublands, old fields, forest edges, and backyards."

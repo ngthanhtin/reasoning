@@ -2,24 +2,32 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/39523701-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/39523701-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/39523701-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/39523701-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39523701-720px.jpg"
         ],
-        "description": [
-            "A small songbird with relatively short wings, moderately long tail, and a fine, long, sharp bill.",
-            "Slightly larger than a House Wren, smaller than a Western Bluebird.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.9-5.9 in (12.5-15 cm)",
-            "Weight: 0.5-0.6 oz (15-18 g)",
-            "Wingspan: 8.7-9.4 in (22-24 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small songbird with relatively short wings, moderately long tail, and a fine, long, sharp bill."
+            ],
+            "Compared Size": [
+                "Slightly larger than a House Wren, smaller than a Western Bluebird."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.9-5.9 in (12.5-15 cm)",
+                "Weight: 0.5-0.6 oz (15-18 g)",
+                "Wingspan: 8.7-9.4 in (22-24 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63317581-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63317581-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63317581-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63317581-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63317581-480px.jpg"
         ],
         "description": [
             "Brown with flecks of gray above; pale below with buffy flanks. Fine streaks below are often hard to see. Brown wings have fine, dark barring and there are small speckles on the back and wings. The russet tail has dark bars and a buffy tip."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/30471711-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/30471711-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/30471711-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/30471711-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/30471711-720px.jpg"
         ],
         "description": [
             "Rock Wrens occupy almost any arid, stony environment, from desert to alpine, provided there is not too much vegetation. They avoid wetlands and waterways but use habitats altered by industrial activity (mining, clearcutting, road building, etc.)."

@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71000911-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71000911-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71000911-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71000911-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71000911-720px.jpg"
         ],
-        "description": [
-            "A stocky, barrel-chested flycatcher, with a large head and a heavy, long bill for its size. It has rather long wings that can make the tail look short.",
-            "",
-            "Larger than a Western Wood-Pewee, smaller than a Western Kingbird.",
-            "",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 7.1-7.9 in (18-20 cm)",
-            "Weight: 1.0-1.4 oz (28-40.4 g)",
-            "Wingspan: 12.4-13.6 in (31.5-34.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A stocky, barrel-chested flycatcher, with a large head and a heavy, long bill for its size. It has rather long wings that can make the tail look short."
+            ],
+            "Compared Size": [
+                "Larger than a Western Wood-Pewee, smaller than a Western Kingbird."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-7.9 in (18-20 cm)",
+                "Weight: 1.0-1.4 oz (28-40.4 g)",
+                "Wingspan: 12.4-13.6 in (31.5-34.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71000691-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71000691-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71000691-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71000691-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/71000691-720px.jpg"
         ],
         "description": [
             "Sooty gray-brown above (with olive tones only in optimal light and fresh plumage), paler below. The dark gray sides of the breast contrast with white in the center, making it look as if the bird is wearing a vest. From the rear, large white tufts at the sides of the back are sometimes visible.",

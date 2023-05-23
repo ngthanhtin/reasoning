@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/396862381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/396862381-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/396862381-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/396862381-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/396862381-480px.jpg"
         ],
-        "description": [
-            "A heavy-bodied, very large kingfisher, with a thick, daggerlike bill, shaggy crest, fairly long tail, moderately long wings, and short legs.",
-            "Larger than a Belted Kingfisher, smaller than an American Crow.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 11.0-13.8 in (28-35 cm)",
-            "Weight: 4.9-6.0 oz (140-170 g)",
-            "Wingspan: 25.0 in (63.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A heavy-bodied, very large kingfisher, with a thick, daggerlike bill, shaggy crest, fairly long tail, moderately long wings, and short legs."
+            ],
+            "Compared Size": [
+                "Larger than a Belted Kingfisher, smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.0-13.8 in (28-35 cm)",
+                "Weight: 4.9-6.0 oz (140-170 g)",
+                "Wingspan: 25.0 in (63.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/396862911-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/396862911-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/396862911-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/396862911-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/396862911-480px.jpg"
         ],
         "description": [
             "Males are slaty blue above and rich chestnut below, with a white collar and undertail coverts and white spotting in tail and wings. Female are similar but have a broad bluish band across the breast and a thin white crescent above the chestnut belly."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/396861931-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/396861931-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/396861931-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/396861931-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/396861931-480px.jpg"
         ],
         "description": [
             "Freshwater sites with clear or mostly clear water, including rivers, ponds, lakes, and resacas (oxbow lakes); less often in saltwater and brackish environments."

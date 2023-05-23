@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/64980861-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64980861-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64980861-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64980861-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64980861-720px.jpg"
         ],
-        "description": [
-            "Vesper Sparrows are fairly large sparrows with a chunky body, a fairly small conical bill, and a long, notched tail.",
-            "",
-            "Larger than a Savannah Sparrow, smaller than a Western Meadowlark.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.1-6.3 in (13-16 cm)",
-            "Weight: 0.7-1.0 oz (20-28 g)",
-            "Wingspan: 9.4 in (24 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Vesper Sparrows are fairly large sparrows with a chunky body, a fairly small conical bill, and a long, notched tail."
+            ],
+            "Compared Size": [
+                "Larger than a Savannah Sparrow, smaller than a Western Meadowlark."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-6.3 in (13-16 cm)",
+                "Weight: 0.7-1.0 oz (20-28 g)",
+                "Wingspan: 9.4 in (24 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64980841-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64980841-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64980841-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64980841-480px.jpg"
         ],
         "description": [
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64980871-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64980871-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64980871-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64980871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64980871-720px.jpg"
         ],
         "description": [
             "Found in open grassy areas including prairie, weedy fields, sagebrush steppe, meadows, pastures, and roadsides. Tends to avoid areas with taller grass and wetter areas.",

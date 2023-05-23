@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70774241-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70774241-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70774241-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70774241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70774241-720px.jpg"
         ],
-        "description": [
-            "Mississippi Kites are slender, fairly small raptors with long, pointed wings. The tail is fairly long and square-tipped. The strongly hooked bill is small and delicate.",
-            "Larger than a Rock Pigeon; smaller than a Peregrine Falcon.",
-            "between crow and goose",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Mississippi Kites are slender, fairly small raptors with long, pointed wings. The tail is fairly long and square-tipped. The strongly hooked bill is small and delicate."
+            ],
+            "Compared Size": [
+                "Larger than a Rock Pigeon; smaller than a Peregrine Falcon."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70774281-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70774281-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70774281-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70774281-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70774281-480px.jpg"
         ],
         "description": [
             "Mississippi Kites are an inky mix of gray and black, lightening to pale gray-white on the head and in the secondaries of the wings. The wingtips and tail are black. Juveniles are streaky, with brownish chests and underwings, and banded tails."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70774291-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70774291-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70774291-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70774291-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70774291-720px.jpg"
         ],
         "description": [
             "They live in bottomland hardwood forests of the Southeast and in tree-lined areas of the southern prairies including windbreaks, shelterbelts, parks, and urban areas."

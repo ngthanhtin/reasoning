@@ -2,26 +2,32 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/66026931-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66026931-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66026931-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66026931-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66026931-480px.jpg"
         ],
-        "description": [
-            "A slim waterbird, small for a cormorant, with a long neck, a rather long tail, and a fairly thin, straight bill with a hooked tip. It has broad wings and large webbed feet.",
-            "",
-            "Larger than a Black-crowned Night-Heron, smaller than a Double-crested Cormorant.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 24.0 in (61 cm)",
-            "Weight: 37.7-52.9 oz (1070-1500 g)",
-            "Wingspan: 40.2 in (102 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A slim waterbird, small for a cormorant, with a long neck, a rather long tail, and a fairly thin, straight bill with a hooked tip. It has broad wings and large webbed feet."
+            ],
+            "Compared Size": [
+                "Larger than a Black-crowned Night-Heron, smaller than a Double-crested Cormorant."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 24.0 in (61 cm)",
+                "Weight: 37.7-52.9 oz (1070-1500 g)",
+                "Wingspan: 40.2 in (102 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/66026891-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66026891-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66026891-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66026891-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66026891-480px.jpg"
         ],
         "description": [
             "Adults are black birds with orange skin on the throat, bordered with a thin white line. At close range and in good light, there is a faint olive sheen to the wings. In breeding plumage, adults have a small white tuft of feathers near ear. Juveniles are similar but the head, neck, and breast are pale brownish.",
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66026901-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66026901-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66026901-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66026901-480px.jpg"
         ],
         "description": [

@@ -2,25 +2,33 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/60329071-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60329071-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60329071-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/60329071-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60329071-720px.jpg"
         ],
-        "description": [
-            "The Bald Eagle dwarfs most other raptors, including the Turkey Vulture and Red-tailed Hawk. It has a heavy body, large head, and long, hooked bill. In flight, a Bald Eagle holds its broad wings flat like a board.",
-            "Relative Size: One of the largest birds in North America, wingspan slightly greater than",
-            "Great Blue Heron",
-            ".",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 27.9-37.8 in (71-96 cm)",
-            "Weight: 105.8-222.2 oz (3000-6300 g)",
-            "Wingspan: 80.3 in (204 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Bald Eagle dwarfs most other raptors, including the Turkey Vulture and Red-tailed Hawk. It has a heavy body, large head, and long, hooked bill. In flight, a Bald Eagle holds its broad wings flat like a board."
+            ],
+            "Compared Size": [
+                "Relative Size: One of the largest birds in North America, wingspan slightly greater than",
+                "Great Blue Heron",
+                "."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 27.9-37.8 in (71-96 cm)",
+                "Weight: 105.8-222.2 oz (3000-6300 g)",
+                "Wingspan: 80.3 in (204 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60329441-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60329441-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60329441-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60329441-720px.jpg"
         ],
         "description": [
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60328981-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60328981-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60328981-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60328981-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60328981-480px.jpg"
         ],
         "description": [
             "Look for Bald Eagles near lakes, reservoirs, rivers, marshes, and coasts. For a chance to see large Bald Eagle congregations, check out wildlife refuges or large bodies of water in winter over much of the continent, or fish processing plants and dumpsters year-round in coastal Alaska and the Pacific Northwest."

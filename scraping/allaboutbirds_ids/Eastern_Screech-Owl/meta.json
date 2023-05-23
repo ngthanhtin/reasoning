@@ -5,21 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/60389751-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60389751-720px.jpg"
         ],
-        "description": [
-            "The Eastern Screech-Owl is a short, stocky bird, with a large head and almost no neck. Its wings are rounded; its tail is short and square. Pointed ear tufts are often raised, lending its head a distinctive silhouette.",
-            "A small owl, slightly larger and considerably bulkier than a European Starling.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 6.3-9.8 in (16-25 cm)",
-            "Weight: 4.3-8.6 oz (121-244 g)",
-            "Wingspan: 18.9-24.0 in (48-61 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Eastern Screech-Owl is a short, stocky bird, with a large head and almost no neck. Its wings are rounded; its tail is short and square. Pointed ear tufts are often raised, lending its head a distinctive silhouette."
+            ],
+            "Compared Size": [
+                "A small owl, slightly larger and considerably bulkier than a European Starling."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-9.8 in (16-25 cm)",
+                "Weight: 4.3-8.6 oz (121-244 g)",
+                "Wingspan: 18.9-24.0 in (48-61 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/60389761-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60389761-480px.jpg"
         ],
         "description": [
             "Eastern Screech-Owls can be either mostly gray or mostly reddish-brown (rufous). Whatever the overall color, they are patterned with complex bands and spots that give the bird excellent camouflage against tree bark. Eyes are yellow."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60389741-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60389741-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60389741-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/60389741-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60389741-720px.jpg"
         ],
         "description": [
             "Trees define the Eastern Screech-Owl\u2019s habitat. This owl is fairly common in most types of woods (evergreen or deciduous; urban or rural), particularly near water. It shuns treeless expanses of mountains or plains."

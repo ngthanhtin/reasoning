@@ -2,24 +2,32 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/60314231-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60314231-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60314231-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60314231-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60314231-480px.jpg"
         ],
-        "description": [
-            "Largest of the North American herons with long legs, a sinuous neck, and thick, daggerlike bill. Head, chest, and wing plumes give a shaggy appearance. In flight, the Great Blue Heron curls its neck into a tight \u201cS\u201d shape; its wings are broad and rounded and its legs trail well beyond the tail.",
-            "Taller and much heavier than a Great Egret; smaller and much less bulky than a Sandhill Crane.",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 38.2-53.9 in (97-137 cm)",
-            "Weight: 74.1-88.2 oz (2100-2500 g)",
-            "Wingspan: 65.8-79.1 in (167-201 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Largest of the North American herons with long legs, a sinuous neck, and thick, daggerlike bill. Head, chest, and wing plumes give a shaggy appearance. In flight, the Great Blue Heron curls its neck into a tight \u201cS\u201d shape; its wings are broad and rounded and its legs trail well beyond the tail."
+            ],
+            "Compared Size": [
+                "Taller and much heavier than a Great Egret; smaller and much less bulky than a Sandhill Crane."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 38.2-53.9 in (97-137 cm)",
+                "Weight: 74.1-88.2 oz (2100-2500 g)",
+                "Wingspan: 65.8-79.1 in (167-201 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60314201-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60314201-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60314201-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60314201-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60314201-480px.jpg"
         ],
         "description": [
             "Great Blue Herons appear blue-gray from a distance, with a wide black stripe over the eye. In flight, the upper side of the wing is two-toned: pale on the forewing and darker on the flight feathers. A pure white subspecies occurs in coastal southern Florida."

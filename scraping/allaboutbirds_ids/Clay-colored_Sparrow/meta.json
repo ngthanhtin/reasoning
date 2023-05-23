@@ -5,20 +5,28 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64972451-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64972451-480px.jpg"
         ],
-        "description": [
-            "Clay-colored Sparrows are petite, trim sparrows with a small bill, slender body, and fairly long, notched tail. The small, slender shape of these and other",
-            "Spizella",
-            "sparrows is distinctive.",
-            "About the size of a Chipping Sparrow; slightly smaller than a Song Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Clay-colored Sparrows are petite, trim sparrows with a small bill, slender body, and fairly long, notched tail. The small, slender shape of these and other",
+                "Spizella",
+                "sparrows is distinctive."
+            ],
+            "Compared Size": [
+                "About the size of a Chipping Sparrow; slightly smaller than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64972441-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64972441-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64972441-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64972441-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64972441-720px.jpg"
         ],
         "description": [
             "These are mostly pale, tan-and-gray birds with a contrasting face pattern. Their pale gray collar is a helpful mark at all times of the year. The crown is finely streaked, with a pale stripe over the eye and darker cheek. The dark eyeline does not extend in front of the eye."
@@ -32,8 +40,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64972481-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64972481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64972481-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64972481-480px.jpg"
         ],
         "description": [

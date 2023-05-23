@@ -1,32 +1,38 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60291281-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60291281-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60291281-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60291281-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60291281-480px.jpg"
         ],
-        "description": [
-            "A relatively large duck, similar in size to a Mallard, with a sturdy body, short neck, short tail, and moderately long bill.",
-            "",
-            "Larger than a Blue-winged Teal, smaller than a Common Merganser.",
-            "",
-            "between crow and goose",
-            "Sex: Male",
-            "Length: 19.7-22.5 in (50-57.2 cm)",
-            "Weight: 30.9-43.8 oz (876-1241 g)",
-            "Wingspan: 32.7-34.3 in (83.1-87.2 cm)",
-            "Female",
-            "Length: 18.5-21.0 in (46.9-53.4 cm)Weight: 24.7-40.6 oz (699-1151 g)Wingspan: 31.5-327.2 in (80-831 cm)",
-            "Length: 18.5-21.0 in (46.9-53.4 cm)",
-            "Weight: 24.7-40.6 oz (699-1151 g)",
-            "Wingspan: 31.5-327.2 in (80-831 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A relatively large duck, similar in size to a Mallard, with a sturdy body, short neck, short tail, and moderately long bill."
+            ],
+            "Compared Size": [
+                "Larger than a Blue-winged Teal, smaller than a Common Merganser."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 19.7-22.5 in (50-57.2 cm)",
+                "Weight: 30.9-43.8 oz (876-1241 g)",
+                "Wingspan: 32.7-34.3 in (83.1-87.2 cm)",
+                "Female",
+                "Length: 18.5-21.0 in (46.9-53.4 cm)Weight: 24.7-40.6 oz (699-1151 g)Wingspan: 31.5-327.2 in (80-831 cm)",
+                "Length: 18.5-21.0 in (46.9-53.4 cm)",
+                "Weight: 24.7-40.6 oz (699-1151 g)",
+                "Wingspan: 31.5-327.2 in (80-831 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60291271-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60291271-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60291271-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60291271-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60291271-720px.jpg"
         ],
         "description": [
             "Both sexes are mostly brown and buff, like a female Mallard but richer with a yellow bill and a black patch at the opening of the bill (the gape). The very buffy face and throat lack fine streaking. The back (scapulars) and sides are rich brown streaked with buff. Males have intensely yellow bills; females have greenish yellow to orangeish, with or without dark markings. White in the tail is an indication that the individual has some Mallard genes: a pure Mottled Duck has a dark tail.",
@@ -43,8 +49,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/60291321-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60291321-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60291321-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60291321-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60291321-480px.jpg"
         ],
         "description": [
             "Freshwater wetlands including marshes, lakes, ponds, ditches, impoundments, flooded fields (including rice fields), stormwater collection areas, mosquito control reservoirs, and sewage treatment plants.",

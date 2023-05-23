@@ -1,16 +1,22 @@
 {
     "Size": {
-        "description": [
-            "A very large songbird with a heavy body, a large head, and an extremely long tail. The bill is stout and slightly curved. The wings are wide and rounded.",
-            "",
-            "Much larger than a California Scrub-Jay, slightly smaller than an American Crow.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 16.9-21.3 in (43-54 cm)",
-            "Weight: 5.3-6.0 oz (150-170 g)",
-            "Wingspan: 24.0 in (61 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A very large songbird with a heavy body, a large head, and an extremely long tail. The bill is stout and slightly curved. The wings are wide and rounded."
+            ],
+            "Compared Size": [
+                "Much larger than a California Scrub-Jay, slightly smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-21.3 in (43-54 cm)",
+                "Weight: 5.3-6.0 oz (150-170 g)",
+                "Wingspan: 24.0 in (61 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

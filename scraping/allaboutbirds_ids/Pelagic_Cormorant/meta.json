@@ -1,26 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66026051-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66026051-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66026051-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66026051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66026051-720px.jpg"
         ],
-        "description": [
-            "A large seabird with a long, thin neck, a long tail, and a narrow, small head. Breeding adults have short crests on the front of the crown and the hindcrown. Pelagic Cormorants are smaller and slenderer than other cormorant species of the Pacific.",
-            "",
-            "Larger than a Snowy Egret, notably smaller and slenderer than a Double-crested Cormorant.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 20.1-29.9 in (51-76 cm)",
-            "Weight: 48.3-86.1 oz (1370-2440 g)",
-            "Wingspan: 39.4-47.6 in (100-121 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large seabird with a long, thin neck, a long tail, and a narrow, small head. Breeding adults have short crests on the front of the crown and the hindcrown. Pelagic Cormorants are smaller and slenderer than other cormorant species of the Pacific."
+            ],
+            "Compared Size": [
+                "Larger than a Snowy Egret, notably smaller and slenderer than a Double-crested Cormorant."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 20.1-29.9 in (51-76 cm)",
+                "Weight: 48.3-86.1 oz (1370-2440 g)",
+                "Wingspan: 39.4-47.6 in (100-121 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66026031-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66026031-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66026031-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66026031-480px.jpg"
         ],
         "description": [

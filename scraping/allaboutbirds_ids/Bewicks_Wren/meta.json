@@ -1,16 +1,24 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68034911-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68034911-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68034911-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68034911-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68034911-480px.jpg"
         ],
-        "description": [
-            "Bewick\u2019s Wrens are medium-sized wrens with a slender body and a strikingly long tail often held upright. They have slender, long bills that are slightly downcurved.",
-            "Smaller than a House Sparrow; slightly larger than a House Wren",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Bewick\u2019s Wrens are medium-sized wrens with a slender body and a strikingly long tail often held upright. They have slender, long bills that are slightly downcurved."
+            ],
+            "Compared Size": [
+                "Smaller than a House Sparrow; slightly larger than a House Wren"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68034961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68034961-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68034961-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68034961-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68034961-480px.jpg"
         ],
         "description": [
             "Bewick\u2019s Wrens favor dry brushy areas, chaparral, scrub, thickets in open country, and open woodlands near rivers and streams. They are at home in gardens, residential areas, and parks in cities and suburbs."

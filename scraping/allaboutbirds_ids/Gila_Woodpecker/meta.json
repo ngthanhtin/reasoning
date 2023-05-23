@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64993581-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64993581-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64993581-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64993581-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64993581-720px.jpg"
         ],
-        "description": [
-            "A medium-sized woodpecker with a long, pointed bill.",
-            "",
-            "Larger than a Ladder-backed Woodpecker, smaller than a Gilded Flicker.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 8.7-9.4 in (22-24 cm)",
-            "Weight: 1.8-2.8 oz (51-79 g)",
-            "Wingspan: 15.8-16.5 in (40-42 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized woodpecker with a long, pointed bill."
+            ],
+            "Compared Size": [
+                "Larger than a Ladder-backed Woodpecker, smaller than a Gilded Flicker."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.7-9.4 in (22-24 cm)",
+                "Weight: 1.8-2.8 oz (51-79 g)",
+                "Wingspan: 15.8-16.5 in (40-42 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64993531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64993531-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64993531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64993531-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64993531-480px.jpg"
         ],
         "description": [
             "Stands of saguaro cactus, desert scrub, arroyos and washes, and small towns.",

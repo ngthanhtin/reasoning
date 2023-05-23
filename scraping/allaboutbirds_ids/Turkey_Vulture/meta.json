@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60317261-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60317261-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60317261-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60317261-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60317261-720px.jpg"
         ],
-        "description": [
-            "Turkey Vultures are large dark birds with long, broad wings. Bigger than other raptors except eagles and condors, they have long \"fingers\" at their wingtips and long tails that extend past their toe tips in flight. When soaring, Turkey Vultures hold their wings slightly raised, making a \u2018V\u2019 when seen head-on.",
-            "Smaller than an eagle; larger than a Red-tailed Hawk",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 25.2-31.9 in (64-81 cm)",
-            "Weight: 70.5 oz (2000 g)",
-            "Wingspan: 66.9-70.1 in (170-178 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Turkey Vultures are large dark birds with long, broad wings. Bigger than other raptors except eagles and condors, they have long \"fingers\" at their wingtips and long tails that extend past their toe tips in flight. When soaring, Turkey Vultures hold their wings slightly raised, making a \u2018V\u2019 when seen head-on."
+            ],
+            "Compared Size": [
+                "Smaller than an eagle; larger than a Red-tailed Hawk"
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 25.2-31.9 in (64-81 cm)",
+                "Weight: 70.5 oz (2000 g)",
+                "Wingspan: 66.9-70.1 in (170-178 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [

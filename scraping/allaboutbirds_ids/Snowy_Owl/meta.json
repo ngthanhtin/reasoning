@@ -1,25 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66046411-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66046411-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66046411-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66046411-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66046411-720px.jpg"
         ],
-        "description": [
-            "Snowy Owls are very large owls with smoothly rounded heads that rarely show ear tufts. The body is bulky, with dense feathering on the legs that makes the bird look wide at the base when sitting on the ground.",
-            "",
-            "About the size of a Great Horned Owl.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 20.5-27.9 in (52-71 cm)",
-            "Weight: 56.4-104.1 oz (1600-2950 g)",
-            "Wingspan: 49.6-57.1 in (126-145 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Snowy Owls are very large owls with smoothly rounded heads that rarely show ear tufts. The body is bulky, with dense feathering on the legs that makes the bird look wide at the base when sitting on the ground."
+            ],
+            "Compared Size": [
+                "About the size of a Great Horned Owl."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 20.5-27.9 in (52-71 cm)",
+                "Weight: 56.4-104.1 oz (1600-2950 g)",
+                "Wingspan: 49.6-57.1 in (126-145 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66046481-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66046481-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66046481-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66046481-480px.jpg"
         ],
         "description": [

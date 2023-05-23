@@ -2,26 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64809161-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64809161-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64809161-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64809161-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64809161-480px.jpg"
         ],
-        "description": [
-            "A small, compact shorebird with a short, stubby bill, a round head, and large eyes. The body is plump, with a short neck and medium-length legs.",
-            "",
-            "Larger than a Least Sandpiper, smaller than a Killdeer.",
-            "",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 6.7-7.5 in (17-19 cm)",
-            "Weight: 1.6-1.8 oz (45.6-49.5 g)",
-            "Wingspan: 18.5-19.7 in (47-50 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small, compact shorebird with a short, stubby bill, a round head, and large eyes. The body is plump, with a short neck and medium-length legs."
+            ],
+            "Compared Size": [
+                "Larger than a Least Sandpiper, smaller than a Killdeer."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-7.5 in (17-19 cm)",
+                "Weight: 1.6-1.8 oz (45.6-49.5 g)",
+                "Wingspan: 18.5-19.7 in (47-50 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64809171-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64809171-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64809171-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64809171-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64809171-480px.jpg"
         ],
         "description": [
             "Adults are brown above, white below, with one black band on the breast. Black around the eye, with white marks above eye and bill and a white band above the black collar. The short orange bill has a black tip. Juveniles have brown instead of black on the face, and a brown breast band that is sometimes incomplete. Legs are yellow-orange.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64809141-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64809141-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64809141-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64809141-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64809141-480px.jpg"
         ],
         "description": [
             "Nests in arctic tundra. Forages in mudflats, agricultural fields, river margins, sewage ponds, and lakeshores. Roosts in marshes or on beaches.",

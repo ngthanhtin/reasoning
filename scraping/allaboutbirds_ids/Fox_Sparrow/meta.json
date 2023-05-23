@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66115291-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66115291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115291-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66115291-480px.jpg"
         ],
-        "description": [
-            "Fox Sparrows are large, round-bodied sparrows with stout bills and medium-length tails.",
-            "Smaller than a Spotted Towhee; larger than a Dark-eyed Junco.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.9-7.5 in (15-19 cm)",
-            "Weight: 0.9-1.6 oz (26-44 g)",
-            "Wingspan: 10.5-11.4 in (26.7-29 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Fox Sparrows are large, round-bodied sparrows with stout bills and medium-length tails."
+            ],
+            "Compared Size": [
+                "Smaller than a Spotted Towhee; larger than a Dark-eyed Junco."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-7.5 in (15-19 cm)",
+                "Weight: 0.9-1.6 oz (26-44 g)",
+                "Wingspan: 10.5-11.4 in (26.7-29 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66115301-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66115301-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66115301-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66115301-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66115301-720px.jpg"
         ],
         "description": [
             "Though highly variable (see \u201cRegional Differences\u201d), Fox Sparrows are generally rust-brown above with a mix of rust and gray on the head, and heavy brownish splotches on the flanks and the center of the chest. The bill can range from yellowish to dark gray."
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66115311-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66115311-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66115311-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66115311-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66115311-720px.jpg"
         ],
         "description": [
             "Fox Sparrows breed in coniferous forest and dense mountain scrub. They spend winters in scrubby habitat and forest, when they are most likely to be seen kicking around under backyard bird feeders."

@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/40243911-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/40243911-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40243911-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/40243911-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40243911-480px.jpg"
         ],
-        "description": [
-            "A stocky, football-shaped seabird with a very short neck, a large head, and an enormous bill (especially during the breeding season) that is tall and laterally flattened.",
-            "",
-            "Larger than a Pigeon Guillemot, smaller than a Common Murre.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A stocky, football-shaped seabird with a very short neck, a large head, and an enormous bill (especially during the breeding season) that is tall and laterally flattened."
+            ],
+            "Compared Size": [
+                "Larger than a Pigeon Guillemot, smaller than a Common Murre."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40243921-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/40243921-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40243921-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40243921-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/40243921-720px.jpg"
         ],
         "description": [
             "Breeding adults are blackish with a white face and a yellow bill with a red-orange tip. They have a white breast and belly, and vivid orange feet. Dark, fleshy \u201chorns\u201d extend above the eyes. Nonbreeding adults have sooty gray faces and lose the yellow portion of the bill revealing a smaller, grayish base. Immatures have smaller, all-gray bills compared to adults.",
@@ -34,9 +40,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63289321-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63289321-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63289321-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63289321-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63289321-720px.jpg"
         ],
         "description": [
             "Nests on rocky seaside cliffs in Siberia, Alaska, and northern British Columbia. Forages in littoral (near-shore) ocean areas when nesting but for most of the year lives and forages only in deep pelagic waters of the central North Pacific, very far from land.",

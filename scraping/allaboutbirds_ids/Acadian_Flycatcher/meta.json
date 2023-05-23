@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/36209501-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/36209501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36209501-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/36209501-480px.jpg"
         ],
-        "description": [
-            "Small and long-tailed, with a large, peaked head and a broad, flat bill. Sits with a distinctly upright posture. Wings are long for a flycatcher.",
-            "",
-            "Larger than a Yellow Warbler, smaller than a Great Crested Flycatcher.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5-5.9 in (14-15 cm)",
-            "Weight: 0.4-0.5 oz (11.1-13.9 g)",
-            "Wingspan: 8.7-9.1 in (22-23 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Small and long-tailed, with a large, peaked head and a broad, flat bill. Sits with a distinctly upright posture. Wings are long for a flycatcher."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow Warbler, smaller than a Great Crested Flycatcher."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-5.9 in (14-15 cm)",
+                "Weight: 0.4-0.5 oz (11.1-13.9 g)",
+                "Wingspan: 8.7-9.1 in (22-23 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/36210371-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36210371-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/36210371-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/36210371-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/36210371-720px.jpg"
         ],
         "description": [
             "Acadian Flycatchers are olive-green above with a whitish eyering and whitish underparts. The wings are dark with two distinct white wingbars. The bill is dark above and mostly orange-yellow below.",
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/36210031-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/36210031-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/36210031-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/36210031-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/36210031-480px.jpg"
         ],
         "description": [
             "Breeds in mature deciduous forests, often in lowlands near rivers, streams, and swamps. In winter, they can be found in lowland tropical forest.",

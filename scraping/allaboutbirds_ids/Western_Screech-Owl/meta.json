@@ -5,19 +5,26 @@
             " https://www.allaboutbirds.org/guide/assets/photo/66045411-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66045411-480px.jpg"
         ],
-        "description": [
-            "Western Screech-Owls are small owls with stocky bodies. They have somewhat square heads, almost no neck, and conspicuous ear tufts. The tail is short.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.5-9.8 in (19-25 cm)",
-            "Weight: 3.5-10.8 oz (100-305 g)",
-            "Wingspan: 21.6-24.4 in (55-62 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Western Screech-Owls are small owls with stocky bodies. They have somewhat square heads, almost no neck, and conspicuous ear tufts. The tail is short."
+            ],
+            "Compared Size": [],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-9.8 in (19-25 cm)",
+                "Weight: 3.5-10.8 oz (100-305 g)",
+                "Wingspan: 21.6-24.4 in (55-62 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66045391-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66045391-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66045391-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66045391-720px.jpg"
         ],
         "description": [
@@ -32,9 +39,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66045421-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66045421-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg"
         ],
         "description": [
             "They live in forests (particularly among deciduous trees) at elevations up to about 6,000 feet. They are fairly tolerant of people and may be found in suburbs or parks, or attracted to forested backyards with a nest box."

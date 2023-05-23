@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66113121-720px.jpg"
         ],
-        "description": [
-            "Burrowing Owls are small owls with long legs and short tails. The head is rounded and does not have ear tufts.",
-            "About the same length/height as an American Robin but much bulkier; slightly smaller than a Western Screech-Owl.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 7.5-9.8 in (19-25 cm)",
-            "Weight: 5.3 oz (150 g)",
-            "Wingspan: 21.6 in (55 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Burrowing Owls are small owls with long legs and short tails. The head is rounded and does not have ear tufts."
+            ],
+            "Compared Size": [
+                "About the same length/height as an American Robin but much bulkier; slightly smaller than a Western Screech-Owl."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-9.8 in (19-25 cm)",
+                "Weight: 5.3 oz (150 g)",
+                "Wingspan: 21.6 in (55 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66113141-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg"
         ],
         "description": [
             "Adults are brown birds mottled with sandy-pale spots on the upperparts. The breast is spotted, grading to dark brown bars on the belly. They have a bold white throat and eyebrows, and yellow eyes. The brown juveniles are less mottled than adults, with buffy-yellow underparts and wing patch."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66113161-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg"
         ],
         "description": [
             "Burrowing Owls live in open habitats with sparse vegetation such as prairie, pastures, desert or shrubsteppe, and airports. In parts of their range they are closely associated with prairie dogs and ground squirrels, whose burrows they use for nests."

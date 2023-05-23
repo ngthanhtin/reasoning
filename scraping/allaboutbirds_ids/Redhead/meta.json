@@ -5,31 +5,38 @@
             "https://www.allaboutbirds.org/guide/assets/photo/63894341-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63894341-480px.jpg"
         ],
-        "description": [
-            "Redheads are medium-sized diving ducks with a smoothly rounded head and a moderately large bill.",
-            "Slightly larger than a Ring-necked Duck; slightly smaller than a Canvasback.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 16.5-21.3 in (42-54 cm)",
-            "Weight: 22.2-52.9 oz (630-1500 g)",
-            "Wingspan: 29.5-31.1 in (75-79 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Redheads are medium-sized diving ducks with a smoothly rounded head and a moderately large bill."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Ring-necked Duck; slightly smaller than a Canvasback."
+            ],
+            "Relative Size": [
+                "between crow and\n                      goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.5-21.3 in (42-54 cm)",
+                "Weight: 22.2-52.9 oz (630-1500 g)",
+                "Wingspan: 29.5-31.1 in (75-79 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63894351-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63894351-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63894351-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63894351-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63894351-480px.jpg"
         ],
         "description": [
-            "Male Redheads are a dapper mixture of cinnamon head, black breast and tail, and neat gray body. Females and immatures are a plain, mostly uniform brown. Redheads have black-tipped, gray bills, and in flight they show gray flight feathers."
+            "Male Redheads are a dapper mixture of cinnamon head, black breast and tail, and neat gray body.\n                    Females and immatures are a plain, mostly uniform brown. Redheads have black-tipped, gray bills, and\n                    in flight they show gray flight feathers."
         ]
     },
     "Behavior": {
         "link": "https://player.vimeo.com/video/238665571",
         "description": [
-            "In migration and winter, look for Redheads in large rafts, often with other species including Canvasbacks, scaup, wigeon, and American Coots. They usually dive for their food, although they use shallower water than other diving ducks and may feed by tipping up, like a dabbling duck."
+            "In migration and winter, look for Redheads in large rafts, often with other species including\n                    Canvasbacks, scaup, wigeon, and American Coots. They usually dive for their food, although they use\n                    shallower water than other diving ducks and may feed by tipping up, like a dabbling duck."
         ]
     },
     "Habitat": {
@@ -39,7 +46,7 @@
             " https://www.allaboutbirds.org/guide/assets/photo/63894391-720px.jpg"
         ],
         "description": [
-            "Redheads breed mainly in seasonal wetlands such as the prairie pothole region of the Midwest. In migration and winter they group into large flocks on the Gulf Coast, as well as along the Great Lakes and in lakes, reservoirs, bays, and along coastlines across the southern U.S."
+            "Redheads breed mainly in seasonal wetlands such as the prairie pothole region of the Midwest. In\n                    migration and winter they group into large flocks on the Gulf Coast, as well as along the Great\n                    Lakes and in lakes, reservoirs, bays, and along coastlines across the southern U.S."
         ]
     }
 }

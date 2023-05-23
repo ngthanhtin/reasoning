@@ -5,18 +5,26 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64990421-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64990421-480px.jpg"
         ],
-        "description": [
-            "Rufous-crowned Sparrows are relatively large sparrows with rounded heads and fairly long tails. The thick, pointed bill is fairly large.",
-            "Larger and bulkier than a Chipping Sparrow; smaller than a White-crowned Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Rufous-crowned Sparrows are relatively large sparrows with rounded heads and fairly long tails. The thick, pointed bill is fairly large."
+            ],
+            "Compared Size": [
+                "Larger and bulkier than a Chipping Sparrow; smaller than a White-crowned Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/71005621-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71005621-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71005621-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71005621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005621-480px.jpg"
         ],
         "description": [
             "These are grayish sparrows with streaky backs and and bright reddish-brown crowns. They have a white eyering and a white malar or whisker stripe that\u2019s bordered in black and contrasts with the gray face and underparts."
@@ -30,8 +38,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64990441-720px.jpg"
         ],
         "description": [

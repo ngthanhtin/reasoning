@@ -138,9 +138,9 @@ def store_meta(species: str, meta: list):
     for k in meta.keys():
         if k == 'Size':
             if 'link' in meta['Size']:
-                meta_dict['Size'] = {'link':meta['Size']['link'], 'description': []}
+                meta_dict['Size'] = {'link':meta['Size']['link'], 'description': {"Shape": [], "Compared Size": [], "Relative Size":[], "Measurements": []}}
             else:
-                meta_dict['Size'] = {'description': []}
+                meta_dict['Size'] = {'description': {"Shape": [], "Compared Size": [], "Relative Size":[], "Measurements": []}}
 
             for i in range(len(meta[k]['description'])):
                 if i == 3: # measurement
@@ -148,12 +148,22 @@ def store_meta(species: str, meta: list):
                         if idx == 1:
                             continue
                         if idx == 0: # sex
-                            meta_dict['Size']['description'].append("Sex: "+ ele.text.strip())
+                            # meta_dict['Size']['description'].append("Sex: "+ ele.text.strip())
+                            meta_dict['Size']['description']['Measurements'].append("Sex: "+ ele.text.strip())
                         else:
-                            meta_dict['Size']['description'].append(ele.text.strip())
+                            meta_dict['Size']['description']['Measurements'].append(ele.text.strip())
+                            # meta_dict['Size']['description'].append(ele.text.strip())
                 else:
+                    
                     for idx, ele in enumerate(meta[k]['description'][i]):
-                        meta_dict['Size']['description'].append(ele.text.strip())
+                        if ele.text.strip() == '':
+                            continue
+                        if i == 0:
+                            meta_dict['Size']['description']['Shape'].append(ele.text.strip())
+                        if i == 1:
+                            meta_dict['Size']['description']['Compared Size'].append(ele.text.strip())
+                        if i == 2:
+                            meta_dict['Size']['description']['Relative Size'].append(ele.text.strip())
         else:
             if 'link' in meta[k]:
                 meta_dict[k] = {'link': meta[k]['link'], 'description': []}
@@ -324,9 +334,9 @@ def id_scraper(species: str, url: str = None):
                     # time.sleep(1)
         
         # save the descriptions
-        json_object = json.dumps(bird_type_dict, indent=4)
-        with open(f"{ID_FOLDER}/{species}/bird_type_dict.json", 'w') as f:
-            f.write(json_object)
+        # json_object = json.dumps(bird_type_dict, indent=4)
+        # with open(f"{ID_FOLDER}/{species}/bird_type_dict.json", 'w') as f:
+        #     f.write(json_object)
 
         # -----Get the text size & shape-----
         text_tags=soup.find('article', {"aria-label":"Size & Shape"})
@@ -385,7 +395,7 @@ def id_scraper(species: str, url: str = None):
         print(str(e))      
 
 # %%
-id_scraper('American_Crow')
+id_scraper('Acadian_Flycatcher')
 
 # %%
 def species_compare_scraper(species: str, url: str = None):

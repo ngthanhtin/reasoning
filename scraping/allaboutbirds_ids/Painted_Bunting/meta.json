@@ -1,23 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67385111-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67385111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67385111-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67385111-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67385111-720px.jpg"
         ],
-        "description": [
-            "Painted Buntings are medium-sized finchlike birds with stubby, thick, seed-eating bills.",
-            "",
-            "Larger than an American Goldfinch; smaller than an Eastern Bluebird.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Painted Buntings are medium-sized finchlike birds with stubby, thick, seed-eating bills."
+            ],
+            "Compared Size": [
+                "Larger than an American Goldfinch; smaller than an Eastern Bluebird."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67385091-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67385091-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67385091-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67385091-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67385091-480px.jpg"
         ],
         "description": [
             "Males are stunningly colored with blue heads, red underparts, and green backs. Females and immatures are a uniform, bright yellow-green overall, with a pale eyering. Though they are basically unpatterned, their overall color is greener and brighter than similar songbirds."
@@ -31,9 +38,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67385131-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67385131-480px.jpg"
         ],
         "description": [
             "Painted Buntings breed in dense brush, often adjacent to thick, grassy areas or woodland edges. During migration and winter they favor dense, weedy habitats as well as the understory of semi-open forest."

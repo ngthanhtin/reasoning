@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64971271-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64971271-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64971271-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64971271-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64971271-720px.jpg"
         ],
-        "description": [
-            "American Tree Sparrows are small, round-headed birds that often fluff out their feathers, making their plump bodies look even chubbier. Among sparrows, they have fairly small bills and long, thin tails.",
-            "About the size of a House Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5 in (14 cm)",
-            "Weight: 0.5-1.0 oz (13-28 g)",
-            "Wingspan: 9.4 in (24 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "American Tree Sparrows are small, round-headed birds that often fluff out their feathers, making their plump bodies look even chubbier. Among sparrows, they have fairly small bills and long, thin tails."
+            ],
+            "Compared Size": [
+                "About the size of a House Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5 in (14 cm)",
+                "Weight: 0.5-1.0 oz (13-28 g)",
+                "Wingspan: 9.4 in (24 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64971251-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64971251-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64971251-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64971251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64971251-720px.jpg"
         ],
         "description": [
             "Look for small flocks of American Tree Sparrows in winter in weedy fields with hedgerows or shrubs, along forest edges, or near marshes. They readily visit backyards, especially if there's a seed feeder. American Tree Sparrows breed in the far north and are rarely seen south of northern Canada in summer."

@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67376511-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67376511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67376511-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67376511-480px.jpg"
         ],
-        "description": [
-            "Yellow-headed Blackbirds are fairly large blackbirds, with a stout body, a large head, and a long, conical bill.",
-            "Smaller than a Common Grackle; larger than a Red-winged Blackbird.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 8.3-10.2 in (21-26 cm)",
-            "Weight: 1.6-3.5 oz (44-100 g)",
-            "Wingspan: 16.5-17.3 in (42-44 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Yellow-headed Blackbirds are fairly large blackbirds, with a stout body, a large head, and a long, conical bill."
+            ],
+            "Compared Size": [
+                "Smaller than a Common Grackle; larger than a Red-winged Blackbird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.3-10.2 in (21-26 cm)",
+                "Weight: 1.6-3.5 oz (44-100 g)",
+                "Wingspan: 16.5-17.3 in (42-44 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67376561-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67376561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67376561-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67376561-480px.jpg"
         ],
         "description": [
@@ -34,8 +42,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67376501-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67376501-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67376501-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67376501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67376501-720px.jpg"
         ],
         "description": [
             "Yellow-headed Blackbirds breed and roost in freshwater wetlands with dense, emergent vegetation such as cattails. They often forage in fields, typically wintering in large, open agricultural areas."

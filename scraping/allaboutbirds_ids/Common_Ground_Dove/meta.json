@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66036521-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66036521-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66036521-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66036521-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66036521-480px.jpg"
         ],
-        "description": [
-            "Common Ground-Doves are tiny doves with short, round wings, short tails, and short, thin bills. They are stocky, with short legs, and they shuffle as they walk.",
-            "About the same size as a House Sparrow; slightly smaller than an Inca Dove.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Common Ground-Doves are tiny doves with short, round wings, short tails, and short, thin bills. They are stocky, with short legs, and they shuffle as they walk."
+            ],
+            "Compared Size": [
+                "About the same size as a House Sparrow; slightly smaller than an Inca Dove."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/66036531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66036531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66036531-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66036531-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66036531-480px.jpg"
         ],
         "description": [
             "Common Ground-Doves are sandy brown overall, with large, dark spots on the wing coverts. In flight the wings show rich rufous patches. Males have a pinkish wash on the head, neck, and chest, and bluish crowns; females are duller. Both sexes have fine, dark scaling on the neck and chest, and pinkish-red bills with a dark tip."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66036561-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66036561-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66036561-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66036561-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66036561-720px.jpg"
         ],
         "description": [
             "Common Ground-Doves live in open or shrubby areas with tall grasses or groves of trees, including riparian corridors and open savannas. They also live in towns and suburbs, where they frequent yards and hedges."

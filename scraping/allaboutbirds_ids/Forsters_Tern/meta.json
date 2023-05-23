@@ -1,18 +1,22 @@
 {
     "Size": {
-        "description": [
-            "",
-            "A slender, long-tailed, long-winged seabird with a long, pointed bill and short legs. When perched,\n                    the long tail streamers extend past the end of the wings.",
-            "",
-            "",
-            "Larger than a Black Tern, smaller than a Bonaparte\u2019s Gull.",
-            "",
-            "between robin and\n                      crow",
-            "Sex: Both Sexes",
-            "Length: 13.0-14.2 in (33-36 cm)",
-            "Weight: 4.6-6.7 oz (130-190 g)",
-            "Wingspan: 30.7-31.5 in (78-80 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A slender, long-tailed, long-winged seabird with a long, pointed bill and short legs. When perched,\n                    the long tail streamers extend past the end of the wings."
+            ],
+            "Compared Size": [
+                "Larger than a Black Tern, smaller than a Bonaparte\u2019s Gull."
+            ],
+            "Relative Size": [
+                "between robin and\n                      crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 13.0-14.2 in (33-36 cm)",
+                "Weight: 4.6-6.7 oz (130-190 g)",
+                "Wingspan: 30.7-31.5 in (78-80 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

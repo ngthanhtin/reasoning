@@ -2,20 +2,28 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/66047081-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66047081-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66047081-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66047081-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66047081-480px.jpg"
         ],
-        "description": [
-            "The Northern Pygmy-Owl is small and compact, with a large, circular head that lacks ear tufts. The tail is long and the wings are fairly short and rounded.",
-            "Smaller but plumper than a Mountain Bluebird; larger than an Elf Owl.",
-            "robin-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "The Northern Pygmy-Owl is small and compact, with a large, circular head that lacks ear tufts. The tail is long and the wings are fairly short and rounded."
+            ],
+            "Compared Size": [
+                "Smaller but plumper than a Mountain Bluebird; larger than an Elf Owl."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66047111-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66047111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66047111-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66047111-720px.jpg"
         ],
         "description": [

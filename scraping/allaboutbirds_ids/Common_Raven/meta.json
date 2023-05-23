@@ -5,21 +5,29 @@
             "https://www.allaboutbirds.org/guide/assets/photo/63739541-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63739541-720px.jpg"
         ],
-        "description": [
-            "Not just large but massive, with a thick neck, shaggy throat feathers, and a Bowie knife of a beak. In flight, ravens have long, wedge-shaped tails. They're more slender than crows, with longer, narrower wings, and longer, thinner \u201cfingers\u201d at the wingtips.",
-            "About half again larger than an American Crow or Chihuahuan Raven",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 22.1-27.2 in (56-69 cm)",
-            "Weight: 24.3-57.3 oz (689-1625 g)",
-            "Wingspan: 45.7-46.5 in (116-118 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Not just large but massive, with a thick neck, shaggy throat feathers, and a Bowie knife of a beak. In flight, ravens have long, wedge-shaped tails. They're more slender than crows, with longer, narrower wings, and longer, thinner \u201cfingers\u201d at the wingtips."
+            ],
+            "Compared Size": [
+                "About half again larger than an American Crow or Chihuahuan Raven"
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 22.1-27.2 in (56-69 cm)",
+                "Weight: 24.3-57.3 oz (689-1625 g)",
+                "Wingspan: 45.7-46.5 in (116-118 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/63739561-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63739561-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63739561-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63739561-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63739561-480px.jpg"
         ],
         "description": [
             "Common Ravens are entirely black, right down to the legs, eyes, and beak."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63739551-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63739551-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63739551-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63739551-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63739551-720px.jpg"
         ],
         "description": [
             "Common Ravens live in open and forest habitats across western and northern North America. This includes deciduous and evergreen forests up to treeline, as well as high desert, sea coast, sagebrush, tundra, and grasslands. They do well around people, particularly rural settlements but also some towns and cities."

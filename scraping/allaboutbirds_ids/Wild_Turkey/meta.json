@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65616061-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65616061-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65616061-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65616061-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65616061-480px.jpg"
         ],
-        "description": [
-            "Wild Turkeys are very large, plump birds with long legs, wide, rounded tails, and a small head on a long, slim neck.",
-            "One of our largest and heaviest birds; smaller than a Trumpeter Swan; about twice the size (and four times as heavy) as a Ring-necked Pheasant.",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 43.3-45.3 in (110-115 cm)",
-            "Weight: 88.2-381.0 oz (2500-10800 g)",
-            "Wingspan: 49.2-56.7 in (125-144 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Wild Turkeys are very large, plump birds with long legs, wide, rounded tails, and a small head on a long, slim neck."
+            ],
+            "Compared Size": [
+                "One of our largest and heaviest birds; smaller than a Trumpeter Swan; about twice the size (and four times as heavy) as a Ring-necked Pheasant."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 43.3-45.3 in (110-115 cm)",
+                "Weight: 88.2-381.0 oz (2500-10800 g)",
+                "Wingspan: 49.2-56.7 in (125-144 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65616101-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65616101-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65616101-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65616101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65616101-720px.jpg"
         ],
         "description": [
             "Turkeys are dark overall with a bronze-green iridescence to most of their plumage. Their wings are dark, boldly barred with white. Their rump and tail feathers are broadly tipped with rusty or white. The bare skin of the head and neck varies from red to blue to gray."
@@ -34,8 +42,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65616111-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65616111-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65616111-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65616111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65616111-480px.jpg"
         ],
         "description": [
             "Wild Turkeys live in mature forests, particularly nut trees such as oak, hickory, or beech, interspersed with edges and fields. You may also see them along roads and in woodsy backyards. After being hunted out of large parts of their range, turkeys were reintroduced and are numerous once again."

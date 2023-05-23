@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65533461-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65533461-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65533461-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65533461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65533461-720px.jpg"
         ],
-        "description": [
-            "Gadwall are about the same size as Mallards. Gadwall have a fairly large, square head with a steep forehead. The bill is noticeably thinner than a Mallard's. In flight, the neck is slightly thinner and the wings slightly more slender than a Mallard\u2019s.",
-            "Slightly smaller than a Mallard; larger than a Green-winged Teal.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 18.1-22.4 in (46-57 cm)",
-            "Weight: 17.6-44.1 oz (500-1250 g)",
-            "Wingspan: 33.1 in (84 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Gadwall are about the same size as Mallards. Gadwall have a fairly large, square head with a steep forehead. The bill is noticeably thinner than a Mallard's. In flight, the neck is slightly thinner and the wings slightly more slender than a Mallard\u2019s."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Mallard; larger than a Green-winged Teal."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-22.4 in (46-57 cm)",
+                "Weight: 17.6-44.1 oz (500-1250 g)",
+                "Wingspan: 33.1 in (84 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60015861-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60015861-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60015861-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60015861-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60015861-720px.jpg"
         ],
         "description": [
             "Gadwall breed mainly in the Great Plains and prairies. On migration and in winter, look for Gadwall in reservoirs, ponds, fresh and salt water marshes, city parks, sewage ponds, or muddy edges of estuaries."

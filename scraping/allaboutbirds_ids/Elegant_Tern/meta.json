@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/40627131-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/40627131-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/40627131-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/40627131-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40627131-480px.jpg"
         ],
-        "description": [
-            "A medium-sized, slender tern with a long, thin, slightly drooping bill. The wings are long, slender and pointed. The tail is medium length and forked. In breeding season Elegant Terns have a shaggy crest.",
-            "",
-            "Larger than a Common Tern, smaller than a Royal Tern.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized, slender tern with a long, thin, slightly drooping bill. The wings are long, slender and pointed. The tail is medium length and forked. In breeding season Elegant Terns have a shaggy crest."
+            ],
+            "Compared Size": [
+                "Larger than a Common Tern, smaller than a Royal Tern."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63289491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289491-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63289491-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63289491-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63289491-480px.jpg"
         ],
         "description": [
             "Breeding adults are pale gray above, white with pink bloom below (often hard to see). They have a shaggy black crest, orange bill, dark gray outer primaries, and dark legs. Nonbreeding adults have white foreheads and lack the rosy tint below. Juveniles are grayer and more patterned above, with a gray crown.",
@@ -34,9 +40,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70195341-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70195341-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70195341-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70195341-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70195341-480px.jpg"
         ],
         "description": [
             "Nests on beaches and sandy islands. Forages close to the shore over ocean waters, where currents and upwelling concentrate prey (northern anchovy in particular). Usually forages within 10 miles of land, and often within sight of land.",

@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/59950671-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59950671-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59950671-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/59950671-480px.jpg"
         ],
-        "description": [
-            "A compact, small goose, with short neck, rounded crown, rather long wings, and short legs. The small bill is short and meets the forehead at a steep angle.",
-            "",
-            "Slightly larger than a Brant, smaller than most Canada Geese.",
-            "",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 24.8-25.6 in (63-65 cm)",
-            "Weight: 49.3-84.0 oz (1398-2380 g)",
-            "Wingspan: 42.5-43.7 in (108-111 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A compact, small goose, with short neck, rounded crown, rather long wings, and short legs. The small bill is short and meets the forehead at a steep angle."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Brant, smaller than most Canada Geese."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 24.8-25.6 in (63-65 cm)",
+                "Weight: 49.3-84.0 oz (1398-2380 g)",
+                "Wingspan: 42.5-43.7 in (108-111 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/59950661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59950661-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59950661-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59950661-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/59950661-480px.jpg"
         ],
         "description": [
             "Brown overall with black neck and head, white cheek and throat (\"chinstrap\"), white under the tail, and blackish bill, legs, and feet. Brown coloration varies from dark to pale brown among the subspecies.",
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/59950631-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59950631-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59950631-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/59950631-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59950631-720px.jpg"
         ],
         "description": [
             "Cackling Geese nest in arctic tundra, typically on islands in small lakes or marshes (and one subspecies occurs on islands in the Bering Sea). They forage year-round in wetlands and meadows. During migration and on the wintering grounds they forage in agricultural fields. At night they roost with other geese on lakes, reservoirs, or wetlands.",

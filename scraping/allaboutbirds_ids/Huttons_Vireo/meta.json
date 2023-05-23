@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65760531-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65760531-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65760531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65760531-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65760531-720px.jpg"
         ],
-        "description": [
-            "A small vireo with a large head, short bill, rather short wings, and a moderately long tail.",
-            "",
-            "Larger than a Ruby-crowned Kinglet, smaller than a Cassin\u2019s Vireo.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.9-4.7 in (10-12 cm)",
-            "Weight: 0.3-0.5 oz (9-15 g)",
-            "Wingspan: 7.5-8.3 in (19-21 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small vireo with a large head, short bill, rather short wings, and a moderately long tail."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Cassin\u2019s Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-4.7 in (10-12 cm)",
+                "Weight: 0.3-0.5 oz (9-15 g)",
+                "Wingspan: 7.5-8.3 in (19-21 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65760571-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65760571-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65760571-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65760571-480px.jpg"
         ],
         "description": [

@@ -5,15 +5,23 @@
             " https://www.allaboutbirds.org/guide/assets/photo/65051941-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65051941-480px.jpg"
         ],
-        "description": [
-            "Yellow-bellied Sapsuckers are fairly small woodpeckers with stout, straight bills. The long wings extend about halfway to the tip of the stiff, pointed tail at rest. Often, sapsuckers hold their crown feathers up to form a peak at the back of the head.",
-            "Larger than a Downy Woodpecker; slightly smaller than a Hairy Woodpecker.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.1-8.7 in (18-22 cm)",
-            "Weight: 1.5-1.9 oz (43-55 g)",
-            "Wingspan: 13.4-15.8 in (34-40 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Yellow-bellied Sapsuckers are fairly small woodpeckers with stout, straight bills. The long wings extend about halfway to the tip of the stiff, pointed tail at rest. Often, sapsuckers hold their crown feathers up to form a peak at the back of the head."
+            ],
+            "Compared Size": [
+                "Larger than a Downy Woodpecker; slightly smaller than a Hairy Woodpecker."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-8.7 in (18-22 cm)",
+                "Weight: 1.5-1.9 oz (43-55 g)",
+                "Wingspan: 13.4-15.8 in (34-40 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65051971-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65051971-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65051971-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65051971-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65051971-720px.jpg"
         ],
         "description": [
             "Yellow-bellied Sapsuckers live in both hardwood and conifer forests up to about 6,500 feet elevation. They often nest in groves of small trees such as aspens, and spend winters in open woodlands. Occasionally, sapsuckers visit bird feeders for suet."

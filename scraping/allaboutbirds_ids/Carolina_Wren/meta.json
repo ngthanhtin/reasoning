@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/59867241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59867241-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59867241-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59867241-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/59867241-480px.jpg"
         ],
-        "description": [
-            "The Carolina Wren is a small but chunky bird with a round body and a long tail that it often cocks upward. The head is large with very little neck, and the distinctive bill marks it as a wren: long, slender, and downcurved.",
-            "slightly smaller than sparrows; slightly larger than a House Wren",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.5 in (12-14 cm)",
-            "Weight: 0.6-0.8 oz (18-22 g)",
-            "Wingspan: 11.4 in (29 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Carolina Wren is a small but chunky bird with a round body and a long tail that it often cocks upward. The head is large with very little neck, and the distinctive bill marks it as a wren: long, slender, and downcurved."
+            ],
+            "Compared Size": [
+                "slightly smaller than sparrows; slightly larger than a House Wren"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.6-0.8 oz (18-22 g)",
+                "Wingspan: 11.4 in (29 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/59867271-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59867271-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/59867271-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/59867271-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59867271-480px.jpg"
         ],
         "description": [
             "Both males and females are a bright, unpatterned reddish-brown above and warm buffy-orange below, with a long white eyebrow stripe, dark bill, and white chin and throat."
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/59867301-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59867301-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59867301-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/59867301-480px.jpg"
         ],
         "description": [

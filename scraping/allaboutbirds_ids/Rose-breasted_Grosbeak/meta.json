@@ -5,20 +5,28 @@
             " https://www.allaboutbirds.org/guide/assets/photo/63733391-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63733391-720px.jpg"
         ],
-        "description": [
-            "Rose-breasted Grosbeaks are stocky, medium-sized songbirds with very large triangular bills. They are broad-chested, with a short neck and a medium-length, squared tail.",
-            "Smaller than an American Robin; larger than a House Finch.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.1-8.3 in (18-21 cm)",
-            "Weight: 1.4-1.7 oz (39-49 g)",
-            "Wingspan: 11.4-13.0 in (29-33 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Rose-breasted Grosbeaks are stocky, medium-sized songbirds with very large triangular bills. They are broad-chested, with a short neck and a medium-length, squared tail."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin; larger than a House Finch."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-8.3 in (18-21 cm)",
+                "Weight: 1.4-1.7 oz (39-49 g)",
+                "Wingspan: 11.4-13.0 in (29-33 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63733281-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63733281-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63733281-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63733281-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63733401-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63733401-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63733401-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63733401-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63733401-480px.jpg"
         ],
         "description": [
             "Rose-breasted Grosbeaks breed in eastern forests; you can find them among both deciduous trees and conifers. They are most common in regenerating woodlands and often concentrate along forest edges and in parks. During migration, Rose-breasted Grosbeaks frequent fruiting trees to help fuel their flights to Central and South America."

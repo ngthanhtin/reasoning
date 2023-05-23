@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68054741-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68054741-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68054741-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68054741-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68054741-480px.jpg"
         ],
-        "description": [
-            "Tiny, large-headed but small-billed, with a long, narrow tail and full, rounded wings.",
-            "Same size as Black-capped Chickadee.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Tiny, large-headed but small-billed, with a long, narrow tail and full, rounded wings."
+            ],
+            "Compared Size": [
+                "Same size as Black-capped Chickadee."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68054751-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68054751-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68054751-480px.jpg"
         ],
         "description": [
             "Like all chickadees, strikingly black-and-white on the head, gray elsewhere. The white stripe over the eye identifies Mountain Chickadees from all other chickadees."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054871-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68054871-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68054871-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68054871-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68054871-480px.jpg"
         ],
         "description": [
             "Dry, mountainous forests of the West. The similar Black-capped Chickadee often occurs along streams and in broad-leaved trees, while Mountain Chickadees stick to the evergreens on higher slopes."

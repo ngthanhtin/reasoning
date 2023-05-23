@@ -1,21 +1,29 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68034381-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68034381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68034381-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68034381-480px.jpg"
         ],
-        "description": [
-            "The Cactus Wren is a large chunky wren with a long heavy bill, a long, rounded tail, and short, rounded wings. The Cactus Wren is the largest wren in the United States and is similar in size to a Spotted Towhee.",
-            "Larger than a Bewick\u2019s Wren, smaller than a Northern Mockingbird.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "The Cactus Wren is a large chunky wren with a long heavy bill, a long, rounded tail, and short, rounded wings. The Cactus Wren is the largest wren in the United States and is similar in size to a Spotted Towhee."
+            ],
+            "Compared Size": [
+                "Larger than a Bewick\u2019s Wren, smaller than a Northern Mockingbird."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68034441-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68034441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68034441-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68034441-480px.jpg"
         ],
         "description": [
@@ -30,8 +38,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68034421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68034421-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68034421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68034421-480px.jpg"
         ],
         "description": [

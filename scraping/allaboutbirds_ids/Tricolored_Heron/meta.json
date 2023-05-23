@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70689681-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70689681-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70689681-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70689681-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70689681-480px.jpg"
         ],
-        "description": [
-            "A medium-sized, delicate and slim heron with a long, daggerlike bill. Its long thin neck curves up to its small head.",
-            "",
-            "Larger than a Snowy Egret, smaller than a Great Blue Heron.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 23.6-27.6 in (60-70 cm)",
-            "Weight: 14.6 oz (415 g)",
-            "Wingspan: 37.4 in (95 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized, delicate and slim heron with a long, daggerlike bill. Its long thin neck curves up to its small head."
+            ],
+            "Compared Size": [
+                "Larger than a Snowy Egret, smaller than a Great Blue Heron."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 23.6-27.6 in (60-70 cm)",
+                "Weight: 14.6 oz (415 g)",
+                "Wingspan: 37.4 in (95 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/70689641-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70689641-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70689641-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70689641-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70689641-720px.jpg"
         ],
         "description": [
             "A colorful heron with a mix of blue-gray, lavender, and white. Unlike other dark herons, they have a white belly. Breeding birds have small white plumes extending from the back of the head, a bright blue patch of skin around the bill, and pink legs. Nonbreeding birds lack the flourishes of breeding birds and have yellowish legs. Juveniles have a rusty neck and rusty edged feathers.",

@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68033811-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68033811-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033811-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68033811-480px.jpg"
         ],
-        "description": [
-            "Blue-gray Gnatcatchers are tiny, slim songbirds with long legs; a long tail; and a thin, straight bill.",
-            "Slightly larger than a Ruby-throated Hummingbird, Slightly smaller than a House Wren.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.9-4.3 in (10-11 cm)",
-            "Weight: 0.2-0.3 oz (4.8-8.9 g)",
-            "Wingspan: 6.3 in (16 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Blue-gray Gnatcatchers are tiny, slim songbirds with long legs; a long tail; and a thin, straight bill."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Ruby-throated Hummingbird, Slightly smaller than a House Wren."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-4.3 in (10-11 cm)",
+                "Weight: 0.2-0.3 oz (4.8-8.9 g)",
+                "Wingspan: 6.3 in (16 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68033861-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68033861-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033861-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68033861-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/68033851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033851-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68033851-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68033851-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68033851-480px.jpg"
         ],
         "description": [
             "In the East, gnatcatchers breed in deciduous forests and near edges, often in moister areas. In the West, look for them in shorter woodlands and shrublands including pinyon-juniper and oak woodlands."

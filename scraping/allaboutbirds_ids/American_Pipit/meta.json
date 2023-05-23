@@ -1,21 +1,27 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67453391-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67453391-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67453391-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67453391-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67453391-720px.jpg"
         ],
-        "description": [
-            "A small, slim songbird with a short, thin bill, and medium-length tail, recalling a lark (or a sparrow, but lacking a sparrow\u2019s heavier bill).",
-            "",
-            "Larger than a Yellow-rumped Warbler, smaller than a White-crowned Sparrow.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5-6.7 in (14-17 cm)",
-            "Weight: 0.7-0.9 oz (19-26 g)",
-            "Wingspan: 10.6 in (27 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small, slim songbird with a short, thin bill, and medium-length tail, recalling a lark (or a sparrow, but lacking a sparrow\u2019s heavier bill)."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow-rumped Warbler, smaller than a White-crowned Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.7 in (14-17 cm)",
+                "Weight: 0.7-0.9 oz (19-26 g)",
+                "Wingspan: 10.6 in (27 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [

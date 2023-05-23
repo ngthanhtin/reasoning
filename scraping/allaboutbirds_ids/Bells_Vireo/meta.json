@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65760171-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65760171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65760171-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65760171-720px.jpg"
         ],
-        "description": [
-            "A diminutive songbird with a slim build and a slender, somewhat long tail. Its bill is small for a vireo, but still thicker and more hooked than a warbler\u2019s.",
-            "",
-            "Larger than a kinglet, smaller than a Red-eyed Vireo.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.5-4.9 in (11.5-12.5 cm)",
-            "Weight: 0.3-0.3 oz (7.4-9.8 g)",
-            "Wingspan: 6.7-7.5 in (17-19 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A diminutive songbird with a slim build and a slender, somewhat long tail. Its bill is small for a vireo, but still thicker and more hooked than a warbler\u2019s."
+            ],
+            "Compared Size": [
+                "Larger than a kinglet, smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.5-4.9 in (11.5-12.5 cm)",
+                "Weight: 0.3-0.3 oz (7.4-9.8 g)",
+                "Wingspan: 6.7-7.5 in (17-19 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65760121-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65760121-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65760121-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65760121-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65760121-480px.jpg"
         ],
         "description": [
             "Western birds, especially the tiny Least Bell\u2019s Vireo, are grayish above, whitish below, with faint pale \u201cspectacles\u201d around the eyes and pale wingbars. Eastern birds have greenish tones above and a yellow wash on the sides, with stronger wingbars.",

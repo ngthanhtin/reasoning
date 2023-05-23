@@ -5,23 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64824491-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64824491-480px.jpg"
         ],
-        "description": [
-            "A very small, plump shorebird with a thin, straight, tubular bill. When folded, the wings are about the same length as the tail. The bill usually does not droop or turn downwards at the tip.",
-            "",
-            "Smaller than a Dunlin, slightly larger than a Least Sandpiper.",
-            "",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 5.9-7.1 in (15-18 cm)",
-            "Weight: 0.6-1.8 oz (18-51.5 g)",
-            "Wingspan: 13.8-14.6 in (35-37 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A very small, plump shorebird with a thin, straight, tubular bill. When folded, the wings are about the same length as the tail. The bill usually does not droop or turn downwards at the tip."
+            ],
+            "Compared Size": [
+                "Smaller than a Dunlin, slightly larger than a Least Sandpiper."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-7.1 in (15-18 cm)",
+                "Weight: 0.6-1.8 oz (18-51.5 g)",
+                "Wingspan: 13.8-14.6 in (35-37 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64824531-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64824531-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64824531-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64824531-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64824531-480px.jpg"
         ],
         "description": [
             "Breeding adults are dappled in brown, black, gold, and rufous above, with pale underparts and dark legs. The head, nape, and breast are stippled or streaked with brown, but the flanks are white. Nonbreeding adults are much plainer, mousy grayish brown above, pale below, with weak supercilium (pale line over eye). Juveniles are similar to nonbreeding adult but the upperparts show a neat, scaly pattern.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64824481-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64824481-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64824481-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64824481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64824481-720px.jpg"
         ],
         "description": [
             "Breeds on arctic tundra; forages in mudflats, wet and plowed agricultural fields, river margins, sewage ponds, and estuaries.",

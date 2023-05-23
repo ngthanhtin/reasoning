@@ -1,16 +1,22 @@
 {
     "Size": {
-        "description": [
-            "A small gull with a plump belly. Kittiwakes look sleek in flight, with rather long, narrow wings, a short, notched tail, and a slim, fairly short bill.",
-            "",
-            "Larger than a Bonaparte\u2019s Gull, slightly smaller than a Ring-billed Gull.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 15.0-16.1 in (38-41 cm)",
-            "Weight: 10.8-18.5 oz (305-525 g)",
-            "Wingspan: 37.0 in (94 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small gull with a plump belly. Kittiwakes look sleek in flight, with rather long, narrow wings, a short, notched tail, and a slim, fairly short bill."
+            ],
+            "Compared Size": [
+                "Larger than a Bonaparte\u2019s Gull, slightly smaller than a Ring-billed Gull."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.0-16.1 in (38-41 cm)",
+                "Weight: 10.8-18.5 oz (305-525 g)",
+                "Wingspan: 37.0 in (94 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

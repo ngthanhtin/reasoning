@@ -1,26 +1,32 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64801361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64801361-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64801361-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64801361-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64801361-480px.jpg"
         ],
-        "description": [
-            "A typical medium-sized warbler with a short, thin, pointed bill, trim body, and medium-length tail. The overall shape is similar to the widespread Yellow Warbler.",
-            "",
-            "Larger than a Northern Parula, slightly smaller than a Yellow-rumped Warbler.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-4.7 in (11-12 cm)",
-            "Weight: 0.3-0.4 oz (8.9-12.6 g)",
-            "Wingspan: 7.9-9.1 in (20-23 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A typical medium-sized warbler with a short, thin, pointed bill, trim body, and medium-length tail. The overall shape is similar to the widespread Yellow Warbler."
+            ],
+            "Compared Size": [
+                "Larger than a Northern Parula, slightly smaller than a Yellow-rumped Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-4.7 in (11-12 cm)",
+                "Weight: 0.3-0.4 oz (8.9-12.6 g)",
+                "Wingspan: 7.9-9.1 in (20-23 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64801421-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64801421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64801421-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64801421-480px.jpg"
         ],
         "description": [
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64801371-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64801371-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64801371-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64801371-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64801371-480px.jpg"
         ],
         "description": [
             "Breeds in coniferous forest (with spruce, white pine, or balsam fir) and mixed coniferous-deciduous forest, often with hemlock trees. Migrants are attracted to similar habitats (cemeteries with tall conifers in particular) but can appear in almost any environment with trees. Wintering birds in Central and South America utilize many montane habitats with trees.",

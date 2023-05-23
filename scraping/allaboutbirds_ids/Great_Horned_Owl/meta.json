@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63741561-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63741561-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63741561-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63741561-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63741561-480px.jpg"
         ],
-        "description": [
-            "These are large, thick-bodied owls with two prominent feathered tufts on the head. The wings are broad and rounded. In flight, the rounded head and short bill combine to create a blunt-headed silhouette.",
-            "Slightly larger than a Red-tailed Hawk.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 18.1-24.8 in (46-63 cm)",
-            "Weight: 32.1-88.2 oz (910-2500 g)",
-            "Wingspan: 39.8-57.1 in (101-145 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "These are large, thick-bodied owls with two prominent feathered tufts on the head. The wings are broad and rounded. In flight, the rounded head and short bill combine to create a blunt-headed silhouette."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Red-tailed Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-24.8 in (46-63 cm)",
+                "Weight: 32.1-88.2 oz (910-2500 g)",
+                "Wingspan: 39.8-57.1 in (101-145 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63741611-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63741611-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63741611-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63741611-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63741611-720px.jpg"
         ],
         "description": [
             "Great Horned Owls are mottled gray-brown, with reddish brown faces and a neat white patch on the throat. Their overall color tone varies regionally from sooty to pale."

@@ -5,18 +5,24 @@
             " https://www.allaboutbirds.org/guide/assets/photo/63916571-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63916571-480px.jpg"
         ],
-        "description": [
-            "A large ducklike seabird with long, sinuous neck, a thin but daggerlike bill, and long, narrow, pointed wings. The legs are set far back on the body and the feet trail behind the tail in flight.",
-            "",
-            "Larger than a Red-breasted Merganser, smaller than a Common Loon.",
-            "",
-            "between crow and goose",
-            "Sex: Male",
-            "Length: 25.2-26.8 in (64-68 cm)",
-            "Weight: 44.1-86.8 oz (1250-2460 g)",
-            "Wingspan: 35.4-36.6 in (90-93 cm)",
-            "Female"
-        ]
+        "description": {
+            "Shape": [
+                "A large ducklike seabird with long, sinuous neck, a thin but daggerlike bill, and long, narrow, pointed wings. The legs are set far back on the body and the feet trail behind the tail in flight."
+            ],
+            "Compared Size": [
+                "Larger than a Red-breasted Merganser, smaller than a Common Loon."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 25.2-26.8 in (64-68 cm)",
+                "Weight: 44.1-86.8 oz (1250-2460 g)",
+                "Wingspan: 35.4-36.6 in (90-93 cm)",
+                "Female"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -38,9 +44,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63916701-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63916701-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63916701-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63916701-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63916701-480px.jpg"
         ],
         "description": [
             "They breed in the arctic in tundra and taiga lakes and along marine coasts. They use large lakes and bays during migration, and coastal ocean waters during winter.",

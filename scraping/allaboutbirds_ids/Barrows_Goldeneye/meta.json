@@ -1,22 +1,28 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63908621-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63908621-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63908621-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63908621-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63908621-480px.jpg"
         ],
-        "description": [
-            "A small, stocky diving duck with a large, oddly shaped, oblong head. The bill is relatively small and the forehead relatively steep compared with a Common Goldeneye.",
-            "",
-            "Larger than a Bufflehead, smaller than a Common Merganser.",
-            "",
-            "crow-sized",
-            "Sex: Male",
-            "Length: 16.9-19.1 in (43-48.4 cm)",
-            "Weight: 37.9-46.6 oz (1075-1320 g)",
-            "Wingspan: 27.6-28.7 in (70-73 cm)",
-            "Female"
-        ]
+        "description": {
+            "Shape": [
+                "A small, stocky diving duck with a large, oddly shaped, oblong head. The bill is relatively small and the forehead relatively steep compared with a Common Goldeneye."
+            ],
+            "Compared Size": [
+                "Larger than a Bufflehead, smaller than a Common Merganser."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 16.9-19.1 in (43-48.4 cm)",
+                "Weight: 37.9-46.6 oz (1075-1320 g)",
+                "Wingspan: 27.6-28.7 in (70-73 cm)",
+                "Female"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -38,9 +44,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63908611-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63908611-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63908611-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63908611-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63908611-480px.jpg"
         ],
         "description": [
             "Breeds in shallow freshwater lakes, ponds, and sloughs of mountains and forests. Winters along mostly rocky marine coastlines.",

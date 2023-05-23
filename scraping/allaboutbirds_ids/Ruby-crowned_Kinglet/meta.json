@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67474361-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67474361-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67474361-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67474361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67474361-480px.jpg"
         ],
-        "description": [
-            "Kinglets are tiny songbirds with relatively large heads, almost no neck, and thin tails. They have very small, thin, straight bills.",
-            "Smaller than a chickadee or warbler; about the same size as a Golden-crowned Kinglet.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.5-4.3 in (9-11 cm)",
-            "Weight: 0.2-0.3 oz (5-10 g)",
-            "Wingspan: 6.3-7.1 in (16-18 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Kinglets are tiny songbirds with relatively large heads, almost no neck, and thin tails. They have very small, thin, straight bills."
+            ],
+            "Compared Size": [
+                "Smaller than a chickadee or warbler; about the same size as a Golden-crowned Kinglet."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.5-4.3 in (9-11 cm)",
+                "Weight: 0.2-0.3 oz (5-10 g)",
+                "Wingspan: 6.3-7.1 in (16-18 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67474351-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67474351-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67474351-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67474351-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67474351-480px.jpg"
         ],
         "description": [
             "Ruby-crowned Kinglets are olive-green birds with a prominent white eyering and white wingbar. This wingbar contrasts with an adjacent blackish bar in the wing. The \u201cruby crown\u201d of the male is only occasionally visible."
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67474391-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67474391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67474391-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67474391-480px.jpg"
         ],
         "description": [

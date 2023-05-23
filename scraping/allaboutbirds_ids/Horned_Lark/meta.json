@@ -5,21 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/68927551-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68927551-720px.jpg"
         ],
-        "description": [
-            "Horned Larks are small, long-bodied songbirds that usually adopt a horizontal posture. They have short, thin bills, short necks, and rounded heads\u2014the shape sometimes broken by two small \u201chorns\u201d of feathers sticking up toward the back of the head.",
-            "Larger than a Savannah Sparrow; smaller than an Eastern Meadowlark.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 6.3-7.9 in (16-20 cm)",
-            "Weight: 1.0-1.7 oz (28-48 g)",
-            "Wingspan: 11.8-13.4 in (30-34 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Horned Larks are small, long-bodied songbirds that usually adopt a horizontal posture. They have short, thin bills, short necks, and rounded heads\u2014the shape sometimes broken by two small \u201chorns\u201d of feathers sticking up toward the back of the head."
+            ],
+            "Compared Size": [
+                "Larger than a Savannah Sparrow; smaller than an Eastern Meadowlark."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.9 in (16-20 cm)",
+                "Weight: 1.0-1.7 oz (28-48 g)",
+                "Wingspan: 11.8-13.4 in (30-34 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68927561-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68927561-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68927561-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68927561-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68927561-480px.jpg"
         ],
         "description": [
             "Male Horned Larks are sandy to rusty brown above, with a black chest band, a curving black mask, and head stripes that extend to the back of the head (sometimes raised into tiny \u201chorns\u201d). The face and throat are either yellow or white (see Regional Differences). The underparts are white. Females have similar head and breast patterns but are less crisply defined."

@@ -2,26 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/70583361-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70583361-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70583361-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70583361-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70583361-480px.jpg"
         ],
-        "description": [
-            "The Crested Caracara is a medium-sized, bulky raptor with long legs. Its flat head is topped with a shaggy crest. In flight, note its long, straight wings and diamond-shaped tail. The bill is heavy with a sharp tip.",
-            "",
-            "Larger than a Peregrine Falcon, smaller than a Turkey Vulture.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 19.3-22.8 in (49-58 cm)",
-            "Weight: 37.0-45.9 oz (1050-1300 g)",
-            "Wingspan: 48.0-49.2 in (122-125 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Crested Caracara is a medium-sized, bulky raptor with long legs. Its flat head is topped with a shaggy crest. In flight, note its long, straight wings and diamond-shaped tail. The bill is heavy with a sharp tip."
+            ],
+            "Compared Size": [
+                "Larger than a Peregrine Falcon, smaller than a Turkey Vulture."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 19.3-22.8 in (49-58 cm)",
+                "Weight: 37.0-45.9 oz (1050-1300 g)",
+                "Wingspan: 48.0-49.2 in (122-125 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70583311-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70583311-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70583311-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70583311-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70583311-480px.jpg"
         ],
         "description": [
             "Crested Caracaras are black and white with yellow-orange legs and yellow-orange skin around the bill. Their black cap contrasts strongly with their white neck and cheeks. In flight the undertail and outer flight feathers are white. Juveniles are brown and white and lack the adult's yellow-orange legs and facial skin.",
@@ -30,9 +36,9 @@
     },
     "Behavior": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70583321-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70583321-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70583321-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70583321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70583321-720px.jpg"
         ],
         "description": [
             "Crested Caracaras often fly close to the ground with slow and powerful wingbeats. In flight they hold their wings flat similar to a Bald Eagle and don't teeter like a vulture. They are equally adept at walking on the ground as they are in the air. Crested Caracaras often join vultures to feed on carrion.",
@@ -41,8 +47,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70583351-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70583351-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70583351-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70583351-480px.jpg"
         ],
         "description": [

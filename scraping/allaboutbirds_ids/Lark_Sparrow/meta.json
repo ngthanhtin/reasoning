@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64973941-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64973941-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64973941-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64973941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64973941-720px.jpg"
         ],
-        "description": [
-            "A large, long-tailed sparrow. When perched, it often looks long-bodied with a thin neck and a round head. The tail is long and rounded.",
-            "",
-            "Larger than an American Goldfinch, smaller than a Western Meadowlark.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.9-6.7 in (15-17 cm)",
-            "Weight: 0.8-1.2 oz (24-33 g)",
-            "Wingspan: 11.0 in (28 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A large, long-tailed sparrow. When perched, it often looks long-bodied with a thin neck and a round head. The tail is long and rounded."
+            ],
+            "Compared Size": [
+                "Larger than an American Goldfinch, smaller than a Western Meadowlark."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-6.7 in (15-17 cm)",
+                "Weight: 0.8-1.2 oz (24-33 g)",
+                "Wingspan: 11.0 in (28 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64973901-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64973901-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64973901-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64973901-480px.jpg"
         ],
         "description": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64973931-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64973931-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64973931-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64973931-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64973931-720px.jpg"
         ],
         "description": [
             "Found in grasslands, roadsides, farmlands, pastures, and open country with scattered trees and shrubs.",

@@ -5,20 +5,28 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64892951-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64892951-480px.jpg"
         ],
-        "description": [
-            "Palm Warblers are small songbirds, but they are on the larger side for a warbler and have a fuller looking belly. Their posture is more upright than a typical warbler and more like a pipit\u2014especially noticeable when they are on the ground. Their tails and legs are longer than most warblers contributing to the pipitlike shape.",
-            "Larger than a Ruby-crowned Kinglet, smaller than a Dark-eyed Junco.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.5 in (12-14 cm)",
-            "Weight: 0.3-0.5 oz (7-13 g)",
-            "Wingspan: 7.9-8.3 in (20-21 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Palm Warblers are small songbirds, but they are on the larger side for a warbler and have a fuller looking belly. Their posture is more upright than a typical warbler and more like a pipit\u2014especially noticeable when they are on the ground. Their tails and legs are longer than most warblers contributing to the pipitlike shape."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Dark-eyed Junco."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.3-0.5 oz (7-13 g)",
+                "Wingspan: 7.9-8.3 in (20-21 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64892971-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64892971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64892971-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64892971-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64892981-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64892981-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64892981-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64892981-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64892981-720px.jpg"
         ],
         "description": [
             "During migration and winter Palm Warblers use weedy fields, forest edges, fence rows, and other areas with scattered trees and shrubs. They breed in the boreal forest of the far north, where they use bogs with scattered evergreen trees and thick ground cover."

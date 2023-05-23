@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70706101-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70706101-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70706101-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/70706101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70706101-720px.jpg"
         ],
-        "description": [
-            "Black Vultures are large raptors. In flight, they hold their broad, rounded wings flat and angled slightly forward. The tail is very short and rounded. They have small, bare heads and narrow but strongly hooked bills.",
-            "Slightly smaller than a Turkey Vulture; slightly larger than a Red-tailed Hawk.",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 23.6-26.8 in (60-68 cm)",
-            "Weight: 56.4-77.6 oz (1600-2200 g)",
-            "Wingspan: 53.9-59.1 in (137-150 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Black Vultures are large raptors. In flight, they hold their broad, rounded wings flat and angled slightly forward. The tail is very short and rounded. They have small, bare heads and narrow but strongly hooked bills."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Turkey Vulture; slightly larger than a Red-tailed Hawk."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 23.6-26.8 in (60-68 cm)",
+                "Weight: 56.4-77.6 oz (1600-2200 g)",
+                "Wingspan: 53.9-59.1 in (137-150 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70706151-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70706151-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70706151-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70706151-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70706151-720px.jpg"
         ],
         "description": [
             "These birds are uniform black except for white patches or \u201cstars\u201d on the underside of their wingtips (this can be hard to see in strong light or from far away). The bare skin of the head is black."

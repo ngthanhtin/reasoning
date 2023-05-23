@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64838141-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64838141-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64838141-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64838141-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64838141-480px.jpg"
         ],
-        "description": [
-            "Willets are large, stocky shorebirds with long legs and thick, straight bills considerably longer than the head. Their wings are broader and rounder than those of many shorebirds and the tail is short and squared off at the base.",
-            "A large shorebird with a pigeon-sized body on long legs",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 13.0-16.1 in (33-41 cm)",
-            "Weight: 7.0-11.6 oz (200-330 g)",
-            "Wingspan: 27.6 in (70 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Willets are large, stocky shorebirds with long legs and thick, straight bills considerably longer than the head. Their wings are broader and rounder than those of many shorebirds and the tail is short and squared off at the base."
+            ],
+            "Compared Size": [
+                "A large shorebird with a pigeon-sized body on long legs"
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 13.0-16.1 in (33-41 cm)",
+                "Weight: 7.0-11.6 oz (200-330 g)",
+                "Wingspan: 27.6 in (70 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64838171-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64838171-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64838171-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64838171-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64838171-720px.jpg"
         ],
         "description": [
             "Willets are gray or brown birds that, when flying, display a striking white and black stripe along each wing. In summer, Willets are mottled gray, brown, and black; in winter they are a more consistent plain gray. The legs are bluish gray."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64838121-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64838121-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64838121-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64838121-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64838121-720px.jpg"
         ],
         "description": [
             "In winter, Willets feed on beaches and rocky coasts, as well as mudflats and marshes. During breeding season the western population moves far inland to nest in grasslands and prairies near freshwater. Eastern Willets breed in coastal saltmarshes and on barrier beaches and islands."

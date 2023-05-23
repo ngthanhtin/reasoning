@@ -1,26 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64896301-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64896301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896301-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64896301-720px.jpg"
         ],
-        "description": [
-            "A compact warbler with a small round bill and a big head.",
-            "",
-            "Larger than a Bushtit, smaller than a Juniper Titmouse.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.1 in (11-13 cm)",
-            "Weight: 0.3-0.3 oz (7-10 g)",
-            "Wingspan: 7.5-7.8 in (19-19.7 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A compact warbler with a small round bill and a big head."
+            ],
+            "Compared Size": [
+                "Larger than a Bushtit, smaller than a Juniper Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.3-0.3 oz (7-10 g)",
+                "Wingspan: 7.5-7.8 in (19-19.7 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64896271-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64896271-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896271-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64896271-480px.jpg"
         ],
         "description": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64896311-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg"
         ],
         "description": [
             "Found in open pine, pine-oak, and pinyon-juniper forests.",

@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60021841-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60021841-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60021841-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60021841-480px.jpg"
         ],
-        "description": [
-            "Mallards are large ducks with hefty bodies, rounded heads, and wide, flat bills. Like many \u201cdabbling ducks\u201d the body is long and the tail rides high out of the water, giving a blunt shape. In flight their wings are broad and set back toward the rear.",
-            "A fairly large duck, noticeably larger than teal but much smaller than a Canada Goose.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 19.7-25.6 in (50-65 cm)",
-            "Weight: 35.3-45.9 oz (1000-1300 g)",
-            "Wingspan: 32.3-37.4 in (82-95 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Mallards are large ducks with hefty bodies, rounded heads, and wide, flat bills. Like many \u201cdabbling ducks\u201d the body is long and the tail rides high out of the water, giving a blunt shape. In flight their wings are broad and set back toward the rear."
+            ],
+            "Compared Size": [
+                "A fairly large duck, noticeably larger than teal but much smaller than a Canada Goose."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 19.7-25.6 in (50-65 cm)",
+                "Weight: 35.3-45.9 oz (1000-1300 g)",
+                "Wingspan: 32.3-37.4 in (82-95 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60021831-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60021831-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60021831-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60021831-480px.jpg"
         ],
         "description": [

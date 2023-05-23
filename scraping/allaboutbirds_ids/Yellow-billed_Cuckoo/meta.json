@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66038321-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66038321-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66038321-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66038321-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66038321-720px.jpg"
         ],
-        "description": [
-            "Yellow-billed Cuckoos are fairly large, long, and slim birds. The bill is almost as long as the head, thick and slightly downcurved. They have a flat head, thin body, and very long tail. Wings appear pointed and swept back in flight.",
-            "Longer, but slighter, than American Kestrel; about the size of a Blue Jay or Western Scrub-Jay.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 10.2-11.8 in (26-30 cm)",
-            "Weight: 1.9-2.3 oz (55-65 g)",
-            "Wingspan: 15.0-16.9 in (38-43 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Yellow-billed Cuckoos are fairly large, long, and slim birds. The bill is almost as long as the head, thick and slightly downcurved. They have a flat head, thin body, and very long tail. Wings appear pointed and swept back in flight."
+            ],
+            "Compared Size": [
+                "Longer, but slighter, than American Kestrel; about the size of a Blue Jay or Western Scrub-Jay."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 10.2-11.8 in (26-30 cm)",
+                "Weight: 1.9-2.3 oz (55-65 g)",
+                "Wingspan: 15.0-16.9 in (38-43 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66038341-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66038341-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66038341-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66038341-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66038341-720px.jpg"
         ],
         "description": [
             "They live mainly among the canopies of deciduous trees; look for them in woodland patches with gaps and clearings. In the West, this species is rare and restricted to the cottonwood-dominated forests that line larger rivers running through arid country."

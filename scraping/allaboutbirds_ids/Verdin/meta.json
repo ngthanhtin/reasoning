@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68042941-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68042941-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/68042941-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/68042941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68042941-480px.jpg"
         ],
-        "description": [
-            "A tiny, chickadee-like songbird with a slight body, moderately long tail, small head, and tiny pointed bill.",
-            "",
-            "Larger than a Black-tailed Gnatcatcher, smaller than a Bridled Titmouse.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A tiny, chickadee-like songbird with a slight body, moderately long tail, small head, and tiny pointed bill."
+            ],
+            "Compared Size": [
+                "Larger than a Black-tailed Gnatcatcher, smaller than a Bridled Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/68042961-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68042961-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/68042961-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/68042961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68042961-720px.jpg"
         ],
         "description": [
             "Adults are grayish with a yellow head. They have a small chestnut patch at the bend of the wing (the lesser coverts). Juveniles are similar but lack the yellow and chestnut colors.",
@@ -34,8 +40,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/68043011-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/68043011-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043011-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/68043011-480px.jpg"
         ],
         "description": [

@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67448261-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67448261-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67448261-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67448261-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67448261-480px.jpg"
         ],
-        "description": [
-            "Pyrrhuloxias are stocky, medium-sized songbirds with tall crests and long tails. They have heavy but short seed-cracking bills with a curved culmen, or upper edge.",
-            "About the size of a Northern Cardinal; larger than a Black-throated Sparrow.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Pyrrhuloxias are stocky, medium-sized songbirds with tall crests and long tails. They have heavy but short seed-cracking bills with a curved culmen, or upper edge."
+            ],
+            "Compared Size": [
+                "About the size of a Northern Cardinal; larger than a Black-throated Sparrow."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67448291-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67448291-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67448291-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67448291-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67448291-480px.jpg"
         ],
         "description": [
             "Overall, Pyrrhuloxias are gray or gray-brown birds with prominent flashes of red. Males are crisp gray with a red face and crest, a red stripe running down the breast, and a reddish tail. Females are buffy gray, with less red than males. Both sexes have yellowish bills and reddish highlights in the wings."

@@ -1,26 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64822711-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64822711-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64822711-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64822711-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64822711-480px.jpg"
         ],
-        "description": [
-            "Least Sandpipers are tiny sandpipers with round bodies and relatively short, pointed wings. They have thin-tipped, slightly decurved bills and slim, medium-length legs.",
-            "Tiny (our smallest shorebird); Slightly larger than a sparrow, slightly smaller than a Semipalmated Sandpiper.",
-            "",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 5.1-5.9 in (13-15 cm)",
-            "Weight: 0.7-1.1 oz (19-30 g)",
-            "Wingspan: 10.6-11.0 in (27-28 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Least Sandpipers are tiny sandpipers with round bodies and relatively short, pointed wings. They have thin-tipped, slightly decurved bills and slim, medium-length legs."
+            ],
+            "Compared Size": [
+                "Tiny (our smallest shorebird); Slightly larger than a sparrow, slightly smaller than a Semipalmated Sandpiper."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-5.9 in (13-15 cm)",
+                "Weight: 0.7-1.1 oz (19-30 g)",
+                "Wingspan: 10.6-11.0 in (27-28 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/64822761-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64822761-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64822761-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64822761-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64822761-720px.jpg"
         ],
         "description": [
             "They have brown upperparts and white underparts. Their bills are black, and their legs are yellowish-green (this can be obscured by mud at times). Juveniles have crisp plumage that is rustier than that of adults. In flight, Least Sandpipers show whitish rumps bisected by a longitudinal black line."
@@ -35,8 +42,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64822681-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64822681-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64822681-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64822681-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64822681-720px.jpg"
         ],
         "description": [
             "Least Sandpipers feed on mudflats and the edges of water bodies. They tend to favor muddier shores and estuaries than other sandpipers, and are not common on ocean beaches. They breed in wet tundra and interrupted boreal forest across much of northern North America."

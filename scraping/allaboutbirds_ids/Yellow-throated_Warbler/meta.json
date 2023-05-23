@@ -5,23 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64894611-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64894611-480px.jpg"
         ],
-        "description": [
-            "Yellow-throated Warblers are small, well-proportioned birds with sharp and pointed bills. Compared to other warblers, they are a bit more heavy-bodied with a longer and thicker bill. From below, note the blunt, only slightly notched tail.",
-            "",
-            "Slightly larger than a Brown Creeper, smaller than a Tufted Titmouse.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.1-5.5 in (13-14 cm)",
-            "Weight: 0.3-0.4 oz (9-11 g)",
-            "Wingspan: 8.3 in (21 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Yellow-throated Warblers are small, well-proportioned birds with sharp and pointed bills. Compared to other warblers, they are a bit more heavy-bodied with a longer and thicker bill. From below, note the blunt, only slightly notched tail."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Brown Creeper, smaller than a Tufted Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-5.5 in (13-14 cm)",
+                "Weight: 0.3-0.4 oz (9-11 g)",
+                "Wingspan: 8.3 in (21 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64894581-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64894581-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64894581-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64894581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64894581-480px.jpg"
         ],
         "description": [
             "Yellow-throated Warblers are gray and white with a splash of yellow on the throat and black streaks down the sides. The yellow throat is offset by a black triangle below the eye and a white eyebrow. From above they have a gray back and 2 white wingbars. From below look for the white belly and white tail. Females and first-year males look similar, but are slightly paler.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64894601-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64894601-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64894601-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64894601-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64894601-480px.jpg"
         ],
         "description": [
             "Yellow-throated Warblers are found in pine forests, sycamore\u2013bald cypress swamps, and woodlands near streams, especially areas with tall trees and an open understory.",

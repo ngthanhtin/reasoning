@@ -1,24 +1,30 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64828081-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64828081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64828081-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64828081-480px.jpg"
         ],
-        "description": [
-            "A chunky, medium-sized shorebird with a long, straight bill and moderately long legs.",
-            "",
-            "Larger than a Lesser Yellowlegs, smaller than a Greater Yellowlegs.",
-            "",
-            "robin-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A chunky, medium-sized shorebird with a long, straight bill and moderately long legs."
+            ],
+            "Compared Size": [
+                "Larger than a Lesser Yellowlegs, smaller than a Greater Yellowlegs."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64828031-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64828031-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64828031-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64828031-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64828031-720px.jpg"
         ],
         "description": [
             "Breeding adults have brown, black, and gold upperparts and are pale orange with darker speckling below (colors limited to the neck and upper breast in eastern subspecies). Nonbreeding adults are quite plain, grayish brown above and pale below, with some speckling on breast and sides. Juveniles in fresh plumage have orange breast and dark feathers with striking gold edges above.",
@@ -34,9 +40,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64828061-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64828061-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64828061-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64828061-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64828061-480px.jpg"
         ],
         "description": [
             "Breeds in boreal wetlands near treeline. Winters largely in saltwater estuaries and lagoons. Migrating birds utilize almost any freshwater or saltwater wetland with shallow water, as well as flooded agricultural fields and sewage ponds.",

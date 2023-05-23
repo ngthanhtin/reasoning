@@ -5,21 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/65053391-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65053391-480px.jpg"
         ],
-        "description": [
-            "A medium-sized woodpecker with a long body, large, rounded head, and a chisel-like bill.",
-            "A medium-sized woodpecker. Larger than a Downy Woodpecker, smaller than a Northern Flicker.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 7.9-8.7 in (20-22 cm)",
-            "Weight: 1.9-2.2 oz (53.1-63.5 g)",
-            "Wingspan: 14.6-16.0 in (37-40.6 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized woodpecker with a long body, large, rounded head, and a chisel-like bill."
+            ],
+            "Compared Size": [
+                "A medium-sized woodpecker. Larger than a Downy Woodpecker, smaller than a Northern Flicker."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.9-8.7 in (20-22 cm)",
+                "Weight: 1.9-2.2 oz (53.1-63.5 g)",
+                "Wingspan: 14.6-16.0 in (37-40.6 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65053401-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65053401-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65053401-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65053401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65053401-480px.jpg"
         ],
         "description": [
             "Both male and female Red-breasted Sapsuckers have a red head and breast with a white spot between the eye and the bill. The back is mottled black and white and the wings are black with a large vertical white patch. Underparts are mostly white, with dark streaks on the side and a yellowish wash on the belly."
@@ -33,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65053421-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65053421-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65053421-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65053421-480px.jpg"
         ],
         "description": [

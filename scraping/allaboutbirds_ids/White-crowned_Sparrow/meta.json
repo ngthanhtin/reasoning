@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64978031-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64978031-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64978031-480px.jpg"
         ],
-        "description": [
-            "The White-crowned Sparrow is a large sparrow with a small bill and a long tail. The head can look distinctly peaked or smooth and flat, depending on the bird\u2019s attitude.",
-            "Slightly larger than a Song Sparrow",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.9-6.3 in (15-16 cm)",
-            "Weight: 0.9-1.0 oz (25-28 g)",
-            "Wingspan: 8.3-9.4 in (21-24 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The White-crowned Sparrow is a large sparrow with a small bill and a long tail. The head can look distinctly peaked or smooth and flat, depending on the bird\u2019s attitude."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Song Sparrow"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-6.3 in (15-16 cm)",
+                "Weight: 0.9-1.0 oz (25-28 g)",
+                "Wingspan: 8.3-9.4 in (21-24 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64978011-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64978011-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64978011-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64978011-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64978011-720px.jpg"
         ],
         "description": [
             "First impressions of White-crowned Sparrows tend to be of a plain, pale-gray bird; next your eye is drawn to the very bold black-and-white stripes on the head and the pale pink or yellow bill. Learn this bird's size and shape so you're ready to identify young birds that have brown, not black, markings on the head."

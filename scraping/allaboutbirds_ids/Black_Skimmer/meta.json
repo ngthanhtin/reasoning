@@ -2,25 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/143901501-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/143901501-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/143901501-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/143901501-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/143901501-480px.jpg"
         ],
-        "description": [
-            "A medium-sized ternlike seabird with very long wings and an outsized bill in which the lower mandible is much longer than the upper.",
-            "",
-            "Larger than a Laughing Gull, slightly smaller than a Royal Tern (but with longer wings).",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 15.8-19.7 in (40-50 cm)",
-            "Weight: 9.3-12.9 oz (265-365 g)",
-            "Wingspan: 42.9-45.3 in (109-115 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized ternlike seabird with very long wings and an outsized bill in which the lower mandible is much longer than the upper."
+            ],
+            "Compared Size": [
+                "Larger than a Laughing Gull, slightly smaller than a Royal Tern (but with longer wings)."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.8-19.7 in (40-50 cm)",
+                "Weight: 9.3-12.9 oz (265-365 g)",
+                "Wingspan: 42.9-45.3 in (109-115 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/143901511-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/143901511-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/143901511-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/143901511-480px.jpg"
         ],
         "description": [
@@ -30,9 +36,9 @@
     },
     "Behavior": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/143901581-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/143901581-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/143901581-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/143901581-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/143901581-720px.jpg"
         ],
         "description": [
             "Skimmers have a distinctive flight style: usually very low to the water, with long upstrokes but short downstrokes to stay clear of the water. This creates a characteristic bounding or ranging style to the flight.",

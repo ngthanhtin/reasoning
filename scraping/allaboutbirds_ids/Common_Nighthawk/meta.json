@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66113501-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66113501-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66113501-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66113501-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66113501-720px.jpg"
         ],
-        "description": [
-            "Common Nighthawks are medium-sized, slender birds with very long, pointed wings and medium-long tails. Only the small tip of the bill is usually visible, and this combined with the large eye and short neck gives the bird a big-headed look.",
-            "Slightly smaller than an American Kestrel; larger than a Purple Martin.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 8.7-9.4 in (22-24 cm)",
-            "Weight: 2.3-3.5 oz (65-98 g)",
-            "Wingspan: 20.9-22.4 in (53-57 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Common Nighthawks are medium-sized, slender birds with very long, pointed wings and medium-long tails. Only the small tip of the bill is usually visible, and this combined with the large eye and short neck gives the bird a big-headed look."
+            ],
+            "Compared Size": [
+                "Slightly smaller than an American Kestrel; larger than a Purple Martin."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.7-9.4 in (22-24 cm)",
+                "Weight: 2.3-3.5 oz (65-98 g)",
+                "Wingspan: 20.9-22.4 in (53-57 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/66113511-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66113511-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66113511-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66113511-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113511-480px.jpg"
         ],
         "description": [
             "Common Nighthawks are well camouflaged in gray, white, buff, and black. The long, dark wings have a striking white blaze about two-thirds of the way out to the tip. In flight, a V-shaped white throat patch contrasts with the rest of the bird\u2019s mottled plumage."
@@ -35,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66113521-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66113521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113521-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66113521-720px.jpg"
         ],
         "description": [

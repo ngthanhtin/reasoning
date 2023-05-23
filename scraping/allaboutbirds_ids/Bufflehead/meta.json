@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63905261-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63905261-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63905261-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63905261-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63905261-480px.jpg"
         ],
-        "description": [
-            "Bufflehead are very small, compact ducks with large, rounded heads and short, wide bills.",
-            "Smaller than a Common Goldeneye; larger than a Pied-billed Grebe.",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 12.6-15.8 in (32-40 cm)",
-            "Weight: 9.6-22.4 oz (272-635 g)",
-            "Wingspan: 21.6 in (55 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Bufflehead are very small, compact ducks with large, rounded heads and short, wide bills."
+            ],
+            "Compared Size": [
+                "Smaller than a Common Goldeneye; larger than a Pied-billed Grebe."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 12.6-15.8 in (32-40 cm)",
+                "Weight: 9.6-22.4 oz (272-635 g)",
+                "Wingspan: 21.6 in (55 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/216531741-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/216531741-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/216531741-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/216531741-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/216531741-480px.jpg"
         ],
         "description": [
             "Adult male Bufflehead have a white body, black back, and a dark head with a large white patch that wraps around the back of the head. Females and first-year males are gray-brown overall with an oval, white cheek patch. In flight adult males have a large white patch on the upperwing; females and first-year males have a smaller white wing patch."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63905241-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63905241-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63905241-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63905241-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63905241-480px.jpg"
         ],
         "description": [
             "Bufflehead are most widespread in migration and winter, when they move south to coasts and large bodies of water, particularly shallow saltwater bays. They breed near lakes in northern forests where conifers mix with poplars or aspens. Bufflehead nest in tree cavities, especially old Northern Flicker holes."

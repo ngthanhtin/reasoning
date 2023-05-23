@@ -1,22 +1,30 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67477561-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67477561-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67477561-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67477561-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67477561-480px.jpg"
         ],
-        "description": [
-            "Medium-sized, round-bodied, and chunky, with long legs, rounded head and short neck, a short, sturdy bill, and a short tail.",
-            "Larger and heavier-bodied than a Western Bluebird, smaller than an American Robin.",
-            "robin-sized",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Medium-sized, round-bodied, and chunky, with long legs, rounded head and short neck, a short, sturdy bill, and a short tail."
+            ],
+            "Compared Size": [
+                "Larger and heavier-bodied than a Western Bluebird, smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67477591-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67477591-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67477591-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67477591-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67477591-480px.jpg"
         ],
         "description": [
             "Adults are dark gray all over, slightly more brownish around the head. Legs are pink and the bill is black. Young birds have faintly barred underparts and a yellowish bill. Look for distinct white eyelids when they blink."
@@ -30,9 +38,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67477551-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67477551-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67477551-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67477551-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67477551-720px.jpg"
         ],
         "description": [
             "Fast flowing, rocky streams with gravel or rocky bottoms. Perches on boulders and woody debris."

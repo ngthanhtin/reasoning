@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71534291-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71534291-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71534291-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71534291-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71534291-480px.jpg"
         ],
-        "description": [
-            "Broad-winged Hawks are small, compact raptors with chunky bodies and large heads. In flight, their broad wings come to a distinct point. The tail is short and square.",
-            "Slightly smaller than a Red-shouldered Hawk.",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 13.4-17.3 in (34-44 cm)",
-            "Weight: 9.3-19.8 oz (265-560 g)",
-            "Wingspan: 31.9-39.4 in (81-100 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Broad-winged Hawks are small, compact raptors with chunky bodies and large heads. In flight, their broad wings come to a distinct point. The tail is short and square."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Red-shouldered Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 13.4-17.3 in (34-44 cm)",
+                "Weight: 9.3-19.8 oz (265-560 g)",
+                "Wingspan: 31.9-39.4 in (81-100 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71534361-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/71534361-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/71534361-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/71534361-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/71534361-480px.jpg"
         ],
         "description": [
             "Adult Broad-winged Hawks have reddish-brown heads, barred underparts, and broad black and white bands on the tail. The pale undersides of the wings are bordered in dark brown. Juveniles are lighter brown with coarse streaking on the underparts, particularly on the sides of the breast; the tail is narrowly banded. In the West, rare dark-morph adults are completely dark sooty brown with a banded tail."

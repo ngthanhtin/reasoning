@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66115701-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66115701-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66115701-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66115701-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66115701-480px.jpg"
         ],
-        "description": [
-            "The Dark-eyed Junco is a medium-sized sparrow with a rounded head, a short, stout bill and a fairly long, conspicuous tail.",
-            "Slightly larger than a Chipping Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5-6.3 in (14-16 cm)",
-            "Weight: 0.6-1.1 oz (18-30 g)",
-            "Wingspan: 7.1-9.8 in (18-25 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Dark-eyed Junco is a medium-sized sparrow with a rounded head, a short, stout bill and a fairly long, conspicuous tail."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Chipping Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.3 in (14-16 cm)",
+                "Weight: 0.6-1.1 oz (18-30 g)",
+                "Wingspan: 7.1-9.8 in (18-25 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/66115711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115711-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66115711-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66115711-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66115711-480px.jpg"
         ],
         "description": [
             "Juncos vary across the country (see Regional Differences), but in general they\u2019re dark gray or brown birds brightened up by a pink bill and white outer tail feathers that periodically flash open, particularly in flight."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66115771-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66115771-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66115771-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66115771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115771-720px.jpg"
         ],
         "description": [
             "Dark-eyed Juncos breed in coniferous or mixed-coniferous forests across Canada, the western U.S., and in the Appalachians. During winter you\u2019ll find them in open woodlands, fields, parks, roadsides, and backyards."

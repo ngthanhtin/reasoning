@@ -1,23 +1,29 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/32804061-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32804061-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/32804061-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32804061-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/32804061-480px.jpg"
         ],
-        "description": [
-            "A fairly large, disheveled-looking bird with a long, rounded tail and short, rounded wings. It has a tall, heavy bill (though generally smaller than the bill of Smooth-billed Ani). At close range, several grooves in the upper mandible are visible.",
-            "",
-            "Larger than a Yellow-billed Cuckoo, smaller than a male Cooper\u2019s Hawk.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A fairly large, disheveled-looking bird with a long, rounded tail and short, rounded wings. It has a tall, heavy bill (though generally smaller than the bill of Smooth-billed Ani). At close range, several grooves in the upper mandible are visible."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow-billed Cuckoo, smaller than a male Cooper\u2019s Hawk."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/40545701-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/40545701-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40545701-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/40545701-480px.jpg"
         ],
         "description": [
@@ -35,8 +41,8 @@
     "Habitat": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/63289651-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63289651-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63289651-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63289651-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289651-720px.jpg"
         ],
         "description": [
             "Dense, low vegetation such as shrubs or small trees in arid, open country of lowlands. Nonbreeding birds sometimes move temporarily into wetter habitats such as marshes, especially during droughts.",

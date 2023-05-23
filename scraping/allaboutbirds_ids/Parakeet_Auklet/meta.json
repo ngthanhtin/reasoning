@@ -1,21 +1,29 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67631951-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67631951-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67631951-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67631951-720px.jpg"
         ],
-        "description": [
-            "A plump seabird with an unusual rounded bill, thick neck, broad chest, and very short tail.",
-            "Larger than a Least Auklet, smaller than a Pigeon Guillemot.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A plump seabird with an unusual rounded bill, thick neck, broad chest, and very short tail."
+            ],
+            "Compared Size": [
+                "Larger than a Least Auklet, smaller than a Pigeon Guillemot."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67632141-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67632141-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67632141-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67632141-480px.jpg"
         ],
         "description": [
@@ -34,8 +42,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67632151-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67632151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67632151-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67632151-720px.jpg"
         ],
         "description": [

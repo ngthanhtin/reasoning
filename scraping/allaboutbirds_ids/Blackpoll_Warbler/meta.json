@@ -2,24 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64804621-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64804621-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64804621-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64804621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64804621-720px.jpg"
         ],
-        "description": [
-            "Blackpoll Warblers are small songbirds with a short tail and a small thin bill. Compared to other warblers they have longer wings.",
-            "Larger than a Tennessee Warbler, smaller than a Red-eyed Vireo.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5 in (14 cm)",
-            "Weight: 0.4-0.5 oz (12-13 g)",
-            "Wingspan: 8.3-9.1 in (21-23 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Blackpoll Warblers are small songbirds with a short tail and a small thin bill. Compared to other warblers they have longer wings."
+            ],
+            "Compared Size": [
+                "Larger than a Tennessee Warbler, smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5 in (14 cm)",
+                "Weight: 0.4-0.5 oz (12-13 g)",
+                "Wingspan: 8.3-9.1 in (21-23 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64804711-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64804711-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64804711-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/64804711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64804711-480px.jpg"
         ],
         "description": [
             "Breeding male Blackpoll Warblers are black-and-white with a distinctive black cap and white cheeks bordered by a black mustache stripe. Breeding females are streaky black, white, and gray, without the male\u2019s black cap or white cheek. Both sexes have two white wingbars and orange-yellow legs. In late summer they molt into a very different plumage: greenish-yellow above with dark streaking down the back and faint streaking on white underparts. The face is pale yellow with a dark eyeline."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/64804651-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64804651-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64804651-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64804651-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64804651-480px.jpg"
         ],
         "description": [
             "Blackpoll Warblers breed mainly in spruce and tamarack forests in Canada's boreal forests, but they also use young stands of evergreens and alder or willow thickets. During migration they stop over in evergreen and deciduous forests."

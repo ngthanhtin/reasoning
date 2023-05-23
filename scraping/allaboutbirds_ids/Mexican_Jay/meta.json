@@ -1,12 +1,19 @@
 {
     "Size": {
-        "description": [
-            "A large songbird with a robust body, long tail, short neck, heavy, pointed bill, and long, strong legs and feet.",
-            "",
-            "Slightly larger than a Blue Jay, smaller than an American Crow.",
-            "between robin and crow",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "A large songbird with a robust body, long tail, short neck, heavy, pointed bill, and long, strong legs and feet."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Blue Jay, smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "description": [

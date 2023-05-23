@@ -5,21 +5,29 @@
             " https://www.allaboutbirds.org/guide/assets/photo/63743751-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63743751-720px.jpg"
         ],
-        "description": [
-            "A medium-sized songbird, a bit more slender than a thrush and with a longer tail. Mockingbirds have small heads, a long, thin bill with a hint of a downward curve, and long legs. Their wings are short, rounded, and broad, making the tail seem particularly long in flight.",
-            "Slightly larger than a Gray Catbird",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 8.3-10.2 in (21-26 cm)",
-            "Weight: 1.6-2.0 oz (45-58 g)",
-            "Wingspan: 12.2-13.8 in (31-35 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized songbird, a bit more slender than a thrush and with a longer tail. Mockingbirds have small heads, a long, thin bill with a hint of a downward curve, and long legs. Their wings are short, rounded, and broad, making the tail seem particularly long in flight."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Gray Catbird"
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.3-10.2 in (21-26 cm)",
+                "Weight: 1.6-2.0 oz (45-58 g)",
+                "Wingspan: 12.2-13.8 in (31-35 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63743701-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63743701-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63743701-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63743701-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63743701-480px.jpg"
         ],
         "description": [
             "Mockingbirds are overall gray-brown, paler on the breast and belly, with two white wingbars on each wing. A white patch in each wing is often visible on perched birds, and in flight these become large white flashes. The white outer tail feathers are also flashy in flight."
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63743711-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63743711-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63743711-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63743711-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63743711-480px.jpg"
         ],
         "description": [
             "Look for Northern Mockingbirds in towns, suburbs, backyards, parks, forest edges, and open land at low elevations."

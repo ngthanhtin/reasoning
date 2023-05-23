@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64456461-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64456461-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64456461-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64456461-480px.jpg"
         ],
-        "description": [
-            "Hooded Warblers are small, well-proportioned birds with a straight, sharp bill. Compared to other warblers, they are fairly heavy-bodied and thick-necked.",
-            "",
-            "Larger than a Ruby-crowned Kinglet, smaller than a Red-eyed Vireo.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.1 in (13 cm)",
-            "Weight: 0.3-0.4 oz (9-12 g)",
-            "Wingspan: 6.9 in (17.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Hooded Warblers are small, well-proportioned birds with a straight, sharp bill. Compared to other warblers, they are fairly heavy-bodied and thick-necked."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1 in (13 cm)",
+                "Weight: 0.3-0.4 oz (9-12 g)",
+                "Wingspan: 6.9 in (17.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64456401-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64456401-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64456401-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64456401-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64456401-720px.jpg"
         ],
         "description": [
             "Adult males are olive-green above and bright yellow below with a black hood and throat, a yellow forehead, and yellow cheeks. Females and immatures are also olive-green above and yellow below, but they don't have a black hood, although some adult females show an outline of a hood. Note the large black eye and white outer tail feathers that it often flashes.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64456441-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64456441-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64456441-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64456441-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64456441-480px.jpg"
         ],
         "description": [
             "Hooded Warblers are found in mature deciduous forests with a dense understory, but also uses smaller forest patches as long as there is a shrubby understory.",

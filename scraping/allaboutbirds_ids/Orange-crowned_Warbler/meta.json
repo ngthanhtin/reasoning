@@ -5,15 +5,23 @@
             " https://www.allaboutbirds.org/guide/assets/photo/64441211-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64441211-480px.jpg"
         ],
-        "description": [
-            "Orange-crowned Warblers are small songbirds. Compared with other warblers, they have noticeably thin, sharply pointed bills. They have short wings and short, square tails.",
-            "Slightly larger than a Ruby-crowned Kinglet; slightly smaller than a Yellow-rumped Warbler.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.5 in (11-14 cm)",
-            "Weight: 0.3-0.4 oz (7-11 g)",
-            "Wingspan: 7.5 in (19 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Orange-crowned Warblers are small songbirds. Compared with other warblers, they have noticeably thin, sharply pointed bills. They have short wings and short, square tails."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Ruby-crowned Kinglet; slightly smaller than a Yellow-rumped Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.5 in (11-14 cm)",
+                "Weight: 0.3-0.4 oz (7-11 g)",
+                "Wingspan: 7.5 in (19 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64441241-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64441241-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64441241-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64441241-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64441241-720px.jpg"
         ],
         "description": [
             "Orange-crowned Warblers breed in dense areas of deciduous shrubs, usually within or adjacent to forest. They can occur from low-elevation oak scrub to stunted forest near timberline. During migration you may find them in nearly any habitat, though they still show a preference for dense, low vegetation."

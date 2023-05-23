@@ -1,16 +1,22 @@
 {
     "Size": {
-        "description": [
-            "A chicken-sized rail with a heavy conical bill, short tail (often cocked), a compact body, and very long legs and toes.",
-            "",
-            "Slightly smaller than an American Coot, larger than a Sora.",
-            "",
-            "crow-sized",
-            "Sex: Both Sexes",
-            "Length: 13.0-14.6 in (33-37 cm)",
-            "Weight: 7.2-10.3 oz (203-291 g)",
-            "Wingspan: 21.6-22.1 in (55-56 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A chicken-sized rail with a heavy conical bill, short tail (often cocked), a compact body, and very long legs and toes."
+            ],
+            "Compared Size": [
+                "Slightly smaller than an American Coot, larger than a Sora."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 13.0-14.6 in (33-37 cm)",
+                "Weight: 7.2-10.3 oz (203-291 g)",
+                "Wingspan: 21.6-22.1 in (55-56 cm)"
+            ]
+        }
     },
     "Color": {
         "description": [

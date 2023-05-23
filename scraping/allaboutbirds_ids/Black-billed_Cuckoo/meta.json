@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66038801-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66038801-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66038801-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66038801-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66038801-480px.jpg"
         ],
-        "description": [
-            "Cuckoos are slender, dove-sized birds with a longer slightly curved bill and a very long tail. When perched it often has a hunchbacked posture.",
-            "",
-            "Larger than a Baltimore Oriole, smaller than an American Crow.",
-            "",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 11.0-12.2 in (28-31 cm)",
-            "Weight: 1.4-2.3 oz (40-65 g)",
-            "Wingspan: 13.4-15.8 in (34-40 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Cuckoos are slender, dove-sized birds with a longer slightly curved bill and a very long tail. When perched it often has a hunchbacked posture."
+            ],
+            "Compared Size": [
+                "Larger than a Baltimore Oriole, smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.0-12.2 in (28-31 cm)",
+                "Weight: 1.4-2.3 oz (40-65 g)",
+                "Wingspan: 13.4-15.8 in (34-40 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/66038761-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66038761-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66038761-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66038761-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66038761-480px.jpg"
         ],
         "description": [
             "Black-billed Cuckoos are plain brown above without cinnamon tones and white below with a red ring around the eye and a black bill. From below, note the small white tips on the tail feathers.",
@@ -38,8 +44,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/66038771-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66038771-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66038771-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/66038771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66038771-480px.jpg"
         ],
         "description": [
             "Black-billed Cuckoos breed in dense woodlands and thickets with deciduous and evergreen trees, often near water. During migration they forage in thickets, woodlands, orchards, gardens, and scrublands. On the wintering grounds they also use thickets, woodlands, and scrub.",

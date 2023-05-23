@@ -5,20 +5,27 @@
             " https://www.allaboutbirds.org/guide/assets/photo/67375041-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67375041-480px.jpg"
         ],
-        "description": [
-            "Rusty Blackbird is a medium-sized blackbird with a slender bill and medium-length tail. The bill is slightly decurved. They are a bit larger and longer-tailed than Red-winged Blackbird with a more slender bill. Rusty Blackbird is thinner-billed and shorter-tailed than Common Grackle.",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 8.3-9.8 in (21-25 cm)",
-            "Weight: 1.7-2.8 oz (47-80 g)",
-            "Wingspan: 14.6 in (37 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Rusty Blackbird is a medium-sized blackbird with a slender bill and medium-length tail. The bill is slightly decurved. They are a bit larger and longer-tailed than Red-winged Blackbird with a more slender bill. Rusty Blackbird is thinner-billed and shorter-tailed than Common Grackle."
+            ],
+            "Compared Size": [],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.3-9.8 in (21-25 cm)",
+                "Weight: 1.7-2.8 oz (47-80 g)",
+                "Wingspan: 14.6 in (37 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67375011-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67375011-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67375011-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67375011-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67375011-720px.jpg"
         ],
         "description": [
             "In winter, male Rusty Blackbirds are recognized by their rusty feather edges, pale yellow eye and buffy eyebrow. Females are gray-brown; they also have rusty feather edges, pale eyes and a bold eyebrow, contrasting with darker feathers right around the eye. Breeding males are dark glossy black."

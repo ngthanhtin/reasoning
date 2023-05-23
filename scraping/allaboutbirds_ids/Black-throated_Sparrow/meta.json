@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/32803431-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32803431-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32803431-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/32803431-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32803431-480px.jpg"
         ],
-        "description": [
-            "A medium-sized sparrow with a large, round head, conical seed-eating bill, and a medium length tail.",
-            "",
-            "Larger than a Blue-gray Gnatcatcher, smaller than a Horned Lark.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.5 in (12-14 cm)",
-            "Weight: 0.4-0.5 oz (11-15 g)",
-            "Wingspan: 7.7 in (19.5 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized sparrow with a large, round head, conical seed-eating bill, and a medium length tail."
+            ],
+            "Compared Size": [
+                "Larger than a Blue-gray Gnatcatcher, smaller than a Horned Lark."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.4-0.5 oz (11-15 g)",
+                "Wingspan: 7.7 in (19.5 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/32803411-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/32803411-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/32803411-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/32803411-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32803411-480px.jpg"
         ],
         "description": [
             "Most striking feature is the face pattern: neat gray bordered by 2 strong white stripes and a black triangular throat patch. Upperparts are grayish brown and the underparts are a paler mix of cream and white. The tail is dark with white spots on the corners. Juveniles look like adults but lack the black throat patch and have faint streaks above and below.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/38660851-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/38660851-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/38660851-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/38660851-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/38660851-480px.jpg"
         ],
         "description": [
             "Dry scrubby areas, desert scrub, canyons, and washes.",

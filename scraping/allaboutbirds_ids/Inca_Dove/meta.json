@@ -5,12 +5,20 @@
             " https://www.allaboutbirds.org/guide/assets/photo/66035501-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66035501-480px.jpg"
         ],
-        "description": [
-            "The Inca Dove is a small and slender dove with a long, square-tipped tail and small head. It has a thin and slightly drooping bill and short legs.",
-            "Slightly larger than a Common Ground-Dove, smaller than a Mourning Dove.",
-            "between sparrow and robin",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "The Inca Dove is a small and slender dove with a long, square-tipped tail and small head. It has a thin and slightly drooping bill and short legs."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Common Ground-Dove, smaller than a Mourning Dove."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -31,8 +39,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/66035511-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/66035511-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66035511-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66035511-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66035511-480px.jpg"
         ],
         "description": [
             "Inca Doves frequent areas near people including cities, towns, parks, and farms. In these areas, they use open areas with sparse shrub cover and scattered trees such as palo verde and oak."

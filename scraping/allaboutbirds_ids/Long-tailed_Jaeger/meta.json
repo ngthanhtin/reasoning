@@ -2,26 +2,32 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/40625471-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/40625471-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40625471-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/40625471-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40625471-480px.jpg"
         ],
-        "description": [
-            "Slender seabird; the smallest of the three jaegers. Breeding adults have an exceptionally long, pointed tail. Bill is shorter and proportionally thicker than other jaegers.",
-            "",
-            "Larger than a Bonaparte\u2019s Gull, smaller than a Parasitic Jaeger.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 15.0-24.8 in (38-63 cm)",
-            "Weight: 7.7-12.1 oz (218-343 g)",
-            "Wingspan: 41.3-44.1 in (105-112 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Slender seabird; the smallest of the three jaegers. Breeding adults have an exceptionally long, pointed tail. Bill is shorter and proportionally thicker than other jaegers."
+            ],
+            "Compared Size": [
+                "Larger than a Bonaparte\u2019s Gull, smaller than a Parasitic Jaeger."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.0-24.8 in (38-63 cm)",
+                "Weight: 7.7-12.1 oz (218-343 g)",
+                "Wingspan: 41.3-44.1 in (105-112 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40625451-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/40625451-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40625451-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/40625451-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/40625451-720px.jpg"
         ],
         "description": [
             "Note uniform brownish back contrasting with dark flight feathers, limited clean black cap, and pale yellow on the side of the neck. Immature birds have an attractive scaly pattern on wings and vary from dark brown to a pale grayish white. Typically shows white shafts only on two outermost wing feathers (fewer than other jaegers).",

@@ -5,17 +5,23 @@
             " https://www.allaboutbirds.org/guide/assets/photo/63734811-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63734811-480px.jpg"
         ],
-        "description": [
-            "Medium-sized chunky finch with a conical bill and a notched tail.",
-            "",
-            "Larger than a Pine Siskin, smaller than an Evening Grosbeak.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5-6.3 in (14-16 cm)",
-            "Weight: 0.8-1.1 oz (22-32 g)",
-            "Wingspan: 13.0 in (33 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Medium-sized chunky finch with a conical bill and a notched tail."
+            ],
+            "Compared Size": [
+                "Larger than a Pine Siskin, smaller than an Evening Grosbeak."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.3 in (14-16 cm)",
+                "Weight: 0.8-1.1 oz (22-32 g)",
+                "Wingspan: 13.0 in (33 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63734821-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63734821-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63734821-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63734821-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63734821-720px.jpg"
         ],
         "description": [
             "Breeds in alpine areas, usually near rock piles and cliffs. Winters in open country, including mountain meadows, high deserts, valleys, and plains.",

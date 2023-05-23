@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/39344931-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/39344931-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/39344931-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/39344931-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/39344931-720px.jpg"
         ],
-        "description": [
-            "A medium-sized sparrow with a short conical bill, plump body, and a rather short tail in which the individual feathers often appear spiky at the tips.",
-            "",
-            "Larger than a Common Yellowthroat, smaller than a Song Sparrow.",
-            "",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.3-5.1 in (11-13 cm)",
-            "Weight: 0.6-0.7 oz (17-21 g)",
-            "Wingspan: 6.5-7.9 in (16.5-20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A medium-sized sparrow with a short conical bill, plump body, and a rather short tail in which the individual feathers often appear spiky at the tips."
+            ],
+            "Compared Size": [
+                "Larger than a Common Yellowthroat, smaller than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.6-0.7 oz (17-21 g)",
+                "Wingspan: 6.5-7.9 in (16.5-20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/38839141-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/38839141-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/38839141-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/38839141-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/38839141-480px.jpg"
         ],
         "description": [
             "A richly colored sparrow with a saffron-yellow eyebrow and whisker marks framing a grayish cheek. The interior-breeding form of Nelson\u2019s Sparrow, this yellow color continues strongly onto the throat, breast, and sides, with streaking on the breast and flanks. The coastal-breeding \u201cAtlantic\u201d form is more muted, with pale gray in the upper back, pale buff below, and very limited, faint streaking on the breast.",
@@ -37,8 +43,8 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/38840641-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/38840641-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/38840641-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/38840641-480px.jpg"
         ],
         "description": [

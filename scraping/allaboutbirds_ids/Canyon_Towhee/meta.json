@@ -1,18 +1,25 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64988761-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64988761-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64988761-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64988761-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64988761-720px.jpg"
         ],
-        "description": [
-            "Canyon Towhees are large sparrows with fairly long tails, chunky bodies and short rounded wings. The bill is short and thick at the base, and the legs are long.",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 8.3-9.8 in (21-25 cm)",
-            "Weight: 1.3-1.9 oz (37-53 g)",
-            "Wingspan: 11.5 in (29.21 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Canyon Towhees are large sparrows with fairly long tails, chunky bodies and short rounded wings. The bill is short and thick at the base, and the legs are long."
+            ],
+            "Compared Size": [],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.3-9.8 in (21-25 cm)",
+                "Weight: 1.3-1.9 oz (37-53 g)",
+                "Wingspan: 11.5 in (29.21 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,8 +40,8 @@
     "Habitat": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/64988791-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64988791-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64988791-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64988791-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64988791-480px.jpg"
         ],
         "description": [
             "Within their fairly narrow range, look for Canyon Towhees in desert grasslands with scattered dense shrubs, rocky terrain, dry watercourses with mesquite, and other dry, scrubby areas. Unlike California Towhees, they shy away from suburban neighborhoods, favoring sparsely settled and remote areas."

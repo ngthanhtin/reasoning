@@ -5,16 +5,23 @@
             "https://www.allaboutbirds.org/guide/assets/photo/66120971-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66120971-480px.jpg"
         ],
-        "description": [
-            "Tiny among birds, Anna\u2019s are medium-sized and stocky for a hummingbird. They have a straight, shortish bill and a fairly broad tail. When perched, the tail extends beyond the wingtips.",
-            "",
-            "Very slightly larger than a Rufous Hummingbird",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.9 in (10 cm)",
-            "Weight: 0.1-0.2 oz (3-6 g)",
-            "Wingspan: 4.7 in (12 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Tiny among birds, Anna\u2019s are medium-sized and stocky for a hummingbird. They have a straight, shortish bill and a fairly broad tail. When perched, the tail extends beyond the wingtips."
+            ],
+            "Compared Size": [
+                "Very slightly larger than a Rufous Hummingbird"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9 in (10 cm)",
+                "Weight: 0.1-0.2 oz (3-6 g)",
+                "Wingspan: 4.7 in (12 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -34,8 +41,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66120951-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66120951-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66120951-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66120951-720px.jpg"
         ],
         "description": [

@@ -2,23 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/67469191-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67469191-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67469191-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/67469191-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67469191-480px.jpg"
         ],
-        "description": [
-            "Veeries are medium-sized thrushes\u2014smaller than an American Robin but similar in shape. They have a plump body, round head, a straight, narrow bill, and fairly long wings and legs.",
-            "Smaller than an American Robin; larger than a Song Sparrow",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 6.7-7.1 in (17-18 cm)",
-            "Weight: 1.0-1.9 oz (28-54 g)",
-            "Wingspan: 11.0-11.4 in (28-29 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Veeries are medium-sized thrushes\u2014smaller than an American Robin but similar in shape. They have a plump body, round head, a straight, narrow bill, and fairly long wings and legs."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin; larger than a Song Sparrow"
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-7.1 in (17-18 cm)",
+                "Weight: 1.0-1.9 oz (28-54 g)",
+                "Wingspan: 11.0-11.4 in (28-29 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67469171-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67469171-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67469171-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67469171-480px.jpg"
         ],
         "description": [
@@ -34,8 +42,8 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67469311-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67469311-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67469311-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67469311-480px.jpg"
         ],
         "description": [

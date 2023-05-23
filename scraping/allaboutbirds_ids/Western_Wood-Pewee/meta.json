@@ -1,27 +1,35 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65617101-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65617101-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65617101-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65617101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617101-720px.jpg"
         ],
-        "description": [
-            "Western Wood-Pewees are medium-sized flycatchers with a peaked crown that gives their head a triangular shape. These long and thin flycatchers perch upright in the canopy. They have long wings, a feature that helps separate them from similar looking",
-            "Empidonax",
-            "flycatchers.",
-            "Slightly larger than a Dusky Flycatcher, smaller than a Western Kingbird.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.5-6.3 in (14-16 cm)",
-            "Weight: 0.4-0.5 oz (11-14 g)",
-            "Wingspan: 10.2 in (26 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Western Wood-Pewees are medium-sized flycatchers with a peaked crown that gives their head a triangular shape. These long and thin flycatchers perch upright in the canopy. They have long wings, a feature that helps separate them from similar looking",
+                "Empidonax",
+                "flycatchers."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Dusky Flycatcher, smaller than a Western Kingbird."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.3 in (14-16 cm)",
+                "Weight: 0.4-0.5 oz (11-14 g)",
+                "Wingspan: 10.2 in (26 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/65617091-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65617091-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617091-480px.jpg"
         ],
         "description": [
             "Western Wood-Pewees are grayish brown overall with 2 pale wingbars. The underparts are whitish with smudgy gray on the breast and sides that can make them look like they are wearing a partially buttoned vest. The face is dark grayish brown with little to no eyering. The bill is mostly dark with yellow at the base of the lower mandible. Juveniles are similar to adults but have buffy wingbars."
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65617071-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617071-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65617071-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65617071-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65617071-720px.jpg"
         ],
         "description": [
             "Western Wood-Pewees use open woodlands, forest edges, and forests near streams with large trees, open understories, and standing dead trees. Common tree species include pinyon pine, cottonwood, sycamore, ponderosa pine, aspen, and spruce. They tend to avoid dense forests."

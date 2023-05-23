@@ -2,18 +2,26 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/65775931-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65775931-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65775931-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/65775931-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65775931-720px.jpg"
         ],
-        "description": [
-            "Allen's Hummingbirds are small, compact, and stocky hummingbirds. The bill is straight and about as long as the head. The tail extends past the wings when perched and the outermost tail feather is narrower than the rest.",
-            "Larger than a Calliope Hummingbird, slightly smaller than an Anna's Hummingbird.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 3.5 in (9 cm)",
-            "Weight: 0.1-0.1 oz (2-4 g)",
-            "Wingspan: 4.3 in (11 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Allen's Hummingbirds are small, compact, and stocky hummingbirds. The bill is straight and about as long as the head. The tail extends past the wings when perched and the outermost tail feather is narrower than the rest."
+            ],
+            "Compared Size": [
+                "Larger than a Calliope Hummingbird, slightly smaller than an Anna's Hummingbird."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.5 in (9 cm)",
+                "Weight: 0.1-0.1 oz (2-4 g)",
+                "Wingspan: 4.3 in (11 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65775941-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65775941-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65775941-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65775941-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65775941-720px.jpg"
         ],
         "description": [
             "Allen's Hummingbirds breed in coastal forest, scrub, and chaparral along a narrow strip that stretches up the coast from California to southern Oregon."

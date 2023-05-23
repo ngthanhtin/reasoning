@@ -1,27 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66114161-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66114161-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114161-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/66114161-480px.jpg"
         ],
-        "description": [
-            "A small-bodied bird with long, very narrow swept-back wings that curve along both leading and trailing edges.",
-            "",
-            "Larger than an Anna\u2019s Hummingbird, smaller than a Barn Swallow.",
-            "",
-            "between sparrow and robin",
-            "Sex: Both Sexes",
-            "Length: 4.3 in (11 cm)",
-            "Weight: 0.5-0.8 oz (15-22 g)",
-            "Wingspan: 11.0 in (28 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A small-bodied bird with long, very narrow swept-back wings that curve along both leading and trailing edges."
+            ],
+            "Compared Size": [
+                "Larger than an Anna\u2019s Hummingbird, smaller than a Barn Swallow."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3 in (11 cm)",
+                "Weight: 0.5-0.8 oz (15-22 g)",
+                "Wingspan: 11.0 in (28 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/66114141-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/66114141-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/66114141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg"
         ],
         "description": [
             "Brownish overall, with throat, chest, and uppertail a slightly paler brownish gray.",

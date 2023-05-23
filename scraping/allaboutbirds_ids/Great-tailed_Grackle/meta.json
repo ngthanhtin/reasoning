@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67363301-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67363301-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67363301-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67363301-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67363301-480px.jpg"
         ],
-        "description": [
-            "Male Great-tailed Grackles are long-legged, slender blackbirds with a flat-headed profile and stout, straight bills. The male\u2019s tapered tail is nearly as long as its body and folds into a distinctive V or keel shape. Females are about half the size of males with long, slender tails.",
-            "Exceptionally long-tailed and large songbird. Much smaller by weight than an American Crow, but about the same length.",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 15.0-18.1 in (38-46 cm)",
-            "Weight: 3.7-6.7 oz (105-190 g)",
-            "Wingspan: 18.9-22.8 in (48-58 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Male Great-tailed Grackles are long-legged, slender blackbirds with a flat-headed profile and stout, straight bills. The male\u2019s tapered tail is nearly as long as its body and folds into a distinctive V or keel shape. Females are about half the size of males with long, slender tails."
+            ],
+            "Compared Size": [
+                "Exceptionally long-tailed and large songbird. Much smaller by weight than an American Crow, but about the same length."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.0-18.1 in (38-46 cm)",
+                "Weight: 3.7-6.7 oz (105-190 g)",
+                "Wingspan: 18.9-22.8 in (48-58 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [

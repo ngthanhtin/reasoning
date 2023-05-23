@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67283591-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67283591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67283591-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/67283591-480px.jpg"
         ],
-        "description": [
-            "Cassin\u2019s Finches are small songbirds with peaked heads and short-medium tails. Their heavy bills are fairly long and straight-sided, and their tails are obviously notched. Their wings are long and, when perched, the tips project farther down the tail than in other finches.",
-            "About the size of a House Finch but somewhat heftier; larger than a Pine Siskin.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 6.3 in (16 cm)",
-            "Weight: 0.8-1.2 oz (24-34 g)",
-            "Wingspan: 9.8-10.6 in (25-27 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Cassin\u2019s Finches are small songbirds with peaked heads and short-medium tails. Their heavy bills are fairly long and straight-sided, and their tails are obviously notched. Their wings are long and, when perched, the tips project farther down the tail than in other finches."
+            ],
+            "Compared Size": [
+                "About the size of a House Finch but somewhat heftier; larger than a Pine Siskin."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3 in (16 cm)",
+                "Weight: 0.8-1.2 oz (24-34 g)",
+                "Wingspan: 9.8-10.6 in (25-27 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/67283531-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67283531-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/67283531-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67283531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67283531-480px.jpg"
         ],
         "description": [
             "Adult males are rosy pink overall with the most intense red on the crown. Female and immature Cassin\u2019s Finches are brown-and-white birds with crisp, dark streaks on the chest and underparts. Both males and females have streaked undertail coverts and often show a thin, white eyering."
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/67283571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67283571-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/67283571-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/67283571-720px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/67283571-480px.jpg"
         ],
         "description": [
             "Cassin\u2019s Finches live in evergreen forests in the mountains up to about 10,000 feet elevation. In winter, they may move to lower elevations. They feed heavily upon seeds of pines and buds of quaking aspen.",

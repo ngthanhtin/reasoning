@@ -1,26 +1,34 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64973381-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64973381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64973381-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64973381-480px.jpg"
         ],
-        "description": [
-            "The Brewer\u2019s Sparrow is typical of the",
-            "Spizella",
-            "group of sparrows: dainty and slim, with a long, notched tail, short rounded wings, and a small, sharply conical bill. Its size varies somewhat by region and sex, but overall it is North America\u2019s smallest sparrow.",
-            "About the size of a Black-capped Chickadee; noticeably smaller and slimmer than a Song Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.1-5.9 in (13-15 cm)",
-            "Weight: 0.4-0.5 oz (11-14 g)",
-            "Wingspan: 7.1-7.9 in (18-20 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Brewer\u2019s Sparrow is typical of the",
+                "Spizella",
+                "group of sparrows: dainty and slim, with a long, notched tail, short rounded wings, and a small, sharply conical bill. Its size varies somewhat by region and sex, but overall it is North America\u2019s smallest sparrow."
+            ],
+            "Compared Size": [
+                "About the size of a Black-capped Chickadee; noticeably smaller and slimmer than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-5.9 in (13-15 cm)",
+                "Weight: 0.4-0.5 oz (11-14 g)",
+                "Wingspan: 7.1-7.9 in (18-20 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64973431-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64973431-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64973431-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64973431-480px.jpg"
         ],
         "description": [
@@ -37,9 +45,9 @@
     },
     "Habitat": {
         "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64973411-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/64973411-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64973411-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/64973411-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64973411-480px.jpg"
         ],
         "description": [
             "Brewer\u2019s Sparrows live in the arid sagebrush steppe of the interior West of North America, where they are the region\u2019s most abundant bird. In some northwestern mountains, a form known as the \u201cTimberline Sparrow\u201d lives among subalpine trees and dwarf shrubs."

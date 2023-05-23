@@ -1,21 +1,28 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/65614971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65614971-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/65614971-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65614971-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65614971-480px.jpg"
         ],
-        "description": [
-            "Bobwhite are small quail with rounded bodies, small heads, rounded wings, and short tails.",
-            "between robin and crow",
-            "Sex: Both Sexes"
-        ]
+        "description": {
+            "Shape": [
+                "Bobwhite are small quail with rounded bodies, small heads, rounded wings, and short tails."
+            ],
+            "Compared Size": [],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65614911-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65614911-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65614911-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/65614911-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65614911-720px.jpg"
         ],
         "description": [
             "They are intricately patterned in brown, rufous, buff, and black. Males have a bold black-and-white head pattern. Females have a buffy throat and eyebrow."
@@ -29,9 +36,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/65614951-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/65614951-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/65614951-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/65614951-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65614951-480px.jpg"
         ],
         "description": [
             "Northern Bobwhites live in open pine forests, overgrown fields, shrubby areas, and grasslands. They respond well to areas managed with prescribed fire, which helps to maintain an open, grassy ground layer."

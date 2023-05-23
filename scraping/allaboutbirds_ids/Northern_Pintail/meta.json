@@ -2,26 +2,32 @@
     "Size": {
         "link": [
             "https://www.allaboutbirds.org/guide/assets/photo/63892991-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63892991-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63892991-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63892991-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63892991-480px.jpg"
         ],
-        "description": [
-            "Northern Pintails are elegant, long-necked ducks with a slender profile. The tail is long and pointed, but it is much longer and more prominent on breeding males than on females and nonbreeding males. In flight, the wings are long and narrow.",
-            "",
-            "Larger than a Green-winged Teal, smaller than a Mallard.",
-            "",
-            "between crow and goose",
-            "Sex: Both Sexes",
-            "Length: 20.1-29.9 in (51-76 cm)",
-            "Weight: 17.6-51.1 oz (500-1450 g)",
-            "Wingspan: 34.0 in (86.4 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Northern Pintails are elegant, long-necked ducks with a slender profile. The tail is long and pointed, but it is much longer and more prominent on breeding males than on females and nonbreeding males. In flight, the wings are long and narrow."
+            ],
+            "Compared Size": [
+                "Larger than a Green-winged Teal, smaller than a Mallard."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 20.1-29.9 in (51-76 cm)",
+                "Weight: 17.6-51.1 oz (500-1450 g)",
+                "Wingspan: 34.0 in (86.4 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63892941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63892941-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63892941-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63892941-480px.jpg"
+            "https://www.allaboutbirds.org/guide/assets/photo/63892941-480px.jpg"
         ],
         "description": [
             "Breeding male Northern Pintails stand out with a gleaming white breast and a white line down their chocolate brown head and neck. Females and males that are molting (eclipse plumage) are mottled in browns and whites with an unmarked pale tan face and a dark bill. In flight, males flash a green speculum (the inner wing feathers or secondaries) and females flash a bronzy speculum.",
@@ -37,9 +43,9 @@
     },
     "Habitat": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63892951-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/63892951-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63892951-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63892951-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63892951-720px.jpg"
         ],
         "description": [
             "Northern Pintails nest in seasonal wetlands, croplands, grasslands, wet meadows, and shortgrass prairies. They forage in nearby shallow wetlands, lakes, and ponds. They spend the nonbreeding season in wetlands, ponds, lakes, bays, tidal marshes, and flooded agricultural fields.",

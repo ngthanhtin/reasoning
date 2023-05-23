@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/63744251-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63744251-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63744251-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63744251-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63744251-480px.jpg"
         ],
-        "description": [
-            "A stocky, broad-shouldered blackbird with a slender, conical bill and a medium-length tail. Red-winged Blackbirds often show a hump-backed silhouette while perched; males often sit with tail slightly flared.",
-            "About three-quarters the size of a Common Grackle",
-            "robin-sized",
-            "Sex: Both Sexes",
-            "Length: 6.7-9.1 in (17-23 cm)",
-            "Weight: 1.1-2.7 oz (32-77 g)",
-            "Wingspan: 12.2-15.8 in (31-40 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A stocky, broad-shouldered blackbird with a slender, conical bill and a medium-length tail. Red-winged Blackbirds often show a hump-backed silhouette while perched; males often sit with tail slightly flared."
+            ],
+            "Compared Size": [
+                "About three-quarters the size of a Common Grackle"
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-9.1 in (17-23 cm)",
+                "Weight: 1.1-2.7 oz (32-77 g)",
+                "Wingspan: 12.2-15.8 in (31-40 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/63744301-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63744301-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63744301-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63744301-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63744301-480px.jpg"
         ],
         "description": [
             "Male Red-winged Blackbirds are hard to mistake. They're an even glossy black with red-and-yellow shoulder badges. Females are crisply streaked and dark brownish overall, paler on the breast and often show a whitish eyebrow."
@@ -35,9 +43,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63744311-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63744311-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63744311-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63744311-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63744311-720px.jpg"
         ],
         "description": [
             "Look for Red-winged Blackbirds in fresh and saltwater marshes, along watercourses, water hazards on golf courses, and wet roadsides, as well as drier meadows and old fields. In winter, you can find them at crop fields, feedlots, and pastures."

@@ -2,23 +2,31 @@
     "Size": {
         "link": [
             " https://www.allaboutbirds.org/guide/assets/photo/60411301-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/60411301-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60411301-720px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60411301-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60411301-480px.jpg"
         ],
-        "description": [
-            "This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warbler\u2019s but thinner than a finch\u2019s.",
-            "Smaller than a sparrow",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 4.7-5.9 in (12-15 cm)",
-            "Weight: 0.3-0.5 oz (9-14 g)",
-            "Wingspan: 6.3-8.3 in (16-21 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warbler\u2019s but thinner than a finch\u2019s."
+            ],
+            "Compared Size": [
+                "Smaller than a sparrow"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.9 in (12-15 cm)",
+                "Weight: 0.3-0.5 oz (9-14 g)",
+                "Wingspan: 6.3-8.3 in (16-21 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/60411291-720px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60411291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60411291-720px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/60411291-480px.jpg"
         ],
         "description": [
@@ -33,9 +41,9 @@
     },
     "Habitat": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/60411281-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/60411281-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/60411281-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/60411281-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60411281-480px.jpg"
         ],
         "description": [
             "Chickadees may be found in any habitat that has trees or woody shrubs, from forests and woodlots to residential neighborhoods and parks, and sometimes weedy fields and cattail marshes. They frequently nest in birch or alder trees."

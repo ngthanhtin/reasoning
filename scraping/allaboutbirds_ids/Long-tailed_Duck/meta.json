@@ -1,22 +1,28 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/63902971-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63902971-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63902971-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63902971-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63902971-720px.jpg"
         ],
-        "description": [
-            "Long-tailed Duck is a small, slender sea duck with a rounded head and a small bill. The male has long tail plumes most of the year.",
-            "",
-            "Smaller than a Surf Scoter larger than a Bufflehead.",
-            "",
-            "crow-sized",
-            "Sex: Male",
-            "Length: 15.8-18.5 in (40-47 cm)",
-            "Weight: 22.9-38.8 oz (650-1100 g)",
-            "Wingspan: 27.9-28.4 in (71-72 cm)",
-            "Female"
-        ]
+        "description": {
+            "Shape": [
+                "Long-tailed Duck is a small, slender sea duck with a rounded head and a small bill. The male has long tail plumes most of the year."
+            ],
+            "Compared Size": [
+                "Smaller than a Surf Scoter larger than a Bufflehead."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 15.8-18.5 in (40-47 cm)",
+                "Weight: 22.9-38.8 oz (650-1100 g)",
+                "Wingspan: 27.9-28.4 in (71-72 cm)",
+                "Female"
+            ]
+        }
     },
     "Color": {
         "link": [
@@ -38,9 +44,9 @@
     },
     "Habitat": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63902941-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/63902941-480px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/63902941-720px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/63902941-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/63902941-720px.jpg"
         ],
         "description": [
             "Breeds near arctic wetlands and winters on large lakes and the open ocean.",

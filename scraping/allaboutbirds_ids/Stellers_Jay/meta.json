@@ -1,25 +1,33 @@
 {
     "Size": {
         "link": [
-            "https://www.allaboutbirds.org/guide/assets/photo/70582731-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70582731-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70582731-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70582731-480px.jpg"
         ],
-        "description": [
-            "Steller\u2019s Jays are large songbirds with large heads, chunky bodies, rounded wings, and a long, full tail. The bill is long, straight, and powerful, with a slight hook. Steller\u2019s Jays have a prominent triangular crest that often stands nearly straight up from their head.",
-            "About the same size as a Western Scrub-Jay",
-            "between robin and crow",
-            "Sex: Both Sexes",
-            "Length: 11.8-13.4 in (30-34 cm)",
-            "Weight: 3.5-4.9 oz (100-140 g)",
-            "Wingspan: 17.3 in (44 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "Steller\u2019s Jays are large songbirds with large heads, chunky bodies, rounded wings, and a long, full tail. The bill is long, straight, and powerful, with a slight hook. Steller\u2019s Jays have a prominent triangular crest that often stands nearly straight up from their head."
+            ],
+            "Compared Size": [
+                "About the same size as a Western Scrub-Jay"
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-13.4 in (30-34 cm)",
+                "Weight: 3.5-4.9 oz (100-140 g)",
+                "Wingspan: 17.3 in (44 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70582741-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70582741-720px.jpg",
-            " https://www.allaboutbirds.org/guide/assets/photo/70582741-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/70582741-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/70582741-480px.jpg"
         ],
         "description": [
             "At a distance, Steller\u2019s Jays are very dark jays, lacking the white underparts of most other species. The head is charcoal black and the body is all blue (lightest, almost sparkling, on the wings). White markings above the eye are fairly inconspicuous."

@@ -1,24 +1,32 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70589271-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg"
         ],
-        "description": [
-            "A huge waterbird with very broad wings, a long neck, and a massive bill that gives the head a unique, long shape. They have thick bodies, short legs, and short, square tails. During the breeding season, adults grow an unusual projection or horn on the upper mandible near the tip of the bill.",
-            "One of our largest flying birds: considerably larger than a Bald Eagle; smaller than a California Condor.",
-            "goose-sized or larger",
-            "Sex: Both Sexes",
-            "Length: 50.0-65.0 in (127-165 cm)",
-            "Weight: 158.7-317.5 oz (4500-9000 g)",
-            "Wingspan: 96.1-114.2 in (244-290 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "A huge waterbird with very broad wings, a long neck, and a massive bill that gives the head a unique, long shape. They have thick bodies, short legs, and short, square tails. During the breeding season, adults grow an unusual projection or horn on the upper mandible near the tip of the bill."
+            ],
+            "Compared Size": [
+                "One of our largest flying birds: considerably larger than a Bald Eagle; smaller than a California Condor."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 50.0-65.0 in (127-165 cm)",
+                "Weight: 158.7-317.5 oz (4500-9000 g)",
+                "Wingspan: 96.1-114.2 in (244-290 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/70589231-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/70589231-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70589231-480px.jpg",
             "https://www.allaboutbirds.org/guide/assets/photo/70589231-480px.jpg"
         ],
         "description": [

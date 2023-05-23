@@ -1,19 +1,27 @@
 {
     "Size": {
         "link": [
-            " https://www.allaboutbirds.org/guide/assets/photo/64984571-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64984571-480px.jpg",
             " https://www.allaboutbirds.org/guide/assets/photo/64984571-480px.jpg",
-            "https://www.allaboutbirds.org/guide/assets/photo/64984571-480px.jpg"
+            " https://www.allaboutbirds.org/guide/assets/photo/64984571-720px.jpg"
         ],
-        "description": [
-            "The Lincoln's Sparrow is a medium-sized sparrow with a dainty appearance. It has a rounded belly and head, but the back of its head often looks pointed or crested when it raises its crown feathers. Its tail is relatively short and its conical bill is a bit thinner compared to most other sparrows.",
-            "Larger than a Wilson's Warbler, smaller than a Song Sparrow.",
-            "sparrow-sized or smaller",
-            "Sex: Both Sexes",
-            "Length: 5.1-5.9 in (13-15 cm)",
-            "Weight: 0.6-0.7 oz (17-19 g)",
-            "Wingspan: 7.5-8.7 in (19-22 cm)"
-        ]
+        "description": {
+            "Shape": [
+                "The Lincoln's Sparrow is a medium-sized sparrow with a dainty appearance. It has a rounded belly and head, but the back of its head often looks pointed or crested when it raises its crown feathers. Its tail is relatively short and its conical bill is a bit thinner compared to most other sparrows."
+            ],
+            "Compared Size": [
+                "Larger than a Wilson's Warbler, smaller than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-5.9 in (13-15 cm)",
+                "Weight: 0.6-0.7 oz (17-19 g)",
+                "Wingspan: 7.5-8.7 in (19-22 cm)"
+            ]
+        }
     },
     "Color": {
         "link": [
