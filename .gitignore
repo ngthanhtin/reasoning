@@ -13,3 +13,4 @@ templates/test.py
 ConceptBottleneck/*
 
 keypoint_detection/unsup-parts/unsup-parts/checkpoints/
+demo_image2text/image2text/

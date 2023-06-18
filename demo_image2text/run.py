@@ -13,7 +13,7 @@ from image2text.image_text_matching.clip_matching import image_text_matching
 
 app = Flask(__name__)
 
-DEVICE = 'cuda:7'
+DEVICE = 'cpu'# 'cuda:7'
 UPLOAD_FOLDER = './static/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
@@ -32,7 +32,7 @@ classification_model.eval()
 #     )
 # blip2_model.to(DEVICE)
 
-clip_model, clip_preprocess = clip.load("ViT-B/32", device='cuda:7', jit=False)
+clip_model, clip_preprocess = clip.load("ViT-B/32", device=DEVICE, jit=False)
 clip_model.eval()
 clip_model.requires_grad_(False)
 # ----------------------------------------#
@@ -44,8 +44,46 @@ def get_image_class(path):
     # generate_html(images_with_tags)
     return images_with_tags
 
+def get_allaboutbirds_info(path="/home/tin/reasoning/scraping/allaboutbirds_ids/"):
+    """
+    return: a dict E.g. "Dark-eyed Junco": {
+        "Size": "large small",
+        "Color": "Dark-eyed Junco",
+        "Behavior": "The Dark-eyed Junco is a medium-sized sparrow with a rounded head, a short, stout bill and a fairly long, conspicuous tail.",
+        "Habitat": "Example query for example 1",
+        },
+    """
+    birds = os.listdir(path)
+    data = {}
+    for bird in birds:
+        data[bird] = {}
+        # read meta file
+        meta_json_path = os.path.join(path, f'{bird}/meta.json')
+
+        f = open(meta_json_path)
+        bird_data = json.load(f)
+        
+        # data[bird]['Size'] = bird_data['Size']['description']
+        # data[bird]['Color'] = bird_data['Color']['description']
+        # data[bird]['Behavior'] = bird_data['Behavior']['description']
+        # data[bird]['Habitat'] = bird_data['Habitat']['description']
+
+        data[bird] = ''
+        data[bird] += f"Size: {bird_data['Size']['description']}\n"
+        data[bird] += f"Color: {bird_data['Color']['description']}\n"
+        data[bird] += f"Behavior: {bird_data['Behavior']['description']}\n"
+        data[bird] += f"Habitat: {bird_data['Habitat']['description']}\n"
+
+    return data
+
+
+
+
 @app.route('/')
 def home():
+    examples = get_allaboutbirds_info()
+    return render_template('home.html', data=examples)
+
     return render_template('home.html')
 
 

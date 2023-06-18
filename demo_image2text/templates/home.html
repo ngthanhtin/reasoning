@@ -131,20 +131,40 @@
                 </tr>
             </table>
         </form>
+        
         <label for="example-paragraph-select"><b>Upload an image: </b></label>
         <form method="post" enctype="multipart/form-data">
             <input type="file" name="file1">
             <input type="submit">
         </form>
         </br>
+
+        <label for="example-paragraph-select"><b>Enter text or</b></label>
+        <select id="example-paragraph-select" class="form-control form-select">
+            <option value="none">Choose an example ...</option>
+            <!-- {% for example in examples %}
+            <option value="{{ example.id }}">{{ example.title }}</option>
+            {% endfor %} -->
+            {% for key, value in data.items() %}
+                <option value="{{ value }}">{{ key }}</option>
+            {% endfor %}
+        </select>
+        <p id="selected-option"></p>
+        </br>
+
         <form action="/aifunction/" method="post">
             <div >
                 <label for="paragraphTextArea"><b>Paragraph</b></label>
                 <textarea name="input_text" maxlength="2048" class="form-control" id="paragraphTextArea" rows="5"
-                          placeholder="E.g. &quot;A man with a black vest. A man is passing the road. A red car.&quot;"></textarea>
+                          placeholder="E.g. &quot;A large sparrow with a short, conical bill, an elongated body for a sparrow, and a rather long tail. The overall shape is similar to Northern Cardinal (but with a smaller bill and without the crest).&quot;"></textarea>
                 <small><label id="characterCountLabel" for="paragraphTextArea">Number of characters left: 2048</label></small>
             </div>
-    
+            
+            <div class="form-group">
+                <label for="queryInput"><b>Query</b></label>
+                <input class="form-control" id="queryInput" placeholder="E.g. &quot;A bird is flying in the sky&quot;">
+            </div>
+
             <div class="form-group" style="text-align:right">
                 <input name="clsBtn" value="Classification" type="submit" id="run-classification-button" class="btn btn-primary"/>
                 <input name="image2textBtn" value="Image2Text" type="submit" id="run-image2text-button" class="btn btn-success"/>
@@ -158,6 +178,317 @@
 </div>
 
 <div id="converter-div" style="display:none"></div>
+
+<div id="converter-div" style="display:none"></div>
+
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG4TG0HHC7"></script> -->
+
+<!-- <script src="data.js"></script> -->
+
+<!-- <script src="{{ url_for('static', filename='data.js') }}"></script> -->
+
+<script>
+
+    var dropdown = document.getElementById('example-paragraph-select');
+    var selectedOption = document.getElementById('paragraphTextArea');
+
+    dropdown.addEventListener('change', function() {
+        var selectedValue = dropdown.value;
+        selectedOption.textContent = selectedValue;
+    });
+
+    var exampleParagraphs = {}
+    
+    var tmpParagraph = {}
+    var top2_bg_color = 0
+    var top3_bg_color = 0
+    var start_index = -1
+
+    {% for example in examples %}
+        tmpParagraph = {}
+        tmpParagraph['id'] = $("#converter-div").html("{{ example.id }}").text()
+        tmpParagraph['title'] = $("#converter-div").html("{{ example.title }}").text()
+        tmpParagraph['content'] = $("#converter-div").html("{{ example.context }}").text()
+        tmpParagraph['example_query'] = $("#converter-div").html("{{ example.query }}").text()
+        tmpParagraph['answer'] = $("#converter-div").html("{{ example.answers['text'][0] }}").text()
+        tmpParagraph['start_index'] = $("#converter-div").html("{{ example.answers['answer_start'][0] }}").text()
+        exampleParagraphs[tmpParagraph['id']] = tmpParagraph
+    {% endfor %}
+
+    $('#paragraphTextArea').on("input", function () {
+        updateCharacterCountLabel()
+    });
+
+    $('#example-paragraph-select').change(function () {
+        let selectedParagraphID = $("#example-paragraph-select").val()
+        if (selectedParagraphID == "none") {
+            $("#paragraphTextArea").val("")
+            $('#queryInput').val("")
+            document.getElementById("answerInput").textContent = ""
+        } else {
+            let selectedParagraph = exampleParagraphs[selectedParagraphID]
+            $("#paragraphTextArea").val(selectedParagraph.content)
+            $('#queryInput').val(selectedParagraph.example_query)
+            $('#answerInput').val(selectedParagraph.answer)
+            document.getElementById("answerInput").textContent = selectedParagraph.answer
+            start_index = selectedParagraph.start_index
+        }
+        updateCharacterCountLabel()
+    });
+
+    $('#show-top-3-checkbox').change(function () {
+        updateHighlight();
+    });
+
+    var rad = document.datasetSelect.dataset;
+    var prev = null;
+    for (var i = 0; i < rad.length; i++) {
+        rad[i].addEventListener('change', function() {
+            (prev) ? prev.value : null;
+            if (this !== prev) {
+                prev = this;
+                updateSelectOptions(this.value);
+            }
+        });
+    }
+    
+    $(document).on("keypress", 'form', function (e) {
+        var code = e.keyCode || e.which;
+        if (code == 13) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    function updateCharacterCountLabel() {
+        var maxlength = $('#paragraphTextArea').attr("maxlength");
+        var currentLength = $('#paragraphTextArea').val().length;
+        if (currentLength >= maxlength) {
+            $("#characterCountLabel").html("You have reached the maximum number of characters.")
+        } else {
+            var nbCharactersLeft = maxlength - currentLength
+            $("#characterCountLabel").html("Number of characters left: " + nbCharactersLeft)
+        }
+    }
+
+    function updateSelectOptions(new_dataset) {
+        var data = new FormData();
+        data.append('new_dataset', new_dataset);
+
+        let url = "dataset_select";
+        $.ajax({
+            url: url,
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            success: function (data) {
+                exampleParagraphs = {}
+
+                $("#paragraphTextArea").val("");
+                $('#queryInput').val("");
+                $('#answerInput').val("...");
+                updateCharacterCountLabel();
+
+                /* Remove all options from the select list */
+                $("#example-paragraph-select").empty();
+                exampleSelect = document.getElementById('example-paragraph-select');
+                exampleSelect.add(new Option("Choose an example ..."))
+
+                var examples = data['examples']
+                for (let i = 0; i < examples.length; i++) {
+                    exampleSelect.add(new Option(examples[i].title, examples[i].id));
+                    exampleParagraphs[examples[i].id] = {
+                        'title': examples[i].title,
+                        'content': examples[i].context,
+                        'example_query': examples[i].query,
+                        'answer': examples[i].answers['text'][0],
+                        'start_index': examples[i].answers['answer_start'][0],
+                    }
+                };
+            }
+        });
+    }
+
+    function updateHighlight() {
+        if ($('#show-top-3-checkbox').is(":checked")) {
+            $('.top-3').css('background-color', 'rgba(109, 185, 193, 1)');
+            $('.top-2').css('background-color', 'rgba(239, 206, 123, 1)');
+            $('.top-1').css('background-color', 'rgba(224, 105, 94, 1)');
+
+            $('.top-2.top3').css('background', '-webkit-linear-gradient(top, rgba(239, 206, 123, 1) 50%, rgba(109, 185, 193, 1) 50%)');
+            $('.top-1.top-3').css('background', '-webkit-linear-gradient(top, rgba(224, 105, 94, 1) 50%, rgba(109, 185, 193, 1) 50%)');
+            $('.top-1.top-2').css('background', '-webkit-linear-gradient(top, rgba(224, 105, 94, 1) 50%, rgba(239, 206, 123, 1) 50%)');
+            $('.top-1.top-2.top-3').css('background', '-webkit-linear-gradient(top, rgba(224, 105, 94, 1) 33%, rgba(239, 206, 123, 1) 33%, rgba(239, 206, 123, 1) 66%, rgba(109, 185, 193, 1) 66%)');
+        }
+        else {
+            $('.top-3').css('background-color', 'transparent');
+            $('.top-2').css('background-color', 'transparent');
+
+            $('.top-2.top-3').css('background', 'transparent');
+            $('.top-1.top-3').css('background', 'transparent');
+            $('.top-1.top-2').css('background', 'transparent');
+            $('.top-1.top-2.top-3').css('background', 'transparent');
+
+            $('.top-1').css('background-color', 'rgba(224, 105, 94, 1)');
+        }
+    }
+
+    function onRunRankingButtonClicked() {
+        var paragraphText = $('#paragraphTextArea').val().trim();
+        var queryText = $('#queryInput').val().trim();
+        var answerText = $('#answerInput').val().trim();
+        var extractorName = $('#extract_select').find(":selected").text()
+        var contextualSetting = $('input[name="contextual_setting"]:checked').val();
+
+        // var scorerName = $('#score_select').find(":selected").val();
+        var scorerName = $('input[name="model_setting"]:checked').val();
+
+        if (paragraphText === "" || queryText === "") {
+            alert("Please select an example or enter paragraph and query!");
+            return;
+        }
+
+        if (scorerName === "Longformer-base") {
+            alert("Longformer-base is only used for QA-based Search. Please select another model!");
+            return;
+        }
+
+        // Hide the RunModelButton
+        $('#run-ranking-search-button').addClass('d-none')
+        $('#run-qa-search-button').addClass('d-none')
+
+        // Show the loading animation and hide the result div
+        $('#loader').removeClass('d-none')
+        $('#result').addClass('d-none')
+
+        // Make a POST request
+        var data = new FormData();
+        data.append('paragraph_text', paragraphText);
+        data.append('query_text', queryText);
+        data.append('answer_text', answerText);
+        data.append('extractor', extractorName);
+        data.append('scorer', scorerName);
+        data.append('start_index', start_index);
+        data.append('contextual_setting', contextualSetting);
+
+        let url = "ranking_search";
+        $.ajax({
+            url: url,
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            success: function (data) {
+                $('#result-sentences-container').empty()
+                $('#result-sentences-container2').empty()
+
+                var html_results = data['html'];
+                $('#result-sentences-container').append("<p>" + html_results + "</p>")
+
+                var html_predictions = data['predictions'];
+                $('#result-sentences-container2').append(html_predictions)
+
+                // The following code will enable all tooltips in the document
+                $('[data-toggle="tooltip"]').tooltip();
+
+                // Check if showing the top-3 sentences
+                var top_2_phrase = document.getElementById("top-2-phrase")
+                var top_3_phrase = document.getElementById("top-3-phrase")
+
+                updateHighlight();
+
+                // Hide the loading animation and show the result div
+                $('#loader').addClass('d-none')
+                $('#result').removeClass('d-none')
+
+                // Show the RunModelButton
+                $('#run-ranking-search-button').removeClass('d-none')
+                $('#run-qa-search-button').removeClass('d-none')
+
+                // Scroll to the selected sentence
+                $('html, body').scrollTop($("#top-1-phrase").offset().top)
+            }
+        });
+    }
+
+    function onRunQAButtonClicked() {
+        var paragraphText = $('#paragraphTextArea').val().trim();
+        var queryText = $('#queryInput').val().trim();
+        var answerText = $('#answerInput').val().trim();
+        var contextualSetting = $('input[name="contextual_setting"]:checked').val();
+        var scorerName = $('input[name="model_setting"]:checked').val();
+
+        if (paragraphText === "" || queryText === "") {
+            alert("Please select an example or enter paragraph and query!");
+            return;
+        }
+
+        // Hide the RunModelButton
+        $('#run-ranking-search-button').addClass('d-none')
+        $('#run-qa-search-button').addClass('d-none')
+
+        // Show the loading animation and hide the result div
+        $('#loader').removeClass('d-none')
+        $('#result').addClass('d-none')
+
+        // Make a POST request
+        var data = new FormData();
+        data.append('paragraph_text', paragraphText);
+        data.append('query_text', queryText);
+        data.append('answer_text', answerText);
+        data.append('scorer', scorerName);
+        data.append('start_index', start_index);
+        data.append('contextual_setting', contextualSetting);
+
+        let url = "qa_search";
+        $.ajax({
+            url: url,
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            success: function (data) {
+                $('#result-sentences-container').empty()
+                $('#result-sentences-container2').empty()
+
+                var html_results = data['html'];
+                $('#result-sentences-container').append("<p>" + html_results + "</p>")
+
+                var html_predictions = data['predictions'];
+                $('#result-sentences-container2').append(html_predictions)
+
+                console.log(html_results)
+                console.log(html_predictions)
+
+                // The following code will enable all tooltips in the document
+                $('[data-toggle="tooltip"]').tooltip();
+
+                // Check if showing the top-3 sentences
+                var top_2_phrase = document.getElementById("top-2-phrase")
+                var top_3_phrase = document.getElementById("top-3-phrase")
+
+                updateHighlight();
+
+                // Hide the loading animation and show the result div
+                $('#loader').addClass('d-none')
+                $('#result').removeClass('d-none')
+
+                // Show the RunModelButton
+                $('#run-ranking-search-button').removeClass('d-none')
+                $('#run-qa-search-button').removeClass('d-none')
+
+                // Scroll to the selected sentence
+                $('html, body').scrollTop($("#top-1-phrase").offset().top)
+            }
+        });
+    }
+
+</script>
+
 </body>
 
 </html>
