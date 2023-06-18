@@ -11,3 +11,5 @@ demo_image2text/templates/home_answer.html
 test.py
 templates/test.py
 ConceptBottleneck/*
+
+keypoint_detection/unsup-parts/unsup-parts/checkpoints/
