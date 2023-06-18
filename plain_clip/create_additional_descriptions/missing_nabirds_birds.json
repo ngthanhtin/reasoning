@@ -1,0 +1,58 @@
+{
+    "Mew Gull": {
+        "Shape": [
+            "Slender and streamlined body shape with pointed wings and a medium-sized bill."
+        ],
+        "Size": [
+            "Medium-sized gull with an average length of around 18-20 inches (46-51 cm)."
+        ],
+        "Color": [
+            "White plumage with a light gray back, black wingtips, and a yellow bill."
+        ],
+        "Habitat": [
+            "Coastal wetlands and estuaries."
+        ]
+    },
+    "Northwestern Crow": {
+        "Shape": [
+            "Medium-sized, sturdy body with rounded wings and a strong, thick bill."
+        ],
+        "Size": [
+            "Medium-sized crow with an average length of about 16-18 inches (41-46 cm)."
+        ],
+        "Color": [
+            "Black feathers with a glossy sheen and a dark bill."
+        ],
+        "Habitat": [
+            "Urban and suburban areas, including parks and cityscapes."
+        ]
+    },
+    "Gray Jay": {
+        "Shape": [
+            "Compact and stocky body with a thick neck, short tail, and a distinctive rounded head."
+        ],
+        "Size": [
+            "Medium-sized songbird with an average length of approximately 11-12 inches (28-30 cm)."
+        ],
+        "Color": [
+            "Gray overall with a lighter gray head, dark gray wings, and a white throat and belly."
+        ],
+        "Habitat": [
+            "Boreal forests and mountainous regions."
+        ]
+    },
+    "Western Scrub-Jay": {
+        "Shape": [
+            "Sleek and agile body with a long tail, slender wings, and a pointed bill."
+        ],
+        "Size": [
+            "Medium-sized jay with an average length of around 11-12 inches (28-30 cm)."
+        ],
+        "Color": [
+            "Bright blue feathers on the head, wings, and tail, with a grayish-brown back and a pale gray underbelly."
+        ],
+        "Habitat": [
+            "Arid and semi-arid scrublands and oak woodlands."
+        ]
+    }
+}
