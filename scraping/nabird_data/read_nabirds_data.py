@@ -1,6 +1,7 @@
 #%%
 import pandas as pd
 
+ROOT_DIR = '/home/tin/reasoning/scraping/nabird_data/'
 BOUNDING_BOX_FILE = 'bounding_boxes.txt'
 CLASS_FILE = 'nabird_classes.txt'
 CLASS_LABEL_FILE = 'image_class_labels.txt'
@@ -8,7 +9,7 @@ HIERARCHY_FILE = 'hierarchy.txt'
 IMAGE_FILE = 'images.txt'
 SIZE_FILE = 'sizes.txt'
 TRAIN_TEST_SPLIT_FILE = 'train_test_split.txt'
-BIRD_DIR = './scraping/'
+BIRD_DIR = ROOT_DIR # './scraping/'
 # %%
 def read_hierarchy(bird_dir):
     """Loads table of class hierarchies. Returns hierarchy table
@@ -69,17 +70,18 @@ def read_classes(bird_dir, terminal_levels):
     classes = pd.read_table(f'{bird_dir}/{CLASS_FILE}', header=None)
     classes['id'] = classes[0].apply(lambda s: int(s.split(' ')[0]))
     classes['label_name'] = classes[0].apply(lambda s: ' '.join(s.split(' ')[1:]))
-    classes.drop(0, inplace=True, axis=1)
+    # classes.drop(0, inplace=True, axis=1)
     classes['annotation'] = classes['label_name'].apply(make_annotation)
     classes['name'] = classes['label_name'].apply(lambda s: s.split('(')[0].strip())
 
-    terminal_classes = classes[classes['id'].isin(terminal_levels)].reset_index(drop=True)
+    terminal_classes = classes[classes['id'].isin(terminal_levels)]#.reset_index(drop=True)
     return classes, terminal_classes
 
 classes, terminal_classes = read_classes(BIRD_DIR, terminal_levels)
 # len(set(classes.name.values.tolist()))
 print(len(classes))
 print(len(terminal_classes))
+print(terminal_classes)
 no_annotation_classes = set(terminal_classes.name.values.tolist())
 len(no_annotation_classes)
 # with open("NABIRD_no_annotation_class_name.txt", 'w') as f:
