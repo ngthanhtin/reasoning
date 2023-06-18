@@ -116,7 +116,7 @@ elif hparams['dataset'] == 'cub':
 elif hparams['dataset'] == 'nabirds':
     hparams['data_dir'] = pathlib.Path(NABIRD_DIR)
     import json
-    f = open("/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
+    f = open("./descriptors/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
     data = json.load(f)
     subset_class_names = list(data.keys())
     dataset = NABirdsDataset(hparams['data_dir'], train=False, subset_class_names=subset_class_names, transform=tfms)
@@ -126,10 +126,10 @@ elif hparams['dataset'] == 'nabirds':
 hparams['model_size'] = "ViT-B/32" 
 hparams['device'] = "cuda:2" if torch.cuda.is_available() else "cpu"
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
-# hparams['descriptor_fname'] = f"/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/no_ann_chatgpt_descriptors_{hparams['dataset']}.json"
-# hparams['descriptor_fname'] = f"/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/no_ann_ID_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
-# hparams['descriptor_fname'] = f"/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/no_ann_chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/no_ann_ID_descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
     
 
 print("Creating descriptors...")
@@ -150,13 +150,13 @@ def compute_description_encodings(model):
             v[-2] = v[-2][:cut_len]
         if len(v[-1]) >= cut_len:
             v[-1] = v[-1][:cut_len]
-        if hparams['descriptor_fname'] in ["/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/ID_descriptors_cub.json",
-                                            "/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/ID2_descriptors_cub.json",
-                                            "/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/ID_descriptors_nabirds.json",
-                                            "/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/ID2_descriptors_nabirds.json",
-                                            "/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/ID_diffshape_descriptors_nabirds.json",
-                                            "/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/ID2_diffshape_descriptors_nabirds.json",
-                                            "/home/tin/reproduce_visual_descriptors/classify_by_description_release/descriptors/no_ann_ID_descriptors_nabirds.json"]:
+        if hparams['descriptor_fname'] in ["./descriptors/ID_descriptors_cub.json",
+                                            "./descriptors/ID2_descriptors_cub.json",
+                                            "./descriptors/ID_descriptors_nabirds.json",
+                                            "./descriptors/ID2_descriptors_nabirds.json",
+                                            "./descriptors/ID_diffshape_descriptors_nabirds.json",
+                                            "./descriptors/ID2_diffshape_descriptors_nabirds.json",
+                                            "./descriptors/no_ann_ID_descriptors_nabirds.json"]:
             if len(v[0]) >= cut_len:
                 v[0] = v[0][:cut_len]
 
