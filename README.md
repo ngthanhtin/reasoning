@@ -18,3 +18,10 @@ cd plain_clip/
 cd xclip/
 python run_owl_vit.py
 ```
+
+## Keypoint detection and filtering
+```
+cd keypoint_detection/
+python show_cub_segmentation.py
+python show_cub_kp_segment.py
+```
