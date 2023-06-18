@@ -14,3 +14,5 @@ ConceptBottleneck/*
 
 keypoint_detection/unsup-parts/unsup-parts/checkpoints/
 demo_image2text/image2text/
+
+plain_clip/__pycache__
