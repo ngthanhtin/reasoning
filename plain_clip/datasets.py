@@ -1,7 +1,12 @@
-import os
+import os, json, copy
 import torch
 from torchvision import datasets
-import copy
+from torch.utils.data import Dataset, DataLoader
+from torchvision.datasets.folder import default_loader
+from torchvision import transforms
+from torchvision.transforms import Compose
+
+from PIL import Image
 
 class CUBDataset(datasets.ImageFolder):
     """
@@ -282,3 +287,95 @@ class NABirdsDataset(Dataset):
             return sample, target, image_path
 
         return sample, target, image_path
+    
+
+
+
+class INaturalistDataset(Dataset):
+    allowed_keys = ['crop', 'box_dir', 'return_path', 'trivial_aug', 'ops', 'high_res', 'n_pixel', 'return_mask']
+    def __init__(self, root_dir:str, box_dir: str = None, transform: Compose = None, train: bool = True, original: bool = False, **kwargs):
+        self.root_dir = root_dir
+        self.transform = transform
+        self.box_dir = box_dir
+        self.train = train
+        self.__dict__.update((k, v) for k, v in kwargs.items() if k in self.allowed_keys)
+        with open(os.path.join(root_dir, 'bird_annotations.json'), 'r') as f:
+            self.annotation_meta = json.load(f)
+        with open(os.path.join(root_dir, 'bird_classes.json'), 'r') as f:
+            self.class_meta = json.load(f)
+        # easy mapping for class id, class name and corresponding folder name
+        self.idx2class = {int(id): name for id, name in self.class_meta['name'].items()}
+        self.class2idx = {v: k for k, v in self.idx2class.items()}
+        self.cls_id2folder_name = {int(id): name for id, name in self.class_meta['image_dir_name'].items()}
+        self.folder_name2cls_id = {v: k for k, v in self.cls_id2folder_name.items()}
+        with open(os.path.join(root_dir, 'bird_images.json'), 'r') as f:
+            self.image_meta = json.load(f)
+        self.images = self.image_meta['file_name']
+        self.images = {int(k): v for k, v in self.images.items()}
+        self.samples = []
+        self.targets = []
+        for k, v in self.images.items():
+            self.samples.append(os.path.join(root_dir, v))
+            self.targets.append(self.annotation_meta['category_id'][str(k)] - 1) # -1 to make it zero-indexed
+        self.samples = tuple(zip(self.samples, self.targets))
+        self.targets = tuple(self.targets)
+        self.loader = default_loader
+        self.totensor = transforms.ToTensor()
+        self.resize = transforms.Resize((self.n_pixel, self.n_pixel), interpolation=Image.BICUBIC, antialias=True)
+
+        if hasattr(self, 'trivial_aug') and self.trivial_aug:
+            # self.tri_aug = TrivialAugmentCustom(operations=self.ops)
+            self.tri_aug = None
+        else:
+            self.tri_aug = None
+
+        if not original and self.box_dir:
+            self.filter_data()
+
+    def filter_data(self,):
+        # filter out the images based on the box outputs.
+        box_files = os.listdir(self.box_dir)
+        image_ids = [os.path.splitext(f)[0] for f in box_files]
+        keep = [os.path.splitext(os.path.basename(image_id))[0] in image_ids for image_id in list(self.images.values())]
+        self.samples = tuple(self.samples[i] for i in range(len(self.samples)) if keep[i])
+        self.targets = tuple(self.targets[i] for i in range(len(self.targets)) if keep[i])
+
+    def __len__(self):
+        return len(self.samples)
+    # overwrite __getitem__
+
+    def __getitem__(self, idx):
+        image_path, class_id = self.samples[idx]
+        sample = self.loader(image_path)
+        sample_size = torch.tensor(sample.size[::-1]) # (h, w)
+        hight, width = sample_size
+        image_id = os.path.splitext(os.path.basename(image_path))[0]
+        img_tensor = self.totensor(sample)
+        if not hasattr(self, 'return_path') or not self.return_path:
+            # repeat samples
+            boxes = torch.load(os.path.join(self.box_dir, f'{image_id}.pth'))["boxes_info"]
+            sample = torch.cat([self.resize(img_tensor).unsqueeze(0)] * len(boxes))
+            masks = torch.zeros((len(boxes), self.n_pixel, self.n_pixel), dtype=torch.uint8)
+            if hasattr(self, 'crop') or hasattr(self, 'return_mask'):
+                crop_samples = []
+                for idx, (part_name, box) in enumerate(boxes.items()):
+                    # boxes = {'Part name0': [x0, y0, x1, y1], 'Part name1': [x0, y0, x1, y1], ...}
+                    if self.crop:
+                        crop_samples.append(self.resize(img_tensor[:, box[1]:box[3], box[0]:box[2]].unsqueeze(0)))
+                    if self.return_mask:
+                        # scale box from image_size (h, w) to (n_pixel, n_pixel)
+                        scale_factor = torch.tensor([self.n_pixel / width, self.n_pixel / hight, self.n_pixel / width, self.n_pixel / hight])
+                        box = (torch.tensor(box) * scale_factor).int()
+                        masks[idx, box[1]:box[3], box[0]:box[2]] = 1
+                crop_sample = torch.cat(crop_samples)
+            if len(crop_samples) == 0:
+                crop_samples = torch.zeros_like(sample)
+        # else:
+            # sample = sample
+        if self.tri_aug is not None and self.train:
+            sample = self.tri_aug(sample)
+        if self.transform:
+            sample = self.transform(sample)
+        if hasattr(self, 'return_path') and self.return_path:
+            return sample, class_id, image_path, sample_size
+        return sample, class_id, masks, crop_sample

@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 from torchvision.datasets import ImageNet, ImageFolder
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
-from datasets import _transform, CUBDataset, NABirdsDataset
+from datasets import _transform, CUBDataset, NABirdsDataset, INaturalistDataset
 from collections import OrderedDict
 import clip
 
@@ -81,6 +81,7 @@ IMAGENET_DIR = '/home/tin/datasets/imagenet_new/val/' # REPLACE THIS WITH YOUR O
 IMAGENETV2_DIR = '/home/tin/datasets/imagenetv2/dataset/' # REPLACE THIS WITH YOUR OWN PATH
 CUB_DIR = '/home/tin/datasets/cub/dataset/CUB/' # REPLACE THIS WITH YOUR OWN PATH
 NABIRD_DIR = '/home/tin/datasets/nabirds/'
+INATURALIST_DIR = '/home/tin/datasets/nabirds/'
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -115,7 +116,6 @@ elif hparams['dataset'] == 'cub':
 
 elif hparams['dataset'] == 'nabirds':
     hparams['data_dir'] = pathlib.Path(NABIRD_DIR)
-    import json
     f = open("./descriptors/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
     data = json.load(f)
     subset_class_names = list(data.keys())
@@ -123,13 +123,24 @@ elif hparams['dataset'] == 'nabirds':
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_nabirds'
 
+elif hparams['dataset'] == 'inaturalist2021':
+    hparams['data_dir'] = pathlib.Path(INATURALIST_DIR)
+    f = open("./descriptors/chatgpt_descriptors_inaturalist2021.json", "r")
+    data = json.load(f)
+    subset_class_names = list(data.keys())
+    dataset = INaturalistDataset(hparams['data_dir'], train=False, subset_class_names=subset_class_names, transform=tfms)
+    classes_to_load = None #dataset.classes
+    hparams['descriptor_fname'] = 'descriptors_inaturalist2021'
+
 hparams['model_size'] = "ViT-B/32" 
 hparams['device'] = "cuda:2" if torch.cuda.is_available() else "cpu"
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_ID_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
+
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/chatgpt_descriptors_inaturalist.json'
     
 
 print("Creating descriptors...")
