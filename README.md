@@ -1,6 +1,8 @@
 # reasoning
 bird reasoning (size + habitat)
 
+![Figure 1-1](./project_description.png)
+
 ## Demo
 
 ```
