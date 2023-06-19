@@ -292,10 +292,11 @@ class NABirdsDataset(Dataset):
 
 
 class INaturalistDataset(Dataset):
-    allowed_keys = ['crop', 'box_dir', 'return_path', 'trivial_aug', 'ops', 'high_res', 'n_pixel', 'return_mask']
-    def __init__(self, root_dir:str, box_dir: str = None, transform: Compose = None, train: bool = True, original: bool = False, **kwargs):
+    allowed_keys = ['crop', 'box_dir', 'return_path', 'trivial_aug', 'ops', 'high_res', 'return_mask']
+    def __init__(self, root_dir:str, box_dir: str = None, transform: Compose = None, n_pixel: int = 336, train: bool = True, original: bool = False, **kwargs):
         self.root_dir = root_dir
         self.transform = transform
+        self.n_pixel = n_pixel
         self.box_dir = box_dir
         self.train = train
         self.__dict__.update((k, v) for k, v in kwargs.items() if k in self.allowed_keys)
@@ -346,36 +347,40 @@ class INaturalistDataset(Dataset):
 
     def __getitem__(self, idx):
         image_path, class_id = self.samples[idx]
+        image_path = image_path.replace('train_mini', 'bird_train')
+        
         sample = self.loader(image_path)
         sample_size = torch.tensor(sample.size[::-1]) # (h, w)
         hight, width = sample_size
         image_id = os.path.splitext(os.path.basename(image_path))[0]
         img_tensor = self.totensor(sample)
-        if not hasattr(self, 'return_path') or not self.return_path:
-            # repeat samples
-            boxes = torch.load(os.path.join(self.box_dir, f'{image_id}.pth'))["boxes_info"]
-            sample = torch.cat([self.resize(img_tensor).unsqueeze(0)] * len(boxes))
-            masks = torch.zeros((len(boxes), self.n_pixel, self.n_pixel), dtype=torch.uint8)
-            if hasattr(self, 'crop') or hasattr(self, 'return_mask'):
-                crop_samples = []
-                for idx, (part_name, box) in enumerate(boxes.items()):
-                    # boxes = {'Part name0': [x0, y0, x1, y1], 'Part name1': [x0, y0, x1, y1], ...}
-                    if self.crop:
-                        crop_samples.append(self.resize(img_tensor[:, box[1]:box[3], box[0]:box[2]].unsqueeze(0)))
-                    if self.return_mask:
-                        # scale box from image_size (h, w) to (n_pixel, n_pixel)
-                        scale_factor = torch.tensor([self.n_pixel / width, self.n_pixel / hight, self.n_pixel / width, self.n_pixel / hight])
-                        box = (torch.tensor(box) * scale_factor).int()
-                        masks[idx, box[1]:box[3], box[0]:box[2]] = 1
-                crop_sample = torch.cat(crop_samples)
-            if len(crop_samples) == 0:
-                crop_samples = torch.zeros_like(sample)
+        # if not hasattr(self, 'return_path') or not self.return_path:
+        #     # repeat samples
+        #     boxes = torch.load(os.path.join(self.box_dir, f'{image_id}.pth'))["boxes_info"]
+        #     sample = torch.cat([self.resize(img_tensor).unsqueeze(0)] * len(boxes))
+        #     masks = torch.zeros((len(boxes), self.n_pixel, self.n_pixel), dtype=torch.uint8)
+        #     if hasattr(self, 'crop') or hasattr(self, 'return_mask'):
+        #         crop_samples = []
+        #         for idx, (part_name, box) in enumerate(boxes.items()):
+        #             # boxes = {'Part name0': [x0, y0, x1, y1], 'Part name1': [x0, y0, x1, y1], ...}
+        #             if self.crop:
+        #                 crop_samples.append(self.resize(img_tensor[:, box[1]:box[3], box[0]:box[2]].unsqueeze(0)))
+        #             if self.return_mask:
+        #                 # scale box from image_size (h, w) to (n_pixel, n_pixel)
+        #                 scale_factor = torch.tensor([self.n_pixel / width, self.n_pixel / hight, self.n_pixel / width, self.n_pixel / hight])
+        #                 box = (torch.tensor(box) * scale_factor).int()
+        #                 masks[idx, box[1]:box[3], box[0]:box[2]] = 1
+        #         crop_sample = torch.cat(crop_samples)
+        #     if len(crop_samples) == 0:
+        #         crop_samples = torch.zeros_like(sample)
         # else:
             # sample = sample
         if self.tri_aug is not None and self.train:
             sample = self.tri_aug(sample)
         if self.transform:
             sample = self.transform(sample)
+
         if hasattr(self, 'return_path') and self.return_path:
             return sample, class_id, image_path, sample_size
-        return sample, class_id, masks, crop_sample
+
+        return sample, class_id, image_path #, masks, crop_sample

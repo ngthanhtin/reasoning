@@ -30,6 +30,8 @@ elif hparams['dataset'] == 'nabirds':
     num_classes = 267#555
 elif hparams['dataset'] == 'places365':
     num_classes = 365
+elif hparams['dataset'] == 'inaturalist2021':
+    num_classes = 1486
 
 print("Evaluating...")
 lang_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=num_classes).to(device)

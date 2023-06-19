@@ -31,7 +31,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'nabirds'
+hparams['dataset'] = 'inaturalist2021'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
@@ -81,7 +81,7 @@ IMAGENET_DIR = '/home/tin/datasets/imagenet_new/val/' # REPLACE THIS WITH YOUR O
 IMAGENETV2_DIR = '/home/tin/datasets/imagenetv2/dataset/' # REPLACE THIS WITH YOUR OWN PATH
 CUB_DIR = '/home/tin/datasets/cub/dataset/CUB/' # REPLACE THIS WITH YOUR OWN PATH
 NABIRD_DIR = '/home/tin/datasets/nabirds/'
-INATURALIST_DIR = '/home/tin/datasets/nabirds/'
+INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -125,10 +125,7 @@ elif hparams['dataset'] == 'nabirds':
 
 elif hparams['dataset'] == 'inaturalist2021':
     hparams['data_dir'] = pathlib.Path(INATURALIST_DIR)
-    f = open("./descriptors/chatgpt_descriptors_inaturalist2021.json", "r")
-    data = json.load(f)
-    subset_class_names = list(data.keys())
-    dataset = INaturalistDataset(hparams['data_dir'], train=False, subset_class_names=subset_class_names, transform=tfms)
+    dataset = INaturalistDataset(root_dir=hparams['data_dir'], train=False, n_pixel=hparams['image_size'], transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_inaturalist2021'
 
