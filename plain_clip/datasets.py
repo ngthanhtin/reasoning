@@ -293,31 +293,47 @@ class NABirdsDataset(Dataset):
 
 class INaturalistDataset(Dataset):
     allowed_keys = ['crop', 'box_dir', 'return_path', 'trivial_aug', 'ops', 'high_res', 'return_mask']
-    def __init__(self, root_dir:str, box_dir: str = None, transform: Compose = None, n_pixel: int = 336, train: bool = True, original: bool = False, **kwargs):
+    def __init__(self, root_dir:str, box_dir: str = None, transform: Compose = None, subset_class_names: list = [], n_pixel: int = 336, train: bool = True, original: bool = False, **kwargs):
         self.root_dir = root_dir
         self.transform = transform
         self.n_pixel = n_pixel
         self.box_dir = box_dir
         self.train = train
+        self.subset_class_names = subset_class_names
+
         self.__dict__.update((k, v) for k, v in kwargs.items() if k in self.allowed_keys)
         with open(os.path.join(root_dir, 'bird_annotations.json'), 'r') as f:
             self.annotation_meta = json.load(f)
         with open(os.path.join(root_dir, 'bird_classes.json'), 'r') as f:
             self.class_meta = json.load(f)
         # easy mapping for class id, class name and corresponding folder name
-        self.idx2class = {int(id): name for id, name in self.class_meta['name'].items()}
+    
+        self.idx2class = {int(id): name for id, name in self.class_meta['name'].items() if name in self.subset_class_names} # if use subset
         self.class2idx = {v: k for k, v in self.idx2class.items()}
-        self.cls_id2folder_name = {int(id): name for id, name in self.class_meta['image_dir_name'].items()}
+
+        self.cls_id2folder_name = {int(id): name for id, name in self.class_meta['image_dir_name'].items() if name in self.subset_class_names} # if use subset
         self.folder_name2cls_id = {v: k for k, v in self.cls_id2folder_name.items()}
         with open(os.path.join(root_dir, 'bird_images.json'), 'r') as f:
             self.image_meta = json.load(f)
+
         self.images = self.image_meta['file_name']
         self.images = {int(k): v for k, v in self.images.items()}
         self.samples = []
         self.targets = []
         for k, v in self.images.items():
-            self.samples.append(os.path.join(root_dir, v))
-            self.targets.append(self.annotation_meta['category_id'][str(k)] - 1) # -1 to make it zero-indexed
+            if self.annotation_meta['category_id'][str(k)] - 1 in self.idx2class.keys(): # if use subset
+                self.samples.append(os.path.join(root_dir, v))
+                self.targets.append(self.annotation_meta['category_id'][str(k)] - 1) # -1 to make it zero-indexed
+        
+        ## ---- Re-index---- # if use subset
+        self.classes = list(self.class2idx.keys())
+        self.subset_class_labels = list(self.idx2class.keys())
+        sorted_subset_class_labels = sorted(self.subset_class_labels)
+        
+        for i, sample in enumerate(self.samples):
+            self.targets[i] = sorted_subset_class_labels.index(self.targets[i])
+        # ------------------
+
         self.samples = tuple(zip(self.samples, self.targets))
         self.targets = tuple(self.targets)
         self.loader = default_loader
@@ -348,7 +364,7 @@ class INaturalistDataset(Dataset):
     def __getitem__(self, idx):
         image_path, class_id = self.samples[idx]
         image_path = image_path.replace('train_mini', 'bird_train')
-        
+
         sample = self.loader(image_path)
         sample_size = torch.tensor(sample.size[::-1]) # (h, w)
         hight, width = sample_size

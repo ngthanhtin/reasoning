@@ -125,7 +125,11 @@ elif hparams['dataset'] == 'nabirds':
 
 elif hparams['dataset'] == 'inaturalist2021':
     hparams['data_dir'] = pathlib.Path(INATURALIST_DIR)
-    dataset = INaturalistDataset(root_dir=hparams['data_dir'], train=False, n_pixel=hparams['image_size'], transform=tfms)
+    f = open("./descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json", "r")
+    data = json.load(f)
+    subset_class_names = list(data.keys())
+    dataset = INaturalistDataset(root_dir=hparams['data_dir'], train=False, subset_class_names=subset_class_names, n_pixel=hparams['image_size'], transform=tfms)
+    
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_inaturalist2021'
 
@@ -137,7 +141,7 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
 
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/chatgpt_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
     
 
 print("Creating descriptors...")
