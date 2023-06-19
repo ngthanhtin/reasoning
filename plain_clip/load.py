@@ -141,10 +141,10 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
 
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
+# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
 hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
 hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
+# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
     
 
 print("Creating descriptors...")
