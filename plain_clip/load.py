@@ -142,6 +142,9 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
 
 hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
     
 
 print("Creating descriptors...")
@@ -162,15 +165,15 @@ def compute_description_encodings(model):
             v[-2] = v[-2][:cut_len]
         if len(v[-1]) >= cut_len:
             v[-1] = v[-1][:cut_len]
-        if hparams['descriptor_fname'] in ["./descriptors/ID_descriptors_cub.json",
-                                            "./descriptors/ID2_descriptors_cub.json",
-                                            "./descriptors/ID_descriptors_nabirds.json",
-                                            "./descriptors/ID2_descriptors_nabirds.json",
-                                            "./descriptors/ID_diffshape_descriptors_nabirds.json",
-                                            "./descriptors/ID2_diffshape_descriptors_nabirds.json",
-                                            "./descriptors/no_ann_ID_descriptors_nabirds.json"]:
-            if len(v[0]) >= cut_len:
-                v[0] = v[0][:cut_len]
+        # if hparams['descriptor_fname'] in ["./descriptors/ID_descriptors_cub.json",
+        #                                     "./descriptors/ID2_descriptors_cub.json",
+        #                                     "./descriptors/ID_descriptors_nabirds.json",
+        #                                     "./descriptors/ID2_descriptors_nabirds.json",
+        #                                     "./descriptors/ID_diffshape_descriptors_nabirds.json",
+        #                                     "./descriptors/ID2_diffshape_descriptors_nabirds.json",
+        #                                     "./descriptors/no_ann_ID_descriptors_nabirds.json"]:
+        if len(v[0]) >= cut_len:
+            v[0] = v[0][:cut_len]
 
         tokens = clip.tokenize(v).to(hparams['device'])
         description_encodings[k] = F.normalize(model.encode_text(tokens))
