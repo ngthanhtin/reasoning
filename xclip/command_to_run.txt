@@ -1,0 +1,1 @@
+python src/run_owl_vit.py --xclip_v3 --dataset cub --device cuda:6 --clip_topk 50 --num_workers 4
