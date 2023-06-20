@@ -1,13 +1,13 @@
 {
     "Accipiter cooperii": [
-        "shape: A medium-sized hawk with the classic accipiter shape: broad, rounded wings and a very long tail. In Cooper\u2019s Hawks, the head often appears large, the shoulders broad, and the tail rounded",
+        "shape: A medium-sized hawk with the classic accipiter shape: broad, rounded wings and a very long tail. In Accipiter cooperiis, the head often appears large, the shoulders broad, and the tail rounded",
         "size: Larger than a Sharp-shinned Hawk and about crow-sized, but males can be much smaller crow-sized",
         "color: Adults are steely blue-gray above with warm reddish bars on the underparts and thick dark bands on the tail. Juveniles are brown above and crisply streaked with brown on the upper breast, giving them a somewhat hooded look compared with young Sharp-shinned Hawks' more diffuse streaking",
         "habitat: Wooded habitats from deep forests to leafy subdivisions and backyards"
     ],
     "Accipiter striatus": [
         "shape: Accipiter striatuss are small, long-tailed hawks with short, rounded wings. They have small heads that in flight do not always project beyond the \u201cwrists\u201d of the wings. The tail tends to be square-tipped and may show a notch at the tip. Females are considerably larger than males",
-        "size: On average, males are the size of an American Kestrel, slightly larger than a jay. Females are one-third larger than males, approaching the size of a male Cooper\u2019s Hawk between robin and crow",
+        "size: On average, males are the size of an American Kestrel, slightly larger than a jay. Females are one-third larger than males, approaching the size of a male Coopers Hawk between robin and crow",
         "color: Adults are slaty blue-gray above, with narrow, horizontal red-orange bars on the breast. Immature birds are mostly brown, with coarse vertical streaks on white underparts. Adults and young have broad dark bands across their long tails",
         "habitat: Accipiter striatuss breed in deep forests. During migration, look for them in open habitats or high in the sky, migrating along ridgelines. During the nonbreeding season they hunt small birds and mammals along forest edges and sometimes at backyard bird feeders, causing a wave of high-pitched alarm calls among the gathered songbirds"
     ],
@@ -20,7 +20,7 @@
     "Buteo jamaicensis": [
         "shape: Buteo jamaicensiss are large hawks with typical Buteo proportions: very broad, rounded wings and a short, wide tail. Large females seen from a distance might fool you into thinking you\u2019re seeing an eagle. (Until an actual eagle comes along.)",
         "size: The Red-tailed is the second-largest Buteo hawk in North America, after Ferruginous Hawk between crow and goose",
-        "color: Most Buteo jamaicensiss are rich brown above and pale below, with a streaked belly and, on the wing underside, a dark bar between shoulder and wrist. The tail is usually pale below and cinnamon-red above, though in young birds it\u2019s brown and banded. \u201cDark-morph\u201d birds are all chocolate-brown with a warm red tail. \u201cRufous-morph\u201d birds are reddish-brown on the chest with a dark belly",
+        "color: Most Buteo jamaicensiss are rich brown above and pale below, with a streaked belly and, on the wing underside, a dark bar between shoulder and wrist. The tail is usually pale below and cinnamon-red above, though in young birds its brown and banded. \u201cDark-morph\u201d birds are all chocolate-brown with a warm red tail. \u201cRufous-morph\u201d birds are reddish-brown on the chest with a dark belly",
         "habitat: The Buteo jamaicensis is a bird of open country. Look for it along fields and perched on telephones poles, fenceposts, or trees standing alone or along edges of fields"
     ],
     "Buteo lagopus": [
@@ -42,9 +42,9 @@
         "habitat: Buteo platypteruss live in forests and spend much of their time underneath the canopy. On migration they soar along coastlines and mountain ridges, often in very large flocks"
     ],
     "Buteo swainsoni": [
-        "shape: Swainson\u2019s Hawks are buteos, meaning they are large hawks with fairly broad wings and short tails. However, Swainson\u2019s Hawks are less hefty than many other buteos. They are slimmer and longer-winged, with their wings typically held in a shallow V when soaring",
-        "size: Larger than a Cooper\u2019s Hawk; smaller than a Ferruginous Hawk between crow and goose",
-        "color: Though they can be quite variable, most Swainson\u2019s Hawks are light-bellied birds with a dark or reddish-brown chest and brown or gray upperparts. They have distinctive underwings with white wing linings that contrast strongly with blackish flight feathers. Most males have gray heads; females tend to have brown heads. Dark individuals also occur; these vary from reddish to nearly all black, with reduced contrast on the underwings",
+        "shape: Buteo swainsonis are buteos, meaning they are large hawks with fairly broad wings and short tails. However, Buteo swainsonis are less hefty than many other buteos. They are slimmer and longer-winged, with their wings typically held in a shallow V when soaring",
+        "size: Larger than a Coopers Hawk; smaller than a Ferruginous Hawk between crow and goose",
+        "color: Though they can be quite variable, most Buteo swainsonis are light-bellied birds with a dark or reddish-brown chest and brown or gray upperparts. They have distinctive underwings with white wing linings that contrast strongly with blackish flight feathers. Most males have gray heads; females tend to have brown heads. Dark individuals also occur; these vary from reddish to nearly all black, with reduced contrast on the underwings",
         "habitat: These hawks spend summers in the wide-open spaces of the American West. They are the typical nesting buteo of grasslands, but also use sage flats and even swaths of agriculture intermixed with native habitat. Nests are placed in trees, often in the only tree visible for miles"
     ],
     "Circus hudsonius": [
@@ -141,7 +141,7 @@
         "shape: A small goose with stocky body, a rather short neck, and a stubby bill that is neatly triangular in shape",
         "size: Slightly larger than a Mallard, smaller than a Canada Goose goose-sized or larger",
         "color: Adults are white with black wingtips. The bill is pink and lacks the broad black edges of the bill (known as a \u201cgrinning patch\u201d) that Snow Geese show. Rare \u201cblue\u201d morphs have mostly dark bodies and wings, with a white face. Immatures are white tinged with gray and have a dark bill",
-        "habitat: Ross\u2019s Geese nest in low arctic tundra, especially on islands; they forage in wetlands, meadows, and agricultural fields. At night, wintering birds roost with other geese on lakes, reservoirs, or wetlands"
+        "habitat: Rosss Geese nest in low arctic tundra, especially on islands; they forage in wetlands, meadows, and agricultural fields. At night, wintering birds roost with other geese on lakes, reservoirs, or wetlands"
     ],
     "Aythya affinis": [
         "shape: The Aythya affinis is a medium-sized diving duck with a small peak at the back of the head. From the small peak, the back of the head and neck is flat, not rounded as it is on Greater Scaup",
@@ -258,7 +258,7 @@
         "habitat: At all times of year, Mareca americanas can be found in freshwater wetlands, lakes, slow-moving rivers, impoundments, flooded fields, estuaries, bays, and marshes"
     ],
     "Mareca strepera": [
-        "shape: Mareca strepera are about the same size as Mallards. Mareca strepera have a fairly large, square head with a steep forehead. The bill is noticeably thinner than a Mallard's. In flight, the neck is slightly thinner and the wings slightly more slender than a Mallard\u2019s",
+        "shape: Mareca strepera are about the same size as Mallards. Mareca strepera have a fairly large, square head with a steep forehead. The bill is noticeably thinner than a Mallard's. In flight, the neck is slightly thinner and the wings slightly more slender than a Mallards",
         "size: Slightly smaller than a Mallard; larger than a Green-winged Teal between crow and goose",
         "color: Male Mareca strepera are gray-brown with a black patch at the tail. Females are patterned with brown and buff. Females have a thin orange edge to their dark bills. In flight, both sexes have a white wing patch that is sometimes visible while swimming or resting",
         "habitat: Mareca strepera breed mainly in the Great Plains and prairies. On migration and in winter, look for Mareca strepera in reservoirs, ponds, fresh and salt water marshes, city parks, sewage ponds, or muddy edges of estuaries"
@@ -312,7 +312,7 @@
         "habitat: Spatula clypeatas forage in shallow wetlands, coastal marshes, rice fields, flooded fields, lakes, and sewage lagoons. They nest along the margins of wetlands or in neighboring grassy areas"
     ],
     "Spatula cyanoptera": [
-        "shape: A relatively small duck with sizable head and rather long bill, longer than Blue-winged Teal\u2019s but shorter than Northern Shoveler\u2019s",
+        "shape: A relatively small duck with sizable head and rather long bill, longer than Blue-winged Teals but shorter than Northern Shovelers",
         "size: Larger than a Green-winged Teal, smaller than a Northern Shoveler crow-sized",
         "color: Breeding male has red eye, long dark bill, and mostly vivid rusty plumage, with brownish back, white underwing. Female, immature, and nonbreeding male are mostly rich brownish overall. All adults have sky-blue patch in open wing, similar to other teal and shovelers",
         "habitat: Spatula cyanoptera breed and molt in freshwater wetlands with emergent vegetation in western North America. Similar freshwater wetlands, estuaries, mangrove swamps, and reservoirs are used in winter"
@@ -325,7 +325,7 @@
     ],
     "Aeronautes saxatalis": [
         "shape: A fairly large swift with a long, slim body and very long, narrow wings that curve like a scimitar. The overall slim outline can make it appear small, especially at a distance",
-        "size: Larger than a Vaux\u2019s Swift, smaller and slenderer than a Purple Martin between sparrow and robin",
+        "size: Larger than a Vauxs Swift, smaller and slenderer than a Purple Martin between sparrow and robin",
         "color: A blackish brown bird with a white throat and a white strip down the center of the breast and belly. Upperparts are blackish with white flanks and a white trailing edge to the secondaries (the inner part of the wing)",
         "habitat: Nests in natural crevices on rocky cliffs or canyon walls, from sea level to high mountain peaks. Forages over virtually any terrestrial habitat that features small aerial insects. Sometimes nests in buildings, bridges, and overpasses, sometimes in cities"
     ],
@@ -337,39 +337,39 @@
     ],
     "Chaetura vauxi": [
         "shape: A small-bodied bird with long, very narrow swept-back wings that curve along both leading and trailing edges",
-        "size: Larger than an Anna\u2019s Hummingbird, smaller than a Barn Swallow between sparrow and robin",
+        "size: Larger than an Annas Hummingbird, smaller than a Barn Swallow between sparrow and robin",
         "color: Brownish overall, with throat, chest, and uppertail a slightly paler brownish gray",
         "habitat: Nests and roost in large hollow trees in mature and old-growth coniferous and mixed forests. Forages over forest, rivers, lakes, fields, and gaps in forest, such as burned areas. Flocks preparing for migration roost in trees and also in chimneys, including in urban areas"
     ],
     "Chordeiles minor": [
         "shape: Chordeiles minors are medium-sized, slender birds with very long, pointed wings and medium-long tails. Only the small tip of the bill is usually visible, and this combined with the large eye and short neck gives the bird a big-headed look",
         "size: Slightly smaller than an American Kestrel; larger than a Purple Martin between robin and crow",
-        "color: Chordeiles minors are well camouflaged in gray, white, buff, and black. The long, dark wings have a striking white blaze about two-thirds of the way out to the tip. In flight, a V-shaped white throat patch contrasts with the rest of the bird\u2019s mottled plumage",
+        "color: Chordeiles minors are well camouflaged in gray, white, buff, and black. The long, dark wings have a striking white blaze about two-thirds of the way out to the tip. In flight, a V-shaped white throat patch contrasts with the rest of the birds mottled plumage",
         "habitat: Chordeiles minors are most visible when they forage on the wing over open areas near woods or wetlands. They nest on the ground in open areas such as gravel bars, forest clearings, coastal sand dunes, or sparsely vegetated grasslands"
     ],
     "Archilochus alexandri": [
         "shape: A small, fairly slender hummingbird with a fairly straight bill",
         "size: Same size as Ruby-throated Hummingbird sparrow-sized or smaller",
-        "color: Dull metallic green above and dull grayish-white below. Males have a velvety black throat with a thin, iridescent purple base. Females have a pale throat. In both sexes, the flanks are glossed with dull metallic green. Female\u2019s three outer tail feathers have broad white tips. The bill is black",
+        "color: Dull metallic green above and dull grayish-white below. Males have a velvety black throat with a thin, iridescent purple base. Females have a pale throat. In both sexes, the flanks are glossed with dull metallic green. Females three outer tail feathers have broad white tips. The bill is black",
         "habitat: Most often seen at feeders or perched on dead branches in tall trees. The Archilochus alexandri is a habitat generalist, found in lowland deserts and mountainous forests, and in natural habitats and very urbanized areas as long as there are tall trees and flowering shrubs and vines"
     ],
     "Archilochus colubris": [
         "shape: The Archilochus colubris is a small hummingbird with a slender, slightly downcurved bill and fairly short wings that don\u2019t reach all the way to the tail when the bird is sitting",
         "size: Same size as a Black-chinned Hummingbird sparrow-sized or smaller",
-        "color: Archilochus colubriss are bright emerald or golden-green on the back and crown, with gray-white underparts. Males have a brilliant iridescent red throat that looks dark when it\u2019s not in good light",
+        "color: Archilochus colubriss are bright emerald or golden-green on the back and crown, with gray-white underparts. Males have a brilliant iridescent red throat that looks dark when its not in good light",
         "habitat: Archilochus colubriss live in open woodlands, forest edges, meadows, grasslands, and in parks, gardens, and backyards"
     ],
     "Calypte anna": [
-        "shape: Tiny among birds, Anna\u2019s are medium-sized and stocky for a hummingbird. They have a straight, shortish bill and a fairly broad tail. When perched, the tail extends beyond the wingtips",
+        "shape: Tiny among birds, Annas are medium-sized and stocky for a hummingbird. They have a straight, shortish bill and a fairly broad tail. When perched, the tail extends beyond the wingtips",
         "size: Very slightly larger than a Rufous Hummingbird sparrow-sized or smaller",
-        "color: Anna\u2019s Hummingbirds are mostly green and gray, without any rufous or orange marks on the body. The male's head and throat are covered in iridescent reddish-pink feathers that can look dull brown or gray without direct sunlight",
-        "habitat: Anna\u2019s Hummingbirds are common in yards, parks, residential streets, eucalyptus groves, riverside woods, savannahs, and coastal scrub. They readily come to hummingbird feeders and flowering plants, including cultivated species in gardens"
+        "color: Calypte annas are mostly green and gray, without any rufous or orange marks on the body. The male's head and throat are covered in iridescent reddish-pink feathers that can look dull brown or gray without direct sunlight",
+        "habitat: Calypte annas are common in yards, parks, residential streets, eucalyptus groves, riverside woods, savannahs, and coastal scrub. They readily come to hummingbird feeders and flowering plants, including cultivated species in gardens"
     ],
     "Calypte costae": [
         "shape: Costa's Hummingbirds are small and compact hummingbirds with a hunched posture. Their short tail barely meets their short wings when perched. The male's gorget (throat patch) flares out along the sides of the neck like an overgrown mustache",
         "size: Larger than a Calliope Hummingbird, smaller than an Anna's Hummingbird sparrow-sized or smaller",
         "color: Adult male Costa's Hummingbirds have an iridescent purple crown and gorget, a green back, and a green vest. Females and immatures are greenish above with a white eyebrow stripe and whitish underparts",
-        "habitat: Costa\u2019s Hummingbirds occur in desert scrub in the Sonoran and Mojave Deserts, and chaparral and sage scrub areas in coastal California. During the nonbreeding season they use similar dry habitats as well as parks, gardens, and higher elevation mountains"
+        "habitat: Calypte costaes occur in desert scrub in the Sonoran and Mojave Deserts, and chaparral and sage scrub areas in coastal California. During the nonbreeding season they use similar dry habitats as well as parks, gardens, and higher elevation mountains"
     ],
     "Cynanthus latirostris": [
         "shape: A rather small hummingbird with a long, straight bill and a tail that is notched in the center. Males have fuller tails than females, with rounded corners (females\u2019 tails have squared corners)",
@@ -529,7 +529,7 @@
     ],
     "Rissa tridactyla": [
         "shape: A small gull with a plump belly. Kittiwakes look sleek in flight, with rather long, narrow wings, a short, notched tail, and a slim, fairly short bill",
-        "size: Larger than a Bonaparte\u2019s Gull, slightly smaller than a Ring-billed Gull crow-sized",
+        "size: Larger than a Bonapartes Gull, slightly smaller than a Ring-billed Gull crow-sized",
         "color: Breeding adults are pale gray above with neat black wingtips, clean white below, with a yellow bill. The legs and feet are jet black. Nonbreeding adults are similar but acquire a dusky patch behind the ear. Juveniles are quite striking: white overall, with a black M pattern across the upperwing visible in flight. They also have a gray or black collar across the back of the neck, a black tail tip and a black bill",
         "habitat: Nests on seaside cliffs, often among auks and Northern Fulmars, in arctic, subarctic, and northern temperate regions. Forages over open ocean, mostly in cold waters"
     ],
@@ -541,7 +541,7 @@
     ],
     "Sterna forsteri": [
         "shape: A slender, long-tailed, long-winged seabird with a long, pointed bill and short legs. When perched, the long tail streamers extend past the end of the wings",
-        "size: Larger than a Black Tern, smaller than a Bonaparte\u2019s Gull between robin and crow",
+        "size: Larger than a Black Tern, smaller than a Bonapartes Gull between robin and crow",
         "color:  Breeding adults are gray above and white below, with a black cap and orange bill with black tip. The wingtips are silvery gray and the legs are orange. Nonbreeding adults are ghostly pale overall, with a dark bill, white crown, and thick blackish eye patch. Juveniles are similar to nonbreeding adults but have tan feathers on the upperparts, a pale base to the bill, and a shorter tail",
         "habitat:  Breeds in marshes, including freshwater and saltwater, usually in areas with extensive open water, sometimes with small islands or patches of floating vegetation. Winters mostly in oceans, bays, and estuaries, usually close to the coast. Some winter inland near the Gulf of Mexico and in northern Mexico"
     ],
@@ -642,10 +642,10 @@
         "habitat: Nests in high slopes of rocky alpine tundra in interior Alaska. Winters along Pacific coast in rocky environments, sometimes foraging also on mudflats or beaches"
     ],
     "Gallinago delicata": [
-        "shape: Wilson\u2019s Snipes are medium-sized, pudgy shorebirds with short, stocky legs. The bill is straight and very long (several times the length of the head). The head is rounded and the tail is short",
+        "shape: Gallinago delicatas are medium-sized, pudgy shorebirds with short, stocky legs. The bill is straight and very long (several times the length of the head). The head is rounded and the tail is short",
         "size: About the size of a Killdeer, but heavier-bodied and less lanky robin-sized",
         "color: These birds are intricately patterned in buff and brown stripes and bars. The dark head has prominent buffy to whitish stripes. The dark back has three long buffy streaks, one running down each edge, one down the center. The buff chest is streaked and spotted with brown; the sides are heavily barred with black. In flight, the wings are dark above and below",
-        "habitat: Wilson\u2019s Snipe live in muddy pond edges, damp fields, and other wet, open habitats. Typically these contain thick, low vegetation into which these well-camouflaged birds can disappear"
+        "habitat: Gallinago delicata live in muddy pond edges, damp fields, and other wet, open habitats. Typically these contain thick, low vegetation into which these well-camouflaged birds can disappear"
     ],
     "Limnodromus griseus": [
         "shape: A chunky, medium-sized shorebird with a long, straight bill and moderately long legs",
@@ -672,10 +672,10 @@
         "habitat: Arctic tundra during the nesting season; saltmarshes, mudflats, beaches, small islands during migration and winter. They are sometimes found inland after being grounded by storms, taking refuge in farm fields, airports, lakeshores, or other open environments"
     ],
     "Phalaropus tricolor": [
-        "shape: Wilson\u2019s Phalaropes are small shorebirds with long legs, slender necks, and very thin, straight, long bills. They have sharply pointed wings",
+        "shape: Phalaropus tricolors are small shorebirds with long legs, slender necks, and very thin, straight, long bills. They have sharply pointed wings",
         "size: Larger than a Least Sandpiper; smaller than a Killdeer robin-sized",
-        "color: Wilson\u2019s Phalaropes are grayish birds with cinnamon or rusty highlights especially on the neck. In the breeding season females are more colorful than males, with a dark line through the eye extending down the neck. The throat is white and the neck is washed rusty. Nonbreeding birds are pale gray above, white below, without the strong facial markings of other phalarope species",
-        "habitat: Wilson\u2019s Phalaropes breed in marshes of the Great Plains and intermountain West. They spend winters in South America, mainly on high lakes in the Andes. On migration, great numbers congregate on salty lakes and coastal marshes of the West"
+        "color: Phalaropus tricolors are grayish birds with cinnamon or rusty highlights especially on the neck. In the breeding season females are more colorful than males, with a dark line through the eye extending down the neck. The throat is white and the neck is washed rusty. Nonbreeding birds are pale gray above, white below, without the strong facial markings of other phalarope species",
+        "habitat: Phalaropus tricolors breed in marshes of the Great Plains and intermountain West. They spend winters in South America, mainly on high lakes in the Andes. On migration, great numbers congregate on salty lakes and coastal marshes of the West"
     ],
     "Scolopax minor": [
         "shape: Scolopax minors are plump, short-legged shorebirds with very long, straight bills. Their large heads, short necks, and short tails give them a bulbous look on the ground and in flight. The wings are broad and rounded compared to most other shorebirds",
@@ -738,9 +738,9 @@
         "habitat: Patagioenas fasciatas live in mature coniferous forests in Western mountains, damp forests of the West Coast, and conifer-oak woodlands. They also visit forested suburban parks, fields, orchards, and backyard birdfeeders to forage"
     ],
     "Streptopelia decaocto": [
-        "shape: Streptopelia decaoctos have plump bodies, small heads, and long tails. They\u2019re larger than Mourning Doves but slimmer and longer-tailed than a Rock Pigeon. The wings are broad and slightly rounded. The broad tail is squared off at the tip, rather than pointed like a Mourning Dove\u2019s",
+        "shape: Streptopelia decaoctos have plump bodies, small heads, and long tails. They\u2019re larger than Mourning Doves but slimmer and longer-tailed than a Rock Pigeon. The wings are broad and slightly rounded. The broad tail is squared off at the tip, rather than pointed like a Mourning Doves",
         "size: A large dove, larger and heftier than a Mourning Dove but smaller than a Rock Pigeon between robin and crow",
-        "color: Streptopelia decaoctos are chalky light brown to gray-buff birds with broad white patches in the tail. The bird\u2019s collar is a narrow black crescent around the nape of the neck. In flight and when perched, the wingtips are darker than the rest of the wing",
+        "color: Streptopelia decaoctos are chalky light brown to gray-buff birds with broad white patches in the tail. The birds collar is a narrow black crescent around the nape of the neck. In flight and when perched, the wingtips are darker than the rest of the wing",
         "habitat: Streptopelia decaoctos live in urban and suburban areas throughout much of the U.S. except the Northeast. In rural settings look for them on farms and in livestock yards where grain is available. In cooler months, flocks may roost together in large trees"
     ],
     "Zenaida asiatica": [
@@ -787,7 +787,7 @@
     ],
     "Crotophaga sulcirostris": [
         "shape: A fairly large, disheveled-looking bird with a long, rounded tail and short, rounded wings. It has a tall, heavy bill (though generally smaller than the bill of Smooth-billed Ani). At close range, several grooves in the upper mandible are visible",
-        "size: Larger than a Yellow-billed Cuckoo, smaller than a male Cooper\u2019s Hawk between robin and crow",
+        "size: Larger than a Yellow-billed Cuckoo, smaller than a male Coopers Hawk between robin and crow",
         "color: Entirely black. The feathers of the upperparts can show some purple or green gloss in optimal light",
         "habitat: Dense, low vegetation such as shrubs or small trees in arid, open country of lowlands. Nonbreeding birds sometimes move temporarily into wetter habitats such as marshes, especially during droughts"
     ],
@@ -841,7 +841,7 @@
     ],
     "Callipepla squamata": [
         "shape: A compact chickenlike bird with a small head and a distinctive short crest. It has a plump body, short tail, and short, strong legs",
-        "size: Slightly larger than a Northern Bobwhite; about the same size as a Gambel\u2019s Quail between robin and crow",
+        "size: Slightly larger than a Northern Bobwhite; about the same size as a Gambels Quail between robin and crow",
         "color: Adults are pale brownish with elegant dark scaling on the underparts. The head is plain brown with a buffy accent on the crest. The back is bluish gray and the wings are brown stippled with buff. Juveniles are similar but have a shorter crest, and the upperwing has a more ornate pattern",
         "habitat: Desert grasslands and sparsely vegetated shrublands with plants like yucca, cholla, mesquite, skunkbush sumac, prickly pear, sandsage, pinyon, and juniper"
     ],
@@ -866,7 +866,7 @@
     "Phasianus colchicus": [
         "shape: Phasianus colchicus is a large, chicken-like bird with a long, pointed tail. It has fairly long legs, a small head, long neck, and plump body",
         "size: Larger and longer-tailed than an American Crow; smaller than a Wild Turkey between crow and goose",
-        "color: Male Phasianus colchicuss are gaudy birds with red faces and an iridescent green neck with a bold white ring. The male\u2019s very long tail is coppery with thin, black bars. Females are brown with paler scaling on the upperparts; buff or cinnamon underparts with black spotting on the sides; and thin, black bars on their tails",
+        "color: Male Phasianus colchicuss are gaudy birds with red faces and an iridescent green neck with a bold white ring. The males very long tail is coppery with thin, black bars. Females are brown with paler scaling on the upperparts; buff or cinnamon underparts with black spotting on the sides; and thin, black bars on their tails",
         "habitat: Phasianus colchicuss are birds of agricultural areas intermixed with areas of taller vegetation, which they use for cover. Look for them along rural roadsides, in overgrown or recently harvested fields, and in brushy areas and hedgerows"
     ],
     "Gavia immer": [
@@ -876,7 +876,7 @@
         "habitat: Gavia immers breed on quiet, remote freshwater lakes of the northern U.S. and Canada, and they are sensitive to human disturbance. In winter and during migration, look for them on lakes, rivers, estuaries, and coastlines"
     ],
     "Gavia pacifica": [
-        "shape: A heavy-bodied water bird with a long thick neck and a strong, pointed bill (slighter than a Common Loon\u2019s bill). It has long, pointed wings and short legs set far back on the body",
+        "shape: A heavy-bodied water bird with a long thick neck and a strong, pointed bill (slighter than a Common Loons bill). It has long, pointed wings and short legs set far back on the body",
         "size: Slightly larger and sturdier than a Red-throated Loon, notably smaller than a Common Loon between crow and goose",
         "color: Breeding adults have dove-gray heads and black upperparts marked with crisp white lines. The throat is black with sharp black-and-white lines down the sides. Crown and back of neck pale gray. The chin and throat can show a purple gloss. Eye dark red, bill and legs dark. Nonbreeding adults are dark gray-brown above with very little white feather edging; and whitish below, sometimes with a neat dark line or chinstrap across the throat. Juveniles are similar to nonbreeding adult but usually show neat pale edges to feathers",
         "habitat: Nests in freshwater lakes in arctic and subarctic tundra and taiga. Winters in coastal ocean waters, bays, and estuaries. Occasionally, migrants appear in inland bodies of water, especially large reservoirs"
@@ -924,7 +924,7 @@
         "habitat: The barer the ground, the more Eremophila alpestriss like it. Look for them in open country with very short or no vegetation, including bare agricultural fields. They breed in short grassland, short-stature sage shrubland, desert, and even alpine and arctic tundra"
     ],
     "Bombycilla cedrorum": [
-        "shape: The Bombycilla cedrorum is a medium-sized, sleek bird with a large head, short neck, and short, wide bill. Waxwings have a crest that often lies flat and droops over the back of the head. The wings are broad and pointed, like a starling\u2019s. The tail is fairly short and square-tipped",
+        "shape: The Bombycilla cedrorum is a medium-sized, sleek bird with a large head, short neck, and short, wide bill. Waxwings have a crest that often lies flat and droops over the back of the head. The wings are broad and pointed, like a starlings. The tail is fairly short and square-tipped",
         "size: Slightly smaller than a Bohemian Waxwing between sparrow and robin",
         "color: Bombycilla cedrorums are pale brown on the head and chest fading to soft gray on the wings. The belly is pale yellow, and the tail is gray with a bright yellow tip. The face has a narrow black mask neatly outlined in white. The red waxy tips to the wing feathers are not always easy to see",
         "habitat: Look for Bombycilla cedrorums in woodlands of all kinds, and at farms, orchards, and suburban gardens where there are fruiting trees or shrubs"
@@ -1028,7 +1028,7 @@
     "Aphelocoma coerulescens": [
         "shape: A large and sturdy bird with a long tail and hefty legs. This uncrested jay has a big flat head and a heavy bill",
         "size: Larger than an Eastern Towhee, smaller than an American Crow robin-sized",
-        "color: Dull blue overall with a whitish forehead and a pale gray back and belly. Juveniles are grayer overall than adults and lack the adult\u2019s blue head",
+        "color: Dull blue overall with a whitish forehead and a pale gray back and belly. Juveniles are grayer overall than adults and lack the adults blue head",
         "habitat: Found only in low-growing oak scrub and scrubby flatwoods with sandy soils in Florida. Within these patches of oak scrub, they frequent relatively open areas with bare sandy patches"
     ],
     "Aphelocoma wollweberi": [
@@ -1062,10 +1062,10 @@
         "habitat: Cyanocitta cristatas are birds of forest edges. A favorite food is acorns, and they are often found near oaks, in forests, woodlots, towns, cities, parks"
     ],
     "Cyanocitta stelleri": [
-        "shape: Steller\u2019s Jays are large songbirds with large heads, chunky bodies, rounded wings, and a long, full tail. The bill is long, straight, and powerful, with a slight hook. Steller\u2019s Jays have a prominent triangular crest that often stands nearly straight up from their head",
+        "shape: Cyanocitta stelleris are large songbirds with large heads, chunky bodies, rounded wings, and a long, full tail. The bill is long, straight, and powerful, with a slight hook. Cyanocitta stelleris have a prominent triangular crest that often stands nearly straight up from their head",
         "size: About the same size as a Western Scrub-Jay between robin and crow",
-        "color: At a distance, Steller\u2019s Jays are very dark jays, lacking the white underparts of most other species. The head is charcoal black and the body is all blue (lightest, almost sparkling, on the wings). White markings above the eye are fairly inconspicuous",
-        "habitat: Look for Steller\u2019s Jays in evergreen forests of western North America, at elevations of 3,000-10,000 feet (lower along the Pacific coast). They\u2019re familiar birds of campgrounds, picnic areas, parks, and backyards"
+        "color: At a distance, Cyanocitta stelleris are very dark jays, lacking the white underparts of most other species. The head is charcoal black and the body is all blue (lightest, almost sparkling, on the wings). White markings above the eye are fairly inconspicuous",
+        "habitat: Look for Cyanocitta stelleris in evergreen forests of western North America, at elevations of 3,000-10,000 feet (lower along the Pacific coast). They\u2019re familiar birds of campgrounds, picnic areas, parks, and backyards"
     ],
     "Cyanocorax yncas": [
         "shape: A sturdy jay without a crest. It has a thick, straight bill, a long, rounded tail, and fairly long legs. In flight the wings are broad and rounded",
@@ -1074,10 +1074,10 @@
         "habitat: Woodlands, thickets, and parks, especially sites with native trees, but also citrus orchards and parks"
     ],
     "Nucifraga columbiana": [
-        "shape: Clark\u2019s Nutcrackers are the size of a jay but the shape of a crow, with short tails and rounded, crestless heads. The bill is long, straight, and sharp-tipped",
-        "size: Smaller than an American Crow; about the size of a Steller\u2019s Jay but more compact between robin and crow",
-        "color: Clark\u2019s Nutcrackers are pale gray birds with black wings. In flight, the wings show large white patches along the trailing edges (secondaries). The tail is black in the center with broad white along either side. Nutcrackers have black bills, legs, and feet",
-        "habitat: Clark\u2019s Nutcrackers are birds of the mountains. They are closely associated with pines that produce large seeds, such as whitebark pine and limber pine, but are also found in other montane evergreen forests from about 3,000 to more than 11,000 feet in the West"
+        "shape: Nucifraga columbianas are the size of a jay but the shape of a crow, with short tails and rounded, crestless heads. The bill is long, straight, and sharp-tipped",
+        "size: Smaller than an American Crow; about the size of a Stellers Jay but more compact between robin and crow",
+        "color: Nucifraga columbianas are pale gray birds with black wings. In flight, the wings show large white patches along the trailing edges (secondaries). The tail is black in the center with broad white along either side. Nutcrackers have black bills, legs, and feet",
+        "habitat: Nucifraga columbianas are birds of the mountains. They are closely associated with pines that produce large seeds, such as whitebark pine and limber pine, but are also found in other montane evergreen forests from about 3,000 to more than 11,000 feet in the West"
     ],
     "Pica hudsonia": [
         "shape: Pica hudsonias are slightly larger than jays with much longer, diamond-shaped tails and heavier bills. In flight, their wings seem to be too short to support their graceful flight",
@@ -1105,15 +1105,15 @@
     ],
     "Coccothraustes vespertinus": [
         "shape: Coccothraustes vespertinuss are large, heavyset finches with very thick, powerful, conical bills. They have a thick neck, full chest, and relatively short tail",
-        "size: About the size of a Northern Cardinal, but more compact and thicker bodied; smaller than a Steller\u2019s Jay or Blue Jay robin-sized",
+        "size: About the size of a Northern Cardinal, but more compact and thicker bodied; smaller than a Stellers Jay or Blue Jay robin-sized",
         "color: Adult male Coccothraustes vespertinuss are yellow and black birds with a prominent white patch in the wings. They have dark heads with a bright-yellow stripe over the eye. Females and immatures are mostly gray, with white-and-black wings and a greenish-yellow tinge to the neck and flanks. The bill is pale ivory on adult males and greenish-yellow on females",
         "habitat: They make very erratic movements south into the continental United States in some winters, when they can become common at backyard feeders. Away from backyards, they winter in forests and feed in both deciduous and coniferous trees, often at higher elevations. They breed in spruce-fir, pine-oak, pinyon-juniper, and aspen forests of northern North America and the mountains of the West"
     ],
     "Haemorhous cassinii": [
-        "shape: Cassin\u2019s Finches are small songbirds with peaked heads and short-medium tails. Their heavy bills are fairly long and straight-sided, and their tails are obviously notched. Their wings are long and, when perched, the tips project farther down the tail than in other finches",
+        "shape: Haemorhous cassiniies are small songbirds with peaked heads and short-medium tails. Their heavy bills are fairly long and straight-sided, and their tails are obviously notched. Their wings are long and, when perched, the tips project farther down the tail than in other finches",
         "size: About the size of a House Finch but somewhat heftier; larger than a Pine Siskin sparrow-sized or smaller",
-        "color: Adult males are rosy pink overall with the most intense red on the crown. Female and immature Cassin\u2019s Finches are brown-and-white birds with crisp, dark streaks on the chest and underparts. Both males and females have streaked undertail coverts and often show a thin, white eyering",
-        "habitat: Cassin\u2019s Finches live in evergreen forests in the mountains up to about 10,000 feet elevation. In winter, they may move to lower elevations. They feed heavily upon seeds of pines and buds of quaking aspen"
+        "color: Adult males are rosy pink overall with the most intense red on the crown. Female and immature Haemorhous cassiniies are brown-and-white birds with crisp, dark streaks on the chest and underparts. Both males and females have streaked undertail coverts and often show a thin, white eyering",
+        "habitat: Haemorhous cassiniies live in evergreen forests in the mountains up to about 10,000 feet elevation. In winter, they may move to lower elevations. They feed heavily upon seeds of pines and buds of quaking aspen"
     ],
     "Haemorhous mexicanus": [
         "shape: Haemorhous mexicanuses are small-bodied finches with fairly large beaks and somewhat long, flat heads. The wings are short, making the tail seem long by comparison. Many finches have distinctly notched tails, but the Haemorhous mexicanus has a relatively shallow notch in its tail",
@@ -1122,7 +1122,7 @@
         "habitat: Haemorhous mexicanuses frequent city parks, backyards, urban centers, farms, and forest edges across the continent. In the western U.S., you\u2019ll also find Haemorhous mexicanuses in their native habitats of deserts, grassland, chaparral, and open woods"
     ],
     "Haemorhous purpureus": [
-        "shape: Among the small forest birds like chickadees, kinglets, and nuthatches, Haemorhous purpureuses are large and chunky. Their powerful, conical beaks are larger than any sparrow\u2019s. The tail seems short and is clearly notched at the tip",
+        "shape: Among the small forest birds like chickadees, kinglets, and nuthatches, Haemorhous purpureuses are large and chunky. Their powerful, conical beaks are larger than any sparrows. The tail seems short and is clearly notched at the tip",
         "size: About the same size as House Finch and House Sparrow sparrow-sized or smaller",
         "color: Male Haemorhous purpureuses are delicate pink-red on the head and breast, mixing with brown on the back and cloudy white on the belly. Female Haemorhous purpureuses have no red. They are coarsely streaked below, with strong facial markings including a whitish eyestripe and a dark line down the side of the throat",
         "habitat: Haemorhous purpureuses breed mainly in coniferous forests or mixed deciduous and coniferous woods. During winter you can find them in a wider variety of habitats, including shrublands, old fields, forest edges, and backyards"
@@ -1135,7 +1135,7 @@
     ],
     "Loxia curvirostra": [
         "shape: A stocky, medium-sized songbird with short, notched tail and an unusual, twisted bill that crosses when closed",
-        "size: Larger than a warbler, smaller than a Red-winged Blackbird, but there\u2019s much size variation: the smallest types are barely larger than a Black-capped Chickadee, while the largest are larger than a Brown-headed Cowbird sparrow-sized or smaller",
+        "size: Larger than a warbler, smaller than a Red-winged Blackbird, but theres much size variation: the smallest types are barely larger than a Black-capped Chickadee, while the largest are larger than a Brown-headed Cowbird sparrow-sized or smaller",
         "color: Adult males are brick red overall, with darker wings and tail. Females are mostly yellowish below, brownish or olive brown above. Immatures are brownish above, pale with brownish streaking below",
         "habitat: Chiefly mature coniferous forests in mountains and the boreal forest, but during \u201cirruptions,\u201d single birds and flocks may appear in forests, towns, and backyards far to the south and east of their typical range"
     ],
@@ -1167,7 +1167,7 @@
         "shape: A small finch with a short, conical bill and a small, head, long wings, and short, notched tail",
         "size: Smaller than a Tufted Titmouse sparrow-sized or smaller",
         "color: Adult males in spring and early summer are bright yellow with black forehead, black wings with white markings, and white patches both above and beneath the tail. Adult females are duller yellow beneath, olive above. Winter birds are drab, unstreaked brown, with blackish wings and two pale wingbars",
-        "habitat: The goldfinch\u2019s main natural habitats are weedy fields and floodplains, where plants such as thistles and asters are common. They\u2019re also found in cultivated areas, roadsides, orchards, and backyards. Spinus tristises can be found at feeders any time of year, but most abundantly during winter"
+        "habitat: The goldfinchs main natural habitats are weedy fields and floodplains, where plants such as thistles and asters are common. They\u2019re also found in cultivated areas, roadsides, orchards, and backyards. Spinus tristises can be found at feeders any time of year, but most abundantly during winter"
     ],
     "Hirundo rustica": [
         "shape: When perched, the sparrow-sized Hirundo rustica appears cone shaped, with a slightly flattened head, no visible neck, and broad shoulders that taper to long, pointed wings. The tail extends well beyond the wingtips and the long outer feathers give the tail a deep fork",
@@ -1195,7 +1195,7 @@
     ],
     "Riparia riparia": [
         "shape: A small swallow with a chunky body, large head, relatively short pointed wings, and a slightly forked tail",
-        "size: The smallest of North America\u2019s swallow species, similar in size to a Chimney Swift but with shorter, broader wings between sparrow and robin",
+        "size: The smallest of North Americas swallow species, similar in size to a Chimney Swift but with shorter, broader wings between sparrow and robin",
         "color: A warm brown swallow with white underparts and a thick brown band across the chest. The head is brown with a white chin. Underwings are dark",
         "habitat: Riparia riparias breed in open lowland areas near bodies of water. They tend to avoid forests, woodlands, or areas where they cannot find appropriate nesting habitats"
     ],
@@ -1227,7 +1227,7 @@
         "shape: Dolichonyx oryzivoruss are small songbirds with large, somewhat flat heads, short necks, and short tails. They are related to blackbirds and orioles, and they have a similar shaped, sharply pointed bill",
         "size: Larger than a Field Sparrow; smaller than a Red-winged Blackbird robin-sized",
         "color: Breeding male Dolichonyx oryzivoruss are mostly black with a white back and rump, and a rich buffy nape. Females and nonbreeding males are warm buffy brown, streaked with dark brown on the back and flanks. They have bold brown stripes on the crown but are unstreaked on the nape of the neck. The bill is pinkish",
-        "habitat: Dolichonyx oryzivoruss are birds of tall grasslands, uncut pastures, overgrown fields and meadows, and the continent\u2019s remaining prairies. While molting and on migration, look for them in marshes and in agricultural fields, particularly rice fields"
+        "habitat: Dolichonyx oryzivoruss are birds of tall grasslands, uncut pastures, overgrown fields and meadows, and the continents remaining prairies. While molting and on migration, look for them in marshes and in agricultural fields, particularly rice fields"
     ],
     "Euphagus carolinus": [
         "shape: Euphagus carolinus is a medium-sized blackbird with a slender bill and medium-length tail. The bill is slightly decurved. They are a bit larger and longer-tailed than Red-winged Blackbird with a more slender bill. Euphagus carolinus is thinner-billed and shorter-tailed than Common Grackle",
@@ -1239,7 +1239,7 @@
         "shape: A small, fairly long-legged songbird with the well-proportioned look of many blackbirds: the fairly long tail is balanced by a full body, round head, and long, thick-based beak. In perching males, the tail appears widened and rounded toward the tip",
         "size: About the size of a Red-winged Blackbird robin-sized",
         "color: Males are glossy black all over with a staring yellow eye and a blue sheen on the head grading to greenish iridescence on the body. Females are plainer brown, darkest on the wings and tail, with a dark eye. Immature birds look like washed out, lighter-brown versions of the females",
-        "habitat: Look for Brewer\u2019s Blackbirds in open habitats of the West, such as coastal scrub, grasslands, riversides, meadows, as well as lawns, golf courses, parks, and city streets"
+        "habitat: Look for Euphagus cyanocephaluss in open habitats of the West, such as coastal scrub, grasslands, riversides, meadows, as well as lawns, golf courses, parks, and city streets"
     ],
     "Icterus bullockii": [
         "shape: Bullock's Orioles are medium-sized songbirds with slim but sturdy bodies and medium-long tails. Orioles are related to blackbirds and share their long, thick-based, sharply pointed bills",
@@ -1261,7 +1261,7 @@
     ],
     "Icterus parisorum": [
         "shape: A medium-sized, sturdy-bodied songbird with a long tail, long, straight, spikelike bill, and strong legs and feet",
-        "size: Slightly larger than a Bullock\u2019s Oriole, smaller than a Steller\u2019s Jay between sparrow and robin",
+        "size: Slightly larger than a Bullocks Oriole, smaller than a Stellers Jay between sparrow and robin",
         "color: Adult males are vivid lemon yellow below, velvety black above, with black throat and chest. They have white wingbars, a yellow shoulder, and a black-and-yellow tail. Adult females are dull yellow below, olive-green above, with faint wingbars and some stippling on the head. Immature (year-old) males are intermediate between female and adult male, with a black face, throat, and upper breast. Juveniles and immature females are similar to adult females but duller",
         "habitat: Nests and forages in deserts, upslope from cactus flats, where yuccas are abundant; as well as into arid foothills and lower portions of mountains with pinyon pine, juniper, live oak. In lower areas, also occurs in Joshua tree forests; oases with palms, cottonwoods, sycamores, and mesquite; and occasionally chaparral"
     ],
@@ -1278,7 +1278,7 @@
         "habitat: Open habitats such as chaparral, mesquite bosques, coastal prairie, farmland, pasture, golf courses, lightly wooded canyons, and riparian corridors"
     ],
     "Molothrus ater": [
-        "shape: Molothrus aters are smallish blackbirds, with a shorter tail and thicker head than most other blackbirds. The bill has a distinctive shape: it\u2019s much shorter and thicker-based than other blackbirds', almost finch-like at first glance. In flight, look for the shorter tail",
+        "shape: Molothrus aters are smallish blackbirds, with a shorter tail and thicker head than most other blackbirds. The bill has a distinctive shape: its much shorter and thicker-based than other blackbirds', almost finch-like at first glance. In flight, look for the shorter tail",
         "size: Slightly smaller than a Red-winged Blackbird between sparrow and robin",
         "color: Male Molothrus aters have glossy black plumage and a rich brown head that often looks black in poor lighting or at distance. Female Molothrus aters are plain brown birds, lightest on the head and underparts, with fine streaking on the belly and a dark eye",
         "habitat: You\u2019ll find Molothrus aters in many open habitats, such as fields, pastures, meadows, forest edges, and lawns. When not displaying or feeding on the ground, they often perch high on prominent tree branches"
@@ -1296,9 +1296,9 @@
         "habitat: Quiscalus majors are a strictly coastal species through most of their range; however, they live across much of the Florida peninsula, often well away from the immediate coast"
     ],
     "Quiscalus mexicanus": [
-        "shape: Male Quiscalus mexicanuss are long-legged, slender blackbirds with a flat-headed profile and stout, straight bills. The male\u2019s tapered tail is nearly as long as its body and folds into a distinctive V or keel shape. Females are about half the size of males with long, slender tails",
+        "shape: Male Quiscalus mexicanuss are long-legged, slender blackbirds with a flat-headed profile and stout, straight bills. The males tapered tail is nearly as long as its body and folds into a distinctive V or keel shape. Females are about half the size of males with long, slender tails",
         "size: Exceptionally long-tailed and large songbird. Much smaller by weight than an American Crow, but about the same length between robin and crow",
-        "color: Male Quiscalus mexicanuss are iridescent black with piercing yellow eyes, and black bills and legs. Females are dark brown above, paler below, with a buff-colored throat and stripe above the eye. Juveniles have the female\u2019s dark brown plumage, with streaked underparts and a dark eye",
+        "color: Male Quiscalus mexicanuss are iridescent black with piercing yellow eyes, and black bills and legs. Females are dark brown above, paler below, with a buff-colored throat and stripe above the eye. Juveniles have the females dark brown plumage, with streaked underparts and a dark eye",
         "habitat: Look for Quiscalus mexicanuss in rural and developed areas of the Midwest and West, foraging in agricultural fields and feedlots, and in suburbs including golf courses, cemeteries, parks, and neighborhood lawns. Large trees and vegetation edging marshes, lakes, and lagoons provide roosting and breeding sites"
     ],
     "Quiscalus quiscula": [
@@ -1314,7 +1314,7 @@
         "habitat: Sturnella magnas live in farm fields, grasslands, and wet fields. They nest on the ground and sing from exposed perches such as treetops, fenceposts, and utility lines"
     ],
     "Sturnella neglecta": [
-        "shape: The Sturnella neglecta is the size of a robin but chunkier and shorter-tailed, with a flat head, long, slender bill, and a round-shouldered posture that nearly conceals its neck. The wings are rounded and short for the bird\u2019s size and the tail is short, stiff, and spiky",
+        "shape: The Sturnella neglecta is the size of a robin but chunkier and shorter-tailed, with a flat head, long, slender bill, and a round-shouldered posture that nearly conceals its neck. The wings are rounded and short for the birds size and the tail is short, stiff, and spiky",
         "size: About the size of an American Robin, but with a shorter tail robin-sized",
         "color: Sturnella neglectas have yellow underparts with intricately patterned brown, black and buff upperparts. A black \u201cV\u201d crosses the bright yellow breast; it is gray in winter. Contrasting stripes of dark brown and light buff mark the head. The outer tail feathers flash white in flight",
         "habitat: Sturnella neglectas seek the wide open spaces of native grasslands and agricultural fields for spring and summer breeding and winter foraging. Look for them among low to medium-height grasses more so than in tall fields. They also occur along the weedy verges of roads, marsh edges, and mountain meadows up to 10,000 feet"
@@ -1363,7 +1363,7 @@
     ],
     "Toxostoma curvirostre": [
         "shape: A lanky songbird with a long, curved bill, long tail, and thick legs, recalling a mockingbird but bulkier and with a different bill",
-        "size: Slightly larger than an American Robin, smaller than a Woodhouse\u2019s Scrub-Jay robin-sized",
+        "size: Slightly larger than an American Robin, smaller than a Woodhouses Scrub-Jay robin-sized",
         "color: Grayish brown above, paler off-white below mottled with indistinct gray-brown speckling. The eye is orange-yellow",
         "habitat: Deserts (especially with cholla cactus), brushlands, thorn scrub, arid canyons, pinyon-oak scrub"
     ],
@@ -1380,7 +1380,7 @@
         "habitat: Scrubby fields, dense regenerating woods, and forest edges are the primary habitats of Toxostoma rufums. They rarely venture far from thick undergrowth into which they can easily retreat"
     ],
     "Anthus rubescens": [
-        "shape: A small, slim songbird with a short, thin bill, and medium-length tail, recalling a lark (or a sparrow, but lacking a sparrow\u2019s heavier bill)",
+        "shape: A small, slim songbird with a short, thin bill, and medium-length tail, recalling a lark (or a sparrow, but lacking a sparrows heavier bill)",
         "size: Larger than a Yellow-rumped Warbler, smaller than a White-crowned Sparrow sparrow-sized or smaller",
         "color: Brownish or grayish above, pale below, with most subspecies showing streaks in the breast and sides, especially in winter",
         "habitat: Mostly bare terrestrial habitats of many kinds, including tundra, shortgrass plains, alpine meadows, sandbars, mudflats, and many human-made habitats such as airfields, turf farms, harvested agricultural fields, and winter wheat fields. Pipits sometimes perch in bushes"
@@ -1416,13 +1416,13 @@
         "habitat: Resident in oak, pine-oak, and riparian woodlands at higher elevations (typically above 5,000 feet)"
     ],
     "Poecile atricapillus": [
-        "shape: This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warbler\u2019s but thinner than a finch\u2019s",
+        "shape: This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warblers but thinner than a finchs",
         "size: Smaller than a sparrow sparrow-sized or smaller",
         "color: The cap and bib are black, the cheeks white, the back soft gray, the wing feathers gray edged with white, and the underparts soft buffy on the sides grading to white beneath. The cap extends down just beyond the black eyes, making the small eyes tricky to see",
         "habitat: Chickadees may be found in any habitat that has trees or woody shrubs, from forests and woodlots to residential neighborhoods and parks, and sometimes weedy fields and cattail marshes. They frequently nest in birch or alder trees"
     ],
     "Poecile carolinensis": [
-        "shape: This tiny, approachable bird has a short neck and large head, giving it a distinctive spherical body shape. Its tail is fairly long and narrow. Its bill is a bit thicker than a warbler\u2019s but thinner than a finch\u2019s",
+        "shape: This tiny, approachable bird has a short neck and large head, giving it a distinctive spherical body shape. Its tail is fairly long and narrow. Its bill is a bit thicker than a warblers but thinner than a finchs",
         "size: Smaller than a White-breasted Nuthatch sparrow-sized or smaller",
         "color: Poecile carolinensiss have a black cap and bib separated by stark white cheeks. The back, wings, and tail are soft gray",
         "habitat: Forested areas or urban and suburban yards or parks with large trees"
@@ -1452,10 +1452,10 @@
         "habitat: Found in mixed conifer and deciduous forests with a shrubby understory. It frequents forest slopes filled with rhododendrons in the southern Appalachian Mountains, aspen and poplar forests in Canada, and forested wetlands in the central part of its range"
     ],
     "Cardellina pusilla": [
-        "shape: Wilson\u2019s Warblers are one of our smallest warblers. They have long, thin tails and small, thin bills. They appear rather round bodied and large headed for their size",
+        "shape: Cardellina pusillas are one of our smallest warblers. They have long, thin tails and small, thin bills. They appear rather round bodied and large headed for their size",
         "size: Larger than a Ruby-crowned Kinglet, smaller than a Common Yellowthroat sparrow-sized or smaller",
-        "color: Wilson\u2019s Warblers are bright yellow below and yellowish olive above. Their black eyes stand out on their yellow cheeks. Males have a distinctive black cap. Adult females are similar in color but show variations in the amount of black on the top of the head, from a few blackish feathers to a small dark cap. Juvenile females have an olive crown and a yellow eyebrow",
-        "habitat: Wilson\u2019s Warblers breed in mountain meadows and thickets near streams, especially those with willows and alders. They also breed along the edges of lakes, bogs, and aspen stands. Pacific Coast populations breed in shrubby habitat and in young stands of conifers, alders, or maples. During migration they use woodlands, suburban areas, desert scrub, and shrubby areas near streams"
+        "color: Cardellina pusillas are bright yellow below and yellowish olive above. Their black eyes stand out on their yellow cheeks. Males have a distinctive black cap. Adult females are similar in color but show variations in the amount of black on the top of the head, from a few blackish feathers to a small dark cap. Juvenile females have an olive crown and a yellow eyebrow",
+        "habitat: Cardellina pusillas breed in mountain meadows and thickets near streams, especially those with willows and alders. They also breed along the edges of lakes, bogs, and aspen stands. Pacific Coast populations breed in shrubby habitat and in young stands of conifers, alders, or maples. During migration they use woodlands, suburban areas, desert scrub, and shrubby areas near streams"
     ],
     "Geothlypis formosa": [
         "shape: A sturdy songbird with a heavier bill, longer legs, and shorter tail than many other warbler species",
@@ -1466,7 +1466,7 @@
     "Geothlypis philadelphia": [
         "shape: A small but sturdy songbird with a fairly full body and thick neck. The bill is thin and straight, smaller than the bill of the similar-looking Connecticut Warbler. It has a moderately long tail and strong legs",
         "size: Larger than a Carolina Chickadee, smaller than a Tufted Titmouse sparrow-sized or smaller",
-        "color: Adult males are olive above, yellow below, with a gray hood and black chest patch. Adult females are more muted in colors and lack the chest patch. Immatures are brownish above, yellow below, including center of throat. Both sexes usually lack an eyering, although some adult males show thin white eye arcs (recalling the bolder marks of MacGillivray\u2019s Warbler)",
+        "color: Adult males are olive above, yellow below, with a gray hood and black chest patch. Adult females are more muted in colors and lack the chest patch. Immatures are brownish above, yellow below, including center of throat. Both sexes usually lack an eyering, although some adult males show thin white eye arcs (recalling the bolder marks of MacGillivrays Warbler)",
         "habitat: Nests in dense shrubby second-growth of berry-bearing plants in boreal forest and Appalachian highlands. Winters in undergrowth of lowland and highland tropical forest gaps and edges in Central and South America"
     ],
     "Geothlypis tolmiei": [
@@ -1512,13 +1512,13 @@
         "habitat: Deciduous forest and mixed forest are the preferred summer habitats of Mniotilta varias, usually with trees of mixed ages that provide a variety of foraging substrates. On migration, look for them in any forest or woodlot. They winter in forests and forest edges from Florida to Colombia"
     ],
     "Parkesia motacilla": [
-        "shape: A large, somewhat plump warbler, with a stout bill (bigger than Northern Waterthrush\u2019s), rather short tail, and long legs",
+        "shape: A large, somewhat plump warbler, with a stout bill (bigger than Northern Waterthrushs), rather short tail, and long legs",
         "size: Larger than a Yellow Warbler, smaller than an Eastern Bluebird. Slightly larger than Northern Waterthrush sparrow-sized or smaller",
         "color: Brownish above, with a very prominent white eyebrow (supercilium); pale below, with dark streaks. The supercilium is thicker in Louisiana than in \u200bNorthern, and tends to flare at the rear. The legs are bright pink",
         "habitat: Parkesia motacillaes are almost always seen near fast-flowing forested streams or creeks. On migration they sometimes use the edges of lakes and ponds if there is adequate vegetative cover"
     ],
     "Parkesia noveboracensis": [
-        "shape: A large but trim warbler with a short, fine bill, a rather short tail, and long legs. The bill is smaller than Louisiana Waterthrush\u2019s",
+        "shape: A large but trim warbler with a short, fine bill, a rather short tail, and long legs. The bill is smaller than Louisiana Waterthrushs",
         "size: Larger than a Yellow Warbler, smaller than an Eastern Bluebird sparrow-sized or smaller",
         "color: Brownish above, with a prominent pale eyebrow (supercilium); pale yellowish or buff below, with dark streaks. The legs are duskier and less pink than Louisiana Waterthrush. The supercilium stripe is thinner in Parkesia noveboracensis than in Louisiana, especially at rear, and is faintly yellowish",
         "habitat: Parkesia noveboracensises are almost always seen near still or stagnant water, even during migration. Wooded swamps, ponds with brushy edges, bogs, beaver ponds, and similar settings attract breeders and migrants, while wintering birds use mangroves"
@@ -1640,7 +1640,7 @@
     "Setophaga striata": [
         "shape: Setophaga striatas are small songbirds with a short tail and a small thin bill. Compared to other warblers they have longer wings",
         "size: Larger than a Tennessee Warbler, smaller than a Red-eyed Vireo sparrow-sized or smaller",
-        "color: Breeding male Setophaga striatas are black-and-white with a distinctive black cap and white cheeks bordered by a black mustache stripe. Breeding females are streaky black, white, and gray, without the male\u2019s black cap or white cheek. Both sexes have two white wingbars and orange-yellow legs. In late summer they molt into a very different plumage: greenish-yellow above with dark streaking down the back and faint streaking on white underparts. The face is pale yellow with a dark eyeline",
+        "color: Breeding male Setophaga striatas are black-and-white with a distinctive black cap and white cheeks bordered by a black mustache stripe. Breeding females are streaky black, white, and gray, without the males black cap or white cheek. Both sexes have two white wingbars and orange-yellow legs. In late summer they molt into a very different plumage: greenish-yellow above with dark streaking down the back and faint streaking on white underparts. The face is pale yellow with a dark eyeline",
         "habitat: Setophaga striatas breed mainly in spruce and tamarack forests in Canada's boreal forests, but they also use young stands of evergreens and alder or willow thickets. During migration they stop over in evergreen and deciduous forests"
     ],
     "Setophaga tigrina": [
@@ -1659,12 +1659,12 @@
         "shape: The Setophaga virens is a medium-sized warbler similar in size and shape to many others in the Setophaga genus. Plump and seemingly large-headed, with a thick, straight bill and shortish tail",
         "size: Larger than a kinglet, smaller than a titmouse sparrow-sized or smaller",
         "color: These are olive-green birds, white below, with yellow faces and black on the front. Adult males are stunning, with a bright yellow face and extensive black on the throat turning to black streaks on the flanks. Two bright white wingbars. Females and young birds are patterned like males, but duller and lacking the extensive black on the throat",
-        "habitat: Setophaga virenss use coniferous and mixed forests in the north, deciduous forests in the south, and coastal cypress swamps in the case of the unique \u201cWayne\u2019s\u201d subspecies. Migrating birds will frequent any woody habitat, even coming down from the canopy to forage on fruiting shrubs. Wintering birds are typically found in the canopies of tall mature forests in Middle America, but sometimes occur in secondary growth as well"
+        "habitat: Setophaga virenss use coniferous and mixed forests in the north, deciduous forests in the south, and coastal cypress swamps in the case of the unique \u201cWaynes\u201d subspecies. Migrating birds will frequent any woody habitat, even coming down from the canopy to forage on fruiting shrubs. Wintering birds are typically found in the canopies of tall mature forests in Middle America, but sometimes occur in secondary growth as well"
     ],
     "Vermivora chrysoptera": [
         "shape: Vermivora chrysopteras are small songbirds with fairly slim bodies and short tails. They have a thin, straight bill that is sharply pointed",
         "size: Slightly smaller than a Black-capped Chickadee sparrow-sized or smaller",
-        "color: Adult males are silvery gray with a strong black-and-white face pattern, yellow crown, and large yellow patches on the wings. Females are similar but lack the male\u2019s black mask and bib. Hybrids with the Blue-winged Warbler can produce a mostly light gray form (\u201cBrewster\u2019s\u201d) or a mostly golden form (\u201cLawrence\u2019s\u201d)",
+        "color: Adult males are silvery gray with a strong black-and-white face pattern, yellow crown, and large yellow patches on the wings. Females are similar but lack the males black mask and bib. Hybrids with the Blue-winged Warbler can produce a mostly light gray form (\u201cBrewsters\u201d) or a mostly golden form (\u201cLawrences\u201d)",
         "habitat: Vermivora chrysopteras breed in tangled, shrubby habitats such as regenerating clearcuts, wet thickets, and tamarack bogs. They often move into nearby woodland when the young have fledged. They spend winters in open woodlands and shade-coffee plantations of Central and South America"
     ],
     "Vermivora cyanoptera": [
@@ -1676,7 +1676,7 @@
     "Aimophila ruficeps": [
         "shape: Aimophila ruficepss are relatively large sparrows with rounded heads and fairly long tails. The thick, pointed bill is fairly large",
         "size: Larger and bulkier than a Chipping Sparrow; smaller than a White-crowned Sparrow sparrow-sized or smaller",
-        "color: These are grayish sparrows with streaky backs and and bright reddish-brown crowns. They have a white eyering and a white malar or whisker stripe that\u2019s bordered in black and contrasts with the gray face and underparts",
+        "color: These are grayish sparrows with streaky backs and and bright reddish-brown crowns. They have a white eyering and a white malar or whisker stripe thats bordered in black and contrasts with the gray face and underparts",
         "habitat: Look for Aimophila ruficepss on steep, dry, rocky hillsides with plenty of grasses and a scattering of shrubs and small trees, such as sagebrush or scrub oaks. Recently burned areas can provide good, open habitat. The birds tend to avoid areas of dense shrubs"
     ],
     "Ammodramus savannarum": [
@@ -1694,7 +1694,7 @@
     "Ammospiza nelsoni": [
         "shape: A medium-sized sparrow with a short conical bill, plump body, and a rather short tail in which the individual feathers often appear spiky at the tips",
         "size: Larger than a Common Yellowthroat, smaller than a Song Sparrow sparrow-sized or smaller",
-        "color: A richly colored sparrow with a saffron-yellow eyebrow and whisker marks framing a grayish cheek. The interior-breeding form of Nelson\u2019s Sparrow, this yellow color continues strongly onto the throat, breast, and sides, with streaking on the breast and flanks. The coastal-breeding \u201cAtlantic\u201d form is more muted, with pale gray in the upper back, pale buff below, and very limited, faint streaking on the breast",
+        "color: A richly colored sparrow with a saffron-yellow eyebrow and whisker marks framing a grayish cheek. The interior-breeding form of Ammospiza nelsoni, this yellow color continues strongly onto the throat, breast, and sides, with streaking on the breast and flanks. The coastal-breeding \u201cAtlantic\u201d form is more muted, with pale gray in the upper back, pale buff below, and very limited, faint streaking on the breast",
         "habitat: In the interior of the continent, birds nest in freshwater wetlands in the taiga (boreal forest) and prairie, especially marshes with reeds, sedges, rushes, and cordgrass but also during wet years in farm fields. The coastal form (\u201cAtlantic\u201d) nest mostly in tidal marshes, both saltwater and brackish, as well as in farm fields during wet years on occasion"
     ],
     "Amphispiza bilineata": [
@@ -1712,8 +1712,8 @@
     "Centronyx henslowii": [
         "shape: A small, squat sparrow with a large, flat head, a large bill, and a short, spiky tail",
         "size: Larger than a Prairie Warbler, smaller than a Song Sparrow sparrow-sized or smaller",
-        "color: Henslow\u2019s Sparrows are tan and buff marked with sharp black streaks. They have a distinctly greenish-olive wash on the cheek, with a yellow spot between eye and bill. The breast has neat black streaks and the belly is whitish",
-        "habitat: Henslow\u2019s Sparrows can be found in weedy hayfields or pastures, wet meadows and, in winter, saltmarshes"
+        "color: Centronyx henslowiis are tan and buff marked with sharp black streaks. They have a distinctly greenish-olive wash on the cheek, with a yellow spot between eye and bill. The breast has neat black streaks and the belly is whitish",
+        "habitat: Centronyx henslowiis can be found in weedy hayfields or pastures, wet meadows and, in winter, saltmarshes"
     ],
     "Chondestes grammacus": [
         "shape: A large, long-tailed sparrow. When perched, it often looks long-bodied with a thin neck and a round head. The tail is long and rounded",
@@ -1747,12 +1747,12 @@
     ],
     "Melozone aberti": [
         "shape: A large sparrow with a short, conical bill, an elongated body for a sparrow, and a rather long tail. The overall shape is similar to Northern Cardinal (but with a smaller bill and without the crest)",
-        "size: Slightly larger than a Northern Cardinal, smaller than a Woodhouse\u2019s Scrub-Jay robin-sized",
-        "color: Abert\u2019s Towhee is grayish-brown above, pinkish brown below, with rusty undertail coverts and black plumage bordering a pale grayish bill",
+        "size: Slightly larger than a Northern Cardinal, smaller than a Woodhouses Scrub-Jay robin-sized",
+        "color: Melozone aberti is grayish-brown above, pinkish brown below, with rusty undertail coverts and black plumage bordering a pale grayish bill",
         "habitat: Low, dense cover along desert streams and riverbeds with cottonwoods, willows, or mesquite"
     ],
     "Melozone crissalis": [
-        "shape: Melozone crissaliss are essentially large sparrows, with a sparrow\u2019s short, rounded wings, long tail, and thick, seed-cracking beak\u2014but towhees are larger and bulkier. The long tail and short wings can give this bird an ungainly look in flight",
+        "shape: Melozone crissaliss are essentially large sparrows, with a sparrows short, rounded wings, long tail, and thick, seed-cracking beak\u2014but towhees are larger and bulkier. The long tail and short wings can give this bird an ungainly look in flight",
         "size: Slightly larger than a Spotted Towhee; slightly smaller than a robin between sparrow and robin",
         "color: Few birds are as uniformly matte brown as a Melozone crissalis, except for a rusty patch under the tail (called the crissum, giving the bird its scientific name) and around their bill. Males look the same as females",
         "habitat: Melozone crissaliss live in chaparral and other tangled, shrubby, and dry habitats. They\u2019re also at home in the small backyards and neighborhood parks of lowland California towns"
@@ -1764,7 +1764,7 @@
         "habitat: Within their fairly narrow range, look for Melozone fuscas in desert grasslands with scattered dense shrubs, rocky terrain, dry watercourses with mesquite, and other dry, scrubby areas. Unlike California Towhees, they shy away from suburban neighborhoods, favoring sparsely settled and remote areas"
     ],
     "Passerculus sandwichensis": [
-        "shape: Passerculus sandwichensiss are medium-sized sparrows with short, notched tails. The head appears small for the plump body, and the crown feathers often flare up to give the bird\u2019s head a small peak. The thick-based, seed-eating bill is small for a sparrow",
+        "shape: Passerculus sandwichensiss are medium-sized sparrows with short, notched tails. The head appears small for the plump body, and the crown feathers often flare up to give the birds head a small peak. The thick-based, seed-eating bill is small for a sparrow",
         "size: About the size of a Song Sparrow sparrow-sized or smaller",
         "color: Passerculus sandwichensiss are brown above and white below, with crisp streaks throughout. Their upperparts are brown with black streaks, and the underparts are white with thin brown or black streaks on the breast and flanks. Look for a small yellow patch on the face in front of the eye",
         "habitat: Passerculus sandwichensiss breed in open areas with low vegetation, including most of northern North America from tundra to grassland, marsh, and farmland. Even in winter, you\u2019ll find Passerculus sandwichensiss on the ground or in low vegetation in open areas; look for them along the edges of roads adjacent to farms"
@@ -1785,7 +1785,7 @@
         "shape: Towhees are a kind of large sparrow. Look for their thick, triangular, seed-cracking bill as a tip-off they\u2019re in the sparrow family. Also notice the chunky body and long, rounded tail",
         "size: 30% bigger than a Song Sparrow and twice as heavy. Smaller than a robin robin-sized",
         "color: Males are striking: bold sooty black above and on the breast, with warm rufous sides and white on the belly. Females have the same pattern, but are rich brown where the males are black",
-        "habitat: Look for Pipilo erythrophthalmuss in brush, tangles, thickets, and along forest edges where there\u2019s plenty of leaf litter for the birds to forage in"
+        "habitat: Look for Pipilo erythrophthalmuss in brush, tangles, thickets, and along forest edges where theres plenty of leaf litter for the birds to forage in"
     ],
     "Pipilo maculatus": [
         "shape: A large sparrow with a thick, pointed bill, short neck, chunky body, and long, rounded tail",
@@ -1800,10 +1800,10 @@
         "habitat: Found in open grassy areas including prairie, weedy fields, sagebrush steppe, meadows, pastures, and roadsides. Tends to avoid areas with taller grass and wetter areas"
     ],
     "Spizella breweri": [
-        "shape: The Brewer\u2019s Sparrow is typical of the Spizella group of sparrows: dainty and slim, with a long, notched tail, short rounded wings, and a small, sharply conical bill. Its size varies somewhat by region and sex, but overall it is North America\u2019s smallest sparrow",
+        "shape: The Spizella breweri is typical of the Spizella group of sparrows: dainty and slim, with a long, notched tail, short rounded wings, and a small, sharply conical bill. Its size varies somewhat by region and sex, but overall it is North Americas smallest sparrow",
         "size: About the size of a Black-capped Chickadee; noticeably smaller and slimmer than a Song Sparrow sparrow-sized or smaller",
-        "color: Brewer\u2019s Sparrows are dusky gray-brown, with grayish underparts and a thin white eyering. The back and nape are streaked. A faint gray stripe over the eye contrasts with a darker eyeline. The throat is grayish white",
-        "habitat: Brewer\u2019s Sparrows live in the arid sagebrush steppe of the interior West of North America, where they are the region\u2019s most abundant bird. In some northwestern mountains, a form known as the \u201cTimberline Sparrow\u201d lives among subalpine trees and dwarf shrubs"
+        "color: Spizella breweris are dusky gray-brown, with grayish underparts and a thin white eyering. The back and nape are streaked. A faint gray stripe over the eye contrasts with a darker eyeline. The throat is grayish white",
+        "habitat: Spizella breweris live in the arid sagebrush steppe of the interior West of North America, where they are the regions most abundant bird. In some northwestern mountains, a form known as the \u201cTimberline Sparrow\u201d lives among subalpine trees and dwarf shrubs"
     ],
     "Spizella pallida": [
         "shape: Spizella pallidas are petite, trim sparrows with a small bill, slender body, and fairly long, notched tail. The small, slender shape of these and other Spizella sparrows is distinctive",
@@ -1842,7 +1842,7 @@
         "habitat: Zonotrichia atricapillas are most visible during migration and winter, when they frequent forest edge, shrubs, chaparral, and backyards of the West Coast. They nest much farther north, in low, shrubby areas of tundra or at the edges of boreal forests"
     ],
     "Zonotrichia leucophrys": [
-        "shape: The Zonotrichia leucophrys is a large sparrow with a small bill and a long tail. The head can look distinctly peaked or smooth and flat, depending on the bird\u2019s attitude",
+        "shape: The Zonotrichia leucophrys is a large sparrow with a small bill and a long tail. The head can look distinctly peaked or smooth and flat, depending on the birds attitude",
         "size: Slightly larger than a Song Sparrow sparrow-sized or smaller",
         "color: First impressions of Zonotrichia leucophryss tend to be of a plain, pale-gray bird; next your eye is drawn to the very bold black-and-white stripes on the head and the pale pink or yellow bill. Learn this bird's size and shape so you're ready to identify young birds that have brown, not black, markings on the head",
         "habitat: Look for Zonotrichia leucophryss in places where safe tangles of brush mix with open or grassy ground for foraging. For much of the United States, Zonotrichia leucophryss are most likely in winter (although two races live year round in the West, along the coast and in the mountains)"
@@ -1867,7 +1867,7 @@
     ],
     "Polioptila melanura": [
         "shape: A tiny, slim songbird with a thin, straight bill, small body, and long tail",
-        "size: Larger than a Costa\u2019s Hummingbird; smaller than a Black-throated Sparrow sparrow-sized or smaller",
+        "size: Larger than a Costas Hummingbird; smaller than a Black-throated Sparrow sparrow-sized or smaller",
         "color: Polioptila melanuras are gray overall with a fine white eyering, and a black tail with white flashes on the underside. They are darker gray above, with paler gray underparts. Breeding males have a black cap",
         "habitat: Look for Polioptila melanuras in desert scrub, including washes densely lined with creosote and salt bush as well as areas studded with ocotillo, prickly pear, cholla, and mesquite"
     ],
@@ -1927,7 +1927,7 @@
     ],
     "Campylorhynchus brunneicapillus": [
         "shape: The Campylorhynchus brunneicapillus is a large chunky wren with a long heavy bill, a long, rounded tail, and short, rounded wings. The Campylorhynchus brunneicapillus is the largest wren in the United States and is similar in size to a Spotted Towhee",
-        "size: Larger than a Bewick\u2019s Wren, smaller than a Northern Mockingbird between sparrow and robin",
+        "size: Larger than a Bewicks Wren, smaller than a Northern Mockingbird between sparrow and robin",
         "color: The Campylorhynchus brunneicapillus is a speckled brown bird with bright white eyebrows that extend from the bill, across and above their red eyes, to the sides of the neck. They have pale cinnamon sides and a white chest with dark speckles. The back is brown with heavy white streaks, and the tail is barred white and black\u2014especially noticeable from below. Males and females look alike, but juveniles are slightly paler and have a brown eye",
         "habitat: Campylorhynchus brunneicapilluss live in deserts, arid foothills, coastal sage scrub, and urban areas throughout the Southwestern deserts, especially in areas with thorny shrubs, cholla, and prickly pear"
     ],
@@ -1950,10 +1950,10 @@
         "habitat: Salpinctes obsoletuss occupy almost any arid, stony environment, from desert to alpine, provided there is not too much vegetation. They avoid wetlands and waterways but use habitats altered by industrial activity (mining, clearcutting, road building, etc.)"
     ],
     "Thryomanes bewickii": [
-        "shape: Bewick\u2019s Wrens are medium-sized wrens with a slender body and a strikingly long tail often held upright. They have slender, long bills that are slightly downcurved",
+        "shape: Thryomanes bewickiis are medium-sized wrens with a slender body and a strikingly long tail often held upright. They have slender, long bills that are slightly downcurved",
         "size: Smaller than a House Sparrow; slightly larger than a House Wren sparrow-sized or smaller",
-        "color: Bewick\u2019s Wrens are subdued brown-and-gray wrens with a long, brow-like white stripe over the eye. The back and wings are plain brown; underparts gray-white; and the long tail is barred with black and tipped with white spots. Males and females look the same",
-        "habitat: Bewick\u2019s Wrens favor dry brushy areas, chaparral, scrub, thickets in open country, and open woodlands near rivers and streams. They are at home in gardens, residential areas, and parks in cities and suburbs"
+        "color: Thryomanes bewickiis are subdued brown-and-gray wrens with a long, brow-like white stripe over the eye. The back and wings are plain brown; underparts gray-white; and the long tail is barred with black and tipped with white spots. Males and females look the same",
+        "habitat: Thryomanes bewickiis favor dry brushy areas, chaparral, scrub, thickets in open country, and open woodlands near rivers and streams. They are at home in gardens, residential areas, and parks in cities and suburbs"
     ],
     "Thryothorus ludovicianus": [
         "shape: The Thryothorus ludovicianus is a small but chunky bird with a round body and a long tail that it often cocks upward. The head is large with very little neck, and the distinctive bill marks it as a wren: long, slender, and downcurved",
@@ -1992,9 +1992,9 @@
         "habitat: Look for Catharus guttatuses in forest understories, especially around edges or openings"
     ],
     "Catharus ustulatus": [
-        "shape: Swainson\u2019s Thrushes are medium-sized thrushes\u2014slim songbirds with round heads and short, straight bills. Their fairly long wings and medium-length tail can make the back half of the bird appear long",
+        "shape: Catharus ustulatuses are medium-sized thrushes\u2014slim songbirds with round heads and short, straight bills. Their fairly long wings and medium-length tail can make the back half of the bird appear long",
         "size: Smaller than an American Robin; larger than a White-throated Sparrow between sparrow and robin",
-        "color: These medium-brown birds with pale underparts have spotted chests and large buffy eyerings that extend in front of the eye, creating \u201cspectacles.\u201d The whitish throat is bordered on each side with a dark brown stripe. Swainson\u2019s Thrushes breeding on the Pacific slope of the U.S. and Canada have warmer brown upperparts (see Regional Differences)",
+        "color: These medium-brown birds with pale underparts have spotted chests and large buffy eyerings that extend in front of the eye, creating \u201cspectacles.\u201d The whitish throat is bordered on each side with a dark brown stripe. Catharus ustulatuses breeding on the Pacific slope of the U.S. and Canada have warmer brown upperparts (see Regional Differences)",
         "habitat: This is a forest bird, rarely found far from closed-canopy forest. Breeding habitat is a mix of deciduous and coniferous forest (though sometimes includes pure deciduous forest). In the Rocky Mountains and in Pacific states, look for them in dense alder thickets along streams running through coniferous forest"
     ],
     "Hylocichla mustelina": [
@@ -2005,21 +2005,21 @@
     ],
     "Ixoreus naevius": [
         "shape: Ixoreus naeviuses are stocky songbirds with large, rounded heads, straight bills, and long legs. Usually seen standing horizontally on the ground or in a tree, they often look plump-bellied with a relatively short tail",
-        "size: About the size of an American Robin; smaller than a Steller\u2019s Jay robin-sized",
+        "size: About the size of an American Robin; smaller than a Stellers Jay robin-sized",
         "color: Male Ixoreus naeviuses are dark blue-gray on the back and rich burnt-orange below with a sooty-black breastband and orange line over the eye. The wings are blackish with two orange bars and orange edging to the flight feathers. Females have the same patterns, but are paler gray-brown than males",
         "habitat: Ixoreus naeviuses breed in dark understories of humid evergreen and mixed forests along the Pacific Coast. In the winter, many move into dense parks, gardens, and backyards. Ixoreus naeviuses are rare but regular winter visitors to the Upper Midwest and Northeast"
     ],
     "Myadestes townsendi": [
         "shape: This thrush is a medium-sized songbird with a long tail, a short bill, and a small rounded head relative to its body size. Their upright posture and long tail gives them a long and slender appearance",
         "size: Larger than a Mountain Bluebird, smaller than an American Robin robin-sized",
-        "color: Townsend\u2019s Solitaires are gray birds with prominent white eyerings. Their buffy wing patches and white outer tail feathers are often prominent in flight. Juveniles are dark gray overall and heavily spotted with buff and white, giving them a scaly look",
-        "habitat: Townsend\u2019s Solitaires inhabit open pine, fir, and spruce forests in mountainous regions from about 1,100\u201311,500 feet. During the nonbreeding season some Townsend\u2019s Solitaires migrate short distances to lower elevations especially where juniper berries are abundant"
+        "color: Myadestes townsendis are gray birds with prominent white eyerings. Their buffy wing patches and white outer tail feathers are often prominent in flight. Juveniles are dark gray overall and heavily spotted with buff and white, giving them a scaly look",
+        "habitat: Myadestes townsendis inhabit open pine, fir, and spruce forests in mountainous regions from about 1,100\u201311,500 feet. During the nonbreeding season some Myadestes townsendis migrate short distances to lower elevations especially where juniper berries are abundant"
     ],
     "Sialia currucoides": [
         "shape: Sialia currucoidess are fairly small thrushes with round heads and straight, thin bills. Compared with other bluebirds they are lanky and long-winged, with a long tail",
-        "size: Slightly larger than a Cassin\u2019s Finch, considerably smaller than an American Robin between sparrow and robin",
+        "size: Slightly larger than a Cassins Finch, considerably smaller than an American Robin between sparrow and robin",
         "color: Male Sialia currucoidess are sky-blue, a bit darker on wings and tail and a bit paler below, with white under the tail. Females are mostly gray-brown with tinges of pale blue in the wings and tail. They occasionally show a suffusion of orange-brown on the chest. Sialia currucoidess\u2019 bills are entirely black. Juveniles have fewer spots than the young of other bluebirds and lack spotting on the back",
-        "habitat: Sialia currucoidess are common in the West\u2019s wide-open spaces, particularly at middle and higher elevations. They breed in native habitats such as prairie, sagebrush steppe, and even alpine tundra; anywhere with open country with at least a few trees that can provide nest cavities. They also readily take to human-altered habitats, often nesting in bluebird boxes and foraging in pastures"
+        "habitat: Sialia currucoidess are common in the Wests wide-open spaces, particularly at middle and higher elevations. They breed in native habitats such as prairie, sagebrush steppe, and even alpine tundra; anywhere with open country with at least a few trees that can provide nest cavities. They also readily take to human-altered habitats, often nesting in bluebird boxes and foraging in pastures"
     ],
     "Sialia mexicana": [
         "shape: Sialia mexicanas are small thrushes that usually perch upright. They are stocky with thin, straight bills and fairly short tails",
@@ -2094,7 +2094,7 @@
         "habitat: The Myiarchus cinerascens occupies dry scrub, open woodlands, and deserts in the West. They usually avoid humid forested areas, but do occur in woodlands along streams in dry regions"
     ],
     "Myiarchus crinitus": [
-        "shape: Myiarchus crinituss are large flycatchers with fairly long and lean proportions. Like many flycatchers they have a powerful build with broad shoulders and a large head. Despite its name, this bird\u2019s crest is not especially prominent. The bill is fairly wide at the base and straight; the tail is fairly long",
+        "shape: Myiarchus crinituss are large flycatchers with fairly long and lean proportions. Like many flycatchers they have a powerful build with broad shoulders and a large head. Despite its name, this birds crest is not especially prominent. The bill is fairly wide at the base and straight; the tail is fairly long",
         "size: Larger than an Eastern Bluebird; smaller than an American Robin robin-sized",
         "color: Myiarchus crinituss are reddish-brown above, with a brownish-gray head, gray throat and breast, and bright lemon-yellow belly. The brown upperparts are highlighted by rufous-orange flashes in the primaries and in the tail feathers. The black bill sometimes shows a bit of pale color at the base",
         "habitat: Myiarchus crinituss live in woodlots and open woodland, particularly among deciduous trees. On its tropical wintering grounds it occurs in similar semiopen habitats. Migrants can occur in nearly any wooded or shrubby habitat"
@@ -2120,8 +2120,8 @@
     "Sayornis saya": [
         "shape: This slender, long-tailed flycatcher appears large-headed for a bird of its size. The head often looks flat on top, but phoebes sometimes raise their head feathers into a small peak at the back",
         "size: Larger than a Dark-eyed Junco, smaller than an American Robin between sparrow and robin",
-        "color: Say\u2019s Phoebes are pale brownish gray above with a cinnamon belly, a blackish tail, and a gray breast. Male and female are similar. The immature is similar to the adult, but browner and may have a buffy wingbar",
-        "habitat: Say\u2019s Phoebes live in open country, sagebrush, badlands, dry barren foothills, canyons, and borders of deserts; they avoid forests. They often gravitate to buildings and aren\u2019t closely tied to watercourses like other phoebes"
+        "color: Sayornis sayas are pale brownish gray above with a cinnamon belly, a blackish tail, and a gray breast. Male and female are similar. The immature is similar to the adult, but browner and may have a buffy wingbar",
+        "habitat: Sayornis sayas live in open country, sagebrush, badlands, dry barren foothills, canyons, and borders of deserts; they avoid forests. They often gravitate to buildings and aren\u2019t closely tied to watercourses like other phoebes"
     ],
     "Tyrannus dominicensis": [
         "shape: A large flycatcher with a big head, straight, heavy bill, and a rather long, notched tail",
@@ -2160,10 +2160,10 @@
         "habitat: Nests in lightly wooded to open areas. Found from lowlands with scattered trees (such as desert scrub, agricultural areas, grasslands, cottonwood-edged rivers) up into canyons and foothills with pine, oak, juniper, and pinyon pine"
     ],
     "Vireo bellii": [
-        "shape: A diminutive songbird with a slim build and a slender, somewhat long tail. Its bill is small for a vireo, but still thicker and more hooked than a warbler\u2019s",
+        "shape: A diminutive songbird with a slim build and a slender, somewhat long tail. Its bill is small for a vireo, but still thicker and more hooked than a warblers",
         "size: Larger than a kinglet, smaller than a Red-eyed Vireo sparrow-sized or smaller",
-        "color: Western birds, especially the tiny Least Bell\u2019s Vireo, are grayish above, whitish below, with faint pale \u201cspectacles\u201d around the eyes and pale wingbars. Eastern birds have greenish tones above and a yellow wash on the sides, with stronger wingbars",
-        "habitat: For breeding, migrating, and wintering, Bell\u2019s Vireos select low, dense vegetation of many types"
+        "color: Western birds, especially the tiny Least Vireo bellii, are grayish above, whitish below, with faint pale \u201cspectacles\u201d around the eyes and pale wingbars. Eastern birds have greenish tones above and a yellow wash on the sides, with stronger wingbars",
+        "habitat: For breeding, migrating, and wintering, Vireo belliis select low, dense vegetation of many types"
     ],
     "Vireo cassinii": [
         "shape: A small but sturdy songbird, with a fairly thick, short bill and relatively long wings and tail",
@@ -2191,8 +2191,8 @@
     ],
     "Vireo huttoni": [
         "shape: A small vireo with a large head, short bill, rather short wings, and a moderately long tail",
-        "size: Larger than a Ruby-crowned Kinglet, smaller than a Cassin\u2019s Vireo sparrow-sized or smaller",
-        "color: Grayish olive above, pale gray below (sometimes with pale olive tones to the flanks). The wings are darker with two wingbars. The face shows an incomplete eyering, thicker in front of and behind the eye (similar to the Ruby-crowned Kinglet\u2019s face pattern)",
+        "size: Larger than a Ruby-crowned Kinglet, smaller than a Cassins Vireo sparrow-sized or smaller",
+        "color: Grayish olive above, pale gray below (sometimes with pale olive tones to the flanks). The wings are darker with two wingbars. The face shows an incomplete eyering, thicker in front of and behind the eye (similar to the Ruby-crowned Kinglets face pattern)",
         "habitat: Lives year-round in evergreen oak, coniferous, and mixed forests, as well as locally in stream corridors and in chaparral on offshore islands"
     ],
     "Vireo olivaceus": [
@@ -2318,7 +2318,7 @@
     "Colaptes auratus": [
         "shape: Flickers are fairly large woodpeckers with a slim, rounded head, slightly downcurved bill, and long, flared tail that tapers to a point",
         "size: About half again as big as a Hairy Woodpecker between robin and crow",
-        "color: Flickers appear brownish overall with a white rump patch that\u2019s conspicuous in flight and often visible when perched. The undersides of the wing and tail feathers are bright yellow, for eastern birds, or red, in western birds. With a closer look you\u2019ll see the brown plumage is richly patterned with black spots, bars, and crescents",
+        "color: Flickers appear brownish overall with a white rump patch thats conspicuous in flight and often visible when perched. The undersides of the wing and tail feathers are bright yellow, for eastern birds, or red, in western birds. With a closer look you\u2019ll see the brown plumage is richly patterned with black spots, bars, and crescents",
         "habitat: Look for flickers in open habitats near trees, including woodlands, edges, yards, and parks. In the West you can find them in mountain forests all the way up to treeline"
     ],
     "Dryobates borealis": [
@@ -2334,7 +2334,7 @@
         "habitat: Nuttall's Woodpeckers live in oak woodlands year-round. They also use wooded suburban areas and woodlands near streams with cottonwoods, willows, and sycamores"
     ],
     "Dryobates pubescens": [
-        "shape: Dryobates pubescenss are small versions of the classic woodpecker body plan. They have a straight, chisel-like bill, blocky head, wide shoulders, and straight-backed posture as they lean away from tree limbs and onto their tail feathers. The bill tends to look smaller for the bird\u2019s size than in other woodpeckers",
+        "shape: Dryobates pubescenss are small versions of the classic woodpecker body plan. They have a straight, chisel-like bill, blocky head, wide shoulders, and straight-backed posture as they lean away from tree limbs and onto their tail feathers. The bill tends to look smaller for the birds size than in other woodpeckers",
         "size: About two-thirds the size of a Hairy Woodpecker between sparrow and robin",
         "color: Dryobates pubescenss give a checkered black-and-white impression. The black upperparts are checked with white on the wings, the head is boldly striped, and the back has a broad white stripe down the center. Males have a small red patch on the back of the head. The outer tail feathers are typically white with a few black spots",
         "habitat: You\u2019ll find Dryobates pubescenss in open woodlands, particularly among deciduous trees, and brushy or weedy edges. They\u2019re also at home in orchards, city parks, backyards and vacant lots"
@@ -2505,7 +2505,7 @@
         "shape: The Megascops asio is a short, stocky bird, with a large head and almost no neck. Its wings are rounded; its tail is short and square. Pointed ear tufts are often raised, lending its head a distinctive silhouette",
         "size: A small owl, slightly larger and considerably bulkier than a European Starling robin-sized",
         "color: Megascops asios can be either mostly gray or mostly reddish-brown (rufous). Whatever the overall color, they are patterned with complex bands and spots that give the bird excellent camouflage against tree bark. Eyes are yellow",
-        "habitat: Trees define the Megascops asio\u2019s habitat. This owl is fairly common in most types of woods (evergreen or deciduous; urban or rural), particularly near water. It shuns treeless expanses of mountains or plains"
+        "habitat: Trees define the Megascops asios habitat. This owl is fairly common in most types of woods (evergreen or deciduous; urban or rural), particularly near water. It shuns treeless expanses of mountains or plains"
     ],
     "Megascops kennicottii": [
         "shape: Megascops kennicottiis are small owls with stocky bodies. They have somewhat square heads, almost no neck, and conspicuous ear tufts. The tail is short",
