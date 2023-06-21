@@ -1,1 +1,3 @@
 python src/run_owl_vit.py --xclip_v3 --dataset cub --device cuda:6 --clip_topk 50 --num_workers 4
+
+python run_owl_vit.py --xclip_v3 --dataset nabirds --device cuda:6 --clip_topk 50 --num_workers 1 --batch_size 32 --descriptors chatgpt --ablation boxes_only
