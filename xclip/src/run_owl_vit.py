@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', help='select model', default="owlvit-large-patch14", choices=["owlvit-base-patch32", "owlvit-base-patch16", "owlvit-large-patch14"])
-    parser.add_argument('--dataset', help='select dataset', default="imagenet", choices=["imagenet", "imagenet-v2", "imagenet-a", "imagenet-c", "places365", "cub", "nabirds"])
+    parser.add_argument('--dataset', help='select dataset', default="imagenet", choices=["imagenet", "imagenet-v2", "imagenet-a", "imagenet-c", "places365", "cub", "nabirds", "inaturalist2021"])
     parser.add_argument('--distortion', help='select distortion type if using ImageNet-C', default="defocus_blur", choices=["defocus_blur", "glass_blur", "motion_blur", "zoom_blur", "shot_noise", "gaussian_noise", "impulse_noise"])
     parser.add_argument('--distortion_severity', type=int, help='select distortion severity if using ImageNet-C', default=1, choices=[1, 2, 3, 4, 5])
 
@@ -154,7 +154,9 @@ if __name__ == '__main__':
         boxes_dir = f"{PROJECT_ROOT}/pred_boxes/{args.dataset}/owl_vit_{args.model}_prompt_5_descriptors_{args.descriptors}"
     elif args.dataset == 'nabirds':
         boxes_dir = f"{PROJECT_ROOT}/pred_boxes/{args.dataset}/formated_data/"
-    if args.dataset == "imagenet-c":
+    elif args.dataset == 'inaturalist2021':
+        boxes_dir = f'{PROJECT_ROOT}/pred_boxes/{args.dataset}/425_classes_data/'
+    elif args.dataset == "imagenet-c":
         boxes_dir = f"{boxes_dir}/distortion_{args.distortion}_severity_level_{args.distortion_severity}"
 
     # Prepare text embeddings
@@ -368,6 +370,8 @@ if __name__ == '__main__':
                         owlvit_results["image_path"] = "/home/tin/datasets/cub/dataset/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                     elif args.dataset == 'nabirds':
                         owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
+                    elif args.dataset == 'inaturalist2021':
+                        owlvit_results["image_path"] = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
 
                     image_path = owlvit_results["image_path"]
 

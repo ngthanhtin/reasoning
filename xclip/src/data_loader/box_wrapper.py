@@ -51,6 +51,8 @@ class BoxWrapper(VisionDataset):
                 elif self.dataset == 'nabirds':
                     # owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
                     owlvit_results["image_path"] = "/home/tin/datasets/nabirds/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
+                elif self.dataset == 'inaturalist2021':
+                    owlvit_results["image_path"] = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                     
             image = Image.open(owlvit_results["image_path"]).convert('RGB')
             w,h = image.size
