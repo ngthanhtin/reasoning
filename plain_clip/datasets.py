@@ -24,6 +24,7 @@ class CUBDataset(datasets.ImageFolder):
                  bboxes=False):
 
         img_root = os.path.join(root, 'images')
+        # img_root = os.path.join(root, 'CUB_fixed/test/')
 
         super(CUBDataset, self).__init__(
             root=img_root,

@@ -31,7 +31,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'inaturalist2021'
+hparams['dataset'] = 'cub'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
@@ -112,7 +112,7 @@ elif hparams['dataset'] == 'cub':
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
     classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors_cub'
+    hparams['descriptor_fname'] = 'cub/descriptors_cub'
 
 elif hparams['dataset'] == 'nabirds':
     hparams['data_dir'] = pathlib.Path(NABIRD_DIR)
@@ -121,7 +121,7 @@ elif hparams['dataset'] == 'nabirds':
     subset_class_names = list(data.keys())
     dataset = NABirdsDataset(hparams['data_dir'], train=False, subset_class_names=subset_class_names, transform=tfms)
     classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors_nabirds'
+    hparams['descriptor_fname'] = 'nabirds/descriptors_nabirds'
 
 elif hparams['dataset'] == 'inaturalist2021':
     hparams['data_dir'] = pathlib.Path(INATURALIST_DIR)
@@ -136,14 +136,22 @@ elif hparams['dataset'] == 'inaturalist2021':
 hparams['model_size'] = "ViT-B/32" 
 hparams['device'] = "cuda:2" if torch.cuda.is_available() else "cpu"
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
+
+hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/cub/chatgpt_descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/cub/ID_descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/cub/ID2_descriptors_{hparams['dataset']}.json"
+
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_ID_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
 
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
+# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
+# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
     
 
