@@ -265,3 +265,34 @@ emb['image_path']
 # %%
 emb["image_path"] = emb["image_path"].replace('lab', 'tin')
 emb["image_path"]
+
+
+# %% 
+# change bird name in Shape/Size/Habitat in NAbird and CUB to `this bird`
+import json
+dataset_name = 'cub' # nabirds
+path = f'additional_chatgpt_descriptors_{dataset_name}.json'
+data = open(path, 'r')
+data = json.load(data)
+data.keys()
+# %%
+new_data = {}
+for i, (k, v) in enumerate(data.items()):
+    if '(' in k:
+        bracket_index = k.index('(')
+        bird_name = k[:bracket_index-1]
+    else:
+        bird_name = k
+
+    v[12] = v[12].replace(bird_name, 'this bird')
+    v[13] = v[13].replace(bird_name, 'this bird')
+    v[14] = v[14].replace(bird_name, 'this bird')
+    
+    new_data[k] = v
+# %% save json
+save_name = f'thisbird_additional_chatgpt_descriptors_{dataset_name}.json'
+json_object = json.dumps(new_data, indent=4)
+with open(save_name, 'w') as f:
+    f.write(json_object)
+
+# %%
