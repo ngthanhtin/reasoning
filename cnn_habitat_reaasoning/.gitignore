@@ -1,0 +1,7 @@
+visual-correspondence-XAI/datasets/
+visual-correspondence-XAI/CHM-Corr/
+visual-correspondence-XAI/EMD-Corr/
+visual-correspondence-XAI/Human-Study/
+visual-correspondence-XAI/kNN/
+visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/__pycache__/
+visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/*.pth
