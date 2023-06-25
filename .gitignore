@@ -16,3 +16,6 @@ keypoint_detection/unsup-parts/unsup-parts/checkpoints/
 demo_image2text/image2text/
 
 plain_clip/__pycache__
+.vscode/
+ConceptBottleneck/
+test_blip2.py
