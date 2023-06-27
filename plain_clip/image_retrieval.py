@@ -13,6 +13,7 @@ from torch.utils.data import DataLoader
 from torch.nn import functional as F
 
 from tqdm import tqdm
+from PIL import Image
 
 import clip
 
@@ -76,6 +77,16 @@ def compute_text_feature(desc, cut_len = 250):
     tokens = clip.tokenize(desc).to(cfg.device)
     return F.normalize(model.encode_text(tokens)).detach().cpu().numpy()
 
+def compute_image_feature(image):
+    """
+    a numpy image
+    """
+    pil_image = Image.fromarray(image)
+    image = preprocess(pil_image)
+    image = image.unsqueeze(0)
+    features = model.encode_image(image)
+    return F.normalize(features).detach().cpu().numpy()
+
 def compute_image_features(loader):
     """
     compute image features and return them with their respective image paths
@@ -93,7 +104,7 @@ def compute_image_features(loader):
 
 # %%
 # image retrieval based on image-text
-def find_image(text_query, image_features, image_paths, n=1):
+def find_image_by_text(text_query, image_features, image_paths, n=1):
     zeroshot_weights = compute_text_feature(text_query)
     distances = np.dot(image_features, zeroshot_weights.reshape(-1, 1))
     file_paths = []
@@ -102,6 +113,16 @@ def find_image(text_query, image_features, image_paths, n=1):
         file_paths.append(image_paths[idx])
     return file_paths
 
+# %%
+# image retrieval based on image-image
+def find_image_by_image(image_query, image_features, image_paths, n=1):
+    zeroshot_weights = compute_text_feature(text_query)
+    distances = np.dot(image_features, zeroshot_weights.reshape(-1, 1))
+    file_paths = []
+    for i in range(1, n+1):
+        idx = np.argsort(distances, axis=0)[-i, 0]
+        file_paths.append(image_paths[idx])
+    return file_paths
 # %%
 from PIL import Image
 def show_images(image_list):
@@ -115,12 +136,17 @@ image_features, image_paths = compute_image_features(dataloader)
 
 # %%
 text = "lakes, rivers or ponds"
-returned_image_paths = find_image(text, image_features, image_paths, n=3)
+returned_image_paths = find_image_by_text(text, image_features, image_paths, n=3)
 returned_image_paths
 
 # %%
 show_images(returned_image_paths)
-# %%
+
+
+
+
+
+# %% Name Entity Recognition
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from transformers import pipeline
 
