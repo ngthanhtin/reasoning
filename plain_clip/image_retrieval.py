@@ -1,6 +1,7 @@
 #%%
-import os, sys, json
+import os, sys, json, cv2
 import natsort
+from PIL import Image
 
 import numpy as np
 import pandas as pd
@@ -13,7 +14,6 @@ from torch.utils.data import DataLoader
 from torch.nn import functional as F
 
 from tqdm import tqdm
-from PIL import Image
 
 import clip
 
@@ -37,7 +37,7 @@ seed_everything(128)
 class cfg:
     dataset = 'cub'
     batch_size = 64
-    device = "cuda:2" if torch.cuda.is_available() else "cpu"
+    device = "cuda:4" if torch.cuda.is_available() else "cpu"
 
     CUB_DIR = '/home/tin/datasets/CUB_200_2011/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
@@ -75,17 +75,14 @@ def compute_text_feature(desc, cut_len = 250):
         desc = desc[:cut_len]
 
     tokens = clip.tokenize(desc).to(cfg.device)
-    return F.normalize(model.encode_text(tokens)).detach().cpu().numpy()
+    return F.normalize(model.encode_text(tokens)).detach().cpu().numpy(), desc
 
 def compute_image_feature(image):
-    """
-    a numpy image
-    """
-    pil_image = Image.fromarray(image)
-    image = preprocess(pil_image)
-    image = image.unsqueeze(0)
-    features = model.encode_image(image)
-    return F.normalize(features).detach().cpu().numpy()
+    """input: array: (W, H, C)"""
+    image = preprocess(image)
+    image = image.unsqueeze(0).to(cfg.device)
+    image_feat = model.encode_image(image).to(cfg.device)
+    return F.normalize(image_feat).detach().cpu().numpy()
 
 def compute_image_features(loader):
     """
@@ -105,18 +102,19 @@ def compute_image_features(loader):
 # %%
 # image retrieval based on image-text
 def find_image_by_text(text_query, image_features, image_paths, n=1):
-    zeroshot_weights = compute_text_feature(text_query)
+    zeroshot_weights, text_query_after = compute_text_feature(text_query)
     distances = np.dot(image_features, zeroshot_weights.reshape(-1, 1))
     file_paths = []
     for i in range(1, n+1):
         idx = np.argsort(distances, axis=0)[-i, 0]
         file_paths.append(image_paths[idx])
-    return file_paths
+    return file_paths, text_query_after
 
 # %%
 # image retrieval based on image-image
-def find_image_by_image(image_query, image_features, image_paths, n=1):
-    zeroshot_weights = compute_text_feature(text_query)
+def find_image_by_image(image_path, image_features, image_paths, n=1):
+    image = Image.open(image_path)
+    zeroshot_weights = compute_image_feature(image)
     distances = np.dot(image_features, zeroshot_weights.reshape(-1, 1))
     file_paths = []
     for i in range(1, n+1):
@@ -134,28 +132,72 @@ def show_images(image_list):
 # %%
 image_features, image_paths = compute_image_features(dataloader)
 
-# %%
-text = "lakes, rivers or ponds"
-returned_image_paths = find_image_by_text(text, image_features, image_paths, n=3)
-returned_image_paths
+# %% test retrieving image by text
+text = "this bird live in open areas with thick, low vegetation, ranging from marsh to grassland to open pine forest. During migration, they use an even broader suite of habitats including backyards and forest"
+returned_image_paths, text_after = find_image_by_text(text, image_features, image_paths, n=5)
+print(f"Before: {text}")
+print(f"After: {text_after}")
 
 # %%
 show_images(returned_image_paths)
 
-
-
-
-
-# %% Name Entity Recognition
-from transformers import AutoTokenizer, AutoModelForTokenClassification
-from transformers import pipeline
-
-tokenizer = AutoTokenizer.from_pretrained("dslim/bert-base-NER")
-model = AutoModelForTokenClassification.from_pretrained("dslim/bert-base-NER")
-
+# %% test retrieving image by image
+image_path = 'test_bird.jpeg'
+returned_image_paths = find_image_by_image(image_path, image_features, image_paths, n=5)
 # %%
-nlp = pipeline("ner", model=model, tokenizer=tokenizer)
-example = "pond, forest"
-ner_results = nlp(example)
-print(ner_results)
+show_images(returned_image_paths)
+# %% --- get the habitat description of 200 cub classes ---
+f = open("./descriptors/cub/additional_chatgpt_descriptors_cub.json", 'r')
+data = json.load(f)
+data = {k: v[-1][9:] for k,v in data.items()}
+data
+# %% each class retrieves 5 images
+import shutil, os
+save_retrieved_path = "retrieval_cub_images_by_text/"    
+if not os.path.exists(save_retrieved_path):
+    os.makedirs(save_retrieved_path)
+
+retrieval_acc_dict = {}
+for k, v in data.items():
+    # v = v.replace(k, 'this bird')
+    class_name = k.replace('-', ' ').lower()
+
+    if class_name not in retrieval_acc_dict:
+        retrieval_acc_dict[class_name] = 0
+
+    if not os.path.exists(os.path.join(save_retrieved_path, k)):
+        os.makedirs(os.path.join(save_retrieved_path, k))
+    returned_image_paths, v_after = find_image_by_text(v, image_features, image_paths, n=5)
+    # save image and query
+    for p in returned_image_paths:
+        shutil.copy(p, os.path.join(save_retrieved_path, k))
+        retrieved_image_class_name = p.split('/')[-1].split('_')[:-2]
+        retrieved_image_class_name = " ".join(retrieved_image_class_name).lower()
+
+        if retrieved_image_class_name == class_name:
+            retrieval_acc_dict[class_name] += 1
+    with open(f'{os.path.join(save_retrieved_path, k)}/query.txt', 'w') as f:
+        f.write(v)
+        f.write('\n')
+        f.write(v_after)
+
+retrieval_acc_dict = {k: v/5 for k, v in retrieval_acc_dict.items()}
+
+retrieval_acc_dict  
+
+# %% statistic
+avg_acc = 0
+classes_1 = []
+classes_0 = []
+for k, v in retrieval_acc_dict.items():
+    avg_acc += v
+    if v == 1.:
+        classes_1.append(k)
+    if v == 0.:
+        classes_0.append(k)
+
+
+avg_acc/200, len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
+
+
 # %%
