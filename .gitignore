@@ -23,3 +23,6 @@ plain_clip/ImageNetV2_pytorch/
 plain_clip/correct_inaturalist_replaced_id_figs/
 plain_clip/incorrect_inaturalist_replaced_id_figs/
 plain_clip/retrieval_cub_images_by_text/
+plain_clip/retrieval_nabirds_images_by_text/
+plain_clip/retrieval_inat21_images_by_text/
+plain_clip/test_bird.jpeg
