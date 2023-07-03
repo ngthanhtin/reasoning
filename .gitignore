@@ -26,6 +26,9 @@ plain_clip/retrieval_cub_images_by_text/
 plain_clip/retrieval_nabirds_images_by_text/
 plain_clip/retrieval_inat21_images_by_text/
 plain_clip/test_bird.jpeg
+plain_clip/cub_retrieval_acc.json
+plain_clip/inat21_retrieval_acc.json
+plain_clip/nabirds_retrieval_acc.json
 
 inpainting/Inpaint_Anything/
 inpainting/cub_inpaint/
