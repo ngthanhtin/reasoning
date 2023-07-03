@@ -34,8 +34,9 @@ def seed_everything(seed: int):
 
 seed_everything(128)
 
+# %%
 class cfg:
-    dataset = 'cub'
+    dataset = 'nabirds'#inat21, cub, nabirds
     batch_size = 64
     device = "cuda:4" if torch.cuda.is_available() else "cpu"
 
@@ -57,14 +58,47 @@ if cfg.dataset == 'cub':
     dataset_dir = pathlib.Path(cfg.CUB_DIR)
     dataset = CUBDataset(dataset_dir, train=False, transform=preprocess)
 
-# elif cfg.dataset == 'nabirds':
-#     dataset_dir = pathlib.Path(cfg.NABIRD_DIR)
-#     dataset = NABirdsDataset(dataset_dir, train=False, subset_class_names=subset_class_names, transform=preprocess)
+elif cfg.dataset == 'nabirds':
+    dataset_dir = pathlib.Path(cfg.NABIRD_DIR)
+    f = open("./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
+    data = json.load(f)
+    subset_class_names = list(data.keys())
+    dataset = NABirdsDataset(dataset_dir, train=False, subset_class_names=subset_class_names, transform=preprocess)
+    
+    def read_classes(bird_dir):
+        """Loads DataFrame with class labels. Returns full class table
+        and table containing lowest level classes.
+        """
+        def make_annotation(s):
+            try:
+                return s.split('(')[1].split(')')[0]
+            except Exception as e:
+                return None
 
-# elif cfg.dataset == 'inaturalist2021':
-#     dataset_dir = pathlib.Path(cfg.INATURALIST_DIR)
-#     dataset = INaturalistDataset(root_dir=dataset_dir, train=False, subset_class_names=subset_class_names, n_pixel=hparams['image_size'], transform=preprocess)
+        classes = pd.read_table(f'{bird_dir}/classes.txt', header=None)
+        classes['id'] = classes[0].apply(lambda s: int(s.split(' ')[0]))
+        classes['label_name'] = classes[0].apply(lambda s: ' '.join(s.split(' ')[1:]))
+        classes['annotation'] = classes['label_name'].apply(make_annotation)
+        classes['name'] = classes['label_name'].apply(lambda s: s.split('(')[0].strip())
 
+        return classes
+
+    idx2class_df = read_classes(bird_dir='/home/tin/datasets/nabirds/')
+    nabirds_idx2class = idx2class_df.set_index('id')['name'].to_dict()
+
+elif cfg.dataset == 'inat21':
+    dataset_dir = pathlib.Path(cfg.INATURALIST_DIR)
+    f = open("./descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json", "r")
+    data = json.load(f)
+    subset_class_names = list(data.keys())
+    dataset = INaturalistDataset(root_dir=dataset_dir, train=False, subset_class_names=subset_class_names, transform=preprocess)
+
+    bird_classes_file = '/home/tin/datasets/inaturalist2021_onlybird/bird_classes.json'
+    f = open(bird_classes_file, 'r')
+    data = json.load(f)
+    idx2class = data['name']
+    idx2imagedir = data['image_dir_name']
+    inat21_imagedir2class = {v:idx2class[k] for k, v in idx2imagedir.items()}
 
 dataloader = DataLoader(dataset, cfg.batch_size, shuffle=True, num_workers=16, pin_memory=True)
 
@@ -131,7 +165,8 @@ def show_images(image_list):
         plt.show()
 # %%
 image_features, image_paths = compute_image_features(dataloader)
-
+# %%
+print("Number of images: ", len(image_paths))
 # %% test retrieving image by text
 text = "this bird live in open areas with thick, low vegetation, ranging from marsh to grassland to open pine forest. During migration, they use an even broader suite of habitats including backyards and forest"
 returned_image_paths, text_after = find_image_by_text(text, image_features, image_paths, n=5)
@@ -146,22 +181,32 @@ image_path = 'test_bird.jpeg'
 returned_image_paths = find_image_by_image(image_path, image_features, image_paths, n=5)
 # %%
 show_images(returned_image_paths)
-# %% --- get the habitat description of 200 cub classes ---
-f = open("./descriptors/cub/additional_chatgpt_descriptors_cub.json", 'r')
+# %% --- get the habitat description ---
+description_path = None
+match cfg.dataset:
+    case "cub":
+        description_path = "./descriptors/cub/additional_chatgpt_descriptors_cub.json"
+    case "nabirds":
+        description_path = "./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json"
+    case "inat21":
+        description_path = "./descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json"
+
+f = open(description_path, 'r')
 data = json.load(f)
 data = {k: v[-1][9:] for k,v in data.items()}
+num_classes = len(data.keys())
 data
 # %% each class retrieves 5 images
 import shutil, os
-save_retrieved_path = "retrieval_cub_images_by_text/"    
+save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_text/"    
 if not os.path.exists(save_retrieved_path):
     os.makedirs(save_retrieved_path)
 
 retrieval_acc_dict = {}
 for k, v in data.items():
     # v = v.replace(k, 'this bird')
-    class_name = k.replace('-', ' ').lower()
-
+    class_name = k.replace('-', ' ').lower() if cfg.dataset == 'cub' else k
+    
     if class_name not in retrieval_acc_dict:
         retrieval_acc_dict[class_name] = 0
 
@@ -171,11 +216,20 @@ for k, v in data.items():
     # save image and query
     for p in returned_image_paths:
         shutil.copy(p, os.path.join(save_retrieved_path, k))
-        retrieved_image_class_name = p.split('/')[-1].split('_')[:-2]
-        retrieved_image_class_name = " ".join(retrieved_image_class_name).lower()
+        if cfg.dataset == 'cub':
+            retrieved_image_class_name = p.split('/')[-1].split('_')[:-2]
+            retrieved_image_class_name = " ".join(retrieved_image_class_name).lower()
+        elif cfg.dataset == 'nabirds':
+            retrieved_image_class_index = p.split('/')[-2]
+            retrieved_image_class_index = int(retrieved_image_class_index)
+            retrieved_image_class_name = nabirds_idx2class[retrieved_image_class_index]
+        elif cfg.dataset == 'inat21':
+            retrieved_imagedir = p.split('/')[-2]
+            retrieved_image_class_name = inat21_imagedir2class[retrieved_imagedir]
 
         if retrieved_image_class_name == class_name:
             retrieval_acc_dict[class_name] += 1
+
     with open(f'{os.path.join(save_retrieved_path, k)}/query.txt', 'w') as f:
         f.write(v)
         f.write('\n')
@@ -196,8 +250,10 @@ for k, v in retrieval_acc_dict.items():
     if v == 0.:
         classes_0.append(k)
 
+json_object = json.dumps(retrieval_acc_dict, indent=4)
+with open(f'{cfg.dataset}_retrieval_acc.json', "w") as outfile:
+    outfile.write(json_object)
 
-avg_acc/200, len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
-
+avg_acc/num_classes, len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
 
 # %%
