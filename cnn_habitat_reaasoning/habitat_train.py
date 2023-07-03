@@ -32,11 +32,20 @@ def set_seed(seed=None, cudnn_deterministic=True):
 class CFG:
     seed = 42
     model_name = 'resnet50'
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
 
-    batch_size = 128
+    # data params
+    n_classes = 200
+    test_size = 200
+
+    #hyper params
+    batch_size = 64
     lr = 0.01
-    n_classes = 6
+    image_size = 224
+    lr = 0.001
+    epochs = 12
+
+    
 
 set_seed(CFG.seed)
 
@@ -55,12 +64,11 @@ def Augment(mode):
     
     
 # %% Dataset
-test_data_dir = './intel_dataset/seg_test/seg_test/'
-train_data_dir ='./intel_dataset/seg_train/seg_train/'
+train_data_dir ='/home/tin/projects/reasoning/inpainting/cub_inpaint/'
+test_data_dir ='/home/tin/projects/reasoning/inpainting/cub_inpaint/'
  
 # %%
 train_dataset = ImageFolder(train_data_dir, transform=Augment('train'))
-
 test_dataset = ImageFolder(test_data_dir,transform=Augment('valid'))
 
  # %%
@@ -77,7 +85,7 @@ def display_image(image,label):
 display_image(*train_dataset[0])
 
 # %%
-test_size = 2000
+test_size = CFG.test_size
 train_size = len(train_dataset) - test_size
 
 train_data,test_data = random_split(train_dataset,[train_size,test_size])
@@ -98,9 +106,7 @@ classification_model = timm.create_model(
         ).to(CFG.device)
 
 # %%
-num_epochs = 10
-lr = 0.001
-optimizer = torch.optim.Adam(classification_model.parameters(), lr=lr)
+optimizer = torch.optim.Adam(classification_model.parameters(), lr=CFG.lr)
 
 # %%
 def show_batch_images(dataloader):
@@ -119,7 +125,7 @@ def accuracy(outputs, labels):
     return torch.tensor(torch.sum(preds == labels).item() / len(preds))
 # %%
 
-def train(trainloader, validloader, model, n_epoch=10, fold=0):
+def train(trainloader, validloader, model, n_epoch=10):
     best_valid_acc = 0.0
     for epoch in range(n_epoch):
         model.train()
@@ -170,5 +176,5 @@ def validation_epoch(validloader, model):
     return np.mean(losses), np.mean(accs)
 
 # %%
-model = train(train_loader, valid_loader, classification_model, n_epoch = 12, fold=0)
+model = train(train_loader, valid_loader, classification_model, n_epoch = CFG.epochs)
 # %%
