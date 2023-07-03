@@ -26,3 +26,12 @@ plain_clip/retrieval_cub_images_by_text/
 plain_clip/retrieval_nabirds_images_by_text/
 plain_clip/retrieval_inat21_images_by_text/
 plain_clip/test_bird.jpeg
+
+inpainting/Inpaint_Anything/
+inpainting/cub_inpaint/
+inpainting/nabirds_inpaint/
+inpainting/inat21_inpaint/
+inpainting/test_bird.jpeg
+inpainting/cub_bird_bb.json
+inpainting/nabirds_bird_bb.json
+inpainting/inat21_bird_bb.json
