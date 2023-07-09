@@ -1,7 +1,7 @@
 # reasoning
 bird reasoning (size + habitat)
 
-![Figure 1-1](./project_description.png)
+![Figure 1-1](./utils/project_description.png)
 
 ## Demo
 

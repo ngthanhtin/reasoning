@@ -36,15 +36,15 @@ seed_everything(128)
 
 # %%
 class cfg:
-    dataset = 'nabirds'#inat21, cub, nabirds
-    batch_size = 64
+    dataset = 'inat21'#inat21, cub, nabirds
+    batch_size = 8
     device = "cuda:4" if torch.cuda.is_available() else "cpu"
 
     CUB_DIR = '/home/tin/datasets/CUB_200_2011/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
     INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
 
-    MODEL_TYPE = 'ViT-B/32'
+    MODEL_TYPE = 'ViT-L/14'
     IMAGE_SIZE = 224
 
 # %%
@@ -168,8 +168,9 @@ image_features, image_paths = compute_image_features(dataloader)
 # %%
 print("Number of images: ", len(image_paths))
 # %% test retrieving image by text
-text = "this bird live in open areas with thick, low vegetation, ranging from marsh to grassland to open pine forest. During migration, they use an even broader suite of habitats including backyards and forest"
-returned_image_paths, text_after = find_image_by_text(text, image_features, image_paths, n=5)
+# text = "Laysan Albatrosses spend most of their time on the open Pacific Ocean, spanning tropical waters up to the southern Bering Sea"
+text = "Laysan Albatross, Laysan Albatrosses nest on open, sandy or grassy islands, mostly in the Hawaiian Island chain"
+returned_image_paths, text_after = find_image_by_text(text, image_features, image_paths, n=10)
 print(f"Before: {text}")
 print(f"After: {text_after}")
 
@@ -180,7 +181,7 @@ show_images(returned_image_paths)
 image_path = 'test_bird.jpeg'
 returned_image_paths = find_image_by_image(image_path, image_features, image_paths, n=5)
 # %%
-show_images(returned_image_paths)
+# show_images(returned_image_paths)
 # %% --- get the habitat description ---
 description_path = None
 match cfg.dataset:
@@ -194,15 +195,32 @@ match cfg.dataset:
 f = open(description_path, 'r')
 data = json.load(f)
 data = {k: v[-1][9:] for k,v in data.items()}
+# split a sentence into multiple sentences
+data = {k: v.split('.') for k,v in data.items()}
+data = {k: [f'{k}, {s}' for s in v] for k,v in data.items()}
 num_classes = len(data.keys())
-data
-# %% each class retrieves 5 images
+# %%
+avg_len = 0
+
+for i, (k, v) in enumerate(data.items()):
+    len_sub_sentences = len(v)
+    avg_len += len_sub_sentences
+    
+avg_len/len(data)
+
+# save data
+# json_object = json.dumps(data, indent=4)
+# with open(f"habitat_{description_path.split('/')[-1]}", "w") as f:
+#     f.write(json_object)
+# %% each class retrieves N images
 import shutil, os
-save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_text/"    
+save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_texts/"    
 if not os.path.exists(save_retrieved_path):
     os.makedirs(save_retrieved_path)
 
 retrieval_acc_dict = {}
+retrieved_num = 5
+
 for k, v in data.items():
     # v = v.replace(k, 'this bird')
     class_name = k.replace('-', ' ').lower() if cfg.dataset == 'cub' else k
@@ -212,7 +230,15 @@ for k, v in data.items():
 
     if not os.path.exists(os.path.join(save_retrieved_path, k)):
         os.makedirs(os.path.join(save_retrieved_path, k))
-    returned_image_paths, v_after = find_image_by_text(v, image_features, image_paths, n=5)
+    
+    total_returned_image_paths = []
+    v_after = []
+    for s in v:
+        returned_image_paths, s_after = find_image_by_text(s, image_features, image_paths, n=retrieved_num)
+        total_returned_image_paths += returned_image_paths
+        v_after.append(s_after)
+    returned_image_paths = list(set(total_returned_image_paths))
+
     # save image and query
     for p in returned_image_paths:
         shutil.copy(p, os.path.join(save_retrieved_path, k))
@@ -229,13 +255,15 @@ for k, v in data.items():
 
         if retrieved_image_class_name == class_name:
             retrieval_acc_dict[class_name] += 1
+    retrieval_acc_dict[class_name] /= len(returned_image_paths)
 
     with open(f'{os.path.join(save_retrieved_path, k)}/query.txt', 'w') as f:
-        f.write(v)
-        f.write('\n')
-        f.write(v_after)
-
-retrieval_acc_dict = {k: v/5 for k, v in retrieval_acc_dict.items()}
+        f.write('BEFORE: \n')
+        for s in v:
+            f.write(f'{s}\n')
+        f.write('AFTER: \n')
+        for s_after in v_after:
+            f.write(f'{s_after}\n')
 
 retrieval_acc_dict  
 
@@ -254,6 +282,6 @@ json_object = json.dumps(retrieval_acc_dict, indent=4)
 with open(f'{cfg.dataset}_retrieval_acc.json', "w") as outfile:
     outfile.write(json_object)
 
-avg_acc/num_classes, len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
+100*(avg_acc/num_classes), len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
 
 # %%

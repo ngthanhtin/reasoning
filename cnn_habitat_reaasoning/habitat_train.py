@@ -36,7 +36,7 @@ class CFG:
 
     # data params
     n_classes = 200
-    test_size = 200
+    test_size = 100
 
     #hyper params
     batch_size = 64
@@ -52,37 +52,77 @@ set_seed(CFG.seed)
 # %% Augmentation
 def Augment(mode):
     if mode == 'train':
-        train_aug_list = [transforms.Resize(256), transforms.CenterCrop(224), 
-                               transforms.ToTensor(), 
-                               transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])]
+        train_aug_list = [transforms.Resize(256), 
+                        transforms.CenterCrop(224),
+                        transforms.RandomRotation(10), 
+                        transforms.RandomHorizontalFlip(),
+                        transforms.RandomVerticalFlip(),
+                        # transforms.RandomErasing(p=0.5),
+                        # transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),
+                        transforms.ToTensor(), 
+                        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])]
         return transforms.Compose(train_aug_list)
     else:
-        valid_test_aug_list = [transforms.Resize(256), transforms.CenterCrop(224), 
+        valid_test_aug_list = [transforms.Resize(256), 
+                               transforms.CenterCrop(224), 
                                transforms.ToTensor(), 
                                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])]
         return transforms.Compose(valid_test_aug_list)
     
     
 # %% Dataset
-train_data_dir ='/home/tin/projects/reasoning/inpainting/cub_inpaint/'
+train_data_dir ='/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_text_2/'
 test_data_dir ='/home/tin/projects/reasoning/inpainting/cub_inpaint/'
  
+ #  %%
+from PIL import Image
+import torch
+from torch.utils.data import Dataset
+
+class HabitatDataset(Dataset):
+    def __init__(self, root, transform=None):
+        self.root = root
+        self.transform = transform
+        self.file_list = []
+        self.labels = []
+        self._load_files()
+
+    def _load_files(self):
+        class_folders = sorted(os.listdir(self.root))
+        for label, class_folder in enumerate(class_folders):
+            class_path = os.path.join(self.root, class_folder)
+            if not os.path.isdir(class_path):
+                continue
+            image_files = os.listdir(class_path)
+            self.file_list.extend([os.path.join(class_folder, img_file) for img_file in image_files])
+            self.labels.extend([label] * len(image_files))
+
+    def __len__(self):
+        return len(self.file_list)
+
+    def __getitem__(self, index):
+        image_path = os.path.join(self.root, self.file_list[index])
+        image = Image.open(image_path).convert('RGB')
+
+        if self.transform is not None:
+            image = self.transform(image)
+
+        label = self.labels[index]
+        return image, label
 # %%
 train_dataset = ImageFolder(train_data_dir, transform=Augment('train'))
 test_dataset = ImageFolder(test_data_dir,transform=Augment('valid'))
 
  # %%
 
-image,label = train_dataset[0]
+image,label = train_dataset[10]
 image.shape, label
 
 # %%
-print("Follwing classes are there : \n",train_dataset.classes)
-
 def display_image(image,label):
      plt.imshow(image.permute(1,2,0))
 
-display_image(*train_dataset[0])
+display_image(*train_dataset[5])
 
 # %%
 test_size = CFG.test_size
@@ -106,6 +146,7 @@ classification_model = timm.create_model(
         ).to(CFG.device)
 
 # %%
+CFG.lr = 1e-4
 optimizer = torch.optim.Adam(classification_model.parameters(), lr=CFG.lr)
 
 # %%
