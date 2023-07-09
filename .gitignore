@@ -25,6 +25,9 @@ plain_clip/incorrect_inaturalist_replaced_id_figs/
 plain_clip/retrieval_cub_images_by_text/
 plain_clip/retrieval_nabirds_images_by_text/
 plain_clip/retrieval_inat21_images_by_text/
+plain_clip/retrieval_cub_images_by_texts/
+plain_clip/retrieval_nabirds_images_by_texts/
+plain_clip/retrieval_inat21_images_by_texts/
 plain_clip/test_bird.jpeg
 plain_clip/cub_retrieval_acc.json
 plain_clip/inat21_retrieval_acc.json
@@ -38,3 +41,7 @@ inpainting/test_bird.jpeg
 inpainting/cub_bird_bb.json
 inpainting/nabirds_bird_bb.json
 inpainting/inat21_bird_bb.json
+
+
+*.jpg
+*.png
