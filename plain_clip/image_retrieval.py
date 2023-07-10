@@ -200,6 +200,7 @@ data = {k: v.split('.') for k,v in data.items()}
 # data = {k: [f'{k}, {s}' for s in v] for k,v in data.items()}
 data = {k: [s.lower().replace(k.lower(), '') for s in v] for k,v in data.items()}
 num_classes = len(data.keys())
+data
 # %%
 avg_len = 0
 
@@ -215,7 +216,7 @@ avg_len/len(data)
 #     f.write(json_object)
 # %% each class retrieves N images
 import shutil, os
-save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_texts/"    
+save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_texts_test/"    
 if not os.path.exists(save_retrieved_path):
     os.makedirs(save_retrieved_path)
 
@@ -234,7 +235,9 @@ for k, v in data.items():
     
     total_returned_image_paths = []
     v_after = []
-    for s in v:
+    for i, s in enumerate(v):
+        if i >= 2:
+            break
         returned_image_paths, s_after = find_image_by_text(s, image_features, image_paths, n=retrieved_num)
         total_returned_image_paths += returned_image_paths
         v_after.append(s_after)
@@ -280,7 +283,7 @@ for k, v in retrieval_acc_dict.items():
         classes_0.append(k)
 
 json_object = json.dumps(retrieval_acc_dict, indent=4)
-with open(f'{cfg.dataset}_retrieval_acc.json', "w") as outfile:
+with open(f'{cfg.dataset}_retrieval_acc_test.json', "w") as outfile:
     outfile.write(json_object)
 
 100*(avg_acc/num_classes), len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
