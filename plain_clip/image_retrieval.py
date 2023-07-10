@@ -37,7 +37,7 @@ seed_everything(128)
 # %%
 class cfg:
     dataset = 'inat21'#inat21, cub, nabirds
-    batch_size = 8
+    batch_size = 12
     device = "cuda:4" if torch.cuda.is_available() else "cpu"
 
     CUB_DIR = '/home/tin/datasets/CUB_200_2011/'
@@ -190,14 +190,15 @@ match cfg.dataset:
     case "nabirds":
         description_path = "./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json"
     case "inat21":
-        description_path = "./descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json"
+        description_path = "./descriptors/inaturalist2021/replaced_425_additional_chatgpt_descriptors_inaturalist.json"
 
 f = open(description_path, 'r')
 data = json.load(f)
 data = {k: v[-1][9:] for k,v in data.items()}
 # split a sentence into multiple sentences
 data = {k: v.split('.') for k,v in data.items()}
-data = {k: [f'{k}, {s}' for s in v] for k,v in data.items()}
+# data = {k: [f'{k}, {s}' for s in v] for k,v in data.items()}
+data = {k: [s.lower().replace(k.lower(), '') for s in v] for k,v in data.items()}
 num_classes = len(data.keys())
 # %%
 avg_len = 0
