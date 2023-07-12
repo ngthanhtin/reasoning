@@ -36,11 +36,11 @@ seed_everything(128)
 
 # %%
 class cfg:
-    dataset = 'inat21'#inat21, cub, nabirds
+    dataset = 'cub'#inat21, cub, nabirds
     batch_size = 12
     device = "cuda:4" if torch.cuda.is_available() else "cpu"
 
-    CUB_DIR = '/home/tin/datasets/CUB_200_2011/'
+    CUB_DIR = '/home/tin/datasets/cub/CUB/train/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
     INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
 
@@ -48,22 +48,34 @@ class cfg:
     IMAGE_SIZE = 224
 
 # %%
+from torchvision.datasets import ImageFolder
+class ImageFolderWithPaths(ImageFolder):
+
+    def __getitem__(self, index):
+  
+        img, label = super(ImageFolderWithPaths, self).__getitem__(index)
+        
+        path = self.imgs[index][0]
+        
+        return (img, label ,path)
+# %%
 # init CLIP
 model, preprocess = clip.load(cfg.MODEL_TYPE, device=cfg.device, jit=False)
 # %%
-# create dataset and dataloder
-
+# create dataset and dataloder    
 if cfg.dataset == 'cub':
     # load CUB dataset
     dataset_dir = pathlib.Path(cfg.CUB_DIR)
-    dataset = CUBDataset(dataset_dir, train=False, transform=preprocess)
+    dataset = ImageFolderWithPaths(cfg.CUB_DIR, transform=preprocess)
+
+    # dataset = CUBDataset(dataset_dir, train=True, transform=preprocess)
 
 elif cfg.dataset == 'nabirds':
     dataset_dir = pathlib.Path(cfg.NABIRD_DIR)
     f = open("./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
     data = json.load(f)
     subset_class_names = list(data.keys())
-    dataset = NABirdsDataset(dataset_dir, train=False, subset_class_names=subset_class_names, transform=preprocess)
+    dataset = NABirdsDataset(dataset_dir, train=True, subset_class_names=subset_class_names, transform=preprocess)
     
     def read_classes(bird_dir):
         """Loads DataFrame with class labels. Returns full class table
@@ -131,6 +143,20 @@ def compute_image_features(loader):
         features = model.encode_image(images)
         features = F.normalize(features)
         image_features.extend(features.detach().cpu().numpy())
+    
+    # add unsplash
+    ext_data_path = '/home/tin/datasets/unsplash/images/'
+    ext_dataset = ImageFolderWithPaths(ext_data_path,transform=preprocess)
+    ext_dataloader = DataLoader(ext_dataset, cfg.batch_size, shuffle=True, num_workers=16, pin_memory=True)
+
+    for i, batch in enumerate(tqdm(ext_dataloader)):
+        images, _, _paths = batch
+        paths += _paths
+        images = images.to(cfg.device)
+        features = model.encode_image(images)
+        features = F.normalize(features)
+        image_features.extend(features.detach().cpu().numpy())
+
     return np.array(image_features), paths
 
 # %%
@@ -178,8 +204,8 @@ print(f"After: {text_after}")
 show_images(returned_image_paths)
 
 # %% test retrieving image by image
-image_path = 'test_bird.jpeg'
-returned_image_paths = find_image_by_image(image_path, image_features, image_paths, n=5)
+# image_path = 'test_bird.jpeg'
+# returned_image_paths = find_image_by_image(image_path, image_features, image_paths, n=5)
 # %%
 # show_images(returned_image_paths)
 # %% --- get the habitat description ---
@@ -190,15 +216,21 @@ match cfg.dataset:
     case "nabirds":
         description_path = "./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json"
     case "inat21":
-        description_path = "./descriptors/inaturalist2021/replaced_425_additional_chatgpt_descriptors_inaturalist.json"
+        description_path = "./descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json"
 
 f = open(description_path, 'r')
 data = json.load(f)
 data = {k: v[-1][9:] for k,v in data.items()}
 # split a sentence into multiple sentences
 data = {k: v.split('.') for k,v in data.items()}
-# data = {k: [f'{k}, {s}' for s in v] for k,v in data.items()}
-data = {k: [s.lower().replace(k.lower(), '') for s in v] for k,v in data.items()}
+data = {k: [f'{k}, {s}' for s in v] for k,v in data.items()}
+# data = {k: [s.lower().replace(k.lower(), '') for s in v] for k,v in data.items()}
+if cfg.dataset == 'inat21':
+    f = open('sci2real_name_inat.json', 'r')
+    sci2real_dict = json.load(f)
+    sci2real_dict = {k:v.replace('_', '') for k, v in sci2real_dict.items()}
+    data = {k: [f'{sci2real_dict[k]}, {s}' for s in v] for k,v in data.items()}
+
 num_classes = len(data.keys())
 data
 # %%
@@ -216,7 +248,7 @@ avg_len/len(data)
 #     f.write(json_object)
 # %% each class retrieves N images
 import shutil, os
-save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_texts_test/"    
+save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_texts_noinpaint_unsplash_query/"    
 if not os.path.exists(save_retrieved_path):
     os.makedirs(save_retrieved_path)
 
@@ -283,7 +315,7 @@ for k, v in retrieval_acc_dict.items():
         classes_0.append(k)
 
 json_object = json.dumps(retrieval_acc_dict, indent=4)
-with open(f'{cfg.dataset}_retrieval_acc_test.json', "w") as outfile:
+with open(f'{cfg.dataset}_retrieval_acc_noinpaint_unsplash.json', "w") as outfile:
     outfile.write(json_object)
 
 100*(avg_acc/num_classes), len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
