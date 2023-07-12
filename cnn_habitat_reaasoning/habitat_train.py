@@ -32,18 +32,18 @@ def set_seed(seed=None, cudnn_deterministic=True):
 class CFG:
     seed = 42
     model_name = 'resnet50'
-    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 
     # data params
     n_classes = 200
-    test_size = 100
+    test_size = 200
 
     #hyper params
     batch_size = 64
-    lr = 0.01
+    lr = 1e-3
     image_size = 224
     lr = 0.001
-    epochs = 12
+    epochs = 20
 
     
 
@@ -57,8 +57,7 @@ def Augment(mode):
                         transforms.RandomRotation(10), 
                         transforms.RandomHorizontalFlip(),
                         transforms.RandomVerticalFlip(),
-                        # transforms.RandomErasing(p=0.5),
-                        # transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),
+                        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),
                         transforms.ToTensor(), 
                         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])]
         return transforms.Compose(train_aug_list)
@@ -71,8 +70,8 @@ def Augment(mode):
     
     
 # %% Dataset
-train_data_dir ='/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_text_2/'
-test_data_dir ='/home/tin/projects/reasoning/inpainting/cub_inpaint/'
+# data_dir ='/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts/'
+# data_dir ='/home/tin/projects/reasoning/inpainting/cub_inpaint/'
  
  #  %%
 from PIL import Image
@@ -80,22 +79,37 @@ import torch
 from torch.utils.data import Dataset
 
 class HabitatDataset(Dataset):
-    def __init__(self, root, transform=None):
+    def __init__(self, root, mode='train'):
+        self.mode = mode
         self.root = root
-        self.transform = transform
+        self.augment = Augment(mode)
+
         self.file_list = []
         self.labels = []
         self._load_files()
 
     def _load_files(self):
+
         class_folders = sorted(os.listdir(self.root))
         for label, class_folder in enumerate(class_folders):
             class_path = os.path.join(self.root, class_folder)
             if not os.path.isdir(class_path):
                 continue
             image_files = os.listdir(class_path)
-            self.file_list.extend([os.path.join(class_folder, img_file) for img_file in image_files])
+            self.file_list.extend([os.path.join(class_folder, img_file) for img_file in image_files if 'txt' not in img_file])
             self.labels.extend([label] * len(image_files))
+        
+        self.train_list = self.file_list[:int(len(self.file_list)*0.8)] 
+        self.train_labels = self.labels[:int(len(self.labels)*0.8)]
+        self.test_list = self.file_list[int(len(self.file_list)*0.8):] 
+        self.test_labels = self.labels[int(len(self.labels)*0.8):]
+
+        if self.mode == 'train':
+            self.file_list = self.train_list
+            self.labels = self.train_labels
+        else:
+            self.file_list = self.test_list
+            self.labels = self.test_labels
 
     def __len__(self):
         return len(self.file_list)
@@ -103,16 +117,17 @@ class HabitatDataset(Dataset):
     def __getitem__(self, index):
         image_path = os.path.join(self.root, self.file_list[index])
         image = Image.open(image_path).convert('RGB')
-
-        if self.transform is not None:
-            image = self.transform(image)
-
         label = self.labels[index]
+        image = self.augment(image)
+
         return image, label
 # %%
-train_dataset = ImageFolder(train_data_dir, transform=Augment('train'))
-test_dataset = ImageFolder(test_data_dir,transform=Augment('valid'))
-
+# train_dataset = ImageFolder(data_dir, transform=Augment('train'))
+# train_dataset = HabitatDataset('/home/tin/datasets/cub/CUB_no_bg_train/', mode='train')
+# test_dataset = HabitatDataset('/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts', mode='test')
+train_dataset = ImageFolder('/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts_noinpaint_unsplash/',transform=Augment('train'))
+train_dataset = ImageFolder('/home/tin/datasets/cub/CUB_inpaint_all_train/',transform=Augment('train'))
+test_dataset = ImageFolder('/home/tin/datasets/cub/CUB_inpaint_all_test/',transform=Augment('test'))
  # %%
 
 image,label = train_dataset[10]
@@ -125,16 +140,16 @@ def display_image(image,label):
 display_image(*train_dataset[5])
 
 # %%
-test_size = CFG.test_size
-train_size = len(train_dataset) - test_size
+# test_size = CFG.test_size
+# train_size = len(train_dataset) - test_size
 
-train_data,test_data = random_split(train_dataset,[train_size,test_size])
-print(f"Length of Train Data : {len(train_data)}")
-print(f"Length of Validation Data : {len(test_data)}")
+# train_data,test_data = random_split(train_dataset,[train_size,test_size])
+# print(f"Length of Train Data : {len(train_data)}")
+# print(f"Length of Validation Data : {len(test_data)}")
 
 # %%
-train_loader = DataLoader(train_data,CFG.batch_size,shuffle=True,num_workers = 4, pin_memory = True)
-valid_loader = DataLoader(test_data,CFG.batch_size,num_workers = 4, pin_memory = True)
+train_loader = DataLoader(train_dataset,CFG.batch_size,shuffle=True,num_workers = 4, pin_memory = True)
+test_loader = DataLoader(test_dataset,CFG.batch_size,num_workers = 4, pin_memory = True)
 
 # %% model
 
@@ -146,7 +161,6 @@ classification_model = timm.create_model(
         ).to(CFG.device)
 
 # %%
-CFG.lr = 1e-4
 optimizer = torch.optim.Adam(classification_model.parameters(), lr=CFG.lr)
 
 # %%
@@ -176,11 +190,11 @@ def train(trainloader, validloader, model, n_epoch=10):
         with torch.no_grad():
             model.eval()
             valid_loss, valid_acc = validation_epoch(validloader, model)
-            print(f'Epoch {epoch}/{n_epoch}, Valid Loss: {train_loss}, Valid Acc: {valid_acc}')
+            print(f'Epoch {epoch}/{n_epoch}, Valid Loss: {train_loss}, Valid Acc: {valid_acc*100}')
             # save model
             if best_valid_acc < valid_acc:
                 best_valid_acc = valid_acc
-                torch.save(model.state_dict(), f"./{epoch}_{valid_acc}.pth")
+                torch.save(model.state_dict(), f"./{epoch}_{valid_acc:.3f}.pth")
     return model
 
 def training_epoch(trainloader, model):
@@ -217,5 +231,5 @@ def validation_epoch(validloader, model):
     return np.mean(losses), np.mean(accs)
 
 # %%
-model = train(train_loader, valid_loader, classification_model, n_epoch = CFG.epochs)
+model = train(train_loader, test_loader, classification_model, n_epoch = CFG.epochs)
 # %%
