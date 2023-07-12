@@ -27,6 +27,8 @@ def inpaint_and_save(image_path, point_coords, output_dir, pre_cal_mask=None):
 
     latest_coords = point_coords
     img = load_img_to_array(image_path)
+    img_name = image_path.split('/')[-1]
+
     if len(img.shape) == 2: # binary
         img2 = np.zeros((img.shape[0], img.shape[1], 3))
         img2[:,:,0] = img
@@ -38,6 +40,9 @@ def inpaint_and_save(image_path, point_coords, output_dir, pre_cal_mask=None):
         pre_cal_masks = np.repeat(pre_cal_mask, 5, axis=0)
         masks = pre_cal_masks
     else:
+        img_inpainted_p = f'{output_dir}/{img_name}'
+        if os.path.exists(img_inpainted_p):
+            return
         try:
             masks, _, _ = predict_masks_with_sam(
                 img,
@@ -55,12 +60,12 @@ def inpaint_and_save(image_path, point_coords, output_dir, pre_cal_mask=None):
     if dilate_kernel_size is not None:
         masks = [dilate_mask(mask, dilate_kernel_size) for mask in masks]
 
-    img_name = image_path.split('/')[-1]
+    
 
     # inpaint the masked image
     for idx, mask in enumerate(masks):
         if idx == 1: # only save inpaint image at index 1
-            img_inpainted_p = output_dir + '/' + img_name
+            img_inpainted_p = f'{output_dir}/{img_name}'
             if os.path.exists(img_inpainted_p):
                 continue
             try:
@@ -159,6 +164,7 @@ elif dataset == 'nabirds':
     folders = [os.path.join(image_folder_path, f) for f in folders]
 
     for i, folder in tqdm(enumerate(folders)):
+        print(folder)
         folder_name = folder.split('/')[-1]
         output_dir = inpaint_dir + '/' + folder_name
         if not os.path.exists(output_dir):
