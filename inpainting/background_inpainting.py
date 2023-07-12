@@ -2,7 +2,7 @@
 import sys
 sys.path.append('./Inpaint_Anything/')
 
-import json, os, cv2
+import json, os, cv2, shutil
 from tqdm import tqdm
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +15,7 @@ from Inpaint_Anything.utils import load_img_to_array, save_array_to_img, dilate_
 
 # %% init inpainting module
 dataset = 'nabirds' # inat21, cub, nabirds
-device = "cuda:6" if torch.cuda.is_available() else "cpu"
+device = "cuda:3" if torch.cuda.is_available() else "cpu"
 
 def inpaint_and_save(image_path, point_coords, output_dir, pre_cal_mask=None):
     point_labels=[1 for i in range(len(point_coords))]
@@ -163,8 +163,8 @@ elif dataset == 'nabirds':
     folders = os.listdir(image_folder_path)
     folders = [os.path.join(image_folder_path, f) for f in folders]
 
+    folders = folders[275:185*2]
     for i, folder in tqdm(enumerate(folders)):
-        print(folder)
         folder_name = folder.split('/')[-1]
         output_dir = inpaint_dir + '/' + folder_name
         if not os.path.exists(output_dir):
@@ -180,8 +180,12 @@ elif dataset == 'nabirds':
             
             if kp_or_box == 'kp':
                 kps = image2kps_dict[image_name[:-4]]
-                # do inpaint
-                inpaint_and_save(image_path, kps, output_dir)
+                if len(kps) == 0: # no need to inpaint
+                    dest = f'{output_dir}/{img_name}'
+                    shutil.copy(image_path, dest)
+                else:
+                    # do inpaint
+                    inpaint_and_save(image_path, kps, output_dir)
             else:
                 x,y,w,h = image2box_dict[image_name[:-4]]
                 img = cv2.imread(image_path)
