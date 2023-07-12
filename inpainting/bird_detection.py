@@ -13,8 +13,8 @@ import cv2, os, json
 from tqdm import tqdm
 # %%
 class cfg:
-    dataset = 'nabirds'#inat21, cub, nabirds
-    device = "cuda:4" if torch.cuda.is_available() else "cpu"
+    dataset = 'inat21'#inat21, cub, nabirds
+    device = "cuda:6" if torch.cuda.is_available() else "cpu"
 
     CUB_DIR = '/home/tin/datasets/CUB_200_2011/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
@@ -60,32 +60,32 @@ def get_mask_object_bbox(mask_image):
 def mask_rectangle(image, x, y, width, height):
     image[y:y+height, x:x+width] = 1
 # %%-- example --
-image_path = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/04596_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_rufus/fc2c1c7b-693e-417c-8130-4e6fd5b36d72.jpg"
+# image_path = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/04596_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_rufus/fc2c1c7b-693e-417c-8130-4e6fd5b36d72.jpg"
 # image_path = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/04596_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_rufus/ef5ca918-bfcd-4156-888c-d94a7a0f5a9a.jpg"
 # image_path = 'test_bird.jpeg'
-image = cv2.imread(image_path)
-mask = get_mask_one_image(image_path)
+# image = cv2.imread(image_path)
+# mask = get_mask_one_image(image_path)
 # %%
-plt.imshow(image)
-plt.axis('off')
-plt.show()
+# plt.imshow(image)
+# plt.axis('off')
+# plt.show()
 # %%
-mask1 = mask == 14 # bird (coco)
+# mask1 = mask == 14 # bird (coco)
 # mask2 = mask == 116
 # mask3 = mask == 125
 
-print(np.unique(mask1))
-plt.imshow(mask1)
-plt.axis('off')
-plt.show()
+# print(np.unique(mask1))
+# plt.imshow(mask1)
+# plt.axis('off')
+# plt.show()
 # %%
-x, y, width, height = get_mask_object_bbox(mask1)
+# x, y, width, height = get_mask_object_bbox(mask1)
 # %%
-mask_rectangle(mask1, x, y, width, height)
+# mask_rectangle(mask1, x, y, width, height)
 
-plt.imshow(mask1)
-plt.axis('off')
-plt.show()
+# plt.imshow(mask1)
+# plt.axis('off')
+# plt.show()
 # %% --save bird bounding boxes-- %%
 # %%
 #1. CUB bounding boxes, for CUB, I already have the mask images, just take it and get the bounding box
@@ -119,12 +119,12 @@ if cfg.dataset == 'nabirds':
     for folder_path in tqdm(folders):
         image_paths = os.listdir(folder_path)
         image_paths = [os.path.join(folder_path, f) for f in image_paths]
-        for path in image_paths:
+        for image_path in image_paths:
             image = cv2.imread(image_path)
             mask = get_mask_one_image(image_path)
             mask = mask == 14 # get the mask of the bird
             x, y, w, h = get_mask_object_bbox(mask)
-            mask_rectangle(mask1, x, y, w, h)
+            mask_rectangle(mask, x, y, w, h)
             
             imagedir_bb_dict[path] = [int(x),int(y),int(w),int(h)]
 
@@ -133,24 +133,35 @@ if cfg.dataset == 'nabirds':
 # %%
 #3. INat21 bounding boxes, need to use Mask2Former to detect the mask of the bird of an image, then get the bb
 if cfg.dataset == 'inat21':
-    imagedir_bb_dict = {}
+    save_bb_mask = 'mask' # save bounding box or mask
 
-    inat_image_dir = cfg.INATURALIST_DIR + '/bird_train/'
+    imagedir_bb_dict = {}
+    inat_mask_dir = './inat_masks/'
+    inat_image_dir = f"{cfg.INATURALIST_DIR}/bird_train/"
     folders = os.listdir(inat_image_dir)
     folders = [os.path.join(inat_image_dir, f) for f in folders]
 
     for folder_path in tqdm(folders):
+        folder_name = folder_path.split('/')[-1]
+
         image_paths = os.listdir(folder_path)
         image_paths = [os.path.join(folder_path, f) for f in image_paths]
-        for path in image_paths:
+        for image_path in image_paths:
+            image_name = image_path.split('/')[-1]
             image = cv2.imread(image_path)
             mask = get_mask_one_image(image_path)
             mask = mask == 14 # get the mask of the bird
-            x, y, w, h = get_mask_object_bbox(mask)
-            mask_rectangle(mask1, x, y, w, h)
             
-            imagedir_bb_dict[path] = [int(x),int(y),int(w),int(h)]
+            if save_bb_mask == 'mask':
+                if not os.path.exists(f"{inat_mask_dir}/{folder_name}"):
+                    os.makedirs(f"{inat_mask_dir}/{folder_name}")
+                cv2.imwrite(f"{inat_mask_dir}/{folder_name}/{image_name}", mask*255)
+            elif save_bb_mask == 'bb':
+                x, y, w, h = get_mask_object_bbox(mask)
+                mask_rectangle(mask, x, y, w, h)
+                imagedir_bb_dict[path] = [int(x),int(y),int(w),int(h)]
 
-    with open(f'{cfg.dataset}_bird_bb.json', "w") as json_file:
-        json.dump(imagedir_bb_dict, json_file, indent=4)
+    if save_bb_mask == 'bb':
+        with open(f'{cfg.dataset}_bird_bb.json', "w") as json_file:
+            json.dump(imagedir_bb_dict, json_file, indent=4)
 # %%
