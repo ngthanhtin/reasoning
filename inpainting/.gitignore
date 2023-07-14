@@ -1,3 +1,6 @@
 nabirds_inpaint_box/
 nabirds_inpaint_kp/
-cub_inpaint/
+cub_inpaint/*.jpg
+*.jpeg
+*.png
+*.gif
