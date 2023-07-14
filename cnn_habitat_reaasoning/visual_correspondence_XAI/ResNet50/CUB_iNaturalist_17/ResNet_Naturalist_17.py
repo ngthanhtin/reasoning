@@ -23,7 +23,7 @@ concat = lambda x: np.concatenate(x, axis=0)
 to_np  = lambda x: x.data.to('cpu').numpy()
 
 # %%
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:5" if torch.cuda.is_available() else "cpu")
 device
 
 # %%
@@ -141,17 +141,35 @@ def test_cub(model):
 # %%
 # ensemble with habitat model
 import timm
-# import clip
-# habitat_model, preprocess = clip.load("RN50", device=device)
+import clip
 
-habitat_model = timm.create_model(
-            'resnet101',
-            pretrained=True,
-            num_classes=200,
-            in_chans=3,
-        )
+habitat_model_type = 'clip' # or resnet
+
+if habitat_model_type == 'resnet':
+
+  habitat_model = timm.create_model(
+              'resnet101',
+              pretrained=True,
+              num_classes=200,
+              in_chans=3,
+          )
+elif habitat_model_type == 'clip':
+  clip_model, transform = clip.load('ViT-L/14', device=device)
+    
+  visual_encoder = clip_model.visual
+  visual_encoder.fc = nn.Identity()
+
+  for param in visual_encoder.parameters():
+      param.requires_grad = False
+    
+  habitat_model = nn.Sequential(
+                visual_encoder,
+                nn.ReLU(),
+                nn.Linear(visual_encoder.output_dim, 200)
+                ).to(torch.float32)
+  
 # habitat_model = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
-habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/9_cub_resnet101_0.078.pth'
+habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/16_cub_clip_0.104.pth'
 habitat_model.load_state_dict(torch.load(habitat_model_path))
 habitat_model.to(device)
 
@@ -221,7 +239,7 @@ def test_cub_ensemble_2(id_model, habitat_model, alpha=1):
   confidence = []
   
   with torch.inference_mode():
-    for _, (data, target, path) in enumerate(val_loader):
+    for _, (data, data2, target, path, path2) in enumerate(val_loader):
       data   = data.to(device)
       target = target.to(device)
       
@@ -327,7 +345,7 @@ def test_cub_ensemble_3(id_model, habitat_model, alpha=1):
 # %%
 for alpha in [0.5, 0.6, 0.7, 0.8, 0.9]:
     print(alpha)
-    cub_test_preds, _, cub_test_confs, _ = test_cub_ensemble_3(inat_resnet, habitat_model, alpha=alpha)
+    cub_test_preds, _, cub_test_confs, _ = test_cub_ensemble_2(inat_resnet, habitat_model, alpha=alpha)
 
 # %%
 
