@@ -43,7 +43,7 @@ class CFG:
     device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
 
     # cutmix
-    cutmix = False
+    cutmix = True
     cutmix_beta = 1.
     # data params
     n_classes = 200
@@ -192,7 +192,7 @@ if CFG.model_name == 'resnet50':
 #     classification_model.load_state_dict(my_model_state_dict, strict=True)
 
 elif CFG.model_name == 'clip':
-    clip_model, transform = clip.load('ViT-L/14')
+    clip_model, transform = clip.load('ViT-L/14', device=CFG.device)
     
     visual_encoder = clip_model.visual
     visual_encoder.fc = nn.Identity()
@@ -236,11 +236,11 @@ def train(trainloader, validloader, model, n_epoch=10):
         with torch.no_grad():
             model.eval()
             valid_loss, valid_acc = validation_epoch(validloader, model)
-            print(f'Epoch {epoch}/{n_epoch}, Valid Loss: {train_loss}, Valid Acc: {valid_acc*100}')
+            print(f'Epoch {epoch}/{n_epoch}, Valid Loss: {valid_loss}, Valid Acc: {valid_acc*100}')
             # save model
             if best_valid_acc < valid_acc:
                 best_valid_acc = valid_acc
-                torch.save(model.state_dict(), f"./{epoch}_{CFG.dataset}_{CFG.model_name}_{valid_acc:.3f}.pth")
+                torch.save(model.state_dict(), f"./{epoch}_{CFG.dataset}_{CFG.cutmix}_{CFG.model_name}_{valid_acc:.3f}.pth")
     return model
 
 # cut mix rand bbox
