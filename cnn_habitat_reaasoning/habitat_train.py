@@ -1,5 +1,6 @@
 # %%
 import torch
+import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
 from torchvision import transforms
@@ -9,12 +10,14 @@ from torch.utils.data.dataloader import DataLoader
 from torch.utils.data import random_split
 from torchvision.utils import make_grid
 
-import os, random
+import os, random, copy
 import numpy as np
 
 import timm
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
+
+import clip
 
 from visual_correspondence_XAI.ResNet50.CUB_iNaturalist_17.FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
 # %%
@@ -34,13 +37,13 @@ def set_seed(seed=None, cudnn_deterministic=True):
 class CFG:
     seed = 42
     dataset = 'cub'
-    model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
+    model_name = 'clip' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
     use_inat_pretrained = False
     device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
 
     # cutmix
-    cutmix = True
+    cutmix = False
     cutmix_beta = 1.
     # data params
     n_classes = 200
@@ -176,17 +179,33 @@ train_loader = DataLoader(train_dataset,CFG.batch_size,shuffle=True,num_workers 
 test_loader = DataLoader(test_dataset,CFG.batch_size,num_workers = 4, pin_memory = True)
 
 # %% model
-if not CFG.use_inat_pretrained:
+if CFG.model_name == 'resnet50':
     classification_model = timm.create_model(
                 CFG.model_name,
                 pretrained=CFG.pretrained,
                 num_classes=CFG.n_classes,
                 in_chans=3,
             ).to(CFG.device)
-else:
-    classification_model = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4]).to(CFG.device)
-    my_model_state_dict = torch.load('./visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
-    classification_model.load_state_dict(my_model_state_dict, strict=True)
+# else:
+#     classification_model = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4]).to(CFG.device)
+#     my_model_state_dict = torch.load('./visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
+#     classification_model.load_state_dict(my_model_state_dict, strict=True)
+
+elif CFG.model_name == 'clip':
+    clip_model, transform = clip.load('ViT-L/14')
+    
+    visual_encoder = clip_model.visual
+    visual_encoder.fc = nn.Identity()
+
+    
+    for param in visual_encoder.parameters():
+        param.requires_grad = False
+    
+    classification_model = nn.Sequential(
+                visual_encoder,
+                nn.ReLU(),
+                nn.Linear(visual_encoder.output_dim, CFG.n_classes)
+                ).to(CFG.device).to(torch.float32)
 # %%
 optimizer = torch.optim.Adam(classification_model.parameters(), lr=CFG.lr)
 
