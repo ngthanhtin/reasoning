@@ -15,7 +15,7 @@ from Inpaint_Anything.utils import load_img_to_array, save_array_to_img, dilate_
 
 # %% init inpainting module
 dataset = 'nabirds' # inat21, cub, nabirds
-device = "cuda:3" if torch.cuda.is_available() else "cpu"
+device = "cuda:5" if torch.cuda.is_available() else "cpu"
 
 def inpaint_and_save(image_path, point_coords, output_dir, pre_cal_mask=None):
     point_labels=[1 for i in range(len(point_coords))]
@@ -162,10 +162,18 @@ elif dataset == 'nabirds':
     image_folder_path = '/home/tin/datasets/nabirds/images/'
     folders = os.listdir(image_folder_path)
     folders = [os.path.join(image_folder_path, f) for f in folders]
+    
+    still_left_folders = []
+    inpaint_path = 'nabirds_inpaint_kp_full/'
+    for orig_f in os.listdir(image_folder_path):
+        if orig_f not in os.listdir(inpaint_path):
+            still_left_folders.append(orig_f)
+    # still_left_folders = still_left_folders[-3:]
 
-    folders = folders[275:185*2]
     for i, folder in tqdm(enumerate(folders)):
         folder_name = folder.split('/')[-1]
+        if folder_name not in still_left_folders:
+            continue
         output_dir = inpaint_dir + '/' + folder_name
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -243,3 +251,4 @@ elif dataset == 'inat21':
             
             # do inpaint
             inpaint_and_save(image_path, [0,0], output_dir, pre_cal_mask=mask)
+# %%
