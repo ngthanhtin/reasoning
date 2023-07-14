@@ -7,3 +7,5 @@ visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/__pycache__/
 visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/*.pth
 intel_dataset/
 *.pth
+
+__pycache__/
