@@ -1,10 +1,10 @@
-visual-correspondence-XAI/datasets/
-visual-correspondence-XAI/CHM-Corr/
-visual-correspondence-XAI/EMD-Corr/
-visual-correspondence-XAI/Human-Study/
-visual-correspondence-XAI/kNN/
-visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/__pycache__/
-visual-correspondence-XAI/ResNet-50/CUB-iNaturalist/*.pth
+visual_correspondence_XAI/datasets/
+visual_correspondence_XAI/CHM-Corr/
+visual_correspondence_XAI/EMD-Corr/
+visual_correspondence_XAI/Human-Study/
+visual_correspondence_XAI/kNN/
+visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/__pycache__/
+visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/*.pth
 intel_dataset/
 *.pth
 
