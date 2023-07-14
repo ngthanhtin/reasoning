@@ -1,4 +1,5 @@
 # %%
+# https://www.kaggle.com/code/sharansmenon/inaturalist-birds-pytorch
 import numpy as np
 import pandas as pd
 
@@ -75,7 +76,7 @@ def get_data_loaders(data_dir, batch_size, train = False):
         return (val_loader, test_loader, valid_data_len, test_data_len)
 
 # %%
-dataset_path = "/home/tin/datasets/inat2021_onlybird/bird_train/"
+dataset_path = "/home/tin/datasets/inaturalist2021_onlybird/bird_train"
 (train_loader, train_data_len) = get_data_loaders(dataset_path, 128, train=True)
 (val_loader, test_loader, valid_data_len, test_data_len) = get_data_loaders(dataset_path, 128, train=False)
 classes = get_classes(dataset_path)
@@ -107,7 +108,7 @@ formatText(classes[0])
 
 # %%
 dataiter = iter(train_loader)
-images, labels = dataiter.next()
+images, labels = next(dataiter)
 images = images.numpy() # convert images to numpy for display
 
 # plot the images in the batch, along with the corresponding labels
@@ -116,7 +117,7 @@ for idx in np.arange(20):
     ax = fig.add_subplot(2, int(20/2), idx+1, xticks=[], yticks=[])
     plt.imshow(np.transpose(images[idx], (1, 2, 0)))
     ax.set_title(formatText(classes[labels[idx]]))
-
+    plt.show()
 # %%
 device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 device
