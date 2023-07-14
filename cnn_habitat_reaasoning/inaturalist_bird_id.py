@@ -113,11 +113,11 @@ images = images.numpy() # convert images to numpy for display
 
 # plot the images in the batch, along with the corresponding labels
 fig = plt.figure(figsize=(25, 4))
-for idx in np.arange(20):
-    ax = fig.add_subplot(2, int(20/2), idx+1, xticks=[], yticks=[])
-    plt.imshow(np.transpose(images[idx], (1, 2, 0)))
-    ax.set_title(formatText(classes[labels[idx]]))
-    plt.show()
+# for idx in np.arange(20):
+#     ax = fig.add_subplot(2, int(20/2), idx+1, xticks=[], yticks=[])
+#     plt.imshow(np.transpose(images[idx], (1, 2, 0)))
+#     ax.set_title(formatText(classes[labels[idx]]))
+#     plt.show()
 # %%
 device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 device
@@ -127,30 +127,39 @@ torch.backends.cudnn.benchmark = True
 
 # %%
 # model = models.efficientnet_b3(pretrained=True)
-model = timm.create_model("tf_efficientnetv2_b0", pretrained=True)
+model_name = 'resnet50' # tf_efficientnetv2_b0
+model = timm.create_model(model_name, pretrained=True)
 # model = torch.hub.load('facebookresearch/deit:main', 'deit_tiny_patch16_224', pretrained=True)
-
+print(model)
 # %%
 for param in model.parameters():
     param.requires_grad = False
 
-n_inputs = model.classifier.in_features
-
-model.classifier = nn.Sequential(
+if model_name == 'tf_efficientnetv2_b0':
+    n_inputs = model.classifier.in_features
+    model.classifier = nn.Sequential(
     nn.Linear(n_inputs,2048),
     nn.SiLU(),
     nn.Dropout(0.3),
-    nn.Linear(2048, len(classes))
-)
-
+    nn.Linear(2048, len(classes)))
+    model_params = model.classifier.parameters()
+elif model_name == 'resnet50':
+    n_inputs = model.fc.in_features
+    model.fc = nn.Sequential(
+        nn.Linear(n_inputs,2048),
+        nn.SiLU(),
+        nn.Dropout(0.3),
+        nn.Linear(2048, len(classes))
+    )
+    model_params = model.fc.parameters()
+    
 model = model.to(device)
-print(model.classifier)
 
 # %%
 criterion = LabelSmoothingCrossEntropy()
 # criterion = nn.CrossEntropyLoss()
 criterion = criterion.to(device)
-optimizer = optim.Adam(model.classifier.parameters(), lr=0.001)
+optimizer = optim.Adam(model_params, lr=0.001)
 
 # %%
 training_history = {'accuracy':[],'loss':[]}
@@ -252,7 +261,7 @@ model_ft.eval()
 
 for data, target in tqdm(test_loader):
     if torch.cuda.is_available(): 
-        data, target = data.cuda(), target.cuda()
+        data, target = data.to(device), target.to(device)
     with torch.no_grad():
         output = model_ft(data)
         loss = criterion(output, target)
@@ -287,7 +296,7 @@ print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
 # %%
 example = torch.rand(1, 3, 224, 224)
 traced_script_module = torch.jit.trace(model_ft.cpu(), example)
-traced_script_module.save("birds-classification-effnetv2-b0.pth")
+traced_script_module.save(f"birds-classification-{model_name}.pth")
 
 # %%
 
