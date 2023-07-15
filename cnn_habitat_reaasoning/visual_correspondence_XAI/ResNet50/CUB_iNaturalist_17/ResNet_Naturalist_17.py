@@ -143,7 +143,7 @@ def test_cub(model):
 import timm
 import clip
 
-habitat_model_type = 'clip' # or resnet
+habitat_model_type = 'resnet_fix' # or resnet
 
 if habitat_model_type == 'resnet':
 
@@ -153,6 +153,7 @@ if habitat_model_type == 'resnet':
               num_classes=200,
               in_chans=3,
           )
+  habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/9_cub_resnet101_0.078.pth'
 elif habitat_model_type == 'clip':
   clip_model, transform = clip.load('ViT-L/14', device=device)
     
@@ -167,10 +168,24 @@ elif habitat_model_type == 'clip':
                 nn.ReLU(),
                 nn.Linear(visual_encoder.output_dim, 200)
                 ).to(torch.float32)
+  habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/16_cub_clip_0.104.pth'
+
+elif habitat_model_type == 'resnet_fix':
+  habitat_model = timm.create_model('resnet101', pretrained=True)
+  n_inputs = habitat_model.fc.in_features
+  habitat_model.fc = nn.Sequential(
+        nn.Linear(n_inputs,2048),
+        nn.SiLU(),
+        nn.Dropout(0.3),
+        nn.Linear(2048, 200))
+  habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/cub-7-resnet101-inpaint.pth'
   
 # habitat_model = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
-habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/16_cub_clip_0.104.pth'
-habitat_model.load_state_dict(torch.load(habitat_model_path))
+if habitat_model_type == 'resnet_fix':
+  habitat_model = torch.jit.load(habitat_model_path)
+else:
+  habitat_model.load_state_dict(torch.load(habitat_model_path))
+
 habitat_model.to(device)
 
 # %%
@@ -345,7 +360,7 @@ def test_cub_ensemble_3(id_model, habitat_model, alpha=1):
 # %%
 for alpha in [0.5, 0.6, 0.7, 0.8, 0.9]:
     print(alpha)
-    cub_test_preds, _, cub_test_confs, _ = test_cub_ensemble_2(inat_resnet, habitat_model, alpha=alpha)
+    cub_test_preds, _, cub_test_confs, _ = test_cub_ensemble_3(inat_resnet, habitat_model, alpha=alpha)
 
 # %%
 
