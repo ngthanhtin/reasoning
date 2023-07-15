@@ -1,32 +1,28 @@
 # %%
 import numpy as np
 import pandas as pd
+from PIL import Image
+import matplotlib.pyplot as plt
+from collections import defaultdict
 
-# %%
 import torch
-import torchvision
 from torchvision import datasets, transforms
 from torch import nn, optim
 from torch.nn import functional as F
-from torch.utils.data import DataLoader, sampler, random_split
+from torch.utils.data import DataLoader, Dataset
 from torchvision.utils import make_grid
+from sklearn.model_selection import train_test_split
 from torchvision import models
 
-# %%
 import timm
 from timm.loss import LabelSmoothingCrossEntropy
-from timm.data import create_transform
 
-
-# %%
 import warnings
 warnings.filterwarnings("ignore")
 
-# %%
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# %%
 import os
 import sys
 from tqdm import tqdm
@@ -40,7 +36,7 @@ class CFG:
     dataset = 'inat21' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
@@ -64,6 +60,17 @@ class CFG:
     # explaination
     explaination = False
 
+    # ensemble
+    ensemble = True
+
+    # inat21
+    inat21_df_path = 'inat21_onlybirds.csv'
+    write_inat_to_df = not os.path.exists(inat21_df_path)
+
+    # %%
+    training_history = {'accuracy':[],'loss':[]}
+    validation_history = {'accuracy':[],'loss':[]}
+
 # %%
 def set_seed(seed=None, cudnn_deterministic=True):
     if seed is None:
@@ -80,7 +87,7 @@ def set_seed(seed=None, cudnn_deterministic=True):
 set_seed(seed=CFG.seed)
 
 # %%
-def get_data_loaders(dataset, batch_size, train = False):
+def Augment(train = False):
     if train:
         transform = transforms.Compose([
             transforms.RandomHorizontalFlip(p=0.5),
@@ -92,30 +99,6 @@ def get_data_loaders(dataset, batch_size, train = False):
             transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
             transforms.RandomErasing(p=0.2, value='random')
         ])
-        if dataset in ['cub', 'nabirds']:
-            if dataset == 'cub':
-                img_folder = 'CUB_inpaint_all_train/' if CFG.is_inpaint else 'CUB/train/'
-            else:
-                img_folder = 'train_inpaint/' if CFG.is_inpaint else 'train/'
-
-            train_data_dir = f"{CFG.dataset2path[dataset]}/{img_folder}"
-            train_data = datasets.ImageFolder(train_data_dir, transform=transform)
-            train_data_len = len(train_data)
-            classes = train_data.classes
-        elif dataset == 'inat21':
-            data_dir = CFG.dataset2path[dataset] + '/bird_train'
-            all_data = datasets.ImageFolder(data_dir, transform=transform)
-
-            train_data_len = int(len(all_data)*0.78) 
-            valid_data_len = int((len(all_data) - train_data_len)/2) 
-            test_data_len = int(len(all_data) - train_data_len - valid_data_len) 
-        
-            train_data, val_data, test_data = random_split(all_data, [train_data_len, valid_data_len, test_data_len])
-            classes = all_data.classes
-        train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True, num_workers=4)
-
-        return train_loader, train_data_len, classes
-    
     else:
         transform = transforms.Compose([
             transforms.Resize(256),
@@ -123,54 +106,162 @@ def get_data_loaders(dataset, batch_size, train = False):
             transforms.ToTensor(),
             transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         ])
+    
+    return transform
 
-        if dataset in ['cub', 'nabirds']:
-            if dataset == 'cub':
-                img_folder = 'CUB_inpaint_all_test/' if CFG.is_inpaint else 'CUB/test/'
-            else:
-                img_folder = 'test_inpaint/' if CFG.is_inpaint else 'test/'
+class Inat21_Dataset(Dataset):
+    def __init__(self, df, transform=None, mode='train', inpaint=False):
+        self.df = df
+        self.df = self.df[self.df['Mode'] == mode]
+        self.mode = mode
+        self.transform = transform
+        self.inpaint = inpaint
 
-            test_data_dir = f"{CFG.dataset2path[dataset]}/{img_folder}"
-            test_data = datasets.ImageFolder(test_data_dir, transform=transform)
-            val_data = test_data
-            valid_data_len = len(val_data)
-            test_data_len = len(test_data)
-            classes = test_data.classes
-        elif dataset == 'inat21':
+    def __len__(self):
+        return len(self.df)
+
+    def __getitem__(self, index):
+        image_path, label, mode = self.df.iloc[index].to_list()
+        if self.inpaint:
+            image_path = image_path.replace("bird_train", "inat21_inpaint_all")
+
+        label = int(label)
+        image = Image.open(image_path).convert("RGB")
+
+        if self.transform is not None:
+            image = self.transform(image)
+
+        return image, label
+    
+def get_data_loaders(dataset, batch_size):
+    """
+    Get the train, val, test dataloader
+    """
+    if dataset in ['cub', 'nabirds']:
+        if dataset == 'cub':
+            train_img_folder = 'CUB_inpaint_all_train/' if CFG.is_inpaint else 'CUB/train/'
+            test_img_folder = 'CUB_inpaint_all_test/' if CFG.is_inpaint else 'CUB/test/'
+        else:
+            train_img_folder = 'train_inpaint/' if CFG.is_inpaint else 'train/'
+            test_img_folder = 'test_inpaint/' if CFG.is_inpaint else 'test/'
+
+        # train data
+        train_data_dir = f"{CFG.dataset2path[dataset]}/{train_img_folder}"
+        train_data = datasets.ImageFolder(train_data_dir, transform=Augment(train=True))
+        train_data_len = len(train_data)
+
+        # val, test data
+        test_data_dir = f"{CFG.dataset2path[dataset]}/{test_img_folder}"
+        test_data = datasets.ImageFolder(test_data_dir, transform=Augment(train=False))
+        val_data = test_data
+        valid_data_len = len(val_data)
+        test_data_len = len(test_data)
+        
+        train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True, num_workers=4)
+        val_loader = DataLoader(val_data, batch_size=batch_size, shuffle=False, num_workers=4)
+        test_loader = DataLoader(test_data, batch_size=batch_size, shuffle=False, num_workers=4)
+
+        classes = train_data.classes
+
+    elif dataset == 'inat21':
+        if not CFG.is_inpaint:
             data_dir = CFG.dataset2path[dataset] + '/bird_train'
-            all_data = datasets.ImageFolder(data_dir, transform=transform)
-            train_data_len = int(len(all_data)*0.78) # 80%
-            valid_data_len = int((len(all_data) - train_data_len)/2) # 10%
-            test_data_len = int(len(all_data) - train_data_len - valid_data_len) # 10%
-            train_data, val_data, test_data = random_split(all_data, [train_data_len, valid_data_len, test_data_len])
-            classes = all_data.classes
-        val_loader = DataLoader(val_data, batch_size=batch_size, shuffle=True, num_workers=4)
-        test_loader = DataLoader(test_data, batch_size=batch_size, shuffle=True, num_workers=4)
+        else:
+            data_dir = CFG.dataset2path[dataset] + '/inat21_inpaint_all'
 
-        return (val_loader, test_loader, valid_data_len, test_data_len, classes)
+        train_data_percent = 0.8
+        test_data_percent = 0.1
+        valid_data_percent = 0.1
 
+        # Get the list of image file paths and their corresponding labels
+        data = []
+        label2idx = {}
+        for i, label in enumerate(os.listdir(data_dir)):
+            label2idx[label] = i
+        for label in os.listdir(data_dir):
+            label_folder = os.path.join(data_dir, label)
+            if os.path.isdir(label_folder):
+                for filename in os.listdir(label_folder):
+                    image_path = os.path.join(label_folder, filename)
+                    data.append((image_path, label2idx[label]))
+        
+        y = [idx for path, idx in data]
+        y =  np.array(y)
+        train_data, test_data = train_test_split(data, test_size=test_data_percent, stratify=y, random_state=CFG.seed)
+        train_data, val_data = train_test_split(train_data, test_size=valid_data_percent, random_state=CFG.seed)
+
+        if CFG.write_inat_to_df:
+            # write to dataframe
+            train_df = pd.DataFrame(train_data, columns=["Path", "Label"])
+            train_df["Mode"] = ["train" for _ in range(len(train_data))]
+            val_df = pd.DataFrame(val_data, columns=["Path", "Label"])
+            val_df["Mode"] = ["val" for _ in range(len(val_data))]
+            test_df = pd.DataFrame(test_data, columns=["Path", "Label"])
+            test_df["Mode"] = ["test" for _ in range(len(test_data))]
+            df = pd.concat([train_df, val_df, test_df], ignore_index=True)
+            df.to_csv(CFG.inat21_df_path, index=False)
+        else:
+            df = pd.read_csv(CFG.inat21_df_path)
+        # generate subset based on indices
+        train_dataset = Inat21_Dataset(df, transform=Augment(train=True), mode='train', inpaint=CFG.is_inpaint)
+        test_dataset = Inat21_Dataset(df, transform=Augment(train=False), mode='test', inpaint=CFG.is_inpaint)
+        val_dataset = Inat21_Dataset(df, transform=Augment(train=False), mode='val', inpaint=CFG.is_inpaint)
+
+        train_loader = DataLoader(train_dataset, batch_size=CFG.batch_size, shuffle=True, num_workers=4)
+        val_loader = DataLoader(val_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
+        test_loader = DataLoader(test_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
+
+        classes = os.listdir(data_dir)
+        train_data_len, valid_data_len, test_data_len = len(train_dataset), len(val_dataset), len(test_dataset)
+
+    return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes)
 # %%
-(train_loader, train_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size, train=True)
-(val_loader, test_loader, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size, train=False)
+(train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
+# %%
+visualize_loader = False
+if CFG.dataset == 'inat21' and visualize_loader:
+    class_counts = defaultdict(int)
 
+    for _, labels in train_loader:
+        for label in labels:
+            label = label.item()
+            class_counts[label] += 1
+    print("Counting finished !!!")
+
+    num_bins = 5  
+    num_classes = len(class_counts)
+    print("Num classes: ", num_classes)
+
+    bins = defaultdict(int)
+    other_bin_count = 0
+    bin_id = 1
+    for i, (class_label, count) in enumerate(class_counts.items()):
+        if i < (num_classes/num_bins)*bin_id:
+            bins[bin_id] += count
+        else:
+            bin_id += 1
+    
+    for bin_id, count in bins.items():
+        print(f"Bin {bin_id}: {count} samples")
+
+    # Plot the reduced class statistics
+    plt.bar(bins.keys(), bins.values())
+    plt.xlabel("Class Label")
+    plt.ylabel("Sample Count")
+    plt.title("Reduced Class Statistics")
+    plt.show()
 # %%
 dataloaders = {
     "train":train_loader,
-    "val": val_loader
+    "val": val_loader,
+    "test": test_loader
 }
 dataset_sizes = {
     "train":train_data_len,
-    "val": valid_data_len
+    "val": valid_data_len,
+    "test": test_data_len
 }
-
-# %%
-print(len(train_loader))
-print(len(val_loader))
-print(len(test_loader))
-
-# %%
-print(train_data_len, test_data_len, valid_data_len)
-
+dataset_sizes
 # %%
 def formatText(class_label):
     return " ".join(class_label.split("_")[-2:])
@@ -189,46 +280,35 @@ fig = plt.figure(figsize=(25, 4))
 #     ax.set_title(formatText(classes[labels[idx]]))
 #     plt.show()
 # %%
-# model = models.efficientnet_b3(pretrained=True)
-model_name = 'resnet101' # tf_efficientnetv2_b0
-model = timm.create_model(model_name, pretrained=True)
-# model = torch.hub.load('facebookresearch/deit:main', 'deit_tiny_patch16_224', pretrained=True)
-# %%
-for param in model.parameters():
-    param.requires_grad = False
 
-if model_name == 'tf_efficientnetv2_b0':
-    n_inputs = model.classifier.in_features
-    model.classifier = nn.Sequential(
-    nn.Linear(n_inputs,2048),
-    nn.SiLU(),
-    nn.Dropout(0.3),
-    nn.Linear(2048, len(classes)))
-    model_params = model.classifier.parameters()
-elif model_name in ['resnet50', 'resnet101']:
-    n_inputs = model.fc.in_features
-    model.fc = nn.Sequential(
+def get_model():
+    # model = models.efficientnet_b3(pretrained=True)
+    model_name = CFG.model_name #'resnet101' # tf_efficientnetv2_b0
+    model = timm.create_model(model_name, pretrained=True)
+    # model = torch.hub.load('facebookresearch/deit:main', 'deit_tiny_patch16_224', pretrained=True)
+
+    for param in model.parameters():
+        param.requires_grad = False
+
+    if model_name == 'tf_efficientnetv2_b0':
+        n_inputs = model.classifier.in_features
+        model.classifier = nn.Sequential(
         nn.Linear(n_inputs,2048),
         nn.SiLU(),
         nn.Dropout(0.3),
-        nn.Linear(2048, len(classes))
-    )
-    model_params = model.fc.parameters()
-    
-model = model.to(CFG.device)
+        nn.Linear(2048, len(classes)))
+        model_params = model.classifier.parameters()
+    elif model_name in ['resnet50', 'resnet101']:
+        n_inputs = model.fc.in_features
+        model.fc = nn.Sequential(
+            nn.Linear(n_inputs,2048),
+            nn.SiLU(),
+            nn.Dropout(0.3),
+            nn.Linear(2048, len(classes))
+        )
+        model_params = model.fc.parameters()
 
-# %%
-criterion = LabelSmoothingCrossEntropy()
-# criterion = nn.CrossEntropyLoss()
-criterion = criterion.to(CFG.device)
-optimizer = optim.Adam(model_params, lr=CFG.lr)
-
-# %%
-training_history = {'accuracy':[],'loss':[]}
-validation_history = {'accuracy':[],'loss':[]}
-
-# %%
-exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
+    return model, model_params
 
 # %%
 # cut mix rand bbox
@@ -312,7 +392,6 @@ def show_batch_cutmix_images(dataloader):
         ax.imshow(make_grid(images,nrow=16).permute(1,2,0))
         break
 
-show_batch_cutmix_images(test_loader)
 # %%
 def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
     since = time.time()
@@ -372,11 +451,11 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
             epoch_acc = running_corrects.double() / dataset_sizes[phase]
             
             if phase == 'train':
-                training_history['accuracy'].append(epoch_acc)
-                training_history['loss'].append(epoch_loss)
+                CFG.training_history['accuracy'].append(epoch_acc)
+                CFG.training_history['loss'].append(epoch_loss)
             elif phase == 'val':
-                validation_history['accuracy'].append(epoch_acc)
-                validation_history['loss'].append(epoch_loss)
+                CFG.validation_history['accuracy'].append(epoch_acc)
+                CFG.validation_history['loss'].append(epoch_loss)
 
             print('{} Loss: {:.4f} Acc: {:.4f}'.format(
                 phase, epoch_loss, epoch_acc))
@@ -385,8 +464,7 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
             if phase == 'val' and epoch_acc > best_acc:
                 best_acc = epoch_acc
                 best_model_wts = copy.deepcopy(model.state_dict())
-
-        print()
+                torch.save(model.state_dict(), f"{CFG.dataset}-{epoch}-{best_acc:.3f}-{CFG.model_name}-inpaint_{CFG.is_inpaint}.pth")
 
     time_elapsed = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(
@@ -398,60 +476,131 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
     return model
 
 # %%
-model_ft = train_model(model, criterion, optimizer, exp_lr_scheduler,
-                       num_epochs=CFG.epochs)
+if not CFG.ensemble:
+    model, model_params = get_model()
+    model.to(CFG.device)
+
+    criterion = LabelSmoothingCrossEntropy()
+    # criterion = nn.CrossEntropyLoss()
+    criterion = criterion.to(CFG.device)
+    optimizer = optim.Adam(model_params, lr=CFG.lr)
+
+    exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
+
+    model_ft = train_model(model, criterion, optimizer, exp_lr_scheduler,
+                        num_epochs=CFG.epochs)
+    torch.cuda.empty_cache()
 
 # %%
-torch.cuda.empty_cache()
+if not CFG.ensemble:
+
+    test_loss = 0.0
+    class_correct = list(0. for i in range(len(classes)))
+    class_total = list(0. for i in range(len(classes)))
+
+    model_ft.eval()
+
+    for data, target in tqdm(test_loader):
+        if torch.cuda.is_available(): 
+            data, target = data.to(CFG.device), target.to(CFG.device)
+        with torch.no_grad():
+            output = model_ft(data)
+            loss = criterion(output, target)
+        test_loss += loss.item()*data.size(0)
+        _, pred = torch.max(output, 1)    
+        correct_tensor = pred.eq(target.data.view_as(pred))
+        correct = np.squeeze(correct_tensor.numpy()) if not torch.cuda.is_available() else np.squeeze(correct_tensor.cpu().numpy())
+        if len(target) == CFG.batch_size:
+            for i in range(CFG.batch_size):
+                label = target.data[i]
+                class_correct[label] += correct[i].item()
+                class_total[label] += 1
+
+    test_loss = test_loss/len(test_loader.dataset)
+    print('Test Loss: {:.6f}\n'.format(test_loss))
+
+    # for i in range(len(classes)):
+    #     if class_total[i] > 0:
+    #         print('Test Accuracy of %5s: %2d%% (%2d/%2d)' % (
+    #             formatText(classes[i]), 100 * class_correct[i] / class_total[i],
+    #             np.sum(class_correct[i]), np.sum(class_total[i])))
+    #     else:
+    #         print('Test Accuracy of %5s: N/A (no training examples)' % (classes[i]))
+
+    test_acc = round(100. * np.sum(class_correct) / np.sum(class_total), 3)
+    print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
+        test_acc,
+        np.sum(class_correct), np.sum(class_total)))
+
+# %% ensemble
+def test_cub_ensemble(id_model, habitat_model, id_loader, habitat_loader, alpha=1):
+    id_model.eval()
+    habitat_model.eval()
+    
+    running_loss = 0.0
+    running_corrects = 0
+  
+    predictions = []
+    targets = []
+    paths = []
+    confidence = []
+
+    criterion = nn.CrossEntropyLoss()
+    bs = CFG.batch_size
+
+    with torch.inference_mode():
+        for _, ((data1, target1), (data2, target2)) in tqdm(enumerate(zip(id_loader, habitat_loader))): # dont shuffle the loaders
+            data1   = data1.to(CFG.device)
+            data2   = data2.to(CFG.device)
+            for tg1 in target1:
+                if tg1 not in target2:
+                    print('WRONG')
+            else:
+                target = target1
+            target = target.to(CFG.device)
+        
+            id_feat = id_model(data1)
+            habitat_feat = habitat_model(data2)
+            outputs = id_feat*alpha + habitat_feat*(1-alpha)
+            # outputs = outputs.unsqueeze(0)
+
+            loss = criterion(outputs, target)
+            _, preds = torch.max(outputs, 1)
+            probs, _ = torch.max(F.softmax(outputs, dim=1), 1)
+            running_loss += loss.item() * target.size(0)
+            running_corrects += torch.sum(preds == target.data)
+            
+            predictions.extend(preds.data.cpu().numpy())
+            targets.extend(target.data.cpu().numpy())
+        
+            confidence.extend((probs.data.cpu().numpy()*100).astype(np.int32))
+
+        epoch_loss = running_loss / (len(id_loader)*bs)
+        epoch_acc = running_corrects.double() / (len(id_loader)*bs)
+
+    print('-' * 10)
+    print('loss: {:.4f}, acc: {:.4f}'.format(epoch_loss, 100*epoch_acc))
+    
+    return predictions, targets, confidence
 
 # %%
-from tqdm import tqdm
-test_loss = 0.0
-class_correct = list(0. for i in range(len(classes)))
-class_total = list(0. for i in range(len(classes)))
+if CFG.ensemble:
+    # get models
+    id_model, params = get_model()
+    id_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/traditionally_inat21-61.359-resnet101-inpaint_False.pth'))
+    id_model.to(CFG.device)
+    habitat_model, params = get_model()
+    habitat_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/traditionally_inat21-61.359-resnet101-inpaint_True.pth'))
+    habitat_model.to(CFG.device)
+    # get loaders
+    CFG.is_inpaint = False
+    (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
+    id_test_loader = val_loader
+    CFG.is_inpaint = True
+    (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
+    habitat_test_loader = val_loader
 
-model_ft.eval()
-
-for data, target in tqdm(test_loader):
-    if torch.cuda.is_available(): 
-        data, target = data.to(CFG.device), target.to(CFG.device)
-    with torch.no_grad():
-        output = model_ft(data)
-        loss = criterion(output, target)
-    test_loss += loss.item()*data.size(0)
-    _, pred = torch.max(output, 1)    
-    correct_tensor = pred.eq(target.data.view_as(pred))
-    correct = np.squeeze(correct_tensor.numpy()) if not torch.cuda.is_available() else np.squeeze(correct_tensor.cpu().numpy())
-    if len(target) == CFG.batch_size:
-      for i in range(CFG.batch_size):
-          label = target.data[i]
-          class_correct[label] += correct[i].item()
-          class_total[label] += 1
-
-test_loss = test_loss/len(test_loader.dataset)
-print('Test Loss: {:.6f}\n'.format(test_loss))
-
-# for i in range(len(classes)):
-#     if class_total[i] > 0:
-#         print('Test Accuracy of %5s: %2d%% (%2d/%2d)' % (
-#             formatText(classes[i]), 100 * class_correct[i] / class_total[i],
-#             np.sum(class_correct[i]), np.sum(class_total[i])))
-#     else:
-#         print('Test Accuracy of %5s: N/A (no training examples)' % (classes[i]))
-
-test_acc = round(100. * np.sum(class_correct) / np.sum(class_total), 3)
-print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
-    test_acc,
-    np.sum(class_correct), np.sum(class_total)))
-
-# %% save model tradditionally
-torch.save(model.state_dict(), f"traditionally_{CFG.dataset}-{test_acc}-{model_name}-inpaint_{CFG.is_inpaint}.pth")
+    for alpha in [0.5, 0.6, 0.7, 0.8, 0.9]:
+        print(alpha)
+        cub_test_preds, _, cub_test_confs = test_cub_ensemble(id_model, habitat_model, id_test_loader, habitat_test_loader, alpha=alpha)
 # %%
-example = torch.rand(1, 3, 224, 224)
-traced_script_module = torch.jit.trace(model_ft.cpu(), example)
-traced_script_module.save(f"{CFG.dataset}-{test_acc}-{model_name}-inpaint_{CFG.is_inpaint}.pth")
-
-# %%
-
-
-
