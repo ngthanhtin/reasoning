@@ -36,7 +36,7 @@ class CFG:
     dataset = 'inat21' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
@@ -61,7 +61,7 @@ class CFG:
     explaination = False
 
     # ensemble
-    ensemble = True
+    ensemble = False
 
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
@@ -393,87 +393,81 @@ def show_batch_cutmix_images(dataloader):
         break
 
 # %%
-def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
-    since = time.time()
-
-    best_model_wts = copy.deepcopy(model.state_dict())
-    best_acc = 0.0
-
+def train(trainloader, validloader, optimizer, criterion, scheduler, model, num_epochs = 10):
+    
+    best_acc = 0.
     for epoch in range(num_epochs):
-        print('Epoch {}/{}'.format(epoch, num_epochs - 1))
-        print('-' * 10)
-
-        # Each epoch has a training and validation phase
-        for phase in ['train', 'val']:
-            if phase == 'train':
-                model.train()  # Set model to training mode
-            else:
-                model.eval()   # Set model to evaluate mode
-
-            running_loss = 0.0
-            running_corrects = 0
-
-            # Iterate over data.
-            for inputs, labels in tqdm(dataloaders[phase]):
-                inputs = inputs.to(CFG.device)
-                labels = labels.to(CFG.device)
-
-                if phase == 'train' and CFG.cutmix and random.random() > 0.4:
-                    # lam = np.random.beta(CFG.cutmix_beta, CFG.cutmix_beta)
-                    # rand_index = torch.randperm(images.size()[0])
-                    # bbx1, bby1, bbx2, bby2 = rand_bbox(images.size(), lam)    
-                    # images[:, bbx1:bbx2, bby1:bby2, :] = images[rand_index, bbx1:bbx2, bby1:bby2, :]
-                    images, labels = cutmix_same_class(images, labels, CFG.cutmix_beta)
-                    images = images.to(CFG.device)
-                    labels = labels.to(CFG.device)
-                # zero the parameter gradients
-                optimizer.zero_grad()
-
-                # forward
-                # track history if only in train
-                with torch.set_grad_enabled(phase == 'train'):
-                    outputs = model(inputs)
-                    _, preds = torch.max(outputs, 1)
-                    loss = criterion(outputs, labels)
-
-                    # backward + optimize only if in training phase
-                    if phase == 'train':
-                        loss.backward()
-                        optimizer.step()
-
-                # statistics
-                running_loss += loss.item() * inputs.size(0)
-                running_corrects += torch.sum(preds == labels.data)
-            if phase == 'train':
-                scheduler.step()
-
-            epoch_loss = running_loss / dataset_sizes[phase]
-            epoch_acc = running_corrects.double() / dataset_sizes[phase]
-            
-            if phase == 'train':
-                CFG.training_history['accuracy'].append(epoch_acc)
-                CFG.training_history['loss'].append(epoch_loss)
-            elif phase == 'val':
-                CFG.validation_history['accuracy'].append(epoch_acc)
-                CFG.validation_history['loss'].append(epoch_loss)
-
-            print('{} Loss: {:.4f} Acc: {:.4f}'.format(
-                phase, epoch_loss, epoch_acc))
-
-            # deep copy the model
-            if phase == 'val' and epoch_acc > best_acc:
-                best_acc = epoch_acc
-                best_model_wts = copy.deepcopy(model.state_dict())
+        print("")
+        model.train()
+        train_loss, train_acc = train_epoch(trainloader, model, criterion, optimizer)
+        print(f"Epoch {epoch}/{num_epochs}, Train Loss: {train_loss:.3f}, Train Acc: {train_acc:.3f}") #, LR: {scheduler.get_lr()}")
+        
+        with torch.no_grad():    
+            valid_loss, valid_acc = evaluate_epoch(validloader, criterion, model)     
+            print(f"Epoch {epoch}/{num_epochs}, Valid Loss: {valid_loss:.3f}, Valid Acc: {valid_acc:.3f}")
+            # save model
+            if best_acc <= valid_acc:
+                print("Saving...")
+                best_acc = valid_acc
                 torch.save(model.state_dict(), f"{CFG.dataset}-{epoch}-{best_acc:.3f}-{CFG.model_name}-inpaint_{CFG.is_inpaint}.pth")
-
-    time_elapsed = time.time() - since
-    print('Training complete in {:.0f}m {:.0f}s'.format(
-        time_elapsed // 60, time_elapsed % 60))
-    print('Best val Acc: {:4f}'.format(best_acc))
-
-    # load best model weights
-    model.load_state_dict(best_model_wts)
+        
+            scheduler.step()
+    
     return model
+
+# %%
+def train_epoch(trainloader, model, criterion, optimizer):
+    model.train()
+    losses = []
+    accs = []
+
+    for inputs, labels in tqdm(trainloader):
+        inputs = inputs.to(CFG.device)
+        labels = labels.to(CFG.device)
+
+        if CFG.cutmix and random.random() > 0.4:
+            # lam = np.random.beta(CFG.cutmix_beta, CFG.cutmix_beta)
+            # rand_index = torch.randperm(images.size()[0])
+            # bbx1, bby1, bbx2, bby2 = rand_bbox(images.size(), lam)    
+            # images[:, bbx1:bbx2, bby1:bby2, :] = images[rand_index, bbx1:bbx2, bby1:bby2, :]
+            images, labels = cutmix_same_class(images, labels, CFG.cutmix_beta)
+            images = images.to(CFG.device)
+            labels = labels.to(CFG.device)
+
+        # zero the parameter gradients
+        optimizer.zero_grad()
+
+        outputs = model(inputs)
+        _, preds = torch.max(outputs, 1)
+        loss = criterion(outputs, labels)
+
+        loss.backward()
+        optimizer.step()
+
+        # statistics
+        losses.append(loss.item())
+        accs.append((torch.sum(preds == labels.data)/CFG.batch_size).detach().cpu().numpy())
+            
+    return np.mean(losses), np.mean(accs)
+
+# %%
+def evaluate_epoch(validloader, criterion, model):
+    model.eval()
+    losses = []
+    accs = []
+
+    for inputs, labels in tqdm(validloader):
+        inputs = inputs.to(CFG.device)
+
+        outputs = model(inputs).detach().cpu() 
+        _, preds = torch.max(outputs, 1)
+        loss = criterion(outputs, labels)
+
+        # statistics
+        losses.append(loss.item())
+        accs.append(torch.sum(preds == labels.data)/CFG.batch_size)
+            
+    return np.mean(losses), np.mean(accs)
 
 # %%
 if not CFG.ensemble:
@@ -487,16 +481,17 @@ if not CFG.ensemble:
 
     exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 
-    model_ft = train_model(model, criterion, optimizer, exp_lr_scheduler,
-                        num_epochs=CFG.epochs)
-    torch.cuda.empty_cache()
+    model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
+    with torch.no_grad():    
+        test_loss, test_acc = evaluate_epoch(test_loader, criterion, model_ft)   
+        print(f"Test Loss: {test_loss}, Valid Acc: {test_acc}")
 
 # %%
 if not CFG.ensemble:
 
     test_loss = 0.0
-    class_correct = list(0. for i in range(len(classes)))
-    class_total = list(0. for i in range(len(classes)))
+    class_correct = [0. for _ in range(len(classes))]
+    class_total = [0. for _ in range(len(classes))]
 
     model_ft.eval()
 
