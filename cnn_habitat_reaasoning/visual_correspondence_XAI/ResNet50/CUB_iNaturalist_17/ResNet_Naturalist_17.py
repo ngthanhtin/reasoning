@@ -19,11 +19,7 @@ import torchvision.transforms as transforms
 from FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
 
 # %%
-concat = lambda x: np.concatenate(x, axis=0)
-to_np  = lambda x: x.data.to('cpu').numpy()
-
-# %%
-device = torch.device("cuda:5" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:7" if torch.cuda.is_available() else "cpu")
 device
 
 # %%
@@ -143,7 +139,7 @@ def test_cub(model):
 import timm
 import clip
 
-habitat_model_type = 'resnet_fix' # or resnet
+habitat_model_type = 'resnet' # or resnet
 
 if habitat_model_type == 'resnet':
 
@@ -153,7 +149,7 @@ if habitat_model_type == 'resnet':
               num_classes=200,
               in_chans=3,
           )
-  habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/9_cub_resnet101_0.078.pth'
+  habitat_model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/cub-4-0.079-resnet101-inpaint_True.pth'
 elif habitat_model_type == 'clip':
   clip_model, transform = clip.load('ViT-L/14', device=device)
     
