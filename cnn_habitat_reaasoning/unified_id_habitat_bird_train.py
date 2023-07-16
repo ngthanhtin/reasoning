@@ -37,7 +37,7 @@ class CFG:
     dataset = 'cub' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
@@ -46,7 +46,6 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    is_inpaint = False
 
     # cutmix
     cutmix = False
@@ -61,16 +60,9 @@ class CFG:
     # explaination
     explaination = False
 
-    # ensemble
-    ensemble = False
-
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
     write_inat_to_df = not os.path.exists(inat21_df_path)
-
-    # %%
-    training_history = {'accuracy':[],'loss':[]}
-    validation_history = {'accuracy':[],'loss':[]}
 
     # focal loss
     fl_alpha = 1.0  # alpha of focal_loss
@@ -78,8 +70,7 @@ class CFG:
     class_weights = []
 
     # save folder
-    save_folder    = f'./{dataset}_{model_name}_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/' if is_inpaint else \
-    f'./{dataset}_{model_name}_no_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    save_folder    = f'./{dataset}_unified_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
@@ -121,51 +112,71 @@ def Augment(train = False):
     
     return transform
 
-class Inat21_Dataset(Dataset):
-    def __init__(self, df, transform=None, mode='train', inpaint=False):
+class Unified_Inat21_Dataset(Dataset):
+    def __init__(self, df, transform=None, mode='train'):
         self.df = df
         self.df = self.df[self.df['Mode'] == mode]
         self.mode = mode
         self.transform = transform
-        self.inpaint = inpaint
 
     def __len__(self):
         return len(self.df)
 
     def __getitem__(self, index):
-        image_path, label, mode = self.df.iloc[index].to_list()
-        if self.inpaint:
-            image_path = image_path.replace("bird_train", "inat21_inpaint_all")
+        orig_image_path, label, mode = self.df.iloc[index].to_list()
+        inpaint_image_path = orig_image_path.replace("bird_train", "inat21_inpaint_all")
 
         label = int(label)
-        image = Image.open(image_path).convert("RGB")
+        image = Image.open(orig_image_path).convert("RGB")
+        inpaint_image = Image.open(inpaint_image_path).convert("RGB")
 
         if self.transform is not None:
             image = self.transform(image)
+            inpaint_image = self.transform(inpaint_image)
 
-        return image, label
+        return torch.cat((image, inpaint_image), 0), label, orig_image_path, inpaint_image_path
+
+class ImageFolderWithTwoPaths(datasets.ImageFolder):
+    def __init__(self, root1, root2, transform=None, target_transform=None):
+        super(ImageFolderWithTwoPaths, self).__init__(root1, transform, target_transform)
+        self.root2 = root2
+
+    def __getitem__(self, index):
+        
+        path, label = self.samples[index]
+        img = self.loader(path)
+
+        if self.transform is not None:
+            img = self.transform(img)
+
+        path2 = self.root2 +"/" + path.split("/")[-2] + "/" + path.split("/")[-1]
+        img2 = self.loader(path2)
+
+        if self.transform is not None:
+            img2 = self.transform(img2)
+
+        return (torch.cat((0.9*img, 0.1*img2), 0), label, path, path2)
     
 def get_data_loaders(dataset, batch_size):
     """
     Get the train, val, test dataloader
     """
     if dataset in ['cub', 'nabirds']:
-        if dataset == 'cub':
-            train_img_folder = 'CUB_inpaint_all_train/' if CFG.is_inpaint else 'CUB/train/'
-            test_img_folder = 'CUB_inpaint_all_test/' if CFG.is_inpaint else 'CUB/test/'
-        else:
-            train_img_folder = 'train_inpaint/' if CFG.is_inpaint else 'train/'
-            test_img_folder = 'test_inpaint/' if CFG.is_inpaint else 'test/'
+        inpaint_train_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'train_inpaint/'
+        orig_train_img_folder = 'CUB/train/' if dataset == 'cub' else 'train/'
+        inpaint_test_img_folder = 'CUB_inpaint_all_test/' if dataset == 'cub' else 'test_inpaint/'
+        orig_test_img_folder = 'CUB/test/' if dataset == 'cub' else 'test/'
+        
+        inpaint_train_data_dir = f"{CFG.dataset2path[dataset]}/{inpaint_train_img_folder}"
+        orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{orig_train_img_folder}"
+        inpaint_test_data_dir = f"{CFG.dataset2path[dataset]}/{inpaint_test_img_folder}"
+        orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{orig_test_img_folder}"
 
-        # train data
-        train_data_dir = f"{CFG.dataset2path[dataset]}/{train_img_folder}"
-        train_data = datasets.ImageFolder(train_data_dir, transform=Augment(train=True))
-        train_data_len = len(train_data)
-
-        # val, test data
-        test_data_dir = f"{CFG.dataset2path[dataset]}/{test_img_folder}"
-        test_data = datasets.ImageFolder(test_data_dir, transform=Augment(train=False))
+        train_data = ImageFolderWithTwoPaths(root1=orig_train_data_dir, root2=inpaint_train_data_dir, transform=Augment(train=True))
+        test_data = ImageFolderWithTwoPaths(root1=orig_test_data_dir, root2=inpaint_test_data_dir, transform=Augment(train=False))
         val_data = test_data
+
+        train_data_len = len(train_data)
         valid_data_len = len(val_data)
         test_data_len = len(test_data)
         
@@ -176,15 +187,13 @@ def get_data_loaders(dataset, batch_size):
         classes = train_data.classes
 
     elif dataset == 'inat21':
-        if not CFG.is_inpaint:
-            data_dir = CFG.dataset2path[dataset] + '/bird_train'
-        else:
-            data_dir = CFG.dataset2path[dataset] + '/inat21_inpaint_all'
+        orig_data_dir = CFG.dataset2path[dataset] + '/bird_train'
+        inpaint_data_dir = CFG.dataset2path[dataset] + '/inat21_inpaint_all'
 
         def compute_class_weights():
-            label_folders = os.listdir(data_dir)
+            label_folders = os.listdir(orig_data_dir)
             for i, cls in enumerate(label_folders):
-                folder_path = f"{data_dir}/{cls}"
+                folder_path = f"{orig_data_dir}/{cls}"
                 num_samples = len(os.listdir(folder_path))
                 CFG.class_weights.append(num_samples)
             CFG.class_weights =[num_sample/sum(CFG.class_weights) for i, num_sample in enumerate(CFG.class_weights)] 
@@ -198,10 +207,10 @@ def get_data_loaders(dataset, batch_size):
         # Get the list of image file paths and their corresponding labels
         data = []
         label2idx = {}
-        for i, label in enumerate(os.listdir(data_dir)):
+        for i, label in enumerate(os.listdir(orig_data_dir)):
             label2idx[label] = i
-        for label in os.listdir(data_dir):
-            label_folder = os.path.join(data_dir, label)
+        for label in os.listdir(orig_data_dir):
+            label_folder = os.path.join(orig_data_dir, label)
             if os.path.isdir(label_folder):
                 for filename in os.listdir(label_folder):
                     image_path = os.path.join(label_folder, filename)
@@ -225,15 +234,15 @@ def get_data_loaders(dataset, batch_size):
         else:
             df = pd.read_csv(CFG.inat21_df_path)
         # generate subset based on indices
-        train_dataset = Inat21_Dataset(df, transform=Augment(train=True), mode='train', inpaint=CFG.is_inpaint)
-        test_dataset = Inat21_Dataset(df, transform=Augment(train=False), mode='test', inpaint=CFG.is_inpaint)
-        val_dataset = Inat21_Dataset(df, transform=Augment(train=False), mode='val', inpaint=CFG.is_inpaint)
+        train_dataset = Unified_Inat21_Dataset(df, transform=Augment(train=True), mode='train')
+        test_dataset = Unified_Inat21_Dataset(df, transform=Augment(train=False), mode='test')
+        val_dataset = Unified_Inat21_Dataset(df, transform=Augment(train=False), mode='val')
 
         train_loader = DataLoader(train_dataset, batch_size=CFG.batch_size, shuffle=True, num_workers=4)
         val_loader = DataLoader(val_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
         test_loader = DataLoader(test_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
 
-        classes = os.listdir(data_dir)
+        classes = os.listdir(orig_data_dir)
         train_data_len, valid_data_len, test_data_len = len(train_dataset), len(val_dataset), len(test_dataset)
 
     return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes)
@@ -291,54 +300,21 @@ formatText(classes[0])
 
 # %%
 dataiter = iter(train_loader)
-images, labels = next(dataiter)
-images = images.numpy()
+images, labels, path1, path2 = next(dataiter)
+images.shape
 
-# plot the images in the batch, along with the corresponding labels
-fig = plt.figure(figsize=(25, 4))
-# for idx in np.arange(20):
-#     ax = fig.add_subplot(2, int(20/2), idx+1, xticks=[], yticks=[])
-#     plt.imshow(np.transpose(images[idx], (1, 2, 0)))
-#     ax.set_title(formatText(classes[labels[idx]]))
-#     plt.show()
 # %%
 
 def get_model():
-    # model = models.efficientnet_b3(pretrained=True)
-    model_name = CFG.model_name #'resnet101' # tf_efficientnetv2_b0
-    model = timm.create_model(model_name, pretrained=True)
-    # model = torch.hub.load('facebookresearch/deit:main', 'deit_tiny_patch16_224', pretrained=True)
-
-    for param in model.parameters():
-        param.requires_grad = False
-
-    if model_name == 'tf_efficientnetv2_b0':
-        n_inputs = model.classifier.in_features
-        model.classifier = nn.Sequential(
-        nn.Linear(n_inputs,2048),
-        nn.SiLU(),
-        nn.Dropout(0.3),
-        nn.Linear(2048, len(classes)))
-        model_params = model.classifier.parameters()
-    elif model_name in ['resnet50', 'resnet101']:
-        # n_inputs = model.fc.in_features
-        # model.fc = nn.Sequential(
-        #     nn.Linear(n_inputs,2048),
-        #     nn.SiLU(),
-        #     nn.Dropout(0.3),
-        #     nn.Linear(2048, len(classes))
-        # )
-        # model_params = model.fc.parameters()
-        model = timm.create_model(
-                CFG.model_name,
-                pretrained=CFG.pretrained,
-                num_classes=len(classes),
-                in_chans=3,
-            ).to(CFG.device)
-        model_params = model.parameters()
+    model = timm.create_model(
+            CFG.model_name,
+            pretrained=CFG.pretrained,
+            num_classes=len(classes),
+            in_chans=3*2,
+        ).to(CFG.device)
+    model_params = model.parameters()
 
     return model, model_params
-
 # %%
 # cut mix rand bbox
 def rand_bbox(size, lam, to_tensor=True):
@@ -450,18 +426,9 @@ def train_epoch(trainloader, model, criterion, optimizer):
     losses = []
     accs = []
 
-    for inputs, labels in tqdm(trainloader):
+    for inputs, labels, path1s, path2s in tqdm(trainloader):
         inputs = inputs.to(CFG.device)
         labels = labels.to(CFG.device)
-
-        if CFG.cutmix and random.random() > 0.4:
-            # lam = np.random.beta(CFG.cutmix_beta, CFG.cutmix_beta)
-            # rand_index = torch.randperm(images.size()[0])
-            # bbx1, bby1, bbx2, bby2 = rand_bbox(images.size(), lam)    
-            # images[:, bbx1:bbx2, bby1:bby2, :] = images[rand_index, bbx1:bbx2, bby1:bby2, :]
-            images, labels = cutmix_same_class(images, labels, CFG.cutmix_beta)
-            images = images.to(CFG.device)
-            labels = labels.to(CFG.device)
 
         # zero the parameter gradients
         optimizer.zero_grad()
@@ -485,7 +452,7 @@ def evaluate_epoch(validloader, criterion, model):
     losses = []
     accs = []
 
-    for inputs, labels in tqdm(validloader):
+    for inputs, labels, path1s, path2s in tqdm(validloader):
         inputs = inputs.to(CFG.device)
 
         outputs = model(inputs).detach().cpu() 
@@ -532,133 +499,60 @@ class FocalLoss(nn.Module):
         focal_loss = focal_loss * self.cls_weights
         return torch.mean(focal_loss)#, probs
 # %%
-if not CFG.ensemble:
-    model, model_params = get_model()
-    model.to(CFG.device)
 
-    criterion = LabelSmoothingCrossEntropy()
-    # criterion = nn.CrossEntropyLoss(weight = torch.FloatTensor(CFG.class_weights).to(CFG.device))
-    # criterion = FocalLoss()
-    criterion = criterion.to(CFG.device)
-    optimizer = optim.Adam(model_params, lr=CFG.lr)
+model, model_params = get_model()
+model.to(CFG.device)
 
-    exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
+criterion = LabelSmoothingCrossEntropy()
+# criterion = nn.CrossEntropyLoss(weight = torch.FloatTensor(CFG.class_weights).to(CFG.device))
+# criterion = FocalLoss()
+criterion = criterion.to(CFG.device)
+optimizer = optim.Adam(model_params, lr=CFG.lr)
 
-    model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
-    with torch.no_grad():    
-        test_loss, test_acc = evaluate_epoch(test_loader, criterion, model_ft)   
-        print(f"Test Loss: {test_loss}, Valid Acc: {test_acc}")
+exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 
-# %%
-if not CFG.ensemble:
-
-    test_loss = 0.0
-    class_correct = [0. for _ in range(len(classes))]
-    class_total = [0. for _ in range(len(classes))]
-
-    model_ft.eval()
-
-    for data, target in tqdm(test_loader):
-        if torch.cuda.is_available(): 
-            data, target = data.to(CFG.device), target.to(CFG.device)
-        with torch.no_grad():
-            output = model_ft(data)
-            loss = criterion(output, target)
-        test_loss += loss.item()*data.size(0)
-        _, pred = torch.max(output, 1)    
-        correct_tensor = pred.eq(target.data.view_as(pred))
-        correct = np.squeeze(correct_tensor.numpy()) if not torch.cuda.is_available() else np.squeeze(correct_tensor.cpu().numpy())
-        if len(target) == CFG.batch_size:
-            for i in range(CFG.batch_size):
-                label = target.data[i]
-                class_correct[label] += correct[i].item()
-                class_total[label] += 1
-
-    test_loss = test_loss/len(test_loader.dataset)
-    print('Test Loss: {:.6f}\n'.format(test_loss))
-
-    # for i in range(len(classes)):
-    #     if class_total[i] > 0:
-    #         print('Test Accuracy of %5s: %2d%% (%2d/%2d)' % (
-    #             formatText(classes[i]), 100 * class_correct[i] / class_total[i],
-    #             np.sum(class_correct[i]), np.sum(class_total[i])))
-    #     else:
-    #         print('Test Accuracy of %5s: N/A (no training examples)' % (classes[i]))
-
-    test_acc = round(100. * np.sum(class_correct) / np.sum(class_total), 3)
-    print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
-        test_acc,
-        np.sum(class_correct), np.sum(class_total)))
-
-# %% ensemble
-def test_cub_ensemble(id_model, habitat_model, id_loader, habitat_loader, alpha=1):
-    id_model.eval()
-    habitat_model.eval()
-    
-    running_loss = 0.0
-    running_corrects = 0
-  
-    predictions = []
-    targets = []
-    paths = []
-    confidence = []
-
-    criterion = nn.CrossEntropyLoss()
-    bs = CFG.batch_size
-
-    with torch.inference_mode():
-        for _, ((data1, target1), (data2, target2)) in tqdm(enumerate(zip(id_loader, habitat_loader))): # dont shuffle the loaders
-            data1   = data1.to(CFG.device)
-            data2   = data2.to(CFG.device)
-            for tg1 in target1:
-                if tg1 not in target2:
-                    print('WRONG')
-            else:
-                target = target1
-            target = target.to(CFG.device)
-        
-            id_feat = id_model(data1)
-            habitat_feat = habitat_model(data2)
-            outputs = id_feat*alpha + habitat_feat*(1-alpha)
-            # outputs = outputs.unsqueeze(0)
-
-            loss = criterion(outputs, target)
-            _, preds = torch.max(outputs, 1)
-            probs, _ = torch.max(F.softmax(outputs, dim=1), 1)
-            running_loss += loss.item() * target.size(0)
-            running_corrects += torch.sum(preds == target.data)
-            
-            predictions.extend(preds.data.cpu().numpy())
-            targets.extend(target.data.cpu().numpy())
-        
-            confidence.extend((probs.data.cpu().numpy()*100).astype(np.int32))
-
-        epoch_loss = running_loss / (len(id_loader)*bs)
-        epoch_acc = running_corrects.double() / (len(id_loader)*bs)
-
-    print('-' * 10)
-    print('loss: {:.4f}, acc: {:.4f}'.format(epoch_loss, 100*epoch_acc))
-    
-    return predictions, targets, confidence
+model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
+with torch.no_grad():    
+    test_loss, test_acc = evaluate_epoch(test_loader, criterion, model_ft)   
+    print(f"Test Loss: {test_loss}, Valid Acc: {test_acc}")
 
 # %%
-if CFG.ensemble:
-    # get models
-    id_model, params = get_model()
-    id_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/nabirds-11-0.743-resnet101-inpaint_False.pth'))
-    id_model.to(CFG.device)
-    habitat_model, params = get_model()
-    habitat_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/nabirds-4-0.065-resnet101-inpaint_True.pth'))
-    habitat_model.to(CFG.device)
-    # get loaders
-    CFG.is_inpaint = False
-    (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
-    id_test_loader = test_loader
-    CFG.is_inpaint = True
-    (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
-    habitat_test_loader = test_loader
 
-    for alpha in [0.5, 0.6, 0.7, 0.8, 0.9]:
-        print(alpha)
-        cub_test_preds, _, cub_test_confs = test_cub_ensemble(id_model, habitat_model, id_test_loader, habitat_test_loader, alpha=alpha)
-# %%
+
+test_loss = 0.0
+class_correct = [0. for _ in range(len(classes))]
+class_total = [0. for _ in range(len(classes))]
+
+model_ft.eval()
+
+for data, target, path1, path2 in tqdm(test_loader):
+    if torch.cuda.is_available(): 
+        data, target = data.to(CFG.device), target.to(CFG.device)
+    with torch.no_grad():
+        output = model_ft(data)
+        loss = criterion(output, target)
+    test_loss += loss.item()*data.size(0)
+    _, pred = torch.max(output, 1)    
+    correct_tensor = pred.eq(target.data.view_as(pred))
+    correct = np.squeeze(correct_tensor.numpy()) if not torch.cuda.is_available() else np.squeeze(correct_tensor.cpu().numpy())
+    if len(target) == CFG.batch_size:
+        for i in range(CFG.batch_size):
+            label = target.data[i]
+            class_correct[label] += correct[i].item()
+            class_total[label] += 1
+
+test_loss = test_loss/len(test_loader.dataset)
+print('Test Loss: {:.6f}\n'.format(test_loss))
+
+# for i in range(len(classes)):
+#     if class_total[i] > 0:
+#         print('Test Accuracy of %5s: %2d%% (%2d/%2d)' % (
+#             formatText(classes[i]), 100 * class_correct[i] / class_total[i],
+#             np.sum(class_correct[i]), np.sum(class_total[i])))
+#     else:
+#         print('Test Accuracy of %5s: N/A (no training examples)' % (classes[i]))
+
+test_acc = round(100. * np.sum(class_correct) / np.sum(class_total), 3)
+print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
+    test_acc,
+    np.sum(class_correct), np.sum(class_total)))
