@@ -33,10 +33,10 @@ import copy
 # %% config
 class CFG:
     seed = 42
-    dataset = 'inat21' # cub, nabirds, inat21
+    dataset = 'nabirds' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
@@ -52,7 +52,7 @@ class CFG:
     cutmix_beta = 1.
 
     #hyper params
-    batch_size = 128
+    batch_size = 64
     lr = 1e-3
     image_size = 224
     epochs = 15
@@ -61,7 +61,7 @@ class CFG:
     explaination = False
 
     # ensemble
-    ensemble = False
+    ensemble = True
 
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
@@ -70,6 +70,11 @@ class CFG:
     # %%
     training_history = {'accuracy':[],'loss':[]}
     validation_history = {'accuracy':[],'loss':[]}
+
+    # focal loss
+    fl_alpha = 1.0  # alpha of focal_loss
+    fl_gamma = 2.0  # gamma of focal_loss
+    class_weights = []
 
 # %%
 def set_seed(seed=None, cudnn_deterministic=True):
@@ -168,6 +173,16 @@ def get_data_loaders(dataset, batch_size):
             data_dir = CFG.dataset2path[dataset] + '/bird_train'
         else:
             data_dir = CFG.dataset2path[dataset] + '/inat21_inpaint_all'
+
+        def compute_class_weights():
+            label_folders = os.listdir(data_dir)
+            for i, cls in enumerate(label_folders):
+                folder_path = f"{data_dir}/{cls}"
+                num_samples = len(os.listdir(folder_path))
+                CFG.class_weights.append(num_samples)
+            CFG.class_weights =[num_sample/sum(CFG.class_weights) for i, num_sample in enumerate(CFG.class_weights)] 
+        
+        compute_class_weights()
 
         train_data_percent = 0.8
         test_data_percent = 0.1
@@ -299,14 +314,21 @@ def get_model():
         nn.Linear(2048, len(classes)))
         model_params = model.classifier.parameters()
     elif model_name in ['resnet50', 'resnet101']:
-        n_inputs = model.fc.in_features
-        model.fc = nn.Sequential(
-            nn.Linear(n_inputs,2048),
-            nn.SiLU(),
-            nn.Dropout(0.3),
-            nn.Linear(2048, len(classes))
-        )
-        model_params = model.fc.parameters()
+        # n_inputs = model.fc.in_features
+        # model.fc = nn.Sequential(
+        #     nn.Linear(n_inputs,2048),
+        #     nn.SiLU(),
+        #     nn.Dropout(0.3),
+        #     nn.Linear(2048, len(classes))
+        # )
+        # model_params = model.fc.parameters()
+        model = timm.create_model(
+                CFG.model_name,
+                pretrained=CFG.pretrained,
+                num_classes=len(classes),
+                in_chans=3,
+            ).to(CFG.device)
+        model_params = model.parameters()
 
     return model, model_params
 
@@ -461,7 +483,9 @@ def evaluate_epoch(validloader, criterion, model):
 
         outputs = model(inputs).detach().cpu() 
         _, preds = torch.max(outputs, 1)
+        criterion = criterion.to('cpu')
         loss = criterion(outputs, labels)
+        criterion.to(CFG.device)
 
         # statistics
         losses.append(loss.item())
@@ -470,12 +494,44 @@ def evaluate_epoch(validloader, criterion, model):
     return np.mean(losses), np.mean(accs)
 
 # %%
+"""
+Define Focal-Loss
+"""
+class FocalLoss(nn.Module):
+    """
+    The focal loss for fighting against class-imbalance
+    """
+    def __init__(self, alpha=1, gamma=2):
+        super(FocalLoss, self).__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+        self.epsilon = 1e-12  # prevent training from Nan-loss error
+        self.cls_weights = torch.tensor([CFG.class_weights],dtype=torch.float, requires_grad=False, device=CFG.device)
+
+    def forward(self, logits, target):
+        """
+        logits & target should be tensors with shape [batch_size, num_classes]
+        """
+        probs = torch.sigmoid(logits)
+        one_subtract_probs = 1.0 - probs
+        # add epsilon
+        probs_new = probs + self.epsilon
+        one_subtract_probs_new = one_subtract_probs + self.epsilon
+        # calculate focal loss
+        print(target.shape, probs_new.shape)
+        log_pt = target * torch.log(probs_new) + (1.0 - target) * torch.log(one_subtract_probs_new)
+        pt = torch.exp(log_pt)
+        focal_loss = -1.0 * (self.alpha * (1 - pt) ** self.gamma) * log_pt
+        focal_loss = focal_loss * self.cls_weights
+        return torch.mean(focal_loss)#, probs
+# %%
 if not CFG.ensemble:
     model, model_params = get_model()
     model.to(CFG.device)
 
     criterion = LabelSmoothingCrossEntropy()
-    # criterion = nn.CrossEntropyLoss()
+    # criterion = nn.CrossEntropyLoss(weight = torch.FloatTensor(CFG.class_weights).to(CFG.device))
+    # criterion = FocalLoss()
     criterion = criterion.to(CFG.device)
     optimizer = optim.Adam(model_params, lr=CFG.lr)
 
@@ -582,18 +638,18 @@ def test_cub_ensemble(id_model, habitat_model, id_loader, habitat_loader, alpha=
 if CFG.ensemble:
     # get models
     id_model, params = get_model()
-    id_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/traditionally_inat21-61.359-resnet101-inpaint_False.pth'))
+    id_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/nabirds-11-0.743-resnet101-inpaint_False.pth'))
     id_model.to(CFG.device)
     habitat_model, params = get_model()
-    habitat_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/traditionally_inat21-61.359-resnet101-inpaint_True.pth'))
+    habitat_model.load_state_dict(torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/nabirds-4-0.065-resnet101-inpaint_True.pth'))
     habitat_model.to(CFG.device)
     # get loaders
     CFG.is_inpaint = False
     (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
-    id_test_loader = val_loader
+    id_test_loader = test_loader
     CFG.is_inpaint = True
     (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
-    habitat_test_loader = val_loader
+    habitat_test_loader = test_loader
 
     for alpha in [0.5, 0.6, 0.7, 0.8, 0.9]:
         print(alpha)
