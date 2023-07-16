@@ -29,6 +29,7 @@ from tqdm import tqdm
 import random
 import time
 import copy
+from datetime import datetime
 
 # %% config
 class CFG:
@@ -75,6 +76,12 @@ class CFG:
     fl_alpha = 1.0  # alpha of focal_loss
     fl_gamma = 2.0  # gamma of focal_loss
     class_weights = []
+
+    # save folder
+    save_folder    = f'./{dataset}_{model_name}_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/' if is_inpaint else \
+    f'./{dataset}_{model_name}_no_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    if not os.path.exists(save_folder):
+        os.makedirs(save_folder)
 
 # %%
 def set_seed(seed=None, cudnn_deterministic=True):
@@ -431,7 +438,7 @@ def train(trainloader, validloader, optimizer, criterion, scheduler, model, num_
             if best_acc <= valid_acc:
                 print("Saving...")
                 best_acc = valid_acc
-                torch.save(model.state_dict(), f"{CFG.dataset}-{epoch}-{best_acc:.3f}-{CFG.model_name}-inpaint_{CFG.is_inpaint}.pth")
+                torch.save(model.state_dict(), f"{CFG.save_folder}/{epoch}-{best_acc:.3f}-cutmix_{CFG.cutmix}.pth")
         
             scheduler.step()
     
