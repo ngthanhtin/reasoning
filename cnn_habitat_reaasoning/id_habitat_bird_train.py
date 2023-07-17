@@ -78,7 +78,7 @@ class CFG:
     class_weights = []
 
     # save folder
-    save_folder    = f'./{dataset}_{model_name}_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/' if is_inpaint else \
+    save_folder    = f'./results/{dataset}_{model_name}_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/' if is_inpaint else \
     f'./{dataset}_{model_name}_no_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)

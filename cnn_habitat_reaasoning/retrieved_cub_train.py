@@ -13,6 +13,7 @@ from torchvision.utils import make_grid
 from tqdm import tqdm
 import os, random, copy
 import numpy as np
+from datetime import datetime
 
 import timm
 import albumentations as A
@@ -43,6 +44,14 @@ class CFG:
     use_inat_pretrained = False
     device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
 
+    # data params
+    dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
+    dataset2path = {
+        'cub': '/home/tin/datasets/cub',
+        'nabirds': '/home/tin/datasets/nabirds/',
+        'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
+    }
+
     # cutmix
     cutmix = False
     cutmix_beta = 1.
@@ -60,6 +69,10 @@ class CFG:
     # explaination
     explaination = False
     
+     # save folder
+    save_folder    = f'./results/retrieved_cub_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    if not os.path.exists(save_folder):
+        os.makedirs(save_folder)
 
 set_seed(CFG.seed)
 

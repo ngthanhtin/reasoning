@@ -70,7 +70,7 @@ class CFG:
     class_weights = []
 
     # save folder
-    save_folder    = f'./{dataset}_unified_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    save_folder    = f'./results/{dataset}_unified_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
