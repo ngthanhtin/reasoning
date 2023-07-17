@@ -15,6 +15,7 @@ from torch.utils.data import DataLoader
 from torch.nn import functional as F
 
 from tqdm import tqdm
+import pickle
 
 import clip
 import open_clip
@@ -66,7 +67,7 @@ class ImageFolderWithPaths(ImageFolder):
 # load model (currently clip) to get box-query scores
 def load_model(model_name, device):
     if model_name in clip.clip._MODELS:
-        model, transform = clip.load(model_name, device=device)
+        model, transform = clip.load(model_name, device=device, jit=False)
         tokenizer = clip.tokenize
     elif 'laion' in model_name:
         # from huggingface, the model card name has the following format: laion/CLIP-ViT-L-14-laion2B-s32B-b82K
@@ -83,7 +84,7 @@ def load_model(model_name, device):
     
     return model, transform, tokenizer
 
-model, preprocess, tokenizer = load_model(cfg.MODEL_TYPE, device=cfg.device, jit=False)
+model, preprocess, tokenizer = load_model(cfg.MODEL_TYPE, device=cfg.device)
 # %%
 # create dataset and dataloder    
 if cfg.dataset == 'cub':
@@ -168,17 +169,17 @@ def compute_image_features(loader):
         image_features.extend(features.detach().cpu().numpy())
     
     # add unsplash
-    ext_data_path = '/home/tin/datasets/unsplash/images/'
-    ext_dataset = ImageFolderWithPaths(ext_data_path,transform=preprocess)
-    ext_dataloader = DataLoader(ext_dataset, cfg.batch_size, shuffle=True, num_workers=16, pin_memory=True)
+    # ext_data_path = '/home/tin/datasets/unsplash/images/'
+    # ext_dataset = ImageFolderWithPaths(ext_data_path,transform=preprocess)
+    # ext_dataloader = DataLoader(ext_dataset, cfg.batch_size, shuffle=True, num_workers=16, pin_memory=True)
 
-    for i, batch in enumerate(tqdm(ext_dataloader)):
-        images, _, _paths = batch
-        paths += _paths
-        images = images.to(cfg.device)
-        features = model.encode_image(images)
-        features = F.normalize(features)
-        image_features.extend(features.detach().cpu().numpy())
+    # for i, batch in enumerate(tqdm(ext_dataloader)):
+    #     images, _, _paths = batch
+    #     paths += _paths
+    #     images = images.to(cfg.device)
+    #     features = model.encode_image(images)
+    #     features = F.normalize(features)
+    #     image_features.extend(features.detach().cpu().numpy())
 
     return np.array(image_features), paths
 
@@ -213,7 +214,25 @@ def show_images(image_list):
         plt.imshow(image)
         plt.show()
 # %%
-image_features, image_paths = compute_image_features(dataloader)
+model_type = cfg.MODEL_TYPE.replace('/', '_')
+image_features_filename = f"{cfg.dataset}_{cfg.retrieve_model}_{model_type}_image_features.pkl"
+image_paths_filename = f"{cfg.dataset}_{cfg.retrieve_model}_{model_type}_image_paths.txt"
+
+if os.path.exists(image_features_filename) and os.path.exists(image_paths_filename):
+    with open(image_features_filename, 'rb') as f:
+        image_features = pickle.load(f)
+        image_features = torch.tensor(image_features).to(cfg.device)
+    with open(image_paths_filename, "r") as f:
+        lines = f.readlines()
+        image_paths = [line.replace("\n", "") for line in lines]
+else:
+    image_features, image_paths = compute_image_features(dataloader)
+    with open(image_features_filename, "wb") as f:
+        pickle.dump(image_features, f)
+    with open(image_paths_filename, "w") as f:
+        for p in image_paths:
+            f.write(f"{p}\n") 
+
 # %%
 print("Number of images: ", len(image_paths))
 # %% test retrieving image by text
