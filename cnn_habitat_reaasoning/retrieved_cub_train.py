@@ -10,6 +10,7 @@ from torch.utils.data.dataloader import DataLoader
 from torch.utils.data import random_split
 from torchvision.utils import make_grid
 
+from tqdm import tqdm
 import os, random, copy
 import numpy as np
 
@@ -36,21 +37,21 @@ def set_seed(seed=None, cudnn_deterministic=True):
 # %% config
 class CFG:
     seed = 42
-    dataset = 'cub'
-    model_name = 'clip' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
+    dataset = 'cub' # cub
+    model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
     use_inat_pretrained = False
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
 
     # cutmix
-    cutmix = True
+    cutmix = False
     cutmix_beta = 1.
     # data params
-    n_classes = 200
+    n_classes = 1486#200
     test_size = 200
 
     #hyper params
-    batch_size = 64
+    batch_size = 128
     lr = 1e-3
     image_size = 224
     lr = 0.001
@@ -153,8 +154,15 @@ class HabitatDataset(Dataset):
 # train_dataset = HabitatDataset('/home/tin/datasets/cub/CUB_no_bg_train/', mode='train')
 # test_dataset = HabitatDataset('/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts', mode='test')
 # train_dataset = ImageFolder('/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts_inpaint_unsplash_query/',transform=Transforms(Augment('train')))
+# cub
 train_dataset = ImageFolder('/home/tin/datasets/cub/CUB_inpaint_all_train/',transform=Transforms(Augment('train')))
 test_dataset = ImageFolder('/home/tin/datasets/cub/CUB_inpaint_all_test/',transform=Transforms(Augment('test')))
+#inat
+all_dataset = ImageFolder('/home/tin/datasets/inaturalist2021_onlybird/inat21_inpaint_all/', transform=Transforms(Augment('train')))
+train_data_len = int(len(all_dataset)*0.78)
+valid_data_len = int((len(all_dataset) - train_data_len)/2)
+test_data_len = int(len(all_dataset) - train_data_len - valid_data_len)
+train_dataset, val_dataset, test_dataset = random_split(all_dataset, [train_data_len, valid_data_len, test_data_len])
  # %%
 
 image,label = train_dataset[10]
@@ -179,7 +187,8 @@ train_loader = DataLoader(train_dataset,CFG.batch_size,shuffle=True,num_workers 
 test_loader = DataLoader(test_dataset,CFG.batch_size,num_workers = 4, pin_memory = True)
 
 # %% model
-if CFG.model_name == 'resnet50':
+print(CFG.model_name)
+if CFG.model_name in ['resnet101', 'resnet50']:
     classification_model = timm.create_model(
                 CFG.model_name,
                 pretrained=CFG.pretrained,
@@ -328,7 +337,7 @@ show_batch_cutmix_images(test_loader)
 # %%
 def training_epoch(trainloader, model):
         losses = []
-        for (images, labels) in trainloader:
+        for (images, labels) in tqdm(trainloader):
             images = images.to(CFG.device)
             labels = labels.to(CFG.device)
             if CFG.cutmix and random.random() > 0.4:
@@ -354,7 +363,7 @@ def training_epoch(trainloader, model):
 def validation_epoch(validloader, model):
     accs, losses = [], []
     
-    for (images, labels) in validloader:
+    for (images, labels) in tqdm(validloader):
         images = images.to(CFG.device)
         labels = labels.to(CFG.device)
 
@@ -369,93 +378,4 @@ def validation_epoch(validloader, model):
 
 # %%
 model = train(train_loader, test_loader, classification_model, n_epoch = CFG.epochs)
-# %%
-if CFG.explaination:
-    #What is CaptumInterpretation
-    from random import randint
-    from matplotlib.colors import LinearSegmentedColormap
-    from captum.attr import IntegratedGradients,NoiseTunnel,GradientShap,Occlusion
-    from captum.attr import visualization as viz
-    from captum.insights import AttributionVisualizer, Batch
-    from captum.insights.attr_vis.features import ImageFeature
-
-    from fastai.vision.all import *
-
-    class CaptumInterpretation():
-        "Captum Interpretation for Resnet"
-        def __init__(self,learn,cmap_name='viridis',colors=None,N=256,methods=('original_image','heat_map'),
-                    signs=("all", "positive"),outlier_perc=1):
-            if colors is None: colors = [(0, '#ffffff'),(0.25, '#000000'),(1, '#000000')]
-            store_attr()
-            self.dls,self.model = learn.dls,self.learn.model
-            self.supported_metrics=['IG','NT','Occl']
-
-        def get_baseline_img(self, img_tensor,baseline_type):
-            baseline_img=None
-            if baseline_type=='zeros': baseline_img= img_tensor*0
-            if baseline_type=='uniform': baseline_img= torch.rand(img_tensor.shape)
-            if baseline_type=='gauss':
-                baseline_img= (torch.rand(img_tensor.shape).to(self.dls.device)+img_tensor)/2
-            return baseline_img.to(self.dls.device)
-
-        def visualize(self,inp,metric='IG',n_steps=1000,baseline_type='zeros',nt_type='smoothgrad', strides=(3,4,4), sliding_window_shapes=(3,15,15)):
-            if metric not in self.supported_metrics:
-                raise Exception(f"Metric {metric} is not supported. Currently {self.supported_metrics} are only supported")
-            tls = L([TfmdLists(inp, t) for t in L(ifnone(self.dls.tfms,[None]))])
-            inp_data=list(zip(*(tls[0],tls[1])))[0]
-            enc_data,dec_data=self._get_enc_dec_data(inp_data)
-            attributions=self._get_attributions(enc_data,metric,n_steps,nt_type,baseline_type,strides,sliding_window_shapes)
-            self._viz(attributions,dec_data,metric)
-
-        def _viz(self,attributions,dec_data,metric):
-            default_cmap = LinearSegmentedColormap.from_list(self.cmap_name,self.colors, N=self.N)
-            _ = viz.visualize_image_attr_multiple(np.transpose(attributions.squeeze().cpu().detach().numpy(), (1,2,0)),
-                                                np.transpose(dec_data[0].numpy(), (1,2,0)),
-                                                methods=self.methods,
-                                                cmap=default_cmap,
-                                                show_colorbar=True,
-                                                signs=self.signs,
-                                                outlier_perc=self.outlier_perc, titles=[f'Original Image - ({dec_data[1]})', metric])
-
-
-
-        def _get_enc_dec_data(self,inp_data):
-            dec_data=self.dls.after_item(inp_data)
-            enc_data=self.dls.after_batch(to_device(self.dls.before_batch(dec_data),self.dls.device))
-            return(enc_data,dec_data)
-
-        def _get_attributions(self,enc_data,metric,n_steps,nt_type,baseline_type,strides,sliding_window_shapes):
-            # Get Baseline
-            baseline=self.get_baseline_img(enc_data[0],baseline_type)
-            supported_metrics ={}
-            if metric == 'IG':
-                self._int_grads = self._int_grads if hasattr(self,'_int_grads') else IntegratedGradients(self.model)
-                return self._int_grads.attribute(enc_data[0],baseline, target=enc_data[1], n_steps=200)
-            elif metric == 'NT':
-                self._int_grads = self._int_grads if hasattr(self,'_int_grads') else IntegratedGradients(self.model)
-                self._noise_tunnel= self._noise_tunnel if hasattr(self,'_noise_tunnel') else NoiseTunnel(self._int_grads)
-                return self._noise_tunnel.attribute(enc_data[0].to(self.dls.device), n_samples=1, nt_type=nt_type, target=enc_data[1])
-            elif metric == 'Occl':
-                self._occlusion = self._occlusion if hasattr(self,'_occlusion') else Occlusion(self.model)
-                return self._occlusion.attribute(enc_data[0].to(self.dls.device),
-                                        strides = strides,
-                                        target=enc_data[1],
-                                        sliding_window_shapes=sliding_window_shapes,
-                                        baselines=baseline)
-    captum=CaptumInterpretation(model, colors=['green','red','yellow'])
-    # %%s
-    path = '../input/bird-species-classification-220-categories/Train'
-    def get_image_files(path):
-        filenames = os.listdir(path)
-        filepaths = [f"{path}/{fname}" for fname in filenames if 'txt' not in fname]
-        return filepaths
-    #%%
-    fnames = get_image_files(path)
-    idx=randint(0,len(fnames))
-    captum.visualize(fnames[idx])
-
-    # %%
-    captum.visualize(fnames[idx],metric='Occl',baseline_type='gauss')
-    # %%
-    captum.visualize(fnames[idx],metric='IG',baseline_type='uniform')
 
