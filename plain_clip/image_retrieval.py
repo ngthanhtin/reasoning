@@ -8,6 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pathlib
 import random
+import re
 
 import torch
 from torch.utils.data import DataLoader
@@ -16,6 +17,7 @@ from torch.nn import functional as F
 from tqdm import tqdm
 
 import clip
+import open_clip
 
 from datasets import CUBDataset, NABirdsDataset, INaturalistDataset
 # %%
@@ -37,10 +39,11 @@ seed_everything(128)
 # %%
 class cfg:
     dataset = 'cub'#inat21, cub, nabirds
+    retrieve_model = 'clip' #openclip, instructblip+sentence_transformers
     batch_size = 12
-    device = "cuda:4" if torch.cuda.is_available() else "cpu"
+    device = "cuda:2" if torch.cuda.is_available() else "cpu"
 
-    CUB_DIR = '/home/tin/datasets/cub/CUB/train/'
+    CUB_DIR = '/home/tin/datasets/cub/CUB_inpaint_all_train/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
     INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
 
@@ -60,7 +63,27 @@ class ImageFolderWithPaths(ImageFolder):
         return (img, label ,path)
 # %%
 # init CLIP
-model, preprocess = clip.load(cfg.MODEL_TYPE, device=cfg.device, jit=False)
+# load model (currently clip) to get box-query scores
+def load_model(model_name, device):
+    if model_name in clip.clip._MODELS:
+        model, transform = clip.load(model_name, device=device)
+        tokenizer = clip.tokenize
+    elif 'laion' in model_name:
+        # from huggingface, the model card name has the following format: laion/CLIP-ViT-L-14-laion2B-s32B-b82K
+        # where VIT-L-14 is the base model name, and laion2B-s32B-b82K is the training config
+        pattern = r"(.*/)(.*?)-(.*?)-(.*?)-(.*?)-(.*)"
+        matches = re.match(pattern, model_name)
+        if matches:
+            base_model_name = '-'.join(matches.group(3,4,5))
+            training_config = matches.group(6)
+        else:
+            raise ValueError(f"model_name {model_name} is not in the correct format")
+        model, training_transform, transform = open_clip.create_model_and_transforms(base_model_name, pretrained=training_config, device=device)
+        tokenizer = open_clip.get_tokenizer(base_model_name)
+    
+    return model, transform, tokenizer
+
+model, preprocess, tokenizer = load_model(cfg.MODEL_TYPE, device=cfg.device, jit=False)
 # %%
 # create dataset and dataloder    
 if cfg.dataset == 'cub':
@@ -120,7 +143,7 @@ def compute_text_feature(desc, cut_len = 250):
     if len(desc) >= cut_len:
         desc = desc[:cut_len]
 
-    tokens = clip.tokenize(desc).to(cfg.device)
+    tokens = tokenizer(desc).to(cfg.device)
     return F.normalize(model.encode_text(tokens)).detach().cpu().numpy(), desc
 
 def compute_image_feature(image):
@@ -248,12 +271,13 @@ avg_len/len(data)
 #     f.write(json_object)
 # %% each class retrieves N images
 import shutil, os
-save_retrieved_path = f"retrieval_{cfg.dataset}_images_by_texts_noinpaint_unsplash_query/"    
+retrieved_num = 10
+save_retrieved_path = f"retrieval_{cfg.dataset}_{retrieved_num}_images_by_texts_inpaint_unsplash_query/"    
 if not os.path.exists(save_retrieved_path):
     os.makedirs(save_retrieved_path)
 
 retrieval_acc_dict = {}
-retrieved_num = 5
+
 
 for k, v in data.items():
     # v = v.replace(k, 'this bird')
@@ -320,4 +344,69 @@ with open(f'{cfg.dataset}_retrieval_acc_noinpaint_unsplash.json', "w") as outfil
 
 100*(avg_acc/num_classes), len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
 
+# %% fix classname to idex.classname
+import os
+from shutil import move
+
+path_to_fix = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_10_images_by_texts_inpaint_unsplash_query/'
+path_ref = '/home/tin/datasets/cub/CUB/images/'
+
+classname_idx = {}
+
+list_class_fix = os.listdir(path_to_fix)
+list_class_ref = os.listdir(path_ref)
+
+for cls in list_class_ref:
+    idx, classname = cls.split('.')
+    # idx = int(idx)
+    classname = classname.replace('_', ' ')
+    split_key = classname.split(' ')
+    if len(split_key) > 2: 
+        classname = '-'.join(split_key[:-1]) + " " + split_key[-1]
+    classname_idx[classname] = idx
+
+for cls in list_class_fix:
+    idx = classname_idx[cls]
+    
+    orig_path = f'{path_to_fix}/{cls}'
+    cls = cls.replace(' ', '_')
+    changed_path = f'{path_to_fix}/{idx}.{cls}'
+
+    move(orig_path, changed_path)
+# %% make data with no query.txt
+path_to_fix = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts_inpaint_unsplash_query/'
+new_path = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts_inpaint_unsplash/'
+
+folders = os.listdir(path_to_fix)
+for cls in folders:
+    img_paths = os.listdir(os.path.join(path_to_fix, cls))
+    src_paths = [f"{path_to_fix}/{cls}/{p}" for p in img_paths if 'txt' not in p]
+    dest_paths = [f"{new_path}/{cls}/{p}" for p in img_paths if 'txt' not in p]
+    if not os.path.exists(f"{new_path}/{cls}"):
+        os.makedirs(f"{new_path}/{cls}")
+    
+    for src, dest in zip(src_paths, dest_paths):
+        shutil.copy(src, dest)
+
+# %% Python code snippet that counts the occurrences of image samples within folders under the root directory
+import os
+from collections import defaultdict
+
+root_directory = './retrieval_cub_10_images_by_texts_inpaint_unsplash_query/'  # Specify the root directory
+
+image_counts = defaultdict(int)
+total_images = 0
+for dirpath, dirnames, filenames in os.walk(root_directory):
+    total_images += len(filenames)-1
+    for filename in filenames:
+        if filename.lower().endswith('.jpg'):
+            image_counts[filename] += 1
+
+num_ = 0
+for filename, count in image_counts.items():
+    if count >= 5:
+        print(f'{filename}: {count} occurrences')
+        num_ += 1
+
+num_, total_images
 # %%
