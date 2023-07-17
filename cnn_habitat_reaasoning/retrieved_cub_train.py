@@ -7,12 +7,15 @@ from torchvision import transforms
 from torchvision.datasets import ImageFolder
 import matplotlib.pyplot as plt
 from torch.utils.data.dataloader import DataLoader
-from torch.utils.data import random_split
+from torch.utils.data import Dataset
 from torchvision.utils import make_grid
 
 from tqdm import tqdm
 import os, random, copy
 import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from PIL import Image
 from datetime import datetime
 
 import timm
@@ -42,7 +45,7 @@ class CFG:
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
     use_inat_pretrained = False
-    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
@@ -51,6 +54,12 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
+    use_cub_inpaint_test = False
+
+    # retrieved data
+    retrieved_data_dir = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_10_images_by_texts_inpaint_unsplash_query/'
+    retrieved_cub_df_path = 'cub_retrieved_df.csv'
+    write_data_to_df = not os.path.exists(retrieved_cub_df_path)
 
     # cutmix
     cutmix = False
@@ -58,18 +67,16 @@ class CFG:
     # data params
     n_classes = 1486#200
     test_size = 200
+    class_weights = []
 
     #hyper params
-    batch_size = 128
+    batch_size = 64
     lr = 1e-3
     image_size = 224
     lr = 0.001
-    epochs = 20
+    epochs = 10
 
-    # explaination
-    explaination = False
-    
-     # save folder
+    # save folder
     save_folder    = f'./results/retrieved_cub_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
@@ -84,98 +91,112 @@ class Transforms:
     def __call__(self, img, *args, **kwargs):
         return self.transforms(image=np.array(img))['image']
 # %% Augmentation
-def Augment(mode):
-    if mode == 'train':
-        return A.Compose([A.RandomResizedCrop(224,224),
-                A.Transpose(p=0.5),
-                A.HorizontalFlip(p=0.5),
-                A.VerticalFlip(p=0.5),
-                A.ShiftScaleRotate(p=0.5),
-                A.OneOf([ #
-                    A.GaussNoise(var_limit=(0,50.0), mean=0, p=0.5),
-                    A.GaussianBlur(blur_limit=(3,7), p=0.5),], p=0.2),
-                A.RandomBrightnessContrast(brightness_limit=0.1, contrast_limit=0.3, 
-                                 brightness_by_max=True,p=0.5),
-                A.HueSaturationValue(
-                    hue_shift_limit=0.2, 
-                    sat_shift_limit=0.2, 
-                    val_shift_limit=0.2, 
-                    p=0.5),
-                # A.CoarseDropout(p=0.5),
-                # A.Cutout(p=0.5),
-                A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
-                ToTensorV2()])
-        
+def Augment(train = False):
+    if train:
+        transform = transforms.Compose([
+            transforms.RandomHorizontalFlip(p=0.5),
+            transforms.RandomVerticalFlip(p=0.5),
+            transforms.RandomApply(torch.nn.ModuleList([transforms.ColorJitter()]), p=0.1),
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+            transforms.RandomErasing(p=0.2, value='random')
+        ])
     else:
-        return A.Compose([A.Resize(224, 224),
-                A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
-                ToTensorV2()])
+        transform = transforms.Compose([
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
+        ])
     
-# %% Dataset
-# data_dir ='/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts/'
-# data_dir ='/home/tin/projects/reasoning/inpainting/cub_inpaint/'
- 
- #  %%
-from PIL import Image
-import torch
-from torch.utils.data import Dataset
+    return transform
 
-class HabitatDataset(Dataset):
-    def __init__(self, root, mode='train'):
+# %%    
+class Retrieved_CUB_Dataset(Dataset):
+    def __init__(self, df, transform=None, mode='train'):
+        self.df = df
+        self.df = self.df[~self.df['Path'].str.contains('txt')]
+        self.df = self.df[self.df['Mode'] == mode]
+
         self.mode = mode
-        self.root = root
-        self.augment = Augment(mode)
-
-        self.file_list = []
-        self.labels = []
-        self._load_files()
-
-    def _load_files(self):
-
-        class_folders = sorted(os.listdir(self.root))
-        for label, class_folder in enumerate(class_folders):
-            class_path = os.path.join(self.root, class_folder)
-            if not os.path.isdir(class_path):
-                continue
-            image_files = os.listdir(class_path)
-            self.file_list.extend([os.path.join(class_folder, img_file) for img_file in image_files if 'txt' not in img_file])
-            self.labels.extend([label] * len(image_files))
-        
-        self.train_list = self.file_list[:int(len(self.file_list)*0.8)] 
-        self.train_labels = self.labels[:int(len(self.labels)*0.8)]
-        self.test_list = self.file_list[int(len(self.file_list)*0.8):] 
-        self.test_labels = self.labels[int(len(self.labels)*0.8):]
-
-        if self.mode == 'train':
-            self.file_list = self.train_list
-            self.labels = self.train_labels
-        else:
-            self.file_list = self.test_list
-            self.labels = self.test_labels
+        self.transform = transform
 
     def __len__(self):
-        return len(self.file_list)
+        return len(self.df)
 
     def __getitem__(self, index):
-        image_path = os.path.join(self.root, self.file_list[index])
-        image = Image.open(image_path).convert('RGB')
-        label = self.labels[index]
-        image = self.augment(image)
+        image_path, label, mode = self.df.iloc[index].to_list()
 
-        return image, label
+        label = int(label)
+        image = Image.open(image_path).convert("RGB")
+
+        if self.transform is not None:
+            image = self.transform(image)
+
+        return image, label #, image_path
+    
+# %% get data
+def compute_class_weights():
+    label_folders = os.listdir(CFG.retrieved_data_dir)
+    for i, cls in enumerate(label_folders):
+        folder_path = f"{CFG.retrieved_data_dir}/{cls}"
+        num_samples = len(os.listdir(folder_path))
+        CFG.class_weights.append(num_samples)
+    CFG.class_weights =[num_sample/sum(CFG.class_weights) for i, num_sample in enumerate(CFG.class_weights)] 
+        
+compute_class_weights()
+
+train_data_percent = 0.8
+test_data_percent = 0.1
+valid_data_percent = 0.1
+
+# Get the list of image file paths and their corresponding labels
+data = []
+label2idx = {}
+for i, label in enumerate(os.listdir(CFG.retrieved_data_dir)):
+    label2idx[label] = i
+for label in os.listdir(CFG.retrieved_data_dir):
+    label_folder = os.path.join(CFG.retrieved_data_dir, label)
+    if os.path.isdir(label_folder):
+        for filename in os.listdir(label_folder):
+            image_path = os.path.join(label_folder, filename)
+            data.append((image_path, label2idx[label]))
+
+y = [idx for path, idx in data]
+y =  np.array(y)
+train_data, test_data = train_test_split(data, test_size=test_data_percent, stratify=y, random_state=CFG.seed)
+train_data, val_data = train_test_split(train_data, test_size=valid_data_percent, random_state=CFG.seed)
+
+if CFG.write_data_to_df:
+    # write to dataframe
+    train_df = pd.DataFrame(train_data, columns=["Path", "Label"])
+    train_df["Mode"] = ["train" for _ in range(len(train_data))]
+    val_df = pd.DataFrame(val_data, columns=["Path", "Label"])
+    val_df["Mode"] = ["val" for _ in range(len(val_data))]
+    test_df = pd.DataFrame(test_data, columns=["Path", "Label"])
+    test_df["Mode"] = ["test" for _ in range(len(test_data))]
+    df = pd.concat([train_df, val_df, test_df], ignore_index=True)
+    df.to_csv(CFG.retrieved_cub_df_path, index=False)
+else:
+    df = pd.read_csv(CFG.retrieved_cub_df_path)
+
 # %%
-# train_dataset = HabitatDataset('/home/tin/datasets/cub/CUB_no_bg_train/', mode='train')
-# test_dataset = HabitatDataset('/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts', mode='test')
-# train_dataset = ImageFolder('/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts_inpaint_unsplash_query/',transform=Transforms(Augment('train')))
-# cub
-train_dataset = ImageFolder('/home/tin/datasets/cub/CUB_inpaint_all_train/',transform=Transforms(Augment('train')))
-test_dataset = ImageFolder('/home/tin/datasets/cub/CUB_inpaint_all_test/',transform=Transforms(Augment('test')))
-#inat
-all_dataset = ImageFolder('/home/tin/datasets/inaturalist2021_onlybird/inat21_inpaint_all/', transform=Transforms(Augment('train')))
-train_data_len = int(len(all_dataset)*0.78)
-valid_data_len = int((len(all_dataset) - train_data_len)/2)
-test_data_len = int(len(all_dataset) - train_data_len - valid_data_len)
-train_dataset, val_dataset, test_dataset = random_split(all_dataset, [train_data_len, valid_data_len, test_data_len])
+# generate subset based on indices
+train_dataset = Retrieved_CUB_Dataset(df, transform=Augment(train=True), mode='train')
+
+if CFG.use_cub_inpaint_test:
+    test_dataset = ImageFolder('/home/tin/datasets/cub/CUB_inpaint_all_test/',transform=Augment(train=False))
+    val_dataset = test_dataset
+else:
+    test_dataset = Retrieved_CUB_Dataset(df, transform=Augment(train=False), mode='test')
+    val_dataset = Retrieved_CUB_Dataset(df, transform=Augment(train=False), mode='val')
+
+train_loader = DataLoader(train_dataset, batch_size=CFG.batch_size, shuffle=True, num_workers=4)
+val_loader = DataLoader(val_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
+test_loader = DataLoader(test_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
+
  # %%
 
 image,label = train_dataset[10]
@@ -186,21 +207,7 @@ def display_image(image,label):
      plt.imshow(image.permute(1,2,0))
 
 display_image(*train_dataset[5])
-
-# %%
-# test_size = CFG.test_size
-# train_size = len(train_dataset) - test_size
-
-# train_data,test_data = random_split(train_dataset,[train_size,test_size])
-# print(f"Length of Train Data : {len(train_data)}")
-# print(f"Length of Validation Data : {len(test_data)}")
-
-# %%
-train_loader = DataLoader(train_dataset,CFG.batch_size,shuffle=True,num_workers = 4, pin_memory = True)
-test_loader = DataLoader(test_dataset,CFG.batch_size,num_workers = 4, pin_memory = True)
-
 # %% model
-print(CFG.model_name)
 if CFG.model_name in ['resnet101', 'resnet50']:
     classification_model = timm.create_model(
                 CFG.model_name,
@@ -250,6 +257,7 @@ def accuracy(outputs, labels):
 
 def train(trainloader, validloader, model, n_epoch=10):
     best_valid_acc = 0.0
+    best_model = None
     for epoch in range(n_epoch):
         model.train()
         train_loss = training_epoch(trainloader, model)
@@ -258,12 +266,14 @@ def train(trainloader, validloader, model, n_epoch=10):
         with torch.no_grad():
             model.eval()
             valid_loss, valid_acc = validation_epoch(validloader, model)
-            print(f'Epoch {epoch}/{n_epoch}, Valid Loss: {valid_loss}, Valid Acc: {valid_acc*100}')
+            print(f'Epoch {epoch}/{n_epoch}, Valid Loss: {valid_loss}, Valid Acc: {valid_acc*100}%')
             # save model
             if best_valid_acc < valid_acc:
+                print('Saving...')
                 best_valid_acc = valid_acc
-                torch.save(model.state_dict(), f"./{epoch}_{CFG.dataset}_{CFG.cutmix}_{CFG.model_name}_{valid_acc:.3f}.pth")
-    return model
+                best_model = model
+                torch.save(best_model.state_dict(), f"{CFG.save_folder}/{epoch}_{valid_acc:.3f}_{CFG.dataset}_{CFG.model_name}_cutmix_{CFG.cutmix}_use_cub_inpaint_test_{CFG.use_cub_inpaint_test}.pth")
+    return best_model
 
 # cut mix rand bbox
 def rand_bbox(size, lam, to_tensor=True):
@@ -379,8 +389,9 @@ def validation_epoch(validloader, model):
     for (images, labels) in tqdm(validloader):
         images = images.to(CFG.device)
         labels = labels.to(CFG.device)
-
+        
         out = model(images)                   
+
         loss = F.cross_entropy(out, labels) 
         acc = accuracy(out, labels)
 
@@ -389,6 +400,26 @@ def validation_epoch(validloader, model):
     
     return np.mean(losses), np.mean(accs)
 
-# %%
-model = train(train_loader, test_loader, classification_model, n_epoch = CFG.epochs)
+def test(testloader, model):
+    accs, losses = [], []
+    model.eval()
 
+    for (images, labels) in tqdm(testloader):
+        images = images.to(CFG.device)
+        labels = labels.to(CFG.device)
+        with torch.no_grad():
+            out = model(images)                   
+        
+        loss = F.cross_entropy(out, labels) 
+        acc = accuracy(out, labels)
+
+        losses.append(loss.item())
+        accs.append(acc)
+    
+    return np.mean(losses), np.mean(accs)
+# %%
+best_model = train(train_loader, val_loader, classification_model, n_epoch = CFG.epochs)
+
+# %% testing
+loss, acc = test(test_loader, best_model)
+print(f"Test Loss: {loss}, Test Acc: {acc}")
