@@ -51,6 +51,20 @@ class cfg:
     MODEL_TYPE = 'ViT-L/14'
     IMAGE_SIZE = 224
 
+    # use additional data
+    additional_datasets = ['nabirds', 'inat21']
+
+    # save image features path
+    model_type = MODEL_TYPE.replace('/', '_')
+    additional_dataset_names = '_'.join(additional_datasets)
+    image_features_filename = f"./embeddings/{dataset}_{additional_dataset_names}_{retrieve_model}_{model_type}_image_features.pkl"
+    image_paths_filename = f"./embeddings/{dataset}_{additional_dataset_names}_{retrieve_model}_{model_type}_image_paths.txt"
+
+    # retrieve
+    retrieved_num = 10
+    save_retrieved_path = f"retrieved_{dataset}/"    
+
+
 # %%
 from torchvision.datasets import ImageFolder
 class ImageFolderWithPaths(ImageFolder):
@@ -169,17 +183,22 @@ def compute_image_features(loader):
         image_features.extend(features.detach().cpu().numpy())
     
     # add unsplash
-    # ext_data_path = '/home/tin/datasets/unsplash/images/'
-    # ext_dataset = ImageFolderWithPaths(ext_data_path,transform=preprocess)
-    # ext_dataloader = DataLoader(ext_dataset, cfg.batch_size, shuffle=True, num_workers=16, pin_memory=True)
+    if len(cfg.additional_datasets) > 0:
+        for dataset_type in cfg.additional_datasets:
+            if dataset_type == 'nabirds':
+                ext_data_path = '/home/tin/datasets/nabirds/nabirds_inpaint_kp_full/'
+            elif dataset_type == 'inat21':
+                ext_data_path = '/home/tin/datasets/inaturalist2021_onlybird/inat21_inpaint_all/'
+            ext_dataset = ImageFolderWithPaths(ext_data_path,transform=preprocess)
+            ext_dataloader = DataLoader(ext_dataset, cfg.batch_size, shuffle=True, num_workers=16, pin_memory=True)
 
-    # for i, batch in enumerate(tqdm(ext_dataloader)):
-    #     images, _, _paths = batch
-    #     paths += _paths
-    #     images = images.to(cfg.device)
-    #     features = model.encode_image(images)
-    #     features = F.normalize(features)
-    #     image_features.extend(features.detach().cpu().numpy())
+            for i, batch in enumerate(tqdm(ext_dataloader)):
+                images, _, _paths = batch
+                paths += _paths
+                images = images.to(cfg.device)
+                features = model.encode_image(images)
+                features = F.normalize(features)
+                image_features.extend(features.detach().cpu().numpy())
 
     return np.array(image_features), paths
 
@@ -214,22 +233,18 @@ def show_images(image_list):
         plt.imshow(image)
         plt.show()
 # %%
-model_type = cfg.MODEL_TYPE.replace('/', '_')
-image_features_filename = f"{cfg.dataset}_{cfg.retrieve_model}_{model_type}_image_features.pkl"
-image_paths_filename = f"{cfg.dataset}_{cfg.retrieve_model}_{model_type}_image_paths.txt"
-
-if os.path.exists(image_features_filename) and os.path.exists(image_paths_filename):
-    with open(image_features_filename, 'rb') as f:
+if os.path.exists(cfg.image_features_filename) and os.path.exists(cfg.image_paths_filename):
+    with open(cfg.image_features_filename, 'rb') as f:
         image_features = pickle.load(f)
-        image_features = torch.tensor(image_features).to(cfg.device)
-    with open(image_paths_filename, "r") as f:
+        image_features = torch.tensor(image_features)
+    with open(cfg.image_paths_filename, "r") as f:
         lines = f.readlines()
         image_paths = [line.replace("\n", "") for line in lines]
 else:
     image_features, image_paths = compute_image_features(dataloader)
-    with open(image_features_filename, "wb") as f:
+    with open(cfg.image_features_filename, "wb") as f:
         pickle.dump(image_features, f)
-    with open(image_paths_filename, "w") as f:
+    with open(cfg.image_paths_filename, "w") as f:
         for p in image_paths:
             f.write(f"{p}\n") 
 
@@ -238,18 +253,12 @@ print("Number of images: ", len(image_paths))
 # %% test retrieving image by text
 # text = "Laysan Albatrosses spend most of their time on the open Pacific Ocean, spanning tropical waters up to the southern Bering Sea"
 text = "Laysan Albatross, Laysan Albatrosses nest on open, sandy or grassy islands, mostly in the Hawaiian Island chain"
-returned_image_paths, text_after = find_image_by_text(text, image_features, image_paths, n=10)
+returned_image_paths, text_after = find_image_by_text(text, image_features, image_paths, n=4)
 print(f"Before: {text}")
 print(f"After: {text_after}")
 
 # %%
 show_images(returned_image_paths)
-
-# %% test retrieving image by image
-# image_path = 'test_bird.jpeg'
-# returned_image_paths = find_image_by_image(image_path, image_features, image_paths, n=5)
-# %%
-# show_images(returned_image_paths)
 # %% --- get the habitat description ---
 description_path = None
 match cfg.dataset:
@@ -268,7 +277,7 @@ data = {k: v.split('.') for k,v in data.items()}
 data = {k: [f'{k}, {s}' for s in v] for k,v in data.items()}
 # data = {k: [s.lower().replace(k.lower(), '') for s in v] for k,v in data.items()}
 if cfg.dataset == 'inat21':
-    f = open('sci2real_name_inat.json', 'r')
+    f = open('sci2comm_inat_425.json', 'r')
     sci2real_dict = json.load(f)
     sci2real_dict = {k:v.replace('_', '') for k, v in sci2real_dict.items()}
     data = {k: [f'{sci2real_dict[k]}, {s}' for s in v] for k,v in data.items()}
@@ -290,8 +299,9 @@ avg_len/len(data)
 #     f.write(json_object)
 # %% each class retrieves N images
 import shutil, os
-retrieved_num = 10
-save_retrieved_path = f"retrieval_{cfg.dataset}_{retrieved_num}_images_by_texts_inpaint_unsplash_query/"    
+retrieved_num = cfg.retrieved_num
+save_retrieved_path = cfg.save_retrieved_path
+
 if not os.path.exists(save_retrieved_path):
     os.makedirs(save_retrieved_path)
 
@@ -358,7 +368,7 @@ for k, v in retrieval_acc_dict.items():
         classes_0.append(k)
 
 json_object = json.dumps(retrieval_acc_dict, indent=4)
-with open(f'{cfg.dataset}_retrieval_acc_noinpaint_unsplash.json', "w") as outfile:
+with open(f'{cfg.dataset}_retrieve_acc.json', "w") as outfile:
     outfile.write(json_object)
 
 100*(avg_acc/num_classes), len(classes_1), len(classes_0), classes_1[:5], classes_0[:5]
@@ -367,7 +377,7 @@ with open(f'{cfg.dataset}_retrieval_acc_noinpaint_unsplash.json', "w") as outfil
 import os
 from shutil import move
 
-path_to_fix = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_10_images_by_texts_inpaint_unsplash_query/'
+path_to_fix = cfg.save_retrieved_path
 path_ref = '/home/tin/datasets/cub/CUB/images/'
 
 classname_idx = {}
@@ -411,7 +421,7 @@ for cls in folders:
 import os
 from collections import defaultdict
 
-root_directory = './retrieval_cub_10_images_by_texts_inpaint_unsplash_query/'  # Specify the root directory
+root_directory = cfg.save_retrieved_path  # Specify the root directory
 
 image_counts = defaultdict(int)
 total_images = 0
@@ -422,10 +432,25 @@ for dirpath, dirnames, filenames in os.walk(root_directory):
             image_counts[filename] += 1
 
 num_ = 0
+deleted_paths = []
 for filename, count in image_counts.items():
     if count >= 5:
         print(f'{filename}: {count} occurrences')
         num_ += 1
+        
+        # delete those repeated files
+        for label_folder in os.listdir(root_directory):
+            label_folder_path = f"{root_directory}/{label_folder}"
+            if filename in os.listdir(label_folder_path):
+                deleted_paths.append(f"{root_directory}/{label_folder}/{filename}")
+                
+for p in deleted_paths:
+    os.remove(p)
 
-num_, total_images
-# %%
+for label_folder in os.listdir(root_directory):
+    label_folder_path = f"{root_directory}/{label_folder}"
+    if len(os.listdir(label_folder_path)) <= 2:
+        print(label_folder)
+num_, total_images, num_-len(deleted_paths)
+# %% 
+
