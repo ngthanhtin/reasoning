@@ -45,3 +45,5 @@ inpainting/inat21_bird_bb.json
 
 *.jpg
 *.png
+
+att_splits.mat
