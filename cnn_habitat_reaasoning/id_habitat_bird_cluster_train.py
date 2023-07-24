@@ -29,6 +29,7 @@ from tqdm import tqdm
 import random
 import time
 import copy
+import json
 from datetime import datetime
 
 # %% config
@@ -37,10 +38,10 @@ class CFG:
     dataset = 'cub' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 
     # data params
-    dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
+    # dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468} 
     dataset2path = {
         'cub': '/home/tin/datasets/cub',
         'nabirds': '/home/tin/datasets/nabirds/',
@@ -78,8 +79,8 @@ class CFG:
     class_weights = []
 
     # save folder
-    save_folder    = f'./results/{dataset}_{model_name}_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/' if is_inpaint else \
-    f'./{dataset}_{model_name}_no_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    save_folder    = f'./results/{dataset}_cluster_{model_name}_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/' if is_inpaint else \
+    f'./{dataset}_cluster_{model_name}_no_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
@@ -121,6 +122,57 @@ def Augment(train = False):
     
     return transform
 
+class CUBCluster_Dataset(Dataset):
+    def __init__(self, root, transform=None):
+        self.root = root
+        self.transform = transform
+        
+        class_cluster_filepath = "/home/tin/projects/reasoning/plain_clip/class_clusters_4.json"
+        f = open(class_cluster_filepath, 'r')
+        idx2cluster = json.load(f)
+
+        self.labels = []
+        self.images = []
+        folderclasses = os.listdir(root)
+        self.classes = folderclasses
+        folderclass2class = {}
+        for cls in folderclasses:
+            name = cls.split('.')[1]
+            
+            if len(name.split('_')) > 2:
+                name_parts = name.split('_')
+                if len(name.split('_')) == 3:
+                    name = name_parts[0] + '-' + name_parts[1] + ' ' + name_parts[2]
+                else:
+                    name = name_parts[0] + '-' + name_parts[1] + '-' + name_parts[2] + ' ' + name_parts[3]
+            else:
+                name = name.replace('_', ' ')
+            folderclass2class[cls] = name
+        class2folderclass = {v:k for k,v in folderclass2class.items()}
+        
+        for idx, classes in idx2cluster.items():
+            for cls in classes:
+                # convert cls to folder class
+                folderclass = class2folderclass[cls]
+                image_paths = os.listdir(f"{root}/{folderclass}")
+                for img_path in image_paths:
+                    self.images.append(f"{root}/{folderclass}/{img_path}")
+                    self.labels.append(idx)
+
+    def __len__(self):
+        return len(self.labels)
+
+    def __getitem__(self, index):
+        image_path, label = self.images[index], self.labels[index]
+
+        label = int(label)
+        image = Image.open(image_path).convert("RGB")
+
+        if self.transform is not None:
+            image = self.transform(image)
+
+        return image, label
+    
 class Inat21_Dataset(Dataset):
     def __init__(self, df, transform=None, mode='train', inpaint=False):
         self.df = df
@@ -159,12 +211,12 @@ def get_data_loaders(dataset, batch_size):
 
         # train data
         train_data_dir = f"{CFG.dataset2path[dataset]}/{train_img_folder}"
-        train_data = datasets.ImageFolder(train_data_dir, transform=Augment(train=True))
+        train_data = CUBCluster_Dataset(train_data_dir, transform=Augment(train=True))
         train_data_len = len(train_data)
 
         # val, test data
         test_data_dir = f"{CFG.dataset2path[dataset]}/{test_img_folder}"
-        test_data = datasets.ImageFolder(test_data_dir, transform=Augment(train=False))
+        test_data = CUBCluster_Dataset(test_data_dir, transform=Augment(train=False))
         val_data = test_data
         valid_data_len = len(val_data)
         test_data_len = len(test_data)
