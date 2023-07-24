@@ -54,10 +54,10 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    use_cub_inpaint_test = False
+    use_cub_inpaint_test = True
 
     # retrieved data
-    retrieved_data_dir = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_10_images_by_texts_inpaint_unsplash_query/'
+    retrieved_data_dir = '/home/tin/projects/reasoning/plain_clip/retrieved_cub_inat21/'
     retrieved_cub_df_path = 'cub_retrieved_df.csv'
     write_data_to_df = not os.path.exists(retrieved_cub_df_path)
 
@@ -117,7 +117,7 @@ def Augment(train = False):
 class Retrieved_CUB_Dataset(Dataset):
     def __init__(self, df, transform=None, mode='train'):
         self.df = df
-        self.df = self.df[~self.df['Path'].str.contains('txt')]
+        self.df = self.df[~self.df['Path'].str.contains('json')]
         self.df = self.df[self.df['Mode'] == mode]
 
         self.mode = mode
