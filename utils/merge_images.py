@@ -6,6 +6,10 @@ import math
 import pandas as pd
 import json
 # %%
+font = cv2.FONT_HERSHEY_SIMPLEX
+font_scale = 0.3
+font_thickness = 1
+
 def merge_images(image_paths, class_name="EMPTY"):
     """
     image_paths: paths of images that need to be concatenated
@@ -17,13 +21,23 @@ def merge_images(image_paths, class_name="EMPTY"):
     image_names = []
     H, W = 224, 224
     for image_path in image_paths:
+        # load image
         image = cv2.imread(image_path)
         image = cv2.resize(image, (W, H))
-        images.append(image)
-            
-        # get file name
+        # filename
         image_name = image_path.split('/')[-1]
-        # TODO: Append image name below the image
+        text_size = cv2.getTextSize(image_name, font, font_scale, font_thickness)[0]
+        text_width, text_height = text_size
+        text_x = int((W - text_width) / 2)
+        text_y = H + text_height + 10
+
+        white_region_height = text_y + text_height 
+        white_region_width = W
+        white_region = np.ones((white_region_height, white_region_width, 3), dtype=np.uint8) * 255
+        white_region[:H, :W, :] = image
+        cv2.putText(white_region, image_name, (text_x, text_y), font, font_scale, (0, 0, 255), font_thickness, cv2.LINE_AA)
+        
+        images.append(white_region)
 
     len_images = len(images)
     columns, rows = 5, math.ceil(len_images/5) # predefined number of columns is 5
@@ -36,7 +50,7 @@ def merge_images(image_paths, class_name="EMPTY"):
             if mapped_idx < len_images:
                 row_images.append(images[mapped_idx])
             else:
-                row_images.append(np.zeros((H, W, 3)))
+                row_images.append(np.zeros((images[0].shape[0], images[0].shape[1], 3)))
         
         row_images = np.array(row_images)
         row_image = np.concatenate(row_images, axis=1)
@@ -103,7 +117,21 @@ def merge_dataset(data_name='nabirds'):
     if data_name == 'inat21':
             data_path = '/home/tin/datasets/inaturalist2021_onlybird'
     if data_name == 'cub':
-            data_path = '/home/tin/datasets/CUB_200_2011'
+            data_path = '/home/tin/datasets/cub/'
+
+    if data_name == 'cub':
+        save_img_folder = './merged_cub'
+        if not os.path.exists(save_img_folder):
+            os.makedirs(save_img_folder)
+        img_folders = os.listdir(os.path.join(data_path, 'CUB_inpaint_all'))
+
+        for img_folder in img_folders:
+            class_name = img_folder
+            img_names = os.listdir(os.path.join(data_path, f'CUB_inpaint_all/{class_name}'))
+            img_paths = [f'{data_path}/CUB_inpaint_all/{class_name}/{p}' for p in img_names]
+            # run to merge images
+            merged_img = merge_images(img_paths, class_name)
+            cv2.imwrite(f"{save_img_folder}/{class_name}.jpg", merged_img)
 
     if data_name == 'nabirds':
         save_img_folder = './merged_nabirds'
@@ -114,13 +142,13 @@ def merge_dataset(data_name='nabirds'):
         id_class_dict, train_test_img_dict, val_img_names = read_nabirds(data_path)
     
         # read image in image folders
-        img_folders = os.listdir(os.path.join(data_path, 'images'))
+        img_folders = os.listdir(os.path.join(data_path, 'nabirds_inpaint_kp_full'))
         for img_folder in img_folders:
             class_id = int(img_folder)
-            img_names = os.listdir(os.path.join(data_path, f'images/{img_folder}'))
+            img_names = os.listdir(os.path.join(data_path, f'nabirds_inpaint_kp_full/{img_folder}'))
             # filter images, only get valid images
             img_names = [p for p in img_names if p in val_img_names]
-            img_paths = [f'{data_path}/images/{img_folder}/{p}' for p in img_names]
+            img_paths = [f'{data_path}/nabirds_inpaint_kp_full/{img_folder}/{p}' for p in img_names]
             # run to merge images
             merged_img = merge_images(img_paths, id_class_dict[class_id])
             cv2.imwrite(f"{save_img_folder}/{class_id}_{id_class_dict[class_id]}.jpg", merged_img)
@@ -131,12 +159,12 @@ def merge_dataset(data_name='nabirds'):
             os.makedirs(save_img_folder)
 
         id2class, imageFolder2class, val_img_names = read_inat21(data_path)
-        image_folders = os.listdir(f'{data_path}/bird_train')
+        image_folders = os.listdir(f'{data_path}/inat21_inpaint_all')
         for image_folder in image_folders:
-            img_names = os.listdir(f'{data_path}/bird_train/{image_folder}')
+            img_names = os.listdir(f'{data_path}/inat21_inpaint_all/{image_folder}')
             # filter out training images
             img_names = [p for p in img_names if p in val_img_names]
-            img_paths = [f'{data_path}/bird_train/{image_folder}/{p}' for p in img_names]
+            img_paths = [f'{data_path}/inat21_inpaint_all/{image_folder}/{p}' for p in img_names]
             # run to merge images
             merged_img = merge_images(img_paths, imageFolder2class[image_folder])
             image_folder_id = image_folder.split('_')[0]
