@@ -42,7 +42,7 @@ class cfg:
     dataset = 'cub'#inat21, cub, nabirds
     retrieve_model = 'clip' #openclip, instructblip+sentence_transformers
     batch_size = 12
-    device = "cuda:2" if torch.cuda.is_available() else "cpu"
+    device = "cuda:3" if torch.cuda.is_available() else "cpu"
 
     CUB_DIR = '/home/tin/datasets/cub/CUB_inpaint_all_train/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
@@ -52,7 +52,7 @@ class cfg:
     IMAGE_SIZE = 224
 
     # use additional data
-    additional_datasets = ['nabirds', 'inat21']
+    additional_datasets = []#['nabirds', 'inat21']
 
     # save image features path
     model_type = MODEL_TYPE.replace('/', '_')
@@ -62,7 +62,7 @@ class cfg:
 
     # retrieve
     retrieved_num = 10
-    save_retrieved_path = f"retrieved_{dataset}/"    
+    save_retrieved_path = f"retrieved_{dataset}_{additional_dataset_names}/"    
 
 
 # %%
@@ -319,13 +319,13 @@ for k, v in data.items():
         os.makedirs(os.path.join(save_retrieved_path, k))
     
     total_returned_image_paths = []
-    v_after = []
+    v_after = {}
     for i, s in enumerate(v):
         if i >= 2:
             break
         returned_image_paths, s_after = find_image_by_text(s, image_features, image_paths, n=retrieved_num)
         total_returned_image_paths += returned_image_paths
-        v_after.append(s_after)
+        v_after[s_after] = returned_image_paths
     returned_image_paths = list(set(total_returned_image_paths))
 
     # save image and query
@@ -346,13 +346,16 @@ for k, v in data.items():
             retrieval_acc_dict[class_name] += 1
     retrieval_acc_dict[class_name] /= len(returned_image_paths)
 
-    with open(f'{os.path.join(save_retrieved_path, k)}/query.txt', 'w') as f:
-        f.write('BEFORE: \n')
-        for s in v:
-            f.write(f'{s}\n')
-        f.write('AFTER: \n')
-        for s_after in v_after:
-            f.write(f'{s_after}\n')
+    with open(f'{os.path.join(save_retrieved_path, k)}/query.json', "w") as outfile:
+        json.dump(v_after, outfile, indent=4)
+
+    # with open(f'{os.path.join(save_retrieved_path, k)}/query.txt', 'w') as f:
+    #     f.write('BEFORE: \n')
+    #     for s in v:
+    #         f.write(f'{s}\n')
+    #     f.write('AFTER: \n')
+    #     for s_after in v_after:
+    #         f.write(f'{s_after}\n')
 
 retrieval_acc_dict  
 
@@ -402,6 +405,7 @@ for cls in list_class_fix:
     changed_path = f'{path_to_fix}/{idx}.{cls}'
 
     move(orig_path, changed_path)
+
 # %% make data with no query.txt
 path_to_fix = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts_inpaint_unsplash_query/'
 new_path = '/home/tin/projects/reasoning/plain_clip/retrieval_cub_images_by_texts_inpaint_unsplash/'
