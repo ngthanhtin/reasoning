@@ -15,11 +15,12 @@ from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 
+from tqdm import tqdm
 # %%
 from FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
 
 # %%
-device = torch.device("cuda:7" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:6" if torch.cuda.is_available() else "cpu")
 device
 
 # %%
@@ -66,13 +67,13 @@ class ImageFolderWithTwoPaths(ImageFolder):
         return (img, img2, label, path, path2)
 # %%
 # validation_folder = ImageFolder(root='/home/tin/datasets/cub/CUB/test', transform=val_dataset_transform)
-# validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/cub/CUB/test', transform=val_dataset_transform)
-# val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
+validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/cub/CUB/test', transform=val_dataset_transform)
+val_loader        = DataLoader(validation_folder, batch_size=10, shuffle=False, num_workers=8, pin_memory=False)
 
 
 # %%
-validation_folder = ImageFolderWithTwoPaths(root1='/home/tin/datasets/cub/CUB/test', root2='/home/tin/datasets/cub/CUB_inpaint_all_test/', transform=val_dataset_transform)
-val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
+# validation_folder = ImageFolderWithTwoPaths(root1='/home/tin/datasets/cub/CUB/test', root2='/home/tin/datasets/cub/CUB_inpaint_all_test/', transform=val_dataset_transform)
+# val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
 # %% [markdown]
 # ## iNAT ResNet-50 
 
@@ -108,8 +109,9 @@ def test_cub(model):
   targets = []
   confidence = []
   
+  full_paths = []
   with torch.inference_mode():
-    for _, (data, target, path) in enumerate(val_loader):
+    for _, (data, target, path) in tqdm(enumerate(val_loader)):
       data   = data.to(device)
       target = target.to(device)
       outputs = model(data)
@@ -121,6 +123,13 @@ def test_cub(model):
       
       predictions.extend(preds.data.cpu().numpy())
       targets.extend(target.data.cpu().numpy())
+
+      bird_labels = target.detach().to('cpu').tolist()
+      bird_preds = preds.detach().to('cpu').tolist()
+      for i, (label, pred, _path) in enumerate(zip(bird_labels, bird_preds, path)):
+        if pred == label:
+          full_paths.append(_path.split('/')[-2] + '/' + _path.split('/')[-1])
+
       confidence.extend((probs.data.cpu().numpy()*100).astype(np.int32))
 
   epoch_loss = running_loss / len(validation_folder)
@@ -129,10 +138,19 @@ def test_cub(model):
   print('-' * 10)
   print('loss: {:.4f}, acc: {:.4f}'.format(epoch_loss, 100*epoch_acc))
   
-  return predictions, targets, confidence
+  return predictions, targets, confidence, full_paths
 
 # %%
-# cub_test_preds, cub_test_targets, cub_test_confs = test_cub(inat_resnet)
+cub_test_preds, cub_test_targets, cub_test_confs, full_paths = test_cub(inat_resnet)
+
+print(len(full_paths))
+def save_paths_to_txt(file_path, paths_list):
+  with open(file_path, 'w') as file:
+    for path in paths_list:
+      file.write(f"{path}\n")
+
+save_paths_to_txt('./mohammad_paths.txt', full_paths)
+exit()
 
 # %%
 # ensemble with habitat model
