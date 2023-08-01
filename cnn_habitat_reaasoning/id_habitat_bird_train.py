@@ -34,10 +34,10 @@ from datetime import datetime
 # %% config
 class CFG:
     seed = 42
-    dataset = 'cub' # cub, nabirds, inat21
+    dataset = 'inat21' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
@@ -46,7 +46,7 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    is_inpaint = True
+    is_inpaint = False
 
     # cutmix
     cutmix = False
@@ -79,7 +79,7 @@ class CFG:
 
     # save folder
     save_folder    = f'./results/{dataset}_{model_name}_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/' if is_inpaint else \
-    f'./{dataset}_{model_name}_no_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    f'./results/{dataset}_{model_name}_no_inpaint_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
@@ -304,10 +304,8 @@ fig = plt.figure(figsize=(25, 4))
 # %%
 
 def get_model():
-    # model = models.efficientnet_b3(pretrained=True)
     model_name = CFG.model_name #'resnet101' # tf_efficientnetv2_b0
-    model = timm.create_model(model_name, pretrained=True)
-    # model = torch.hub.load('facebookresearch/deit:main', 'deit_tiny_patch16_224', pretrained=True)
+    model = timm.create_model(model_name, num_classes=0, pretrained=True)
 
     for param in model.parameters():
         param.requires_grad = False
@@ -321,20 +319,20 @@ def get_model():
         nn.Linear(2048, len(classes)))
         model_params = model.classifier.parameters()
     elif model_name in ['resnet50', 'resnet101']:
-        # n_inputs = model.fc.in_features
-        # model.fc = nn.Sequential(
-        #     nn.Linear(n_inputs,2048),
-        #     nn.SiLU(),
-        #     nn.Dropout(0.3),
-        #     nn.Linear(2048, len(classes))
-        # )
-        # model_params = model.fc.parameters()
-        model = timm.create_model(
-                CFG.model_name,
-                pretrained=CFG.pretrained,
-                num_classes=len(classes),
-                in_chans=3,
-            ).to(CFG.device)
+        num_features = model.num_features
+        
+        model.fc = nn.Sequential(
+            nn.Linear(num_features, 512),
+            nn.ReLU(),
+            nn.Linear(512, len(classes))
+        )
+        model_params = model.fc.parameters()
+        # model = timm.create_model(
+        #         CFG.model_name,
+        #         pretrained=CFG.pretrained,
+        #         num_classes=len(classes),
+        #         in_chans=3,
+        #     ).to(CFG.device)
         model_params = model.parameters()
 
     return model, model_params

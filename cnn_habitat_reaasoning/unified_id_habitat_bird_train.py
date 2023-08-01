@@ -24,6 +24,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import os
+import json
 import sys
 from tqdm import tqdm
 import random
@@ -37,10 +38,14 @@ class CFG:
     dataset = 'cub' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 
     # data params
-    dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1468}
+    dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
+    bird_num_classes = dataset2num_classes[dataset]
+    habitat_num_classes = 200
+    alpha = 0.
+
     dataset2path = {
         'cub': '/home/tin/datasets/cub',
         'nabirds': '/home/tin/datasets/nabirds/',
@@ -52,14 +57,14 @@ class CFG:
     cutmix_beta = 1.
 
     #hyper params
-    batch_size = 64
+    batch_size = 32#10#64
     lr = 1e-3
     image_size = 224
-    epochs = 15
+    epochs = 20
 
-    # explaination
-    explaination = False
-
+    # train or test
+    train = True
+    return_paths = True if train == False else False
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
     write_inat_to_df = not os.path.exists(inat21_df_path)
@@ -71,7 +76,7 @@ class CFG:
 
     # save folder
     save_folder    = f'./results/{dataset}_unified_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
-    if not os.path.exists(save_folder):
+    if not os.path.exists(save_folder) and train:
         os.makedirs(save_folder)
 
 # %%
@@ -111,13 +116,38 @@ def Augment(train = False):
         ])
     
     return transform
-
+    
 class Unified_Inat21_Dataset(Dataset):
-    def __init__(self, df, transform=None, mode='train'):
+    def __init__(self, dataroot, df, transform=None, mode='train'):
         self.df = df
         self.df = self.df[self.df['Mode'] == mode]
         self.mode = mode
         self.transform = transform
+        
+        # cluster
+        class_cluster_filepath = f"/home/tin/projects/reasoning/plain_clip/class_inat21_clusters_1486.json"
+        f = open(class_cluster_filepath, 'r')
+        idx2cluster = json.load(f)
+        
+        folderclasses = os.listdir(f"{dataroot}/bird_train/")
+        folderclass2class = {}
+
+        for folder_name in folderclasses:
+                name_parts = folder_name.split('_')
+                name = name_parts[-2] + ' ' + name_parts[-1]
+                
+                folderclass2class[folder_name] = name
+
+        class2folderclass = {v:k for k,v in folderclass2class.items()}
+
+        self.habitat_img_2_class = {}
+        for idx, classes in idx2cluster.items():
+            for cls in classes:
+                # convert cls to folder class
+                folderclass = class2folderclass[cls]
+                habitat_image_paths = os.listdir(f"{dataroot}/inat21_inpaint_all/{folderclass}")
+                for img_path in habitat_image_paths:
+                    self.habitat_img_2_class[img_path] = int(idx) - 1
 
     def __len__(self):
         return len(self.df)
@@ -129,17 +159,61 @@ class Unified_Inat21_Dataset(Dataset):
         label = int(label)
         image = Image.open(orig_image_path).convert("RGB")
         inpaint_image = Image.open(inpaint_image_path).convert("RGB")
+        label2 = self.habitat_img_2_class[inpaint_image_path.split('/')[-1]]
 
         if self.transform is not None:
             image = self.transform(image)
             inpaint_image = self.transform(inpaint_image)
-
-        return torch.cat((image, inpaint_image), 0), label, orig_image_path, inpaint_image_path
+        
+        return (torch.cat((image, inpaint_image), 0), label, label2)
 
 class ImageFolderWithTwoPaths(datasets.ImageFolder):
-    def __init__(self, root1, root2, transform=None, target_transform=None):
+    def __init__(self, root1, root2, transform=None, target_transform=None, return_paths=CFG.return_paths):
         super(ImageFolderWithTwoPaths, self).__init__(root1, transform, target_transform)
         self.root2 = root2
+        self.return_paths = return_paths
+
+        class_cluster_filepath = f"/home/tin/projects/reasoning/plain_clip/class_{CFG.dataset}_clusters_{CFG.habitat_num_classes}.json"
+        f = open(class_cluster_filepath, 'r')
+        idx2cluster = json.load(f)
+        
+        folderclasses = os.listdir(root1)
+        folderclass2class = {}
+        if CFG.dataset == 'cub':
+            for cls in folderclasses:
+                name = cls.split('.')[1]
+                
+                if len(name.split('_')) > 2:
+                    name_parts = name.split('_')
+                    if len(name.split('_')) == 3:
+                        name = name_parts[0] + '-' + name_parts[1] + ' ' + name_parts[2]
+                    else:
+                        name = name_parts[0] + '-' + name_parts[1] + '-' + name_parts[2] + ' ' + name_parts[3]
+                else:
+                    name = name.replace('_', ' ')
+                folderclass2class[cls] = name
+        else:
+            nabirds_idx2class_file = '/home/tin/projects/reasoning/scraping/nabird_data/nabird_classes.txt'
+            nabirds_idx2class = {}
+            idx2class = pd.read_table(nabirds_idx2class_file, header=None)
+            idx2class['id'] = idx2class[0].apply(lambda s: int(s.split(' ')[0]))
+            idx2class['label_name'] = idx2class[0].apply(lambda s: ' '.join(s.split(' ')[1:]))
+            for id, label_name in zip(idx2class['id'], idx2class['label_name']):
+                nabirds_idx2class[id] = label_name
+            for cls_idx in folderclasses:
+                name = nabirds_idx2class[int(cls_idx)]
+                folderclass2class[cls_idx] = name
+        class2folderclass = {v:k for k,v in folderclass2class.items()}
+
+        self.habitat_img_2_class = {}
+        for idx, classes in idx2cluster.items():
+            for cls in classes:
+                # convert cls to folder class
+                folderclass = class2folderclass[cls]
+                habitat_image_paths = os.listdir(f"{root2}/{folderclass}")
+                for img_path in habitat_image_paths:
+                    self.habitat_img_2_class[img_path] = int(idx) - 1
+        # print(len(self.habitat_img_2_class))
 
     def __getitem__(self, index):
         
@@ -151,11 +225,14 @@ class ImageFolderWithTwoPaths(datasets.ImageFolder):
 
         path2 = self.root2 +"/" + path.split("/")[-2] + "/" + path.split("/")[-1]
         img2 = self.loader(path2)
+        label2 = self.habitat_img_2_class[path.split("/")[-1]]
 
         if self.transform is not None:
             img2 = self.transform(img2)
 
-        return (torch.cat((0.9*img, 0.1*img2), 0), label, path, path2)
+        if self.return_paths:
+            return (torch.cat((img, img2), 0), label, label2, path.split("/")[-2] + '/' + path.split("/")[-1])
+        return (torch.cat((img, img2), 0), label, label2)
     
 def get_data_loaders(dataset, batch_size):
     """
@@ -185,7 +262,11 @@ def get_data_loaders(dataset, batch_size):
         test_loader = DataLoader(test_data, batch_size=batch_size, shuffle=False, num_workers=4)
 
         classes = train_data.classes
-
+        bird_classes = classes
+        habitat_classes = ['a' for a in range(CFG.habitat_num_classes)]
+        # bird_classes, habitat_classes = train_data.bird_classes, train_data.habitat_classes
+        return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes, habitat_classes)
+    
     elif dataset == 'inat21':
         orig_data_dir = CFG.dataset2path[dataset] + '/bird_train'
         inpaint_data_dir = CFG.dataset2path[dataset] + '/inat21_inpaint_all'
@@ -234,20 +315,23 @@ def get_data_loaders(dataset, batch_size):
         else:
             df = pd.read_csv(CFG.inat21_df_path)
         # generate subset based on indices
-        train_dataset = Unified_Inat21_Dataset(df, transform=Augment(train=True), mode='train')
-        test_dataset = Unified_Inat21_Dataset(df, transform=Augment(train=False), mode='test')
-        val_dataset = Unified_Inat21_Dataset(df, transform=Augment(train=False), mode='val')
+        train_dataset = Unified_Inat21_Dataset(CFG.dataset2path[dataset], df, transform=Augment(train=True), mode='train')
+        test_dataset = Unified_Inat21_Dataset(CFG.dataset2path[dataset], df, transform=Augment(train=False), mode='test', return_paths=CFG.return_paths)
+        val_dataset = Unified_Inat21_Dataset(CFG.dataset2path[dataset], df, transform=Augment(train=False), mode='val')
 
         train_loader = DataLoader(train_dataset, batch_size=CFG.batch_size, shuffle=True, num_workers=4)
         val_loader = DataLoader(val_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
         test_loader = DataLoader(test_dataset, batch_size=CFG.batch_size, shuffle=False, num_workers=4)
 
         classes = os.listdir(orig_data_dir)
+        bird_classes = classes
+        habitat_classes = ['a' for a in range(1486)]
+
         train_data_len, valid_data_len, test_data_len = len(train_dataset), len(val_dataset), len(test_dataset)
 
-    return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes)
+    return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes, habitat_classes)#, classes)
 # %%
-(train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
+(train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes, habitat_classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
 # %%
 visualize_loader = False
 if CFG.dataset == 'inat21' and visualize_loader:
@@ -293,28 +377,127 @@ dataset_sizes = {
     "test": test_data_len
 }
 dataset_sizes
-# %%
-def formatText(class_label):
-    return " ".join(class_label.split("_")[-2:])
-formatText(classes[0])
 
 # %%
-dataiter = iter(train_loader)
-images, labels, path1, path2 = next(dataiter)
-images.shape
+class MultiTaskModel(nn.Module):
+    def __init__(self, num_classes_task1=CFG.bird_num_classes, num_classes_task2=CFG.habitat_num_classes):
+        super(MultiTaskModel, self).__init__()
+
+        self.backbone = timm.create_model('resnet101', in_chans=6, num_classes=0, pretrained=True)
+        num_features = self.backbone.num_features
+        
+        self.branch1 = nn.Sequential(
+            nn.Linear(num_features, 512),
+            nn.ReLU(),
+            nn.Linear(512, num_classes_task1)
+        )
+        
+        self.branch2 = nn.Sequential(
+            nn.Linear(num_features, 256),
+            nn.ReLU(),
+            nn.Linear(256, num_classes_task2)
+        )
+        
+    def forward(self, x):
+        features = self.backbone(x)
+
+        output_task1 = self.branch1(features)
+        output_task2 = self.branch2(features)
+
+        return output_task1, output_task2
+
+from FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
+
+class MultiTaskModel_2(nn.Module):
+    def __init__(self, num_classes_task1=CFG.bird_num_classes, num_classes_task2=CFG.habitat_num_classes):
+        super(MultiTaskModel_2, self).__init__()
+
+        self.backbone = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
+        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
+        self.backbone.load_state_dict(my_model_state_dict, strict=True)
+
+        # Freeze backbone (for training only)
+        for param in list(self.backbone.parameters())[:-2]:
+            param.requires_grad = False
+
+        num_features = 200#self.backbone.num_features
+        
+        # self.branch1 = nn.Sequential(
+        #     nn.Linear(num_features, 512),
+        #     nn.ReLU(),
+        #     nn.Linear(512, num_classes_task1)
+        # )
+        
+        self.branch2 = nn.Sequential(
+            nn.Linear(num_features, 100),
+            nn.ReLU(),
+            nn.Linear(100, num_classes_task2)
+        )
+        
+    def forward(self, x):
+        features1 = self.backbone(x[:,:3,:,:])
+        features2 = self.backbone(x[:,3:,:,:])
+
+        output_task1 = features1#self.branch1(features1)
+        output_task2 = self.branch2(features2)
+
+        return output_task1, output_task2
 
 # %%
+class GatedFusion(nn.Module):
+    
+    def __init__(self, dim1=200, dim2=200):
+        
+        super(GatedFusion, self).__init__()
+        
+        self.gate_1 = nn.Linear(dim1+dim2, dim2)
+        self.gate_2 = nn.Linear(dim1+dim2, dim2)
+        
+        self.layer_norm = nn.LayerNorm(dim2)
+   
+    def forward(self, ftrs1, ftrs2):
+        ftrs2 = ftrs2.squeeze()
+    
+        ftrs1_weight = F.sigmoid(self.gate_1(torch.cat((ftrs1, ftrs2), dim=1)))
+        ftrs2_weight = F.sigmoid(self.gate_2(torch.cat((ftrs1, ftrs2), dim=1)))
+        
+        return self.layer_norm(
+            ftrs1 * ftrs1_weight + ftrs2 * ftrs2_weight
+        )
+    
+class MultiTaskModel_3(nn.Module):
+    def __init__(self, num_classes_task1=CFG.bird_num_classes, num_classes_task2=CFG.habitat_num_classes):
+        super(MultiTaskModel_3, self).__init__()
 
-def get_model():
-    model = timm.create_model(
-            CFG.model_name,
-            pretrained=CFG.pretrained,
-            num_classes=len(classes),
-            in_chans=3*2,
-        ).to(CFG.device)
-    model_params = model.parameters()
+        self.backbone1 = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
+        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
+        self.backbone1.load_state_dict(my_model_state_dict, strict=True)
 
-    return model, model_params
+        # Freeze backbone (for training only)
+        for param in list(self.backbone1.parameters())[:-2]:
+            param.requires_grad = False
+
+        self.backbone2 = timm.create_model('resnet152', in_chans=3, num_classes=0, pretrained=True)
+        num_features = self.backbone2.num_features
+        
+        self.branch1 = nn.Sequential(
+            nn.Linear(num_features, 512),
+            nn.ReLU(),
+            nn.Linear(512, 200)
+        )
+
+        self.gated_fusion = GatedFusion(dim1=200, dim2=200)#nn.Linear(400, 200)#GatedFusion(dim1=200, dim2=200)
+        # self.layer_norm = nn.LayerNorm(200)
+
+    def forward(self, x):
+        features1 = self.backbone1(x[:,:3,:,:])
+        features2 = self.backbone2(x[:,3:,:,:])
+        features2 = self.branch1(features2)
+
+        output_task1 = features1#self.branch1(features1)
+        output_task2 = self.gated_fusion(features1, features2)#self.layer_norm(self.gated_fusion(torch.cat((features1, features2), dim=1)))#self.gated_fusion(features1, features2)
+
+        return output_task1, output_task2
 # %%
 # cut mix rand bbox
 def rand_bbox(size, lam, to_tensor=True):
@@ -398,22 +581,22 @@ def show_batch_cutmix_images(dataloader):
         break
 
 # %%
-def train(trainloader, validloader, optimizer, criterion, scheduler, model, num_epochs = 10):
+def train(trainloader, validloader, optimizer, criterion1, criterion2, scheduler, model, num_epochs = 10):
     
     best_acc = 0.
     for epoch in range(num_epochs):
         print("")
         model.train()
-        train_loss, train_acc = train_epoch(trainloader, model, criterion, optimizer)
-        print(f"Epoch {epoch}/{num_epochs}, Train Loss: {train_loss:.3f}, Train Acc: {train_acc:.3f}") #, LR: {scheduler.get_lr()}")
+        train_loss, train_bird_acc, train_habitat_acc = train_epoch(trainloader, model, criterion1, criterion2, optimizer)
+        print(f"Epoch {epoch}/{num_epochs}, Train Loss: {train_loss:.3f}, Train Bird Acc: {train_bird_acc:.3f}, Train Habitat Acc: {train_habitat_acc:.3f}") #, LR: {scheduler.get_lr()}")
         
         with torch.no_grad():    
-            valid_loss, valid_acc = evaluate_epoch(validloader, criterion, model)     
-            print(f"Epoch {epoch}/{num_epochs}, Valid Loss: {valid_loss:.3f}, Valid Acc: {valid_acc:.3f}")
+            valid_loss, valid_bird_acc, valid_habitat_acc = evaluate_epoch(validloader, criterion1, criterion2, model)     
+            print(f"Epoch {epoch}/{num_epochs}, Valid Loss: {valid_loss:.3f}, Valid Bird Acc: {valid_bird_acc:.3f}, Valid Habitat Acc: {valid_habitat_acc:.3f}")
             # save model
-            if best_acc <= valid_acc:
+            if best_acc <= valid_bird_acc:
                 print("Saving...")
-                best_acc = valid_acc
+                best_acc = valid_bird_acc
                 torch.save(model.state_dict(), f"{CFG.save_folder}/{epoch}-{best_acc:.3f}-cutmix_{CFG.cutmix}.pth")
         
             scheduler.step()
@@ -421,51 +604,103 @@ def train(trainloader, validloader, optimizer, criterion, scheduler, model, num_
     return model
 
 # %%
-def train_epoch(trainloader, model, criterion, optimizer):
+def train_epoch(trainloader, model, criterion1, criterion2, optimizer):
     model.train()
     losses = []
-    accs = []
-
-    for inputs, labels, path1s, path2s in tqdm(trainloader):
+    bird_accs = []
+    habitat_accs = []
+    
+    for inputs, bird_labels, habitat_labels in tqdm(trainloader):
         inputs = inputs.to(CFG.device)
-        labels = labels.to(CFG.device)
+
+        bird_labels = bird_labels.to(CFG.device)
+        habitat_labels = habitat_labels.to(CFG.device)
 
         # zero the parameter gradients
         optimizer.zero_grad()
-
-        outputs = model(inputs)
-        _, preds = torch.max(outputs, 1)
-        loss = criterion(outputs, labels)
+        bird_outputs, habitat_outputs = model(inputs)
+    
+        _, bird_preds = torch.max(bird_outputs, 1)
+        _, habitat_preds = torch.max(habitat_outputs, 1)
+        loss1 = criterion1(bird_outputs, bird_labels) 
+        loss2 = criterion2(habitat_outputs, habitat_labels)
+        loss = CFG.alpha*loss1+(1-CFG.alpha)*loss2
 
         loss.backward()
         optimizer.step()
 
         # statistics
         losses.append(loss.item())
-        accs.append((torch.sum(preds == labels.data)/CFG.batch_size).detach().cpu().numpy())
+        bird_accs.append((torch.sum(bird_preds == bird_labels.data)/CFG.batch_size).detach().cpu().numpy())
+        habitat_accs.append((torch.sum(habitat_preds == habitat_labels.data)/CFG.batch_size).detach().cpu().numpy())
             
-    return np.mean(losses), np.mean(accs)
+    return np.mean(losses), np.mean(bird_accs), np.mean(habitat_accs)
 
 # %%
-def evaluate_epoch(validloader, criterion, model):
+def evaluate_epoch(validloader, criterion1, criterion2, model, return_paths=False):
     model.eval()
     losses = []
-    accs = []
+    bird_accs = []
+    habitat_accs = []
 
-    for inputs, labels, path1s, path2s in tqdm(validloader):
-        inputs = inputs.to(CFG.device)
-
-        outputs = model(inputs).detach().cpu() 
-        _, preds = torch.max(outputs, 1)
-        criterion = criterion.to('cpu')
-        loss = criterion(outputs, labels)
-        criterion.to(CFG.device)
-
-        # statistics
-        losses.append(loss.item())
-        accs.append(torch.sum(preds == labels.data)/CFG.batch_size)
+    if not return_paths:
+        for inputs, bird_labels, habitat_labels in tqdm(validloader):
+            inputs = inputs.to(CFG.device)
             
-    return np.mean(losses), np.mean(accs)
+            bird_outputs, habitat_outputs = model(inputs)
+
+            bird_outputs = bird_outputs.detach().cpu() 
+            habitat_outputs = habitat_outputs.detach().cpu() 
+            
+            _, bird_preds = torch.max(bird_outputs, 1)
+            _, habitat_preds = torch.max(habitat_outputs, 1)
+            criterion1 = criterion1.to('cpu')
+            criterion2 = criterion2.to('cpu')
+            loss1 = criterion1(bird_outputs, bird_labels) 
+            loss2 = criterion2(habitat_outputs, habitat_labels)
+            loss = CFG.alpha*loss1+(1-CFG.alpha)*loss2
+            criterion1.to(CFG.device)
+            criterion2.to(CFG.device)
+
+            # statistics
+            losses.append(loss.item())
+            bird_accs.append(torch.sum(bird_preds == bird_labels.data)/CFG.batch_size)
+            habitat_accs.append(torch.sum(habitat_preds == habitat_labels.data)/CFG.batch_size)
+                
+        return np.mean(losses), np.mean(bird_accs), np.mean(habitat_accs)
+    else:
+        full_paths = []
+        for inputs, bird_labels, habitat_labels, paths in tqdm(validloader):
+            inputs = inputs.to(CFG.device)
+            
+            bird_outputs, habitat_outputs = model(inputs)
+
+            bird_outputs = bird_outputs.detach().cpu() 
+            habitat_outputs = habitat_outputs.detach().cpu() 
+            
+            _, bird_preds = torch.max(bird_outputs, 1)
+            _, habitat_preds = torch.max(habitat_outputs, 1)
+            criterion1 = criterion1.to('cpu')
+            criterion2 = criterion2.to('cpu')
+            loss1 = criterion1(bird_outputs, bird_labels) 
+            loss2 = criterion2(habitat_outputs, habitat_labels)
+            loss = CFG.alpha*loss1+(1-CFG.alpha)*loss2
+            criterion1.to(CFG.device)
+            criterion2.to(CFG.device)
+
+            # statistics
+            losses.append(loss.item())
+            bird_accs.append(torch.sum(bird_preds == bird_labels.data)/CFG.batch_size)
+            habitat_accs.append(torch.sum(habitat_preds == habitat_labels.data)/CFG.batch_size)
+
+            bird_labels = bird_labels.detach().to('cpu').tolist()
+            bird_preds = bird_preds.detach().to('cpu').tolist()
+            for i, (label, pred, path) in enumerate(zip(bird_labels, bird_preds, paths)):
+                if pred == label:
+                    full_paths.append(path)
+
+        return np.mean(losses), np.mean(bird_accs), np.mean(habitat_accs), full_paths
+
 
 # %%
 """
@@ -492,67 +727,40 @@ class FocalLoss(nn.Module):
         probs_new = probs + self.epsilon
         one_subtract_probs_new = one_subtract_probs + self.epsilon
         # calculate focal loss
-        print(target.shape, probs_new.shape)
         log_pt = target * torch.log(probs_new) + (1.0 - target) * torch.log(one_subtract_probs_new)
         pt = torch.exp(log_pt)
         focal_loss = -1.0 * (self.alpha * (1 - pt) ** self.gamma) * log_pt
         focal_loss = focal_loss * self.cls_weights
+
         return torch.mean(focal_loss)#, probs
 # %%
-
-model, model_params = get_model()
+model = MultiTaskModel_3()
+model_params = model.parameters()
 model.to(CFG.device)
 
-criterion = LabelSmoothingCrossEntropy()
+criterion1 =  nn.CrossEntropyLoss()#LabelSmoothingCrossEntropy()
+criterion2 =  nn.CrossEntropyLoss()#LabelSmoothingCrossEntropy()
 # criterion = nn.CrossEntropyLoss(weight = torch.FloatTensor(CFG.class_weights).to(CFG.device))
 # criterion = FocalLoss()
-criterion = criterion.to(CFG.device)
+criterion1 = criterion1.to(CFG.device)
+criterion2 = criterion2.to(CFG.device)
+
 optimizer = optim.Adam(model_params, lr=CFG.lr)
 
 exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 
-model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
-with torch.no_grad():    
-    test_loss, test_acc = evaluate_epoch(test_loader, criterion, model_ft)   
-    print(f"Test Loss: {test_loss}, Valid Acc: {test_acc}")
+def save_paths_to_txt(file_path, paths_list):
+    with open(file_path, 'w') as file:
+        for path in paths_list:
+            file.write(f"{path}\n")
 
-# %%
-
-
-test_loss = 0.0
-class_correct = [0. for _ in range(len(classes))]
-class_total = [0. for _ in range(len(classes))]
-
-model_ft.eval()
-
-for data, target, path1, path2 in tqdm(test_loader):
-    if torch.cuda.is_available(): 
-        data, target = data.to(CFG.device), target.to(CFG.device)
-    with torch.no_grad():
-        output = model_ft(data)
-        loss = criterion(output, target)
-    test_loss += loss.item()*data.size(0)
-    _, pred = torch.max(output, 1)    
-    correct_tensor = pred.eq(target.data.view_as(pred))
-    correct = np.squeeze(correct_tensor.numpy()) if not torch.cuda.is_available() else np.squeeze(correct_tensor.cpu().numpy())
-    if len(target) == CFG.batch_size:
-        for i in range(CFG.batch_size):
-            label = target.data[i]
-            class_correct[label] += correct[i].item()
-            class_total[label] += 1
-
-test_loss = test_loss/len(test_loader.dataset)
-print('Test Loss: {:.6f}\n'.format(test_loss))
-
-# for i in range(len(classes)):
-#     if class_total[i] > 0:
-#         print('Test Accuracy of %5s: %2d%% (%2d/%2d)' % (
-#             formatText(classes[i]), 100 * class_correct[i] / class_total[i],
-#             np.sum(class_correct[i]), np.sum(class_total[i])))
-#     else:
-#         print('Test Accuracy of %5s: N/A (no training examples)' % (classes[i]))
-
-test_acc = round(100. * np.sum(class_correct) / np.sum(class_total), 3)
-print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)' % (
-    test_acc,
-    np.sum(class_correct), np.sum(class_total)))
+if CFG.train:
+    model_ft = train(train_loader, val_loader, optimizer, criterion1, criterion2, exp_lr_scheduler, model, num_epochs=CFG.epochs)
+else:
+    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub_unified_resnet101_07_31_2023-17:53:26/4-0.866-cutmix_False.pth"))
+    model.eval()
+    with torch.no_grad():    
+        test_loss, test_bird_acc, test_habitat_acc, paths = evaluate_epoch(test_loader, criterion1, criterion2, model, return_paths=CFG.return_paths)   
+        print(len(paths))
+        save_paths_to_txt('./tin_paths.txt', paths)
+        print(f"Test Loss: {test_loss}, Test Bird Acc: {test_bird_acc}, Test Habitat Acc: {test_habitat_acc}")
