@@ -5,25 +5,41 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 import json
 
-description_path = "../plain_clip/descriptors/cub/additional_chatgpt_descriptors_cub.json"
+dataset = 'inat21' # nabirds
+def save_dict_to_json(data_dict, file_path):
+    with open(file_path, 'w') as json_file:
+        json.dump(data_dict, json_file)
+
+if dataset != 'inat21':
+    description_path = f"../plain_clip/descriptors/{dataset}/additional_chatgpt_descriptors_{dataset}.json"
+else:
+    # description_path = f"../plain_clip/descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json"
+    description_path = f"../plain_clip/descriptors/inaturalist2021/chatgpt_descriptors_inaturalist.json"
+
 f = open(description_path, 'r')
 documents = json.load(f)
-documents = {k: v[-1][9:] for k,v in documents.items()}
+documents = {k: f"{k}, {v[-1][9:]}"  for k,v in documents.items()}
+#
+full_dict_documents = {}
+for i, (k, v) in enumerate(documents.items()):
+    full_dict_documents[i+1] = [k]
+file_path = f'class_{dataset}_clusters_1486.json'
+save_dict_to_json(full_dict_documents, file_path)
+#
 docs2classes = {v:k for k, v in documents.items()}
 documents = [v for v in documents.values()]
-print(docs2classes['Nests on low, sandy islands in the tropical North Pacific. Forages both near to shore (though usually not within sight of land) and far offshore, in places where upwelling or converging currents concentrate nutrients and prey at the sea surface'])
 # split a sentence into multiple sentences
 # documents = {k: v.split('.') for k,v in documents.items()}
 # documents = {k: [f'{k}, {s}' for s in v] for k,v in documents.items()}
 
 
-
+# %%
 # Step 1: Vectorize the documents
 vectorizer = TfidfVectorizer(stop_words='english')
 X = vectorizer.fit_transform(documents)
 
 # Step 2: Determine the optimal number of clusters (K) using silhouette score
-max_clusters = 23  # Set a reasonable maximum number of clusters to consider
+max_clusters = 200  # Set a reasonable maximum number of clusters to consider
 best_score = -1
 best_k = 5
 for k in range(2, max_clusters + 1):
@@ -67,14 +83,7 @@ for i in range(len(class_clusters)):
     index2clusters[i+1] = class_clusters[i]
 
 # %%
-def save_dict_to_json(data_dict, file_path):
-    with open(file_path, 'w') as json_file:
-        json.dump(data_dict, json_file)
-
-# File path to save the JSON data
-file_path = 'class_clusters_4.json'
-
-# Save the dictionary to JSON
+file_path = f'class_{dataset}_clusters_{len(clusters.items())}.json'
 save_dict_to_json(index2clusters, file_path)
 
 # %%
