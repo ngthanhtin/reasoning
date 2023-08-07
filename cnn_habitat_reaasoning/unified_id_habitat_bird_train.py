@@ -21,6 +21,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 import seaborn as sns
 
 import os
@@ -38,13 +39,13 @@ class CFG:
     dataset = 'cub' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
     bird_num_classes = dataset2num_classes[dataset]
-    habitat_num_classes = 200
-    alpha = 0.
+    habitat_num_classes = 4
+    alpha = 0.9
 
     dataset2path = {
         'cub': '/home/tin/datasets/cub',
@@ -57,14 +58,14 @@ class CFG:
     cutmix_beta = 1.
 
     #hyper params
-    batch_size = 32#10#64
+    batch_size = 64
     lr = 1e-3
     image_size = 224
     epochs = 20
 
     # train or test
     train = True
-    return_paths = True if train == False else False
+    return_paths = not train
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
     write_inat_to_df = not os.path.exists(inat21_df_path)
@@ -239,10 +240,18 @@ def get_data_loaders(dataset, batch_size):
     Get the train, val, test dataloader
     """
     if dataset in ['cub', 'nabirds']:
+        # train
+        # inpaint_train_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'train_inpaint/'
         inpaint_train_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'train_inpaint/'
         orig_train_img_folder = 'CUB/train/' if dataset == 'cub' else 'train/'
+        # orig_train_img_folder = 'CUB_no_bg_train/' if dataset == 'cub' else 'train/'
+
+        # test
+        # inpaint_test_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'test_inpaint/'
         inpaint_test_img_folder = 'CUB_inpaint_all_test/' if dataset == 'cub' else 'test_inpaint/'
         orig_test_img_folder = 'CUB/test/' if dataset == 'cub' else 'test/'
+        # orig_test_img_folder = 'CUB_no_bg_test/' if dataset == 'cub' else 'test/'
+
         
         inpaint_train_data_dir = f"{CFG.dataset2path[dataset]}/{inpaint_train_img_folder}"
         orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{orig_train_img_folder}"
@@ -461,9 +470,8 @@ class GatedFusion(nn.Module):
         ftrs1_weight = F.sigmoid(self.gate_1(torch.cat((ftrs1, ftrs2), dim=1)))
         ftrs2_weight = F.sigmoid(self.gate_2(torch.cat((ftrs1, ftrs2), dim=1)))
         
-        return self.layer_norm(
-            ftrs1 * ftrs1_weight + ftrs2 * ftrs2_weight
-        )
+        return ftrs1 * ftrs1_weight + ftrs2 * ftrs2_weight, \
+            ftrs1 * ftrs1_weight, ftrs2 * ftrs2_weight, ftrs1_weight, ftrs2_weight
     
 class MultiTaskModel_3(nn.Module):
     def __init__(self, num_classes_task1=CFG.bird_num_classes, num_classes_task2=CFG.habitat_num_classes):
@@ -477,8 +485,8 @@ class MultiTaskModel_3(nn.Module):
         for param in list(self.backbone1.parameters())[:-2]:
             param.requires_grad = False
 
-        self.backbone2 = timm.create_model('resnet152', in_chans=3, num_classes=0, pretrained=True)
-        num_features = self.backbone2.num_features
+        self.backbone2 = timm.create_model('resnet50', in_chans=3, num_classes=101, pretrained=True)
+        num_features = 101#self.backbone2.num_features
         
         self.branch1 = nn.Sequential(
             nn.Linear(num_features, 512),
@@ -495,9 +503,64 @@ class MultiTaskModel_3(nn.Module):
         features2 = self.branch1(features2)
 
         output_task1 = features1#self.branch1(features1)
-        output_task2 = self.gated_fusion(features1, features2)#self.layer_norm(self.gated_fusion(torch.cat((features1, features2), dim=1)))#self.gated_fusion(features1, features2)
+        output_task2, weighted_features1, weighted_features2, weight1, weight2 = self.gated_fusion(features1, features2)#self.layer_norm(self.gated_fusion(torch.cat((features1, features2), dim=1)))#self.gated_fusion(features1, features2)
 
-        return output_task1, output_task2
+        if CFG.train:
+            return output_task1, output_task2
+        return output_task1, output_task2, weight1, weight2, weighted_features1, weighted_features2
+
+class MultiTaskModel_4(nn.Module):
+    def __init__(self, num_classes_task1=CFG.bird_num_classes, num_classes_task2=CFG.habitat_num_classes):
+        super(MultiTaskModel_4, self).__init__()
+
+        self.backbone1 = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
+        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
+        self.backbone1.load_state_dict(my_model_state_dict, strict=True)
+
+        self.backbone2 = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
+        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
+        self.backbone2.load_state_dict(my_model_state_dict, strict=True)
+
+        # Freeze backbone (for training only)
+        for param in list(self.backbone1.parameters())[:-2]:
+            param.requires_grad = False
+
+        for param in list(self.backbone2.parameters())[:-2]:
+            param.requires_grad = False
+
+        # self.backbone2 = timm.create_model('resnet50', in_chans=3, num_classes=101, pretrained=True)
+        num_features = 200#self.backbone2.num_features
+        
+        self.branch1 = nn.Sequential(
+            nn.Linear(num_features, 512),
+            nn.ReLU(),
+            nn.Linear(512, num_classes_task1)
+        )
+
+        self.branch2 = nn.Sequential(
+            nn.Linear(num_features, 512),
+            nn.ReLU(),
+            nn.Linear(512, num_classes_task2)
+        )
+
+        self.gated_fusion = GatedFusion(dim1=200, dim2=200)#nn.Linear(400, 200)#GatedFusion(dim1=200, dim2=200)
+        self.layer_norm1 = nn.LayerNorm(num_classes_task1)
+        self.layer_norm2 = nn.LayerNorm(num_classes_task2)
+
+    def forward(self, x):
+        share_feats1 = self.backbone1(x[:,:3,:,:])
+        share_feats2 = self.backbone2(x[:,3:,:,:])
+        features1 = share_feats1
+        # features2 = self.backbone2()
+        features2 = self.branch2(share_feats2)
+
+        output_task1 = self.layer_norm1(features1)
+        output_task2 = self.layer_norm2(features2)
+        # output_task2, weighted_features1, weighted_features2, weight1, weight2 = self.gated_fusion(features1, features2)#self.layer_norm(self.gated_fusion(torch.cat((features1, features2), dim=1)))#self.gated_fusion(features1, features2)
+
+        if CFG.train:
+            return output_task1, output_task2
+        # return output_task1, output_task2, weight1, weight2, weighted_features1, weighted_features2
 # %%
 # cut mix rand bbox
 def rand_bbox(size, lam, to_tensor=True):
@@ -643,98 +706,155 @@ def evaluate_epoch(validloader, criterion1, criterion2, model, return_paths=Fals
     bird_accs = []
     habitat_accs = []
 
-    if not return_paths:
-        for inputs, bird_labels, habitat_labels in tqdm(validloader):
-            inputs = inputs.to(CFG.device)
-            
-            bird_outputs, habitat_outputs = model(inputs)
+    for inputs, bird_labels, habitat_labels in tqdm(validloader):
+        inputs = inputs.to(CFG.device)
+        
+        bird_outputs, habitat_outputs = model(inputs)
 
-            bird_outputs = bird_outputs.detach().cpu() 
-            habitat_outputs = habitat_outputs.detach().cpu() 
-            
-            _, bird_preds = torch.max(bird_outputs, 1)
-            _, habitat_preds = torch.max(habitat_outputs, 1)
-            criterion1 = criterion1.to('cpu')
-            criterion2 = criterion2.to('cpu')
-            loss1 = criterion1(bird_outputs, bird_labels) 
-            loss2 = criterion2(habitat_outputs, habitat_labels)
-            loss = CFG.alpha*loss1+(1-CFG.alpha)*loss2
-            criterion1.to(CFG.device)
-            criterion2.to(CFG.device)
+        bird_outputs = bird_outputs.detach().cpu() 
+        habitat_outputs = habitat_outputs.detach().cpu() 
+        
+        _, bird_preds = torch.max(bird_outputs, 1)
+        _, habitat_preds = torch.max(habitat_outputs, 1)
+        criterion1 = criterion1.to('cpu')
+        criterion2 = criterion2.to('cpu')
+        loss1 = criterion1(bird_outputs, bird_labels) 
+        loss2 = criterion2(habitat_outputs, habitat_labels)
+        loss = CFG.alpha*loss1+(1-CFG.alpha)*loss2
+        criterion1.to(CFG.device)
+        criterion2.to(CFG.device)
 
-            # statistics
-            losses.append(loss.item())
-            bird_accs.append(torch.sum(bird_preds == bird_labels.data)/CFG.batch_size)
-            habitat_accs.append(torch.sum(habitat_preds == habitat_labels.data)/CFG.batch_size)
+        # statistics
+        losses.append(loss.item())
+        bird_accs.append(torch.sum(bird_preds == bird_labels.data)/CFG.batch_size)
+        habitat_accs.append(torch.sum(habitat_preds == habitat_labels.data)/CFG.batch_size)
+            
+    return np.mean(losses), np.mean(bird_accs), np.mean(habitat_accs)
+
+
+def save_weights_fig(weight1, weight2, feat1, feat2, prediction, image_path, save_path='weight_figures_4/'):
+    bird_root = '/home/tin/datasets/cub/CUB/images/'
+    habitat_root = '/home/tin/datasets/cub/CUB_blank_test/'
+
+    # bird weight figure
+    # if ((weight2[prediction] >= weight1[prediction] and feat2[prediction] >= feat1[prediction]) or \
+    #     (weight1[prediction] > weight2[prediction] and feat1[prediction] <= feat2[prediction])):
+    if (weight2[prediction] > weight1[prediction] and feat2[prediction] > feat1[prediction]):
+        
+        image_label_folder = image_path.split('/')[0]
+        image_name = image_path.split('/')[1]
+
+        bird_image = mpimg.imread(f"{bird_root}/{image_label_folder}/{image_name}")
+        habitat_image = mpimg.imread(f"{habitat_root}/{image_label_folder}/{image_name}")
+
+        if not os.path.exists(f"{save_path}/{image_label_folder}"):
+            os.mkdir(f"{save_path}/{image_label_folder}")
+
+        fig, axes = plt.subplots(2, 4, figsize=(20, 16))
+        fig.suptitle(f'Prediction: {str(prediction)} ({image_name})', fontsize=16)
+        axes[0, 0].imshow(bird_image)
+        axes[0, 0].set_title('Bird Image')
+        axes[1, 0].imshow(habitat_image)
+        axes[1, 0].set_title('Habitat Image')
+
+        
+        axes[0, 1].bar(range(200), weight1, align='center', color=['blue'])
+        axes[0, 1].set_title('Weight')
+        
+        axes[1, 1].bar(range(200), weight2, align='center', color=['red'])
+        axes[1, 1].set_title('Weight')
+
+        
+        axes[0, 2].bar(range(200), feat1, align='center', color=['blue'])
+        axes[1, 2].bar(range(200), feat2, align='center', color=['red'])
+
+        axes[0, 3].bar(range(1), (feat1[prediction]), align='center', color=['blue'])
+        axes[1, 3].bar(range(1), (feat2[prediction]), align='center', color=['red'])
+
+        axes[0, 2].set_title('Weighted Feat')
+        axes[1, 2].set_title('Weighted Feat')
+        axes[0, 3].set_title(f'Weighted Feat at Prediction {str(prediction)}')
+        axes[1, 3].set_title(f'Weighted Feat at Prediction {str(prediction)}')
+
+        plt.tight_layout()
+        plt.savefig(f"{save_path}/{image_label_folder}/{image_name}")
+
+def find_argmax(lst):
+    if not lst:
+        return None
+
+    max_index = lst.index(max(lst))
+    return max_index
+    
+def test_epoch(testloader, model, return_paths=False):
+    model.eval()
+    bird_accs = []
+    habitat_accs = []
+
+    full_paths = []
+    a, b, c, d = 0, 0, 0, 0
+    x, y, z = 0, 0, 0
+    for inputs, bird_labels, habitat_labels, paths in tqdm(testloader):
+        inputs = inputs.to(CFG.device)
+        
+        bird_outputs, habitat_outputs, weights1, weights2, weighted_feats1, weighted_feats2 = model(inputs)
+
+        bird_outputs = bird_outputs.detach().cpu() 
+        habitat_outputs = habitat_outputs.detach().cpu() 
+        
+        _, bird_preds = torch.max(bird_outputs, 1)
+        _, habitat_preds = torch.max(habitat_outputs, 1)
+        _, weighted_feats1_preds = torch.max(weighted_feats1, 1)
+        _, weighted_feats2_preds = torch.max(weighted_feats2, 1)
+        # statistics
+        bird_accs.append(torch.sum(bird_preds == bird_labels.data)/CFG.batch_size)
+        habitat_accs.append(torch.sum(habitat_preds == habitat_labels.data)/CFG.batch_size)
+
+        bird_labels = bird_labels.detach().to('cpu').tolist()
+        bird_preds = bird_preds.detach().to('cpu').tolist()
+        habitat_preds = habitat_preds.detach().to('cpu').tolist()
+        weighted_feats1_preds = weighted_feats1_preds.detach().to('cpu').tolist()
+        weighted_feats2_preds = weighted_feats2_preds.detach().to('cpu').tolist()
+
+        # for i, (label, pred, path) in enumerate(zip(bird_labels, bird_preds, paths)):
+        for i, (label, pred, f1_pred, f2_pred, path) in enumerate(zip(bird_labels, habitat_preds, weighted_feats1_preds, weighted_feats2_preds, paths)):
+            if pred == label:
+                full_paths.append(path)
                 
-        return np.mean(losses), np.mean(bird_accs), np.mean(habitat_accs)
-    else:
-        full_paths = []
-        for inputs, bird_labels, habitat_labels, paths in tqdm(validloader):
-            inputs = inputs.to(CFG.device)
-            
-            bird_outputs, habitat_outputs = model(inputs)
 
-            bird_outputs = bird_outputs.detach().cpu() 
-            habitat_outputs = habitat_outputs.detach().cpu() 
-            
-            _, bird_preds = torch.max(bird_outputs, 1)
-            _, habitat_preds = torch.max(habitat_outputs, 1)
-            criterion1 = criterion1.to('cpu')
-            criterion2 = criterion2.to('cpu')
-            loss1 = criterion1(bird_outputs, bird_labels) 
-            loss2 = criterion2(habitat_outputs, habitat_labels)
-            loss = CFG.alpha*loss1+(1-CFG.alpha)*loss2
-            criterion1.to(CFG.device)
-            criterion2.to(CFG.device)
+                w1 = weights1[i].view(-1).detach().to('cpu').tolist()
+                w2 = weights2[i].view(-1).detach().to('cpu').tolist()
+                f1 = weighted_feats1[i].view(-1).detach().to('cpu').tolist()
+                f2 = weighted_feats2[i].view(-1).detach().to('cpu').tolist()
+                if label == find_argmax(w1):
+                    continue
+                # if w1[label] > w2[label] and f1[label] > f2[label]:
+                #     a += 1
+                # if w2[label] >= w1[label] and f2[label] >= f1[label]:
+                #     b += 1
+                # if w1[label] > w2[label] and f1[label] <= f2[label]:
+                #     c += 1
+                # if w1[label] <= w2[label] and f1[label] > f2[label]:
+                #     d += 1
 
-            # statistics
-            losses.append(loss.item())
-            bird_accs.append(torch.sum(bird_preds == bird_labels.data)/CFG.batch_size)
-            habitat_accs.append(torch.sum(habitat_preds == habitat_labels.data)/CFG.batch_size)
+                save_weights_fig(w1, w2, f1, f2, pred, path)
 
-            bird_labels = bird_labels.detach().to('cpu').tolist()
-            bird_preds = bird_preds.detach().to('cpu').tolist()
-            for i, (label, pred, path) in enumerate(zip(bird_labels, bird_preds, paths)):
-                if pred == label:
-                    full_paths.append(path)
+                # if f1_pred == label and f2_pred == label:
+                #     z += 1
+                # elif f1_pred == label:
+                #     x+=1
+                # elif f2_pred == label:
+                #     y+=1
+                
+                
+    # print(a,b,c,d)
+    print(x,y, z)
 
-        return np.mean(losses), np.mean(bird_accs), np.mean(habitat_accs), full_paths
 
+    return np.mean(bird_accs), np.mean(habitat_accs), full_paths
 
 # %%
-"""
-Define Focal-Loss
-"""
-class FocalLoss(nn.Module):
-    """
-    The focal loss for fighting against class-imbalance
-    """
-    def __init__(self, alpha=1, gamma=2):
-        super(FocalLoss, self).__init__()
-        self.alpha = alpha
-        self.gamma = gamma
-        self.epsilon = 1e-12  # prevent training from Nan-loss error
-        self.cls_weights = torch.tensor([CFG.class_weights],dtype=torch.float, requires_grad=False, device=CFG.device)
-
-    def forward(self, logits, target):
-        """
-        logits & target should be tensors with shape [batch_size, num_classes]
-        """
-        probs = torch.sigmoid(logits)
-        one_subtract_probs = 1.0 - probs
-        # add epsilon
-        probs_new = probs + self.epsilon
-        one_subtract_probs_new = one_subtract_probs + self.epsilon
-        # calculate focal loss
-        log_pt = target * torch.log(probs_new) + (1.0 - target) * torch.log(one_subtract_probs_new)
-        pt = torch.exp(log_pt)
-        focal_loss = -1.0 * (self.alpha * (1 - pt) ** self.gamma) * log_pt
-        focal_loss = focal_loss * self.cls_weights
-
-        return torch.mean(focal_loss)#, probs
-# %%
-model = MultiTaskModel_3()
+model = MultiTaskModel_4()
 model_params = model.parameters()
 model.to(CFG.device)
 
@@ -758,9 +878,10 @@ if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion1, criterion2, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub_unified_resnet101_07_31_2023-17:53:26/4-0.866-cutmix_False.pth"))
+    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub_unified_resnet101_08_03_2023-11:27:33/9-0.868-cutmix_False.pth"))
     model.eval()
     with torch.no_grad():    
-        test_loss, test_bird_acc, test_habitat_acc, paths = evaluate_epoch(test_loader, criterion1, criterion2, model, return_paths=CFG.return_paths)   
-        print(len(paths))
-        save_paths_to_txt('./tin_paths.txt', paths)
-        print(f"Test Loss: {test_loss}, Test Bird Acc: {test_bird_acc}, Test Habitat Acc: {test_habitat_acc}")
+        test_bird_acc, test_habitat_acc, paths = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        print("Len correct paths: ", len(paths))
+        # save_paths_to_txt('./tin_paths.txt', paths)
+        print(f"Test Bird Acc: {test_bird_acc}, Test Habitat Acc: {test_habitat_acc}")
