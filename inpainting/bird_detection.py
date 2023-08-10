@@ -13,7 +13,7 @@ import cv2, os, json
 from tqdm import tqdm
 # %%
 class cfg:
-    dataset = 'inat21'#inat21, cub, nabirds
+    dataset = 'nabirds'#inat21, cub, nabirds
     device = "cuda:6" if torch.cuda.is_available() else "cpu"
 
     CUB_DIR = '/home/tin/datasets/CUB_200_2011/'
@@ -27,7 +27,7 @@ mask2former_model = MaskFormerForInstanceSegmentation.from_pretrained("facebook/
 mask2former_model.to(cfg.device)
 # %% --test one image
 def get_mask_one_image(image_path):
-    image = Image.open(image_path)
+    image = Image.open(image_path).convert("RGB")
     inputs = mask2former_image_processor(image, return_tensors="pt").to(cfg.device)
 
     with torch.no_grad():
@@ -104,8 +104,8 @@ if cfg.dataset == 'cub':
             x,y,w,h = get_mask_object_bbox(mask)
             imagedir_bb_dict[path] = [int(x),int(y),int(w),int(h)]
     
-    with open(f'{cfg.dataset}_bird_bb.json', "w") as json_file:
-        json.dump(imagedir_bb_dict, json_file, indent=4)
+    # with open(f'{cfg.dataset}_bird_bb.json', "w") as json_file:
+    #     json.dump(imagedir_bb_dict, json_file, indent=4)
 
 # %%
 #2. NABirds bounding boxes, need to use Mask2Former to detect the mask of the bird of an image, then get the bb
@@ -116,20 +116,33 @@ if cfg.dataset == 'nabirds':
     folders = os.listdir(nabird_image_dir)
     folders = [os.path.join(nabird_image_dir, f) for f in folders]
 
+    save_folder_path = '/home/tin/datasets/nabirds/mask_images/'
     for folder_path in tqdm(folders):
-        image_paths = os.listdir(folder_path)
-        image_paths = [os.path.join(folder_path, f) for f in image_paths]
-        for image_path in image_paths:
-            image = cv2.imread(image_path)
-            mask = get_mask_one_image(image_path)
-            mask = mask == 14 # get the mask of the bird
-            x, y, w, h = get_mask_object_bbox(mask)
-            mask_rectangle(mask, x, y, w, h)
-            
-            imagedir_bb_dict[path] = [int(x),int(y),int(w),int(h)]
+        folder_name = folder_path.split('/')[-1]
+        if not os.path.exists(f"{save_folder_path}/{folder_name}"):
+            os.makedirs(f"{save_folder_path}/{folder_name}")
 
-    with open(f'{cfg.dataset}_bird_bb.json', "w") as json_file:
-        json.dump(imagedir_bb_dict, json_file, indent=4)
+        image_names = os.listdir(folder_path)
+        image_paths = [os.path.join(folder_path, f) for f in image_names]
+        for image_path in image_paths:
+            image_name = image_path.split("/")[-1]
+            if os.path.exists(f"{save_folder_path}/{folder_name}/{image_name}"):
+                continue
+            
+            image = cv2.imread(image_path)
+            try:
+                mask = get_mask_one_image(image_path)
+            except:
+                print(image_path)
+            mask = mask == 14 # get the mask of the bird
+            cv2.imwrite(f"{save_folder_path}/{folder_name}/{image_name}", mask*255)
+            # x, y, w, h = get_mask_object_bbox(mask)
+            # mask_rectangle(mask, x, y, w, h)
+            
+            # imagedir_bb_dict[path] = [int(x),int(y),int(w),int(h)]
+
+    # with open(f'{cfg.dataset}_bird_bb.json', "w") as json_file:
+    #     json.dump(imagedir_bb_dict, json_file, indent=4)
 # %%
 #3. INat21 bounding boxes, need to use Mask2Former to detect the mask of the bird of an image, then get the bb
 if cfg.dataset == 'inat21':

@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 import json
 
-dataset = 'inat21' # nabirds
+dataset = 'nabirds' # nabirds
 def save_dict_to_json(data_dict, file_path):
     with open(file_path, 'w') as json_file:
         json.dump(data_dict, json_file)
@@ -20,11 +20,11 @@ f = open(description_path, 'r')
 documents = json.load(f)
 documents = {k: f"{k}, {v[-1][9:]}"  for k,v in documents.items()}
 #
-full_dict_documents = {}
-for i, (k, v) in enumerate(documents.items()):
-    full_dict_documents[i+1] = [k]
-file_path = f'class_{dataset}_clusters_1486.json'
-save_dict_to_json(full_dict_documents, file_path)
+# full_dict_documents = {}
+# for i, (k, v) in enumerate(documents.items()):
+#     full_dict_documents[i+1] = [k]
+# file_path = f'class_{dataset}_clusters.json'
+# save_dict_to_json(full_dict_documents, file_path)
 #
 docs2classes = {v:k for k, v in documents.items()}
 documents = [v for v in documents.values()]
@@ -39,7 +39,7 @@ vectorizer = TfidfVectorizer(stop_words='english')
 X = vectorizer.fit_transform(documents)
 
 # Step 2: Determine the optimal number of clusters (K) using silhouette score
-max_clusters = 200  # Set a reasonable maximum number of clusters to consider
+max_clusters = 50  # Set a reasonable maximum number of clusters to consider
 best_score = -1
 best_k = 5
 for k in range(2, max_clusters + 1):
