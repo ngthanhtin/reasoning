@@ -39,7 +39,7 @@ class CFG:
     dataset = 'cub' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -58,7 +58,7 @@ class CFG:
     cutmix_beta = 1.
 
     #hyper params
-    batch_size = 512#64
+    batch_size = 64#64 test on 512 bs
     lr = 1e-4
     image_size = 224
     epochs = 20
@@ -66,6 +66,7 @@ class CFG:
     # train or test
     train = False
     return_paths = not train
+    batch_size = 64 if train else 512
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
     write_inat_to_df = not os.path.exists(inat21_df_path)
@@ -243,13 +244,13 @@ def get_data_loaders(dataset, batch_size):
         # train
         # inpaint_train_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'train_inpaint/'
         inpaint_train_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'train_inpaint/'
-        orig_train_img_folder = 'CUB_augmix_train_small_2/' if dataset == 'cub' else 'train/'
-        # orig_train_img_folder = 'CUB_no_bg_train/' if dataset == 'cub' else 'train/'
+        orig_train_img_folder = 'CUB_irrelevant_augmix_train_small/' if dataset == 'cub' else 'train/'
+        # orig_train_img_folder = 'CUB_augmix_train_small_2/' if dataset == 'cub' else 'train/'
 
         # test
         inpaint_test_img_folder = 'CUB/test/' if dataset == 'cub' else 'test_inpaint/'
         # inpaint_test_img_folder = 'CUB_inpaint_all_test/' if dataset == 'cub' else 'test_inpaint/'
-        orig_test_img_folder = 'CUB_no_bg_test/' if dataset == 'cub' else 'test/'
+        orig_test_img_folder = 'CUB_random_test/' if dataset == 'cub' else 'test/'
         # orig_test_img_folder = 'CUB_no_bg_test/' if dataset == 'cub' else 'test/'
 
         
@@ -451,28 +452,7 @@ class MultiTaskModel_2(nn.Module):
         output_task2 = self.branch2(features2)
 
         return output_task1, output_task2
-
 # %%
-class GatedFusion(nn.Module):
-    
-    def __init__(self, dim1=200, dim2=200):
-        
-        super(GatedFusion, self).__init__()
-        
-        self.gate_1 = nn.Linear(dim1+dim2, dim2)
-        self.gate_2 = nn.Linear(dim1+dim2, dim2)
-        
-        self.layer_norm = nn.LayerNorm(dim2)
-   
-    def forward(self, ftrs1, ftrs2):
-        ftrs2 = ftrs2.squeeze()
-    
-        ftrs1_weight = F.sigmoid(self.gate_1(torch.cat((ftrs1, ftrs2), dim=1)))
-        ftrs2_weight = F.sigmoid(self.gate_2(torch.cat((ftrs1, ftrs2), dim=1)))
-        
-        return self.layer_norm(
-            ftrs1 * ftrs1_weight + ftrs2 * ftrs2_weight
-        ), ftrs1 * ftrs1_weight, ftrs2 * ftrs2_weight, ftrs1_weight, ftrs2_weight
     
 class MultiTaskModel_3(nn.Module):
     def __init__(self, num_classes_task1=CFG.bird_num_classes, num_classes_task2=CFG.habitat_num_classes):
@@ -614,14 +594,12 @@ def train_epoch(trainloader, model, criterion1, criterion2, optimizer):
     habitat_accs = []
     
     for inputs, bird_labels, habitat_labels in tqdm(trainloader):
-        # if CFG.cutmix and random.random() > 0.4:
-        #     inputs, bird_labels = cutmix_same_class(inputs, bird_labels)
-            # lam = np.random.beta(0.8, 0.8)
-            # rand_index = torch.randperm(inputs.size()[0])
-            # # bbx1, bby1, bbx2, bby2 = rand_bbox(inputs.size(), lam)
-            # bbx1, bby1, bbx2, bby2 = (50, 50, 100, 100)    
-            # inputs[:, bbx1:bbx2, bby1:bby2, :] = inputs[rand_index, bbx1:bbx2, bby1:bby2, :]
-
+        if CFG.cutmix and random.random() > 0.4:
+            lam = np.random.beta(0.4, 0.4)
+            rand_index = torch.randperm(inputs.size()[0])
+            bbx1, bby1, bbx2, bby2 = rand_bbox(inputs.size(), lam)    
+            inputs[:, bbx1:bbx2, bby1:bby2, :] = inputs[rand_index, bbx1:bbx2, bby1:bby2, :]
+            
         inputs = inputs.to(CFG.device)
         bird_labels = bird_labels.to(CFG.device)
 
