@@ -160,7 +160,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--cub_dir', default='/home/tin/datasets/cub/CUB/train/', help='Path to CUB (should also contain segmentations folder)')
     parser.add_argument('--places_dir', default='/home/tin/datasets/cub/CUB_inpaint_all_train/', help='Path to Places365 dataset')
-    parser.add_argument('--out_dir', default='/home/tin/datasets/cub/CUB_augmix_train/', help='Output directory')
+    parser.add_argument('--out_dir', default='/home/tin/datasets/cub/CUB_irrelevant_augmix_train/', help='Output directory')
     parser.add_argument('--black_dirname', default='CUB_black', help='Name of black dataset: black background for each image')
     parser.add_argument('--random_dirname', default='CUB_random', help='Name of random dataset: completely random place sampled for each image')
     parser.add_argument('--fixed_dirname', default='CUB_fixed', help='Name of fixed dataset: class <-> place association fixed at train, swapped at test')
@@ -212,8 +212,12 @@ if __name__ == '__main__':
             # img_black.save(full_black_path)
 
             # Fixed background
+            not_neigbors = [i for i in range(200) if i not in clusters]
+            # take only 3 irrelevant neighbors:
+            not_neigbors = get_random_subset(not_neigbors, 3)
 
-            for neigbor in clusters:
+            # for neigbor in clusters:
+            for neigbor in not_neigbors:
                 image_files2 = os.listdir(f"{img_dir}/{label_folders[neigbor-1]}")
                 image_files2 = get_random_subset(image_files2, 2)
 
