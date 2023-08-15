@@ -48,13 +48,15 @@ class CFG:
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
     bird_num_classes = dataset2num_classes[dataset]
     habitat_num_classes = dataset2num_classes[dataset]
-    alpha = 1.
-
+    # train, test data paths
     dataset2path = {
         'cub': '/home/tin/datasets/cub',
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
+    orig_train_img_folder = 'CUB/train/' # 'CUB_augmix_train_small_2/'
+    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds), CUB_no_bg_test, CUB_random_test
+    orig_test_img_folder = 'CUB_random_test/'
 
     # cutmix
     cutmix = False
@@ -207,18 +209,8 @@ def get_data_loaders(dataset, batch_size):
     Get the train, val, test dataloader
     """
     if dataset in ['cub', 'nabirds']:
-        # train
-        orig_train_img_folder = 'CUB/train/'
-        # orig_train_img_folder = 'CUB_augmix_train_small_2/'
-
-        # test 
-        # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds)
-        orig_test_img_folder = 'CUB/test/'
-        # orig_test_img_folder = 'CUB_no_bg_test/'
-
-        
-        orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{orig_train_img_folder}"
-        orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{orig_test_img_folder}"
+        orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_train_img_folder}"
+        orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_test_img_folder}"
 
         train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True))
         test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False))

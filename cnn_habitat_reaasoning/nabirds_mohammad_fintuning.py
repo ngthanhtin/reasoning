@@ -40,18 +40,20 @@ if not os.path.exists('results/nabirds/'):
 class CFG:
     seed = 42
     dataset = 'nabirds' 
-    model_name = 'mohammad' # vit, mohammad, transfg
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    model_name = 'transfg' # vit, mohammad, transfg
+    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
     bird_num_classes = dataset2num_classes[dataset]
-    alpha = 1.
-
+    # train, test data paths
     dataset2path = {
         'cub': '/home/tin/datasets/cub',
         'nabirds': '/home/tin/datasets/nabirds/',
     }
+    orig_train_img_folder = 'gen_data/augirrelevant_images_small/'# 'train/'
+    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds)
+    orig_test_img_folder = 'gen_data/onlybird_images_test/' #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/'
 
     # cutmix
     cutmix = False
@@ -149,15 +151,8 @@ def get_data_loaders(dataset, batch_size):
     Get the train, val, test dataloader
     """
     if dataset in ['cub', 'nabirds']:
-        # train
-        orig_train_img_folder = 'gen_data/augirrelevant_images_small/'# 'train/'
-
-        # test 
-        # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds)
-        orig_test_img_folder = 'test/'
-
-        orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{orig_train_img_folder}"
-        orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{orig_test_img_folder}"
+        orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_train_img_folder}"
+        orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_test_img_folder}"
 
         train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True))
         test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False))
@@ -442,7 +437,11 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth"))
+    # orig, same, mix, irrelevant
+    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_08_14_2023-18:27:21/9-0.789-cutmix_False.pth"))
+    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth"))
+    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth"))
+    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_08_15_2023-00:12:04/18-0.808-cutmix_False.pth"))
     model.eval()
     with torch.no_grad():    
         test_epoch(test_loader, model, return_paths=CFG.return_paths)   
