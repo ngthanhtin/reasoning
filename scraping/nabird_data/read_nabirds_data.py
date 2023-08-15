@@ -1,9 +1,9 @@
 #%%
 import pandas as pd
 
-ROOT_DIR = '/home/tin/reasoning/scraping/nabird_data/'
+ROOT_DIR = '/home/tin/datasets/nabirds/'
 BOUNDING_BOX_FILE = 'bounding_boxes.txt'
-CLASS_FILE = 'nabird_classes.txt'
+CLASS_FILE = 'classes.txt'
 CLASS_LABEL_FILE = 'image_class_labels.txt'
 HIERARCHY_FILE = 'hierarchy.txt'
 IMAGE_FILE = 'images.txt'
@@ -55,7 +55,8 @@ def read_class_labels(bird_dir, top_levels, parent_map):
     return class_labels
 
 class_labels = read_class_labels(BIRD_DIR, terminal_levels, parent_map)
-len(set(class_labels.id.values.tolist()))
+class_labels
+# len(set(class_labels.id.values.tolist()))
 # %%
 def read_classes(bird_dir, terminal_levels):
     """Loads DataFrame with class labels. Returns full class table
@@ -81,7 +82,7 @@ classes, terminal_classes = read_classes(BIRD_DIR, terminal_levels)
 # len(set(classes.name.values.tolist()))
 print(len(classes))
 print(len(terminal_classes))
-print(terminal_classes)
+print(classes)
 no_annotation_classes = set(terminal_classes.name.values.tolist())
 len(no_annotation_classes)
 # with open("NABIRD_no_annotation_class_name.txt", 'w') as f:
