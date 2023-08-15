@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'mohammad' # vit, mohammad, transfg
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -53,8 +53,8 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
     }
     orig_train_img_folder = 'gen_data/augirrelevant_images_small/'# 'train/'
-    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds)
-    orig_test_img_folder = 'gen_data/inpaint_images/test_inpaint/' #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/'
+    #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/'
+    orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
 
     # cutmix
     cutmix = False
@@ -426,24 +426,24 @@ if CFG.model_name == 'transfg':
     model.load_from(np.load("transfg/ViT-B_16.npz"))
 # ##
 
-model_params = model.parameters()
 model.to(CFG.device)
 
 criterion =  nn.CrossEntropyLoss()
 criterion = criterion.to(CFG.device)
 
-optimizer = optim.Adam(model_params, lr=CFG.lr)
+optimizer = optim.Adam(model.parameters(), lr=CFG.lr)
 
 exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
+# optimizer = torch.optim.SGD(model.parameters(), lr=CFG.lr, momentum=0.9, weight_decay=0.1)
 
 if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     # orig, same, mix, irrelevant
     # mohammad 9
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_14_2023-18:27:21/13-0.798-cutmix_False.pth"))
+    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_14_2023-18:27:21/13-0.798-cutmix_False.pth"))
     # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:04:31/12-0.805-cutmix_False.pth"))
-    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:10:47/13-0.802-cutmix_False.pth"))
+    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:10:47/13-0.802-cutmix_False.pth"))
     # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:12:04/14-0.805-cutmix_False.pth"))
     # transfg
     # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds_single_transfg_08_14_2023-18:11:51/25-0.884-cutmix_False.pth"))

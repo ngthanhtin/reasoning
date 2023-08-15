@@ -41,9 +41,9 @@ if not os.path.exists('results/cub/'):
 class CFG:
     seed = 42
     dataset = 'cub'
-    model_name = 'transfg' #mohammad, vit, transfg
+    model_name = 'mohammad' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -56,8 +56,8 @@ class CFG:
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
     orig_train_img_folder = 'CUB/train/' # 'CUB_augmix_train_small_2/'
-    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds), CUB_no_bg_test, CUB_random_test, CUB/test
-    orig_test_img_folder = 'CUB/test/'
+    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds), CUB_no_bg_test, CUB_random_test, CUB/test, CUB_bb_on_birds_test
+    orig_test_img_folder = 'CUB_bb_on_birds_test/'
 
     # cutmix
     cutmix = False
@@ -440,7 +440,6 @@ def evaluate_epoch(validloader, criterion, model, return_paths=False):
             
     return np.mean(losses), np.mean(bird_accs)
 
-
 def test_epoch(testloader, model, return_paths=False):
     model.eval()
     full_paths = []
@@ -474,14 +473,13 @@ if CFG.model_name == 'transfg':
     model = VisionTransformer(config, 448, zero_head=True, num_classes=200, smoothing_value=0.0)
     model.load_from(np.load("transfg/ViT-B_16.npz"))
 
-
-model_params = model.parameters()
 model.to(CFG.device)
 
 criterion =  nn.CrossEntropyLoss()
 criterion = criterion.to(CFG.device)
 
-optimizer = optim.Adam(model_params, lr=CFG.lr)
+optimizer = optim.Adam(model.parameters(), lr=CFG.lr)
+# optimizer = torch.optim.SGD(model.parameters(), lr=CFG.lr, momentum=0.9, weight_decay=0.1)
 
 exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 
@@ -489,7 +487,7 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds_single_transfg_08_14_2023-18:11:51/21-0.879-cutmix_False.pth"))
+    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/AUGMIX_cub_unified_resnet101_08_04_2023-15:43:45/13-0.865-cutmix_False.pth"))
     model.eval()
     with torch.no_grad():    
         test_epoch(test_loader, model, return_paths=CFG.return_paths)   
