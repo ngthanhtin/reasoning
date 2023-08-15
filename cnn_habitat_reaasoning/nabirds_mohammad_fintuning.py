@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'mohammad' # vit, mohammad, transfg
-    device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -72,7 +72,7 @@ class CFG:
         batch_size = 64 if train else 512
 
     # save folder
-    save_folder    = f'./results/{dataset}_single_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    save_folder    = f'./results/{dataset}/{dataset}_single_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder) and train:
         os.makedirs(save_folder)
 
@@ -149,7 +149,7 @@ def get_data_loaders(dataset, batch_size):
     """
     if dataset in ['cub', 'nabirds']:
         # train
-        orig_train_img_folder = 'train/'
+        orig_train_img_folder = 'gen_data/augsame_images_small/'# 'train/'
 
         # test 
         # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds)
