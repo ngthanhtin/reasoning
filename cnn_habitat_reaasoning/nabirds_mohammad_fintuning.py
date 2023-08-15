@@ -37,7 +37,6 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'mohammad' # vit, mohammad, transfg
-    pretrained = True
     device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
 
     # data params

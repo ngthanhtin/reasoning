@@ -75,7 +75,7 @@ class CFG:
     write_inat_to_df = not os.path.exists(inat21_df_path)
 
     # save folder
-    save_folder    = f'./results/{dataset}_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
+    save_folder    = f'./results/{dataset}_single_{model_name}_{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}/'
     if not os.path.exists(save_folder) and train:
         os.makedirs(save_folder)
 
