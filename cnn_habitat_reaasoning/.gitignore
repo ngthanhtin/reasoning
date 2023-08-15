@@ -13,3 +13,6 @@ __pycache__/
 visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/correct2wrong
 visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/wrong2correct
 visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/wrong2wrong
+
+
+transfg/*.npz
