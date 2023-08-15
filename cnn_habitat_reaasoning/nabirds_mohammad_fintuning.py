@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'mohammad' # vit, mohammad, transfg
-    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -63,7 +63,7 @@ class CFG:
     epochs = 100 if model_name in {'vit', 'transfg'} else 20
 
     # train or test
-    train = True
+    train = False
     return_paths = not train
     batch_size = 64
     if model_name == 'transfg':
@@ -410,7 +410,7 @@ def test_epoch(testloader, model, return_paths=False):
         running_corrects += torch.sum(preds == bird_labels.data)
 
 
-    epoch_acc = running_corrects.double() / 5794#11788#5794
+    epoch_acc = running_corrects.double() / len(test_loader.dataset)
 
     print('-' * 10)
     print('Acc: {:.4f}'.format(100*epoch_acc))
@@ -442,7 +442,7 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub_unified_vit_08_14_2023-10:13:35/90-0.856-cutmix_False.pth"))
+    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth"))
     model.eval()
     with torch.no_grad():    
         test_epoch(test_loader, model, return_paths=CFG.return_paths)   

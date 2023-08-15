@@ -460,7 +460,7 @@ def test_epoch(testloader, model, return_paths=False):
         running_corrects += torch.sum(preds == bird_labels.data)
 
 
-    epoch_acc = running_corrects.double() / 5794#11788#5794
+    epoch_acc = running_corrects.double() / len(test_loader.dataset)
 
     print('-' * 10)
     print('Acc: {:.4f}'.format(100*epoch_acc))
