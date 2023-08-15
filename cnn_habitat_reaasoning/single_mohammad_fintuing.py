@@ -122,7 +122,7 @@ def Augment(train = False):
     else:
         transform = transforms.Compose([
             transforms.Resize(CFG.image_expand_size),
-            transforms.CenterCrop(CFG.image_expand_size),
+            transforms.CenterCrop(CFG.image_size),
             transforms.ToTensor(),
             transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         ])
@@ -423,7 +423,7 @@ def evaluate_epoch(validloader, criterion, model, return_paths=False):
 
     for inputs, bird_labels in tqdm(validloader):
         inputs = inputs.to(CFG.device)
-
+        print(inputs.shape)
         bird_outputs = model(inputs)
 
         bird_outputs = bird_outputs.detach().cpu() 
