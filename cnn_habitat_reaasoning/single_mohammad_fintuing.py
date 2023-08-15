@@ -55,8 +55,8 @@ class CFG:
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
     orig_train_img_folder = 'CUB/train/' # 'CUB_augmix_train_small_2/'
-    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds), CUB_no_bg_test, CUB_random_test
-    orig_test_img_folder = 'CUB_random_test/'
+    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds), CUB_no_bg_test, CUB_random_test, CUB/test
+    orig_test_img_folder = 'CUB/test/'
 
     # cutmix
     cutmix = False
@@ -485,7 +485,7 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub_single_transfg_08_14_2023-22:26:39/23-0.891-cutmix_False.pth"))
+    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds_single_transfg_08_14_2023-18:11:51/21-0.879-cutmix_False.pth"))
     model.eval()
     with torch.no_grad():    
         test_epoch(test_loader, model, return_paths=CFG.return_paths)   
