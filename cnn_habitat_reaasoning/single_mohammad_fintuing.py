@@ -42,7 +42,7 @@ class CFG:
     seed = 42
     dataset = 'cub'
     model_name = 'transfg' #mohammad, vit, transfg
-    device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -66,7 +66,7 @@ class CFG:
     epochs = 100 if model_name in {'vit', 'transfg'} else 20
 
     # train or test
-    train = True
+    train = False
     return_paths = not train
     batch_size = 64
     if model_name == 'transfg':
@@ -84,16 +84,17 @@ class CFG:
         os.makedirs(save_folder)
 
 # Save the CFG instance
-cfg_instance = CFG()
-cfg_attributes = [attr for attr in dir(cfg_instance) if not callable(getattr(cfg_instance, attr)) and not attr.startswith("__")]
-cfg_attributes_dict = {}
-for attr in cfg_attributes:
-    if attr == 'device':
-        continue
-    cfg_attributes_dict[attr] = getattr(cfg_instance, attr)
+if CFG.train:
+    cfg_instance = CFG()
+    cfg_attributes = [attr for attr in dir(cfg_instance) if not callable(getattr(cfg_instance, attr)) and not attr.startswith("__")]
+    cfg_attributes_dict = {}
+    for attr in cfg_attributes:
+        if attr == 'device':
+            continue
+        cfg_attributes_dict[attr] = getattr(cfg_instance, attr)
 
-with open(f'{CFG.save_folder}/cfg_instance.json', 'w') as json_file:
-    json.dump(cfg_attributes_dict, json_file, indent=4)
+    with open(f'{CFG.save_folder}/cfg_instance.json', 'w') as json_file:
+        json.dump(cfg_attributes_dict, json_file, indent=4)
 ######
 # %%
 def set_seed(seed=None, cudnn_deterministic=True):
@@ -492,7 +493,7 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/transfg_cub_unified_vit_08_14_2023-14:53:56/34-0.890-cutmix_True.pth"))
+    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub_single_transfg_08_14_2023-22:26:39/23-0.891-cutmix_False.pth"))
     model.eval()
     with torch.no_grad():    
         test_epoch(test_loader, model, return_paths=CFG.return_paths)   

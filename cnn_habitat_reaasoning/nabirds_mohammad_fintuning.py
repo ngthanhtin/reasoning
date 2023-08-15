@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'mohammad' # vit, mohammad, transfg
-    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -76,17 +76,18 @@ class CFG:
     if not os.path.exists(save_folder) and train:
         os.makedirs(save_folder)
 
-# Save the CFG instance
-cfg_instance = CFG()
-cfg_attributes = [attr for attr in dir(cfg_instance) if not callable(getattr(cfg_instance, attr)) and not attr.startswith("__")]
-cfg_attributes_dict = {}
-for attr in cfg_attributes:
-    if attr == 'device':
-        continue
-    cfg_attributes_dict[attr] = getattr(cfg_instance, attr)
+if CFG.train:
+    # Save the CFG instance
+    cfg_instance = CFG()
+    cfg_attributes = [attr for attr in dir(cfg_instance) if not callable(getattr(cfg_instance, attr)) and not attr.startswith("__")]
+    cfg_attributes_dict = {}
+    for attr in cfg_attributes:
+        if attr == 'device':
+            continue
+        cfg_attributes_dict[attr] = getattr(cfg_instance, attr)
 
-with open(f'{CFG.save_folder}/cfg_instance.json', 'w') as json_file:
-    json.dump(cfg_attributes_dict, json_file, indent=4)
+    with open(f'{CFG.save_folder}/cfg_instance.json', 'w') as json_file:
+        json.dump(cfg_attributes_dict, json_file, indent=4)
 # %%
 def set_seed(seed=None, cudnn_deterministic=True):
     if seed is None:
@@ -149,7 +150,7 @@ def get_data_loaders(dataset, batch_size):
     """
     if dataset in ['cub', 'nabirds']:
         # train
-        orig_train_img_folder = 'gen_data/augsame_images_small/'# 'train/'
+        orig_train_img_folder = 'gen_data/augirrelevant_images_small/'# 'train/'
 
         # test 
         # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds)
