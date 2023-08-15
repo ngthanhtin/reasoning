@@ -33,6 +33,10 @@ import copy
 from datetime import datetime
 
 # %% config
+if not os.path.exists('results/'):
+    os.makedirs('results/')
+if not os.path.exists('results/nabirds/'):
+    os.makedirs('results/nabirds/')
 class CFG:
     seed = 42
     dataset = 'nabirds' 

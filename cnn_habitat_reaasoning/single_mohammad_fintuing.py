@@ -34,6 +34,10 @@ import copy
 from datetime import datetime
 
 # %% config
+if not os.path.exists('results/'):
+    os.makedirs('results/')
+if not os.path.exists('results/cub/'):
+    os.makedirs('results/cub/')
 class CFG:
     seed = 42
     dataset = 'cub'
@@ -423,7 +427,7 @@ def evaluate_epoch(validloader, criterion, model, return_paths=False):
 
     for inputs, bird_labels in tqdm(validloader):
         inputs = inputs.to(CFG.device)
-        print(inputs.shape)
+        
         bird_outputs = model(inputs)
 
         bird_outputs = bird_outputs.detach().cpu() 
