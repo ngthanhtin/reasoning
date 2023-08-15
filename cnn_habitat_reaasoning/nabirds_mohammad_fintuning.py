@@ -42,6 +42,7 @@ class CFG:
     dataset = 'nabirds' 
     model_name = 'mohammad' # vit, mohammad, transfg
     device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    use_cont_loss = True
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -350,11 +351,13 @@ def train_epoch(trainloader, model, criterion, optimizer):
 
         # zero the parameter gradients
         optimizer.zero_grad()
-        bird_outputs = model(inputs)
+        if CFG.model_name == 'transfg' and CFG.use_cont_loss:
+            loss, bird_outputs = model(inputs, bird_labels)
+        else:
+            bird_outputs = model(inputs)
+            loss = criterion(bird_outputs, bird_labels)
     
         _, bird_preds = torch.max(bird_outputs, 1)
-        loss1 = criterion(bird_outputs, bird_labels) 
-        loss = loss1
 
         loss.backward()
         optimizer.step()
@@ -370,7 +373,6 @@ def evaluate_epoch(validloader, criterion, model, return_paths=False):
     model.eval()
     losses = []
     bird_accs = []
-    habitat_accs = []
 
     for inputs, bird_labels in tqdm(validloader):
         inputs = inputs.to(CFG.device)

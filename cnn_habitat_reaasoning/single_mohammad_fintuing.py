@@ -42,7 +42,8 @@ class CFG:
     seed = 42
     dataset = 'cub'
     model_name = 'transfg' #mohammad, vit, transfg
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    use_cont_loss = True
+    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -398,11 +399,14 @@ def train_epoch(trainloader, model, criterion, optimizer):
 
         # zero the parameter gradients
         optimizer.zero_grad()
-        bird_outputs = model(inputs)
-    
-        _, bird_preds = torch.max(bird_outputs, 1)
-        loss = criterion(bird_outputs, bird_labels) 
+        if CFG.model_name == 'transfg' and CFG.use_cont_loss:
+            loss, bird_outputs = model(inputs, bird_labels)
+        else:
+            bird_outputs = model(inputs)
+            loss = criterion(bird_outputs, bird_labels) 
 
+        _, bird_preds = torch.max(bird_outputs, 1)
+        
         loss.backward()
         optimizer.step()
 
