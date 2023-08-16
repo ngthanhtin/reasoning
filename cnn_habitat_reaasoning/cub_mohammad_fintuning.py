@@ -41,9 +41,9 @@ if not os.path.exists('results/cub/'):
 class CFG:
     seed = 42
     dataset = 'cub'
-    model_name = 'mohammad' #mohammad, vit, transfg
+    model_name = 'transfg' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -55,9 +55,9 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    orig_train_img_folder = 'CUB/train/' # 'CUB_augmix_train_small_2/'
-    # CUB_inpaint_all_test (onlybackground) vs CUB_nobirds_test (blackout-birds), CUB_no_bg_test, CUB_random_test, CUB/test, CUB_bb_on_birds_test
-    orig_test_img_folder = 'CUB_bb_on_birds_test/'
+    orig_train_img_folder = 'CUB_augmix_train_small/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
+    #CUB/test, CUB_inpaint_all_test (onlybackground), CUB_no_bg_test, CUB_random_test, CUB_bb_on_birds_test, CUB_nobirds_test (blackout-birds)
+    orig_test_img_folder = 'CUB/test/'
 
     # cutmix
     cutmix = False
@@ -66,7 +66,7 @@ class CFG:
     lr = 1e-5 if model_name in {'vit', 'transfg'} else 1e-4
     image_size = 224 if model_name in {'mohammad', 'vit'} else 448
     image_expand_size = 256 if model_name in {'mohammad', 'vit'} else 600
-    epochs = 100 if model_name in {'vit', 'transfg'} else 20
+    epochs = 50 if model_name in {'vit', 'transfg'} else 20
 
     # train or test
     train = False
@@ -460,6 +460,8 @@ def test_epoch(testloader, model, return_paths=False):
     print('-' * 10)
     print('Acc: {:.4f}'.format(100*epoch_acc))
 
+    return 100*epoch_acc
+
 
 # %%
 from transfg.transfg_vit import VisionTransformer, CONFIGS
@@ -487,7 +489,19 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/AUGMIX_cub_unified_resnet101_08_04_2023-15:43:45/13-0.865-cutmix_False.pth"))
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:46:06/31-0.886-cutmix_False.pth' # aug_irrelevant
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
+    print(model_path)
+    print(CFG.orig_test_img_folder)
+    model.load_state_dict(torch.load(model_path))
     model.eval()
+    # write result to file
+    acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
+    f = open(f"{acc_filepath}", "w")
+    f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
     with torch.no_grad():    
-        test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        f.write(f"{acc:.4f}\n")
+        f.close()

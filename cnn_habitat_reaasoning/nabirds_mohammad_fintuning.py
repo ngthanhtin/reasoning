@@ -40,8 +40,8 @@ if not os.path.exists('results/nabirds/'):
 class CFG:
     seed = 42
     dataset = 'nabirds' 
-    model_name = 'mohammad' # vit, mohammad, transfg
-    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
+    model_name = 'transfg' # vit, mohammad, transfg
+    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -52,9 +52,9 @@ class CFG:
         'cub': '/home/tin/datasets/cub',
         'nabirds': '/home/tin/datasets/nabirds/',
     }
-    orig_train_img_folder = 'gen_data/augirrelevant_images_small/'# 'train/'
+    orig_train_img_folder = 'gen_data/augmix_images_small/'# 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small'
     #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/'
-    orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
+    orig_test_img_folder = 'test/' 
 
     # cutmix
     cutmix = False
@@ -63,7 +63,7 @@ class CFG:
     lr = 1e-5 if model_name in {'vit', 'transfg'} else 1e-4
     image_size = 224 if model_name in {'mohammad', 'vit'} else 448
     image_expand_size = 256 if model_name in {'mohammad', 'vit'} else 600
-    epochs = 100 if model_name in {'vit', 'transfg'} else 20 #15
+    epochs = 50 if model_name in {'vit', 'transfg'} else 20 #15
 
     # train or test
     train = False
@@ -412,6 +412,7 @@ def test_epoch(testloader, model, return_paths=False):
     print('-' * 10)
     print('Acc: {:.4f}'.format(100*epoch_acc))
 
+    return 100*epoch_acc
 
 # %%
 from transfg.transfg_vit import VisionTransformer, CONFIGS
@@ -443,11 +444,24 @@ else:
     # mohammad 9
     # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_14_2023-18:27:21/13-0.798-cutmix_False.pth"))
     # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:04:31/12-0.805-cutmix_False.pth"))
-    model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:10:47/13-0.802-cutmix_False.pth"))
+    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:10:47/13-0.802-cutmix_False.pth"))
     # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:12:04/14-0.805-cutmix_False.pth"))
     # transfg
-    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds_single_transfg_08_14_2023-18:11:51/25-0.884-cutmix_False.pth"))
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/nabirds_single_transfg_08_14_2023-18:11:51/41-0.884-cutmix_False.pth' # finetune nabirds only
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-00:53:32/11-0.880-cutmix_False.pth' # aug_irrelevant
+    # model_path = '' # aug_mix
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-01:08:53/12-0.884-cutmix_False.pth' # aug_same
+    model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
+    print(model_path)
+    print(CFG.orig_test_img_folder)
+    # write result to file
+    acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
+    f = open(f"{acc_filepath}", "w")
+    f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
+
     with torch.no_grad():    
-        test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        f.write(f"{acc:.4f}\n")
+        f.close()
         
