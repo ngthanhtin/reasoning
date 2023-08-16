@@ -499,7 +499,7 @@ else:
     model.eval()
     # write result to file
     acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
-    f = open(f"{acc_filepath}", "w")
+    f = open(f"{acc_filepath}", "a")
     f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
     with torch.no_grad():    
         acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   

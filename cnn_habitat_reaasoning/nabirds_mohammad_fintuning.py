@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -54,7 +54,7 @@ class CFG:
     }
     orig_train_img_folder = 'gen_data/augmix_images_small/'# 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small'
     #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/'
-    orig_test_img_folder = 'test/' 
+    orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
 
     # cutmix
     cutmix = False
@@ -457,7 +457,7 @@ else:
     print(CFG.orig_test_img_folder)
     # write result to file
     acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
-    f = open(f"{acc_filepath}", "w")
+    f = open(f"{acc_filepath}", "a")
     f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
 
     with torch.no_grad():    
