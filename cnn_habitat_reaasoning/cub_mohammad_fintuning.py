@@ -495,7 +495,7 @@ else:
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
     print(model_path)
     print(CFG.orig_test_img_folder)
-    model.load_state_dict(torch.load(model_path))
+    model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     # write result to file
     acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
