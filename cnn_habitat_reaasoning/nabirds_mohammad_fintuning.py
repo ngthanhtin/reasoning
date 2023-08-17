@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import seaborn as sns
 
-import os
+import os, cv2
 import json
 import sys
 from tqdm import tqdm
@@ -195,7 +195,7 @@ class MultiTaskModel_3(nn.Module):
         super(MultiTaskModel_3, self).__init__()
 
         self.backbone1 = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
-        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
+        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth', map_location=torch.device('cpu'))
         self.backbone1.load_state_dict(my_model_state_dict, strict=True)
 
         # Freeze backbone (for training only)
@@ -448,9 +448,9 @@ else:
     # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:12:04/14-0.805-cutmix_False.pth"))
     # transfg
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/nabirds_single_transfg_08_14_2023-18:11:51/41-0.884-cutmix_False.pth' # finetune nabirds only
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-00:53:32/11-0.880-cutmix_False.pth' # aug_irrelevant
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-00:53:32/20-0.885-cutmix_False.pth' # aug_irrelevant
     # model_path = '' # aug_mix
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-01:08:53/12-0.884-cutmix_False.pth' # aug_same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-01:08:53/12-0.884-cutmix_False.pth' # aug_same
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     print(model_path)
