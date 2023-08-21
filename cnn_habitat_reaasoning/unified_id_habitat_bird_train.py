@@ -39,13 +39,13 @@ class CFG:
     dataset = 'cub' # cub, nabirds, inat21
     model_name = 'resnet101' #resnet50, resnet101, efficientnet_b6, densenet121, tf_efficientnetv2_b0
     pretrained = True
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
     bird_num_classes = dataset2num_classes[dataset]
     habitat_num_classes = 4
-    alpha = 0.9
+    alpha = 0.
 
     dataset2path = {
         'cub': '/home/tin/datasets/cub',
@@ -243,13 +243,13 @@ def get_data_loaders(dataset, batch_size):
         # train
         # inpaint_train_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'train_inpaint/'
         inpaint_train_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'train_inpaint/'
-        orig_train_img_folder = 'CUB/train/' if dataset == 'cub' else 'train/'
+        orig_train_img_folder = 'CUB_no_bg_train/' if dataset == 'cub' else 'train/'
         # orig_train_img_folder = 'CUB_no_bg_train/' if dataset == 'cub' else 'train/'
 
         # test
         # inpaint_test_img_folder = 'CUB_inpaint_all_train/' if dataset == 'cub' else 'test_inpaint/'
         inpaint_test_img_folder = 'CUB_inpaint_all_test/' if dataset == 'cub' else 'test_inpaint/'
-        orig_test_img_folder = 'CUB/test/' if dataset == 'cub' else 'test/'
+        orig_test_img_folder = 'CUB_no_bg_test/' if dataset == 'cub' else 'test/'
         # orig_test_img_folder = 'CUB_no_bg_test/' if dataset == 'cub' else 'test/'
 
         
@@ -854,7 +854,7 @@ def test_epoch(testloader, model, return_paths=False):
     return np.mean(bird_accs), np.mean(habitat_accs), full_paths
 
 # %%
-model = MultiTaskModel_4()
+model = MultiTaskModel_3()
 model_params = model.parameters()
 model.to(CFG.device)
 
