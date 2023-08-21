@@ -119,7 +119,7 @@ def get_graph_of_nabirds():
     """
 
     nabirds_path = '/home/tin/datasets/nabirds/images/'
-    n_clusters = 196
+    n_clusters = 100 #196
     class_nabirds_cluster_path = f'../plain_clip/class_nabirds_clusters_{n_clusters}.json'
     
     f = open(class_nabirds_cluster_path, 'r')
@@ -273,7 +273,8 @@ if __name__ == '__main__':
         img_dir = '/home/tin/datasets/cub/CUB/train/'#os.path.join(args.cub_dir, 'images')
         seg_dir = '/home/tin/datasets/cub/CUB/segmentations/'#os.path.join(args.cub_dir, 'segmentations')
         args.places_dir = '/home/tin/datasets/cub/CUB_inpaint_all_train/'
-        args.out_dir = '/home/tin/datasets/cub/CUB_irrelevant_augmix_train/'
+        args.out_dir = "/home/tin/datasets/cub/temp_gen_data/CUB_irrelevant_with_orig_birds_train"
+        # args.out_dir = '/home/tin/datasets/cub/CUB_irrelevant_augmix_train/'
 
         graph = get_graph_of_cub()
     # nabirds
@@ -281,7 +282,8 @@ if __name__ == '__main__':
         img_dir = '/home/tin/datasets/nabirds/train/'
         seg_dir = '/home/tin/datasets/nabirds/gen_data/mask_images/'
         args.places_dir = '/home/tin/datasets/nabirds/gen_data/inpaint_images/train_inpaint/'
-        args.out_dir = '/home/tin/datasets/nabirds/gen_data/augirrelevant_images/'
+        args.out_dir = '/home/tin/datasets/nabirds/gen_data/temp_gen_data/augirrelevant_with_orig_birds_train/'
+        # args.out_dir = '/home/tin/datasets/nabirds/gen_data/augmix_images_100/'
 
         graph = get_graph_of_nabirds()
 
@@ -296,7 +298,7 @@ if __name__ == '__main__':
     label_folders = os.listdir(img_dir)
     label_folders = sorted(label_folders)
     
-    for folder in label_folders:
+    for folder in tqdm(label_folders):
         if args.dataset == 'cub':
             folder_index = int(folder.split('.')[0])
             clusters = graph[folder_index]
@@ -312,7 +314,10 @@ if __name__ == '__main__':
             # if os.path.exists(f"{args.out_dir}/{folder}/{file}"):
             #     continue
             full_img_path = f"{img_dir}/{folder}/{file}"
-            full_seg_path = f"{seg_dir}/{folder}/{file}"
+            if args.dataset == 'cub':
+                full_seg_path = f"{seg_dir}/{folder}/{file[:-4]}.png"
+            if args.dataset == 'nabirds':
+                full_seg_path = f"{seg_dir}/{folder}/{file}"
 
             # Load images
             img_np = np.asarray(Image.open(full_img_path).convert('RGB'))
@@ -341,30 +346,45 @@ if __name__ == '__main__':
                     img_train.save(full_train_path)
                     
             if args.augmix or args.augirrelevant:
-
-                # not_neigbors = [i for i in range(200) if i not in clusters] # for cub
-                not_neigbors = [i for i in os.listdir(img_dir) if i not in clusters] # for nabirds
+                
+                if args.dataset == 'cub':
+                    not_neigbors = [i for i in range(200) if i not in clusters] # for cub
+                if args.dataset == 'nabirds':
+                    not_neigbors = [i for i in os.listdir(img_dir) if i in clusters] # for nabirds
                 # take only 3 irrelevant neighbors:
-                not_neigbors = get_random_subset(not_neigbors, 3)
+                try:
+                    not_neigbors = get_random_subset(not_neigbors, 3)
+                except:
+                    not_neigbors = not_neigbors
 
                 # for neigbor in clusters:
                 for neigbor in not_neigbors:
-                    # image_files2 = os.listdir(f"{img_dir}/{label_folders[neigbor-1]}") # if it is cub
-                    image_files2 = os.listdir(f"{img_dir}/{neigbor}") # if it is nabirds
+                    if args.dataset == 'cub':
+                        image_files2 = os.listdir(f"{img_dir}/{label_folders[neigbor-1]}") # if it is cub
+                    if args.dataset == 'nabirds':
+                        image_files2 = os.listdir(f"{img_dir}/{neigbor}") # if it is nabirds
                     # image_files2 = get_random_subset(image_files2, 2)
 
-                    for file2 in tqdm(image_files2):
-                        # if os.path.exists(f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"):
-                        #     continue
-                        # train_place_path = f"{args.places_dir}/{label_folders[neigbor-1]}/{file2}" # if it is cub
-                        train_place_path = f"{args.places_dir}/{neigbor}/{file2}" # if it is nabirds
+                    # get random habitat
+                    random_image_file = get_random_subset(image_files2, 1)[0]
+
+                    for file2 in image_files2:
+                        file2 = random_image_file
+                        if os.path.exists(f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"):
+                            continue
+                        if args.dataset == 'cub':
+                            train_place_path = f"{args.places_dir}/{label_folders[neigbor-1]}/{file2}" # if it is cub
+                        if args.dataset == 'nabirds':
+                            train_place_path = f"{args.places_dir}/{neigbor}/{file2}" # if it is nabirds
                         # train_place_path = f"{args.places_dir}/{folder}/{file2}"
                         train_place = Image.open(train_place_path).convert('RGB')
 
                         img_train = combine_and_mask(train_place, seg_np, img_black)
 
-                        full_train_path = f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"
+                        # full_train_path = f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"
+                        full_train_path = f"{args.out_dir}/{folder}/{file}"
                         img_train.save(full_train_path)
+                        break
 
 #%%
 
