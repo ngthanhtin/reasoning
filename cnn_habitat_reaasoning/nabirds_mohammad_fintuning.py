@@ -40,8 +40,8 @@ if not os.path.exists('results/nabirds/'):
 class CFG:
     seed = 42
     dataset = 'nabirds' 
-    model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:5' if torch.cuda.is_available() else 'cpu')
+    model_name = 'mohammad' # vit, mohammad, transfg
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -52,9 +52,14 @@ class CFG:
         'cub': '/home/tin/datasets/cub',
         'nabirds': '/home/tin/datasets/nabirds/',
     }
-    orig_train_img_folder = 'gen_data/augmix_images_small/'# 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small'
-    #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/'
-    orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
+
+    orig_train_img_folder = 'gen_data/temp_gen_data/augirrelevant_with_orig_birds_train_60/' # 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small', augirrelevant_images_small_60_added_samples
+    #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/', 'gen_data/big_bb_on_birds_test/'
+    orig_test_img_folder = 'test/'
+    orig_test_img_folder = 'gen_data/inpaint_images/test_inpaint/'
+    # orig_test_img_folder = 'gen_data/onlybird_images_test/'
+    # orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
+    # orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
 
     # cutmix
     cutmix = False
@@ -438,19 +443,28 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 # optimizer = torch.optim.SGD(model.parameters(), lr=CFG.lr, momentum=0.9, weight_decay=0.1)
 
 if CFG.train:
+    print(CFG.orig_train_img_folder)
+    print(CFG.orig_test_img_folder)
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     # orig, same, mix, irrelevant
-    # mohammad 9
-    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_14_2023-18:27:21/13-0.798-cutmix_False.pth"))
-    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:04:31/12-0.805-cutmix_False.pth"))
-    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:10:47/13-0.802-cutmix_False.pth"))
-    # model.load_state_dict(torch.load("/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:12:04/14-0.805-cutmix_False.pth"))
+    # mohammad
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_14_2023-18:27:21/13-0.798-cutmix_False.pth" # finetune
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:04:31/12-0.805-cutmix_False.pth" # augsame
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:10:47/13-0.802-cutmix_False.pth" # augmix
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:12:04/14-0.805-cutmix_False.pth" # augirrelevant
+
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/nabirds_single_mohammad_08_15_2023-00:12:04/18-0.808-cutmix_False.pth" # augirrelevant old
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/IRRELEVEANT_nabirds_single_mohammad_08_18_2023-10:52:45/15-0.783-cutmix_False.pth" # augirrelevant
+    
     # transfg
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/nabirds_single_transfg_08_14_2023-18:11:51/41-0.884-cutmix_False.pth' # finetune nabirds only
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-00:53:32/20-0.885-cutmix_False.pth' # aug_irrelevant
-    # model_path = '' # aug_mix
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_16_2023-01:08:53/12-0.884-cutmix_False.pth' # aug_same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/FINETUNE_nabirds_single_transfg_08_17_2023-07:56:43/49-0.884-cutmix_False.pth' # finetune nabirds only
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_08_18_2023-10:53:36/46-0.865-cutmix_False.pth' # aug_irrelevant
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/MIX_nabirds_single_transfg_08_16_2023-14:29:12/48-0.888-cutmix_False.pth' # aug_mix
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/SAME_nabirds_single_transfg_08_16_2023-01:08:53/31-0.886-cutmix_False.pth' # aug_same
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     print(model_path)

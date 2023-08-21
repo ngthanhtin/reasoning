@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import seaborn as sns
 
-import os
+import os, cv2
 import json
 import sys
 from tqdm import tqdm
@@ -43,7 +43,7 @@ class CFG:
     dataset = 'cub'
     model_name = 'transfg' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -55,9 +55,14 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    orig_train_img_folder = 'CUB_augmix_train_small/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
-    #CUB/test, CUB_inpaint_all_test (onlybackground), CUB_no_bg_test, CUB_random_test, CUB_bb_on_birds_test, CUB_nobirds_test (blackout-birds)
+    orig_train_img_folder = 'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
+    #CUB/test, CUB_inpaint_all_test (onlybackground), CUB_no_bg_test, CUB_random_test, CUB_bb_on_birds_test, CUB_big_bb_on_birds_test, CUB_nobirds_test (blackout-birds)
     orig_test_img_folder = 'CUB/test/'
+    orig_test_img_folder = 'CUB_inpaint_all_test/'
+    orig_test_img_folder = 'CUB_no_bg_test/'
+    orig_test_img_folder = 'CUB_random_test/'
+    orig_test_img_folder = 'CUB_bb_on_birds_test/'
+    orig_test_img_folder = 'CUB_big_bb_on_birds_test/'
 
     # cutmix
     cutmix = False
@@ -77,6 +82,7 @@ class CFG:
     else:
         batch_size = 64 if train else 512
 
+    test_tta = False
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
     write_inat_to_df = not os.path.exists(inat21_df_path)
@@ -253,7 +259,7 @@ class MultiTaskModel_3(nn.Module):
         super(MultiTaskModel_3, self).__init__()
 
         self.backbone1 = ResNet_AvgPool_classifier(Bottleneck, [3, 4, 6, 4])
-        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth')
+        my_model_state_dict = torch.load('/home/tin/projects/reasoning/cnn_habitat_reaasoning/visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/Forzen_Method1-iNaturalist_avgpool_200way1_85.83_Manuscript.pth', map_location=torch.device('cpu'))
         self.backbone1.load_state_dict(my_model_state_dict, strict=True)
 
         # Freeze backbone (for training only)
@@ -487,10 +493,24 @@ exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)
 
 
 if CFG.train:
+    print(CFG.orig_train_img_folder, CFG.orig_test_img_folder)
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:46:06/31-0.886-cutmix_False.pth' # aug_irrelevant
+    # mohammad
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/IRRELEVANT_cub_unified_resnet101_08_09_2023-13:34:30/8-0.859-cutmix_False.pth' # irrelevant
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/AUGSAME_cub_unified_resnet101_08_04_2023-15:50:27/13-0.865-cutmix_False.pth' # same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/AUGMIX_cub_unified_resnet101_08_04_2023-15:43:45/13-0.865-cutmix_False.pth' # mix
+    # new mohammad
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/60_NEW_IRRELEVANT_cub_single_mohammad_08_18_2023-16:10:49/19-0.858-cutmix_False.pth' # irrelevant
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/cub_single_mohammad_08_16_2023-00:32:08/18-0.866-cutmix_False.pth' # same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/cub_single_mohammad_08_16_2023-00:38:49/19-0.866-cutmix_False.pth' # mix
+
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth'
+
+    # transfg
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_08_18_2023-16:15:40/40-0.870-cutmix_False.pth' # aug_irrelevant
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
     print(model_path)
@@ -501,7 +521,150 @@ else:
     acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
     f = open(f"{acc_filepath}", "a")
     f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
-    with torch.no_grad():    
-        acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
-        f.write(f"{acc:.4f}\n")
-        f.close()
+    if not CFG.test_tta:
+        with torch.no_grad():    
+            acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+            f.write(f"{acc:.4f}\n")
+            f.close()
+    else:
+        # Test TTA (Orig and Blackbox)
+        class Dataset_TTA(Dataset):
+            def __init__(self, root1, root2, transform=None):
+                self.root1 = root1
+                self.root2 = root2
+                self.transform = transform
+
+                label_folders = os.listdir(self.root1)
+                self.img_pair_files = []
+                self.targets = []
+                for folder in label_folders:
+                    label = int(folder.split('.')[0])
+                    img_files = os.listdir(f"{self.root1}/{folder}")
+                    img_files2 = os.listdir(f"{self.root2}/{folder}")
+
+                    for file in img_files:
+                        path1 = f"{self.root1}/{folder}/{file}"
+                        file2 = random.choice(img_files2)
+                        file3 = random.choice(img_files2)
+                        file4 = random.choice(img_files2)
+                        path2 = f"{self.root2}/{folder}/{file2}"
+                        path3 = f"{self.root2}/{folder}/{file3}"
+                        path4 = f"{self.root2}/{folder}/{file4}"
+                        self.img_pair_files.append([path1, path2, path3, path4])
+                        self.targets.append(label)
+
+            def __len__(self):        
+                return len(self.img_pair_files)
+                
+            def __getitem__(self, index):        
+                label = self.targets[index] - 1
+                orig_img  = Image.open(self.img_pair_files[index][0]).convert("RGB")
+                # blackbox_img1 = Image.open(self.img_pair_files[index][1]).convert("RGB")
+                # blackbox_img2 = Image.open(self.img_pair_files[index][2]).convert("RGB")
+                # blackbox_img3 = Image.open(self.img_pair_files[index][3]).convert("RGB")
+
+                if self.transform is not None:
+                    orig_img = torch.tensor(self.transform(orig_img))
+                    # blackbox_img1 = torch.tensor(self.transform(blackbox_img1))
+                    # blackbox_img2 = torch.tensor(self.transform(blackbox_img2))
+                    # blackbox_img3 = torch.tensor(self.transform(blackbox_img3))
+                    # imgs = torch.cat((orig_img, blackbox_img1, blackbox_img2, blackbox_img3), 0)
+                    imgs = orig_img
+
+                return imgs, label
+
+        random.seed(47)
+        # /home/tin/datasets/cub/CUB_inpaint_all_test/, 
+        tta_dataset = Dataset_TTA(root1='/home/tin/datasets/cub/CUB/test/', root2='/home/tin/datasets/cub/CUB/test/', transform=Augment(train=False))
+        tta_test_loader = DataLoader(tta_dataset, batch_size=CFG.batch_size, num_workers=8, shuffle=False, pin_memory=False)
+
+        index2folderpath = {}
+        folder_path2imgfiles = {}
+        train_cub_dir = '/home/tin/datasets/cub/CUB/train/'
+        label_folders = os.listdir(train_cub_dir)
+        for folder in label_folders:
+            folder_idx = int(folder.split(".")[0]) - 1
+            
+            folder_path = f"{train_cub_dir}/{folder}"
+            index2folderpath[folder_idx] = folder_path
+
+            img_files = os.listdir(folder_path)
+            img_paths = [f"{train_cub_dir}/{folder}/{f}" for f in img_files]
+            folder_path2imgfiles[folder_path] = img_paths
+
+        def tta_test_epoch(testloader, model):
+            model.eval()
+            full_paths = []
+            running_corrects = 0
+
+            val_transform=Augment(train=False)
+
+            for inputs, bird_labels in tqdm(testloader):
+                orig_inputs = inputs[:, :3, :, :].to(CFG.device)
+                # bb_inputs1 = inputs[:, 3:6, :, :].to(CFG.device)
+                # bb_inputs2 = inputs[:, 6:9, :, :].to(CFG.device)
+                # bb_inputs3 = inputs[:, 9:, :, :].to(CFG.device)
+                bird_labels = bird_labels.to(CFG.device)
+                orig_outputs = model(orig_inputs)
+                # bb_outputs1 = model(bb_inputs1)
+                # bb_outputs2 = model(bb_inputs2)
+                # bb_outputs3 = model(bb_inputs3)
+
+                outputs = orig_outputs #F.softmax(orig_outputs) # + F.softmax(bb_outputs1) + F.softmax(bb_outputs2) + F.softmax(bb_outputs3)
+                # Get top-k indices
+                # indices = torch.argmax(outputs, 1)
+                values, indices = torch.topk(outputs, k=2, dim=1)
+            
+                batch_added_inputs1 = []
+                batch_added_inputs2 = []
+                batch_added_inputs3 = []
+                for i, top_idx in enumerate(indices):
+                    top1_idx, top2_idx = top_idx[0].item(), top_idx[1].item()
+                    query_folder_path = index2folderpath[top1_idx]
+                    img_files = folder_path2imgfiles[query_folder_path]
+                    added_file1 = random.choice(img_files)
+                    if (values[i,0] - values[i,1]).item() >= 7.:
+                        top2_idx = top1_idx
+                    query_folder_path = index2folderpath[top2_idx]
+                    img_files = folder_path2imgfiles[query_folder_path]
+                    added_file2 = random.choice(img_files)
+                    # added_file3 = random.choice(img_files)
+
+                    added_img1  = Image.open(added_file1).convert("RGB")
+                    batch_added_inputs1.append(torch.tensor(val_transform(added_img1)))
+                    added_img2  = Image.open(added_file2).convert("RGB")
+                    batch_added_inputs2.append(torch.tensor(val_transform(added_img2)))
+                    # added_img3  = Image.open(added_file3).convert("RGB")
+                    # batch_added_inputs3.append(torch.tensor(val_transform(added_img3)))
+
+                batch_added_inputs1 = torch.stack(batch_added_inputs1, dim=0)
+                batch_added_inputs1 = batch_added_inputs1.to(CFG.device)
+                batch_added_outputs1 = model(batch_added_inputs1)
+
+                batch_added_inputs2 = torch.stack(batch_added_inputs2, dim=0)
+                batch_added_inputs2 = batch_added_inputs2.to(CFG.device)
+                batch_added_outputs2 = model(batch_added_inputs2)
+
+                # batch_added_inputs3 = torch.stack(batch_added_inputs3, dim=0)
+                # batch_added_inputs3 = batch_added_inputs3.to(CFG.device)
+                # batch_added_outputs3 = model(batch_added_inputs3)
+
+                outputs = F.softmax(outputs) + F.softmax(batch_added_outputs1) + F.softmax(batch_added_outputs2) #+ F.softmax(batch_added_outputs3)
+
+                
+                _, preds = torch.max(outputs, 1)
+                probs, _ = torch.max(F.softmax(outputs, dim=1), 1)
+                running_corrects += torch.sum(preds == bird_labels.data)
+
+
+            epoch_acc = running_corrects.double() / len(testloader.dataset)
+
+            print('-' * 10)
+            print('Acc: {:.4f}'.format(100*epoch_acc))
+
+            return 100*epoch_acc
+
+        with torch.no_grad():    
+            acc = tta_test_epoch(tta_test_loader, model)   
+            f.write(f"{acc:.4f}\n")
+            f.close()
