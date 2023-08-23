@@ -17,3 +17,6 @@ visual_correspondence_XAI/ResNet50/CUB_iNaturalist_17/wrong2wrong
 
 transfg/*.npz
 results/
+
+calibration/cub/
+calibration/nabirds/
