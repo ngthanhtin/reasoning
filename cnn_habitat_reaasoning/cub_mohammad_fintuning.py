@@ -41,9 +41,9 @@ if not os.path.exists('results/cub/'):
 class CFG:
     seed = 42
     dataset = 'cub'
-    model_name = 'mohammad' #mohammad, vit, transfg
+    model_name = 'transfg' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -63,6 +63,8 @@ class CFG:
     orig_test_img_folder = 'CUB_random_test/'
     orig_test_img_folder = 'CUB_bb_on_birds_test/'
     orig_test_img_folder = 'CUB_big_bb_on_birds_test/'
+    # test with inat
+    orig_test_img_folder = '../overlapping_cub_inat/'
 
     # cutmix
     cutmix = False
@@ -82,7 +84,7 @@ class CFG:
     else:
         batch_size = 64 if train else 512
 
-    test_tta = True
+    test_tta = False
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
     write_inat_to_df = not os.path.exists(inat21_df_path)
@@ -497,15 +499,15 @@ if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     # mohammad
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/60_BIRD_ORIG_IRRELEVANT_cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
     model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/SAME_cub_single_mohammad_08_16_2023-00:32:08/18-0.866-cutmix_False.pth' # same
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/MIX_cub_single_mohammad_08_16_2023-00:38:49/19-0.866-cutmix_False.pth' # mix
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/MIX_cub_single_mohammad_08_16_2023-00:38:49/19-0.866-cutmix_False.pth' # mix
 
     # transfg
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/FINETUNE_cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/60_BIRD_ORIG_IRRELEVANT_cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth' # irrelevant
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/SAME_cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/MIX_cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/FINETUNE_cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/60_BIRD_ORIG_IRRELEVANT_cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth' # irrelevant
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/SAME_cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/MIX_cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
     print(model_path)
     print(CFG.orig_test_img_folder)
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))

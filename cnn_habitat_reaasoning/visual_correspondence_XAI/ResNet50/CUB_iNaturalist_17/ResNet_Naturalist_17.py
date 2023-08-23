@@ -20,7 +20,7 @@ from tqdm import tqdm
 from FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
 
 # %%
-device = torch.device("cuda:5" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 device
 
 # %%
@@ -67,7 +67,7 @@ class ImageFolderWithTwoPaths(ImageFolder):
         return (img, img2, label, path, path2)
 # %%
 # validation_folder = ImageFolder(root='/home/tin/datasets/cub/CUB/test', transform=val_dataset_transform)
-validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/cub/CUB_random_test/', transform=val_dataset_transform)
+validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/overlapping_cub_inat/', transform=val_dataset_transform)
 val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
 
 
