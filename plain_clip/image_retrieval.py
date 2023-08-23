@@ -44,7 +44,7 @@ class cfg:
     batch_size = 12
     device = "cuda:3" if torch.cuda.is_available() else "cpu"
 
-    CUB_DIR = '/home/tin/datasets/cub/CUB_inpaint_all_train/'
+    CUB_DIR = '/home/tin/datasets/cub/CUB/train/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
     INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
 
@@ -57,8 +57,8 @@ class cfg:
     # save image features path
     model_type = MODEL_TYPE.replace('/', '_')
     additional_dataset_names = '_'.join(additional_datasets)
-    image_features_filename = f"./embeddings/{dataset}_{additional_dataset_names}_{retrieve_model}_{model_type}_image_features.pkl"
-    image_paths_filename = f"./embeddings/{dataset}_{additional_dataset_names}_{retrieve_model}_{model_type}_image_paths.txt"
+    image_features_filename = f"./embeddings/orig_{dataset}_{additional_dataset_names}_{retrieve_model}_{model_type}_image_features.pkl"
+    image_paths_filename = f"./embeddings/orig_{dataset}_{additional_dataset_names}_{retrieve_model}_{model_type}_image_paths.txt"
 
     # retrieve
     retrieved_num = 10
@@ -257,6 +257,9 @@ returned_image_paths, text_after = find_image_by_text(text, image_features, imag
 print(f"Before: {text}")
 print(f"After: {text_after}")
 
+# %% test retrieving image by image
+test_img_path = '/home/tin/datasets/cub/CUB/test/001.Black_footed_Albatross/Black_Footed_Albatross_0090_796077.jpg'
+returned_image_paths = find_image_by_image(test_img_path, image_features, image_paths, n=4)
 # %%
 show_images(returned_image_paths)
 # %% --- get the habitat description ---
