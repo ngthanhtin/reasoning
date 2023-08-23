@@ -41,9 +41,9 @@ if not os.path.exists('results/cub/'):
 class CFG:
     seed = 42
     dataset = 'cub'
-    model_name = 'transfg' #mohammad, vit, transfg
+    model_name = 'mohammad' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -82,7 +82,7 @@ class CFG:
     else:
         batch_size = 64 if train else 512
 
-    test_tta = False
+    test_tta = True
     # inat21
     inat21_df_path = 'inat21_onlybirds.csv'
     write_inat_to_df = not os.path.exists(inat21_df_path)
@@ -497,22 +497,15 @@ if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     # mohammad
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/IRRELEVANT_cub_unified_resnet101_08_09_2023-13:34:30/8-0.859-cutmix_False.pth' # irrelevant
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/AUGSAME_cub_unified_resnet101_08_04_2023-15:50:27/13-0.865-cutmix_False.pth' # same
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/AUGMIX_cub_unified_resnet101_08_04_2023-15:43:45/13-0.865-cutmix_False.pth' # mix
-    # new mohammad
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/60_NEW_IRRELEVANT_cub_single_mohammad_08_18_2023-16:10:49/19-0.858-cutmix_False.pth' # irrelevant
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/cub_single_mohammad_08_16_2023-00:32:08/18-0.866-cutmix_False.pth' # same
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/cub_single_mohammad_08_16_2023-00:38:49/19-0.866-cutmix_False.pth' # mix
-
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/SAME_cub_single_mohammad_08_16_2023-00:32:08/18-0.866-cutmix_False.pth' # same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/MIX_cub_single_mohammad_08_16_2023-00:38:49/19-0.866-cutmix_False.pth' # mix
 
     # transfg
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_08_18_2023-16:15:40/40-0.870-cutmix_False.pth' # aug_irrelevant
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/FINETUNE_cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/60_BIRD_ORIG_IRRELEVANT_cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth' # irrelevant
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/SAME_cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/MIX_cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
     print(model_path)
     print(CFG.orig_test_img_folder)
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
@@ -527,30 +520,47 @@ else:
             f.write(f"{acc:.4f}\n")
             f.close()
     else:
+        from image_retrieval import find_image_by_image, load_model, load_features_and_paths
+
         # Test TTA (Orig and Blackbox)
         class Dataset_TTA(Dataset):
-            def __init__(self, root1, root2, transform=None):
+            def __init__(self, root1, root2, transform1=None, transform2=None):
                 self.root1 = root1
                 self.root2 = root2
-                self.transform = transform
+                self.transform1 = transform1
+                self.transform2 = transform2
 
                 label_folders = os.listdir(self.root1)
                 self.img_pair_files = []
                 self.targets = []
-                for folder in label_folders:
+
+                # init CLIP model
+                retrieval_model, preprocess, tokenizer = load_model('ViT-L/14', device=CFG.device)
+                image_features, image_paths = load_features_and_paths()
+
+                for folder in tqdm(label_folders):
                     label = int(folder.split('.')[0])
                     img_files = os.listdir(f"{self.root1}/{folder}")
-                    img_files2 = os.listdir(f"{self.root2}/{folder}")
+                    # img_files2 = os.listdir(f"{self.root2}/{folder}")
 
                     for file in img_files:
                         path1 = f"{self.root1}/{folder}/{file}"
-                        file2 = random.choice(img_files2)
-                        file3 = random.choice(img_files2)
-                        file4 = random.choice(img_files2)
-                        path2 = f"{self.root2}/{folder}/{file2}"
-                        path3 = f"{self.root2}/{folder}/{file3}"
-                        path4 = f"{self.root2}/{folder}/{file4}"
-                        self.img_pair_files.append([path1, path2, path3, path4])
+                        returned_image_paths = find_image_by_image(retrieval_model, preprocess, image_features, image_paths, path1, n=10, device=CFG.device)
+                        # path2 = f"{self.root2}/{folder}/{file}"
+                        path2 = returned_image_paths[0]
+                        path3 = returned_image_paths[1]
+                        path4 = returned_image_paths[2]
+                        
+                        # file2 = random.choice(img_files2)
+                        # file3 = random.choice(img_files2)
+                        # file4 = random.choice(img_files2)
+                        # path2 = f"{self.root2}/{folder}/{file2}"
+                        # path3 = f"{self.root2}/{folder}/{file3}"
+                        # path4 = f"{self.root2}/{folder}/{file4}"
+
+                        #
+                        # self.img_pair_files.append([path1, path2, path3, path4])
+                        self.img_pair_files.append(returned_image_paths)
                         self.targets.append(label)
 
             def __len__(self):        
@@ -559,23 +569,50 @@ else:
             def __getitem__(self, index):        
                 label = self.targets[index] - 1
                 orig_img  = Image.open(self.img_pair_files[index][0]).convert("RGB")
-                # blackbox_img1 = Image.open(self.img_pair_files[index][1]).convert("RGB")
-                # blackbox_img2 = Image.open(self.img_pair_files[index][2]).convert("RGB")
-                # blackbox_img3 = Image.open(self.img_pair_files[index][3]).convert("RGB")
+                second_img = Image.open(self.img_pair_files[index][1]).convert("RGB")
 
-                if self.transform is not None:
-                    orig_img = torch.tensor(self.transform(orig_img))
+                # blackbox_img1 = Image.open(self.img_pair_files[index][1]).convert("RGB")
+                blackbox_img2 = Image.open(self.img_pair_files[index][2]).convert("RGB")
+                blackbox_img3 = Image.open(self.img_pair_files[index][3]).convert("RGB")
+                blackbox_img4 = Image.open(self.img_pair_files[index][4]).convert("RGB")
+                blackbox_img5 = Image.open(self.img_pair_files[index][5]).convert("RGB")
+                blackbox_img6 = Image.open(self.img_pair_files[index][6]).convert("RGB")
+                blackbox_img7 = Image.open(self.img_pair_files[index][7]).convert("RGB")
+                blackbox_img8 = Image.open(self.img_pair_files[index][8]).convert("RGB")
+                blackbox_img9 = Image.open(self.img_pair_files[index][9]).convert("RGB")
+                
+
+                if self.transform1 is not None:
+                    orig_img = torch.tensor(self.transform1(orig_img))
+                if self.transform2 is not None:
+                    second_img = torch.tensor(self.transform2(second_img))
                     # blackbox_img1 = torch.tensor(self.transform(blackbox_img1))
-                    # blackbox_img2 = torch.tensor(self.transform(blackbox_img2))
-                    # blackbox_img3 = torch.tensor(self.transform(blackbox_img3))
-                    # imgs = torch.cat((orig_img, blackbox_img1, blackbox_img2, blackbox_img3), 0)
-                    imgs = orig_img
+                    blackbox_img2 = torch.tensor(self.transform2(blackbox_img2))
+                    blackbox_img3 = torch.tensor(self.transform2(blackbox_img3))
+                    blackbox_img4 = torch.tensor(self.transform2(blackbox_img4))
+                    blackbox_img5 = torch.tensor(self.transform2(blackbox_img5))
+                    blackbox_img6 = torch.tensor(self.transform2(blackbox_img6))
+                    blackbox_img7 = torch.tensor(self.transform2(blackbox_img7))
+                    blackbox_img8 = torch.tensor(self.transform2(blackbox_img8))
+                    blackbox_img9 = torch.tensor(self.transform2(blackbox_img9))
+                    
+                    imgs = torch.cat((orig_img, second_img, blackbox_img2, blackbox_img3, blackbox_img4, blackbox_img5, blackbox_img6, blackbox_img7, blackbox_img8, blackbox_img9), 0)
+                    # imgs = orig_img
+                
+                # imgs = torch.cat((orig_img, second_img), 0)
 
                 return imgs, label
 
-        random.seed(47)
-        # /home/tin/datasets/cub/CUB_inpaint_all_test/, 
-        tta_dataset = Dataset_TTA(root1='/home/tin/datasets/cub/CUB/test/', root2='/home/tin/datasets/cub/CUB/test/', transform=Augment(train=False))
+        # random.seed(47)
+        tta_transform = transforms.Compose([
+            transforms.Resize(CFG.image_expand_size),
+            transforms.CenterCrop(CFG.image_size),
+            transforms.ToTensor(),
+            transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+            # transforms.RandomErasing(p=0.2, value='random')
+        ])
+        # /home/tin/datasets/cub/CUB_inpaint_all_test/, CUB_bb_on_birds_test, CUB_big_bb_on_birds_test
+        tta_dataset = Dataset_TTA(root1='/home/tin/datasets/cub/CUB/test/', root2='/home/tin/datasets/cub/CUB/test/', transform1=Augment(train=False), transform2=tta_transform)
         tta_test_loader = DataLoader(tta_dataset, batch_size=CFG.batch_size, num_workers=8, shuffle=False, pin_memory=False)
 
         index2folderpath = {}
@@ -600,56 +637,76 @@ else:
             val_transform=Augment(train=False)
 
             for inputs, bird_labels in tqdm(testloader):
-                orig_inputs = inputs[:, :3, :, :].to(CFG.device)
-                # bb_inputs1 = inputs[:, 3:6, :, :].to(CFG.device)
-                # bb_inputs2 = inputs[:, 6:9, :, :].to(CFG.device)
-                # bb_inputs3 = inputs[:, 9:, :, :].to(CFG.device)
                 bird_labels = bird_labels.to(CFG.device)
-                orig_outputs = model(orig_inputs)
-                # bb_outputs1 = model(bb_inputs1)
-                # bb_outputs2 = model(bb_inputs2)
-                # bb_outputs3 = model(bb_inputs3)
 
-                outputs = orig_outputs #F.softmax(orig_outputs) # + F.softmax(bb_outputs1) + F.softmax(bb_outputs2) + F.softmax(bb_outputs3)
+                orig_inputs = inputs[:, :3, :, :].to(CFG.device)
+                second_inputs = inputs[:, 3:6, :, :].to(CFG.device)
+                # bb_inputs1 = inputs[:, 3:6, :, :].to(CFG.device)
+                bb_inputs2 = inputs[:, 6:9, :, :].to(CFG.device)
+                bb_inputs3 = inputs[:, 9:12, :, :].to(CFG.device)
+                bb_inputs4 = inputs[:, 12:15, :, :].to(CFG.device)
+                bb_inputs5 = inputs[:, 15:18, :, :].to(CFG.device)
+                bb_inputs6 = inputs[:, 18:21, :, :].to(CFG.device)
+                bb_inputs7 = inputs[:, 21:24, :, :].to(CFG.device)
+                bb_inputs8 = inputs[:, 24:27, :, :].to(CFG.device)
+                bb_inputs9 = inputs[:, 27:, :, :].to(CFG.device)
+                
+                
+                orig_outputs = model(orig_inputs)
+                second_outputs = model(second_inputs)
+                # bb_outputs1 = model(bb_inputs1)
+                bb_outputs2 = model(bb_inputs2)
+                bb_outputs3 = model(bb_inputs3)
+                bb_outputs4 = model(bb_inputs4)
+                bb_outputs5 = model(bb_inputs5)
+                bb_outputs6 = model(bb_inputs6)
+                bb_outputs7 = model(bb_inputs7)
+                bb_outputs8 = model(bb_inputs8)
+                bb_outputs9 = model(bb_inputs9)
+                
+
+                outputs = F.softmax(orig_outputs) + F.softmax(second_outputs) + F.softmax(bb_outputs2) + F.softmax(bb_outputs3) #+ \
+                #+ F.softmax(bb_outputs4)# + #F.softmax(bb_outputs5) + F.softmax(bb_outputs6) + F.softmax(bb_outputs7) + \
+                #F.softmax(bb_outputs8) + F.softmax(bb_outputs9)
                 # Get top-k indices
                 # indices = torch.argmax(outputs, 1)
-                values, indices = torch.topk(outputs, k=2, dim=1)
+                # values, indices = torch.topk(outputs, k=2, dim=1)
             
-                batch_added_inputs1 = []
-                batch_added_inputs2 = []
-                batch_added_inputs3 = []
-                for i, top_idx in enumerate(indices):
-                    top1_idx, top2_idx = top_idx[0].item(), top_idx[1].item()
-                    query_folder_path = index2folderpath[top1_idx]
-                    img_files = folder_path2imgfiles[query_folder_path]
-                    added_file1 = random.choice(img_files)
-                    if (values[i,0] - values[i,1]).item() >= 7.:
-                        top2_idx = top1_idx
-                    query_folder_path = index2folderpath[top2_idx]
-                    img_files = folder_path2imgfiles[query_folder_path]
-                    added_file2 = random.choice(img_files)
-                    # added_file3 = random.choice(img_files)
+                # batch_added_inputs1 = []
+                # batch_added_inputs2 = []
+                # batch_added_inputs3 = []
+                # for i, top_idx in enumerate(indices):
+                #     top1_idx, top2_idx = top_idx[0].item(), top_idx[1].item()
+                #     query_folder_path = index2folderpath[top1_idx]
+                #     img_files = folder_path2imgfiles[query_folder_path]
+                #     added_file1 = random.choice(img_files)
+                #     if (values[i,0] - values[i,1]).item() >= 7.:
+                #         top2_idx = top1_idx
+                #     query_folder_path = index2folderpath[top2_idx]
+                #     img_files = folder_path2imgfiles[query_folder_path]
+                #     added_file2 = random.choice(img_files)
+                #     # added_file3 = random.choice(img_files)
 
-                    added_img1  = Image.open(added_file1).convert("RGB")
-                    batch_added_inputs1.append(torch.tensor(val_transform(added_img1)))
-                    added_img2  = Image.open(added_file2).convert("RGB")
-                    batch_added_inputs2.append(torch.tensor(val_transform(added_img2)))
+                #     added_img1  = Image.open(added_file1).convert("RGB")
+                #     batch_added_inputs1.append(torch.tensor(val_transform(added_img1)))
+                #     added_img2  = Image.open(added_file2).convert("RGB")
+                #     batch_added_inputs2.append(torch.tensor(val_transform(added_img2)))
                     # added_img3  = Image.open(added_file3).convert("RGB")
                     # batch_added_inputs3.append(torch.tensor(val_transform(added_img3)))
 
-                batch_added_inputs1 = torch.stack(batch_added_inputs1, dim=0)
-                batch_added_inputs1 = batch_added_inputs1.to(CFG.device)
-                batch_added_outputs1 = model(batch_added_inputs1)
+                # batch_added_inputs1 = torch.stack(batch_added_inputs1, dim=0)
+                # batch_added_inputs1 = batch_added_inputs1.to(CFG.device)
+                # batch_added_outputs1 = model(batch_added_inputs1)
 
-                batch_added_inputs2 = torch.stack(batch_added_inputs2, dim=0)
-                batch_added_inputs2 = batch_added_inputs2.to(CFG.device)
-                batch_added_outputs2 = model(batch_added_inputs2)
+                # batch_added_inputs2 = torch.stack(batch_added_inputs2, dim=0)
+                # batch_added_inputs2 = batch_added_inputs2.to(CFG.device)
+                # batch_added_outputs2 = model(batch_added_inputs2)
 
-                # batch_added_inputs3 = torch.stack(batch_added_inputs3, dim=0)
-                # batch_added_inputs3 = batch_added_inputs3.to(CFG.device)
-                # batch_added_outputs3 = model(batch_added_inputs3)
+                # # batch_added_inputs3 = torch.stack(batch_added_inputs3, dim=0)
+                # # batch_added_inputs3 = batch_added_inputs3.to(CFG.device)
+                # # batch_added_outputs3 = model(batch_added_inputs3)
 
-                outputs = F.softmax(outputs) + F.softmax(batch_added_outputs1) + F.softmax(batch_added_outputs2) #+ F.softmax(batch_added_outputs3)
+                # outputs = F.softmax(outputs) + F.softmax(batch_added_outputs1) + F.softmax(batch_added_outputs2) #+ F.softmax(batch_added_outputs3)
 
                 
                 _, preds = torch.max(outputs, 1)
