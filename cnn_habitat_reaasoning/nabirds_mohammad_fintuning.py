@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -56,15 +56,15 @@ class CFG:
     orig_train_img_folder = 'gen_data/temp_gen_data/augirrelevant_with_orig_birds_train_60/' # 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small', augirrelevant_images_small_60_added_samples
     #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/', 'gen_data/big_bb_on_birds_test/'
     orig_test_img_folder = 'test/'
-    orig_test_img_folder = 'gen_data/inpaint_images/test_inpaint/'
-    orig_test_img_folder = 'gen_data/onlybird_images_test/'
-    orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
-    orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
+    # orig_test_img_folder = 'gen_data/inpaint_images/test_inpaint/'
+    # orig_test_img_folder = 'gen_data/onlybird_images_test/'
+    # orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
+    # orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
     # test with inat
-    orig_test_img_folder = '../overlapping_nabirds_inat/'
-    #test fly-nonfly birds
-    orig_test_img_folder = '../non_flybird_nabirds_test/'
-    orig_test_img_folder = '../flybird_nabirds_test/'
+    # orig_test_img_folder = '../overlapping_nabirds_inat/'
+    # #test fly-nonfly birds
+    # orig_test_img_folder = '../non_flybird_nabirds_test/'
+    # orig_test_img_folder = '../flybird_nabirds_test/'
 
     # cutmix
     cutmix = False
@@ -489,7 +489,7 @@ else:
 
         import csv
         sup_type = 'same'
-        csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/{sup_type}_class_accuracies.csv"
+        csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/{CFG.model_name}/orig_{sup_type}_class_accuracies.csv"
         with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file)
             csv_writer.writerow(["Class", "Accuracy"])
