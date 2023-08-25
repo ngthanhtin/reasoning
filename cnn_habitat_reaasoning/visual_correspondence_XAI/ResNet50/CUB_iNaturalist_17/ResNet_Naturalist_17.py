@@ -67,13 +67,9 @@ class ImageFolderWithTwoPaths(ImageFolder):
         return (img, img2, label, path, path2)
 # %%
 # validation_folder = ImageFolder(root='/home/tin/datasets/cub/CUB/test', transform=val_dataset_transform)
-validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/non_flybird_cub_test/', transform=val_dataset_transform)
+validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/overlapping_cub_inat_test/', transform=val_dataset_transform)
 val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
 
-
-# %%
-# validation_folder = ImageFolderWithTwoPaths(root1='/home/tin/datasets/cub/CUB/test', root2='/home/tin/datasets/cub/CUB_inpaint_all_test/', transform=val_dataset_transform)
-# val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
 # %% [markdown]
 # ## iNAT ResNet-50 
 
@@ -109,6 +105,9 @@ def test_cub(model):
   targets = []
   confidence = []
   
+  class_corrects = [0] * 200
+  class_counts = [0] * 200
+  
   full_paths = []
   with torch.inference_mode():
     for _, (data, target, path) in tqdm(enumerate(val_loader)):
@@ -120,7 +119,12 @@ def test_cub(model):
       probs, _ = torch.max(F.softmax(outputs, dim=1), 1)
       running_loss += loss.item() * target.size(0)
       running_corrects += torch.sum(preds == target.data)
-      
+
+      # class accuracy
+      for i in range(len(target)):
+        class_corrects[target[i]] += int(preds[i] == target[i])
+        class_counts[target[i]] += 1
+      ####
       predictions.extend(preds.data.cpu().numpy())
       targets.extend(target.data.cpu().numpy())
 
@@ -132,17 +136,30 @@ def test_cub(model):
 
       confidence.extend((probs.data.cpu().numpy()*100).astype(np.int32))
 
+    class_accuracies = [correct / count if count != 0 else 0 for correct, count in zip(class_corrects, class_counts)]
+
   epoch_loss = running_loss / len(validation_folder)
   epoch_acc = running_corrects.double() / len(validation_folder)
 
   print('-' * 10)
   print('loss: {:.4f}, acc: {:.4f}'.format(epoch_loss, 100*epoch_acc))
   
-  return predictions, targets, confidence, full_paths
+  return predictions, targets, confidence, full_paths, class_accuracies
 
 # %%
-cub_test_preds, cub_test_targets, cub_test_confs, full_paths = test_cub(inat_resnet)
+cub_test_preds, cub_test_targets, cub_test_confs, full_paths, class_acc = test_cub(inat_resnet)
 
+# %% save class accuracy
+import csv
+class_to_idx = validation_folder.class_to_idx
+idx_to_class = {v:k for k,v in class_to_idx.items()}
+sup_type = 'mohammad'
+csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/{sup_type}_class_accuracies.csv"
+with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
+    csv_writer = csv.writer(csv_file)
+    csv_writer.writerow(["Class", "Accuracy"])
+    for class_idx, accuracy in enumerate(class_acc):
+        csv_writer.writerow([idx_to_class[class_idx], accuracy])
 # %%
 print(len(full_paths))
 def save_paths_to_txt(file_path, paths_list):
