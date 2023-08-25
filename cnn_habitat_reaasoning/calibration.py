@@ -281,7 +281,7 @@ def main(load_dir_sup, sup_type='same', dataset='cub', model_type='mohammad', de
         
         fig.savefig(f"{save_path}/{sup_type}_calibration_plots.png")
     
-def test_95_conf_interval(path1, path2):
+def test_95_conf_interval(path1, path2, draw=False, save_draw_path='./calibration/cub/95_interval_overlap/cnn_type1_typ2.jpg'):
     zipped_corr_conf_sup1 = np.load(path1)
     zipped_corr_conf_sup2 = np.load(path2)
     corrects1, confidences1 = zipped_corr_conf_sup1[:, 0], zipped_corr_conf_sup1[:, 1]
@@ -306,6 +306,24 @@ def test_95_conf_interval(path1, path2):
 
     print(f"Confidence interval overlap: {overlap:.2f}")
 
+    if draw:
+        # Plotting
+        save_file_name = save_draw_path.split("/")[-1][:-4].split('_')
+        type1, type2 = save_file_name[1], save_file_name[2]
+        plt.figure(figsize=(8, 8))
+        plt.hist(confidences1, bins=20, alpha=0.5, color='blue', label=f'Confidence Set 1 ({type1})')
+        plt.hist(confidences2, bins=20, alpha=0.5, color='orange', label=f'Confidence Set 2 ({type2})')
+        plt.axvline(x=conf_interval_set1[0], color='blue', linestyle='--', label='95% CI (Set 1)')
+        plt.axvline(x=conf_interval_set1[1], color='blue', linestyle='--')
+        plt.axvline(x=conf_interval_set2[0], color='orange', linestyle='--', label='95% CI (Set 2)')
+        plt.axvline(x=conf_interval_set2[1], color='orange', linestyle='--')
+        plt.xlabel('Confidence')
+        plt.ylabel('Frequency')
+        plt.title(f'95% Confidence Interval Overlap ({overlap*100:.2f}%)', fontsize=15)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 0.5), fontsize='xx-small')
+        plt.grid(True)
+        plt.show()
+        plt.savefig(save_draw_path)
 
 if __name__ == "__main__":
 
@@ -340,11 +358,36 @@ if __name__ == "__main__":
 
         exit()
 
-    test_conf_interval = False
+    test_conf_interval = True
     if test_conf_interval:
-        zip1 = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/calibration/nabirds/zipped_corr_conf_supervised_transfg-finetune.npy"
-        zip2 = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/calibration/nabirds/zipped_corr_conf_supervised_transfg-irrelevant.npy"
-        test_95_conf_interval(zip1, zip2)
+        zip1 = "./calibration/nabirds/zipped_corr_conf_supervised_transfg-mix.npy"
+        zip2 = "./calibration/nabirds/zipped_corr_conf_supervised_transfg-finetune.npy"
+        draw = True
+        if draw:
+            from PIL import Image
+            # Load the images
+            image1 = Image.open('/home/tin/projects/reasoning/cnn_habitat_reaasoning/calibration/nabirds/95_interval_overlap/cnn_irrelevant_finetune.png')
+            image2 = Image.open('/home/tin/projects/reasoning/cnn_habitat_reaasoning/calibration/nabirds/95_interval_overlap/cnn_same_finetune.png')
+            image3 = Image.open('/home/tin/projects/reasoning/cnn_habitat_reaasoning/calibration/nabirds/95_interval_overlap/cnn_mix_finetune.png')
+
+            desired_width = image1.width*2
+            desired_height = image1.height*2
+            # Resize images (if needed) to have the same dimensions
+            image1 = image1.resize((desired_width, desired_height))
+            image2 = image2.resize((desired_width, desired_height))
+            image3 = image3.resize((desired_width, desired_height))
+
+            # Create a new image with two rows
+            combined_image = Image.new('RGB', (desired_width * 2, desired_height * 2))
+
+            # Paste images into the new image
+            combined_image.paste(image1, (0, 0))
+            combined_image.paste(image2, (desired_width, 0))
+            combined_image.paste(image3, (0, desired_height))
+            
+            combined_image.save('/home/tin/projects/reasoning/cnn_habitat_reaasoning/calibration/nabirds/95_interval_overlap/cnn_all.png')
+        else:
+            test_95_conf_interval(zip1, zip2, draw=True, save_draw_path='./calibration/nabirds/95_interval_overlap/transfg_mix_finetune.png')
         exit()
 
     dir_path = os.path.dirname(os.path.realpath(__file__))
