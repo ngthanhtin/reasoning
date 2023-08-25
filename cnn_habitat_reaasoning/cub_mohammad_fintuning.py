@@ -43,7 +43,7 @@ class CFG:
     dataset = 'cub'
     model_name = 'transfg' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -67,7 +67,7 @@ class CFG:
     orig_test_img_folder = '../overlapping_cub_inat/'
 
     # test with fly-nonfly birds
-    orig_test_img_folder = '../flybird_cub_test/'
+    # orig_test_img_folder = '../flybird_cub_test/'
     orig_test_img_folder = '../non_flybird_cub_test/'
 
     # cutmix
@@ -200,10 +200,25 @@ class Unified_Inat21_Dataset(Dataset):
         return (torch.cat((image, inpaint_image), 0), label, label2)
 
 class ImageFolderWithPaths(datasets.ImageFolder):
-    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths):
+    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths, num_images_per_class=3):
         super(ImageFolderWithPaths, self).__init__(root, transform, target_transform)
         self.root = root
         self.return_paths = return_paths
+
+        if num_images_per_class != 0:
+            self.num_images_per_class = num_images_per_class
+            self._limit_dataset()
+
+    def _limit_dataset(self):
+        new_data = []
+        new_targets = []
+        for class_idx in range(len(self.classes)):
+            class_data = [item for item in self.samples if item[1] == class_idx]
+            selected_samples = random.sample(class_data, min(self.num_images_per_class, len(class_data)))
+            data, targets = zip(*selected_samples)
+            new_data.extend(data)
+            new_targets.extend(targets)
+        self.samples = list(zip(new_data, new_targets))
 
     def __getitem__(self, index):
         
@@ -225,8 +240,8 @@ def get_data_loaders(dataset, batch_size):
         orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_train_img_folder}"
         orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_test_img_folder}"
 
-        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True))
-        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False))
+        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True), num_images_per_class=0)
+        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False), num_images_per_class=3)
         val_data = test_data
 
         train_data_len = len(train_data)
