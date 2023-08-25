@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -62,6 +62,9 @@ class CFG:
     orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
     # test with inat
     orig_test_img_folder = '../overlapping_nabirds_inat/'
+    #test fly-nonfly birds
+    orig_test_img_folder = '../non_flybird_nabirds_test/'
+    orig_test_img_folder = '../flybird_nabirds_test/'
 
     # cutmix
     cutmix = False
@@ -176,11 +179,12 @@ def get_data_loaders(dataset, batch_size):
 
         classes = train_data.classes
         bird_classes = classes
-        return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes)
+        class_to_idx = test_data.class_to_idx
+        return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes, class_to_idx)
 
-    return (train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes)
 # %%
-(train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes) = get_data_loaders(CFG.dataset, CFG.batch_size)
+(train_loader, val_loader, test_loader, train_data_len, valid_data_len, test_data_len, bird_classes, class_to_idx) = get_data_loaders(CFG.dataset, CFG.batch_size)
+idx_to_class = {v:k for k,v in class_to_idx.items()}
 # %%
 dataloaders = {
     "train":train_loader,
@@ -403,7 +407,10 @@ def evaluate_epoch(validloader, criterion, model, return_paths=False):
 def test_epoch(testloader, model, return_paths=False):
     model.eval()
     running_corrects = 0
-  
+    
+    class_corrects = [0] * CFG.bird_num_classes
+    class_counts = [0] * CFG.bird_num_classes
+
     for inputs, bird_labels, paths in tqdm(testloader):
         inputs = inputs.to(CFG.device)
         bird_labels = bird_labels.to(CFG.device)
@@ -413,13 +420,18 @@ def test_epoch(testloader, model, return_paths=False):
         probs, _ = torch.max(F.softmax(bird_outputs, dim=1), 1)
         running_corrects += torch.sum(preds == bird_labels.data)
 
+        for i in range(len(bird_labels)):
+            class_corrects[bird_labels[i]] += int(preds[i] == bird_labels[i])
+            class_counts[bird_labels[i]] += 1
+    
+    class_accuracies = [correct / count if count != 0 else 0 for correct, count in zip(class_corrects, class_counts)]
 
     epoch_acc = running_corrects.double() / len(test_loader.dataset)
 
     print('-' * 10)
     print('Acc: {:.4f}'.format(100*epoch_acc))
 
-    return 100*epoch_acc
+    return 100*epoch_acc, class_accuracies
 
 # %%
 from transfg.transfg_vit import VisionTransformer, CONFIGS
@@ -451,10 +463,10 @@ if CFG.train:
 else:
     # orig, same, mix, irrelevant
     # mohammad
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/SAME_nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/60_BIRD_ORIG_IRRELEVANT_nabirds_single_mohammad_08_21_2023-01:21:45/19-0.792-cutmix_False.pth" # augirrelevant
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/SAME_nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/60_BIRD_ORIG_IRRELEVANT_nabirds_single_mohammad_08_21_2023-01:21:45/19-0.792-cutmix_False.pth" # augirrelevant
     
     # transfg
     model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/FINETUNE_nabirds_single_transfg_08_17_2023-07:56:43/49-0.884-cutmix_False.pth' # finetune nabirds only
@@ -471,7 +483,16 @@ else:
     f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
 
     with torch.no_grad():    
-        acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        acc, class_acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
         f.write(f"{acc:.4f}\n")
         f.close()
+
+        import csv
+        sup_type = 'same'
+        csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/{sup_type}_class_accuracies.csv"
+        with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
+            csv_writer = csv.writer(csv_file)
+            csv_writer.writerow(["Class", "Accuracy"])
+            for class_idx, accuracy in enumerate(class_acc):
+                csv_writer.writerow([idx_to_class[class_idx], accuracy])
         

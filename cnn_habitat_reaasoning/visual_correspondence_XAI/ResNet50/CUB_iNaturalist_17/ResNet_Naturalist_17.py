@@ -67,7 +67,7 @@ class ImageFolderWithTwoPaths(ImageFolder):
         return (img, img2, label, path, path2)
 # %%
 # validation_folder = ImageFolder(root='/home/tin/datasets/cub/CUB/test', transform=val_dataset_transform)
-validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/overlapping_cub_inat/', transform=val_dataset_transform)
+validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/non_flybird_cub_test/', transform=val_dataset_transform)
 val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
 
 
