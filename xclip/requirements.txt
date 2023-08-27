@@ -10,8 +10,7 @@ pandas
 tqdm
 nltk
 pillow
-mmcv-full==1.7.0 
--f https://download.openmmlab.com/mmcv/dist/cu117/torch1.13/index.html
+mmcv-full==1.7.0 -f https://download.openmmlab.com/mmcv/dist/cu117/torch1.13/index.html
 tables
 wikipedia
 transformers
