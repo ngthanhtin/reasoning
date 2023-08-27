@@ -18,7 +18,7 @@ IMAGENET_V2_DIR = f'{DATASET_DIR}/imagenet-v2/'
 IMAGENET_A_DIR = f'{DATASET_DIR}/imagenet-a/'
 IMAGENET_C_DIR = f'{DATASET_DIR}/imagenet-c/'
 PLACES365_DIR = f'{DATASET_DIR}/places365/'
-CUB_DIR = f'{DATASET_DIR}/cub/dataset/CUB/'
+CUB_DIR = f'{DATASET_DIR}/cub/CUB/'
 NABIRDS_DIR = f'{DATASET_DIR}/nabirds/'
 
 DS_IMAGENET = "imagenet"

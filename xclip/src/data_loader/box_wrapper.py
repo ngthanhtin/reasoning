@@ -47,7 +47,7 @@ class BoxWrapper(VisionDataset):
             gt_class_name = owlvit_results["class_name"]
             if hasattr(self, 'dataset'):
                 if self.dataset == 'cub':
-                    owlvit_results["image_path"] = "/home/tin/datasets/cub/dataset/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
+                    owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                 elif self.dataset == 'nabirds':
                     # owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
                     owlvit_results["image_path"] = "/home/tin/datasets/nabirds/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]

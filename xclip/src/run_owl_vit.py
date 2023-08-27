@@ -367,7 +367,7 @@ if __name__ == '__main__':
                 for idx, (pred_label, gt_label, image_id) in enumerate(zip(pred_labels, gt_labels, image_ids)):
                     owlvit_results = torch.load(f"{boxes_dir}/{image_id}.pth")
                     if args.dataset == 'cub':
-                        owlvit_results["image_path"] = "/home/tin/datasets/cub/dataset/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
+                        owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                     elif args.dataset == 'nabirds':
                         owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
                     elif args.dataset == 'inaturalist2021':
