@@ -20,7 +20,7 @@ from tqdm import tqdm
 from FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
 
 # %%
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
 device
 
 # %%
@@ -32,6 +32,24 @@ val_dataset_transform = transforms.Compose(
 
 # %%
 class ImageFolderWithPaths(ImageFolder):
+    def __init__(self, root, transform=None, target_transform=None, num_images_per_class=3):
+        super(ImageFolderWithPaths, self).__init__(root, transform, target_transform)
+        self.root = root
+
+        if num_images_per_class != 0:
+          self.num_images_per_class = num_images_per_class
+          self._limit_dataset()
+
+    def _limit_dataset(self):
+        new_data = []
+        new_targets = []
+        for class_idx in range(len(self.classes)):
+          class_data = [item for item in self.samples if item[1] == class_idx]
+          selected_samples = random.sample(class_data, min(self.num_images_per_class, len(class_data)))
+          data, targets = zip(*selected_samples)
+          new_data.extend(data)
+          new_targets.extend(targets)
+        self.samples = list(zip(new_data, new_targets))
 
     def __getitem__(self, index):
   
@@ -67,7 +85,7 @@ class ImageFolderWithTwoPaths(ImageFolder):
         return (img, img2, label, path, path2)
 # %%
 # validation_folder = ImageFolder(root='/home/tin/datasets/cub/CUB/test', transform=val_dataset_transform)
-validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/overlapping_cub_inat_test/', transform=val_dataset_transform)
+validation_folder = ImageFolderWithPaths(root='/home/tin/datasets/non_flybird_cub_test/', transform=val_dataset_transform, num_images_per_class=3)
 val_loader        = DataLoader(validation_folder, batch_size=512, shuffle=False, num_workers=8, pin_memory=False)
 
 # %% [markdown]
