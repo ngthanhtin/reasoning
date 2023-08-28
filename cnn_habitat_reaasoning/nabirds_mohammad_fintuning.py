@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -63,7 +63,7 @@ class CFG:
     # test with inat
     # orig_test_img_folder = '../overlapping_nabirds_inat/'
     # #test fly-nonfly birds
-    # orig_test_img_folder = '../non_flybird_nabirds_test/'
+    orig_test_img_folder = '../non_flybird_nabirds_test/'
     # orig_test_img_folder = '../flybird_nabirds_test/'
 
     # cutmix
@@ -141,10 +141,25 @@ def Augment(train = False):
     
 
 class ImageFolderWithPaths(datasets.ImageFolder):
-    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths):
+    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths, num_images_per_class=3):
         super(ImageFolderWithPaths, self).__init__(root, transform, target_transform)
         self.root = root
         self.return_paths = return_paths
+
+        if num_images_per_class != 0:
+            self.num_images_per_class = num_images_per_class
+            self._limit_dataset()
+
+    def _limit_dataset(self):
+        new_data = []
+        new_targets = []
+        for class_idx in range(len(self.classes)):
+            class_data = [item for item in self.samples if item[1] == class_idx]
+            selected_samples = random.sample(class_data, min(self.num_images_per_class, len(class_data)))
+            data, targets = zip(*selected_samples)
+            new_data.extend(data)
+            new_targets.extend(targets)
+        self.samples = list(zip(new_data, new_targets))
 
     def __getitem__(self, index):
         path, label = self.samples[index]
@@ -165,8 +180,8 @@ def get_data_loaders(dataset, batch_size):
         orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_train_img_folder}"
         orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_test_img_folder}"
 
-        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True))
-        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False))
+        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True), num_images_per_class=0)
+        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False), num_images_per_class=5)
         val_data = test_data
 
         train_data_len = len(train_data)
@@ -463,10 +478,10 @@ if CFG.train:
 else:
     # orig, same, mix, irrelevant
     # mohammad
-    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
-    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/SAME_nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
-    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
-    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/60_BIRD_ORIG_IRRELEVANT_nabirds_single_mohammad_08_21_2023-01:21:45/19-0.792-cutmix_False.pth" # augirrelevant
+    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
+    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/SAME_nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
+    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
+    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/60_BIRD_ORIG_IRRELEVANT_nabirds_single_mohammad_08_21_2023-01:21:45/19-0.792-cutmix_False.pth" # augirrelevant
     
     # transfg
     model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/FINETUNE_nabirds_single_transfg_08_17_2023-07:56:43/49-0.884-cutmix_False.pth' # finetune nabirds only
@@ -487,12 +502,12 @@ else:
         f.write(f"{acc:.4f}\n")
         f.close()
 
-        import csv
-        sup_type = 'same'
-        csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/{CFG.model_name}/orig_{sup_type}_class_accuracies.csv"
-        with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(["Class", "Accuracy"])
-            for class_idx, accuracy in enumerate(class_acc):
-                csv_writer.writerow([idx_to_class[class_idx], accuracy])
+        # import csv
+        # sup_type = 'same'
+        # csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/{CFG.model_name}/orig_{sup_type}_class_accuracies.csv"
+        # with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
+        #     csv_writer = csv.writer(csv_file)
+        #     csv_writer.writerow(["Class", "Accuracy"])
+        #     for class_idx, accuracy in enumerate(class_acc):
+        #         csv_writer.writerow([idx_to_class[class_idx], accuracy])
         
