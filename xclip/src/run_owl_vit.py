@@ -333,20 +333,20 @@ if __name__ == '__main__':
         for batch_idx, batch in tqdm(enumerate(dataloader), desc='Evaluating', total=len(dataloader)):
             image_embeds, box_embeds, text_embeds, owlvit_scores, gt_labels, image_ids, clip_topk_preds = batch
             # handling non-existing images
-            exists = []
-            for i, img_id in enumerate(gt_labels):
-                if img_id == -1:
-                    continue
-                exists.append(i)
-            image_embeds = image_embeds[exists]
-            box_embeds = box_embeds[exists]
-            text_embeds = text_embeds[exists]
-            owlvit_scores = owlvit_scores[exists]
-            gt_labels = gt_labels[exists]
-            image_ids = np.take(image_ids, exists)
-            clip_topk_preds = np.take(clip_topk_preds, exists)
-            if box_embeds.shape[0] == 0: # remaining samples
-                continue
+            # exists = []
+            # for i, img_id in enumerate(gt_labels):
+            #     if img_id == -1:
+            #         continue
+            #     exists.append(i)
+            # image_embeds = image_embeds[exists]
+            # box_embeds = box_embeds[exists]
+            # text_embeds = text_embeds[exists]
+            # owlvit_scores = owlvit_scores[exists]
+            # gt_labels = gt_labels[exists]
+            # image_ids = np.take(image_ids, exists)
+            # clip_topk_preds = np.take(clip_topk_preds, exists)
+            # if box_embeds.shape[0] == 0: # remaining samples
+            #     continue
             # ------
             clip_topk_preds = np.array(clip_topk_preds).T.tolist()
 

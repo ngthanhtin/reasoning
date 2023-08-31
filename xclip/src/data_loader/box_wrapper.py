@@ -30,6 +30,8 @@ class BoxWrapper(VisionDataset):
         self.templated_descriptions = templated_descriptions
         self.owlvit_threshold = owlvit_threshold
         self.max_num_descriptors = max([len(descriptors) for descriptors in self.templated_descriptions.values()])
+        self.num_parts = len(self.indexes_to_keep) + 3 if self.add_allaboutbirds_descs else len(self.indexes_to_keep)
+
         class_list = list(self.templated_descriptions.keys())
         
         if not hasattr(self, 'device'):
@@ -46,13 +48,14 @@ class BoxWrapper(VisionDataset):
             
             boxes_pred_dict = owlvit_results["boxes_info"]
             gt_class_name = owlvit_results["class_name"]
+
             if hasattr(self, 'dataset'):
                 if self.dataset == 'cub':
                     if not os.path.exists("/home/tin/datasets/cub/CUB/flybird_cub_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]):
                         image_emb = torch.zeros((1, 512))
-                        box_emb = torch.zeros([50, 15, 512])
-                        text_emb = torch.zeros([50, 15, 512])
-                        owlvit_scores = torch.zeros([50, 15])
+                        box_emb = torch.zeros([50, self.num_parts, 512])
+                        text_emb = torch.zeros([50, self.num_parts, 512])
+                        owlvit_scores = torch.zeros([50, self.num_parts])
                         gt = -1
                         img_id = '-1'
                         clip_topk_preds = ['-1' for _ in range(50)]
@@ -62,6 +65,17 @@ class BoxWrapper(VisionDataset):
                     owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/flybird_cub_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                 elif self.dataset == 'nabirds':
                     # owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
+                    # if not os.path.exists("/home/tin/datasets/nabirds/flybird_nabirds_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]):
+                    #     image_emb = torch.zeros((1, 512))
+                    #     box_emb = torch.zeros([50, self.num_parts, 512])
+                    #     text_emb = torch.zeros([50, self.num_parts, 512])
+                    #     owlvit_scores = torch.zeros([50, self.num_parts])
+                    #     gt = -1
+                    #     img_id = '-1'
+                    #     clip_topk_preds = ['-1' for _ in range(50)]
+
+                    #     return image_emb, box_emb, text_emb, owlvit_scores, gt, img_id, clip_topk_preds
+                    
                     owlvit_results["image_path"] = "/home/tin/datasets/nabirds/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                 elif self.dataset == 'inaturalist2021':
                     owlvit_results["image_path"] = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
