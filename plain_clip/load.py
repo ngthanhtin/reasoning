@@ -206,10 +206,12 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{hparams['dataset']}.json"
 
 
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
+# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/replaced_425_additional_sachit_descriptors_inaturalist.json'
     
 print(hparams['descriptor_fname'])
 print("Creating descriptors...")
@@ -231,7 +233,8 @@ def compute_description_encodings(model):
         if len(v[-1]) >= cut_len:
             v[-1] = v[-1][:cut_len]
         
-        if hparams['descriptor_fname'] in ["./descriptors/nabirds/no_ann_additional_sachit_descriptors_nabirds.json"]:
+        if hparams['descriptor_fname'] in ["./descriptors/nabirds/no_ann_additional_sachit_descriptors_nabirds.json", \
+                                           './descriptors/inaturalist2021/replaced_425_additional_sachit_descriptors_inaturalist.json']:
             if len(v[-4]) >= cut_len:
                 v[-4] = v[-4][:cut_len]    
 
