@@ -31,7 +31,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'cub'
+hparams['dataset'] = 'inaturalist2021'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
@@ -79,7 +79,7 @@ hparams['descriptor_fname'] = None
 
 IMAGENET_DIR = '/home/tin/datasets/imagenet_new/val/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/home/tin/datasets/imagenetv2/dataset/' # REPLACE THIS WITH YOUR OWN PATH
-CUB_DIR = '/home/tin/datasets/cub/dataset/CUB/' # REPLACE THIS WITH YOUR OWN PATH
+CUB_DIR = '/home/tin/datasets/cub/CUB/' # REPLACE THIS WITH YOUR OWN PATH
 NABIRD_DIR = '/home/tin/datasets/nabirds/'
 INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
 
@@ -88,6 +88,35 @@ tfms = _transform(hparams['image_size'])
 
 
 
+class CustomImageDataset(torch.utils.data.Dataset):
+    def __init__(self, data_dir, selected_folders, transform=None):
+        self.data_dir = data_dir
+        self.selected_folders = selected_folders
+        self.transform = transform
+        self.data = self._load_data()
+
+    def _load_data(self):
+        data = []
+        for folder_name in self.selected_folders:
+            folder_path = os.path.join(self.data_dir, folder_name)
+            class_index = self.selected_folders.index(folder_name)
+            for filename in os.listdir(folder_path):
+                if filename.endswith(".jpg") or filename.endswith(".png"):
+                    file_path = os.path.join(folder_path, filename)
+                    data.append((file_path, class_index))
+        return data
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        img_path, label = self.data[idx]
+        image = Image.open(img_path).convert("RGB")
+        if self.transform:
+            image = self.transform(image)
+        return image, label
+
+# -------
 if hparams['dataset'] == 'imagenet':
     if hparams['dataset'] == 'imagenet':
         dsclass = ImageNet        
@@ -111,15 +140,40 @@ elif hparams['dataset'] == 'cub':
     # load CUB dataset
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
+    dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
+    dataset = ImageFolder(root='/home/tin/datasets/non_flybird_cub_test/', transform=tfms)
+
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'cub/descriptors_cub'
 
 elif hparams['dataset'] == 'nabirds':
     hparams['data_dir'] = pathlib.Path(NABIRD_DIR)
-    f = open("./descriptors/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
+    f = open("./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
     data = json.load(f)
     subset_class_names = list(data.keys())
-    dataset = NABirdsDataset(hparams['data_dir'], train=False, subset_class_names=subset_class_names, transform=tfms)
+
+    # dataset = NABirdsDataset(hparams['data_dir'], train=False, subset_class_names=subset_class_names, transform=tfms)
+    # use to test flybird non fly bird
+    # dictionary mapping image folder name and the class name
+    foldername_2_classname_dict = {}
+    classname_2_foldername_dict = {}
+
+    with open('/home/tin/datasets/nabirds/classes.txt', 'r') as file:
+        for line in file:
+            parts = line.strip().split(' ', 1)
+            key = parts[0]
+            key = '0'*(4-len(key)) + key
+            
+            value = parts[1]
+            foldername_2_classname_dict[key] = value
+            classname_2_foldername_dict[value] = key
+    selected_folders = []
+    for k, v in classname_2_foldername_dict.items():
+        if k in subset_class_names:
+            selected_folders.append(v)
+    selected_folders=sorted(selected_folders)
+    
+    dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/non_flybird_nabirds_test/', selected_folders=selected_folders, transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'nabirds/descriptors_nabirds'
 
@@ -133,28 +187,31 @@ elif hparams['dataset'] == 'inaturalist2021':
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_inaturalist2021'
 
-hparams['model_size'] = "ViT-B/32" 
-hparams['device'] = "cuda:2" if torch.cuda.is_available() else "cpu"
+hparams['model_size'] = "ViT-L/14" 
+hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 
-hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/cub/chatgpt_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/cub/ID_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/cub/ID2_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/ID_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/ID2_descriptors_{hparams['dataset']}.json"
 
-# hparams['descriptor_fname'] = f"./descriptors/no_ann_chatgpt_descriptors_{hparams['dataset']}.json"
-# hparams['descriptor_fname'] = f"./descriptors/no_ann_ID_descriptors_{hparams['dataset']}.json"
-# hparams['descriptor_fname'] = f"./descriptors/no_ann_ID2_descriptors_{hparams['dataset']}.json"
-# hparams['descriptor_fname'] = f"./descriptors/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_ID_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_ID2_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_sachit_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{hparams['dataset']}.json"
 
-# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
+
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
     
-
+print(hparams['descriptor_fname'])
 print("Creating descriptors...")
 
 gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load)
@@ -173,6 +230,11 @@ def compute_description_encodings(model):
             v[-2] = v[-2][:cut_len]
         if len(v[-1]) >= cut_len:
             v[-1] = v[-1][:cut_len]
+        
+        if hparams['descriptor_fname'] in ["./descriptors/nabirds/no_ann_additional_sachit_descriptors_nabirds.json"]:
+            if len(v[-4]) >= cut_len:
+                v[-4] = v[-4][:cut_len]    
+
         # if hparams['descriptor_fname'] in ["./descriptors/ID_descriptors_cub.json",
         #                                     "./descriptors/ID2_descriptors_cub.json",
         #                                     "./descriptors/ID_descriptors_nabirds.json",

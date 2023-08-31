@@ -42,6 +42,7 @@ clip_accuracy_metric_top5 = torchmetrics.Accuracy(task="multiclass", num_classes
 
 for batch_number, batch in enumerate(tqdm(dataloader)):
     images, labels, _ = batch
+    # images, labels = batch
     
     images = images.to(device)
     labels = labels.to(device)
