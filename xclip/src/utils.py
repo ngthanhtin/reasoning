@@ -161,7 +161,7 @@ def load_descriptions(dataset_name, classes_to_load=None, prompt_type=None, desc
         with open(f"{PROJECT_ROOT}/data/text/{desc_type}/425_additional_{desc_type}_descriptors_inaturalist.json") as input_file:
             descriptions = json.load(input_file)
     else:
-        with open(f"{PROJECT_ROOT}/data/text/{desc_type}/additional_{desc_type}_descriptors_{dataset_to_load}.json") as input_file:
+        with open(f"{PROJECT_ROOT}/data/text/{desc_type}/thisbird_additional_{desc_type}_descriptors_{dataset_to_load}.json") as input_file:
             descriptions = json.load(input_file)
 
     if classes_to_load is not None:

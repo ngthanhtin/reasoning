@@ -11,6 +11,7 @@ from utils import compute_label_encodings, gaussian_blur
 import matplotlib.pyplot as plt
 
 import cv2
+import torch
 
 class BoxWrapper(VisionDataset):
     allowed_keywords = ["idx2name", "name2idx", "device", "blur_background", "blur_image", "blur_kernel", "dataset", "indexes_to_keep", "add_allaboutbirds_descs"]
@@ -47,13 +48,24 @@ class BoxWrapper(VisionDataset):
             gt_class_name = owlvit_results["class_name"]
             if hasattr(self, 'dataset'):
                 if self.dataset == 'cub':
-                    owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
+                    if not os.path.exists("/home/tin/datasets/cub/CUB/flybird_cub_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]):
+                        image_emb = torch.zeros((1, 512))
+                        box_emb = torch.zeros([50, 15, 512])
+                        text_emb = torch.zeros([50, 15, 512])
+                        owlvit_scores = torch.zeros([50, 15])
+                        gt = -1
+                        img_id = '-1'
+                        clip_topk_preds = ['-1' for _ in range(50)]
+
+                        return image_emb, box_emb, text_emb, owlvit_scores, gt, img_id, clip_topk_preds
+                        
+                    owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/flybird_cub_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                 elif self.dataset == 'nabirds':
                     # owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
                     owlvit_results["image_path"] = "/home/tin/datasets/nabirds/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                 elif self.dataset == 'inaturalist2021':
                     owlvit_results["image_path"] = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
-                    
+            
             image = Image.open(owlvit_results["image_path"]).convert('RGB')
             w,h = image.size
             img_tensor = self.pil2tensor(image)

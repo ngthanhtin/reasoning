@@ -16,7 +16,7 @@ from utils import *
 
 import torch
 
-# import os
+import os
 # os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 # import os
 # os.environ['CUDA_DEVICE_ORDER'] = 'PCI_BUS_ID'
@@ -332,6 +332,22 @@ if __name__ == '__main__':
         xclip_scores, logits = [], []
         for batch_idx, batch in tqdm(enumerate(dataloader), desc='Evaluating', total=len(dataloader)):
             image_embeds, box_embeds, text_embeds, owlvit_scores, gt_labels, image_ids, clip_topk_preds = batch
+            # handling non-existing images
+            exists = []
+            for i, img_id in enumerate(gt_labels):
+                if img_id == -1:
+                    continue
+                exists.append(i)
+            image_embeds = image_embeds[exists]
+            box_embeds = box_embeds[exists]
+            text_embeds = text_embeds[exists]
+            owlvit_scores = owlvit_scores[exists]
+            gt_labels = gt_labels[exists]
+            image_ids = np.take(image_ids, exists)
+            clip_topk_preds = np.take(clip_topk_preds, exists)
+            if box_embeds.shape[0] == 0: # remaining samples
+                continue
+            # ------
             clip_topk_preds = np.array(clip_topk_preds).T.tolist()
 
             # Note: batch_size may be smaller than args.batch_size for the last batch
@@ -348,7 +364,7 @@ if __name__ == '__main__':
                 box_embeds = F.normalize(image_embeds.to(device), dim=-1)
             else:
                 box_embeds = F.normalize(box_embeds.to(device) + image_embeds.to(device), dim=-1)
- 
+            
             # xclip_scores = box_embeds.view(batch_size, -1, embed_dim) @ torch.transpose(text_embeds.view(batch_size, -1, embed_dim).float(), dim0=-2, dim1=-1).to(device)
             xclip_scores = torch.einsum('bid,bjd->bij', box_embeds.float().view(batch_size, -1, embed_dim),
                                                         text_embeds.float().view(batch_size, -1, embed_dim).to(device))
@@ -365,9 +381,11 @@ if __name__ == '__main__':
 
             if args.visualize:
                 for idx, (pred_label, gt_label, image_id) in enumerate(zip(pred_labels, gt_labels, image_ids)):
+                    if not os.path.exists("/home/tin/datasets/cub/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]):
+                        continue
                     owlvit_results = torch.load(f"{boxes_dir}/{image_id}.pth")
                     if args.dataset == 'cub':
-                        owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
+                        owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/flybird_cub_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                     elif args.dataset == 'nabirds':
                         owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
                     elif args.dataset == 'inaturalist2021':
