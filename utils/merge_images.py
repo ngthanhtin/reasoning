@@ -159,12 +159,12 @@ def merge_dataset(data_name='nabirds'):
             os.makedirs(save_img_folder)
 
         id2class, imageFolder2class, val_img_names = read_inat21(data_path)
-        image_folders = os.listdir(f'{data_path}/inat21_inpaint_all')
+        image_folders = os.listdir(f'{data_path}/bird_train/')
         for image_folder in image_folders:
-            img_names = os.listdir(f'{data_path}/inat21_inpaint_all/{image_folder}')
+            img_names = os.listdir(f'{data_path}/bird_train/{image_folder}')
             # filter out training images
             img_names = [p for p in img_names if p in val_img_names]
-            img_paths = [f'{data_path}/inat21_inpaint_all/{image_folder}/{p}' for p in img_names]
+            img_paths = [f'{data_path}/bird_train/{image_folder}/{p}' for p in img_names]
             # run to merge images
             merged_img = merge_images(img_paths, imageFolder2class[image_folder])
             image_folder_id = image_folder.split('_')[0]
