@@ -131,7 +131,7 @@ dmypy.json
 # ThangPM: Skip pushing the results and precomputed segment embeddings to git
 .idea
 results/
-segmentation/
+segmentation/__pycache__
 
 
 # temporary files (PEIJIE)
