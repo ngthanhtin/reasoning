@@ -188,7 +188,7 @@ elif hparams['dataset'] == 'inaturalist2021':
     hparams['descriptor_fname'] = 'descriptors_inaturalist2021'
 
 hparams['model_size'] = "ViT-L/14" 
-hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
+hparams['device'] = "cuda:6" if torch.cuda.is_available() else "cpu"
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 
 # hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
@@ -206,19 +206,22 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{hparams['dataset']}.json"
 
 
-# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
-# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
-# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
-# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json'
-hparams['descriptor_fname'] = './descriptors/inaturalist2021/replaced_425_additional_sachit_descriptors_inaturalist.json'
+# hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_sachit_descriptors_inaturalist.json'
+hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
     
 print(hparams['descriptor_fname'])
 print("Creating descriptors...")
-
-gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load)
+sci2comm_path = "/home/tin/projects/reasoning/plain_clip/sci2comm_inat_425.json"
+sci2comm = open(sci2comm_path, 'r')
+sci2comm = json.load(sci2comm)
+gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load, sci_2_comm=sci2comm)
 label_to_classname = list(gpt_descriptions.keys())
-
+if sci2comm:
+    label_to_classname = [sci2comm[i] for i in label_to_classname]
 
 n_classes = len(list(gpt_descriptions.keys()))
 
@@ -234,7 +237,8 @@ def compute_description_encodings(model):
             v[-1] = v[-1][:cut_len]
         
         if hparams['descriptor_fname'] in ["./descriptors/nabirds/no_ann_additional_sachit_descriptors_nabirds.json", \
-                                           './descriptors/inaturalist2021/replaced_425_additional_sachit_descriptors_inaturalist.json']:
+                                           './descriptors/inaturalist2021/replaced_425_additional_sachit_descriptors_inaturalist.json',\
+                                            './descriptors/inaturalist2021/425_additional_sachit_descriptors_inaturalist.json']:
             if len(v[-4]) >= cut_len:
                 v[-4] = v[-4][:cut_len]    
 

@@ -35,7 +35,7 @@ def modify_descriptor(descriptor, apply_changes):
         return make_descriptor_sentence(descriptor)
     return descriptor
 
-def load_gpt_descriptions(hparams, classes_to_load=None):
+def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
     unmodify_dict = {}
     
@@ -50,13 +50,15 @@ def load_gpt_descriptions(hparams, classes_to_load=None):
             for k in keys_to_remove:
                 print(f"Skipping descriptions for \"{k}\", not in classes to load")
                 gpt_descriptions.pop(k)
-            
+        
         for i, (k, v) in enumerate(gpt_descriptions.items()):
             if len(v) == 0:
                 v = ['']
             
-            
-            word_to_add = wordify(k)
+            if sci_2_comm:
+                word_to_add = wordify(sci_2_comm[k])
+            else:
+                word_to_add = wordify(k)
             
             if (hparams['category_name_inclusion'] == 'append'):
                 build_descriptor_string = lambda item: f"{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['between_text']}{word_to_add}"
