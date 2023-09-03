@@ -135,7 +135,7 @@ if __name__ == '__main__':
         device = args.device
 
     num_parts = len(args.indexes_to_keep) + 3 if args.add_allaboutbirds_descs else len(args.indexes_to_keep)
-    out_dir = f'{PROJECT_ROOT}/results/{args.dataset}/{args.descriptors}-{args.clip_model.replace("/", "")}/{args.ablation}/{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}_{str(num_parts)}parts'
+    out_dir = f'{PROJECT_ROOT}/results/{args.dataset}/{args.descriptors}-{args.clip_model.replace("/", "")}/{args.ablation}/{str(datetime.now().strftime("%m_%d_%Y-%H:%M:%S"))}_{str(num_parts)}parts_flybird_thisbird'
     out_dir = f"{out_dir}_owl_vit"
     if args.visualize:
         out_dir = f"{out_dir}_viz"
@@ -330,23 +330,24 @@ if __name__ == '__main__':
         dataloader = DataLoader(dataset, args.batch_size, shuffle=False, num_workers=args.num_workers, pin_memory=True)
 
         xclip_scores, logits = [], []
+        
         for batch_idx, batch in tqdm(enumerate(dataloader), desc='Evaluating', total=len(dataloader)):
             image_embeds, box_embeds, text_embeds, owlvit_scores, gt_labels, image_ids, clip_topk_preds = batch
             # handling non-existing images
-            # exists = []
-            # for i, img_id in enumerate(gt_labels):
-            #     if img_id == -1:
-            #         continue
-            #     exists.append(i)
-            # image_embeds = image_embeds[exists]
-            # box_embeds = box_embeds[exists]
-            # text_embeds = text_embeds[exists]
-            # owlvit_scores = owlvit_scores[exists]
-            # gt_labels = gt_labels[exists]
-            # image_ids = np.take(image_ids, exists)
-            # clip_topk_preds = np.take(clip_topk_preds, exists)
-            # if box_embeds.shape[0] == 0: # remaining samples
-            #     continue
+            exists = []
+            for i, img_id in enumerate(gt_labels):
+                if img_id == -1:
+                    continue
+                exists.append(i)
+            image_embeds = image_embeds[exists]
+            box_embeds = box_embeds[exists]
+            text_embeds = text_embeds[exists]
+            owlvit_scores = owlvit_scores[exists]
+            gt_labels = gt_labels[exists]
+            image_ids = np.take(image_ids, exists)
+            clip_topk_preds = np.take(clip_topk_preds, exists)
+            if box_embeds.shape[0] == 0: # remaining samples
+                continue
             # ------
             clip_topk_preds = np.array(clip_topk_preds).T.tolist()
 

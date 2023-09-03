@@ -56,7 +56,7 @@ class BoxWrapper(VisionDataset):
                         box_emb = torch.zeros([50, self.num_parts, 512])
                         text_emb = torch.zeros([50, self.num_parts, 512])
                         owlvit_scores = torch.zeros([50, self.num_parts])
-                        gt = -1
+                        gt = -1.0
                         img_id = '-1'
                         clip_topk_preds = ['-1' for _ in range(50)]
 
@@ -65,18 +65,18 @@ class BoxWrapper(VisionDataset):
                     owlvit_results["image_path"] = "/home/tin/datasets/cub/CUB/flybird_cub_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                 elif self.dataset == 'nabirds':
                     # owlvit_results["image_path"] = owlvit_results["image_path"].replace('lab', 'tin')
-                    # if not os.path.exists("/home/tin/datasets/nabirds/flybird_nabirds_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]):
-                    #     image_emb = torch.zeros((1, 512))
-                    #     box_emb = torch.zeros([50, self.num_parts, 512])
-                    #     text_emb = torch.zeros([50, self.num_parts, 512])
-                    #     owlvit_scores = torch.zeros([50, self.num_parts])
-                    #     gt = -1
-                    #     img_id = '-1'
-                    #     clip_topk_preds = ['-1' for _ in range(50)]
-
-                    #     return image_emb, box_emb, text_emb, owlvit_scores, gt, img_id, clip_topk_preds
+                    if not os.path.exists("/home/tin/datasets/nabirds/flybird_nabirds_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]):
+                        image_emb = torch.zeros((1, 512))
+                        box_emb = torch.zeros([50, self.num_parts, 512])
+                        text_emb = torch.zeros([50, self.num_parts, 512])
+                        owlvit_scores = torch.zeros([50, self.num_parts])
+                        gt = -1.
+                        img_id = '-1'
+                        clip_topk_preds = ['-1' for _ in range(50)]
+                        
+                        return image_emb, box_emb, text_emb, owlvit_scores, gt, img_id, clip_topk_preds
                     
-                    owlvit_results["image_path"] = "/home/tin/datasets/nabirds/images/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
+                    owlvit_results["image_path"] = "/home/tin/datasets/nabirds/flybird_nabirds_test/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
                 elif self.dataset == 'inaturalist2021':
                     owlvit_results["image_path"] = "/home/tin/datasets/inaturalist2021_onlybird/bird_train/" + owlvit_results["image_path"].split("/")[-2] + "/" + owlvit_results["image_path"].split("/")[-1]
             
@@ -100,7 +100,7 @@ class BoxWrapper(VisionDataset):
                 _, topk_idxs = image_labels_similarity.topk(self.clip_topk, dim=1)
                 topk_idxs_list = topk_idxs[0].tolist()
                 clip_topk_preds = [name for idx, name in self.idx2name.items() if idx in topk_idxs_list]
-                gt_label = -1 if gt_class_name not in clip_topk_preds else clip_topk_preds.index(gt_class_name)
+                gt_label = -1.0 if gt_class_name not in clip_topk_preds else clip_topk_preds.index(gt_class_name)
             else:
                 clip_topk_preds = None
                 gt_label = owlvit_results["label"]
@@ -179,13 +179,14 @@ class BoxWrapper(VisionDataset):
                 # text_embeds = F.normalize(self.clip_model.encode_text(tokens.to(self.device)))
                 # all_text_embeds.append(text_embeds.cpu())
 
-            # Each set of descriptors lead to different boxes                
+            # Each set of descriptors lead to different boxes
+            
             box_embeds = self.construct_padded_embeddings(all_class_boxes)
             text_embeds = self.construct_padded_embeddings(all_text_embeds)
             owlvit_scores = self.construct_padded_embeddings(all_owlvit_scores)
 
-        return image_embed.detach().cpu() if blurred_image_embed is None else blurred_image_embed.detach().cpu(), \
-               box_embeds, text_embeds, owlvit_scores, gt_label, owlvit_results["image_id"], clip_topk_preds
+        return image_embed.to(torch.float32).detach().cpu() if blurred_image_embed is None else blurred_image_embed.detach().cpu(), \
+               box_embeds.to(torch.float32), text_embeds.to(torch.float32), owlvit_scores.to(torch.float32), float(gt_label), owlvit_results["image_id"], clip_topk_preds
 
     def __len__(self):
         return len(self.image_ids)
