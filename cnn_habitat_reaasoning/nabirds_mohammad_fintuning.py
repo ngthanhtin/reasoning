@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -53,18 +53,22 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
     }
 
-    orig_train_img_folder = 'gen_data/temp_gen_data/augirrelevant_with_orig_birds_train_60/' # 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small', augirrelevant_images_small_60_added_samples
+    orig_train_img_folder = 'gen_data/augmix_images_small_diff_30_added_1/' # 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small', augirrelevant_images_small_60_added_samples
     #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/', 'gen_data/big_bb_on_birds_test/'
     orig_test_img_folder = 'test/'
+
     # orig_test_img_folder = 'gen_data/inpaint_images/test_inpaint/'
-    # orig_test_img_folder = 'gen_data/onlybird_images_test/'
-    # orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
-    # orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
-    # test with inat
-    # orig_test_img_folder = '../overlapping_nabirds_inat/'
-    # #test fly-nonfly birds
-    orig_test_img_folder = '../non_flybird_nabirds_test/'
-    # orig_test_img_folder = '../flybird_nabirds_test/'
+    # orig_test_img_folder = 'gen_data/inpaint_images/test_inpaint_non_flybird/test_inpaint/'
+    # orig_test_img_folder = 'gen_data/big_bb_on_birds_non_flybird_test/big_bb_on_birds_test/'
+
+    orig_test_img_folder = 'gen_data/onlybird_images_test/'
+    orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
+    orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
+    # # test with inat
+    orig_test_img_folder = '../overlapping_nabirds_inat_test/'
+    # # # #test fly-nonfly birds
+    orig_test_img_folder = 'non_flybird_nabirds_test/'
+    orig_test_img_folder = 'flybird_nabirds_test/'
 
     # cutmix
     cutmix = False
@@ -141,25 +145,25 @@ def Augment(train = False):
     
 
 class ImageFolderWithPaths(datasets.ImageFolder):
-    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths, num_images_per_class=3):
+    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths):#, num_images_per_class=3):
         super(ImageFolderWithPaths, self).__init__(root, transform, target_transform)
         self.root = root
         self.return_paths = return_paths
 
-        if num_images_per_class != 0:
-            self.num_images_per_class = num_images_per_class
-            self._limit_dataset()
+    #     if num_images_per_class != 0:
+    #         self.num_images_per_class = num_images_per_class
+    #         self._limit_dataset()
 
-    def _limit_dataset(self):
-        new_data = []
-        new_targets = []
-        for class_idx in range(len(self.classes)):
-            class_data = [item for item in self.samples if item[1] == class_idx]
-            selected_samples = random.sample(class_data, min(self.num_images_per_class, len(class_data)))
-            data, targets = zip(*selected_samples)
-            new_data.extend(data)
-            new_targets.extend(targets)
-        self.samples = list(zip(new_data, new_targets))
+    # def _limit_dataset(self):
+    #     new_data = []
+    #     new_targets = []
+    #     for class_idx in range(len(self.classes)):
+    #         class_data = [item for item in self.samples if item[1] == class_idx]
+    #         selected_samples = random.sample(class_data, min(self.num_images_per_class, len(class_data)))
+    #         data, targets = zip(*selected_samples)
+    #         new_data.extend(data)
+    #         new_targets.extend(targets)
+    #     self.samples = list(zip(new_data, new_targets))
 
     def __getitem__(self, index):
         path, label = self.samples[index]
@@ -180,8 +184,8 @@ def get_data_loaders(dataset, batch_size):
         orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_train_img_folder}"
         orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_test_img_folder}"
 
-        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True), num_images_per_class=0)
-        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False), num_images_per_class=5)
+        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True))#, num_images_per_class=0)
+        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False))#, num_images_per_class=0)
         val_data = test_data
 
         train_data_len = len(train_data)
@@ -418,6 +422,31 @@ def evaluate_epoch(validloader, criterion, model, return_paths=False):
             
     return np.mean(losses), np.mean(bird_accs)
 
+from sklearn.manifold import TSNE
+from sklearn.decomposition import PCA
+
+def visualize_embeddings(embeddings, labels, graph_name, method='t-SNE', num_classes=555):
+    if method == 't-SNE':
+        reducer = TSNE(n_components=3)
+    elif method == 'PCA':
+        reducer = PCA(n_components=10)
+    else:
+        raise ValueError("Unsupported dimensionality reduction method")
+
+    # Combine embeddings into a single numpy array
+    embeddings = np.vstack(embeddings)
+    
+    # Reduce dimensionality
+    reduced_embeddings = reducer.fit_transform(embeddings)
+
+    # Scatter plot the reduced embeddings with different colors for each class
+    plt.figure(figsize=(20, 20))
+    for i in range(num_classes):
+        indices = np.where(labels == i)[0]
+        plt.scatter(reduced_embeddings[indices, 0], reduced_embeddings[indices, 1], label=f'Class {i}')
+    plt.title(f'{method} Visualization of Embeddings')
+    plt.legend()
+    plt.savefig(f"{graph_name}_{CFG.model_name}_{CFG.dataset}_{method}_finetune.png")
 
 def test_epoch(testloader, model, return_paths=False):
     model.eval()
@@ -425,6 +454,10 @@ def test_epoch(testloader, model, return_paths=False):
     
     class_corrects = [0] * CFG.bird_num_classes
     class_counts = [0] * CFG.bird_num_classes
+
+    true_labels = []
+    predicted_labels = []
+    embeddings = []  # Store the embeddings here
 
     for inputs, bird_labels, paths in tqdm(testloader):
         inputs = inputs.to(CFG.device)
@@ -435,10 +468,16 @@ def test_epoch(testloader, model, return_paths=False):
         probs, _ = torch.max(F.softmax(bird_outputs, dim=1), 1)
         running_corrects += torch.sum(preds == bird_labels.data)
 
+        true_labels.extend(bird_labels.cpu().numpy())
+        predicted_labels.extend(preds.cpu().numpy())
+
         for i in range(len(bird_labels)):
             class_corrects[bird_labels[i]] += int(preds[i] == bird_labels[i])
             class_counts[bird_labels[i]] += 1
-    
+
+        # Extract and store the embeddings
+        embeddings.append(bird_outputs.cpu().numpy())
+
     class_accuracies = [correct / count if count != 0 else 0 for correct, count in zip(class_corrects, class_counts)]
 
     epoch_acc = running_corrects.double() / len(test_loader.dataset)
@@ -446,7 +485,7 @@ def test_epoch(testloader, model, return_paths=False):
     print('-' * 10)
     print('Acc: {:.4f}'.format(100*epoch_acc))
 
-    return 100*epoch_acc, class_accuracies
+    return 100*epoch_acc, class_accuracies, embeddings, true_labels, predicted_labels
 
 # %%
 from transfg.transfg_vit import VisionTransformer, CONFIGS
@@ -479,15 +518,23 @@ else:
     # orig, same, mix, irrelevant
     # mohammad
     model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/SAME_nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/60_BIRD_ORIG_IRRELEVANT_nabirds_single_mohammad_08_21_2023-01:21:45/19-0.792-cutmix_False.pth" # augirrelevant
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/SAME_nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/60_BIRD_ORIG_IRRELEVANT_nabirds_single_mohammad_08_21_2023-01:21:45/19-0.792-cutmix_False.pth" # augirrelevant
     
     # transfg
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/FINETUNE_nabirds_single_transfg_08_17_2023-07:56:43/49-0.884-cutmix_False.pth' # finetune nabirds only
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/60_BIRD_ORIG_IRRELEVANT_nabirds_single_transfg_08_21_2023-01:22:50/23-0.877-cutmix_False.pth' # aug_irrelevant with orig birds
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/MIX_nabirds_single_transfg_08_16_2023-14:29:12/48-0.888-cutmix_False.pth' # aug_mix
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/SAME_nabirds_single_transfg_08_16_2023-01:08:53/31-0.886-cutmix_False.pth' # aug_same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/FINETUNE_nabirds_single_transfg_08_17_2023-07:56:43/49-0.884-cutmix_False.pth' # finetune nabirds only
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/60_BIRD_ORIG_IRRELEVANT_nabirds_single_transfg_08_21_2023-01:22:50/23-0.877-cutmix_False.pth' # aug_irrelevant with orig birds
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/MIX_nabirds_single_transfg_08_16_2023-14:29:12/48-0.888-cutmix_False.pth' # aug_mix
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/SAME_nabirds_single_transfg_08_16_2023-01:08:53/31-0.886-cutmix_False.pth' # aug_same
+
+    # test
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_09_04_2023-20:41:35/15-0.807-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_09_05_2023-00:07:11/12-0.807-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_09_05_2023-14:39:15/19-0.810-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_09_05_2023-16:02:00/34-0.887-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth'
+    
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     print(model_path)
@@ -498,7 +545,8 @@ else:
     f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
 
     with torch.no_grad():    
-        acc, class_acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        acc, class_acc, embeds, true_labels, predicted_labels = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+        # visualize_embeddings(embeds, np.array(predicted_labels), graph_name='predict', method='t-SNE', num_classes=CFG.bird_num_classes)
         f.write(f"{acc:.4f}\n")
         f.close()
 
