@@ -41,8 +41,10 @@ clip_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=num_
 clip_accuracy_metric_top5 = torchmetrics.Accuracy(task="multiclass", num_classes=num_classes, top_k=5).to(device)
 
 for batch_number, batch in enumerate(tqdm(dataloader)):
-    images, labels, _ = batch
-    # images, labels = batch
+    if len(batch) == 3:
+        images, labels, _ = batch
+    else:
+        images, labels = batch
     
     images = images.to(device)
     labels = labels.to(device)
