@@ -15,10 +15,10 @@ from tqdm import tqdm
 # %%
 class cfg:
     dataset = 'nabirds'#inat21, cub, nabirds
-    device = "cuda:0" if torch.cuda.is_available() else "cpu"
+    device = "cuda:6" if torch.cuda.is_available() else "cpu"
 
     CUB_DIR = '/home/tin/datasets/cub/CUB/test'
-    NABIRD_DIR = '/home/tin/datasets/nabirds/test'
+    NABIRD_DIR = '/home/tin/datasets/nabirds/train'
     INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
 
 # %%
@@ -66,25 +66,25 @@ def get_mask_object_bbox(mask_image):
 def mask_rectangle(image, x, y, width, height):
     image[y:y+height, x:x+width] = 1
 # %%-- example --
-image_path = "flybird.jpeg"
-image = cv2.imread(image_path)
-mask = get_mask_one_image(image_path)
+# image_path = "flybird.jpeg"
+# image = cv2.imread(image_path)
+# mask = get_mask_one_image(image_path)
 # %%
-plt.imshow(image)
-plt.axis('off')
-plt.show()
+# plt.imshow(image)
+# plt.axis('off')
+# plt.show()
 # %%
-print(np.unique(mask))
+# print(np.unique(mask))
 # mask1 = mask == 2 # sky
-mask1 = np.isin(mask, [2, 90]).astype(int)
-print(mask1)
-print(np.unique(mask1))
-plt.imshow(mask1)
-plt.axis('off')
-plt.show()
+# mask1 = np.isin(mask, [2, 90]).astype(int)
+# print(mask1)
+# print(np.unique(mask1))
+# plt.imshow(mask1)
+# plt.axis('off')
+# plt.show()
 # %%
-x, y, width, height = get_mask_object_bbox(mask1)
-x,y,width, height, image.shape[:2]
+# x, y, width, height = get_mask_object_bbox(mask1)
+# x,y,width, height, image.shape[:2]
 # %%
 # mask_rectangle(mask1, x, y, width, height)
 
@@ -141,8 +141,8 @@ if cfg.dataset == 'cub':
 #2. NABirds bounding boxes, need to use Mask2Former to detect the mask of the bird of an image, then get the bb
 import shutil
 if cfg.dataset == 'nabirds':
-    save_path = '/home/tin/datasets/flybird_nabirds_test/'
-    save_path2 = '/home/tin/datasets/non_flybird_nabirds_test/'
+    save_path = '/home/tin/datasets/flybird_nabirds_train/'
+    save_path2 = '/home/tin/datasets/non_flybird_nabirds_train/'
 
     label_folders = os.listdir(cfg.NABIRD_DIR)
 
