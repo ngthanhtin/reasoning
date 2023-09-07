@@ -4,7 +4,7 @@ import os
 import numpy as np
 from PIL import Image
 
-mask_folder = '/home/tin/datasets/cub/dataset/CUB/supervisedlabels'
+mask_folder = '/home/tin/datasets/cub/CUB/supervisedlabels'
 
 bird_classes = os.listdir(mask_folder)
 
@@ -24,7 +24,7 @@ import torchvision.transforms as T
 import cv2
 
 desc_type = 'chatgpt'
-boxes_dir = f"/home/tin/xclip/pred_boxes/cub/owl_vit_owlvit-large-patch14_prompt_5_descriptors_{desc_type}/"
+boxes_dir = f"/home/tin/projects/reasoning/xclip/pred_boxes/cub/owl_vit_owlvit-large-patch14_prompt_5_descriptors_{desc_type}/"
 boxes_files = os.listdir(boxes_dir)
 chatgpt_parts = ['back', 'beak', 'belly', 'breast', 'crown', 'forehead', 'eyes', 'legs', 'wings', 'nape', 'tail', 'throat']
 """
@@ -42,10 +42,10 @@ boxes_pred_dict: {'scores': scores,
 # READ BOX
 import json
 
-CUB_ROOT = "/home/tin/datasets/cub/dataset/CUB/images/"
+CUB_ROOT = "/home/tin/datasets/cub/CUB/images/"
 
 # load keypoint dicts
-f = open("/home/tin/sam_owlvit_comparison/unsup-parts/evaluation/cub_eval_kp.json")
+f = open("/home/tin/projects/reasoning/keypoint_detection/unsup-parts/unsup-parts/evaluation/cub_eval_kp.json")
 kp_data = json.load(f)
 part_label_dict = ['back', 'beak', 'belly', 'breast', 'crown', 'forehead', 'left eye', 'left leg', 'left wing', 'nape', 'right eye', 'right leg', 'right wing', 'tail', 'throat']
 colors_dict = ['b', 'g', 'r', 'c', 'm',
@@ -76,7 +76,7 @@ for file in boxes_files[:10]:
     for kp_key in kp_data:
         relative_kp_key = kp_key.split("/")[-2] + "/" + kp_key.split("/")[-1]
         if image_path == relative_kp_key: # filter boxes, draw image
-            pil_image = Image.open(kp_key)
+            pil_image = Image.open(kp_key.replace('/dataset/', '/'))
             w,h = pil_image.size
 
             class_name = owlvit_result['class_name']
@@ -87,11 +87,11 @@ for file in boxes_files[:10]:
             valid_parts = []
 
             # transform image
-            pil_img = Image.open(kp_key)
+            pil_img = Image.open(kp_key.replace('/dataset/', '/'))
             transform = T.Resize(size = (256))
             pil_image = transform(pil_img)
             new_w, new_h = pil_image.size
-            img = np.asarray(Image.open(kp_key))
+            img = np.asarray(Image.open(kp_key.replace('/dataset/', '/')))
             color = (255, 0, 0)
             thickness = 2
 
