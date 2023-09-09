@@ -66,14 +66,17 @@ def check_point_in_box(x,y,box):
         return True
     return False
 
-for file in boxes_files[:10]:
+for file in boxes_files:
     path = os.path.join(boxes_dir, file)
     owlvit_result = torch.load(path)
     owlvit_result["image_path"] = owlvit_result["image_path"].split("/")[-2] + "/" + owlvit_result["image_path"].split("/")[-1]
     image_path = owlvit_result['image_path']
-    print(image_path)
+    if image_path != '079.Belted_Kingfisher/Belted_Kingfisher_0006_70625.jpg':
+        continue
     
     for kp_key in kp_data:
+        if kp_key != '/home/tin/datasets/cub/dataset/CUB//images/079.Belted_Kingfisher/Belted_Kingfisher_0006_70625.jpg':
+            continue
         relative_kp_key = kp_key.split("/")[-2] + "/" + kp_key.split("/")[-1]
         if image_path == relative_kp_key: # filter boxes, draw image
             pil_image = Image.open(kp_key.replace('/dataset/', '/'))
@@ -97,6 +100,7 @@ for file in boxes_files[:10]:
 
             for gpt_part_idx in part_from_gpt:
                 part_name = chatgpt_parts[gpt_part_idx]
+
                 if part_name in ['eyes', 'legs', 'wings']:
                     box = boxes[gpt_part_idx]
 
