@@ -41,9 +41,9 @@ if not os.path.exists('results/cub/'):
 class CFG:
     seed = 42
     dataset = 'cub'
-    model_name = 'transfg' #mohammad, vit, transfg
+    model_name = 'mohammad' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -58,17 +58,17 @@ class CFG:
     orig_train_img_folder = 'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
     #CUB/test, CUB_inpaint_all_test (onlybackground), CUB_no_bg_test, CUB_random_test, CUB_bb_on_birds_test, CUB_big_bb_on_birds_test, CUB_nobirds_test (blackout-birds)
     orig_test_img_folder = 'CUB/test/'
-    orig_test_img_folder = 'CUB_inpaint_all_test/'
-    orig_test_img_folder = 'CUB_no_bg_test/'
-    orig_test_img_folder = 'CUB_random_test/'
-    orig_test_img_folder = 'CUB_bb_on_birds_test/'
-    orig_test_img_folder = 'CUB_big_bb_on_birds_test/'
+    # orig_test_img_folder = 'CUB_inpaint_all_test/'
+    # orig_test_img_folder = 'CUB_no_bg_test/'
+    # orig_test_img_folder = 'CUB_random_test/'
+    # orig_test_img_folder = 'CUB_bb_on_birds_test/'
+    # orig_test_img_folder = 'CUB_big_bb_on_birds_test/'
     # test with inat
-    orig_test_img_folder = '../overlapping_cub_inat/'
+    # orig_test_img_folder = '../overlapping_cub_inat/'
 
     # test with fly-nonfly birds
     # orig_test_img_folder = '../flybird_cub_test/'
-    orig_test_img_folder = '../non_flybird_cub_test/'
+    # orig_test_img_folder = '../non_flybird_cub_test/'
 
     # cutmix
     cutmix = False
@@ -200,25 +200,25 @@ class Unified_Inat21_Dataset(Dataset):
         return (torch.cat((image, inpaint_image), 0), label, label2)
 
 class ImageFolderWithPaths(datasets.ImageFolder):
-    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths, num_images_per_class=3):
+    def __init__(self, root, transform=None, target_transform=None, return_paths=CFG.return_paths): #, num_images_per_class=3):
         super(ImageFolderWithPaths, self).__init__(root, transform, target_transform)
         self.root = root
         self.return_paths = return_paths
 
-        if num_images_per_class != 0:
-            self.num_images_per_class = num_images_per_class
-            self._limit_dataset()
+    #     if num_images_per_class != 0:
+    #         self.num_images_per_class = num_images_per_class
+    #         self._limit_dataset()
 
-    def _limit_dataset(self):
-        new_data = []
-        new_targets = []
-        for class_idx in range(len(self.classes)):
-            class_data = [item for item in self.samples if item[1] == class_idx]
-            selected_samples = random.sample(class_data, min(self.num_images_per_class, len(class_data)))
-            data, targets = zip(*selected_samples)
-            new_data.extend(data)
-            new_targets.extend(targets)
-        self.samples = list(zip(new_data, new_targets))
+    # def _limit_dataset(self):
+    #     new_data = []
+    #     new_targets = []
+    #     for class_idx in range(len(self.classes)):
+    #         class_data = [item for item in self.samples if item[1] == class_idx]
+    #         selected_samples = random.sample(class_data, min(self.num_images_per_class, len(class_data)))
+    #         data, targets = zip(*selected_samples)
+    #         new_data.extend(data)
+    #         new_targets.extend(targets)
+    #     self.samples = list(zip(new_data, new_targets))
 
     def __getitem__(self, index):
         
@@ -240,8 +240,8 @@ def get_data_loaders(dataset, batch_size):
         orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_train_img_folder}"
         orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_test_img_folder}"
 
-        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True), num_images_per_class=0)
-        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False), num_images_per_class=3)
+        train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True)) #, num_images_per_class=0)
+        test_data = ImageFolderWithPaths(root=orig_test_data_dir, transform=Augment(train=False)) #, num_images_per_class=3)
         val_data = test_data
 
         train_data_len = len(train_data)
@@ -476,6 +476,8 @@ def test_epoch(testloader, model, return_paths=False):
     class_corrects = [0] * CFG.bird_num_classes
     class_counts = [0] * CFG.bird_num_classes
 
+    confusion_matrix = np.zeros((CFG.bird_num_classes, CFG.bird_num_classes), dtype=int)
+
     for inputs, bird_labels, paths in tqdm(testloader):
         inputs = inputs.to(CFG.device)
         bird_labels = bird_labels.to(CFG.device)
@@ -486,8 +488,12 @@ def test_epoch(testloader, model, return_paths=False):
         running_corrects += torch.sum(preds == bird_labels.data)
 
         for i in range(len(bird_labels)):
+            true_label = bird_labels[i]
+            predicted_label = preds[i]
             class_corrects[bird_labels[i]] += int(preds[i] == bird_labels[i])
             class_counts[bird_labels[i]] += 1
+            # Update the confusion matrix
+            confusion_matrix[true_label][predicted_label] += 1
 
     class_accuracies = [correct / count if count != 0 else 0 for correct, count in zip(class_corrects, class_counts)]
 
@@ -496,9 +502,22 @@ def test_epoch(testloader, model, return_paths=False):
     print('-' * 10)
     print('Acc: {:.4f}'.format(100*epoch_acc))
 
-    return 100*epoch_acc, class_accuracies
+    return 100*epoch_acc, class_accuracies, confusion_matrix
 
-
+def get_top_misclassified_classes(confusion_matrix, class_index, top_k=10):
+    # Get the row corresponding to the class of interest
+    class_row = confusion_matrix[class_index, :]
+    
+    # Exclude the correct classification count
+    class_row[class_index] = 0
+    
+    # Get the indices of the top-k misclassified classes
+    top_misclassified_indices = np.argsort(class_row)[::-1][:top_k]
+    
+    # Get the corresponding misclassification counts
+    top_misclassified_counts = class_row[top_misclassified_indices]
+    
+    return top_misclassified_indices, top_misclassified_counts
 # %%
 from transfg.transfg_vit import VisionTransformer, CONFIGS
 if CFG.model_name == 'mohammad':
@@ -527,27 +546,34 @@ if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     # mohammad
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/60_BIRD_ORIG_IRRELEVANT_cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/SAME_cub_single_mohammad_08_16_2023-00:32:08/18-0.866-cutmix_False.pth' # same
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/60_BIRD_ORIG_IRRELEVANT_cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/SAME_cub_single_mohammad_08_16_2023-00:32:08/18-0.866-cutmix_False.pth' # same
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/MIX_cub_single_mohammad_08_16_2023-00:38:49/19-0.866-cutmix_False.pth' # mix
 
     # transfg
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/FINETUNE_cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/60_BIRD_ORIG_IRRELEVANT_cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth' # irrelevant
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/SAME_cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/MIX_cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/FINETUNE_cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/60_BIRD_ORIG_IRRELEVANT_cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth' # irrelevant
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/SAME_cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/MIX_cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
     print(model_path)
     print(CFG.orig_test_img_folder)
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     # write result to file
     acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
-    f = open(f"{acc_filepath}", "a")
+    top_misclassified_filepath = model_path.replace(model_path.split('/')[-1], 'augsame_missclassification.txt')
+    # f = open(f"{acc_filepath}", "a")
+    f = open(top_misclassified_filepath, 'w')
     f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
     if not CFG.test_tta:
         with torch.no_grad():    
-            acc, class_acc = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
-            f.write(f"{acc:.4f}\n")
+            acc, class_acc, confusion_matrix = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
+            top_misclassified_counts = 0
+            for i in range(200):
+                top_misclassified_indices, counts = get_top_misclassified_classes(confusion_matrix, i, top_k=1)
+                top_misclassified_counts+=counts
+                f.write(f"{idx_to_class[i]}*{idx_to_class[top_misclassified_indices[0]]}*{counts[0]}\n")
+            # f.write(f"{acc:.4f}\n")
             f.close()
 
             # save class accuracy
