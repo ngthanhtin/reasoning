@@ -27,7 +27,7 @@ if hparams['dataset'] == 'imagenet' or hparams['dataset'] == 'imagenetv2':
 elif hparams['dataset'] == 'cub':
     num_classes = 200
 elif hparams['dataset'] == 'nabirds':
-    num_classes = 267#555
+    num_classes = 555 #267
 elif hparams['dataset'] == 'places365':
     num_classes = 365
 elif hparams['dataset'] == 'inaturalist2021':
