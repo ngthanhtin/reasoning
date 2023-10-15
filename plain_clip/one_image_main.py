@@ -126,9 +126,9 @@ num_correct = 0
 num_habitat_correct = 0
 
 correct_predictions = []
-# f = open('abcd_nabirds.txt', 'r')
-# vis_paths = f.readlines()
-# vis_paths = [p[:-1] for p in vis_paths]
+f = open('12_part_habitat_wrongly_predicted_paths.txt', 'r')
+vis_paths = f.readlines()
+vis_paths = [p[:-1] for p in vis_paths]
 
 for batch_number, batch in enumerate(tqdm(dataloader)):
     images, labels, paths = batch
@@ -189,7 +189,7 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     #         if j == prediction:
     #             filename = paths[0].split('/')[-1]
     #             plot = draw_chart(np_image, h, image_description_similarity[prediction], gpt_descriptions[h])
-    #             plot = plot.save(f"correct_nabirds_id_figs/{filename}.jpg")
+    #             plot = plot.save(f"correct_cub_id_figs/{filename}.jpg")
     #             break
 
         # for j, (h, l) in enumerate(gpt_descriptions.items()):
@@ -198,12 +198,12 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
         #         plot = plot.save(f"correct_cub_id_figs/gt_{batch_number}.jpg")
         #         break
 
-    # if paths[0] in vis_paths:    
-    #     for j, (h, l) in enumerate(gpt_descriptions.items()):
-    #             if j == prediction:  
-    #                 plot = draw_chart(np_image, h, image_description_similarity[prediction], gpt_descriptions[h])
-    #                 filename = paths[0].split('/')[-1]
-    #                 plot = plot.save(f"incorrect_nabirds_id2_figs/{filename}.jpg")
+    if paths[0] in vis_paths:    
+        for j, (h, l) in enumerate(gpt_descriptions.items()):
+                if j == prediction:  
+                    plot = draw_chart(np_image, h, image_description_similarity[prediction], gpt_descriptions[h])
+                    filename = paths[0].split('/')[-1]
+                    plot = plot.save(f"correct_cub_no_habitat_figs/{filename}.jpg")
 
                     # tensor_scores = image_description_similarity[prediction].squeeze()
                     # scores = tensor_scores.tolist()

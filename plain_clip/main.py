@@ -32,6 +32,8 @@ elif hparams['dataset'] == 'places365':
     num_classes = 365
 elif hparams['dataset'] == 'inaturalist2021':
     num_classes = 425#1486
+elif hparams['dataset'] == 'pet':
+    num_classes = 37
 
 print("Evaluating...")
 lang_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=num_classes).to(device)
@@ -40,9 +42,11 @@ lang_accuracy_metric_top5 = torchmetrics.Accuracy(task="multiclass", num_classes
 clip_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=num_classes).to(device)
 clip_accuracy_metric_top5 = torchmetrics.Accuracy(task="multiclass", num_classes=num_classes, top_k=5).to(device)
 
+wrongly_predicted_paths = []
+
 for batch_number, batch in enumerate(tqdm(dataloader)):
     if len(batch) == 3:
-        images, labels, _ = batch
+        images, labels, path = batch
     else:
         images, labels = batch
     
@@ -55,6 +59,11 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     image_labels_similarity = image_encodings @ label_encodings.T
     clip_predictions = image_labels_similarity.argmax(dim=1)
     
+    # Check if the prediction is incorrect
+    for i, prediction in enumerate(clip_predictions):
+        if prediction == labels[i]:
+            wrongly_predicted_paths.append(path[i]) 
+
     clip_acc = clip_accuracy_metric(image_labels_similarity, labels)
     clip_acc_top5 = clip_accuracy_metric_top5(image_labels_similarity, labels)
     
@@ -68,7 +77,7 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
         dot_product_matrix = image_encodings @ v.T
         
         image_description_similarity[i] = dot_product_matrix
-        image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i])
+        image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i], aggregation_method='mean')
         
         
     # create tensor of similarity means
@@ -81,7 +90,11 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     lang_acc = lang_accuracy_metric(cumulative_tensor.softmax(dim=-1), labels)
     lang_acc_top5 = lang_accuracy_metric_top5(cumulative_tensor.softmax(dim=-1), labels)
     
-    
+
+# After the loop, save the paths to a text file
+with open('correctly_predicted_paths.txt', 'w') as f:
+    for path in wrongly_predicted_paths:
+        f.write(path + '\n')
 
 print("\n")
 
