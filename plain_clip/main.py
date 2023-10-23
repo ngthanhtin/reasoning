@@ -27,7 +27,7 @@ if hparams['dataset'] == 'imagenet' or hparams['dataset'] == 'imagenetv2':
 elif hparams['dataset'] == 'cub':
     num_classes = 200
 elif hparams['dataset'] == 'nabirds':
-    num_classes = 555 #267
+    num_classes = 267 #267
 elif hparams['dataset'] == 'places365':
     num_classes = 365
 elif hparams['dataset'] == 'inaturalist2021':
@@ -60,9 +60,9 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     clip_predictions = image_labels_similarity.argmax(dim=1)
     
     # Check if the prediction is incorrect
-    for i, prediction in enumerate(clip_predictions):
-        if prediction == labels[i]:
-            wrongly_predicted_paths.append(path[i]) 
+    # for i, prediction in enumerate(clip_predictions):
+        # if prediction == labels[i]:
+        #     wrongly_predicted_paths.append(path[i]) 
 
     clip_acc = clip_accuracy_metric(image_labels_similarity, labels)
     clip_acc_top5 = clip_accuracy_metric_top5(image_labels_similarity, labels)
@@ -92,9 +92,9 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     
 
 # After the loop, save the paths to a text file
-with open('correctly_predicted_paths.txt', 'w') as f:
-    for path in wrongly_predicted_paths:
-        f.write(path + '\n')
+# with open('correctly_predicted_paths.txt', 'w') as f:
+#     for path in wrongly_predicted_paths:
+#         f.write(path + '\n')
 
 print("\n")
 

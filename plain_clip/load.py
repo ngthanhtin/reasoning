@@ -33,7 +33,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'cub'
+hparams['dataset'] = 'nabirds'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
@@ -150,34 +150,34 @@ elif hparams['dataset'] == 'cub':
 
 elif hparams['dataset'] == 'nabirds':
     hparams['data_dir'] = pathlib.Path(NABIRD_DIR)
-    # f = open("./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
-    f = open("./descriptors/nabirds/chatgpt_descriptors_nabirds.json", "r")
+    f = open("./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
+    # f = open("./descriptors/nabirds/chatgpt_descriptors_nabirds.json", "r")
     data = json.load(f)
     subset_class_names = list(data.keys())
 
     # dataset = NABirdsDataset(hparams['data_dir'], train=False, subset_class_names=subset_class_names, transform=tfms)
     # use to test flybird non fly bird
     # dictionary mapping image folder name and the class name
-    # foldername_2_classname_dict = {}
-    # classname_2_foldername_dict = {}
+    foldername_2_classname_dict = {}
+    classname_2_foldername_dict = {}
 
-    # with open('/home/tin/datasets/nabirds/classes.txt', 'r') as file:
-    #     for line in file:
-    #         parts = line.strip().split(' ', 1)
-    #         key = parts[0]
-    #         key = '0'*(4-len(key)) + key
+    with open('/home/tin/datasets/nabirds/classes.txt', 'r') as file:
+        for line in file:
+            parts = line.strip().split(' ', 1)
+            key = parts[0]
+            key = '0'*(4-len(key)) + key
             
-    #         value = parts[1]
-    #         foldername_2_classname_dict[key] = value
-    #         classname_2_foldername_dict[value] = key
-    # selected_folders = []
-    # for k, v in classname_2_foldername_dict.items():
-    #     if k in subset_class_names:
-    #         selected_folders.append(v)
-    # selected_folders=sorted(selected_folders)
+            value = parts[1]
+            foldername_2_classname_dict[key] = value
+            classname_2_foldername_dict[value] = key
+    selected_folders = []
+    for k, v in classname_2_foldername_dict.items():
+        if k in subset_class_names:
+            selected_folders.append(v)
+    selected_folders=sorted(selected_folders)
     
-    # dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/flybird_nabirds_test/', selected_folders=selected_folders, transform=tfms)
-    dataset = ImageFolder(root='/home/tin/datasets/nabirds/test/', transform=tfms)
+    dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/images/', selected_folders=selected_folders, transform=tfms)
+    # dataset = ImageFolder(root='/home/tin/datasets/nabirds/test/', transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'nabirds/descriptors_nabirds'
 
@@ -238,7 +238,7 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 
 # cub
 # hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/ID_descriptors_{hparams['dataset']}.json"
@@ -250,7 +250,7 @@ hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_sachit_descriptors_{hparams['dataset']}.json"
-# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/additional_sachit_descriptors_{hparams['dataset']}.json"
 # inaturalist
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json'
@@ -275,8 +275,8 @@ if sci2comm:
 
 n_classes = len(list(gpt_descriptions.keys()))
 
-allaboutbirds_example_images_path = f'./image_descriptions/cub/allaboutbirds_example_images_40.json' # 30 is the best for cub
-# allaboutbirds_example_images_path = f'./image_descriptions/nabirds/full_nabirds_example_images_40.json' # 30 is the best
+# allaboutbirds_example_images_path = f'./image_descriptions/cub/allaboutbirds_example_images_40.json' # 30 is the best for cub
+allaboutbirds_example_images_path = f'./image_descriptions/nabirds/full_nabirds_example_images_40.json' # 30 is the best
 # allaboutbirds_example_images_path = f'./image_descriptions/inaturalist/inaturalist_example_images_50.json'
 # allaboutbirds_example_images_path = f'./image_descriptions/imagenet/imagenet_example_images_500.json'
 allaboutbirds_example_images = open(allaboutbirds_example_images_path, 'r')
@@ -394,7 +394,7 @@ def compute_description_encodings(model):
             description_encodings[k] = F.normalize(model.encode_image(imgs)).to('cpu')
         # save embs files
         
-        output_filename = f'./pre_feats/{hparams["dataset"]}/{model_size}_visual_encodings.npz'
+        output_filename = f'./pre_feats/{hparams["dataset"]}/{model_size}_no_ann_visual_encodings.npz'
 
         keys = list(description_encodings.keys())
         values = [description_encodings[key] for key in keys]
@@ -434,7 +434,7 @@ def compute_description_encodings(model):
         
         new_v = []# for testing gpt4+habitat
         for i in range(len(v)):
-            if i not in [len(v)-2, len(v)-3]: # sachit
+            if i not in [len(v)-2, len(v)-3, len(v)-4]: # sachit
             # if i not in [len(v)-2, len(v)-3]: # gpt4
                 new_v.append(v[i])
         # v = [t.format(k) for t in imagenet_templates_2[:20]]
@@ -443,17 +443,15 @@ def compute_description_encodings(model):
         description_encodings[k] = F.normalize(model.encode_text(tokens))
         # description_encodings[k] = model.encode_text(tokens)
     
-    # loaded_data = np.load(f'./pre_feats/{hparams["dataset"]}/{model_size}_visual_encodings.npz')
-    
-
+    loaded_data = np.load(f'./pre_feats/{hparams["dataset"]}/{model_size}_no_ann_visual_encodings.npz')
     # for i, (k, image_paths) in enumerate(allaboutbirds_example_images.items()):
-    #     imgs = []
-    #     # index_in_npz = loaded_data.files.index(k)
-    #     num=50
-    #     # description_encodings[k] = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
-    #     img_feats = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
-    #     description_encodings[k] = torch.cat([description_encodings[k], img_feats], dim=0)
+    for k, v in gpt_descriptions.items():
+        num=30
+        # description_encodings[k] = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
+        img_feats = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
+        description_encodings[k] = torch.cat([description_encodings[k], img_feats], dim=0)
 
+        ##############
         # for num, p in enumerate(image_paths):
         #     if num == 40:
         #         break
