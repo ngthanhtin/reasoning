@@ -33,7 +33,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'nabirds'
+hparams['dataset'] = 'cub'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
@@ -75,12 +75,6 @@ hparams['seed'] = 1
 # classes_to_load = openai_imagenet_classes
 hparams['descriptor_fname'] = None
 
-# IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
-# IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
-# CUB_DIR = '/proj/vondrick/datasets/Birds-200-2011/' # REPLACE THIS WITH YOUR OWN PATH
-
-IMAGENET_DIR = '/home/tin/datasets/imagenet_new/val/' # REPLACE THIS WITH YOUR OWN PATH
-IMAGENETV2_DIR = '/home/tin/datasets/imagenetv2/dataset/' # REPLACE THIS WITH YOUR OWN PATH
 CUB_DIR = '/home/tin/datasets/cub/CUB/' # REPLACE THIS WITH YOUR OWN PATH
 NABIRD_DIR = '/home/tin/datasets/nabirds/'
 INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
@@ -119,31 +113,11 @@ class CustomImageDataset(torch.utils.data.Dataset):
         return image, label
 
 # -------
-if hparams['dataset'] == 'imagenet':
-    if hparams['dataset'] == 'imagenet':
-        dsclass = ImageNet        
-        hparams['data_dir'] = pathlib.Path(IMAGENET_DIR)
-        # train_ds = ImageNet(hparams['data_dir'], split='val', transform=train_tfms)
-        # dataset = dsclass(hparams['data_dir'], split='val', transform=tfms)
-        dataset = ImageFolder('/home/tin/datasets/imagenet/val/', transform=tfms)
-        classes_to_load = None
-    
-        if hparams['descriptor_fname'] is None:
-            hparams['descriptor_fname'] = 'descriptors_imagenet'
-        hparams['after_text'] = hparams['label_after_text'] = '.'
-        
-    elif hparams['dataset'] == 'imagenetv2':
-        hparams['data_dir'] = pathlib.Path(IMAGENETV2_DIR)
-        dataset = ImageNetV2(location=hparams['data_dir'], transform=tfms)
-        classes_to_load = openai_imagenet_classes
-        hparams['descriptor_fname'] = 'descriptors_imagenet'
-        dataset.classes = classes_to_load
-
-elif hparams['dataset'] == 'cub':
+if hparams['dataset'] == 'cub':
     # load CUB dataset
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
-    # dataset = ImageFolder(root='/home/tin/datasets/non_flybird_cub_test/', transform=tfms)
+    # dataset = ImageFolder(root='/home/tin/datasets/cub/CUB/flybird_cub_test/', transform=tfms)
 
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'cub/descriptors_cub'
@@ -176,7 +150,7 @@ elif hparams['dataset'] == 'nabirds':
             selected_folders.append(v)
     selected_folders=sorted(selected_folders)
     
-    dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/images/', selected_folders=selected_folders, transform=tfms)
+    dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/flybird_nabirds_test/', selected_folders=selected_folders, transform=tfms)
     # dataset = ImageFolder(root='/home/tin/datasets/nabirds/test/', transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'nabirds/descriptors_nabirds'
@@ -192,45 +166,17 @@ elif hparams['dataset'] == 'inaturalist2021':
     hparams['descriptor_fname'] = 'descriptors_inaturalist2021'
 
 
-#### additional dataset
-elif hparams['dataset'] == 'pet':
-    hparams['descriptor_fname'] = 'descriptors/others/descriptors_pets.json'
-    dataset = ImageFolder(root='/home/tin/datasets/oxford_pet/test/', transform=tfms)
-    classes_to_load = dataset.classes
-
-elif hparams['dataset'] == 'dtd':
-    hparams['data_dir'] = pathlib.Path('')
-    dataset = ImageFolder(root='', transform=tfms)
-
-    classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors/others/descriptors_dtd.json'
-elif hparams['dataset'] == 'food101':
-    hparams['data_dir'] = pathlib.Path('')
-    dataset = ImageFolder(root='', transform=tfms)
-
-    classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors/others/descriptors_food101.json'
-elif hparams['dataset'] == 'places365':
-    hparams['data_dir'] = pathlib.Path('')
-    dataset = ImageFolder(root='', transform=tfms)
-
-    classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors/others/descriptors_places365.json'
-elif hparams['dataset'] == 'eurosat':
-    hparams['data_dir'] = pathlib.Path('')
-    dataset = ImageFolder(root='', transform=tfms)
-
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors/others/descriptors_eurosat.json'
 
-hparams['model_size'] = "ViT-L/14" 
+hparams['model_size'] = "ViT-B/32" 
 if hparams["model_size"] == 'ViT-B/32':
     model_size = 'B32' 
 elif hparams["model_size"] == 'ViT-B/16':
     model_size = 'B16'
 else:
     model_size = 'L14'
-hparams['device'] = "cuda:6" if torch.cuda.is_available() else "cpu"
+hparams['device'] = "cuda:5" if torch.cuda.is_available() else "cpu"
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 
 # imagenet
@@ -240,17 +186,19 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/chatgpt_descriptors_{hparams['dataset']}.json"
-# hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/ID_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/gpt_4_sachit_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/hier_additional_chatgpt_descriptors_{hparams['dataset']}.json"
+
 # nabirds
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_ID_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_sachit_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/nabirds/additional_sachit_descriptors_{hparams['dataset']}.json"
 # inaturalist
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json'
@@ -276,130 +224,40 @@ if sci2comm:
 n_classes = len(list(gpt_descriptions.keys()))
 
 # allaboutbirds_example_images_path = f'./image_descriptions/cub/allaboutbirds_example_images_40.json' # 30 is the best for cub
-allaboutbirds_example_images_path = f'./image_descriptions/nabirds/full_nabirds_example_images_40.json' # 30 is the best
+allaboutbirds_example_images_path = f'./image_descriptions/nabirds/nabirds_same_example_images_50.json' # 30 is the best
 # allaboutbirds_example_images_path = f'./image_descriptions/inaturalist/inaturalist_example_images_50.json'
 # allaboutbirds_example_images_path = f'./image_descriptions/imagenet/imagenet_example_images_500.json'
 allaboutbirds_example_images = open(allaboutbirds_example_images_path, 'r')
 allaboutbirds_example_images = json.load(allaboutbirds_example_images)
 
-imagenet_templates = ["itap of a {}.",
-                        "a bad photo of the {}.",
-                        "a origami {}.",
-                        "a photo of the large {}.",
-                        "a {} in a video game.",
-                        "art of the {}.",
-                        "a photo of the small {}."]
-
-imagenet_templates_2 = [
-    'a bad photo of a {}.',
-    'a photo of many {}.',
-    'a sculpture of a {}.',
-    'a photo of the hard to see {}.',
-    'a low resolution photo of the {}.',
-    'a rendering of a {}.',
-    'graffiti of a {}.',
-    'a bad photo of the {}.',
-    'a cropped photo of the {}.',
-    'a tattoo of a {}.',
-    'the embroidered {}.',
-    'a photo of a hard to see {}.',
-    'a bright photo of a {}.',
-    'a photo of a clean {}.',
-    'a photo of a dirty {}.',
-    'a dark photo of the {}.',
-    'a drawing of a {}.',
-    'a photo of my {}.',
-    'the plastic {}.',
-    'a photo of the cool {}.',
-    'a close-up photo of a {}.',
-    'a black and white photo of the {}.',
-    'a painting of the {}.',
-    'a painting of a {}.',
-    'a pixelated photo of the {}.',
-    'a sculpture of the {}.',
-    'a bright photo of the {}.',
-    'a cropped photo of a {}.',
-    'a plastic {}.',
-    'a photo of the dirty {}.',
-    'a jpeg corrupted photo of a {}.',
-    'a blurry photo of the {}.',
-    'a photo of the {}.',
-    'a good photo of the {}.',
-    'a rendering of the {}.',
-    'a {} in a video game.',
-    'a photo of one {}.',
-    'a doodle of a {}.',
-    'a close-up photo of the {}.',
-    'a photo of a {}.',
-    'the origami {}.',
-    'the {} in a video game.',
-    'a sketch of a {}.',
-    'a doodle of the {}.',
-    'a origami {}.',
-    'a low resolution photo of a {}.',
-    'the toy {}.',
-    'a rendition of the {}.',
-    'a photo of the clean {}.',
-    'a photo of a large {}.',
-    'a rendition of a {}.',
-    'a photo of a nice {}.',
-    'a photo of a weird {}.',
-    'a blurry photo of a {}.',
-    'a cartoon {}.',
-    'art of a {}.',
-    'a sketch of the {}.',
-    'a embroidered {}.',
-    'a pixelated photo of a {}.',
-    'itap of the {}.',
-    'a jpeg corrupted photo of the {}.',
-    'a good photo of a {}.',
-    'a plushie {}.',
-    'a photo of the nice {}.',
-    'a photo of the small {}.',
-    'a photo of the weird {}.',
-    'the cartoon {}.',
-    'art of the {}.',
-    'a drawing of the {}.',
-    'a photo of the large {}.',
-    'a black and white photo of a {}.',
-    'the plushie {}.',
-    'a dark photo of a {}.',
-    'itap of a {}.',
-    'graffiti of the {}.',
-    'a toy {}.',
-    'itap of my {}.',
-    'a photo of a cool {}.',
-    'a photo of a small {}.',
-    'a tattoo of the {}.',
-]
-
-
 def compute_description_encodings(model):
-    global allaboutbirds_example_images  # Declare as global
+    # global allaboutbirds_example_images  # Declare as global
 
-    cut_len = 250
+    cut_len = 250 # 250
     limited_descs = 5
     description_encodings = OrderedDict()
 
-    save_visual_feat = False
-    if save_visual_feat:
-        for i, (k, image_paths) in tqdm(enumerate(allaboutbirds_example_images.items())):
-            imgs = []
-            for p in image_paths:
-                img = Image.open(p)
-                imgs.append(tfms(img))
+    # save_visual_feat = False
+    # if save_visual_feat:
+    #     for i, (k, image_paths) in tqdm(enumerate(allaboutbirds_example_images.items())):
+    #         imgs = []
+    #         for ii, p in enumerate(image_paths[::-1]):
+    #             # if ii > 100:
+    #             #     break
+    #             img = Image.open(p)
+    #             imgs.append(tfms(img))
                     
-            imgs = torch.stack(imgs)
-            imgs = imgs.to(hparams['device'])
-            description_encodings[k] = F.normalize(model.encode_image(imgs)).to('cpu')
-        # save embs files
+    #         imgs = torch.stack(imgs)
+    #         imgs = imgs.to(hparams['device'])
+    #         description_encodings[k] = F.normalize(model.encode_image(imgs)).to('cpu')
+    #     # save embs files
         
-        output_filename = f'./pre_feats/{hparams["dataset"]}/{model_size}_no_ann_visual_encodings.npz'
+    #     output_filename = f'./pre_feats/{hparams["dataset"]}/{model_size}_no_ann_same_visual_encodings_reversed.npz'
 
-        keys = list(description_encodings.keys())
-        values = [description_encodings[key] for key in keys]
-        np.savez(output_filename, **dict(zip(keys, values)))
-        exit()
+    #     keys = list(description_encodings.keys())
+    #     values = [description_encodings[key] for key in keys]
+    #     np.savez(output_filename, **dict(zip(keys, values)))
+    #     exit()
 
     # desired_order = list(gpt_descriptions.keys())
     # allaboutbirds_example_images = {k.lower(): v for k,v in allaboutbirds_example_images.items()}
@@ -428,28 +286,31 @@ def compute_description_encodings(model):
         #                                     "./descriptors/ID_diffshape_descriptors_nabirds.json",
         #                                     "./descriptors/ID2_diffshape_descriptors_nabirds.json",
         #                                     "./descriptors/no_ann_ID_descriptors_nabirds.json"]:
-        if len(v[0]) >= cut_len:
-            v[0] = v[0][:cut_len]
+        # if len(v[0]) >= cut_len:
+        #     v[0] = v[0][:cut_len]
 
         
         new_v = []# for testing gpt4+habitat
         for i in range(len(v)):
-            if i not in [len(v)-2, len(v)-3, len(v)-4]: # sachit
-            # if i not in [len(v)-2, len(v)-3]: # gpt4
+            # if i not in [len(v)-1, len(v)-2, len(v)-3]: # sachit
+            if i not in [len(v)-2, len(v)-3]: # gpt4
                 new_v.append(v[i])
-        # v = [t.format(k) for t in imagenet_templates_2[:20]]
         
         tokens = clip.tokenize(new_v).to(hparams['device'])
         description_encodings[k] = F.normalize(model.encode_text(tokens))
         # description_encodings[k] = model.encode_text(tokens)
     
-    loaded_data = np.load(f'./pre_feats/{hparams["dataset"]}/{model_size}_no_ann_visual_encodings.npz')
-    # for i, (k, image_paths) in enumerate(allaboutbirds_example_images.items()):
-    for k, v in gpt_descriptions.items():
-        num=30
-        # description_encodings[k] = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
-        img_feats = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
-        description_encodings[k] = torch.cat([description_encodings[k], img_feats], dim=0)
+    # loaded_data = np.load(f'./pre_feats/{hparams["dataset"]}/{model_size}_no_ann_visual_encodings.npz')
+    # # for i, (k, image_paths) in enumerate(allaboutbirds_example_images.items()):
+    # for k, v in gpt_descriptions.items():
+    #     num=10
+    #     np.random.seed(116)
+    #     random_indices = np.random.choice(loaded_data[k].shape[0], num, replace=False) if loaded_data[k].shape[0] >= num else [i for i in range(loaded_data[k].shape[0])]
+    #     random_vectors = loaded_data[k][random_indices]
+
+    #     # description_encodings[k] = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
+    #     img_feats = torch.Tensor(random_vectors).to(hparams['device'], dtype=torch.float16) # loaded_data[k][:num]
+    #     description_encodings[k] = torch.cat([description_encodings[k], img_feats], dim=0)
 
         ##############
         # for num, p in enumerate(image_paths):
@@ -467,19 +328,6 @@ def compute_description_encodings(model):
         # else:
         #     description_encodings[k] = F.normalize(torch.cat([description_encodings[k], img_feats], dim=0))
             
-
-
-        # image_feats_list.append(img_feats.to('cpu'))
-
-    # image_feats_arr = np.array(image_feats_list)
-    
-    # with open('./image_feats_' + hparams['model_size'] +'.pkl', "wb") as f:
-    #         pickle.dump(image_feats_arr, f)
-
-    # for i, (k, image_paths) in enumerate(allaboutbirds_example_images.items()):
-    #     image_feats = torch.tensor(image_feats_arr[i]).to(hparams['device'])
-    #     description_encodings[k] = F.normalize(torch.cat([description_encodings[k], image_feats], dim=0))
-
     return description_encodings
 
 def compute_label_encodings(model):

@@ -38,17 +38,10 @@ def modify_descriptor(descriptor, apply_changes):
 def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
     unmodify_dict = {}
-    if hparams['dataset'] == 'pet':
-        # make the key value lowercase
-        classes_to_load = [k.lower() for k in classes_to_load]
-        gpt_descriptions_unordered = {k.lower(): v for k, v in gpt_descriptions_unordered.items()}
-
+    
     
     if classes_to_load is not None: 
-        if hparams['dataset'] == 'pet':
-            gpt_descriptions = {c.lower(): gpt_descriptions_unordered[c.lower()] for c in classes_to_load}
-        else:
-            gpt_descriptions = {c: gpt_descriptions_unordered[c] for c in classes_to_load}
+        gpt_descriptions = {c: gpt_descriptions_unordered[c] for c in classes_to_load}
     else:
         gpt_descriptions = gpt_descriptions_unordered
     if hparams['category_name_inclusion'] is not None:

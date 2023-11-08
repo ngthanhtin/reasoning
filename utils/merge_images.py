@@ -162,13 +162,17 @@ def merge_dataset(data_name='nabirds'):
         image_folders = os.listdir(f'{data_path}/bird_train/')
         for image_folder in image_folders:
             img_names = os.listdir(f'{data_path}/bird_train/{image_folder}')
+            for imgname in img_names:
+                if '417c-97e6' in imgname:
+                    print(image_folder)
+                    exit()
             # filter out training images
             img_names = [p for p in img_names if p in val_img_names]
             img_paths = [f'{data_path}/bird_train/{image_folder}/{p}' for p in img_names]
             # run to merge images
-            merged_img = merge_images(img_paths, imageFolder2class[image_folder])
-            image_folder_id = image_folder.split('_')[0]
-            cv2.imwrite(f"{save_img_folder}/{image_folder_id}_{imageFolder2class[image_folder]}.jpg", merged_img)
+            # merged_img = merge_images(img_paths, imageFolder2class[image_folder])
+            # image_folder_id = image_folder.split('_')[0]
+            # cv2.imwrite(f"{save_img_folder}/{image_folder_id}_{imageFolder2class[image_folder]}.jpg", merged_img)
 
 # %%
 merge_dataset(data_name='inat21')
