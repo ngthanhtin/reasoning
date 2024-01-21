@@ -27,6 +27,12 @@ python nabirds_fintuning.py
 cd plain_clip/
 ```
 
+### Run Zero-shot Classification
+```
+python main.py
+```
+
+
 ## Keypoint detection and filtering
 ```
 cd keypoint_detection/
