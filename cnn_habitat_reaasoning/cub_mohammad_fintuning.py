@@ -43,7 +43,7 @@ class CFG:
     dataset = 'cub'
     model_name = 'mohammad' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -55,10 +55,10 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    orig_train_img_folder = 'CUB/train/'#'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
+    orig_train_img_folder = 'CUB_augmix_train_small_2/'#'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
     #CUB/test, CUB_inpaint_all_test (onlybackground), CUB_no_bg_test, CUB_random_test, CUB_bb_on_birds_test, CUB_big_bb_on_birds_test, CUB_nobirds_test (blackout-birds)
     orig_test_img_folder = 'CUB/test/'
-    # orig_test_img_folder = 'CUB_inpaint_all_test/'
+    orig_test_img_folder = 'CUB_inpaint_all_test/'
     # orig_test_img_folder = 'CUB_no_bg_test/'
     # orig_test_img_folder = 'CUB_random_test/'
     # orig_test_img_folder = 'CUB_bb_on_birds_test/'
@@ -304,87 +304,6 @@ class ViTBase16(nn.Module):
     def forward(self, x):
         x = self.model(x)
         return x
-# %%
-# cut mix rand bbox
-def rand_bbox(size, lam, to_tensor=True):
-    W = size[-2]
-    H = size[-1]
-    cut_rat = np.sqrt(1. - lam)
-    cut_w = int(W * cut_rat)
-    cut_h = int(H * cut_rat)
-
-    #uniform
-    cx = np.random.randint(W)
-    cy = np.random.randint(H)
-
-    bbx1 = np.clip(cx - cut_w // 2, 0, W)
-    bby1 = np.clip(cy - cut_h // 2, 0, H)
-    bbx2 = np.clip(cx + cut_w // 2, 0, W)
-    bby2 = np.clip(cy + cut_h // 2, 0, H)
-
-    if to_tensor:
-        bbx1 = torch.tensor(bbx1)
-        bby1 = torch.tensor(bby1)
-        bbx2 = torch.tensor(bbx2)
-        bby2 = torch.tensor(bby2)
-
-    return bbx1, bby1, bbx2, bby2
-
-def cutmix_same_class(images, labels, alpha=0.4):
-    batch_size = len(images)
-
-    images = images.detach().cpu().numpy()
-    labels = labels.detach().cpu().numpy()
-
-    num_classes = len(np.unique(labels))
-    
-    indices_by_class = [np.where(labels == c)[0] for c in range(num_classes)]
-    class_indices = [c_indices for c_indices in indices_by_class if len(c_indices) > 1]
-    class_indices = [np.random.permutation(c_indices) for c_indices in class_indices]
-
-    lam = np.random.beta(alpha, alpha)
-    cut_rat = np.sqrt(1.0 - lam)
-
-    image_h, image_w, _ = images.shape[1:]  # Assuming image shape in (height, width, channels)
-
-    mixed_images = images.copy()
-    mixed_labels = labels.copy()
-
-    for c_indices in class_indices:
-        shuffled_indices = np.roll(c_indices, random.randint(1, len(c_indices) - 1))
-        indices_pairs = zip(c_indices, shuffled_indices)
-
-        for idx1, idx2 in indices_pairs:
-            image1 = images[idx1]
-            image2 = images[idx2]
-
-            cx = np.random.randint(0, image_w)
-            cy = np.random.randint(0, image_h)
-
-            bbx1 = np.clip(int(cx - image_w * cut_rat / 2), 0, image_w)
-            bby1 = np.clip(int(cy - image_h * cut_rat / 2), 0, image_h)
-            bbx2 = np.clip(int(cx + image_w * cut_rat / 2), 0, image_w)
-            bby2 = np.clip(int(cy + image_h * cut_rat / 2), 0, image_h)
-
-            mixed_images[idx1, bby1:bby2, bbx1:bbx2, :] = image2[bby1:bby2, bbx1:bbx2, :]
-
-            lam = 1 - ((bbx2 - bbx1) * (bby2 - bby1) / (image_h * image_w))
-            mixed_labels[idx1] = lam * labels[idx1] + (1.0 - lam) * labels[idx2]
-
-    return torch.tensor(mixed_images), torch.tensor(labels)#torch.tensor(mixed_labels)
-
-# %%
-def show_batch_cutmix_images(dataloader):
-    for images,labels in dataloader:
-        images = images.to(CFG.device)
-        labels = labels.to(CFG.device)
-        images, labels = cutmix_same_class(images, labels, CFG.cutmix_beta)
-
-        fig,ax = plt.subplots(figsize = (16,12))
-        ax.set_xticks([])
-        ax.set_yticks([])
-        ax.imshow(make_grid(images,nrow=16).permute(1,2,0))
-        break
 
 # %%
 def train(trainloader, validloader, optimizer, criterion, scheduler, model, num_epochs = 10):
@@ -546,44 +465,34 @@ if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     # mohammad
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/60_BIRD_ORIG_IRRELEVANT_cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/60_BIRD_ORIG_IRRELEVANT_cub_single_mohammad_08_20_2023-23:34:13/12-0.858-cutmix_False.pth' # irrelevant with orig birds
     model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/SAME_cub_single_mohammad_08_16_2023-00:32:08/18-0.866-cutmix_False.pth' # same
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/mohammad/MIX_cub_single_mohammad_08_16_2023-00:38:49/19-0.866-cutmix_False.pth' # mix
 
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_11_06_2023-00:47:07/11-0.864-cutmix_False.pth" #mohammad finetune
-
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_11_06_2023-00:47:07/11-0.864-cutmix_False.pth" #mohammad finetune
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_11_15_2023-15:44:55/8-0.864-cutmix_False.pth' # mix
     # transfg
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/FINETUNE_cub_single_transfg_08_15_2023-10:37:00/32-0.891-cutmix_False.pth' #finetune transfg only
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/60_BIRD_ORIG_IRRELEVANT_cub_single_transfg_08_20_2023-23:49:17/40-0.888-cutmix_False.pth' # irrelevant
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/SAME_cub_single_transfg_08_16_2023-00:47:04/45-0.893-cutmix_False.pth' # aug_same
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/MIX_cub_single_transfg_08_16_2023-00:48:56/21-0.892-cutmix_False.pth' # augmix
+
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_11_15_2023-15:43:19/45-0.895-cutmix_False.pth' # same old
+    
     print(model_path)
     print(CFG.orig_test_img_folder)
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     # write result to file
-    acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
-    top_misclassified_filepath = model_path.replace(model_path.split('/')[-1], 'augsame_missclassification.txt')
+    model_name = 'cnn' if CFG.model_name == 'mohammad' else 'transfg'
+    acc_filepath = f'class_accuracies/cub/group_{model_name}_class_accuracy.txt'
     # f = open(f"{acc_filepath}", "a")
-    f = open(top_misclassified_filepath, 'w')
-    f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
+    
     if not CFG.test_tta:
         with torch.no_grad():    
             acc, class_acc, confusion_matrix = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
             top_misclassified_counts = 0
-            for i in range(200):
-                top_misclassified_indices, counts = get_top_misclassified_classes(confusion_matrix, i, top_k=1)
-                top_misclassified_counts+=counts
-                f.write(f"{idx_to_class[i]}*{idx_to_class[top_misclassified_indices[0]]}*{counts[0]}\n")
-            # f.write(f"{acc:.4f}\n")
-            f.close()
-
-            # save class accuracy
-            # import csv
-            # sup_type = 'mix'
-            # csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/transfg/{sup_type}_class_accuracies.csv"
-            # with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
-            #     csv_writer = csv.writer(csv_file)
-            #     csv_writer.writerow(["Class", "Accuracy"])
-            #     for class_idx, accuracy in enumerate(class_acc):
-            #         csv_writer.writerow([idx_to_class[class_idx], accuracy])
+            
+            # for k, acc_ in enumerate(class_acc):
+            #     f.write(f"{acc_ * 100:.2f}%\n")
+            # f.close()
