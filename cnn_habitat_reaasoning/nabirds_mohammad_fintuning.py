@@ -40,8 +40,8 @@ if not os.path.exists('results/nabirds/'):
 class CFG:
     seed = 42
     dataset = 'nabirds' 
-    model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
+    model_name = 'mohammad' # vit, mohammad, transfg
+    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -61,14 +61,14 @@ class CFG:
     # orig_test_img_folder = 'gen_data/inpaint_images/test_inpaint_non_flybird/test_inpaint/'
     # orig_test_img_folder = 'gen_data/big_bb_on_birds_non_flybird_test/big_bb_on_birds_test/'
 
-    orig_test_img_folder = 'gen_data/onlybird_images_test/'
-    orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
-    orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
+    # orig_test_img_folder = 'gen_data/onlybird_images_test/'
+    # orig_test_img_folder = 'gen_data/bb_on_birds_test/' 
+    # orig_test_img_folder = 'gen_data/big_bb_on_birds_test/' 
     # # test with inat
-    orig_test_img_folder = '../overlapping_nabirds_inat_test/'
+    # orig_test_img_folder = '../overlapping_nabirds_inat_test/'
     # # # #test fly-nonfly birds
-    orig_test_img_folder = 'non_flybird_nabirds_test/'
-    orig_test_img_folder = 'flybird_nabirds_test/'
+    # orig_test_img_folder = 'non_flybird_nabirds_test/'
+    # orig_test_img_folder = 'flybird_nabirds_test/'
 
     # cutmix
     cutmix = False
@@ -517,7 +517,7 @@ if CFG.train:
 else:
     # orig, same, mix, irrelevant
     # mohammad
-    model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
+    # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth" # finetune
     # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/SAME_nabirds_single_mohammad_08_15_2023-00:04:31/18-0.806-cutmix_False.pth" # augsame
     # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_nabirds_single_mohammad_08_15_2023-00:10:47/18-0.807-cutmix_False.pth" # augmix
     # model_path = "/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/60_BIRD_ORIG_IRRELEVANT_nabirds_single_mohammad_08_21_2023-01:21:45/19-0.792-cutmix_False.pth" # augirrelevant
@@ -527,12 +527,14 @@ else:
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/60_BIRD_ORIG_IRRELEVANT_nabirds_single_transfg_08_21_2023-01:22:50/23-0.877-cutmix_False.pth' # aug_irrelevant with orig birds
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/MIX_nabirds_single_transfg_08_16_2023-14:29:12/48-0.888-cutmix_False.pth' # aug_mix
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/SAME_nabirds_single_transfg_08_16_2023-01:08:53/31-0.886-cutmix_False.pth' # aug_same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/MIX_2_nabirds_single_transfg_09_05_2023-19:59:30/27-0.886-cutmix_False.pth'
 
     # test
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_09_04_2023-20:41:35/15-0.807-cutmix_False.pth'
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_09_05_2023-00:07:11/12-0.807-cutmix_False.pth'
-    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_09_05_2023-14:39:15/19-0.810-cutmix_False.pth'
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_09_05_2023-16:02:00/34-0.887-cutmix_False.pth'
+    # model_path = './results/nabirds/mohammad/SAME_2_nabirds_single_mohammad_09_05_2023-00:07:11/12-0.807-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/MIX_2_nabirds_single_mohammad_09_05_2023-14:39:15/19-0.810-cutmix_False.pth'
+
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/SAME_2_nabirds_single_transfg_09_05_2023-16:02:00/34-0.887-cutmix_False.pth'
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth'
     
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
@@ -540,22 +542,12 @@ else:
     print(model_path)
     print(CFG.orig_test_img_folder)
     # write result to file
-    acc_filepath = model_path.replace(model_path.split('/')[-1], 'accuracy.txt')
+    acc_filepath = 'class_accuracies/nabirds/group_mohammad_class_accuracy.txt'
     f = open(f"{acc_filepath}", "a")
-    f.write(f"{model_path}, {CFG.orig_test_img_folder}\n")
 
     with torch.no_grad():    
         acc, class_acc, embeds, true_labels, predicted_labels = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
-        # visualize_embeddings(embeds, np.array(predicted_labels), graph_name='predict', method='t-SNE', num_classes=CFG.bird_num_classes)
-        f.write(f"{acc:.4f}\n")
+        for k, acc_ in enumerate(class_acc):
+            f.write(f"{acc_ * 100:.2f}%\n")
         f.close()
-
-        # import csv
-        # sup_type = 'same'
-        # csv_file_path = f"/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/{CFG.model_name}/orig_{sup_type}_class_accuracies.csv"
-        # with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
-        #     csv_writer = csv.writer(csv_file)
-        #     csv_writer.writerow(["Class", "Accuracy"])
-        #     for class_idx, accuracy in enumerate(class_acc):
-        #         csv_writer.writerow([idx_to_class[class_idx], accuracy])
         
