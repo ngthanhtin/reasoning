@@ -1,3 +1,8 @@
+__pycache__
+cnn_habitat_reasoning/class_accuracies/
+keypoint_detection/sam_vit_h_4b8939.pth
+plain_clip/bird_alignment_clip_vs_uni.pdf
+
 allaboutbirds/
 scraping/old_searching/
 demo_image2text/__pycache__/
