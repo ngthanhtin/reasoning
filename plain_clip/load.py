@@ -117,7 +117,7 @@ if hparams['dataset'] == 'cub':
     # load CUB dataset
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
-    # dataset = ImageFolder(root='/home/tin/datasets/cub/CUB/flybird_cub_test/', transform=tfms)
+    # dataset = ImageFolder(root='/home/tin/datasets/cub/CUB_bb_on_birds_test/', transform=tfms)
 
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'cub/descriptors_cub'
@@ -150,7 +150,7 @@ elif hparams['dataset'] == 'nabirds':
             selected_folders.append(v)
     selected_folders=sorted(selected_folders)
     
-    dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/flybird_nabirds_test/', selected_folders=selected_folders, transform=tfms)
+    dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/images/', selected_folders=selected_folders, transform=tfms)
     # dataset = ImageFolder(root='/home/tin/datasets/nabirds/test/', transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'nabirds/descriptors_nabirds'
@@ -183,10 +183,10 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 # hparams['descriptor_fname'] = './descriptors/others/descriptors_imagenet.json'
 
 # cub
-# hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
+hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/chatgpt_descriptors_{hparams['dataset']}.json"
-hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/ID_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/ID2_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/gpt_4_sachit_descriptors_{hparams['dataset']}.json"
@@ -286,48 +286,31 @@ def compute_description_encodings(model):
         #                                     "./descriptors/ID_diffshape_descriptors_nabirds.json",
         #                                     "./descriptors/ID2_diffshape_descriptors_nabirds.json",
         #                                     "./descriptors/no_ann_ID_descriptors_nabirds.json"]:
-        # if len(v[0]) >= cut_len:
-        #     v[0] = v[0][:cut_len]
+        if len(v[0]) >= cut_len:
+            v[0] = v[0][:cut_len]
 
         
         new_v = []# for testing gpt4+habitat
         for i in range(len(v)):
             # if i not in [len(v)-1, len(v)-2, len(v)-3]: # sachit
-            if i not in [len(v)-2, len(v)-3]: # gpt4
+            # if i not in [len(v)-2, len(v)-3]: # gpt4
+            if i not in [len(v)-1]:
                 new_v.append(v[i])
         
-        tokens = clip.tokenize(new_v).to(hparams['device'])
+        tokens = clip.tokenize(v).to(hparams['device'])
         description_encodings[k] = F.normalize(model.encode_text(tokens))
-        # description_encodings[k] = model.encode_text(tokens)
     
-    # loaded_data = np.load(f'./pre_feats/{hparams["dataset"]}/{model_size}_no_ann_visual_encodings.npz')
+    # loaded_data = np.load(f'./pre_feats/{hparams["dataset"]}/{model_size}_visual_encodings.npz')
     # # for i, (k, image_paths) in enumerate(allaboutbirds_example_images.items()):
     # for k, v in gpt_descriptions.items():
-    #     num=10
-    #     np.random.seed(116)
-    #     random_indices = np.random.choice(loaded_data[k].shape[0], num, replace=False) if loaded_data[k].shape[0] >= num else [i for i in range(loaded_data[k].shape[0])]
-    #     random_vectors = loaded_data[k][random_indices]
+    #     num=16
+    #     # random_indices = np.random.choice(loaded_data[k].shape[0], num, replace=False) if loaded_data[k].shape[0] >= num else [i for i in range(loaded_data[k].shape[0])]
+    #     # random_vectors = loaded_data[k][random_indices]
 
     #     # description_encodings[k] = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16)
-    #     img_feats = torch.Tensor(random_vectors).to(hparams['device'], dtype=torch.float16) # loaded_data[k][:num]
+    #     img_feats = torch.Tensor(loaded_data[k][:num]).to(hparams['device'], dtype=torch.float16) # loaded_data[k][:num]
     #     description_encodings[k] = torch.cat([description_encodings[k], img_feats], dim=0)
-
-        ##############
-        # for num, p in enumerate(image_paths):
-        #     if num == 40:
-        #         break
-        #     img = Image.open(p)
-        #     imgs.append(tfms(img))
-            
-        # imgs = torch.stack(imgs)
-        # imgs = imgs.to(hparams['device'])
-        # description_encodings[k] = F.normalize(model.encode_image(imgs))
-        # img_feats = model.encode_image(imgs)
-        # if hparams['dataset'] == 'pet':
-        #     description_encodings[k.lower()] = F.normalize(torch.cat([description_encodings[k.lower()], img_feats], dim=0))
-        # else:
-        #     description_encodings[k] = F.normalize(torch.cat([description_encodings[k], img_feats], dim=0))
-            
+       
     return description_encodings
 
 def compute_label_encodings(model):

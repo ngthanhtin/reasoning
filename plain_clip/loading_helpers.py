@@ -3,7 +3,7 @@ import os
 
 import numpy as np
 import random
-
+import string
 
 import json
 def load_json(filename):
@@ -35,6 +35,26 @@ def modify_descriptor(descriptor, apply_changes):
         return make_descriptor_sentence(descriptor)
     return descriptor
 
+def generate_adversarial_text(text):
+    """ Generate adversarial text by replacing characters with visually similar symbols or altering case. """
+    substitutions = {
+        'a': '@', 'e': '3', 'i': '!', 'o': '0', 's': '$',
+        'A': '4', 'E': '€', 'I': '|', 'O': '()', 'S': '5'
+    }
+    return ''.join(substitutions.get(c, c) for c in text)
+
+def generate_naturally_corrupted_text(text):
+    """ Generate naturally corrupted text by introducing common typos. """
+    def replace_random_char(s):
+        if s and random.random() < 0.15:  # Roughly 15% chance to modify a character
+            random_char = random.choice(string.ascii_lowercase)
+            random_index = random.randint(0, len(s) - 1)
+            return s[:random_index] + random_char + s[random_index + 1:]
+        return s
+
+    return ' '.join(replace_random_char(word) for word in text.split())
+
+
 def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
     unmodify_dict = {}
@@ -54,7 +74,9 @@ def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
         for i, (k, v) in enumerate(gpt_descriptions.items()):
             if len(v) == 0:
                 v = ['']
-            
+            # v = [generate_adversarial_text(vv) for vv in v]
+            # v = [generate_naturally_corrupted_text(vv) for vv in v]
+
             if sci_2_comm:
                 word_to_add = wordify(sci_2_comm[k])
             else:
@@ -64,8 +86,7 @@ def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
                 build_descriptor_string = lambda item: f"{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['between_text']}{word_to_add}"
             elif (hparams['category_name_inclusion'] == 'prepend'):
                 build_descriptor_string = lambda item: f"{hparams['before_text']}{word_to_add}{hparams['between_text']}{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['after_text']}"
-                # build_descriptor_string = lambda item: f"A photo of a {word_to_add}{hparams['between_text']} a type of bird, {modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['after_text']}"
-                # build_descriptor_string = lambda item: f"A photo of a {word_to_add}, a type of bird"
+                # build_descriptor_string = lambda item: f"Visual Redaction contains {word_to_add} information{hparams['between_text']}{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['after_text']}"
 
             else:
                 build_descriptor_string = lambda item: modify_descriptor(item, hparams['apply_descriptor_modification'])

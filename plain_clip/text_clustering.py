@@ -19,13 +19,15 @@ else:
 f = open(description_path, 'r')
 documents = json.load(f)
 # documents = {k: f"{k}, {v[-2][7:]}"  for k,v in documents.items()}
-documents = {k: f"{v[-2][7:]}" + f" {v[-3][7:]}" + f" {v[-4][7:]}"  for k,v in documents.items()}
+documents = {k: f"{v[-2][7:]}" + f" {v[-3][6:]}" + f" {v[-4][7:]}"  for k,v in documents.items()}
+docs2indexes = {k:i for i, (k,v) in enumerate(documents.items())}
+
 # new_documents = {}
 # for k,v in documents.items():
 #     if 'Warbler' in k:
 #         new_documents[k] = v
 # documents = new_documents
-print(len(documents))
+print(docs2indexes)
 # %%
 #
 # full_dict_documents = {}
@@ -47,7 +49,7 @@ vectorizer = TfidfVectorizer(stop_words='english')
 X = vectorizer.fit_transform(documents)
 
 # Step 2: Determine the optimal number of clusters (K) using silhouette score
-max_clusters = 50  # Set a reasonable maximum number of clusters to consider
+max_clusters = 25  # Set a reasonable maximum number of clusters to consider
 best_score = -1
 best_k = 5
 for k in range(2, max_clusters + 1):
