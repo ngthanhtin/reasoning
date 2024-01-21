@@ -1,7 +1,8 @@
 __pycache__
-cnn_habitat_reasoning/class_accuracies/
+cnn_habitat_reaasoning/class_accuracies/
 keypoint_detection/sam_vit_h_4b8939.pth
 plain_clip/bird_alignment_clip_vs_uni.pdf
+cnn_habitat_reaasoning/irrelevant_same_diff_habitat.csv
 
 allaboutbirds/
 scraping/old_searching/
