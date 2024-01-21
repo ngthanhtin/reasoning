@@ -1,9 +1,13 @@
 from load import *
 import torchmetrics
 from tqdm import tqdm
+import warnings
 
+warnings.filterwarnings('ignore')
 
 seed_everything(hparams['seed'])
+
+import numpy as np
 
 bs = hparams['batch_size']
 dataloader = DataLoader(dataset, bs, shuffle=True, num_workers=16, pin_memory=True)
@@ -13,6 +17,10 @@ print("Loading model...")
 device = torch.device(hparams['device'])
 # load model
 model, preprocess = clip.load(hparams['model_size'], device=device, jit=False)
+def count_parameters(model):
+    return sum(p.numel() for p in model.parameters() if p.requires_grad)
+# print(count_parameters(model))
+# exit()
 model.eval()
 model.requires_grad_(False)
 
@@ -30,25 +38,6 @@ elif hparams['dataset'] == 'places365':
     num_classes = 365
 elif hparams['dataset'] == 'inaturalist2021':
     num_classes = 425#1486
-
-# load mapping
-# mapping_path = 'descriptors/cub/additional_chatgpt_descriptors_cub.json'
-# mapping = {}
-
-# # read json
-# with open(mapping_path, 'r') as file:
-#     data = json.load(file)
-# group = 0
-# for i, (k, v) in enumerate(data.items()):
-#     if '_A' in k:
-#         mapping[group] = [i]
-#     elif '_B' in k:
-#         mapping[group].append(i)
-#         group+=1
-#     else: # standalone
-#         mapping[group] = [i]
-#         group+=1
-##
 
 print("Evaluating...")
 lang_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=num_classes).to(device)
@@ -75,23 +64,7 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     
     image_labels_similarity = image_encodings @ label_encodings.T
     
-    # New matrix initialization
-    # new_matrix = torch.zeros((image_labels_similarity.shape[0], num_classes)).to(device)
-    
-    # for new_index, old_indices in mapping.items():
-    #     # new_matrix[:, new_index] = image_labels_similarity[:, old_indices].mean(dim=1)
-    #     new_matrix[:, new_index] = image_labels_similarity[:, old_indices].max(dim=1)[0]
-    #     # if aggregation_method == 'max': return similarity_matrix_chunk.max(dim=1)[0]
-
-    # image_labels_similarity = new_matrix 
-    #
-
     clip_predictions = image_labels_similarity.argmax(dim=1)
-    
-    # Check if the prediction is incorrect
-    # for i, prediction in enumerate(clip_predictions):
-        # if prediction == labels[i]:
-        #     wrongly_predicted_paths.append(path[i]) 
 
     clip_acc = clip_accuracy_metric(image_labels_similarity, labels)
     clip_acc_top5 = clip_accuracy_metric_top5(image_labels_similarity, labels)
@@ -100,28 +73,15 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     image_description_similarity = [None]*n_classes
     image_description_similarity_cumulative = [None]*n_classes
     
-    for i, (k, v) in enumerate(description_encodings.items()): # You can also vectorize this; it wasn't much faster for me
+    for i, (k, v) in enumerate(description_encodings.items()):
                 
         dot_product_matrix = image_encodings @ v.T
 
         image_description_similarity[i] = dot_product_matrix
         image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i], aggregation_method='mean')
-        
-
     # create tensor of similarity means
     cumulative_tensor = torch.stack(image_description_similarity_cumulative,dim=1)
     
-    # New matrix initialization
-    # new_matrix = torch.zeros((cumulative_tensor.shape[0], num_classes)).to(device)
-    
-    # for new_index, old_indices in mapping.items():
-    #     # new_matrix[:, new_index] = cumulative_tensor[:, old_indices].mean(dim=1)
-    #     new_matrix[:, new_index] = cumulative_tensor[:, old_indices].max(dim=1)[0]
-    #     # if aggregation_method == 'max': return similarity_matrix_chunk.max(dim=1)[0]
-
-    # cumulative_tensor = new_matrix
-    
-    #
     descr_predictions = cumulative_tensor.argmax(dim=1)
 
     lang_acc = lang_accuracy_metric(cumulative_tensor.softmax(dim=-1), labels)
@@ -138,12 +98,14 @@ class_accuracies = final_conf_matrix.diag() / final_conf_matrix.sum(1)
 # Handle cases where a class never appears in the batch (to avoid division by zero)
 class_accuracies[torch.isnan(class_accuracies)] = 0
 
-# Print class-wise accuracies
-for i, acc in enumerate(class_accuracies):
-    print(f"Accuracy for class {i}: {acc.item() * 100:.2f}%")
-
 # Save the accuracies to a text file
-with open('class_accuracies.txt', 'w') as f:
+if hparams['model_size'] == "ViT-B/32":
+    save_model = "B_32"
+elif hparams['model_size'] == "ViT-B/16":
+    save_model = "B_16"
+else:
+    save_model = "L_14"
+with open(f'class_accuracies/{hparams["dataset"]}/{save_model}_habitat_class_accuracies.txt', 'w') as f:
     for i, acc in enumerate(class_accuracies):
         f.write(f"{acc.item() * 100:.2f}%\n")
 
