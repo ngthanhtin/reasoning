@@ -31,11 +31,3 @@ cd plain_clip/
 ```
 python main.py
 ```
-
-
-## Keypoint detection and filtering
-```
-cd keypoint_detection/
-python show_cub_segmentation.py
-python show_cub_kp_segment.py
-```
