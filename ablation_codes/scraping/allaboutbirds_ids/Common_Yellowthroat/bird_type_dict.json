@@ -1,0 +1,110 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297027971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297027971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297027971-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/404356-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/404356-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/404356-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469419-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469419-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/469419-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66117621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117621-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66117631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66117631-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403749-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403749-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403749-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with a round belly and long tail. Males have a black mask and a yellow throat and undertail coverts.",
+            "",
+            "",
+            "Small songbird with a round belly and long tail. Males have a black mask bordered by white and a yellow throat and undertail coverts.",
+            "Found in open areas with thick, low vegetation, ranging from marshes to grasslands to open pine forests.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66117601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117601-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66117641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66117661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117661-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are brownish above with a yellow throat and breast. The brightness of yellow varies geographically.",
+            "Females are brownish above with a yellow throat and undertail coverts, the intensity of which varies geographically.",
+            "Spends much of their time skulking low to the ground in dense thickets and fields where they can be difficult to see."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66117611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117611-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476395-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476395-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476395-720px.jpg"
+            ]
+        ],
+        "description": [
+            "The black mask on immature males is faint and patchy.",
+            ""
+        ]
+    },
+    "Immature female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66117591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66117591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117591-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature females are pale brownish overall with yellow only on the undertail coverts."
+        ]
+    },
+    "Adult male (chapalensis)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66117581-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66117581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117581-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Resident males around Lake Chapala, Jalisco, Mexico have a larger black mask that is bordered by yellow instead of white like Common Yellowthroats farther north."
+        ]
+    }
+}

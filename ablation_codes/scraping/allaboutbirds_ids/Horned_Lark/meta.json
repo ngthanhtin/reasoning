@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68927551-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68927551-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68927551-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Horned Larks are small, long-bodied songbirds that usually adopt a horizontal posture. They have short, thin bills, short necks, and rounded heads\u2014the shape sometimes broken by two small \u201chorns\u201d of feathers sticking up toward the back of the head."
+            ],
+            "Compared Size": [
+                "Larger than a Savannah Sparrow; smaller than an Eastern Meadowlark."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.9 in (16-20 cm)",
+                "Weight: 1.0-1.7 oz (28-48 g)",
+                "Wingspan: 11.8-13.4 in (30-34 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68927561-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68927561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68927561-480px.jpg"
+        ],
+        "description": [
+            "Male Horned Larks are sandy to rusty brown above, with a black chest band, a curving black mask, and head stripes that extend to the back of the head (sometimes raised into tiny \u201chorns\u201d). The face and throat are either yellow or white (see Regional Differences). The underparts are white. Females have similar head and breast patterns but are less crisply defined."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238649707",
+        "description": [
+            "Horned Larks are social birds, sometimes found in huge flocks outside the breeding season. They creep along bare ground searching for small seeds and insects. They often mix with other open-country species in winter flocks, including longspurs and Snow Buntings."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68927581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68927581-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68927581-480px.jpg"
+        ],
+        "description": [
+            "The barer the ground, the more Horned Larks like it. Look for them in open country with very short or no vegetation, including bare agricultural fields. They breed in short grassland, short-stature sage shrubland, desert, and even alpine and arctic tundra."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Horned Larks vary in color across North America. Some arctic-breeding birds have little or no yellow on the head, while Eastern and south Texas breeders have the head extensively yellow. Those breeding along the Pacific coast tend to be a brighter rufous on the nape, upper back, shoulders, and sides; elsewhere they are a sandier brown."
+        ]
+    }
+}

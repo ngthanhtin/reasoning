@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64914621-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64914621-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64914621-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Wilson\u2019s Warblers are one of our smallest warblers. They have long, thin tails and small, thin bills. They appear rather round bodied and large headed for their size."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Common Yellowthroat."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-4.7 in (10-12 cm)",
+                "Weight: 0.2-0.3 oz (5-10 g)",
+                "Wingspan: 5.5-6.7 in (14-17 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64914601-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64914601-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64914601-480px.jpg"
+        ],
+        "description": [
+            "Wilson\u2019s Warblers are bright yellow below and yellowish olive above. Their black eyes stand out on their yellow cheeks. Males have a distinctive black cap. Adult females are similar in color but show variations in the amount of black on the top of the head, from a few blackish feathers to a small dark cap. Juvenile females have an olive crown and a yellow eyebrow."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238645464",
+        "description": [
+            "Wilson\u2019s Warblers flit restlessly between perches and make direct flights with rapid wingbeats through the understory. Unlike most warblers, they spend most of their time in the understory grabbing insects by hovering or by picking insects from foliage."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64914631-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64914631-480px.jpg"
+        ],
+        "description": [
+            "Wilson\u2019s Warblers breed in mountain meadows and thickets near streams, especially those with willows and alders. They also breed along the edges of lakes, bogs, and aspen stands. Pacific Coast populations breed in shrubby habitat and in young stands of conifers, alders, or maples. During migration they use woodlands, suburban areas, desert scrub, and shrubby areas near streams."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Western populations tend to be brighter yellow than Eastern populations."
+        ]
+    }
+}

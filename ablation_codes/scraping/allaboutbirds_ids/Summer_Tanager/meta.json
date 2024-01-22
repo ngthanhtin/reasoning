@@ -1,0 +1,51 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67450001-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450001-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67450001-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Summer Tanagers are medium-sized, chunky songbirds with big bodies and large heads. They have large, thick, blunt-tipped bills."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin; larger than a Yellow Warbler."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67450051-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450051-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67450051-480px.jpg"
+        ],
+        "description": [
+            "Adult male Summer Tanagers are entirely bright red. Females and immature males are bright yellow-green\u2014yellower on the head and underparts and slightly greener on the back and wings. The bill is pale. Molting immature males can be patchy yellow and red."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651069",
+        "description": [
+            "Summer Tanagers tend to stay fairly high in the forest canopy, where they sit still and then sally out to catch flying insects in midair, or move slowly along tree branches to glean food. Males have a sweet, whistling song similar to an American Robin; both sexes give a distinctive",
+            "pit-ti-tuck",
+            "call note."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67450041-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450041-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67450041-480px.jpg"
+        ],
+        "description": [
+            "They breed near gaps and edges of open forests, particularly of deciduous trees or mixed pine-oak woodlands. In the Southwest, look for them along streams among willows, cottonwoods, mesquite, or saltcedar."
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59938241-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59938241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59938241-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized, heavy-bodied goose with a small bill, thick legs, and a short neck."
+            ],
+            "Compared Size": [
+                "Larger than a Ross's Goose, smaller than a Canada Goose."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 25.2-31.9 in (64-81 cm)",
+                "Weight: 68.8-116.8 oz (1951-3311 g)",
+                "Wingspan: 53.1 in (135 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59938311-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59938311-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59938311-720px.jpg"
+        ],
+        "description": [
+            "Adults are mostly brown with white feathering around the base of a pinkish-orange bill. Black barring marks the belly and the undertail is white. In flight a white \"U\" at the base of the tail is visible. At rest, a thin white line stretches across their sides. Juveniles lack the belly banding and white feathering around the bill. Both juveniles and adults have orangish legs.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668996",
+        "description": [
+            "Greater White-fronted Geese forage in groups in agricultural fields and on lakes, often with other geese. They are frequently the first to flush when disturbed and fly in circles before coming back down. During migration groups fly in \"V\" formation or in single file.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59938221-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59938221-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59938221-480px.jpg"
+        ],
+        "description": [
+            "Breeds in the tundra near wetlands, rivers, and ponds. Winters in agricultural fields, marshes, bays, and lakes. During migration forages in wet sedge meadows, tidal mudflats, lakes, ponds, and wetlands.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The tule subspecies of the Greater White-fronted Goose is larger and darker than other Greater White-fronted Geese. It is restricted to areas around Cook Inlet, Alaska. The Greater White-fronted Goose subspecies that breeds in Greenland usually winters in Ireland and Scotland. It occasionally turns up on the East Coast of North America. It is slightly larger than the typical American form and has a brighter orange (less pink) bill, but telling them apart is difficult.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Adult (Eastern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302225311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302225311-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302225311-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/415103-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/415103-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/415103-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302225841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302225841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302225841-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65760181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65760181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760181-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65760191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65760191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with a bill larger than a warbler's but fairly small for a vireo. Brownish-gray overall with two pale wingbars, the upper one less distinct than the lower one. Flanks are usually washed yellow.",
+            "Song has been described as \"the musical equivalent of a scribble\"\u2014jerky warbling phrases, the first ending on an upslur, the next on a downslur.",
+            "Small songbird with a heavier bill than a warbler's. \"Eastern\" subspecies is the brightest, with greenish back, yellow flanks, and gray head with dark line through eye and broken white eyering.",
+            "Small songbird with bill thicker than a warbler's. \"Eastern\" subspecies can have bright yellow underparts. Pale eyering is broken by dark line through eye.",
+            "Occurs in tangled shrubby and brushy areas including wetlands, regenerating woods, thickets, brushy fields, mesquite, and chaparral."
+        ]
+    },
+    "Adult (Least)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302225541-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302225541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302225541-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302227471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302227471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302227471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with a heavier bill than a warbler. Brownish-gray overall with two whitish wingbars. \"Least\" subspecies (endangered) occurs in California and is the grayest form, with almost no green or yellow.",
+            "Small songbird with fairly small bill for a vireo. Grayish overall with pale arcs around the eye, broken by a dark line through the eye. Wingbars can be indistinct. Yellow wash on flanks is often faint."
+        ]
+    },
+    "Adult (Arizona)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65760131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760131-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65760161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760161-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with pale arcs around the eye, interrupted by dark line through eye. Brownish-gray overall with two wingbars, the lower one more prominent.",
+            "Occurs in shrubs and thickets, often fairly low. \"Arizona\" subspecies is mostly gray-brown with wingbars that can be indistinct. Flanks can show faint yellow."
+        ]
+    }
+}

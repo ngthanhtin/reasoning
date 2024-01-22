@@ -1,0 +1,52 @@
+{
+    "Zone-tailed Hawk": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40623551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40623551-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40623551-720px.jpg"
+            ],
+            "description": "Zone-tailed Hawks of the southwestern U.S. are similarly shaped and fly with a similar style, but they have light bands in the tail, and a larger, fully feathered head unlike Turkey Vultures, which have an unbanded tail and a bald head."
+        }
+    },
+    "Black Vulture": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70706151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70706151-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70706151-720px.jpg"
+            ],
+            "description": "Black Vultures have an unfeathered gray head, whereas Turkey Vultures have a unfeathered red head."
+        }
+    },
+    "Bald Eagle": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60329071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60329071-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60329071-1280px.jpg"
+            ],
+            "description": "Bald Eagles can have a similar dark upperwing and back pattern, but they have feathers on the head, soar steadily on flat wings, and lack the clean, two-toned underwing of Turkey Vultures."
+        }
+    },
+    "Golden Eagle": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60322141-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60322141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322141-720px.jpg"
+            ],
+            "description": "Golden Eagles raise their wings slightly in flight similar to a Turkey Vulture, but they are larger and do not teeter or wobble as they soar like vultures do."
+        }
+    },
+    "Red-tailed Hawk": {
+        "Adult (borealis)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60384771-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60384771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60384771-720px.jpg"
+            ],
+            "description": "Red-tailed Hawks are usually pale below, with shorter tails and shorter, broader wings that they hold flat as they soar, not in a V like Turkey Vultures"
+        }
+    }
+}

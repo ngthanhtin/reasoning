@@ -1,0 +1,82 @@
+{
+    "Black-capped Chickadee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60411301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60411301-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60411301-720px.jpg"
+            ],
+            "description": "Black-capped Chickadees are slightly larger than Bushtits, and their characteristic dark crown, white face, and dark bib provide much more contrast than Bushtits show."
+        }
+    },
+    "Mountain Chickadee": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68054751-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg"
+            ],
+            "description": "Mountain Chickadees are plumper than Bushtits with a white cheek patch that Bushtits lack."
+        }
+    },
+    "Chestnut-backed Chickadee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68054211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054211-1280px.jpg"
+            ],
+            "description": "Chestnut-backed Chickadees have chestnut backs and sides unlike the plain grayish brown Bushtit."
+        }
+    },
+    "Blue-gray Gnatcatcher": {
+        "Female/nonbreeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68033821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68033821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68033821-1280px.jpg"
+            ],
+            "description": "Gnatcatchers have longer bills and smaller heads than Bushtits. Their black tails contrast sharply with their duller gray-brown backs unlike Bushtits."
+        }
+    },
+    "Golden-crowned Kinglet": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/161342541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/161342541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161342541-720px.jpg"
+            ],
+            "description": "Golden-crowned Kinglets have olive upperparts and boldly marked heads, whereas Bushtits are rather plain-faced."
+        }
+    },
+    "Oak Titmouse": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68050311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68050311-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68050311-720px.jpg"
+            ],
+            "description": "Oak Titmice are larger than Bushtits with a distinct, short crest to the head."
+        }
+    },
+    "Juniper Titmouse": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68044111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68044111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68044111-720px.jpg"
+            ],
+            "description": "Juniper Titmice have a crest unlike the round-headed Bushtit. They are also larger with a thicker bill than Bushtits."
+        }
+    },
+    "Verdin": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68042961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68042961-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68042961-720px.jpg"
+            ],
+            "description": "Verdins have a longer, sharper bill than Bushtits. They also have a yellow face and a small rufous patch in the wing that Verdins lack."
+        }
+    }
+}

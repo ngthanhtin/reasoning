@@ -1,0 +1,86 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301215411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301215411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301215411-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472908-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472908-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/472908-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301215661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301215661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301215661-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64809211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64809191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64809191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small shorebird with a round head and a stubby bill. Breeding birds have orange at the base of the bill and a black crown, eye patch, and breast band. Note yellow legs.",
+            "Plump shorebird with a short neck and round head. Note single dark band on chest and fairly small, orange-and-black bill.",
+            "In flight, note brown tail with a darker tip (a common pattern among plovers) and long wings.",
+            "Small shorebird with a round head and a stubby bill. Note that the breast band goes all the way around the breast.",
+            "Walks or runs with its head up. Stops and tilts forward to pick invertebrates from the ground. Note yellow legs and solid black breast band."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64809161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809161-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small shorebird with a round head and a stubby bill. Nonbreeding birds have a brown (instead of black) crown, breast band, and eyepatch."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64809181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64809181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809181-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301215991-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301215991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301215991-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301216011-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301216011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301216011-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look like adults but have paler collar and facial markings.",
+            "",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64809141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64809141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809141-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found on mudflats, estuaries, lagoons, ponds, lakeshores, agricultural ponds, and beaches during migration and the winter months."
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "Size": {
+        "description": {
+            "Shape": [
+                "A large songbird with a robust body, long tail, short neck, heavy, pointed bill, and long, strong legs and feet."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Blue Jay, smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "description": [
+            "Adult is cerulean blue above, dingy below, with brown-gray back, dark eye, and dark bill. Juvenile is similar but plumage mostly darker gray; bill has irregular pale base.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "description": [
+            "Groups of Mexican Jays hop and fly through trees in search of insects and small vertebrates such as lizards. They also forage on the ground, eating acorns, pine nuts, and various invertebrates. Resides year-round in groups (up to 25 birds).",
+            ""
+        ]
+    },
+    "Habitat": {
+        "description": [
+            "Lives year-round in pine-oak-juniper woodlands of the southwestern U.S. and Mexico, from the upper edge of deserts to high mountain ridges up to 11,000 feet."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize up to six subspecies. In general, the more southerly subspecies are brighter blue above than the northern ones."
+        ]
+    }
+}

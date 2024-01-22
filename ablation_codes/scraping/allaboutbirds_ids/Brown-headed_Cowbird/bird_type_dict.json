@@ -1,0 +1,146 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306621721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306621721-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306621721-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/409919-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/409919-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/409919-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306622781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306622781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306622781-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306622741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306622741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306622741-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362301-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362301-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky blackbird with a thick, conical bill. Adult males have black bodies and brown heads, which can appear all black in poor light.",
+            "Often ruffles neck feathers when singing. Song includes thin, high notes and a liquid burbling sound (other calls in background are Red-winged Blackbirds.) Note thick, sharply pointed bill.",
+            "",
+            "",
+            "Highly gregarious. Males often raise their back and chest feathers, lift their wings, spread their tail feathers, and bow forward when singing."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306621841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306621841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306621841-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/440379-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440379-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440379-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306622811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306622811-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306622811-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky blackbird with a short tail and a thick, conical bill. Female Brown-headed Cowbirds are plain brown, lightest on the head and underparts, with fine streaking on the belly and a dark eye.",
+            "Females are plain brown with very little streaking. The short, thick-based, sharply pointed bill is a key mark.",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306621921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306621921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306621921-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are brown overall with a scaly-looking back and streaked underparts."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature males molting into adult plumage are patchy brown and black."
+        ]
+    },
+    "Juvenile (with Chipping Sparrow)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306622081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306622081-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306622081-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Lays eggs in the nest of other birds, which raise cowbird young. Here a Chipping Sparrow feeds a juvenile cowbird as if it were her own."
+        ]
+    },
+    "Adult males and females": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/440570-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440570-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440570-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Highly social: forages and displays on the ground in open areas. Displaying males puff out feathers, point bill at the sky, and bow forward and raise tail."
+        ]
+    },
+    "Adult males": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/416666-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/416666-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/416666-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Originally lived around herds of bison, foraging on insects stirred up as the animals grazed. Now often seen on and around cows and other livestock."
+        ]
+    },
+    "Adult male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362291-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362291-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in open habitats such as fields, pastures, meadows, forest edges, and lawns. When not displaying or feeding on the ground, they often perch high on prominent tree branches."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306622791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306622791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306622791-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

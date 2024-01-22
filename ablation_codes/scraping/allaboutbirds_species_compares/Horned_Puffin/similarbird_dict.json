@@ -1,0 +1,48 @@
+{
+    "Tufted Puffin": {
+        "Breeding adult ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40539041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40539041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40539041-720px.jpg"
+            ],
+            "description": "Tufted Puffins have a black (not white) belly. Breeding Tufted Puffins have golden plumes on the head that Horned Puffins lack."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32802781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32802781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32802781-720px.jpg"
+            ],
+            "description": "Nonbreeding Tufted Puffins have a dark belly while Horned Puffins have a white belly."
+        }
+    },
+    "Rhinoceros Auklet": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40264201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40264201-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40264201-720px.jpg"
+            ],
+            "description": "Rhinoceros Auklets lack the white cheek patch that Horned Puffins have and they have a smaller bill."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71005141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71005141-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71005141-720px.jpg"
+            ],
+            "description": "Nonbreeding Rhinoceros Auklets lack the white cheek patch that Horned Puffins have and they have a smaller bill."
+        }
+    },
+    "Atlantic Puffin": {
+        "Breeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70034501-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70034501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70034501-720px.jpg"
+            ],
+            "description": "Atlantic and Horned Puffins do not overlap in range. The color of the base of the bill separates them; slaty blue on Atlantic and yellow on Horned."
+        }
+    }
+}

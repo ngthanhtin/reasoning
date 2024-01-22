@@ -1,0 +1,62 @@
+{
+    "Hermit Thrush": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67459811-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67459811-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67459811-720px.jpg"
+            ],
+            "description": "Hermit Thrushes have a whitish eyering and a brighter cinnamon tail that contrasts with their back unlike Swainson's which have a buffy eyering and a browner tail that doesn't contrast as much with its back color."
+        }
+    },
+    "Veery": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67469171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67469171-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67469171-720px.jpg"
+            ],
+            "description": "Veeries are warmer reddish brown than most Swainson\u2019s Thrushes and have a much fainter eyering. They also have less-obvious chest spotting compared to Swainson's."
+        }
+    },
+    "Bicknell's Thrush": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39455251-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39455251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39455251-720px.jpg"
+            ],
+            "description": "Bicknell\u2019s Thrushes have a grayer face with a thinner grayish eyering compared to Swainson's Thrushes which have a tanner face and a buffy eyering."
+        }
+    },
+    "Gray-cheeked Thrush": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38662011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38662011-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38662011-720px.jpg"
+            ],
+            "description": "Gray-cheeked Thrushes have a grayer face and a thinner grayish eyering compared to Swainson's Thrushes which have a tanner face and a buffy eyering."
+        }
+    },
+    "Wood Thrush": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67458521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67458521-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67458521-720px.jpg"
+            ],
+            "description": "Wood Thrushes are larger and plumper with round dark spots on white underparts and an obvious white eyering unlike Swainson's Thrushes, which have blurry spots on a buffy-colored chest and a buffy eyering."
+        }
+    },
+    "American Robin": {
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60412981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60412981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60412981-1280px.jpg"
+            ],
+            "description": "Juvenile American Robins are substantially larger and heftier, with large blackish spots and at least some of an adult\u2019s reddish breast unlike Swainson's Thrushes with have brown spotting on a buffy-colored chest."
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64813521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64813521-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64813521-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A stout shorebird with a short, thick bill, short neck, short tail, and short, thick legs."
+            ],
+            "Compared Size": [
+                "Larger than a Black Turnstone, smaller than a Black-bellied Plover."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64813501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64813501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64813501-720px.jpg"
+        ],
+        "description": [
+            "Breeding adults are stippled light, dark, and rufous above. The head and underparts are white, neatly marked with black streaks and arrowhead-shaped markings on the breast and belly. Nonbreeding plumage is muddy brownish gray with whitish chin, white belly with some streaking. The tail is white at the base, with a bold black tip. Legs are greenish yellow; base of bill is yellow. Juveniles are paler than nonbreeding adults, with feathers above showing narrow pale edges."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669636",
+        "description": [
+            "Forages by walking along on rocks, seizing prey (often mollusks) with the bill, yanking them free, and swallowing them whole. Also forages by touch in algae, wrack, sand, and mudflats."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64813551-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64813551-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64813551-720px.jpg"
+        ],
+        "description": [
+            "Nests in high slopes of rocky alpine tundra in interior Alaska. Winters along Pacific coast in rocky environments, sometimes foraging also on mudflats or beaches."
+        ]
+    }
+}

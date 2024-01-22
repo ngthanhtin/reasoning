@@ -1,0 +1,92 @@
+{
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71547471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547471-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71547441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547441-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303621811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303621811-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303621811-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303621801-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303621801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303621801-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303621851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303621851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303621851-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Sandy brown falcon with white cheek, white line over eye, and thin dark mustache stripe. Immatures have heavier dark streaking on the underparts. The cere (skin around base of bill) is bluish gray.",
+            "Large falcon with sharply pointed wings. Prominent dark \"armpits\" and wing linings are distinctive when seen. Note thin mustache stripe.",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303622381-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303622381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303622381-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71547461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547461-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/416967-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/416967-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/416967-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303622291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303622291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303622291-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large falcon with long, pointed wings, white line over eye. In adults tail is often paler than wings. Adults have yellow skin around the bill (cere) and yellow legs and feet.",
+            "Large falcon with sharply pointed wings and fairly long tail. Uniform sandy brown upperparts. Note whitish line over the eye, pale cheek, and narrow malar or \"mustache\" stripe. Tail is often lighter than wings.",
+            "Large falcon with sharply pointed wings and a long, slightly tapering tail. Flies with shallow wingbeats and may glide for short periods on flat or slightly bowed wings. Mostly pale below but with distinctive black axillaries or \"armpits.\"",
+            "Sandy brown falcon with white cheek, white line over eye, and thin dark mustache stripe. Adults have neat brownish spotting on the underparts."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408067-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/408067-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408067-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large falcon with sandy brown upperparts and strong \"mustache\" mark on face. Juveniles have bold streaks on the breast."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547451-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547451-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Hunts ground squirrels and other small mammals and birds across open country of western North America, including plains, prairies, agricultural land, deserts, and sagebrush."
+        ]
+    }
+}

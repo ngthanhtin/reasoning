@@ -1,0 +1,54 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64990421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64990421-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64990421-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Rufous-crowned Sparrows are relatively large sparrows with rounded heads and fairly long tails. The thick, pointed bill is fairly large."
+            ],
+            "Compared Size": [
+                "Larger and bulkier than a Chipping Sparrow; smaller than a White-crowned Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71005621-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71005621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71005621-480px.jpg"
+        ],
+        "description": [
+            "These are grayish sparrows with streaky backs and and bright reddish-brown crowns. They have a white eyering and a white malar or whisker stripe that\u2019s bordered in black and contrasts with the gray face and underparts."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238647164",
+        "description": [
+            "Rufous-crowned Sparrows spend much of their time under the cover of vegetation, often foraging or running across the ground instead of flying. Your best chance to see one in the open is to catch a male as he sings from a higher perch in a shrub or low tree."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64990441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64990441-720px.jpg"
+        ],
+        "description": [
+            "Look for Rufous-crowned Sparrows on steep, dry, rocky hillsides with plenty of grasses and a scattering of shrubs and small trees, such as sagebrush or scrub oaks. Recently burned areas can provide good, open habitat. The birds tend to avoid areas of dense shrubs."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Rufous-crowned Sparrows along the Pacific coast tend to be smaller and more reddish above than individuals in the Desert Southwest, which are browner above. Individuals from offshore islands such as California\u2019s Channel Islands tend to be darker overall than mainland birds."
+        ]
+    }
+}

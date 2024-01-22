@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66029491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66029491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66029491-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized seabird with a heavy body and fairly short, pointed wings. It has a small head and relatively short neck. The bill is straight and sharply pointed."
+            ],
+            "Compared Size": [
+                "Larger than a Pied-billed Grebe, smaller than a Surf Scoter."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-12.6 in (30-32 cm)",
+                "Weight: 11.3-17.1 oz (320-485 g)",
+                "Wingspan: 20.5-22.8 in (52-58 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66029501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66029501-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66029501-480px.jpg"
+        ],
+        "description": [
+            "Breeding adults are mostly deep black with large white patches on the wings visible when the wings are folded. The underwings are white with black border. The legs and feet are bright red. Nonbreeding adults retain the black-and-white wing pattern but have mostly whitish head, neck, and underparts. Immatures are similar but with grayish feathers in the head, neck, and sides, and less white in the upperwing.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643925",
+        "description": [
+            "Often sits on the water in the manner of a duck. Forages by diving underwater to catch prey near the bottom. Usually forages near to shore, but alone and away from other species.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66029511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66029511-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66029511-480px.jpg"
+        ],
+        "description": [
+            "Nests on rocky islands, shorelines, and cliffs. Forages in littoral (near-shore) ocean waters and openings in sea ice.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists have described up to 7 subspecies, 2 or 3 of which nest in North America. In Maine and southeastern Canada, arcticus is the nesting subspecies, while in Alaska, mandtii is the nesting subspecies. Some ornithologists also recognize ultimus as a distinct subspecies in the High Arctic of eastern Canada and Greenland; others combine it with mandtii. In adult nonbreeding plumage, mandtii and ultimus have snowy white body plumage; juvenile mandtii/ultimus have white-tipped secondary feathers, forming a white trailing edge to the wing. Some Black Guillemots that nest in western Greenland are mostly black in breeding plumage7, with little or no white on the wings. Such \u201cdark-morph\u201d birds are also much darker in nonbreeding plumage than others in this population, which acquire mostly snow-white plumage in winter.",
+            ""
+        ]
+    }
+}

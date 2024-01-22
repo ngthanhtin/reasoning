@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63737391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63737391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small finch with a short, conical bill and a small, head, long wings, and short, notched tail."
+            ],
+            "Compared Size": [
+                "Smaller than a Tufted Titmouse"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.4-0.7 oz (11-20 g)",
+                "Wingspan: 7.5-8.7 in (19-22 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63737371-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63737371-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63737371-720px.jpg"
+        ],
+        "description": [
+            "Adult males in spring and early summer are bright yellow with black forehead, black wings with white markings, and white patches both above and beneath the tail. Adult females are duller yellow beneath, olive above. Winter birds are drab, unstreaked brown, with blackish wings and two pale wingbars."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238666595",
+        "description": [
+            "These are active and acrobatic little finches that cling to weeds and seed socks, and sometimes mill about in large numbers at feeders or on the ground beneath them. Goldfinches fly with a bouncy, undulating pattern and often call in flight, drawing attention to themselves."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63737321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63737321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63737321-720px.jpg"
+        ],
+        "description": [
+            "The goldfinch\u2019s main natural habitats are weedy fields and floodplains, where plants such as thistles and asters are common. They\u2019re also found in cultivated areas, roadsides, orchards, and backyards. American Goldfinches can be found at feeders any time of year, but most abundantly during winter."
+        ]
+    }
+}

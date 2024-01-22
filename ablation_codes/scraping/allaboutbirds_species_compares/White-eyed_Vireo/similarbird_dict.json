@@ -1,0 +1,22 @@
+{
+    "Blue-headed Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761591-1280px.jpg"
+            ],
+            "description": "Blue-headed Vireo has bold white \"spectacles\" and a dark eye instead of the yellow spectacles and pale eye of White-eyed Vireo. Blue-headed Vireo lives in the canopy of mature deciduous forest; White-eyed is more a bird of low tangles."
+        }
+    },
+    "Bell's Vireo": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65760141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760141-1280px.jpg"
+            ],
+            "description": "Bell's Vireo has a dark eye and lacks the bold yellow \"spectacles\" of White-eyed Vireo."
+        }
+    }
+}

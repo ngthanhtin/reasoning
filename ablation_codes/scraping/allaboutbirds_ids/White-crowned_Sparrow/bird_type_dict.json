@@ -1,0 +1,116 @@
+{
+    "Adult (Dark-lored)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978031-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large grayish sparrow with a long tail and often peaked head shape. Bill is small and orange to yellow or pinkish. Adults have very bold white and black stripes on the head."
+        ]
+    },
+    "Immature (Dark-lored)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297929211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297929211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297929211-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with a fairly small bill. Immatures have rusty brown stripes on gray head. Individuals in eastern North America typically have orange to pinkish bills."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482691-480px.jpg"
+            ]
+        ],
+        "description": [
+            "During migration and winter often found along edges of woodlots, hedgerows, thickets, weedy fields, suburbs, backyards, and city parks. Note the bold black-white-head stripes and yellow bill."
+        ]
+    },
+    "Adult (Gambel's)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297932021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297932021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297932021-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Immature (Gambel's)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64978001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow often with a peaked head shape. Immatures have similar head pattern to adults, but stripes are brown and gray instead of black and white."
+        ]
+    },
+    "Adult (Yellow-billed)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297930781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297930781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297930781-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978011-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978011-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large grayish sparrow with a long tail. Often holds crown feathers in a short peak. Adults have bold white and black stripes on the head. Note the gray throat.",
+            "Large sparrow with relatively small bill. Bold head pattern of black and white stripes. Individuals in western North America usually have yellowish bills and extensive brown on the flanks."
+        ]
+    },
+    "Immature (Yellow-billed)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297953441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297953441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297953441-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297958711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297958711-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297958711-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64978041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978041-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in patchy boreal forest, alpine meadows, coastal scrub, and other grassy areas with scattered shrubs or trees. Winters in brushy fields, agricultural areas, roadsides, and thickets."
+        ]
+    }
+}

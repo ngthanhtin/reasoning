@@ -1,0 +1,56 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63902971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63902971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63902971-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Long-tailed Duck is a small, slender sea duck with a rounded head and a small bill. The male has long tail plumes most of the year."
+            ],
+            "Compared Size": [
+                "Smaller than a Surf Scoter larger than a Bufflehead."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Male",
+                "Length: 15.8-18.5 in (40-47 cm)",
+                "Weight: 22.9-38.8 oz (650-1100 g)",
+                "Wingspan: 27.9-28.4 in (71-72 cm)",
+                "Female"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63902961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63902961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63902961-720px.jpg"
+        ],
+        "description": [
+            "Males in winter are mostly white and black: the head is white with a large dark patch on the neck. The breast and body are dark with white plumes covering the back. The bill is mostly black with a pink band. Males in summer are infrequently seen away from the Arctic, but are roughly the reverse of their winter plumage, with a dark head, neck, and body, and a white face patch. Females and young males are smudgy brown on the body with a white face, a brown crown and cheek patch, and a dark bill.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639670",
+        "description": [
+            "Mostly seen on the water where it is a strong swimmer and an active diver. Flight is erratic and wingbeats are unusual, with deep downbeats and shallow upbeats.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63902941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63902941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63902941-720px.jpg"
+        ],
+        "description": [
+            "Breeds near arctic wetlands and winters on large lakes and the open ocean.",
+            ""
+        ]
+    }
+}

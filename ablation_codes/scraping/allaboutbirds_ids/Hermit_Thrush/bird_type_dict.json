@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303450651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303450651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303450651-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303450821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303450821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303450821-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/442040-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/442040-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/442040-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303450941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303450941-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303450941-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67459821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67459821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67459821-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67459841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67459841-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67459841-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized thrush with a round head and a full-bodied look. Brown above, with a distinctly reddish tail. The underparts are pale with spots on the throat and smudged spots on the breast.",
+            "Brown above with a strongly contrasting reddish tail. Note thin white eyering.",
+            "Typically found on forest floor, where it hops while foraging in the leaf litter. Note erect posture with head tilted and bill slightly raised.",
+            "Medium-sized thrush with a rich brown upper body and smudged spots on the breast, with a reddish tail that sets it apart from similar species. Sometimes cocks its tail up, while flicking its wings.",
+            "Hops and scrapes in leaf litter while foraging for insects.",
+            "Medium-sized thrush with dark brown spots on the breast and paler smudgier spots on the flanks."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67459891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67459891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67459891-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are brownish gray above with spotting on the back and wings."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67459901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67459901-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67459901-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in the understory of deciduous and evergreen forests, especially around edges or openings."
+        ]
+    }
+}

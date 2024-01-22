@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63319851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63319851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63319851-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Baird\u2019s Sparrows are small, chunky sparrows with a flat head and a heavy bill. The tail is slightly notched and relatively short."
+            ],
+            "Compared Size": [
+                "Smaller than a meadowlark, larger than a goldfinch."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.5-0.8 oz (15-21.5 g)",
+                "Wingspan: 8.7-9.1 in (22-23 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40263801-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40263801-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40263801-720px.jpg"
+        ],
+        "description": [
+            "Generally sandy brown with fine black and chestnut streaks on the back and flanks. The belly is clean white, with a necklace of thin black streaks across the chest. The head is suffused with buffy yellow.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643581",
+        "description": [
+            "Typically stays hidden on the ground, walking or hopping between clumps of grass. When disturbed or alarmed, often walks away rather than flying. Singing males sit atop shrubs or tall grasses.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/33226561-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/33226561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/33226561-480px.jpg"
+        ],
+        "description": [
+            "In the breeding season, Baird\u2019s Sparrows are closely tied to tallgrass or mixed grass native prairies. They can be found sometimes in managed hayfields or ungrazed pastures. They winter in arid grasslands of the southwestern U.S. and northern Mexico.",
+            ""
+        ]
+    }
+}

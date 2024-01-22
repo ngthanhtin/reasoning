@@ -1,0 +1,52 @@
+{
+    "Northern Mockingbird": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63743751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63743751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63743751-1280px.jpg"
+            ],
+            "description": "Northern Mockingbirds are larger than Gray Catbirds with a paler belly. They also have 2 white wingbars, which Gray Catbirds do not have."
+        }
+    },
+    "Townsend's Solitaire": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67469871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67469871-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67469871-720px.jpg"
+            ],
+            "description": "Townsend's Solitaires are paler gray with a pale eyering unlike Gray Catbirds, which are dark gray without an eyering. Solitaires also act very differently from a catbird, sitting on high, exposed perches."
+        }
+    },
+    "Phainopepla": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67452731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67452731-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67452731-720px.jpg"
+            ],
+            "description": "Phainopeplas have a crest that Gray Catbirds do not have. Female Phainipeplas also have white edges on the wings while Gray Catbirds have solid gray wings."
+        }
+    },
+    "Brown-headed Cowbird": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362271-720px.jpg"
+            ],
+            "description": "Female Brown-headed Cowbirds are browner overall than Gray Catbirds, which are dark gray. They also have a concial bill whereas catbirds have a thin bill."
+        }
+    },
+    "Brewer's Blackbird": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67373981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67373981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67373981-1280px.jpg"
+            ],
+            "description": "Female Brewer's Blackbirds are browner overall than Gray Catbirds with a heftier bill."
+        }
+    }
+}

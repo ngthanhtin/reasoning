@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65761591-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65761591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A stocky small songbird with medium-length tail and fairly heavy, hooked bill and thick legs (compared to warblers)."
+            ],
+            "Compared Size": [
+                "Larger than a Carolina Chickadee, smaller than a Tufted Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.9 in (12-15 cm)",
+                "Weight: 0.5-0.6 oz (13.2-17.2 g)",
+                "Wingspan: 8.7-9.5 in (22.2-24.2 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65761581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761581-720px.jpg"
+        ],
+        "description": [
+            "A moss-green bird with a bluish-gray head and crisp white underparts. The face is set off by clean white \u201cspectacles\u201d and throat. Underparts white, sides greenish yellow. Tail and wings blackish, with two white wingbars.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238671190",
+        "description": [
+            "Blue-headed Vireos forage at middle heights in mature trees, where they move slowly from branch to branch, searching for insects. They tend to move slowly, tilting the head to look carefully in all directions, then pouncing on a caterpillar or other prey.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65761621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761621-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65761621-480px.jpg"
+        ],
+        "description": [
+            "Blue-headed Vireos breed in mature boreal and montane forests of many types; migrants and wintering birds can be found in almost any forested setting but especially those with some understory plants.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Northern populations from Canada to Pennsylvania (subspecies solitarius) have brighter greenish backs and more yellow on the sides; the larger Appalachian nesters (subspecies alticola), found from Maryland to Georgia, have a slatier gray back (thus little contrast between the head and back), and the yellow is usually confined to the flanks.",
+            ""
+        ]
+    }
+}

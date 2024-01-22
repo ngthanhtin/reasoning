@@ -1,0 +1,74 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297038371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297038371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297038371-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476355-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476355-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476355-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297039241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297039241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297039241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70149721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70149721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70149721-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/470187-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/470187-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/470187-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/470184-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/470184-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/470184-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, sky-blue warbler with a horizontal posture. Males have 2 white wingbars and dark streaking on the back. Note blue streaking on the sides.",
+            "Song is a buzzy series of notes that rise in pitch and end in a louder buzzy trill. Males typically sing from perches high in the canopy.",
+            "Males are blue above and white below with blue streaks on the flanks and a thin blue neck band.",
+            "From below, males are mostly white save for a thin blue band around the neck and blue streaking on the flanks. Breeds in the canopy of mature deciduous forests.",
+            "Males sing while foraging within the canopy. From below, note the clean white underparts and blue streaking on the sides of males.",
+            "A canopy dwelling warbler that sings, forages, and breeds in the canopy of older deciduous forests."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297038501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297038501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297038501-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/470190-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/470190-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/470190-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297039451-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297039451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297039451-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297039341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297039341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297039341-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are bluish green above with a slight yellow wash below. They have a whitish eyebrow, and 2 white wingbars.",
+            "Hops along branches plucking insects from foliage.",
+            "Females have an unstreaked yellow-washed belly and a pale eyebrow. Typical females are greenish blue above, but some are considerably paler above.",
+            "Females have an unstreaked belly and lack the neck band."
+        ]
+    }
+}

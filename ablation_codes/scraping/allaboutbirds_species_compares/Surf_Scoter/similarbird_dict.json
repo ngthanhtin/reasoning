@@ -1,0 +1,48 @@
+{
+    "White-winged Scoter": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63900451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63900451-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63900451-720px.jpg"
+            ],
+            "description": "Males have a large white patch in the wing (often concealed) that Surf Scoters lack. They also have a smaller bill than Surf Scoters and lack the white head patch."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63900501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63900501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63900501-1280px.jpg"
+            ],
+            "description": "Females have an oval white patch between the bill and eye as opposed to the vertical patch on the side of the head on female Surf Scoters. They also have a large white patch in wings (often concealed)."
+        }
+    },
+    "Black Scoter": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63901801-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901801-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63901801-720px.jpg"
+            ],
+            "description": "Male Black Scoters have a yellow knob on their bill that Surf Scoters lack. Their body is entirely black unlike Surf Scoters."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-1280px.jpg"
+            ],
+            "description": "Female Black Scoters have a darker cap and a larger white cheek patch than female Surf Scoters."
+        }
+    },
+    "American Coot": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg"
+            ],
+            "description": "American Coots are smaller than Surf Scoters with a smaller and thinner bill. They also lack the Surf Scoters white patch on the back of the neck."
+        }
+    }
+}

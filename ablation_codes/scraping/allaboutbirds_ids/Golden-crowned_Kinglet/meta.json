@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67476611-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67476611-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67476611-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "These are tiny songbirds with a rounded body, short wings, and skinny tail. They have relatively large heads, and their bills are short and thin, perfect for gleaning small insects."
+            ],
+            "Compared Size": [
+                "Smaller than a chickadee; larger than a hummingbird"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.1-4.3 in (8-11 cm)",
+                "Weight: 0.1-0.3 oz (4-8 g)",
+                "Wingspan: 5.5-7.1 in (14-18 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67476631-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67476631-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67476631-480px.jpg"
+        ],
+        "description": [
+            "Golden-crowned Kinglets are pale olive above and gray below, with a black-and-white striped face and bright yellow-orange crown patch. They have a thin white wingbar and yellow edges to their black flight feathers."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651258",
+        "description": [
+            "These tiny songbirds usually stay concealed high in dense trees, revealing their presence with thin, very high-pitched calls. They pluck small insects from clusters of conifer needles, often hovering briefly to reach them. In migration and winter, kinglets frequently join other insectivorous songbirds such as warblers in mixed flocks."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67476661-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67476661-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67476661-480px.jpg"
+        ],
+        "description": [
+            "Golden-crowned Kinglets live mainly in coniferous forests. They breed in boreal or montane forests (especially spruce and fir), as well as in conifer plantations. In winter, kinglets are somewhat less selective about their habitat: though they still use conifers, you may also find them in deciduous forests, suburbs, swamps, bottomlands, and scrubby habitat. They can occur from sea level to more than 10,000 feet elevation."
+        ]
+    }
+}

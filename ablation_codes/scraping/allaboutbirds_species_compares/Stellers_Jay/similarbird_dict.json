@@ -1,0 +1,42 @@
+{
+    "California Scrub-Jay": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/32296701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32296701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32296701-1280px.jpg"
+            ],
+            "description": "California Scrub-Jays lack the Steller's Jay's prominent crest and dark head and underparts."
+        }
+    },
+    "Woodhouse's Scrub-Jay": {
+        "Adult (Woodhouse's)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70581631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70581631-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70581631-720px.jpg"
+            ],
+            "description": "Woodhouse's Scrub-Jays have a round blue head unlike the dark crested head of Steller's Jays."
+        }
+    },
+    "Pinyon Jay": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37117051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37117051-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37117051-720px.jpg"
+            ],
+            "description": "Pinyon Jays lack the Steller's Jay's crest. They also have a shorter tail than Steller's Jays."
+        }
+    },
+    "Blue Jay": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59859171-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59859171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59859171-720px.jpg"
+            ],
+            "description": "Blue Jays have little range overlap with Steller's Jays. Blue Jays have whitish underparts and a blue crest unlike Steller's, which have black-and-blue underparts and a black crest."
+        }
+    }
+}

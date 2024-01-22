@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40695401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40695401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40695401-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A hefty sparrow with a very large, long, pointed bill and a long, rounded tail, long legs, and short, rounded wings."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Savannah Sparrow, slightly smaller than a White-throated Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-5.9 in (13-15 cm)",
+                "Weight: 0.7-1.0 oz (19-29 g)",
+                "Wingspan: 7.1-7.9 in (18-20 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/39346971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39346971-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39346971-480px.jpg"
+        ],
+        "description": [
+            "Dark grayish brown above, paler with diffuse dark streaking below. They have a yellowish spot in front of the eye and a whitish throat broken by dark \u201cmoustache\u201d lines on either side. Overall darkness or brightness varies among subspecies.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669499",
+        "description": [
+            "Clings to marsh grasses to strip seeds and glean insects with the bill. Runs through mud, seizing invertebrates and picking up fallen seeds; also forages by scratching with the feet in wrack or other dead vegetation.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/39346951-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39346951-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39346951-480px.jpg"
+        ],
+        "description": [
+            "Saltmarshes, including brackish marshes and (in the Everglades) freshwater marshes.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize seven subspecies of Seaside Sparrow. The northernmost, maritima, breeds from Maine to northern North Carolina; it is migratory and winters from Virginia to northern Florida. From central North Carolina to southern Georgia, the similar A. m. macgillivraii is resident. Both subspecies are moderately dark overall, with macgillivraii slightly smaller and having thicker dark streaking below than maritima. On Florida\u2019s Gulf Coast, from Tampa to the panhandle, peninsulae resembles macgillivraii but has a more brownish, not grayish back. The other subspecies in the Gulf of Mexico region differ more noticeably. The subspecies fisheri, resident from Alabama to eastern Texas, has bright buff tones in the face and upper breast, and its back is more olive in tone, its wings chestnut in color. To the south on the Texas coast, the subspecies sennetti has less vivid buff tones and a mostly unstreaked greenish back. Where the ranges of these two meet in central Texas, birds appear intermediate in plumage. In Florida, in freshwater marshes of the Everglades, the subspecies mirabilis (\"Cape Sable\" Seaside Sparrow) is resident and listed as Endangered. It is distinctive: whitish with narrow brownish streaks below; white streaks above in fresh plumage. Finally, Florida also had a very dark subspecies, nigrescens, which inhabited the Atlantic coast marshes. It became extinct in 1987. It was known as the Dusky Seaside Sparrow.",
+            ""
+        ]
+    }
+}

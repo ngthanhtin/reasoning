@@ -1,0 +1,53 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60394891-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60394891-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Barred Owls are large, stocky owls with rounded heads, no ear tufts, and medium length, rounded tails."
+            ],
+            "Compared Size": [
+                "Smaller than a Great Horned Owl; larger than a Barn Owl."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-19.7 in (43-50 cm)",
+                "Weight: 16.6-37.0 oz (470-1050 g)",
+                "Wingspan: 39.0-43.3 in (99-110 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60394841-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60394841-480px.jpg"
+        ],
+        "description": [
+            "Barred Owls are mottled brown and white overall, with dark brown, almost black, eyes. The underparts are mostly marked with vertical brown bars on a white background, while the upper breast is crossed with horizontal brown bars. The wings and tail are barred brown and white."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238644031",
+        "description": [
+            "Barred Owls roost quietly in forest trees during the day, though they can occasionally be heard calling in daylight hours. At night they hunt small animals, especially rodents, and give an instantly recognizable \u201cWho cooks for you?\u201d call."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60394901-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60394901-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60394901-480px.jpg"
+        ],
+        "description": [
+            "Barred Owls live in large, mature forests made up of both deciduous trees and evergreens, often near water. They nest in tree cavities. In the Northwest, Barred Owls have moved into old-growth coniferous forest, where they compete with the threatened Spotted Owl. In 2021, a disjunct population of Barred Owls in Mexico, long considered to be a subspecies of Barred Owl, was split and named Cinereous Owl (Strix sartorii).",
+            ""
+        ]
+    }
+}

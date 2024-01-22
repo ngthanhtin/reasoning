@@ -1,0 +1,92 @@
+{
+    "Adult (breweri)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64973431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64973431-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64973401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64973401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973401-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64973421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64973421-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297666101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297666101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297666101-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297666111-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297666111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297666111-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297666121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297666121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297666121-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64973411-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64973411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973411-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Dainty and slim, with a long, notched tail, short rounded wings, and a small, sharply conical bill. Adults are dusky gray-brown, with grayish underparts, a thin white eyering, and a streaked nape.",
+            "Dainty sparrow with plain grayish underparts and throat. The crown is finely streaked and bordered by a pale eyebrow. Thin, white eyering is not always obvious.",
+            "A somewhat drab and finely streaked sparrow. Note streaked crown and nape and thin white eyering.",
+            "",
+            "",
+            "",
+            "Found in the arid sagebrush steppe of interior western North America."
+        ]
+    },
+    "Adult (Timberline)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64973381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973381-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64973381-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297666131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297666131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297666131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The northern subspecies (\u201cTimberline Sparrow\u201d) breeds at high elevations in mountains of northwestern North America. Note darker upperparts and bill, with more contrast to the underparts and facial pattern.",
+            ""
+        ]
+    },
+    "Adult (Brewer's)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/483218-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483218-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483218-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Note relatively long tail, thin eyering, and subtle face pattern with stripe over eye with darker cheek patch."
+        ]
+    },
+    "Juvenile (breweri)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64973391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973391-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are dusky gray-brown overall with a pale eyebrow and a streaked belly."
+        ]
+    }
+}

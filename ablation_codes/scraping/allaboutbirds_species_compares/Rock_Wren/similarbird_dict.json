@@ -1,0 +1,22 @@
+{
+    "Canyon Wren": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68036991-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68036991-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68036991-720px.jpg"
+            ],
+            "description": "Canyon Wrens have a clean white throat and are brighter, rustier brown overall than Rock Wrens."
+        }
+    },
+    "House Wren": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59860721-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59860721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59860721-720px.jpg"
+            ],
+            "description": "House Wrens have little to no eyebrow stripe and lack the Rock Wren's fine gray-black speckling on the back and wings. House Wrens occur in a great variety of habitats, while Rock Wrens are more restricted to dry, rocky areas."
+        }
+    }
+}

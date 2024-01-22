@@ -1,0 +1,42 @@
+{
+    "Philadelphia Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32804881-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32804881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32804881-720px.jpg"
+            ],
+            "description": "Larger than a Tennessee Warbler with a thicker hooked bill and yellower undertail coverts."
+        }
+    },
+    "Orange-crowned Warbler": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64441271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64441271-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64441271-720px.jpg"
+            ],
+            "description": "Orange-crowned Warblers have a less distinct eyeline and yellower undertail coverts than Tennessee Warblers."
+        }
+    },
+    "Warbling Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65763771-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65763771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65763771-720px.jpg"
+            ],
+            "description": "Warbling Vireos have thicker hooked bills and more distinct pale eyebrows than Tennessee Warblers."
+        }
+    },
+    "Red-eyed Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65763991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65763991-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65763991-720px.jpg"
+            ],
+            "description": "Red-eyed Vireos have a thicker hooked bill and a more obvious white eyebrow and darker gray crown than Tennessee Warblers."
+        }
+    }
+}

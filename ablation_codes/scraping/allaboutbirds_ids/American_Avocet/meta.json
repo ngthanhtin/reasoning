@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64807071-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807071-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807071-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Large, slender shorebird with a long, upturned bill, a long neck, and a round head. Its oval body sits atop long legs."
+            ],
+            "Compared Size": [
+                "Larger than a Black-necked Stilt, smaller than a Snowy Egret."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-18.5 in (43-47 cm)",
+                "Weight: 9.7-12.3 oz (275-350 g)",
+                "Wingspan: 28.4 in (72 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64807141-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64807141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807141-480px.jpg"
+        ],
+        "description": [
+            "Breeding birds have a chic rusty head and neck that turns grayish white after breeding. A black patch on the back and black-and-white wings mark its largely white body. The legs are bluish gray.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/270437642",
+        "description": [
+            "Wades through shallow water sweeping its bill side to side for aquatic invertebrates. Often shakes its foot with each step to remove mud from its foot.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64807171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807171-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64807171-480px.jpg"
+        ],
+        "description": [
+            "Found in wetlands including shallow fresh and saltwater wetlands, salt ponds, impoundments, and evaporation ponds. Forages in open water generally less than 8 inches deep. During winter also uses intertidal mudflats, tidal lagoons, brackish impoundments, sewage ponds, rice fields, and flooded pastures.",
+            ""
+        ]
+    }
+}

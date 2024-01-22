@@ -1,0 +1,58 @@
+{
+    "Cackling Goose": {
+        "Adult (Aleutian) ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950661-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950661-720px.jpg"
+            ],
+            "description": "Cackling Geese are smaller with a smaller bill and a shorter neck than Canada Goose. Cackling Geese also have a blockier head and steeper forehead than Canada Geese."
+        },
+        "Adult (minima) ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950681-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950681-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950681-720px.jpg"
+            ],
+            "description": "Cackling Geese tend to be smaller overall than Canada Geese with a smaller bill and shorter neck, but there is some overlap as some Canada Geese can be quite small. Some Cackling Geese have a darker breast as shown here."
+        },
+        "Adult (Richardson's) ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59950701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950701-1280px.jpg"
+            ],
+            "description": "Cackling Geese have a smaller bill and shorter neck than Canada Geese, but beware of smaller bodied Canada Geese and Canada Geese with the their necks drawn in giving them a short-necked appearance."
+        }
+    },
+    "Brant": {
+        "Adult (Atlantic)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59942461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59942461-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59942461-720px.jpg"
+            ],
+            "description": "Brant lack the white chin strap of Canada Goose and have smaller bill."
+        }
+    },
+    "Greater White-fronted Goose": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59938311-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59938311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59938311-720px.jpg"
+            ],
+            "description": "Greater White-fronted Geese have a brown (not black) neck, a pink (not black) bill, and orange (not black) legs."
+        }
+    },
+    "Snow Goose": {
+        "Adult blue morph": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59939631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939631-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939631-720px.jpg"
+            ],
+            "description": "Blue morph Snow Geese have a white (not black) neck and pink (not black) legs."
+        }
+    }
+}

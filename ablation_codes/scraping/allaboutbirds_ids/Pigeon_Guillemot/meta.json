@@ -1,0 +1,59 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66030571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66030571-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66030571-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized seabird with a small head and medium-length, sharply pointed bill. The neck and tail are fairly short; the wings are short and narrow (helps with \u201cflying\u201d underwater)."
+            ],
+            "Compared Size": [
+                "Larger than a Pied-billed Grebe, smaller than a Common Murre."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-13.8 in (30-35 cm)",
+                "Weight: 15.9-19.4 oz (450-550 g)",
+                "Wingspan: 21.6-23.2 in (55-59 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66030621-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66030621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66030621-720px.jpg"
+        ],
+        "description": [
+            "Adult in breeding plumage is mostly dark brown (black from a distance), with dark underwings and white patches in upperwings that are partly broken by a black bar. The feet and interior of the mouth are vivid scarlet. Adults in nonbreeding plumage retain white wing patches but have a mostly whitish head, neck, and underparts. Juveniles are similar but with grayish feathers on the head, neck, and sides and less white in the upperwing.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668200",
+        "description": [
+            "The Pigeon Guillemot dives and swims underwater, flapping its wings for propulsion. It catches fish, worms, and crustaceans one at a time, seizing them from between rocks, among algae, or in the water. It usually forages alone and away from other species as well. Breeds in rocky crevices along the coast or on islands and feeds very near nest sites."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66030581-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66030581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66030581-720px.jpg"
+        ],
+        "description": [
+            "Nests on rocky islands, shorelines, and cliffs. Forages near the ocean shoreline and in openings in sea ice."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize five subspecies that differ mostly in size: eureka in Oregon and California; adianta from Washington to the central Aleutians; kaiurka in the west-central Aleutians and the Commander Islands; columba from the Bering Strait to the Kamchatka Peninsula of Russia. The subspecies of Pigeon Guillemot that inhabits the Kuril Islands of Japan, snowi, has little to no white in the upperwing, unlike other subspecies.",
+            ""
+        ]
+    }
+}

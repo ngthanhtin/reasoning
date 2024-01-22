@@ -1,0 +1,30 @@
+{
+    "White-faced Ibis": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695751-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695751-720px.jpg"
+            ],
+            "description": "White-faced Ibises have a white border that goes all the way around the eye and a bare patch of pink skin in front of the eye that Glossy Ibis do not have."
+        },
+        "Nonbreeding adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70695731-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70695731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70695731-720px.jpg"
+            ],
+            "description": "Immature/nonbreeding White-faced Ibises are very similar to Immature Glossy Ibis and sometimes cannot be separated, especially at a distance. At close range, look for the White-faced Ibis's red eye and the Glossy Ibis's brown eye."
+        }
+    },
+    "White Ibis": {
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70694451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70694451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70694451-720px.jpg"
+            ],
+            "description": "Juvenile White Ibises look similar to juvenile Glossy Ibises, but they have white (not dark) underparts."
+        }
+    }
+}

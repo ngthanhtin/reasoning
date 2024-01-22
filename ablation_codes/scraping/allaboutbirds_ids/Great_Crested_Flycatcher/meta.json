@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65682751-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682751-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65682751-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Great Crested Flycatchers are large flycatchers with fairly long and lean proportions. Like many flycatchers they have a powerful build with broad shoulders and a large head. Despite its name, this bird\u2019s crest is not especially prominent. The bill is fairly wide at the base and straight; the tail is fairly long."
+            ],
+            "Compared Size": [
+                "Larger than an Eastern Bluebird; smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-8.3 in (17-21 cm)",
+                "Weight: 0.9-1.4 oz (27-40 g)",
+                "Wingspan: 13.4 in (34 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/214985891-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/214985891-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/214985891-480px.jpg"
+        ],
+        "description": [
+            "Great Crested Flycatchers are reddish-brown above, with a brownish-gray head, gray throat and breast, and bright lemon-yellow belly. The brown upperparts are highlighted by rufous-orange flashes in the primaries and in the tail feathers. The black bill sometimes shows a bit of pale color at the base."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651296",
+        "description": [
+            "Great Crested Flycatchers are sit-and-wait predators, sallying from high perches (usually near the tops of trees) after large insects, returning to the same or a nearby perch. Their clear, rising reep calls are a very common sound in summer."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65682761-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65682761-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65682761-480px.jpg"
+        ],
+        "description": [
+            "Great Crested Flycatchers live in woodlots and open woodland, particularly among deciduous trees. On its tropical wintering grounds it occurs in similar semiopen habitats. Migrants can occur in nearly any wooded or shrubby habitat."
+        ]
+    }
+}

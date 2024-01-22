@@ -1,0 +1,32 @@
+{
+    "Crissal Thrasher": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40251121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40251121-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40251121-1280px.jpg"
+            ],
+            "description": "Crissal Thrashers are grayer overall with an obvious black mustache stripe that California Thrashers don't have. They also have a yellow eye while California Thrashers have a dark eye."
+        }
+    },
+    "Curve-billed Thrasher": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67456841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67456841-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67456841-720px.jpg"
+            ],
+            "description": "Curve-billed Thrashers have spotting on the belly not seen on California Thrashers. They also have a yellow eye while California Thrashers have a dark eye."
+        }
+    },
+    "LeConte's Thrasher": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40250621-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40250621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40250621-720px.jpg"
+            ],
+            "description": "LeConte's Thrashers are pale sandy gray unlike the brown coloration of the California Thrasher."
+        }
+    }
+}

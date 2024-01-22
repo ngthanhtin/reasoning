@@ -1,0 +1,63 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/398377541-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/398377541-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/398377541-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small kingfisher with a very long, pointed bill, rather long tail, and short, rather narrow wings."
+            ],
+            "Compared Size": [
+                "Larger than a Tree Swallow, much smaller than a Belted Kingfisher."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8 in (30 cm)",
+                "Weight: 1.2-1.4 oz (35-40 g)",
+                "Wingspan: 11.0 in (27.9 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/398378881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/398378881-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/398378881-480px.jpg"
+        ],
+        "description": [
+            "Adults are green with a white collar and white spangling in the wings; and white below with dark green belly spots. Males have a rufous breast; females have a double green breast band. Juveniles resemble adult females but may have a bronze tinge to the crown."
+        ]
+    },
+    "Behavior": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/303720011-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/303720011-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/303720011-480px.jpg"
+        ],
+        "description": [
+            "Perches low over water, then makes quick dives to capture prey in the bill. Rarely hovers. While perched, often jerks the head and tail upward. Nests in riverbank burrows."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/303719741-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/303719741-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/303719741-480px.jpg"
+        ],
+        "description": [
+            "Freshwater sites with clear water and plenty of vegetation along the edges, including rivers, creeks, streams, ditches, ponds, lakes, and resacas (oxbow lakes).",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Of the five very similar subspecies recognized by ornithologists, only hachisukai occurs in the United States. It is strongly marked in the wing and has a bronzy green rather than blue-green sheen in the upperparts. The subspecies found farther south (septentrionalis, americana, cabanisii, and mathewsii) differ mostly in size and in the extent of white markings in the wings, dark markings in the underparts, and the tone of green in the plumage.",
+            ""
+        ]
+    }
+}

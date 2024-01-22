@@ -1,0 +1,104 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305516121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305516121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305516121-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305510151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305510151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305510151-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65072021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65072021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65072021-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305509931-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305509931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305509931-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/421164-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/421164-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/421164-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305510611-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305510611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305510611-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305512691-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305512691-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305512691-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/455561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455561-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Large, slender grebe with long, straight bill. Dark cap extends below eye. Bill is fairly dull yellowish-green.",
+            "Large, slender grebe with long neck and sharp border between blackish upperparts and white neck and cheek. Bill is dull yellow; black cap surrounds the eye.",
+            "Pairs bond using several displays, including synchronized \"running\" on the water. Displays usually begin during migration and continue on breeding grounds.",
+            "Western Grebes typically give a harsh rattle call when advertising for or responding to a potential mate. They also call when separated from family members.",
+            "Large grebe with long, slender dull-yellow bill. In winter the bill is usually at its least bright, and the dark crown fades to grayish surrounding the eye.",
+            "Breeds on freshwater lakes and marshes; winters mainly on seacoasts.",
+            "Adults forage in open fresh or saltwater for a wide variety of fish, crustaceans, aquatic worms, and insects."
+        ]
+    },
+    "Adults": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455564-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/455564-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455564-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Western Grebes perform a unique courtship behavior where a male and female lift their torsos out of the water and run across the surface side by side. This \"rushing ceremony\" completes their monogamous pair bond."
+        ]
+    },
+    "Adult and chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305510021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305510021-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305510021-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Note long, thin neck, puffy head, and long, slender bill. Carries chicks on its back after hatching."
+        ]
+    },
+    "Adult with juveniles": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447832-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447832-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/447832-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Parents initially feed their young small fish or insect larvae, but transition to larger prey items when they are old enough. Young begin gaining independence at several weeks of age where they are able to dive and feed themselves."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305511911-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305511911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305511911-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

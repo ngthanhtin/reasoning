@@ -1,0 +1,98 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307948931-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307948931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307948931-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307949381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307949381-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307949381-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67364551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364551-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67364571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67364571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, lanky blackbirds with long legs, a long tail, and a long and heavy bill. Adult males appear dark overall, but have an iridescent bluish head and bronzy body in good light.",
+            "Struts on long legs, pecking for food rather than scratching.",
+            "Noisy and conspicuous blackbird with a long tail.",
+            "Found in agricultural fields, feedlots, city parks, and suburban lawns. They\u2019re also common in open habitats including woodland, forest edges, meadows, and marshes."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67364581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364581-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Lanky blackbird with a long tail and heavy, long bill. Females are slightly less glossy than males."
+        ]
+    },
+    "Adult males": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/485161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/485161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/485161-720px.jpg"
+            ]
+        ],
+        "description": [
+            "The typical song, made by both males and females, is a guttural squeak accompanied by high-pitched, clear whistles. It lasts just less than a second and is often described as sounding like a rusty gate. While singing, males puff up their body feathers and spread their tails."
+        ]
+    },
+    "Female (Purple form)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307949491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307949491-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307949491-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females of the purple form can be similarly colored to males, but note the shorter tail that lacks a paddle shape."
+        ]
+    },
+    "Female (Bronze form)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307949681-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307949681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307949681-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females can be very dark, notably those of the bronze form."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67364591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67364591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/307949641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/307949641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/307949641-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Lanky blackbird with a long tail and hefty bill. Immatures are brownish overall, with a dark eye, and less glossy than adults.",
+            ""
+        ]
+    }
+}

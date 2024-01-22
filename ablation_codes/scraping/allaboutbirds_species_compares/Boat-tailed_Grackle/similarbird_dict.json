@@ -1,0 +1,48 @@
+{
+    "Great-tailed Grackle": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67363301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67363301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67363301-1280px.jpg"
+            ],
+            "description": "Overlaps with Boat-tailed Grackle along the western Gulf Coast where Great-tailed Grackles have pale yellow eyes and Boat-tailed Grackles have dark eyes. Great-tailed Grackles are more likely to be seen away from coasts than Boat-tailed."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67363291-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67363291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67363291-1280px.jpg"
+            ],
+            "description": "Overlaps with Boat-tailed Grackle along the western Gulf Coast where Great-tailed Grackles have pale yellow eyes and Boat-tailed Grackles have dark eyes. Great-tailed Grackles are more likely to be seen away from coasts than Boat-tailed."
+        }
+    },
+    "Common Grackle": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67364531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364531-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364531-720px.jpg"
+            ],
+            "description": "Common Grackles are smaller with slimmer bills and shorter tails than Boat-tailed Grackles."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67364581-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364581-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67364581-720px.jpg"
+            ],
+            "description": "Female and young Common Grackles are more uniformly dark brown than female Boat-tailed Grackle, and lack the subtle face pattern."
+        }
+    },
+    "Fish Crow": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70580031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70580031-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70580031-720px.jpg"
+            ],
+            "description": "Fish Crows are heavier and have larger bodies, thicker bills, and much shorter tails than Boat-tailed Grackles."
+        }
+    }
+}

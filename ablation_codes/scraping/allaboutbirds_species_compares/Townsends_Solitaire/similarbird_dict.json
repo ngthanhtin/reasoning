@@ -1,0 +1,52 @@
+{
+    "Mountain Bluebird": {
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67471181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67471181-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67471181-720px.jpg"
+            ],
+            "description": "Female/immature Mountain Bluebirds have faint blue tinges in the wings and tail and lack the buffy wingbars of Townsend's Solitaires."
+        }
+    },
+    "Northern Mockingbird": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63743751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63743751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63743751-1280px.jpg"
+            ],
+            "description": "Northern Mockingbirds are larger and paler gray-brown above with a paler belly. They also have large white wing patches and lack the white eyering of Townsend's Solitaire. Mockingbirds don't tend to perch as upright as Townsend's Solitaires do."
+        }
+    },
+    "Western Wood-Pewee": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65617091-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65617091-720px.jpg"
+            ],
+            "description": "Western Wood-Pewees are smaller and often show a peaked crown as opposed to the round headed look of the Townsend\u2019s Solitaire. Western Wood-Pewees also have narrow whitish wingbars (not buffy) and lack an eyering."
+        }
+    },
+    "Olive-sided Flycatcher": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/38663861-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/38663861-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/38663861-720px.jpg"
+            ],
+            "description": "Olive-sided Flycatchers are smaller than Townsend's Solitaires and have a very distinctive vested look when seen head on. They also have longer bills and a slightly peaked crown relative to Townsend's."
+        }
+    },
+    "Canada Jay": {
+        "Adult (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70582941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70582941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70582941-1280px.jpg"
+            ],
+            "description": "Canada Jays are larger than Townsend\u2019s Solitaires, with white cheeks and without the solitaire's wingbars or eyering."
+        }
+    }
+}

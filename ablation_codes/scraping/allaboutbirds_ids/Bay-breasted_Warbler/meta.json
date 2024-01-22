@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64800361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64800361-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64800361-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small songbird with a fine, pointed bill and rather long wings and tail."
+            ],
+            "Compared Size": [
+                "Larger than a chickadee, smaller than a sparrow; similar in size to Yellow-rumped Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5 in (14 cm)",
+                "Weight: 0.3-0.6 oz (10-17 g)",
+                "Wingspan: 7.9-8.7 in (20-22 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64800391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64800391-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64800391-480px.jpg"
+        ],
+        "description": [
+            "Breeding males are grayish above with a reddish-brown crown, breast and flanks, black face, and creamy buff underparts and rear cheek. Breeding females are similar but lack black mask and have less bay color. In the nonbreeding plumage, yellow-green upperparts and whitish underparts, usually with a hint of pinkish brown on the flanks. All plumages have two strong white wingbars.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/397283526",
+        "description": [
+            "Bay-breasted Warblers feed by hopping and flying around in the inner parts of trees and watching for insect prey, which they capture by gleaning and occasionally hovering. They readily join mixed-species flocks in the nonbreeding season, when they consume more fruit than insects.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64800401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64800401-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64800401-480px.jpg"
+        ],
+        "description": [
+            "Breeds in boreal forests, chiefly mature coniferous forests. Winters in wet lowland tropical forests. Migrants use many types of forest and edge habitats.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67456051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67456051-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67456051-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Brown Thrashers are fairly large, slender songbirds with long proportions\u2014the legs are long and sturdy, and the bill is long and slightly downcurved. The tail is long, too, and often cocked upward in the manner of wrens."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Blue Jay; slightly larger than a Northern Mockingbird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-11.8 in (23-30 cm)",
+                "Weight: 2.1-3.1 oz (61-89 g)",
+                "Wingspan: 11.4-12.6 in (29-32 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67456041-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67456041-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67456041-480px.jpg"
+        ],
+        "description": [
+            "Brown Thrashers are foxy brown birds with heavy, dark streaking on their whitish underparts. The face is gray-brown and the wings show two black-and-white wingbars. They have bright-yellow eyes."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651580",
+        "description": [
+            "Brown Thrashers skulk in shrubby tangles or forage on the ground below dense cover. They\u2019re most obvious when they sing their loud songs from shrubs and treetops. The song is a complex string of many musical phrases (many copied from other birds\u2019 songs, with each phrase typically sung twice before moving on). They also make a distinctive, harsh",
+            "tsuck",
+            "note."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67456061-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67456061-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67456061-480px.jpg"
+        ],
+        "description": [
+            "Scrubby fields, dense regenerating woods, and forest edges are the primary habitats of Brown Thrashers. They rarely venture far from thick undergrowth into which they can easily retreat."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Brown Thrashers from the western Great Plains are slightly larger and paler than those breeding farther east."
+        ]
+    }
+}

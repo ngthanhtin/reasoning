@@ -1,0 +1,128 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305364081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364081-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305364081-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60322131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322131-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60322131-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/412584-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/412584-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/412584-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60322161-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60322161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322161-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large with long wings. All dark brown, with slightly paler flight feathers. Golden nape can be seen from some angles.",
+            "Very large with strongly hooked bill. All dark brown, with contrasting golden-brown nape.",
+            "Soars with wings slightly raised in a V, or dihedral. In silhouette, typically shows a small head and long tail. The broad wings narrow in sharply at the body. Golden nape feathers are often surprisingly visible from distance.",
+            "Constructs large stick nests, usually in large trees."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60322151-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60322151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322151-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305364411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305364411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364411-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/460081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/460081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/460081-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305364311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364311-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305364441-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305364441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364441-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305364421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364421-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305364401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305364401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305364401-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large with long wings. All dark brown, with white patches at the base of the primaries in the wing, and at the base of the tail. Golden nape can be seen from some angles.",
+            "",
+            "Large, bulky eagle with strongly hooked bill. In addition to hunting, often eats roadkill or other carrion, and may be found near road edges. Immatures have white patches at the bases of the primaries.",
+            "Very large with strongly hooked bill. All dark brown, with contrasting golden-brown nape. Immatures have a white base to the tail, visible from some angles.",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Adult and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/486764-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/486764-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/486764-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Builds large stick nests, often on cliff faces. Note golden feathers on nape (back of the neck)\u2014usually present on immatures through adults."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464024-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464024-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464024-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Young chicks are white and downy until they grow their first brown body and flight feathers. The large stick nests are often placed on cliff ledges and used year after year."
+        ]
+    },
+    "Immature (with Bald Eagle)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60322111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322111-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60322111-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large with long wings. All dark brown, with white patches at the base of the primaries in the wing, and at the base of the tail. Golden nape can be seen from some angles. (Golden Eagle at right; Bald Eagle at left.)"
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60322121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60322121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60322121-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Occurs in a wide variety of habitats, usually in fairly open areas and/or near large cliffs."
+        ]
+    }
+}

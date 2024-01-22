@@ -1,0 +1,98 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299350191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299350191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299350191-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299351081-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299351081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299351081-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482885-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482885-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482885-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299351161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299351161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299351161-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299350521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299350521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299350521-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482883-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482883-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482883-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299350851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299350851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299350851-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/421085-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/421085-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/421085-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299351111-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299351111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299351111-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/413909-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413909-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413909-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299350901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299350901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299350901-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, flat-headed sparrow with a small bill and a buffy wash on the face and breast. The eyeline is dark and wider toward the back of the head. The eyebrow is brighter than the rest of the face.",
+            "",
+            "Song is a fine, hissing grasshopper-like buzz, starting and ending with a faint \"tik.\"",
+            "",
+            "Small, flat-headed sparrow with a small bill. Overall rather buffy with a gray cheek patch and a dark eyeline that gets wider toward the back of the head.",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299351171-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299351171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299351171-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299350681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299350681-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299350681-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299351131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299351131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299351131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Juveniles have similar features as adults, but with less distinct markings.",
+            "Juveniles look like adults, but tend to be buffier overall with less distinct markings."
+        ]
+    }
+}

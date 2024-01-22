@@ -1,0 +1,54 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68041771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68041771-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68041771-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Bushtits are tiny, kinglet-sized birds. They are plump and large-headed, with long tails and short, stubby bills."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a chickadee; about the size of a kinglet."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68041721-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68041721-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68041721-480px.jpg"
+        ],
+        "description": [
+            "Bushtits are fairly plain brown-and-gray birds. Slightly darker above than below, they have brown-gray heads, gray wings, and tan-gray underparts. Males in parts of the range have contrasting blackish face masks."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238636591",
+        "description": [
+            "Bushtits move quickly through vegetation, almost always in flocks, and continuously make soft chips and twitters. They forage much as chickadees do, frequently hanging upside down to grab small insects and spiders from leaves. Bushtits build a hanging nest out of soft materials such as grasses and spider webs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68041781-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68041781-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68041781-480px.jpg"
+        ],
+        "description": [
+            "Bushtits live in oak forest, evergreen woodlands, dry scrublands, streamsides, and suburbs. You can find them at elevations from sea level to over 10,000 feet."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Individuals of this species tend to be darker in more humid coastal areas. Along the Pacific Coast, Bushtits have brown crowns; birds farther inland have gray crowns. The frequency of Bushtits with blackish masks increases in southern parts of the range."
+        ]
+    }
+}

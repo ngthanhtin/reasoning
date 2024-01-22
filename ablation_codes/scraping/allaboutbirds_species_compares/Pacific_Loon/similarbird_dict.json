@@ -1,0 +1,66 @@
+{
+    "Red-throated Loon": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63916591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63916591-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63916591-720px.jpg"
+            ],
+            "description": "Breeding Red-throated Loons have a solid black back and a red throat whereas breeding Pacific Loons have a barred back and a black throat."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63916571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63916571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63916571-1280px.jpg"
+            ],
+            "description": "Nonbreeding Red-throated Loons have more extensive white on the face and neck than nonbreeding/immature Pacific Loons. They also hold their bills up while Pacific Loons hold their bill straight."
+        }
+    },
+    "Common Loon": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63918061-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63918061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63918061-1280px.jpg"
+            ],
+            "description": "Common Loons have a thicker bill than Pacific Loons. They have a checkered back and striped collar whereas Pacific Loons have a barred back and vertical striping on the neck."
+        },
+        "Nonbreeding/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63918031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63918031-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63918031-720px.jpg"
+            ],
+            "description": "Nonbreeding/immature Common Loons are larger with a thicker bill. They also have a jagged collar around the neck while the neck on nonbreeding Pacific Loons is smooth."
+        }
+    },
+    "Arctic Loon": {
+        "Breeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/46032601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/46032601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/46032601-1280px.jpg"
+            ],
+            "description": "Arctic Loon is nearly identical, but has a flatter crown and a white patch at the rear that Pacific Loons lack. Arctic Loons are rarely encountered in the Lower 48."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/46032581-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/46032581-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/46032581-720px.jpg"
+            ],
+            "description": "Nonbreeding Arctic Loon lacks a \"chinstrap\" like nonbreeding Pacific Loons. They also show more extensive white on the sides than Pacific Loons."
+        }
+    },
+    "Double-crested Cormorant": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66027261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027261-1280px.jpg"
+            ],
+            "description": "Double-crested Cormorants have a longer neck and do not have white on the neck like nonbreeding Pacific Loons."
+        }
+    }
+}

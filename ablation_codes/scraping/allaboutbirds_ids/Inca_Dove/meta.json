@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66035501-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66035501-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66035501-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Inca Dove is a small and slender dove with a long, square-tipped tail and small head. It has a thin and slightly drooping bill and short legs."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Common Ground-Dove, smaller than a Mourning Dove."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66035521-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66035521-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66035521-480px.jpg"
+        ],
+        "description": [
+            "The Inca Dove is the color of desert sands. Its tan feathers are edged in dark brown creating a scaly pattern over the entire body. Its underparts and face are paler than its back. In flight, the underwings flash a rich chestnut and the outer tail feathers flash white."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639539",
+        "description": [
+            "Inca Doves walk quietly on the ground pushing their heads forward and back as they go. When they take flight their wings make a dry rattling sound. They are vocal doves, cooing \"no hope\" at all hours of the day all year long."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66035511-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66035511-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66035511-480px.jpg"
+        ],
+        "description": [
+            "Inca Doves frequent areas near people including cities, towns, parks, and farms. In these areas, they use open areas with sparse shrub cover and scattered trees such as palo verde and oak."
+        ]
+    }
+}

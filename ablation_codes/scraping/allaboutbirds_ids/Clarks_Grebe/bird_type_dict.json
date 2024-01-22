@@ -1,0 +1,98 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/164017921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/164017921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/164017921-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305527731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527731-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/419838-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/419838-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/419838-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305527811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527811-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305527811-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305527431-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305527431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527431-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65074891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65074891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65074891-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65074901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65074901-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65074901-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65074881-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65074881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65074881-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, slender grebe with a long, thin, straight bill. Black crown does not reach eye, and the bill is bright yellow-orange, especially in summer.",
+            "",
+            "Dives underwater for fish and other marine invertebrates.",
+            "Pairs bond using several displays, including synchronized \"running\" on the water.",
+            "",
+            "Elegant large grebe with a snakelike neck, puffy head, and a long, straight bill. Black cap does not cover the eye.",
+            "Black line on back of neck is narrow. Tufts of feathers on crown can make the head seem much wider than the neck.",
+            "Breeds on freshwater lakes; winters mainly on seacoasts."
+        ]
+    },
+    "Adult and chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305527561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305527561-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305527561-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adults": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/455567-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455567-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455567-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447844-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/447844-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447844-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Pairs perform elaborate displays during courtship, including a synchronized running dance. This video has no audio.",
+            "Primarily consumes small fish, which they pinch between the bill several times before swallowing it hole."
+        ]
+    },
+    "Adults and juveniles": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447833-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447833-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/447833-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chicks hitch rides on their parent's backs after hatching until they are too big to fit."
+        ]
+    }
+}

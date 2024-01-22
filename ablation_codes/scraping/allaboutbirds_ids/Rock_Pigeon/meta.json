@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66031241-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66031241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66031241-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Larger and plumper than a Mourning Dove, Rock Pigeons are tubby birds with small heads and short legs. Their wings are broad but pointed wings and the tail is wide and rounded."
+            ],
+            "Compared Size": [
+                "Larger than a Mourning Dove; smaller than a crow."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-14.2 in (30-36 cm)",
+                "Weight: 9.3-13.4 oz (265-380 g)",
+                "Wingspan: 19.7-26.4 in (50-67 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66031271-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66031271-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66031271-480px.jpg"
+        ],
+        "description": [
+            "Variable in color, but most birds are bluish gray with two black bands on the wing and a black tip to the tail. Most birds have iridescent throat feathers. Wing patterns may include two bars, dark spots, or can be plain. The tail is usually dark tipped."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239739885",
+        "description": [
+            "Pigeons often gather in flocks, walking or running on the ground and pecking for food. When alarmed, the flock may suddenly fly into the air and circle several times before coming down again."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66031231-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66031231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66031231-720px.jpg"
+        ],
+        "description": [
+            "Pigeons are familiar birds of cities and towns. You'll also see them around farmland and fields, as well as in their archetypal habitat, rocky cliffs."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Rock Pigeons with red plumage may be more common in the southwestern United States than in northern and eastern areas."
+        ]
+    }
+}

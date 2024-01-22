@@ -1,0 +1,40 @@
+{
+    "Cassin's Auklet": {
+        "Breeding ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40539701-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40539701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40539701-720px.jpg"
+            ],
+            "description": "Cassin's Auklets are slightly smaller than Parakeet Auklets, with a bill that's less thick and is dark gray, instead of orange. Cassin's are uniformly gray (including underparts) and they lack the Parakeet's long streak behind the eye."
+        }
+    },
+    "Rhinoceros Auklet": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40264201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40264201-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40264201-720px.jpg"
+            ],
+            "description": "Rhinoceros Auklets are larger than Parakeet Auklets, with a longer and less thick bill. They have 2 face streaks and gray underparts, unlike Parakeet's single streak and white underparts."
+        }
+    },
+    "Tufted Puffin": {
+        "Breeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40539041-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40539041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40539041-720px.jpg"
+            ],
+            "description": "Breeding Tufted Puffins have a white face and extravagant gold-yellow head plumes that sweep behind the head, unlike Parakeet Auklet's dark face and thin white face streak."
+        },
+        "Nonbreeding ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32802781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32802781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32802781-720px.jpg"
+            ],
+            "description": "Nonbreeding Tufted Puffins are larger than Parakeet Auklets, and are uniformly gray-brown without Parakeet's white chest and belly."
+        }
+    }
+}

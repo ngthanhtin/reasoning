@@ -1,0 +1,98 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297027781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297027781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297027781-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64456401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64456401-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64456421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64456421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456421-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482669-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482669-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482669-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64456441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456441-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403680-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403680-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403680-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Adult males have a bright yellow face surrounded by a black hood and throat. They are olive above and yellow below. Often fans tail to show white outer tail feathers.",
+            "Often found in the understory of forests with shrubby understory. Adult males have a bright yellow face and a beady black eye surrounded by a black hood and throat.",
+            "Adult males have a bright yellow face surrounded by black hood and throat. Olive above and yellow below. Often fans tail to show white outer tail feathers.",
+            "Males sing throughout the day, but tend to sing more both early and late in the day.",
+            "Breeds in hardwood forests with a shrubby understory in the eastern United States and a small area in southern Canada.",
+            "Spends much of its time in the understory flitting between shrubs and flicking its tail to reveal white outer tail feathers."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64456411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456411-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64456411-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64456451-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64456451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456451-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Some adult females show a partial black crown spotted with yellow. Entirely yellow below except for white undertail feathers. Adult females vary considerably in the extent of black on the head and neck, from little or no black to a complete male-like hood. In all plumages, entirely yellow below.",
+            "Many adult females have a near-complete hood, but it is usually neither as black nor as extensive as it is in males."
+        ]
+    },
+    "Adult male ": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465866-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/465866-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465866-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Males sing an emphatic ringing weeta-weeta-weet-tee-o."
+        ]
+    },
+    "Immature female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64456381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456381-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64456381-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature females during their first year either lack black on the head and neck or have only traces of black framing the yellow face; entirely yellow below. The underside of the tail feathers are white; the outer corners flash white when fanned."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403723-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403723-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403723-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Hops quickly on the ground and through the shrub layer often flicking its tail."
+        ]
+    }
+}

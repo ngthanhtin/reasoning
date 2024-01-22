@@ -1,0 +1,42 @@
+{
+    "Brown-crested Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32803491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32803491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32803491-1280px.jpg"
+            ],
+            "description": "Brown-crested Flycatchers have a paler gray chest and a paler yellow belly than Great Crested Flycatchers. The tail, when seen from below, is less extensively rufous-orange than the Great Crested\u2019s tail, which has more brown on the sides."
+        }
+    },
+    "Ash-throated Flycatcher": {
+        "Unknown Type": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65682561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65682561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65682561-1280px.jpg"
+            ],
+            "description": "Ash-throated Flycatchers are smaller and paler overall than Great Crested Flycatchers. The bill is shorter and thinner than Great Crested."
+        }
+    },
+    "Eastern Wood-Pewee": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65617351-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65617351-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65617351-720px.jpg"
+            ],
+            "description": "Eastern Wood-Pewees are smaller and have whiter underparts than Great Crested Flycatchers. They also do not have cinnamon in the wings or tail like Great Crested Flycatcher do."
+        }
+    },
+    "Eastern Phoebe": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65681491-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65681491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65681491-720px.jpg"
+            ],
+            "description": "Eastern Phoebes are smaller and have whiter underparts than Great Crested Flycatchers. They also do not have cinnamon in the wings or tail like Great Crested Flycatcher do."
+        }
+    }
+}

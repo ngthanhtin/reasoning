@@ -1,0 +1,122 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303992401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303992401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303992401-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466305-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466305-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466305-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303993901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993901-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303993301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303993301-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65766321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766321-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/448454-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/448454-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/448454-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303993751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993751-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303993851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993851-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65766291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766291-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Big-headed for a hummingbird. Adult males have a rose-magenta throat, a white breast, and green and buffy flanks.",
+            "",
+            "",
+            "Adult males have a rose-magenta throat, a white breast, and green and buffy flanks. The tail feathers are broader than other hummingbirds, but tail details can be hard to see.",
+            "On perched birds, the tail extends beyond the wingtips.",
+            "",
+            "",
+            "",
+            "Breeds in meadows and open woodlands, especially pinyon-juniper, pine-oak, evergreen, and montane scrub and thickets."
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303994911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303994911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303994911-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303993621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993621-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303993461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303993461-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Females/immatures are metallic green above with buffy flanks. They have green spots on their throats and cheeks and a pale eyering.",
+            "In flight, broad and rounded tail feathers are distinctive. Note rusty color at the base of the tail feathers and white tips on the outer tail feathers."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466289-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466289-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466289-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65766311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65766311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender-bodied and big-headed for a hummingbird. Immature males have a few magenta feathers coming in on the throat."
+        ]
+    },
+    "Adult male and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466288-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466288-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466288-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

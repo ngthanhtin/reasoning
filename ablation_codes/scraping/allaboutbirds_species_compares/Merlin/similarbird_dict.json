@@ -1,0 +1,58 @@
+{
+    "American Kestrel": {
+        "Adult male (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70583901-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70583901-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70583901-720px.jpg"
+            ],
+            "description": "American Kestrels are much less heavily marked below than Merlins and they lack the Merlin's white tail bands."
+        },
+        "Female (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70583861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70583861-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70583861-720px.jpg"
+            ],
+            "description": "Female American Kestrels have bolder black markings on the face than Merlins. Females have barring on the back, unlike the solid brown back of Merlins."
+        }
+    },
+    "Prairie Falcon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547421-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547421-720px.jpg"
+            ],
+            "description": "Adult Prairie Falcons have cleaner underparts than Merlins. They also have a stronger mustache mark than Merlins."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547441-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547441-1280px.jpg"
+            ],
+            "description": "Prairie Falcons can readily be separated from Merlins in flight by their dark \u201carmpit\u201d patches, visible on both immatures and adults."
+        }
+    },
+    "Peregrine Falcon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60410421-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60410421-720px.jpg"
+            ],
+            "description": "Peregrine Falcons are larger than Merlins with a bigger chest and broader wings than Merlins. They also have a hooded look and a stronger mustache."
+        }
+    },
+    "Sharp-shinned Hawk": {
+        "Adult (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70780471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780471-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70780471-720px.jpg"
+            ],
+            "description": "Sharp-shinned Hawks have more rounded wings than the pointed wings of Merlins. The tail is also longer than the Merlin's tail."
+        }
+    }
+}

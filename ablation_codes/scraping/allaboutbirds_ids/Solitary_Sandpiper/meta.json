@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64834181-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64834181-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64834181-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small, slender shorebird with a somewhat long neck and long bill. It has fairly long wings and legs."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Spotted Sandpiper, smaller than a Lesser Yellowlegs."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-9.1 in (19-23 cm)",
+                "Weight: 1.1-2.3 oz (31.1-65.1 g)",
+                "Wingspan: 21.6-22.4 in (55-57 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64834191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64834191-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64834191-480px.jpg"
+        ],
+        "description": [
+            "Dark olive-brown above with a white eyering; pale below. In breeding plumage, the head and breast show dark stippling and the upperparts are neatly spotted with white. In nonbreeding plumage the back is mostly unspotted and the breast is washed with brown. The legs are olive. Dark underwings contrast sharply with white belly in flight.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667458",
+        "description": [
+            "Solitary Sandpipers forage in small freshwater wetlands, often in wooded environments, where they walk slowly through shallow water, frequently bobbing the rear of the body. When startled, they fly a short distance, call, and land, often keeping the wings raised above the body momentarily after landing.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64834201-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64834201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64834201-480px.jpg"
+        ],
+        "description": [
+            "Solitary Sandpipers nest in arctic muskeg bogs. Migrating and wintering birds use wooded swamps, river edges, bogs, lakes, ponds, ditches, pastures, rice fields, and wet meadows.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Solitary Sandpiper has two subspecies, solitaria, which breeds and migrates east of the Rocky Mountains, and cinnamomea, which breeds and migrates west of the Rockies. They are best identified in fresh plumage by tail pattern, loral pattern, and colors of their upperparts. Cinnamomea is larger, with narrow white bars on the tail; solitaria has broad bars. The two subspecies winter in different parts of Central and South America.",
+            ""
+        ]
+    }
+}

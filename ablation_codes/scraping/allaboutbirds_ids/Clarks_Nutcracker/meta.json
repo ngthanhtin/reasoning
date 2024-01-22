@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70580641-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70580641-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70580641-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Clark\u2019s Nutcrackers are the size of a jay but the shape of a crow, with short tails and rounded, crestless heads. The bill is long, straight, and sharp-tipped."
+            ],
+            "Compared Size": [
+                "Smaller than an American Crow; about the size of a Steller\u2019s Jay but more compact."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70580621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70580621-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70580621-480px.jpg"
+        ],
+        "description": [
+            "Clark\u2019s Nutcrackers are pale gray birds with black wings. In flight, the wings show large white patches along the trailing edges (secondaries). The tail is black in the center with broad white along either side. Nutcrackers have black bills, legs, and feet."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667666",
+        "description": [
+            "Nutcrackers travel in flocks and use their spike-like bills to pick seeds out of pine cones. They eat some of the seeds and bury thousands of others for the winter. Nutcrackers fly on broad, floppy wings and make rolling, gravelly calls audible from far away."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70580671-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70580671-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70580671-720px.jpg"
+        ],
+        "description": [
+            "Clark\u2019s Nutcrackers are birds of the mountains. They are closely associated with pines that produce large seeds, such as whitebark pine and limber pine, but are also found in other montane evergreen forests from about 3,000 to more than 11,000 feet in the West."
+        ]
+    }
+}

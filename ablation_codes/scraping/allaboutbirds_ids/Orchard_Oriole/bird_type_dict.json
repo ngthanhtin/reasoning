@@ -1,0 +1,128 @@
+{
+    "Adult male (Orchard)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306351671-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306351671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306351671-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466501-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466251-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306353551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306353551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353551-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Slim songbirds with a straight, sharply pointed bill. Adult males are mostly black above with chestnut underparts and a chestnut patch in the wings.",
+            "",
+            "",
+            "Small for an Oriole with a straight, sharply pointed bill. Adult males have a black hood and upper back and a chestnut rump and underparts."
+        ]
+    },
+    "Female (Orchard)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67361111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67361111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67361111-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Slim songbird with a straight, sharply pointed bill. Females are greenish yellow with two white wing bars and no black on the head or back."
+        ]
+    },
+    "Immature male (Orchard)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306352431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306352431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306352431-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306353291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353291-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466570-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466570-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466570-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature males are greenish yellow overall like females, but have a black throat.",
+            "As immature males molt into adult plumage patches of chestnut and black feathers begin to replace the greenish yellow feathers.",
+            ""
+        ]
+    },
+    "Adult male (Fuertes's)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306353381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353381-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The subspecies (Fuertes's) that breeds in northeast Mexico and winters in southwest Mexico has golden yellow underparts instead of chestnut."
+        ]
+    },
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306353961-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306353961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353961-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306353941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306353941-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult female (Orchard)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403243-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403243-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403243-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Male (Orchard)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306353751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306353751-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Spend summers in open woodlands and areas of scattered trees. Look for them along river edges, in pastures with scattered trees, and in parks and orchards."
+        ]
+    }
+}

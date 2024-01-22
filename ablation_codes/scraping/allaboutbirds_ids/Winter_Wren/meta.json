@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68035611-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035611-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035611-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Winter Wren is a plump round ball with a stubby tail that it usually holds straight up. Its bill is small and thin, in keeping with its diminutive appearance."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-throated Hummingbird, smaller than a Carolina Wren."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.1-4.7 in (8-12 cm)",
+                "Weight: 0.3-0.4 oz (8-12 g)",
+                "Wingspan: 4.7-6.3 in (12-16 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68035621-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035621-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68035621-480px.jpg"
+        ],
+        "description": [
+            "In the dark forest understory, the Winter Wren appears brown overall. With a closer look, you\u2019ll see darker brown barring on the wings, tail, and belly. It has a pale tan eyebrow stripe above the eye and a plain brown cap. Its unmarked throat and barred belly are pale tan, paler than the back."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238636824",
+        "description": [
+            "Winter Wrens hop and scamper through the understory moving more like a mouse than a bird as they investigate upturned roots and decaying logs for food. These energetic birds often bob their entire bodies as if doing squats while they nervously look around in the forest understory. In flight they rapidly beat their tiny wings to move short distances between cover."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68035601-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035601-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68035601-480px.jpg"
+        ],
+        "description": [
+            "Winter Wrens use both deciduous and evergreen forests with plenty of downed logs, standing dead trees, larger trees, and understory vegetation. They are often more common in areas near streams."
+        ]
+    }
+}

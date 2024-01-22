@@ -1,0 +1,48 @@
+{
+    "Tundra Swan": {
+        "Adult (Whistling)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59956021-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59956021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59956021-720px.jpg"
+            ],
+            "description": "Tundra Swans are smaller than Trumpeter Swans with a small yellow patch in front of the eye. The area where the bill meets the head is V-shaped on Trumpeter Swans but U-shaped on Tundra Swans."
+        },
+        "Juvenile (Whistling)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59955961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59955961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59955961-1280px.jpg"
+            ],
+            "description": "Tundra Swans are smaller than Trumpeter Swans. Juveniles have pink at the base of the bill unlike juvenile Trumpeter Swans, which have a dark base of the bill."
+        }
+    },
+    "Mute Swan": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-1280px.jpg"
+            ],
+            "description": "Mute Swans hold their neck with more of a curve than Trumpeter Swans and they have an orange (not black) bill."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954141-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59954141-720px.jpg"
+            ],
+            "description": "Immature Mute Swans have a pinkish gray bill while immature Trumpeter Swans have a darker bill."
+        }
+    },
+    "Snow Goose": {
+        "Adult white morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59939451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg"
+            ],
+            "description": "Snow Geese are much smaller than Trumpeter Swans with a smaller pink bill."
+        }
+    }
+}

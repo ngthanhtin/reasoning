@@ -1,0 +1,76 @@
+{
+    "Western Sandpiper": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64827111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64827111-720px.jpg"
+            ],
+            "description": "Western Sandpipers have a bigger head and a heavier-bodied look than Semipalmated Sandpipers. In breeding plumage, Westerns often have brighter rusty upperparts, a whiter face, and chevron markings on the flanks that Semipalms lack."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64827141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827141-1280px.jpg"
+            ],
+            "description": "Western Sandpipers have a bigger head, a heavier-bodied look, and a longer more drooping bill than Semipalmated Sandpipers. Nonbreeding birds tend to be grayer than Semipalmated Sandpipers, which are more brown."
+        }
+    },
+    "Least Sandpiper": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822761-1280px.jpg"
+            ],
+            "description": "Least Sandpipers are smaller than Semipalmated Sandpipers with yellow (not black) legs."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64822711-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64822711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822711-720px.jpg"
+            ],
+            "description": "Least Sandpipers are smaller than Semipalmated Sandpipers with yellow (not black) legs."
+        }
+    },
+    "Sanderling": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814541-1280px.jpg"
+            ],
+            "description": "Sanderlings are larger than Semipalmated Sandpipers. Breeding Sanderlings have more rusty-colored upperparts than Semipalmated Sandpipers."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64814471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64814471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814471-1280px.jpg"
+            ],
+            "description": "Sanderlings are larger than Semipalmated Sandpipers. Nonbreeding Sanderlings are a more frosty gray, with a clean breast, while nonbreeding Semipalmated Sandpipers are brownish with a smudgy and lightly streaked breast."
+        }
+    },
+    "Baird's Sandpiper": {
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39434211-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39434211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39434211-720px.jpg"
+            ],
+            "description": "Baird's Sandpipers are larger than Semipalmated Sandpipers. They have longer wings that extend farther beyond the tail than they do on Semipalmated Sandpipers."
+        }
+    },
+    "White-rumped Sandpiper": {
+        "Molting adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37807661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37807661-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37807661-720px.jpg"
+            ],
+            "description": "White-rumped Sandpipers are larger than Semipalmated Sandpipers with a more smudgy and streaked breast. Note more obvious eyebrow on White-rumped Sandpipers than on Semipalmated Sandpipers."
+        }
+    }
+}

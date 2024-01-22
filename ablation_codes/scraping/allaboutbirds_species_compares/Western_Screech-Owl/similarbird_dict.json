@@ -1,0 +1,32 @@
+{
+    "Eastern Screech-Owl": {
+        "Adult gray morph (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60389751-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60389751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60389751-720px.jpg"
+            ],
+            "description": "The Eastern Screech-Owl looks very similar but has little or no range overlap with the Western Screech-Owl. Vocalizations differ: Eastern has a descending whinny, while Western has an accelerating series of hoots."
+        }
+    },
+    "Flammulated Owl": {
+        "Gray morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40632781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40632781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40632781-720px.jpg"
+            ],
+            "description": "Flammulated Owls are smaller than Western Screech-Owls with dark eyes, while Western Screech-Owls have yellow eyes."
+        }
+    },
+    "Northern Saw-whet Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113261-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113261-720px.jpg"
+            ],
+            "description": "Northern Saw-whet Owls lack ear tufts and have less intricate patterning than Western Screech-Owls, which have finely barred and heavily streaked underparts."
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "Adult (Aleutian)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59950661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950661-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small and compact with a short neck, small bill, and steep forehead. Head and neck are black with a large white cheek patch. Some, including most adult Aleutian birds (subspecies leucopareia), have a white collar at the base of the black neck sock."
+        ]
+    },
+    "Adult (Richardson's)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950701-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950701-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476721-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476715-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476715-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476715-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/473675-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/473675-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/473675-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Head shape ranges from rounded to boxy, but the small, triangular bill and short neck are constants. Also note the neatly barred upperparts.",
+            "Small goose best identified by head shape: note short bill and fairly abrupt transition to steep forehead.",
+            "",
+            ""
+        ]
+    },
+    "Adult (minima)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59950681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950681-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950631-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950631-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The smallest subspecies minima is tiny (roughly the size of a male Mallard) and shows a dark breast.",
+            "Often occurs in large flocks, and forages in grassy habitats. The smallest subspecies, minima, is notably dark-breasted."
+        ]
+    },
+    "Adult (Taverner's)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950691-480px.jpg"
+            ]
+        ],
+        "description": [
+            "The Taverner's form has a longer neck and paler brown body, tending towards the shape of a Canada Goose."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59950651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950651-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59950651-480px.jpg"
+            ]
+        ],
+        "description": [
+            "In flight shows a prominent white \"U\" on the dark uppertail, contrasting with the black tail. Otherwise mostly brown with black neck and head, with a white cheek."
+        ]
+    },
+    "Adult (Richardson's) (with Canada Goose)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59950671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950671-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often flocks with Canada Goose (right). Note Cackling's shorter bill with more abrupt transition to steep forehead."
+        ]
+    },
+    "Adult (Richardson's) (with Snow Goose)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59950641-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59950641-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often flocks with other species of geese. In comparison to Snow Goose, smaller and shorter-billed."
+        ]
+    },
+    "Mixed flock": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/472380-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472380-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472380-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

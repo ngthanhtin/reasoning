@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59874521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59874521-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Cedar Waxwing is a medium-sized, sleek bird with a large head, short neck, and short, wide bill. Waxwings have a crest that often lies flat and droops over the back of the head. The wings are broad and pointed, like a starling\u2019s. The tail is fairly short and square-tipped."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Bohemian Waxwing"
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.7 in (14-17 cm)",
+                "Weight: 1.1 oz (32 g)",
+                "Wingspan: 8.7-11.8 in (22-30 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59874471-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59874471-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59874471-720px.jpg"
+        ],
+        "description": [
+            "Cedar Waxwings are pale brown on the head and chest fading to soft gray on the wings. The belly is pale yellow, and the tail is gray with a bright yellow tip. The face has a narrow black mask neatly outlined in white. The red waxy tips to the wing feathers are not always easy to see."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668515",
+        "description": [
+            "Cedar Waxwings are social birds that you\u2019re likely to see in flocks year-round. They sit in fruiting trees swallowing berries whole, or pluck them in mid-air with a brief fluttering hover. They also course over water for insects, flying like tubby, slightly clumsy swallows."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59874491-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59874491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59874491-720px.jpg"
+        ],
+        "description": [
+            "Look for Cedar Waxwings in woodlands of all kinds, and at farms, orchards, and suburban gardens where there are fruiting trees or shrubs."
+        ]
+    }
+}

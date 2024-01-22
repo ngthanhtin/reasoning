@@ -1,0 +1,140 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/216531741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/216531741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/216531741-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63905211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302053701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302053701-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302053701-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small duck with large head and short bill. Large white patch on head, dark back, and white chest and flanks are visible from long distances. Purple-green iridescence on head can be hard to see.",
+            "Small duck with distinctive flight pattern: dark upperparts crossed by white stripes at the shoulder and in the wings.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302053571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302053571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302053571-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63905231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63905231-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63905251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63905251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905251-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small brownish duck with large, rounded head and a distinctive, single white patch on the cheek.",
+            "Small brownish duck with large, rounded head and a distinctive, single white patch on the cheek.",
+            "May occur in flocks. Female lacks male's large white wingstripe, but has a smaller white wing patch sometimes visible at rest."
+        ]
+    },
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/474389-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/474389-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/474389-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402127-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402127-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402127-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Buffleheads forage for aquatic insects, crustaceans, and molluscs by diving staying submerged for about 13 seconds and consuming prey underwater.",
+            "Buffleheads perform self-maintenance activities on the water such as preening, stretching, and bathing."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63905261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63905261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905261-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small duck with large head and single white cheek patch."
+        ]
+    },
+    "Breeding male and females": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/454198-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454198-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454198-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Usually forms small to medium-sized flocks during the nonbreeding season."
+        ]
+    },
+    "Breeding male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454204-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/454204-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454204-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Buffleheads require a running start when taking flight off water, but can achieve this over a shorter distance than most other duck species due to their small size."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63905221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905221-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63905221-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small duck with fast wingbeats. In flight, female lacks male's shoulder stripes and large white wing stripe, but has a smaller white wing patch sometimes visible at rest."
+        ]
+    },
+    "Female and chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302053711-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302053711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302053711-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63905241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905241-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Fairly common on lakes, ponds, and coastal waters."
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64808661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64808661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64808661-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A chunky, large-headed shorebird with a short, thick bill (heavier than bills of golden-plovers). It has long, pointed wings and moderately long legs."
+            ],
+            "Compared Size": [
+                "Larger than an American Golden-Plover, smaller than a Greater Yellowlegs."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.0-11.4 in (28-29 cm)",
+                "Weight: 6.0-9.7 oz (169-276 g)",
+                "Wingspan: 23.2-23.6 in (59-60 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64808691-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64808691-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64808691-480px.jpg"
+        ],
+        "description": [
+            "Breeding males are a dazzling mix of black and white: checkered upperwings, a black face and belly, a white crown, nape, and undertail, and dark legs and bill. Adult females in breeding plumage are similar but with less contrast. Nonbreeding adults are pale gray above and grayish or whitish below. Juveniles are but more scaly-looking on the back. All plumages show black \u201carmpits\u201d in flight.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238646824",
+        "description": [
+            "Forages by walking rapidly, then suddenly stopping to watch for prey, which it gleans or pulls from the ground. Breeding males perform a graceful \u201cbutterfly\u201d display flight. Migrants and wintering birds rest and forage in flocks.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64808731-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64808731-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64808731-480px.jpg"
+        ],
+        "description": [
+            "Nests in both wet and dry tundra. Winters in coastal lagoons and estuaries. Migrants stop along coastlines and in harvested agricultural areas, sod farms, and muddy edges of lakes and rivers.",
+            ""
+        ]
+    }
+}

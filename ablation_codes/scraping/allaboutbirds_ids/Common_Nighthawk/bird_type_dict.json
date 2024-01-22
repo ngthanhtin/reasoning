@@ -1,0 +1,98 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303958241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303958241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303958241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113501-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466538-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466538-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466538-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66113491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113511-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113511-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466115-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466115-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466115-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303958401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303958401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303958401-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303958651-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303958651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303958651-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113521-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/477965-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/477965-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/477965-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303958421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303958421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303958421-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized, slender bird with long, pointed wings. Note white patch on the wings located closer to the bend in the wing.",
+            "Extremely short-legged with a tiny bill and small flat head. Looks rather chunky when perched, but slim in flight. Well camouflaged in gray, white, buff, and black. Note white patch on lower edge of the wing.",
+            "",
+            "Long-winged and flat-headed with a tiny bill. Plumage color varies across the range with some individuals having more rusty tones while others are grayer. Note white patch on lower edge of the wing.",
+            "Nests on the ground in open areas such as gravel bars, forest clearings, coastal sand dunes, or sparsely vegetated grasslands.",
+            "",
+            "",
+            "",
+            "Most active and dusky and dawn. During the day roosts in trees, on the ground, or on a flat roof.",
+            "",
+            ""
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303958381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303958381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303958381-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478716-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478716-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478716-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

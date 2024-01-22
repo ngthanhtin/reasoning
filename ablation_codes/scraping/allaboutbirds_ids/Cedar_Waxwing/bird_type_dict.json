@@ -1,0 +1,116 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305837211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305837211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305837211-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305837251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305837251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305837251-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/452179-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/452179-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/452179-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59874471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874471-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482980-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482980-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482980-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59874521-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305849171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305849171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305849171-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476402-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476402-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476402-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59874481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874481-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59874481-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465950-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/465950-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465950-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "",
+            "In the fall and winter Cedar Waxwings gather by the hundreds to eat berries, which they swallow whole.",
+            "Prominent crest. Black mask with peachy brown head and chest, pale yellow belly, and yellow tip to dark tail. Sometimes has red tips to the secondaries of the wing.",
+            "Often perches at the tops of trees with bare twigs.",
+            "Some birds are less intensely colored, and lack the red feather tips in the wing.",
+            "",
+            "Sings a very high pitched, thin song. Its long, slender body and crested head helps separate it from other species.",
+            "Foraging birds often perch acrobatically at the tips of thin branches.",
+            "In the fall and winter forms large flocks, devouring fruit wherever they can find it."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305836981-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305836981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305836981-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305837061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305837061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305837061-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are more heavily marked than adults, with dusky streaks below, and have a fainter dark mask.",
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305841531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305841531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305841531-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305837321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305837321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305837321-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59874491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874491-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59874511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874511-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Flocks sometimes descend to puddles to drink and bathe.",
+            "",
+            "Feeds on fruiting trees.",
+            "Often in large flocks, especially during the winter months."
+        ]
+    }
+}

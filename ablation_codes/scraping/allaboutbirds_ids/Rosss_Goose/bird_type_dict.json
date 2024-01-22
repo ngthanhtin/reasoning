@@ -1,0 +1,110 @@
+{
+    "Adult white morph": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/295421201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295421201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295421201-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482496-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482496-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482496-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/295421751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295421751-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/295421751-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/295422261-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/295422261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295422261-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59940731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59940731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59940731-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482498-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482498-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482498-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/414009-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/414009-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/414009-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, all white goose with black wingtips and pink legs. Note the stubby pink bill with a blue-gray base.",
+            "Flocks with other species of geese during the nonbreeding months in shallow wetlands, ponds, and agricultural fields.",
+            "In flight, all white with black primaries. The stubby bill and short neck help confirm the identification.",
+            "A compact, all-white goose with black primaries and gray primary coverts.",
+            "The short pink bill is often marked with grayish caruncles at the base. The base of the bill is vertical instead of curved, and the grin patch is quite reduced in comparison to the large black grin patch shown by Snow Goose.",
+            "Found on shallow wetlands and ponds often with other goose species.",
+            "Small, round-headed goose with a small pinkish bill."
+        ]
+    },
+    "Adult blue morph": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59940711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59940711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59940711-720px.jpg"
+            ]
+        ],
+        "description": [
+            "White and blue morphs both occur, though the blue morph is very rare. It is very dark gray with a high contrast white head and white upperwing patch. Suspected blue morph birds should be carefully scrutinized for signs of hybridization with Snow Goose\u2014most reported blue morph Ross's Geese show hybrid characters like a black grin patch or curved bill base under close inspection."
+        ]
+    },
+    "Juvenile white morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/295421501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/295421501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295421501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juvenile are mostly white with some dusky highlights on the head and back. Bill and legs are dusky gray-pink. Juveniles often show slight dark grin patches because their bills continue to grow through the first year of life before assuming adult structure."
+        ]
+    },
+    "Adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482506-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482506-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482506-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Forms flocks during the nonbreeding season. Strong flier."
+        ]
+    },
+    "Adult white morph (with Snow Goose)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/295421871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295421871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/295421871-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often flocks together with larger Snow Geese. Plumage between white morph adults is identical, so size and structure are very important. Note the small size and short-necked, stubby-billed look here in comparison to the lanky Snow Goose at left."
+        ]
+    },
+    "Adult white morph (with Canada Goose and Cackling Goose)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59940701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59940701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59940701-720px.jpg"
+            ]
+        ],
+        "description": [
+            "In addition to traveling with Snow Geese, they can be found with other species of dark geese. Usually appears tiny, compact, and toy-like in comparison to other species."
+        ]
+    }
+}

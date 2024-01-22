@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68122181-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68122181-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68122181-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Cave Swallows have a cylindrical body with long, pointed wings and a square-tipped tail that sometimes shows a slight notch. The bill is very short and the feet very small."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Bank Swallow, smaller than a Barn Swallow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5 in (14 cm)",
+                "Weight: 0.6-0.9 oz (17-25 g)",
+                "Wingspan: 13.0 in (33 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68122211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68122211-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68122211-480px.jpg"
+        ],
+        "description": [
+            "Cave Swallows are dark above and pale below. The most notable features for ID include the chestnut rump, forehead, and cheeks, and the pale chestnut throat.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238666349",
+        "description": [
+            "An aerial insectivore that eats insects on the wing. They nest colonially and forage in groups, often with other swallows. They build nests with bits of mud and bat guano that they collect with their bill.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68122201-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68122201-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68122201-480px.jpg"
+        ],
+        "description": [
+            "Nests in natural or human-made structures including caves, sinkholes, buildings, silos, bridges, and culverts. During the day it forages over open areas, often near water.",
+            ""
+        ]
+    }
+}

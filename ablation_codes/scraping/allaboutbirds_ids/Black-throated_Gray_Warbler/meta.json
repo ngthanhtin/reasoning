@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64896301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896301-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A compact warbler with a small round bill and a big head."
+            ],
+            "Compared Size": [
+                "Larger than a Bushtit, smaller than a Juniper Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.3-0.3 oz (7-10 g)",
+                "Wingspan: 7.5-7.8 in (19-19.7 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64896271-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896271-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896271-480px.jpg"
+        ],
+        "description": [
+            "A mostly black, gray, and white bird with a yellow spot above and in front of the eye. They also have a sharp black-and-white striped face and crisp black streaks on their sides. Females are a tad paler and often have a patchy black throat. From below, note the all-white belly and undertail.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/273767449",
+        "description": [
+            "Hops between branches with deliberate movements, moving slower than many other warblers.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896311-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg"
+        ],
+        "description": [
+            "Found in open pine, pine-oak, and pinyon-juniper forests.",
+            ""
+        ]
+    }
+}

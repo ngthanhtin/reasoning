@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64892951-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64892951-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64892951-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Palm Warblers are small songbirds, but they are on the larger side for a warbler and have a fuller looking belly. Their posture is more upright than a typical warbler and more like a pipit\u2014especially noticeable when they are on the ground. Their tails and legs are longer than most warblers contributing to the pipitlike shape."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Dark-eyed Junco."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.3-0.5 oz (7-13 g)",
+                "Wingspan: 7.9-8.3 in (20-21 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64892971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64892971-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64892971-480px.jpg"
+        ],
+        "description": [
+            "Palm Warblers are dull brownish-olive above with yellow under the tail and throat. The outside corners of their tails flash white in flight. In eastern birds the belly is yellow, while in western birds the belly is white. Sexes are similar, and during the breeding season they have a rusty cap and some rusty streaking on the belly. Nonbreeding birds have paler yellow undertails and a dull brown crown."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238665382",
+        "description": [
+            "This is one bird where behavior\u2014this bird\u2019s near-constant tail-wagging\u2014can help confirm its identity. They mainly forage on open ground or in low vegetation, rather than in forest canopy as many warblers do (although they do sing from high perches in trees and shrubs)."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64892981-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64892981-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64892981-720px.jpg"
+        ],
+        "description": [
+            "During migration and winter Palm Warblers use weedy fields, forest edges, fence rows, and other areas with scattered trees and shrubs. They breed in the boreal forest of the far north, where they use bogs with scattered evergreen trees and thick ground cover."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Plumage of Palm Warblers is different on either side of James Bay which lies between Ontario and Quebec in Canada. Palm Warblers east of James Bay (\u201cYellow\u201d Palm Warblers) have entirely yellow underparts with stronger rusty streaks on the breast and yellow eyebrows. Those west of James Bay (\u201cWestern\u201d Palm Warblers) have whitish bellies, yellow undertails, and pale eyebrows. During the breeding season, \u201cWestern\u201d Palm Warblers also have a yellow throat with some rusty streaks on the breast. \"Western\" Palm Warblers winter primarily in the Caribbean while \"Yellow\" Palm Warblers winter primarily along the Gulf Coast, but the two subspecies mix in the southeastern United States."
+        ]
+    }
+}

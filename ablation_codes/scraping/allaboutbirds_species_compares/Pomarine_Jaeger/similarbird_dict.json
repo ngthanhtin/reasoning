@@ -1,0 +1,74 @@
+{
+    "Parasitic Jaeger": {
+        "Adult light morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40624801-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40624801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40624801-1280px.jpg"
+            ],
+            "description": "Parasitic Jaegers can be difficult to tell from Pomarine Jaegers. Breeding adults have straight central tail feathers, unlike Pomarine's twisted, spoon-shaped tail feathers. Parasitic has a pale spot or arc over the bill, whereas Pomarine's face and cap is entirely dark."
+        },
+        "Adult dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32801811-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32801811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801811-1280px.jpg"
+            ],
+            "description": "Parasitic Jaegers are slightly less bulky and barrel-chested than Pomarine Jaegers, and they show less white in the wing than Pomarine. Separating the two species can be tricky."
+        },
+        "Immature light morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32801831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801831-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32801831-720px.jpg"
+            ],
+            "description": "Immature jaegers can be very difficult to identify. Parasitic Jaegers are somewhat smaller and less barrel-chested than Pomarine Jaegers. Parasitic's bill is smaller and more slender."
+        }
+    },
+    "Long-tailed Jaeger": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40625451-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40625451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40625451-720px.jpg"
+            ],
+            "description": "Long-tailed Jaegers are smaller and more slender than Pomarine Jaegers. Breeding adult Long-tailed has extremely long central tail feathers."
+        },
+        "Subadult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/32801631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801631-1280px.jpg"
+            ],
+            "description": "Subadult Long-tailed Jaegers are smaller than Pomarine Jaegers, with more slender bodies, more buoyant flight, and without the large white flashes in the underwing that Pomarine Jaegers show."
+        },
+        "Juvenile dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32801651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32801651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801651-1280px.jpg"
+            ],
+            "description": "Juvenile jaegers can be very difficult to tell apart. Long-tailed Jaegers are smaller and more slender than Pomarine Jaegers, with a daintier and more ternlike flight style."
+        }
+    },
+    "Northern Fulmar": {
+        "Dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70999231-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70999231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70999231-720px.jpg"
+            ],
+            "description": "Northern Fulmars fly with stiffer, straighter, and narrower wings than jaegers. They tend to take a few quick wingbeats followed by a glide, unlike the acrobatic, flapping flight of jaegers."
+        }
+    },
+    "Iceland Gull": {
+        "First winter (Iceland)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70652111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70652111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70652111-720px.jpg"
+            ],
+            "description": "Gulls such as Iceland Gulls are not as dark brown as jaegers. Gulls have broader, less pointed wings, and usually don't fly as forcefully as Pomarine Jaegers."
+        }
+    }
+}

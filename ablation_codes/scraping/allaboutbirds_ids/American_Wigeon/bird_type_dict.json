@@ -1,0 +1,128 @@
+{
+    "Male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60017891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60017891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60017891-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60017921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60017921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60017921-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/300141251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/300141251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300141251-720px.jpg"
+            ]
+        ],
+        "description": [
+            "A compact duck with a short, pale bill and a round head. Breeding males have a brownish gray head with a wide green stripe behind the eye and a white cap.",
+            "In some lights the green head stripe can look bronzy.",
+            "A small number of males have white on the cheeks and throat, which hunters often refer to as a \"storm wigeon.\""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60017911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60017911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60017911-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/463658-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/463658-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/463658-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females have a warm brown body with a brownish gray head and a dark smudge around the eye. Note the pale bill tipped in black.",
+            "Dips bill in water to pick up aquatic plants and insects from the surface or tips up to pluck submerged vegetation."
+        ]
+    },
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60017901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60017901-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60017901-480px.jpg"
+            ]
+        ],
+        "description": [
+            "In flight males show a prominent white patch on the upperwing, green secondaries, and white under the wing."
+        ]
+    },
+    "Eclipse male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/72456241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/72456241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/72456241-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding males have a reddish brown body with a brownish gray head and a dark smudge around the eye. The prominent white patch in the wing and green secondaries may not always be visible."
+        ]
+    },
+    "Breeding male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475169-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475169-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/475169-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/418332-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/418332-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/418332-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Eats primarily vegetation such as duckweed, pond weed, water milfoil, and wigeon grass during the nonbreeding season.",
+            "Pairs form on the wintering ground and stay together throughout most of incubation."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/300142151-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/300142151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300142151-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478934-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478934-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478934-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/300142261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300142261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/300142261-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Uses its short gooselike bill to pluck vegetation and seeds from fields and pastures.",
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/300142071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300142071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300142071-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often occurs in flocks during the nonbreeding season. Found in a wide variety of wetland habitats including lakes, wetlands, and flooded farm fields."
+        ]
+    }
+}

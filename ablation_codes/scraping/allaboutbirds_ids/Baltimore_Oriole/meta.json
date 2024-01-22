@@ -1,0 +1,60 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63734251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734251-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Smaller and more slender than an American Robin, Baltimore Orioles are medium-sized, sturdy-bodied songbirds with thick necks and long legs. Look for their long, thick-based, pointed bills, a hallmark of the blackbird family they belong to."
+            ],
+            "Compared Size": [
+                "About the size of a Red-winged Blackbird, but slimmer."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.7-7.5 in (17-19 cm)",
+                "Weight: 1.1-1.4 oz (30-40 g)",
+                "Wingspan: 9.1-11.8 in (23-30 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63734211-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734211-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734211-480px.jpg"
+        ],
+        "description": [
+            "Adult males are flame-orange and black, with a solid-black head and one white bar on their black wings. Females and immature males are yellow-orange on the breast, grayish on the head and back, with two bold white wing bars."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238635687",
+        "description": [
+            "Baltimore Orioles are more often heard than seen as they feed high in trees, searching leaves and small branches for insects, flowers, and fruit. You may also spot them lower down, plucking fruit from vines and bushes or sipping from hummingbird feeders. Watch for the male\u2019s slow, fluttering flights between tree tops and listen for their characteristic",
+            "wink",
+            "or chatter calls."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63734191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734191-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63734191-480px.jpg"
+        ],
+        "description": [
+            "Look for Baltimore Orioles high in leafy deciduous trees, but not in deep forests: they\u2019re found in open woodland, forest edge, orchards, and stands of trees along rivers, in parks, and in backyards."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "In central North America\u2014including Kansas, Nebraska, Saskatchewan, and Alberta\u2014the Baltimore Oriole\u2019s range overlaps with its close relative the Bullock\u2019s Oriole, and the two species breed with each other. Their hybrid offspring\u2014brighter orange than a typical Bullock\u2019s, but duller than a typical Baltimore\u2014can confuse bird watchers.",
+            ""
+        ]
+    }
+}

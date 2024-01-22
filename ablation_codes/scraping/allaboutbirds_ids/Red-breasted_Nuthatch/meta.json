@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68040881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68040881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68040881-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small, compact bird with a sharp expression accentuated by its long, pointed bill. Red-breasted Nuthatches have very short tails and almost no neck; the body is plump or barrel-chested, and the short wings are very broad."
+            ],
+            "Compared Size": [
+                "Noticeably smaller than a White-breasted Nuthatch"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3 in (11 cm)",
+                "Weight: 0.3-0.5 oz (8-13 g)",
+                "Wingspan: 7.1-7.9 in (18-20 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68040921-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68040921-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68040921-480px.jpg"
+        ],
+        "description": [
+            "Red-breasted Nuthatches are blue-gray birds with strongly patterned heads: a black cap and stripe through the eye broken up by a white stripe over the eye. The underparts are rich rusty-cinnamon, paler in females."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238650547",
+        "description": [
+            "Red-breasted Nuthatches move quickly over trunks and branches probing for food in crevices and under flakes of bark. They creep up, down, and sideways without regard for which way is up, and they don\u2019t lean against their tail the way woodpeckers do. Flight is short and bouncy."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68040901-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68040901-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68040901-720px.jpg"
+        ],
+        "description": [
+            "Red-breasted Nuthatches are mainly birds of coniferous woods and mountains. Look for them among spruce, fir, pine, hemlock, larch, and western red cedar as well as around aspens and poplars. In northeastern North America you can also find them in forests of oak, hickory, maple, birch, and other deciduous trees."
+        ]
+    }
+}

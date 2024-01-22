@@ -1,0 +1,56 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70692991-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70692991-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70692991-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Black-crowned Night-Herons are small herons with rather squat, thick proportions. They have thick necks, large, flat heads, and heavy, pointed bills. The legs are short and, in flight, barely reach the end of the tail. The wings are broad and rounded."
+            ],
+            "Compared Size": [
+                "Larger than a Green Heron; smaller and thicker-bodied than a Great Egret."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 22.8-26.0 in (58-66 cm)",
+                "Weight: 25.6-35.8 oz (727-1014 g)",
+                "Wingspan: 45.3-46.5 in (115-118 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70693031-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70693031-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70693031-480px.jpg"
+        ],
+        "description": [
+            "Adults are light-gray birds with a neatly defined black back and black crown. Immatures are brown with large white spots on the wings and blurry streaks on the underparts. Adults have all-black bills; immatures have yellow-and-black bills."
+        ]
+    },
+    "Behavior": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70693011-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70693011-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70693011-480px.jpg"
+        ],
+        "description": [
+            "Black-crowned Night-Herons often spend their days perched on tree limbs or concealed among foliage and branches. They forage in the evening and at night, in water, on mudflats, and on land. In flight they fold their head back against their shoulders, almost making the neck disappear."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70692981-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70692981-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70692981-720px.jpg"
+        ],
+        "description": [
+            "These are social birds that tend to roost and nest in groups, although they typically forage on their own. Look for them in most wetland habitats across North America, including estuaries, marshes, streams, lakes, and reservoirs."
+        ]
+    }
+}

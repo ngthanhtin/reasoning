@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63896281-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63896281-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63896281-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Lesser Scaup is a medium-sized diving duck with a small peak at the back of the head. From the small peak, the back of the head and neck is flat, not rounded as it is on Greater Scaup."
+            ],
+            "Compared Size": [
+                "Larger than a Green-winged Teal, smaller than a Canvasback."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.3-18.1 in (39-46 cm)",
+                "Weight: 16.0-38.4 oz (454-1089 g)",
+                "Wingspan: 26.8-30.7 in (68-78 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63896301-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63896301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63896301-480px.jpg"
+        ],
+        "description": [
+            "At a distance, breeding male Lesser Scaup are black and white, but closer views reveal an iridescent purple to green sheen on the head, a finely barred black-and-white back, a bluish bill, and a yellow eye. Females are brown overall with a darker brown head and a white patch next to the bill, but not all females have a white patch. Nonbreeding males look like a cross between a female and a breeding male: a mottled brown-and-gray body and a blackish head.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/239744528",
+        "description": [
+            "During migration and winter, Lesser Scaup form large flocks on lakes, bays, rivers, and larger wetlands. They tend to form tight groups and mix with other diving ducks such as Canvasbacks, Redheads, Greater Scaup, and Ring-necked Ducks.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63896241-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63896241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63896241-720px.jpg"
+        ],
+        "description": [
+            "During winter, look for Lesser Scaup on lakes, reservoirs, coastal bays, and estuaries. They are more likely to use inland lakes than Greater Scaup. During the breeding season, they are more commonly found in marshes of northern North America where they nest.",
+            ""
+        ]
+    }
+}

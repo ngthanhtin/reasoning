@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66113271-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113271-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "These are very small owls with large, rounded heads that lack ear tufts."
+            ],
+            "Compared Size": [
+                "Slightly heavier (but more compact) than a Hairy Woodpecker; smaller than an Eastern Screech-Owl."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-8.3 in (18-21 cm)",
+                "Weight: 2.3-5.3 oz (65-151 g)",
+                "Wingspan: 16.5-18.9 in (42-48 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66113261-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113261-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113261-720px.jpg"
+        ],
+        "description": [
+            "Northern Saw-whet Owls are mottled brown birds with a whitish facial disk and white-spotted head. Their eyes are yellow. Juveniles are dark brown with creamy yellow breast and belly."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/374013893",
+        "description": [
+            "They are nocturnal and hard to see, but they have a shrill, penetrating call that they give many times in succession. During daylight they roost in dense vegetation, typically just above eye level and near the trunk in evergreen trees."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66113251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113251-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113251-480px.jpg"
+        ],
+        "description": [
+            "Northern Saw-whet Owls are forest birds. They breed in extensive forests across northern North America, also sometimes using more open habitats such as the shrubsteppe of the West as long as there are nest sites available. They winter in dense forests across the central and southern U.S."
+        ]
+    }
+}

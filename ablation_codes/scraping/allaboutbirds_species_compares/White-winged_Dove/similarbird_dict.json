@@ -1,0 +1,42 @@
+{
+    "Mourning Dove": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-1280px.jpg"
+            ],
+            "description": "Mourning Doves are thinner-bodied than White-winged Doves with long, tapering tails and gray-brown wings."
+        }
+    },
+    "Eurasian Collared-Dove": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66035091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66035091-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66035091-720px.jpg"
+            ],
+            "description": "Eurasian Collared-Doves have a black collar across the back of the neck, lack the white wing stripe, and have a longer tail than White-winged Doves."
+        }
+    },
+    "White-tipped Dove": {
+        "Adult (White-tipped)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40627841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40627841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40627841-720px.jpg"
+            ],
+            "description": "White-tipped Doves have small white tips to the tail, not the flashy white corners of White-winged Doves."
+        }
+    },
+    "Rock Pigeon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66031271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66031271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66031271-720px.jpg"
+            ],
+            "description": "Rock Pigeons are larger than White-winged Doves and are usually gray with dark bars in the wing, rather than brown with a white wing stripe."
+        }
+    }
+}

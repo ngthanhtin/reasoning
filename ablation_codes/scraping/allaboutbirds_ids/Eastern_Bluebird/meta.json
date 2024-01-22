@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63740051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63740051-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63740051-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Eastern Bluebird is a small thrush with a big, rounded head, large eye, plump body, and alert posture. The wings are long, but the tail and legs are fairly short. The bill is short and straight."
+            ],
+            "Compared Size": [
+                "About two-thirds the size of an American Robin"
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-8.3 in (16-21 cm)",
+                "Weight: 1.0-1.1 oz (28-32 g)",
+                "Wingspan: 9.8-12.6 in (25-32 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63740061-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63740061-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63740061-480px.jpg"
+        ],
+        "description": [
+            "Male Eastern Bluebirds are vivid, deep blue above and rusty or brick-red on the throat and breast. Blue in birds always depends on the light, and males often look plain gray-brown from a distance. Females are grayish above with bluish wings and tail, and a subdued orange-brown breast."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238642106",
+        "description": [
+            "Eastern Bluebirds perch erect on wires, posts, and low branches in open country, scanning the ground for prey. They feed by dropping to the ground onto insects or, in fall and winter, by perching on fruiting trees to gulp down berries. Bluebirds commonly use nest boxes as well as old woodpecker holes."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63740091-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63740091-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63740091-480px.jpg"
+        ],
+        "description": [
+            "Eastern Bluebirds live in meadows and openings surrounded by trees that offer suitable nest holes. With the proliferation of nest boxes and bluebird trails, bluebirds are now a common sight along roads, field edges, golf courses, and other open areas."
+        ]
+    }
+}

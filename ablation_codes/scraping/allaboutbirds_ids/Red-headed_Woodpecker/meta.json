@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64992601-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64992601-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64992601-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Red-headed Woodpeckers are medium-sized woodpeckers with fairly large, rounded heads, short, stiff tails, and powerful, spike-like bills."
+            ],
+            "Compared Size": [
+                "Smaller than a Northern Flicker; about the size of a Hairy Woodpecker."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-9.1 in (19-23 cm)",
+                "Weight: 2.0-3.2 oz (56-91 g)",
+                "Wingspan: 16.5 in (42 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64992611-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64992611-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64992611-480px.jpg"
+        ],
+        "description": [
+            "Adults have bright-red heads, white underparts, and black backs with large white patches in the wings, making the lower back appear all white when perched. Immatures have gray-brown heads, and the white wing patches show rows of black spots near the trailing edge."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238665633",
+        "description": [
+            "In addition to catching insects by the normal woodpecker method of hammering at wood, Red-headed Woodpeckers also catch insects in flight and hunt for them on the ground. They also eat considerable amounts of fruit and seeds. Their raspy calls are shriller and scratchier than the Red-bellied Woodpecker\u2019s."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64992621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64992621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64992621-720px.jpg"
+        ],
+        "description": [
+            "Red-headed Woodpeckers live in pine savannahs and other open forests with clear understories. Open pine plantations, treerows in agricultural areas, and standing timber in beaver swamps and other wetlands all attract Red-headed Woodpeckers."
+        ]
+    }
+}

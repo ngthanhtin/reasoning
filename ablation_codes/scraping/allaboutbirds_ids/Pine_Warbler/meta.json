@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64893901-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64893901-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64893901-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Pine Warblers are hefty, long-tailed warblers with stout bills. The tip of the tail usually appears to have a central notch."
+            ],
+            "Compared Size": [
+                "Smaller than a White-throated Sparrow; larger than a Northern Parula."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-5.5 in (13-14 cm)",
+                "Weight: 0.3-0.5 oz (9-15 g)",
+                "Wingspan: 7.5-9.1 in (19-23 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64893871-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64893871-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64893871-480px.jpg"
+        ],
+        "description": [
+            "Pine Warblers are yellowish birds with olive backs, whitish bellies, and two prominent white wingbars on gray wings. Adult males are the brightest; females and immatures are more subdued and can even appear gray-brown. Overall, Pine Warblers don\u2019t show the strong patterns of other warblers, but the face can look weakly \u201cspectacled,\u201d with a pale eyering connected to a pale stripe in front of the eye."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238637153",
+        "description": [
+            "Pine Warblers are often difficult to see as they usually stay high up in pines. Insects make up most of their diet, but they also eat fruits and seeds. They occasionally forage on the ground or come to feeders. Males sing even, rich trills from the tops of pines."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64893931-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64893931-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64893931-480px.jpg"
+        ],
+        "description": [
+            "Pine Warblers are well named\u2014they spend most of their time in pine trees. This can be in pine forests or in deciduous woods with pine mixed in. They are found in similar habitats in winter, but also visit backyards and come to bird feeders to eat seeds and suet."
+        ]
+    }
+}

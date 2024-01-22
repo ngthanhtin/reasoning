@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64516191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64516191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64516191-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A delicate, short-tailed warbler with a slender and distinctively decurved bill, unusual among warblers."
+            ],
+            "Compared Size": [
+                "Larger than a Ruby-crowned Kinglet, smaller than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.1 in (12-13 cm)",
+                "Weight: 0.4-0.5 oz (10.2-15.2 g)",
+                "Wingspan: 7.9-8.7 in (20-22 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64516241-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64516241-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64516241-480px.jpg"
+        ],
+        "description": [
+            "Adult males are rich yellowish olive above, with rufous cheeks (auriculars) framed in yellow and dense rufous \u201ctiger stripes\u201d on the breast (present in all plumages, giving the species its scientific name, tigrina). The underparts are yellow, and the wing has a large white patch. Females and immatures are duller, lacking vivid yellow but with a yellowish green rump.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238665050",
+        "description": [
+            "Cape May Warblers hunt insects among branches, sip nectar from flowers, or eat fruit. They take most food by probing and picking but also catch insects in midair or hover to pluck items from leaves and branches.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64516251-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64516251-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64516251-480px.jpg"
+        ],
+        "description": [
+            "Boreal forest (spruce, balsam fir) in breeding season; a wide variety of forested and shrubby habitats during migration and in winter.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "None.",
+            ""
+        ]
+    }
+}

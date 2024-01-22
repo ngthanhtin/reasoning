@@ -1,0 +1,59 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66115291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115291-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115291-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Fox Sparrows are large, round-bodied sparrows with stout bills and medium-length tails."
+            ],
+            "Compared Size": [
+                "Smaller than a Spotted Towhee; larger than a Dark-eyed Junco."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-7.5 in (15-19 cm)",
+                "Weight: 0.9-1.6 oz (26-44 g)",
+                "Wingspan: 10.5-11.4 in (26.7-29 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66115301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115301-720px.jpg"
+        ],
+        "description": [
+            "Though highly variable (see \u201cRegional Differences\u201d), Fox Sparrows are generally rust-brown above with a mix of rust and gray on the head, and heavy brownish splotches on the flanks and the center of the chest. The bill can range from yellowish to dark gray."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238650675",
+        "description": [
+            "Fox Sparrows spend a lot of time on the ground, using their sturdy legs to kick away leaf litter in search of insects and seeds. They rarely venture far from cover, and they frequently associate with other sparrows. In spring and summer, listen for Fox Sparrows\u2019 sweet, whistled song from scrub or forest; also, pay attention for a sharp",
+            "smack",
+            "call."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66115311-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115311-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66115311-720px.jpg"
+        ],
+        "description": [
+            "Fox Sparrows breed in coniferous forest and dense mountain scrub. They spend winters in scrubby habitat and forest, when they are most likely to be seen kicking around under backyard bird feeders."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Fox Sparrows vary greatly across their range. \u201cRed\u201d Fox Sparrows, widely distributed across the boreal forest of northern North America, are rusty above with some pale gray on the head and rufous splotches on the underparts. The \u201cSlate-colored\u201d Fox Sparrow of the mountains of the Interior West is small-billed and dull gray above with brownish splotches below. The range-restricted \u201cThick-billed\u201d Fox Sparrow of California\u2019s Sierra Nevada mountains looks like a \u201cSlate-colored\u201d Fox Sparrow but has a very large, chunky bill. \u201cSooty\u201d Fox Sparrows along the Pacific Coast are very dark brown above."
+        ]
+    }
+}

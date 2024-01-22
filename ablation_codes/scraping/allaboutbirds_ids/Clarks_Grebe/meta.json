@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65074871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65074871-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65074871-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A large waterbird with a very long, slender neck, a fine, straight bill, and a relatively small body."
+            ],
+            "Compared Size": [
+                "Larger and more slender than a Mallard, much smaller and slighter than a Common Loon."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 21.6-29.5 in (55-75 cm)",
+                "Weight: 25.3-44.4 oz (718-1258 g)",
+                "Wingspan: 22.8-25.2 in (58-64 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65074891-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65074891-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65074891-720px.jpg"
+        ],
+        "description": [
+            "A neat combination of blackish above and white below. The face is white up to and around the eye, where it meets the black cap. The bill is vivid orange or orange-yellow, and at close range the eye is red.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238671139",
+        "description": [
+            "Clark\u2019s Grebes spend much of the day diving for prey or resting on the water\u2019s surface. Courting birds pair off for ritualized displays that involve synchronized racing across the water in a nearly vertical position. These birds fly only infrequently and usually migrate at night.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65074881-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65074881-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65074881-480px.jpg"
+        ],
+        "description": [
+            "Western Grebes are rarely found away from aquatic habitats. Breeding birds use freshwater lakes; nonbreeding birds are found in both freshwater and along saltwater coasts.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "There are two subspecies: mostly migratory transitionalis of the United States and Canada, which is larger, with longer wings; and clarkii, which breeds only on the Mexican Plateau.",
+            ""
+        ]
+    }
+}

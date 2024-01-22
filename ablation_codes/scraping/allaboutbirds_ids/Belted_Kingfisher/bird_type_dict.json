@@ -1,0 +1,98 @@
+{
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303715931-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303715931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303715931-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303716231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303716231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303716231-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65764741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65764741-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65764741-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65764781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65764781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65764781-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky, large-headed bird with a shaggy crest and a thick daggerlike bill. Females are blue-gray with a chestnut belly band and flanks.",
+            "Large, big-headed bird with a heft bill. Females are more colorful than males with a chestnut belly band and flanks.",
+            "Catches fish by plunging directly into the water from a perch, or by hovering over the water and diving in.",
+            "Found near streams, rivers, ponds, lakes, and estuaries."
+        ]
+    },
+    "Male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303711061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303711061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303711061-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303711551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303711551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303711551-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, crested fish-eating bird. Males are blue-gray with a white collar and blue-gray breast band.",
+            "Often hovers above water looking for fish. Males have a single blue-gray breast band."
+        ]
+    },
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464907-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464907-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464907-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically forages by perching on a high branch or telephone wire before plunging headfirst into a shallow water body. Pursues fish, amphibians, reptiles, and other aquatic prey."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303712571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303712571-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303712571-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303713171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303713171-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303713171-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303712521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303712521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303712521-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303713021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303713021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303713021-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "",
+            ""
+        ]
+    }
+}

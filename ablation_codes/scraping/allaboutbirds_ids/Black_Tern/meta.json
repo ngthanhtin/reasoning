@@ -1,0 +1,45 @@
+{
+    "Size": {
+        "description": {
+            "Shape": [
+                "A small and delicately built seabird with a thin, pointed bill; long, pointed wings; a shallowly forked tail; and short legs."
+            ],
+            "Compared Size": [
+                "Larger than a Least Tern, smaller than a Common Tern."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-14.2 in (23-36 cm)",
+                "Weight: 1.8-2.1 oz (50-60 g)",
+                "Wingspan: 22.4-23.6 in (57-60 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "description": [
+            "Adults in breeding plumage are dark gray above with black heads and black underparts. The underwings and undertail coverts are pale. Nonbreeding adults are gray above, whitish below, with a dusky crown, ear-patch, and mark at the side of the breast. Juveniles are similar to nonbreeding adults but with a brown scaled pattern to the upperparts.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "description": [
+            "Forages by flying slowly and gracefully and either dipping to the water\u2019s surface to pick small fish or insects or catching insects on the wing. Breeds in colonies in freshwater lakes, making nests on floating vegetation. Often forms flocks.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "description": [
+            "Nests in freshwater marshes and bogs; winters in coastal lagoons, marshes, and open ocean waters. Migrants may stop over in almost any type of wetland.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "American Black Terns belong to the subspecies surinamensis, and Old World Black Terns belong to the slightly larger subspecies niger. Compared to surinamensis, Old World niger is paler below in breeding plumage, and in other plumages has a much smaller mark at the side of the breast. American Black Terns have been documented in Europe and the British Isles, but there are no records of Old World Black Terns in North America as of 2019.",
+            ""
+        ]
+    }
+}

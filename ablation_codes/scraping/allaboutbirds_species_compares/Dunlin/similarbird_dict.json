@@ -1,0 +1,78 @@
+{
+    "Red Knot": {
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71002531-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71002531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71002531-720px.jpg"
+            ],
+            "description": "Red Knots are larger than Dunlin with a shorter and stouter bill. Nonbreeding Red Knots have barring on the flanks that nonbreeding Dunlin lack."
+        }
+    },
+    "Rock Sandpiper": {
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40542591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40542591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40542591-1280px.jpg"
+            ],
+            "description": "Rock Sandpipers have a shorter bill that is yellow at the base, while Dunlins have a longer, drooping bill that is solid black. They also have yellow (not black) legs."
+        },
+        "Breeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32802331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32802331-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32802331-720px.jpg"
+            ],
+            "description": "The black belly patch on Rock Sandpipers is higher on the belly than it is on Dunlins. Rock Sandpipers also have a darker back and a shorter bicolored bill than Rock Sandpipers."
+        }
+    },
+    "Purple Sandpiper": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71002381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71002381-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71002381-720px.jpg"
+            ],
+            "description": "Purple Sandpipers have a shorter bill than Dunlins with yellow legs. The bill on nonbreeding Purple Sandpipers is yellow at the base, but is solid black on Dunlins."
+        }
+    },
+    "Sanderling": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814541-1280px.jpg"
+            ],
+            "description": "Breeding Sanderlings are more rusty colored than nonbreeding Dunlins with a shorter bill."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64814471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64814471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64814471-1280px.jpg"
+            ],
+            "description": "Nonbreeding sanderlings are paler gray with cleaner white breast than nonbreeding Dunlins. Sanderlings also have a shorter and straighter bill."
+        }
+    },
+    "Western Sandpiper": {
+        "Nonbreeding adult ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64827141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827141-1280px.jpg"
+            ],
+            "description": "Western Sandpipers are smaller with a shorter and straighter bill than Dunlins."
+        }
+    },
+    "Semipalmated Sandpiper": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-1280px.jpg"
+            ],
+            "description": "Semipalmated Sandpipers are smaller with a shorter bill than Dunlins."
+        }
+    }
+}

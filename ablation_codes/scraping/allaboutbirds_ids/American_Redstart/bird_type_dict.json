@@ -1,0 +1,98 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297029071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297029071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297029071-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469384-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/469384-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469384-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469381-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/469381-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64514521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64514521-480px.jpg"
+            ]
+        ],
+        "description": [
+            "A medium-sized warbler with a relatively wide, flat bill and a fairly long, expressive tail. Adult males are mostly black with bright orange patches on the sides, wings, and tail.",
+            "",
+            "",
+            "Breeds in open wooded habitats, particularly those dominated by deciduous trees."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297029121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297029121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297029121-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64514491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64514491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64514501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64514501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514501-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64514461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440616-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/440616-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440616-480px.jpg"
+            ]
+        ],
+        "description": [
+            "A medium-sized warbler with a relatively wide, flat bill and fairly long, expressive tail. Females have yellow patches on the sides, wings, and tail, a gray head, and an olive back.",
+            "Tends to forage at middle levels in the forest where it grabs insects midair or plucks them from vegetation.",
+            "Females have a gray head and yellow patches on the sides, wings, and tail.",
+            "Often fans tail to expose yellow or orange tail feathers.",
+            ""
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64514471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64514471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514471-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64514511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64514511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514511-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature males have yellow patches on the sides, wings, and tail with a variable amount of black on the face and chest.",
+            "Immature males have yellow patches on the sides, wings, and tail and a variable amount of black on the face and chest."
+        ]
+    },
+    "Adult male and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403719-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403719-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403719-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

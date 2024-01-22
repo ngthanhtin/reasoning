@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65686571-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65686571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65686571-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Small songbird with a thick, straight, and slightly hooked bill. It has a rather compact body and a thick neck."
+            ],
+            "Compared Size": [
+                "Larger than a Blue-gray Gnatcatcher, smaller than a Tufted Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.3-0.5 oz (10-14 g)",
+                "Wingspan: 6.7 in (17 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65686581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65686581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65686581-720px.jpg"
+        ],
+        "description": [
+            "This vireo wears yellow spectacles surrounding its white eye. It has yellow-washed sides, a gray head, a white chest and throat, and 2 white wingbars. Young birds have a dark eye that turns white in their first winter or spring.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667251",
+        "description": [
+            "Forages deliberately with short hops or flights, pausing to look for insects by tilting its head and peering. It tends to stay hidden in the understory, where it gleans insects by picking, hovering, reaching, lunging, hanging, or leaping.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65686591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65686591-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65686591-480px.jpg"
+        ],
+        "description": [
+            "Found in deciduous scrub, overgrown pastures, old fields, forested edges, second-growth forests, and streamside thickets. In Florida, also uses mangroves.",
+            ""
+        ]
+    }
+}

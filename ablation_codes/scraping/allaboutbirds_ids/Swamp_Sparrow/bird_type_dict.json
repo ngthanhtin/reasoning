@@ -1,0 +1,74 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64985151-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985151-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64985161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985161-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64985161-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64985181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64985181-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64985191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized sparrow with a rounded tail. Gray face and collar with a rusty cap and a dark line through the eye. Extensive reddish brown in wings. Base of bill is yellow.",
+            "Rusty cap and matching reddish brown wings. Neat white throat contrasts with gray face. Flanks are washed with brown.",
+            "Medium-sized sparrow with a rounded tail and extensive reddish brown in the wings. Breeding adult has a reddish crown patch and a gray face and back of the neck.",
+            "Occurs in wetlands with standing water, including freshwater marshes, beaver ponds, and saltmarshes."
+        ]
+    },
+    "Nonbreeding adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64985131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985131-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64985131-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64985171-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64985171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64985171-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized sparrow with a rounded tail. Neat white throat contrasts with gray-washed breast. Extensive reddish brown in wings.",
+            "Immature and nonbreeding birds have blurry streaks on the chest and have a plain brown, not reddish brown, cap. Note the neat white throat patch."
+        ]
+    },
+    "Nonbreeding and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/442002-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/442002-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/442002-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Gives a high metallic chink call year-round. This video has no audio."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299641191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299641191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299641191-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/320036271-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/320036271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/320036271-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308398731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308398731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308398731-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/405283-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/405283-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/405283-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small tern with fairly broad wings; flies with light, buoyant wingbeats. Breeding adults have very distinctive pattern of black head and body with dark gray wings.",
+            "Small tern with slender bill and dark gray wings. Breeding adults have black head, breast, and belly.",
+            "Black head and underparts make this graceful tern easy to identify in breeding plumage. Note also the dark gray back and wings\u2014darker than almost all other terns and distinctive in all plumages."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308402141-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308402141-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308402141-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308401561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308401561-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308401561-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small tern with dark gray wings. Nonbreeding adults have a dark ear spot on a mostly white head.",
+            ""
+        ]
+    },
+    "Molting adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71335361-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71335361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71335361-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71335401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71335401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71335401-480px.jpg"
+            ]
+        ],
+        "description": [
+            "When molting, can show a messy, mottled pattern of black and white.",
+            "Small tern with dark gray wings. Molting birds can be a mixture of black and white on the head and underparts."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308399101-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308399101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308399101-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71335411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71335411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71335411-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have dark gray-brown back and wings with faint paler bars. Head and underparts are white with black skullcap and ear mark.",
+            "Small tern with shallow fork in tail. Juveniles have brownish tinges to back feathers, marked with pale barring. Note black skullcap and ear mark."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71335421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71335421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71335421-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in inland freshwater marshes; migrates cross-country and over open ocean to wintering grounds. During migration may be found in flocks with other terns."
+        ]
+    }
+}

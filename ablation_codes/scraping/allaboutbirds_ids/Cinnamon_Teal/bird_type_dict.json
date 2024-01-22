@@ -1,0 +1,98 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299913341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299913341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299913341-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299911431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299911431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299911431-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299911301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299911301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299911301-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60310571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60310571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60310571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeding males have a deep brownish-red body with a long black bill, red eye, and a black back and rear.",
+            "",
+            "In flight note the green secondaries and powdery-blue shoulder.",
+            "In flight shows bright white underwings."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/174520431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/174520431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/174520431-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299911351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299911351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299911351-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females and nonbreeding males have a coarsely marked brown body with faint darker eyeline and cap, and a long black bill.",
+            ""
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/426448-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/426448-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/426448-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically found in shallow freshwater wetlands such as marshes, flooded fields and ditches, ponds, and slow streams."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60310511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60310511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60310511-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Note the plain-faced look on the female and the bright cinnamon-colored male."
+        ]
+    },
+    "Molting male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299913581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299913581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299913581-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Female and chick": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299912231-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299912231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299912231-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

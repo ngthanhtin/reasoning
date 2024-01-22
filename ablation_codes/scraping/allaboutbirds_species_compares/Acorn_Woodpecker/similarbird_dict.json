@@ -1,0 +1,42 @@
+{
+    "Red-headed Woodpecker": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64992601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992601-1280px.jpg"
+            ],
+            "description": "Red-headed Woodpeckers have an entirely red head unlike Acorn Woodpeckers that have only a red crown. The belly is white and unstreaked unlike Acorn Woodpeckers."
+        }
+    },
+    "White-headed Woodpecker": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39409551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39409551-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39409551-720px.jpg"
+            ],
+            "description": "White-headed Woodpeckers have a white head unlike Red-headed Woodpeckers."
+        }
+    },
+    "Red-breasted Sapsucker": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65053401-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65053401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65053401-720px.jpg"
+            ],
+            "description": "Red-breasted Sapsuckers have an entirely red head and breast unlike Acorn Woodpeckers that only have a red crown."
+        }
+    },
+    "Pileated Woodpecker": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60408671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60408671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60408671-1280px.jpg"
+            ],
+            "description": "Pileated Woodpeckers are larger than Acorn Woodpeckers with a red crest and striped face."
+        }
+    }
+}

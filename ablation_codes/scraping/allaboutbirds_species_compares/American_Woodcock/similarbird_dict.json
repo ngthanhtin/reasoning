@@ -1,0 +1,22 @@
+{
+    "Wilson's Snipe": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64829101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64829101-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64829101-720px.jpg"
+            ],
+            "description": "Wilson's Snipes have longer legs than American Woodcocks. They also have barring on the flanks and a white belly, while American Woodcocks have clean flanks and a cinnamon belly."
+        }
+    },
+    "Killdeer": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64809651-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64809651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64809651-720px.jpg"
+            ],
+            "description": "Killdeer have a very different shape from woodcock, with a short bill, slender body, upright posture, and longer legs. They have clean white underparts and 2 black bands across the breast."
+        }
+    }
+}

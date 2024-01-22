@@ -1,0 +1,22 @@
+{
+    "Mangrove Cuckoo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40628331-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40628331-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40628331-720px.jpg"
+            ],
+            "description": "Mangrove Cuckoos have peachy washed underparts while Black-billed Cuckoos have white underparts. They also have a bicolored bill, but Black-billed Cuckoos have a solid black bill."
+        }
+    },
+    "Yellow-billed Cuckoo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66038331-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66038331-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66038331-720px.jpg"
+            ],
+            "description": "Yellow-billed Cuckoos have large white spots on the underside of the tail while Black-billed Cuckoos only have small white tips on the tail feathers. Note name implied bill color difference."
+        }
+    }
+}

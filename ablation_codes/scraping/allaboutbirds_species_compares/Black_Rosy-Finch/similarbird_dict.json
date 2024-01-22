@@ -1,0 +1,46 @@
+{
+    "Brown-capped Rosy-Finch": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63735551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63735551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63735551-1280px.jpg"
+            ],
+            "description": "Brown-capped Rosy-Finches are browner overall and don't have the Black-capped Rosy-Finch's gray crown."
+        },
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63735511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63735511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63735511-1280px.jpg"
+            ],
+            "description": "Breeding Brown-capped Rosy-Finches have a brown chest and back, whereas breeding Black Rosy Finches have a blackish chest and back."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63735541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63735541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63735541-1280px.jpg"
+            ],
+            "description": "Juvenile Brown-capped Rosy-Finches are brown overall and lack the juvenile Black Rosy-Finch's buffy wingbars."
+        }
+    },
+    "Gray-crowned Rosy-Finch": {
+        "Adult (Hepburn's)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356541-1280px.jpg"
+            ],
+            "description": "Gray-crowned Rosy-Finches along the coast have gray cheeks unlike Black Rosy-Finches, which have blackish cheeks."
+        },
+        "Adult (Gray-crowned)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356601-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356601-720px.jpg"
+            ],
+            "description": "Gray-crowned Rosy Finches in the interior have a larger gray crown patch and are browner overall than Black Rosy-Finches."
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63666821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63666821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63666821-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Prothonotary Warbler is a large, heavy-bodied warbler with a big head and bill. It has shorter legs and a shorter tail than other warblers. Its bill is heavier and longer than most warblers."
+            ],
+            "Compared Size": [
+                "Larger than a Carolina Chickadee, smaller than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63666851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63666851-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63666851-480px.jpg"
+        ],
+        "description": [
+            "The Prothonotary Warbler is bright golden yellow with blue-gray wings and tail and a yellow-olive back. Its beady black eye stands out on its solid yellow face. Seen from below, it has white under the tail. Females are often paler yellow than males."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238637222",
+        "description": [
+            "This warbler often forages above standing or slow-moving water. It slowly hops along branches, twigs, and along fallen trees, keeping fairly low or actually dropping to the ground in search of food. It flies between trees and shrubs with heavy wingbeats in an undulating pattern."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63666871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63666871-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63666871-480px.jpg"
+        ],
+        "description": [
+            "Prothonotary Warblers breed in wooded swamps, flooded bottomland forests, and wooded areas near streams and lakes. These forests are often flat and shady with standing dead trees that have old woodpecker and chickadee holes for nesting."
+        ]
+    }
+}

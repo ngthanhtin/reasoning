@@ -1,0 +1,48 @@
+{
+    "Pelagic Cormorant": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66026051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026051-720px.jpg"
+            ],
+            "description": "Pelagic Cormorants are smaller with a thinner bill than Brandt's Cormorants. Breeding birds have a red chin patch and a dark face whereas breeding Brandt's have a blue chin patch surrounded by pale feathers."
+        }
+    },
+    "Double-crested Cormorant": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66027231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027231-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66027231-720px.jpg"
+            ],
+            "description": "Double-crested Cormorants have orange skin around the bill that Brandt's Cormorants do not have. They also have a paler bill than Brandt's."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66027241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027241-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027241-720px.jpg"
+            ],
+            "description": "Juvenile Double-crested Cormorants have a yellowish bill whereas juvenile and adult Brandt's Cormorants have a dark bill. They also have a paler neck and belly that does not form a V shape as it does on Brandt's."
+        }
+    },
+    "Red-breasted Merganser": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63911811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63911811-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63911811-720px.jpg"
+            ],
+            "description": "Red-breasted Mergansers are smaller than Brandt's Cormorants with a red bill."
+        },
+        "Female/nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63911761-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63911761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63911761-1280px.jpg"
+            ],
+            "description": "Red-breasted Mergansers are smaller than Brandt's Cormorants with a red bill."
+        }
+    }
+}

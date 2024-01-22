@@ -1,0 +1,42 @@
+{
+    "Little Blue Heron": {
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70689341-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70689341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70689341-720px.jpg"
+            ],
+            "description": "Juvenile Little Blue Herons are all white like Snowy Egrets, but they have a thicker, gray-and-black bill. Their legs are dull yellow-green not black like Snowy Egrets. Little Blue Herons usually forage with a much more sedentary style than Snowy Egrets."
+        }
+    },
+    "Cattle Egret": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70691031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70691031-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70691031-720px.jpg"
+            ],
+            "description": "Cattle Egrets are smaller and more compact, with shorter and thicker bills than Snowy Egrets. Their legs and bills are yellow, whereas Snowy Egrets\u2019 are black."
+        }
+    },
+    "Great Egret": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70610171-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610171-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70610171-720px.jpg"
+            ],
+            "description": "In flight, Great Egrets have slower and deeper wingbeats than Snowy Egrets."
+        }
+    },
+    "Reddish Egret": {
+        "Adult breeding white morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70690151-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70690151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70690151-1280px.jpg"
+            ],
+            "description": "In coastal areas, especially in Florida and along the Gulf Coast, watch out for white-morph Reddish Egrets. They are larger than Snowy Egrets, with two-toned pink-and-black bills."
+        }
+    }
+}

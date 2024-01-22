@@ -1,0 +1,170 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306710541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306710541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306710541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483363-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483363-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/483363-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/462535-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/462535-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/462535-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306710711-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306710711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306710711-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306711221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306711221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306711221-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small finch with a short, conical bill and a short, notched tail. Breeding males are bright yellow with black forehead, black wings with white markings.",
+            "Often feeds on small-seeded plants such as thistles. Breeding males have black cap, wings, and tail; bright yellow body.",
+            "Song is long and jumbled; may include mimicked elements of other birds' songs. Males sing from high, exposed perches. Note white in tail, which is conspicuous in flight.",
+            "Breeding males have a black forehead, a yellow back, and black-and-white wings. Some males have more white-tipped (worn) feathers on their wings than others.",
+            ""
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63737391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small finch with a conical bill and notched tail. Nonbreeding males are a drab, unstreaked brown, with blackish wings and two pale wingbars."
+        ]
+    },
+    "Breeding female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63737331-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63737331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737331-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306721311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306721311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306721311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeding females are duller yellow beneath and more olive above than breeding males.",
+            ""
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306711931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306711931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306711931-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Immatures are brown above and pale yellow below, shading to buff on the sides. Two buffy wingbars mark their dark wings."
+        ]
+    },
+    "Molting male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306711081-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306711081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306711081-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306711021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306711021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306711021-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63737351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737351-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/483442-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483442-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483442-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/408153-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408153-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/408153-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females/immatures are pale yellow below and don't have streaked underparts.",
+            "These nimble birds feed on small-seeded plants including sycamores. Females are brownish without any streaking and have distinctive, bold black wings with whitish wingbars.",
+            "Despite having a fairly small bill for a finch, goldfinches can crack and remove the hard shells of sunflowers, then crush the seed inside before swallowing."
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306710611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306710611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306710611-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306710621-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306710621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306710621-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Balances on the seedheads of thistles, dandelions, and other plants to pluck seeds."
+        ]
+    },
+    "Adult and juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306710631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306710631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306710631-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63737341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63737341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737341-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Frequently feeds in flocks at sunflower and nyjer seed feeders."
+        ]
+    }
+}

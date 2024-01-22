@@ -1,0 +1,22 @@
+{
+    "Black-crested Titmouse": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68043591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68043591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68043591-1280px.jpg"
+            ],
+            "description": "Black-crested Titmouse lacks the black-and-white bridled face pattern of Bridled Titmouse."
+        }
+    },
+    "Mountain Chickadee": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68054751-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg"
+            ],
+            "description": "Mountain Chickadees lack the Bridled Titmouse's crest. They also don't have black lines bordering their cheek like Bridled Titmice have."
+        }
+    }
+}

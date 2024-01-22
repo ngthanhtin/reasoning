@@ -1,0 +1,42 @@
+{
+    "Vaux's Swift": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66114141-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg"
+            ],
+            "description": "Vaux\u2019s Swifts look very similar to Chimney Swifts, but their breeding ranges do not overlap (Vaux's occur in the West and Chimney in the East)."
+        }
+    },
+    "Northern Rough-winged Swallow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280781-720px.jpg"
+            ],
+            "description": "Swallows have shorter, less curved and more triangular-shaped wings than swifts. Northern Rough-winged Swallows have paler underparts than Chimney Swifts."
+        }
+    },
+    "Cliff Swallow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68122521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122521-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122521-720px.jpg"
+            ],
+            "description": "Swallows have shorter, less curved and more triangular-shaped wings than swifts. Cliff Swallows have a pale belly and underwings while Chimney Swifts have a dark belly and underwings."
+        }
+    },
+    "Tree Swallow": {
+        "Adult male ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280061-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280061-720px.jpg"
+            ],
+            "description": "Swallows row through the air unlike the fluttery flight of swifts. Tree Swallows have pale underparts while Chimney Swifts have dark underparts."
+        }
+    }
+}

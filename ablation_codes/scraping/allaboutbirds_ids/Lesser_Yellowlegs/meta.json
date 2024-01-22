@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64838651-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64838651-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64838651-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A slender and elegant, medium-sized shorebirds with long legs and a long neck. The bill is straight and thin, only slightly longer than the bird's head (shorter and straighter than Greater Yellowlegs' bill)."
+            ],
+            "Compared Size": [
+                "Larger than a Dunlin, smaller than a Greater Yellowlegs."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-10.6 in (23-27 cm)",
+                "Weight: 2.8-3.2 oz (79.5-90.9 g)",
+                "Wingspan: 23.2-25.2 in (59-64 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64838631-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64838631-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64838631-720px.jpg"
+        ],
+        "description": [
+            "Breeding Lesser Yellowlegs are grayish brown birds with vivid yellow legs. They have fine, gray streaking across the head and neck, a white eyering, and white spots on the back and wings. Nonbreeding birds are more subdued gray-brown with less streaking and spotting. Bill is entirely dark.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648684",
+        "description": [
+            "The Lesser Yellowlegs has a graceful, high-stepping gait as it moves deftly across mudflats and marshes. Flight is buoyant and relaxed, with legs extending beyond the tail.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64838641-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64838641-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64838641-480px.jpg"
+        ],
+        "description": [
+            "Wetland habitats ranging from tidal flats to sewage ponds to flooded fields; often in the company of other shorebird species. Breeds in open forests and meadows interspersed with marshes and bogs.",
+            ""
+        ]
+    }
+}

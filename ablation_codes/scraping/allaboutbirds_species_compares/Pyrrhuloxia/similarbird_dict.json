@@ -1,0 +1,20 @@
+{
+    "Northern Cardinal": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63667361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63667361-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63667361-720px.jpg"
+            ],
+            "description": "Male Northern Cardinals have a red back and a red bill unlike Pyrrhuloxias, which have a gray back and a yellow bill."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63667281-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63667281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63667281-720px.jpg"
+            ],
+            "description": "Female Northern Cardinals have a browner body than female Pyrrhuloxias with a red (not yellow) bill."
+        }
+    }
+}

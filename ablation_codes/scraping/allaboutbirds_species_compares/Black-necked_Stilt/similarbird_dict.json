@@ -1,0 +1,20 @@
+{
+    "American Avocet": {
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807101-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807101-720px.jpg"
+            ],
+            "description": "American Avocets are taller than Black-necked Stilts with a longer upturned bill. They also have a white patch on the wings while Black-necked Stilts have solid black wings."
+        },
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64807071-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807071-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807071-720px.jpg"
+            ],
+            "description": "American Avocets are taller than Black-necked Stilts with a longer upturned bill. Breeding Avocets have a rusty-colored head and neck while Black-necked Stilts have a black-and-white head and neck."
+        }
+    }
+}

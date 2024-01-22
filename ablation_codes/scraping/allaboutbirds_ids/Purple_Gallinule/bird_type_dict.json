@@ -1,0 +1,80 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71546831-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71546831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546831-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475681-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/475681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475681-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71546771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71546771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546771-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71546791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546791-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71546791-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71546821-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71546821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546821-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71546701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546701-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized marsh bird with long yellow legs. Adults are an brilliant purple with a bright red-and-yellow bill.",
+            "Despite having incredibly long toes that help distribute their weight as they walk on floating vegetation, these birds also manage to cling to plant stems and fairly often move through marshes this way.",
+            "Flies with legs hanging down when going short distances. Note iridescent bronze, green, and blue back and red-and-yellow bill.",
+            "Adults have a blue shield on the forehead and a bright red-and-yellow bill. In good light their backs shine with green and turquoise colors. Can swim like a duck and walk on vegetation.",
+            "Their long toes help them grab onto stems of marsh plants and walk on top of floating vegetation.",
+            "Brilliant purple marsh bird with a red-and-yellow bill and long yellow legs. Walks on top of floating marsh vegetation, often pushing its head forward with each step."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303195841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303195841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303195841-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are pale brown with tints of bronze-green on the wings and back. Note white undertail coverts and long toes."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303196041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303196041-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303196041-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature birds are bronze above with purple feathers coming in on the chest. The bill and forehead shield are pale."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71546751-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71546751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546751-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in freshwater marshes with dense stands of floating vegetation."
+        ]
+    }
+}

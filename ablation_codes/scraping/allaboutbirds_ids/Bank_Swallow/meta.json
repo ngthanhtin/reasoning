@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68123401-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68123401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68123401-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small swallow with a chunky body, large head, relatively short pointed wings, and a slightly forked tail."
+            ],
+            "Compared Size": [
+                "The smallest of North America\u2019s swallow species, similar in size to a Chimney Swift but with shorter, broader wings."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.4-0.7 oz (10.2-18.8 g)",
+                "Wingspan: 9.8-13.0 in (25-33 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68123441-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68123441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68123441-720px.jpg"
+        ],
+        "description": [
+            "A warm brown swallow with white underparts and a thick brown band across the chest. The head is brown with a white chin. Underwings are dark.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668593",
+        "description": [
+            "Most often seen in flight, which is fluttery and fast with periods of brief gliding. Changes course frequently in pursuit of flying insects.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68123461-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68123461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68123461-720px.jpg"
+        ],
+        "description": [
+            "Bank Swallows breed in open lowland areas near bodies of water. They tend to avoid forests, woodlands, or areas where they cannot find appropriate nesting habitats.",
+            ""
+        ]
+    }
+}

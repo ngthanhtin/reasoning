@@ -1,0 +1,62 @@
+{
+    "Carolina Chickadee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68055161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68055161-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68055161-720px.jpg"
+            ],
+            "description": "Carolina and Black-capped Chickadees have very little range overlap, so check range maps and listen for Carolina's 4-noted song. Carolina also is plainer gray on the wings, with less white edging on the feathers than Black-capped."
+        }
+    },
+    "Mountain Chickadee": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68054751-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg"
+            ],
+            "description": "Mountain Chickadees have a white stripe over the eye that Black-capped Chickadees lack. Mountain Chickadees tend to be seen in evergreen forests, while Black-capped are more often found among deciduous trees along drainages."
+        }
+    },
+    "Boreal Chickadee": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68052681-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68052681-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68052681-720px.jpg"
+            ],
+            "description": "Boreal Chickadees occur in spruce-fir forests in northern North America. They have a brown cap rather than the Black-capped Chickadee's black cap."
+        }
+    },
+    "Chestnut-backed Chickadee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68054211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68054211-1280px.jpg"
+            ],
+            "description": "Chestnut-backed Chickadees have a rich brown back unlike the gray back of Black-capped Chickadee."
+        }
+    },
+    "White-breasted Nuthatch": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68039381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68039381-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68039381-720px.jpg"
+            ],
+            "description": "White-breasted Nuthatches have a shorter tail, longer bill, and lack Carolina Chickadee's black throat patch. Nuthatches behave very differently from chickadees, sticking to tree trunks and large branches rather than hanging from twigs."
+        }
+    },
+    "Blackpoll Warbler": {
+        "Breeding male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64804711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64804711-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64804711-720px.jpg"
+            ],
+            "description": "Male Blackpoll Warblers have smaller heads and are less plump than Black-capped Chickadees. They lack the full black throat of Black-capped Chickadee and are streakier on the back and the flanks."
+        }
+    }
+}

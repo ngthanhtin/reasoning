@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63912421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63912421-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63912421-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "These are small, compact ducks with stout, scoop-shaped bills, and long, stiff tails they often hold cocked upward. They have slightly peaked heads and fairly short, thick necks."
+            ],
+            "Compared Size": [
+                "Smaller than a Common Goldeneye; larger than a Bufflehead."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 13.8-16.9 in (35-43 cm)",
+                "Weight: 10.6-30.0 oz (300-850 g)",
+                "Wingspan: 22.1-24.4 in (56-62 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63912391-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63912391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63912391-720px.jpg"
+        ],
+        "description": [
+            "Male Ruddy Ducks have blackish caps that contrast with bright white cheeks. In summer, they have rich chestnut bodies with bright blue bills. In winter, they are dull gray-brown above and paler below with dull gray bills. Females and first-year males are brownish, somewhat like winter males but with a blurry stripe across the pale cheek patch. In flight, Ruddy Ducks show solidly dark tops of the wings."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668318",
+        "description": [
+            "Ruddy Ducks dive to feed on aquatic invertebrates, especially midge larvae. They feed most actively at night, so you\u2019ll often see Ruddy Ducks sleeping during the day, head tucked under a wing and tail cocked up."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63912401-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63912401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63912401-480px.jpg"
+        ],
+        "description": [
+            "They nest in marshes adjacent to lakes and ponds, primarily in the Prairie Potholes region. In migration, they flock to large rivers, ponds, and lakes, and also gather in coastal estuaries, frequently mixing with other diving ducks such as Bufflehead and goldeneyes."
+        ]
+    }
+}

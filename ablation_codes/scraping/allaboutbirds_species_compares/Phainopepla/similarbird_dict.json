@@ -1,0 +1,30 @@
+{
+    "Cedar Waxwing": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59874521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874521-1280px.jpg"
+            ],
+            "description": "Chunkier and more brightly colored than a Phainopepla."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59874461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59874461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59874461-1280px.jpg"
+            ],
+            "description": "Juveniles have streaked underparts and are brownish (not gray)."
+        }
+    },
+    "Northern Mockingbird": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63743751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63743751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63743751-1280px.jpg"
+            ],
+            "description": "Northern Mockingbirds are larger with whitish (not black or gray) bellies and a round, crestless head."
+        }
+    }
+}

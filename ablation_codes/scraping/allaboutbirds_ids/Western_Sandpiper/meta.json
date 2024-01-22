@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64827141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64827141-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64827141-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small, portly shorebird with a long, thin bill with a slightly curved tip. It has long, pointed wings, a short tail, and medium-length legs for its size. Females tend to be larger and have longer bills than males."
+            ],
+            "Compared Size": [
+                "Larger than a Least Sandpiper, smaller than a Dunlin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.7 in (14-17 cm)",
+                "Weight: 0.8-1.2 oz (22-35 g)",
+                "Wingspan: 13.8-14.6 in (35-37 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64827111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64827111-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64827111-480px.jpg"
+        ],
+        "description": [
+            "Breeding adults have black, brown, rufous, and gold upperparts, with white underparts marked with extensive dark arrow-shaped streaks. They have a rufous crown and ear patch, and dark legs and bill. Nonbreeding adults are pale gray above, whitish below. Juveniles are similar to nonbreeding adults but the upperparts are more vivid in the wings, showing gold and rufous edges to feathers.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238645081",
+        "description": [
+            "Forages by walking slowly through mudflats and similar habitats and pecking or probing to obtain tiny invertebrate prey. On breeding grounds, males perform multiple flight displays to the females. The females depart before the young have fledged and winter farther south, on average, than males.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64827151-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64827151-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64827151-480px.jpg"
+        ],
+        "description": [
+            "Nests in tundra. Forages in mudflats, wet and plowed agricultural fields, river margins, lakeshores, sewage ponds, estuaries, lagoons.",
+            ""
+        ]
+    }
+}

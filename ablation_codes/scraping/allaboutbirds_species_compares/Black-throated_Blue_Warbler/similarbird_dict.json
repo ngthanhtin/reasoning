@@ -1,0 +1,52 @@
+{
+    "Orange-crowned Warbler": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64441261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64441261-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64441261-720px.jpg"
+            ],
+            "description": "Orange-crowned Warblers are greener and less brown than female Black-throated Blue Warblers. Orange-crowned's undertail coverts are yellow (not white). Note thin bill and lack of white square on the wing."
+        }
+    },
+    "Tennessee Warbler": {
+        "Nonbreeding/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64440431-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64440431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440431-720px.jpg"
+            ],
+            "description": "Nonbreeding/immature Tennessee Warblers have yellow-washed throat and flanks, while female Black-throated Blues are more dusky and brownish. Tennessee also lacks the female Black-throated Blue's white square on the wing."
+        }
+    },
+    "American Redstart": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64514481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514481-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64514481-720px.jpg"
+            ],
+            "description": "Female American Redstarts have yellow flashes in the wings and tail that Black-throated Blue Warblers do not have."
+        }
+    },
+    "Pine Warbler": {
+        "Adult female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64893881-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64893881-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64893881-720px.jpg"
+            ],
+            "description": "Female Pine Warblers have 2 white wingbars while female Black-throated Blue Warblers have a white square on the wing."
+        }
+    },
+    "Common Yellowthroat": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66117641-720px.jpg"
+            ],
+            "description": "Female Common Yellowthroats have a yellow throat and undertail coverts while female Black-throated Blue Warblers have a dusky throat and white undertail coverts. Note lack of white square on the wing."
+        }
+    }
+}

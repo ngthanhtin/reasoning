@@ -1,0 +1,86 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297919871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297919871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297919871-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478232-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478232-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478232-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297920061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297920061-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297920061-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478991-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478991-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807511-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807521-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478742-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478742-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478742-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/467340-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/467340-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/467340-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large and chunky shorebird with a bright red bill and yellow eye.",
+            "Males and females incubate eggs laid in a small scrape on the ground.",
+            "In flight, note white wing and tail stripe. Flying birds often give piercing calls.",
+            "Conspicuous shorebird with a bright red bill and yellow eye.",
+            "Walks or runs along beaches and rocky shorelines.",
+            "Courting birds walk side by side giving single piping notes with their outstretched necks bobbing up and down.",
+            "Nests on the ground on sand dunes, marsh islands, or oyster shell mounds.",
+            "Found along beaches, rocky shorelines, and mudflats.",
+            "Forages for aquatic invertebrates hiding in cracks of rocks. This video has no audio."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297919991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297919991-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297919991-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Chunky shorebird. Juveniles are duller than adults with a dark-tipped bill."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64807531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807531-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in coastal habitats including sand or shell beaches, dunes, saltmarsh, marsh islands, mudflats, and dredge spoil islands made of sand or gravel."
+        ]
+    }
+}

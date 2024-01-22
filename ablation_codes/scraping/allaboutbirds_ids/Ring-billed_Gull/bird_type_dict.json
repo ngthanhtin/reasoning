@@ -1,0 +1,98 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303369661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303369661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303369661-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/483322-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483322-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483322-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316011-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316011-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized gull with a shorter bill. Breeding adults have black band across their yellow bill, yellow legs, a pale eye, and a pale gray back.",
+            "Medium-sized gull with fairly small bill. Breeding adults typically have clean white head, pale eye, and yellow legs.",
+            "In flight, note the small white spot on the tips of the outer primaries and relatively little black on the primaries."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303369781-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303369781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303369781-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding adults like this one have only a little bit of tan streaking on the head or neck, but other can have more tan streaking. Otherwise nonbreeding adults look similar to breeding adults with a black band across their yellow bill and a pale eye."
+        ]
+    },
+    "Second winter": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316051-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316051-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Second winter gulls have tan streaking on the neck, head, and chest (like this one), but others have relatively little. Note the black band across the yellow bill."
+        ]
+    },
+    "First winter": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71315971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71315971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71315971-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71316081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316081-480px.jpg"
+            ]
+        ],
+        "description": [
+            "First winter birds start acquiring gray feathers on their back, but still retain some brown feathers on their wings and have variable amounts of brown streaking and spotting on their head, neck, and underparts.",
+            "First winter birds begin to acquire pale gray feathers on their back while retaining a mottled brown look overall. Note short bill that is pink at the base."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/169531051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/169531051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169531051-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71315981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71315981-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71315981-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are a patchwork of brown and white with a dark bill that is most often pink at the base.",
+            "Juveniles in flight ave dark primaries and mottled inner wings with a wide, dark tail band."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303369851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303369851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303369851-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found along coastal beaches, inland lakes, garbage dumps, parking lots, and freshly plowed fields."
+        ]
+    }
+}

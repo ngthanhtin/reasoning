@@ -1,0 +1,68 @@
+{
+    "Adult (Arizona)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302387251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387251-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402965-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402965-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402965-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large songbird with long tail and heavy bill. Adults are blue with a gray patch on the back and dingy gray underparts. The intensity of blue varies across their range; birds in Arizona tend to be paler blue.",
+            "Lacks a crest, has an all-blue back, and no necklace across the chest."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302387931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387931-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302387461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387461-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302387541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387541-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Medium-sized crestless jay with dingy gray underparts. Often seen hopping on the ground while foraging for insects and stored acorns.",
+            ""
+        ]
+    },
+    "Juvenile (Arizona)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302387371-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302387371-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look like adults but have a pale bill. Juveniles in Arizona have a pale bill for 2 years before they acquire the dark bill of adults."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302387731-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302387731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302387731-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in pine, oak, and juniper woodlands."
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70689341-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70689341-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70689341-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "This is a fairly small heron with a slight body, slender neck, and fairly long legs. It has rounded wings, and a long, straight, spearlike bill that is thick at the base."
+            ],
+            "Compared Size": [
+                "Smaller than a Great Blue Heron; about the size of a Snowy Egret."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 22.1-29.1 in (56-74 cm)",
+                "Weight: 10.4-14.5 oz (296-412 g)",
+                "Wingspan: 39.4-41.3 in (100-105 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70689401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70689401-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70689401-480px.jpg"
+        ],
+        "description": [
+            "Adult Little Blue Herons are very dark all over. At close range or in good light, they have a rich purple-maroon head and neck and dark slaty-blue body. They have yellow eyes, greenish legs, and a bill that is pale blue at the base, black at the tip. Juveniles are entirely white, except for vague dusky tips to the outer primaries. Immatures molting into adult plumage are a patchwork of white and blue."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240080314",
+        "description": [
+            "The Little Blue Heron is a stand-and-wait predator, rather than a frenetic, dashing-about predator. They watch the water for fish and other small morsels, changing locations by walking slowly or by flying to a completely different site. They nest in trees, usually among other nesting herons and wading birds."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70689411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70689411-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70689411-480px.jpg"
+        ],
+        "description": [
+            "Look for Little Blue Herons on quiet waters ranging from tidal flats and estuaries to streams, swamps, and flooded fields. They are usually found in only small numbers at any one water body, often tucked into hidden corners."
+        ]
+    }
+}

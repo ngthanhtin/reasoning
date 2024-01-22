@@ -1,0 +1,68 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304392981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304392981-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304392981-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large waterbird with a long tail and neck, but small for a cormorant. Breeding birds have thin white plumes on the head and a yellow chin outlined in white, forming a V shape."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66026921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026921-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304393111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304393111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304393111-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66026901-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66026901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026901-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large waterbird, although smaller than other cormorants. Juveniles have a brown head, neck, and breast.",
+            "Long-tailed waterbird with a long neck and slender body. Juveniles have a brown head, neck, and breast with a small yellow chin patch.",
+            "Small for a cormorant with a short bill. Juveniles have a brown head, neck, and breast."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/481237-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/481237-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/481237-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304393171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304393171-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304393171-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Fairly small for a cormorant with a relatively small bill, small head, and long tail.",
+            ""
+        ]
+    },
+    "Adult and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66026941-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66026941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026941-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in wetlands, including fresh, brackish, and saltwater habitats. Nests and roosts mostly in trees, but also on cliffs and human-made structures."
+        ]
+    }
+}

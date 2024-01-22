@@ -1,0 +1,116 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296780741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296780741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296780741-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403821-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64440391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64440391-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64440421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440421-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440461-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, short-tailed warbler with a thin, pointy bill. Breeding males are yellow-green above with a gray cap and a pale eyebrow. The underside is plain whitish, although some have yellow-washed undersides. Note lack of strong wingbars.",
+            "",
+            "Gleans insects from outer foliage of trees and shrubs. Note thin, pointy bill.",
+            "Small, short-tailed warbler with a thin, pointy bill. Breeding males are yellow-green above with a gray cap and a pale eyebrow. The underside is plain whitish, although some have yellow-washed undersides. Note lack of strong wingbars.",
+            "Breeds in the boreal forest with evergreen and deciduous trees. Uses all types of woodlands during migration."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296781081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296781081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296781081-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a thin, pointy bill. Breeding females are yellow-green above with a gray cap and pale eyebrow. The underside is whitish, although some have yellow-washed undersides."
+        ]
+    },
+    "Nonbreeding adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296781771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296781771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296781771-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64440431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440431-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding/immature birds are yellow-green overall, showing little contrast between the head and the back. Note thin, pointy bill, lack of distinct wingbars, and white undertail coverts.",
+            "Nonbreeding/immature birds are yellow-green overall, showing little contrast between the head and the back. Note thin, pointy bill, lack of distinct wingbars, and white undertail coverts."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296781431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296781431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296781431-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding/immature birds are more yellow-green overall with a pale eyebrow and a yellow-washed underside. Note whiter undertail coverts compared to the breast color."
+        ]
+    },
+    "Breeding female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403822-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403822-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403822-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403306-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403306-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403306-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Nonbreeding and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466388-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466388-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466388-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "Scarlet Tanager": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67449621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449621-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449621-720px.jpg"
+            ],
+            "description": "Scarlet Tanagers\u2014including males, females, and immatures\u2014have black or blackish wings that contrast with the body, unlike Summer Tanagers."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67449611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449611-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449611-720px.jpg"
+            ],
+            "description": "Female Scarlet Tanagers have darker blackish wings whereas female/immature Summer Tanagers have yellowish wings."
+        }
+    },
+    "Western Tanager": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67449101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449101-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449101-720px.jpg"
+            ],
+            "description": "Female/immature Western Tanagers have blackish wings as well as bold wingbars, whereas Summer Tanagers have yellower unmarked wings."
+        }
+    },
+    "Hepatic Tanager": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39533911-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39533911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39533911-720px.jpg"
+            ],
+            "description": "Hepatic Tanagers have gray cheek patches and a grayish tinted back whereas adult male Summer Tanagers are entirely red. Also note the round head on Hepatic versus a slightly crested head on Summer Tanagers."
+        },
+        "Female/immature male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/39399961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39399961-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39399961-1280px.jpg"
+            ],
+            "description": "Female/immature Hepatic Tanagers have darker bills than female/immature Summer Tanagers which have pale pinkish or horn-colored bills. They also have a grayish face and back that Summers lack."
+        }
+    },
+    "Northern Cardinal": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63667361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63667361-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63667361-720px.jpg"
+            ],
+            "description": "Male Northern Cardinals have a long, pointed crest, black feathers around the face, and a heavy, triangular, reddish bill unlike adult male Summer Tanagers, which are entirely red with a longer, thinner bill."
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65071971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65071971-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65071971-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A large, slender waterbird with a very long neck, a large head that may show a peak, and a long, slender, pointed bill."
+            ],
+            "Compared Size": [
+                "Larger than a Mallard, smaller than a Common Loon."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 21.6-29.5 in (55-75 cm)",
+                "Weight: 40.1-64.4 oz (1138-1826 g)",
+                "Wingspan: 22.8-25.2 in (58-64 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65072021-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65072021-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65072021-480px.jpg"
+        ],
+        "description": [
+            "Western Grebes are crisp black and white, with a sharp transition between black and white extending down the neck. The head and most of the face are black, with white below the eye. The bill is yellowish or greenish yellow and the eye is red at close range.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238650889",
+        "description": [
+            "Western Grebes are almost always in the water, where they dive for prey or rest on the surface. They can disappear for long periods during dives. Courting birds have a captivating display in which the pair races side by side across the water, their necks gracefully curved and bills pointed to the sky.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65071981-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65071981-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65071981-720px.jpg"
+        ],
+        "description": [
+            "Breeding birds use freshwater lakes; nonbreeding birds are found in both freshwater and saltwater environments, though never far from shore in oceans.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "A mostly migratory northern subspecies, occidentalis, breeds in the U.S. and Canada. It is larger, with longer wings, than the southern subspecies, ephemeralis, that breeds only on the Mexican Plateau.",
+            ""
+        ]
+    }
+}

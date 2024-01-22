@@ -1,0 +1,98 @@
+{
+    "Herring Gull": {
+        "Nonbreeding adult (American)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71319281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71319281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71319281-1280px.jpg"
+            ],
+            "description": "Adult Herring Gulls have a paler gray back than Western Gulls. Nonbreeding adult Herrings also have more streaking on their head than nonbreeding adult Western Gulls."
+        },
+        "Second winter (American)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71319291-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71319291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71319291-720px.jpg"
+            ],
+            "description": "Herring Gulls have a slimmer bill than Western Gulls, which have a more bulbous-shaped bill. Second winter gulls have paler gray feathers coming in on their back than second winter Western Gulls."
+        },
+        "Juvenile (American)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71319421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71319421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71319421-1280px.jpg"
+            ],
+            "description": "Herring Gulls have a slimmer and less bulbous-tipped bill than Western Gulls in all ages. Juveniles tend to be paler brown overall than juvenile Western Gulls."
+        }
+    },
+    "California Gull": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71318281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71318281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318281-1280px.jpg"
+            ],
+            "description": "Adult California Gulls can be separated from adult Western Gulls by their yellow legs and paler gray backs."
+        },
+        "Second winter": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71318191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318191-1280px.jpg"
+            ],
+            "description": "Second winter California Gulls have a slimmer and more strongly bicolored bill than second winter Western Gulls. At this age, the back feathers are also paler on California than on Western Gulls."
+        },
+        "First winter": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71318241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71318241-720px.jpg"
+            ],
+            "description": "The bill on first winter California Gulls is more strongly bicolored than the bill on first winter Western Gulls. Californias also tend to have whiter heads than first winter Westerns."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71318171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318171-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318171-720px.jpg"
+            ],
+            "description": "Juvenile California Gulls have a slimmer bill that usually shows pink at the base while the bill of juvenile Western Gulls is entirely black and heavier."
+        }
+    },
+    "Ring-billed Gull": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71315991-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71315991-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71315991-720px.jpg"
+            ],
+            "description": "Adult Ring-billed Gulls can be separated from adult Western Gulls by their smaller size, paler gray backs, yellow legs, and black band around the bill."
+        },
+        "First winter": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71315971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71315971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71315971-1280px.jpg"
+            ],
+            "description": "Immature Ring-billed Gulls are smaller than Western Gulls and have a slimmer bill, lacking the bulbous tip seen on immature Westerns."
+        }
+    },
+    "Glaucous-winged Gull": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71320941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71320941-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71320941-720px.jpg"
+            ],
+            "description": "Adult Glaucous-winged Gulls have pale gray wingtips unlike adult Western Gulls that have black wingtips. Glaucous-winged Gulls are also paler gray overall than Western Gulls."
+        },
+        "Second winter": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71320881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71320881-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71320881-720px.jpg"
+            ],
+            "description": "Immature Glaucous-winged Gulls have paler brown wingtips than immature Western Gulls."
+        }
+    }
+}

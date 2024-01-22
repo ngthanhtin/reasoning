@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66113881-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113881-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113881-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Chimney Swifts are very small birds with slender bodies and very long, narrow, curved wings. They have round heads, short necks, and short, tapered tails. The wide bill is so short that it is hard to see."
+            ],
+            "Compared Size": [
+                "About the same size as a Cliff Swallow."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.9 in (12-15 cm)",
+                "Weight: 0.6-1.1 oz (17-30 g)",
+                "Wingspan: 10.6-11.8 in (27-30 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66113891-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113891-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113891-480px.jpg"
+        ],
+        "description": [
+            "They are dark gray-brown all over, slightly paler on the throat. At distance and when backlit against they sky they can appear to be all black."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238646576",
+        "description": [
+            "Chimney Swifts fly rapidly with nearly constant wingbeats, and often twist from side to side and bank erratically. Their wingbeats are stiff, with very little flex at the wrists. They often give a high, chattering call while they fly."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66113911-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113911-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113911-480px.jpg"
+        ],
+        "description": [
+            "Chimney Swifts nest in chimneys and on other vertical surfaces in dim, enclosed areas, including air vents, wells, hollow trees, and caves. They forage over urban and suburban areas, rivers, lakes, forests, and fields."
+        ]
+    }
+}

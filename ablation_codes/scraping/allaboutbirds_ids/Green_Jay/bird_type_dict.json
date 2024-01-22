@@ -1,0 +1,80 @@
+{
+    "Adult (Green)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302348751-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302348751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302348751-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302348851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302348851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302348851-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302349161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302349161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302349161-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large and unmistakable. Bright green above with a blue head and black throat.",
+            "Large bright green, blue, and yellow jay. The tail is yellow below and it flashes yellow outer tail feathers in flight.",
+            ""
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/410358-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410358-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410358-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402529-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402529-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402529-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/450430-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/450430-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/450430-480px.jpg"
+            ]
+        ],
+        "description": [
+            "A bold and colorful jay that sometimes takes sugar water from hummingbird feeders.",
+            "Brightly colored and unmistakeable. This video has no audio.",
+            "Eats mainly insects, but also eats seeds and visits bird feeders. This video has no audio."
+        ]
+    },
+    "Adult (Inca)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302348921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302348921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302348921-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302349171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302349171-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302349171-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302349111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302349111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302349111-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302349181-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302349181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302349181-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Individuals farther south tend to be brighter yellow below.",
+            "",
+            "",
+            ""
+        ]
+    }
+}

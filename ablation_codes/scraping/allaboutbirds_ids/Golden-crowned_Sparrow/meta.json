@@ -1,0 +1,49 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64978511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64978511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64978511-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "These are large, long-tailed sparrows with small heads and short but stout, seed-eating bills."
+            ],
+            "Compared Size": [
+                "Smaller than an American Robin; larger than a Yellow-rumped Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64978541-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64978541-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64978541-480px.jpg"
+        ],
+        "description": [
+            "In summer, adult Golden-crowned Sparrows are streaked brown above and smooth gray to brown below, with a black crown and bright-yellow forehead. Winter and immature Golden-crowned Sparrows are duller, with brown replacing black on the head and less obvious yellow on the crown."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238665790",
+        "description": [
+            "Golden-crowned Sparrows feed on seeds and insects on the ground and in low vegetation. They whistle their slow, mournful-sounding songs from high perches and nest in dense, low vegetation. In migration and winter, they gather in loose flocks and mix with other sparrows, especially White-crowned Sparrows."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64978571-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64978571-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64978571-480px.jpg"
+        ],
+        "description": [
+            "Golden-crowned Sparrows are most visible during migration and winter, when they frequent forest edge, shrubs, chaparral, and backyards of the West Coast. They nest much farther north, in low, shrubby areas of tundra or at the edges of boreal forests."
+        ]
+    }
+}

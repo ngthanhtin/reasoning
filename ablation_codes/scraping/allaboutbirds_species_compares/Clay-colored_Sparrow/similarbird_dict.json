@@ -1,0 +1,30 @@
+{
+    "Chipping Sparrow": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972021-720px.jpg"
+            ],
+            "description": "Breeding Chipping Sparrows have a rusty cap and are darker and colder gray overall than Clay-colored Sparrows. The dark eyeline extends through the eye to the bill on Chipping, but it stops at the eye on Clay-colored Sparrows."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64972051-720px.jpg"
+            ],
+            "description": "Nonbreeding Chipping Sparrows have a narrower buffy eyebrow and a grayer breast than Clay-colored Sparrows. The dark eyeline extends through the eye to the bill on Chipping, but it stops at the eye on Clay-colored Sparrows."
+        }
+    },
+    "Brewer's Sparrow": {
+        "Adult (Brewer's)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64973431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64973431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973431-1280px.jpg"
+            ],
+            "description": "Brewer\u2019s Sparrows are more nondescript and grayer overall than Clay-colored Sparrows, with much less contrast on the face. Also note the crown stripe is weak on Brewer's, but distinct on Clay-colored Sparrows."
+        }
+    }
+}

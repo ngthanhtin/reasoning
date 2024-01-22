@@ -1,0 +1,56 @@
+{
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65683361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683361-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302118091-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302118091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302118091-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483128-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483128-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/483128-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302118781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302118781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302118781-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302117861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302117861-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302117861-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302118331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302118331-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302118331-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, hefty flycatcher with a thick bill, a pale gray head, and a bright yellow belly.",
+            "Large, hefty flycatcher with a bright yellow belly, pale gray head, and whitish throat. Note white edging on outer tail feathers.",
+            "Sits upright on exposed perches and scans for insects. Note white outer tail feathers and uniform gray throat and chin. Often returns to the same perch after flying out after prey.",
+            "Large flycatcher with a long tail and thick bill. Note pale gray head and dark tail with white outer tail feathers (visible in flight).",
+            "The tail is black with white outer tail feathers that are especially conspicuous in flight.",
+            "Found in open habitats such as grasslands, deserts, sagebrush flats, and agricultural fields, where they perch on utility lines, fences, and trees."
+        ]
+    },
+    "(with Common Raven)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302118541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302118541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302118541-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

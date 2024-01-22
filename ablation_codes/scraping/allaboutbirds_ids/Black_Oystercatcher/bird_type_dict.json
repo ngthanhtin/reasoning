@@ -1,0 +1,62 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297921461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297921461-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297921461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/480816-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/480816-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/480816-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807731-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807731-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807771-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807751-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807751-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Stocky, all-dark shorebird with a red bill and yellow eye.",
+            "Typically found on rocky shores. All-dark body and long, orange-red bill are distinctive.",
+            "Dark overall in flight. Eats molluscs, especially mussels and limpets.",
+            "Pairs often engage in \"piping display\" to greet mates or threaten intruders. Pairs rotate in place or run side by side with short, quick steps while giving piping notes.",
+            "Large, conspicuous, noisy shorebird of the Pacific Coast. Found along rocky seacoasts and islands, less commonly on sandy beaches."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297921581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297921581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297921581-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are all dark with a dark-tipped red bill."
+        ]
+    },
+    "Adult and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64807761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64807761-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64807761-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding birds often roost together on rocky shorelines above the high water mark."
+        ]
+    }
+}

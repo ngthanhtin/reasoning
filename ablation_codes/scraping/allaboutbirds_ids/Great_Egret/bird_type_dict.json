@@ -1,0 +1,134 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70610211-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70610211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464557-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464557-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464557-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472349-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472349-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/472349-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304480271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304480271-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304480271-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Long-legged wading bird with a long, S-curved neck and a daggerlike bill.",
+            "Slowly walks through freshwater or estuarine habitats hunting foraging with stand-and-wait techniques.",
+            "Great Egrets are opportunistic foragers. They primarily consume fish, but also eat crustaceans, amphibians, and small mammals.",
+            "Flies with its long neck tucked in and its long legs trailing behind."
+        ]
+    },
+    "Breeding adult (American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70610201-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70610201-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610201-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70610231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70610231-480px.jpg"
+            ]
+        ],
+        "description": [
+            "During the breeding season, long feathery plumes grow from its back, called aigrettes which they hold up during courtship displays.",
+            "Wades through water slowly stalking fish, amphibians, and other aquatic invertebrates."
+        ]
+    },
+    "Breeding adult (African)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304480561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304480561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304480561-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Breeding adult (Eurasian)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304480371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304480371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304480371-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Breeding adult (Australasian)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304480601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304480601-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304480601-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Breeding adult with Roseate Spoonbills": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/481097-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/481097-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/481097-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Males perform elegant courtship displays by raising long plumes on their backs. Displays also include head bowing or neck stretching."
+        ]
+    },
+    "Adult (with Snowy Egret)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70610251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70610251-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Larger than a Snowy Egret with a yellow bill and entirely black legs and feet."
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466594-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466594-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466594-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Great Egrets while solitary foragers, roost and nest in mixed-species colonies in trees and shrubs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70610221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70610221-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in both freshwater and saltwater wetlands."
+        ]
+    }
+}

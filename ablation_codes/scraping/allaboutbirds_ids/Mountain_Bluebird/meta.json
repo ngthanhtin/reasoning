@@ -1,0 +1,53 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67471181-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67471181-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67471181-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Mountain Bluebirds are fairly small thrushes with round heads and straight, thin bills. Compared with other bluebirds they are lanky and long-winged, with a long tail."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Cassin\u2019s Finch, considerably smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.9 in (16-20 cm)",
+                "Weight: 1.1 oz (30 g)",
+                "Wingspan: 11.0-14.2 in (28-36 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67471171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67471171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67471171-720px.jpg"
+        ],
+        "description": [
+            "Male Mountain Bluebirds are sky-blue, a bit darker on wings and tail and a bit paler below, with white under the tail. Females are mostly gray-brown with tinges of pale blue in the wings and tail. They occasionally show a suffusion of orange-brown on the chest. Mountain Bluebirds\u2019 bills are entirely black. Juveniles have fewer spots than the young of other bluebirds and lack spotting on the back.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238649556",
+        "description": [
+            "Unlike other bluebird species, Mountain Bluebirds often hover while foraging; they also pounce on their insect prey from an elevated perch. In winter, the species often occurs in large flocks wandering the landscape feasting on berries, particularly those of junipers."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67471141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67471141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67471141-720px.jpg"
+        ],
+        "description": [
+            "Mountain Bluebirds are common in the West\u2019s wide-open spaces, particularly at middle and higher elevations. They breed in native habitats such as prairie, sagebrush steppe, and even alpine tundra; anywhere with open country with at least a few trees that can provide nest cavities. They also readily take to human-altered habitats, often nesting in bluebird boxes and foraging in pastures."
+        ]
+    }
+}

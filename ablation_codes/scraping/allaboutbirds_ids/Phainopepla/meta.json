@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67452731-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67452731-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67452731-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A slender, long-tailed songbird with a distinct crest."
+            ],
+            "Compared Size": [
+                "Larger than a Juniper Titmouse, smaller than a Northern Cardinal."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.1-8.3 in (18-21 cm)",
+                "Weight: 0.6-1.0 oz (17.9-28.1 g)",
+                "Wingspan: 10.6-11.4 in (27-29 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67452711-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67452711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67452711-720px.jpg"
+        ],
+        "description": [
+            "Adult males are glossy black with red eyes and large white patches in the wings (visible in flight). Adult females are mousy grayish brown with red eyes; immatures are similar but with brownish eyes.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238642974",
+        "description": [
+            "Phainopeplas feed on mistletoe in winter, and on other berries (and insects) in spring through fall. At most times of year, they are territorial, often perching for long periods to watch for intruders as they guard berries, nests, and territorial boundaries. Sometimes they nest in small colonies, and after breeding they often form large flocks. Most winter at lower elevations in deserts and move in warmer months to higher elevations.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67452751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67452751-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67452751-480px.jpg"
+        ],
+        "description": [
+            "Desert washes with abundant mistletoe, orchards, chaparral, Joshua tree woodlands, oak and sycamore woodlands.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Two subspecies have been described, the smaller lepida and the larger nitens. Both can be found in the United States, but they can only be distinguished by measurements of the wing and tail.",
+            ""
+        ]
+    }
+}

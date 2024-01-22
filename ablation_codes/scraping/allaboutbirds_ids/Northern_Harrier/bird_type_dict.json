@@ -1,0 +1,92 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305647471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305647471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305647471-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305650751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305650751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305650751-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized raptor with long, broad wings, a long tail, and a characteristic white rump patch. Adult males are grayish above with a dark trailing edge on the wings.",
+            "From below adult males are pale with black wingtips and black-tipped secondaries. Often hovers above prey before pouncing."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305648981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305648981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305648981-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464892-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464892-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464892-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305651321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305651321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305651321-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often flies with its broad wings held in a \"V\". Note long tail. Females are pale below withe brown streaking.",
+            "Hunts for small rodents by gliding low over wetlands or open fields. Northern Harriers often flap intermittently and make sharp turns when flying.",
+            "Both males and females have a distinctive white rump patch."
+        ]
+    },
+    "Adult female Northern Harrier hunting": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/210801081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/210801081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/210801081-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Note languid wingbeats with wings raised in a dihedral when gliding. Hunts low to the ground, teetering from side-to-side."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305649241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305649241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305649241-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature birds have an unstreaked cinnamon wash on their belly and a darker brown head. Their flight feathers and tail are banded."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305652911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305652911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305652911-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Northern Harriers have an owl-like face that helps them detect prey by ear."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70774821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70774821-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70774821-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in open areas such as grasslands, marshes, and fields soaring low over the ground."
+        ]
+    }
+}

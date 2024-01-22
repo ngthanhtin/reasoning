@@ -1,0 +1,32 @@
+{
+    "Mourning Dove": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-1280px.jpg"
+            ],
+            "description": "Mourning Doves are smaller and richer brown than Eurasian Collared-Doves, with a pointed tail and black spots on the back. Mourning Doves lack a black half-collar on the neck."
+        }
+    },
+    "White-winged Dove": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66037301-720px.jpg"
+            ],
+            "description": "White-winged Dove has large white patches on the wings, visible even when the wing is folded. It lacks the black neck crescent and white-tipped tail of Eurasian Collared-Dove."
+        }
+    },
+    "African Collared-Dove": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/69348101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/69348101-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/69348101-720px.jpg"
+            ],
+            "description": "African Collared-Doves are very rare in continental North America. They have white undertail coverts and wingtips that are only slightly darker than the wing and back. Eurasian Collared-Doves are gray under the tail, with dark gray wingtips."
+        }
+    }
+}

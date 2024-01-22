@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70695731-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695731-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695731-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized, long-legged wading bird with a long, strongly curved bill. It has a thick, oval-shaped body and a long neck. The wings are broad and fairly rounded."
+            ],
+            "Compared Size": [
+                "Larger than a Cattle Egret, smaller than a Great Egret."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-22.1 in (46-56 cm)",
+                "Weight: 15.9-18.5 oz (450-525 g)",
+                "Wingspan: 35.4-36.6 in (90-93 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70695751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695751-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695751-480px.jpg"
+        ],
+        "description": [
+            "White-faced Ibises look dark, almost blackish, at a distance. Close up and in good light, breeding adults are glossy maroon with metallic green and bronze tones on the wing. They typically have red eyes with pink legs and facial skin. The face is highlighted by a narrow band of white, absent in Glossy Ibis. Immature and nonbreeding adults are more matte brown, without the white facial outline and with duller legs.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238650424",
+        "description": [
+            "White-faced Ibises are usually seen in flocks, both when nesting in colonies and when foraging. They typically feed by lowering the bill into water, mud, or soil, to feel for prey, or sweep the bill through the water. They can also catch prey by sight, including insects on vegetation.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70695771-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70695771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70695771-480px.jpg"
+        ],
+        "description": [
+            "White-faced Ibises frequent almost any wetland environment with shallow water or exposed mud and also readily feed in farm fields or open areas where soils are moist.",
+            ""
+        ]
+    }
+}

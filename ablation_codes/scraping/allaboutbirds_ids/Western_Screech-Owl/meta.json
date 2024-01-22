@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66045411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66045411-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66045411-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Western Screech-Owls are small owls with stocky bodies. They have somewhat square heads, almost no neck, and conspicuous ear tufts. The tail is short."
+            ],
+            "Compared Size": [],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-9.8 in (19-25 cm)",
+                "Weight: 3.5-10.8 oz (100-305 g)",
+                "Wingspan: 21.6-24.4 in (55-62 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66045391-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66045391-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66045391-720px.jpg"
+        ],
+        "description": [
+            "They are superbly camouflaged birds with a base color that can be grayish, brownish, or reddish-brown (rufous). The upperparts are flecked with white; the breast and belly are pale with dark, spidery streaks. The face is pale, outlined with dark arcs. The eyes are yellow."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238640277",
+        "description": [
+            "Western Screech-Owls are nocturnal hunters and are far more often heard than seen. They spend days either in a roost hole or looking out from the entrance, where they are sometimes found by noisy groups of mobbing songbirds."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66045421-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66045421-480px.jpg"
+        ],
+        "description": [
+            "They live in forests (particularly among deciduous trees) at elevations up to about 6,000 feet. They are fairly tolerant of people and may be found in suburbs or parks, or attracted to forested backyards with a nest box."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Western Screech-Owls in the Pacific Northwest tend to be more rufous than in other parts of the range; birds of the Desert Southwest tend to be grayer."
+        ]
+    }
+}

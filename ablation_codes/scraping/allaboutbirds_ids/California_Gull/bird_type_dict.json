@@ -1,0 +1,116 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303379191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379191-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/448029-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/448029-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/448029-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized white-headed gull. Breeding adults have yellow legs, a dark eye, and a red spot on the lower bill.",
+            "Often eats insects along lake and stream edges during the breeding season. Breeding adults have yellow bill with black and red spot."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303379251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379251-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303379871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379871-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Nonbreeding adults have a heavily streaked head, but still have yellow legs, a dark eye and a red spot on the lower bill.",
+            "In flight, note the dark primaries seen from above and below. The amount of black in the primaries is more extensive compared to similar gulls."
+        ]
+    },
+    "Second winter": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303379381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303379381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379381-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Second winter birds start to acquire gray feathers on their back and have a bluish bill with a black tip. Note dark eyes and a bluish tint on the upper legs."
+        ]
+    },
+    "Second summer": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71318181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318181-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71318181-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71318231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318231-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Second summer gulls start to resemble adults but may still retain some brown feathers.",
+            "Second summer gulls often show lighter inner primary feathers in flight. Note slim bill and dark eye."
+        ]
+    },
+    "First winter": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71318241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71318241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318241-720px.jpg"
+            ]
+        ],
+        "description": [
+            "First winter gulls are checkered in tan and white with a few gray feathers appearing on the back. The bill is pink with a black tip. Note darker brown patches on the greater coverts (lower part of the folded wing)."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303379781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303379781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303379781-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303380001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303380001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303380001-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/169539861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/169539861-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/169539861-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are mottled brown and white. Some individuals have a bit of cinnamon color on the back. Note thin bill with a pink base.",
+            "",
+            "Juveniles in flight have a wide dark brown tail band, dark primaries, and dark greater covert feathers. Note slim bill."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71318301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318301-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in any open area where they can find food including garbage dumps, scrublands, pastures, orchards, meadows, and farms. In winter, found along the Pacific Coast mostly in marine areas including mudflats, estuaries, deltas, and beaches."
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70690191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70690191-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70690191-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A fairly large, powerfully built but elegant heron. Reddish Egrets have long, sturdy legs, long necks, and thick, daggerlike bills. The feathers of the head and neck are often extended, giving a shaggy appearance."
+            ],
+            "Compared Size": [
+                "Larger than a Snowy Egret, smaller than a Great Egret."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 27.6-31.5 in (70-80 cm)",
+                "Weight: 24.7-30.0 oz (700-850 g)",
+                "Wingspan: 45.3-46.5 in (115-118 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70690111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70690111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70690111-720px.jpg"
+        ],
+        "description": [
+            "Dark morph adults are rich grayish blue bodies with vivid pinkish-cinnamon head and neck. White morph adults are snow white overall. Both morphs have two-toned bills: pink at the base and black at the tip. Legs are cobalt blue. Juveniles are an ashy copper color, unlike any other heron species; legs and bill mostly dusky.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639638",
+        "description": [
+            "Reddish Egrets chase fish energetically through shallow saltwater environments. They pursue fish on foot or swoop at them in flight, create shadows with their wings both to startle and to attract them, and herd them toward land. This behavior makes them distinctive even at great distances.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70690101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70690101-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70690101-480px.jpg"
+        ],
+        "description": [
+            "Salt flats and lagoons around barrier islands, keys, mangrove forests.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Most authorities recognize two subspecies: rufescens ranges from Florida and Texas southward through South America, and the darker dickeyi is restricted to western Mexico.",
+            ""
+        ]
+    }
+}

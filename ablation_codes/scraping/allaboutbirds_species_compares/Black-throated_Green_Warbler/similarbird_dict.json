@@ -1,0 +1,56 @@
+{
+    "Golden-cheeked Warbler": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40254731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40254731-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40254731-720px.jpg"
+            ],
+            "description": "Golden-cheeked Warblers have a thin black eyeline and a black crown while Black-throated Green Warblers have a dark ear patch and a yellow-olive crown."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40254741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40254741-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40254741-720px.jpg"
+            ],
+            "description": "Female Golden-cheeked Warblers have a thin black eyeline and a gray back while female Black-throated Green Warblers have a dark ear patch and a yellow-olive back."
+        }
+    },
+    "Hermit Warbler": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64902391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64902391-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64902391-720px.jpg"
+            ],
+            "description": "Hermit Warblers have a clean yellow face and an unstreaked breast unlike Black-throated Green Warblers. Breeding ranges do not overlap."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64902381-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64902381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64902381-720px.jpg"
+            ],
+            "description": "Hermit Warblers have a clean yellow face and an unstreaked breast unlike Black-throated Green Warblers. Breeding ranges do not overlap."
+        }
+    },
+    "Townsend's Warbler": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64897501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897501-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897501-720px.jpg"
+            ],
+            "description": "Townsend's Warblers have a black (not yellow-olive) crown and a yellow (not white) breast. No range overlap."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64897521-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64897521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897521-720px.jpg"
+            ],
+            "description": "Immature Townsend's Warblers have a yellow (not white) breast and a bolder cheek patch than immature Black-throated Green Warblers. No range overlap."
+        }
+    }
+}

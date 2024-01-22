@@ -1,0 +1,52 @@
+{
+    "Spruce Grouse": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32818341-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32818341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32818341-720px.jpg"
+            ],
+            "description": "Female Spruce Grouse have rounded heads without the short crest of Ruffed Grouse. They're also darker brown, lacking the Ruffed Grouse's pale belly and strong dark stripes on the flanks."
+        }
+    },
+    "Sooty Grouse": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32701801-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32701801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32701801-1280px.jpg"
+            ],
+            "description": "Sooty Grouse are much larger and heavier than Ruffed Grouse, without the short crest. Sooty Grouse also lack Ruffed's dark bars on the flanks and dark band near the tip of the tail."
+        }
+    },
+    "Dusky Grouse": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66145291-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66145291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66145291-720px.jpg"
+            ],
+            "description": "Dusky Grouse are much larger and heavier than Ruffed Grouse, without the short crest. They also lack Ruffed's dark bars on the flanks and dark band near the tip of the tail."
+        }
+    },
+    "Sharp-tailed Grouse": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37884941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37884941-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37884941-720px.jpg"
+            ],
+            "description": "Sharp-tailed Grouse tend to live in more open grassland and woodland than Ruffed Grouse, which live in forest. Sharp-tailed has a narrow tail without a wide dark band at the tip, and it lacks strong dark bars on the flanks."
+        }
+    },
+    "Ring-necked Pheasant": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65615281-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65615281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65615281-720px.jpg"
+            ],
+            "description": "Female Ring-necked Pheasants are longer necked and longer tailed than Ruffed Grouse, and they occur in more open settings such as agricultural lands and grasslands, rather than forest."
+        }
+    }
+}

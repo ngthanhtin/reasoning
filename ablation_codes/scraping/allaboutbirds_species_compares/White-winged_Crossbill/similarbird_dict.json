@@ -1,0 +1,38 @@
+{
+    "Red Crossbill": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67282981-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67282981-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67282981-720px.jpg"
+            ],
+            "description": "Red Crossbills generally have unmarked wings, whereas White-winged Crossbills have 2 bold white wingbars. Some Red Crossbills may have faint wingbars, but they are never as thick or bold as White-winged."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67283021-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67283021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67283021-720px.jpg"
+            ],
+            "description": "Female Red Crossbills have unmarked wings, whereas female White-winged Crossbills have 2 bold white wingbars."
+        }
+    },
+    "Pine Grosbeak": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356131-720px.jpg"
+            ],
+            "description": "Pine Grosbeaks are larger and have a longer tail than White-winged Crossbills. They also have a stubbier bill and thinner wingbars."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356071-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356071-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356071-720px.jpg"
+            ],
+            "description": "Female Pine Grosbeaks have an unstreaked grayish belly, whereas the much smaller female White-winged Crossbill has a streaked yellowish belly."
+        }
+    }
+}

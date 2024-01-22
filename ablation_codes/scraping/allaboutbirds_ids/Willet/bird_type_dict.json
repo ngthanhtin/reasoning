@@ -1,0 +1,98 @@
+{
+    "Breeding adult (Eastern)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64838171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838171-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64838131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838131-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, stocky shorebird with long legs and a thick, straight bill. Breeding birds in the East have heavy barring on the breast and heavy mottling on the back.",
+            "Birds in flight have a distinctive black-and-white wing pattern."
+        ]
+    },
+    "Breeding adult (Western)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301795121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301795121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301795121-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, stocky shorebird with long legs and a thick, straight bill. Breeding birds in the West have lighter barring on the breast and lighter mottling on the back."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/482694-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482694-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/482694-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838151-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838151-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838121-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838161-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838161-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found along open beaches, bayshores, marshes, mudflats, and rocky coastal zones. Often sleeps with its bill tucked under its wing.",
+            "Large shorebird with a long, straight bill. Nonbreeding birds are grayish brown overall with few markings.",
+            "Plain brownish gray shorebird often found along beaches and rocky coasts during migration and winter months.",
+            "During the winter found on beaches and rocky coasts, as well as mudflats and marshes."
+        ]
+    },
+    "Nonbreeding and immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301795421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301795421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301795421-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile (Western)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64838111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64838111-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64838111-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, stocky shorebird. Juveniles in the West are grayer overall than those in the East. They also tend to be larger, but some overlap in size exists."
+        ]
+    },
+    "Juvenile (Eastern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301795351-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301795351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301795351-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles in the East are browner overall than juveniles in the West. Eastern birds tend to be smaller, but there is some overlap."
+        ]
+    }
+}

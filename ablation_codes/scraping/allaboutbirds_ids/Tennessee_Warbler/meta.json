@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64440371-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64440371-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64440371-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Small and stocky for a warbler, with a short tail and a thin and sharply pointed bill (markedly smaller and more pointed than a Red-eyed Vireo's bill)."
+            ],
+            "Compared Size": [
+                "Larger than a Golden-crowned Kinglet, slightly smaller than a Yellow-rumped Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-5.1 in (10-13 cm)",
+                "Weight: 0.3-0.3 oz (8-10 g)",
+                "Wingspan: 7.5-7.9 in (19-20 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64440361-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64440361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64440361-720px.jpg"
+        ],
+        "description": [
+            "Breeding males have a gray head with a white line over the eye, contrasting with a green back and no wingbars. The underparts are whitish all the way through the undertail coverts. Females and nonbreeding males are more greenish, with less contrast between head and back. Occasionally very olive-yellow all over except for white undertail coverts.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238647764",
+        "description": [
+            "Tennessee Warblers forage on slender branches high in the forest canopy, feeding primarily on insects. On their breeding grounds a primary food is a small caterpillar called spruce budworm.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64440461-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64440461-480px.jpg"
+        ],
+        "description": [
+            "Tennessee Warblers breed in coniferous or mixed deciduous-coniferous forest across Canada. On migration they can occur in most types of forests and woodlands. Winters in second-growth tropical forests.",
+            ""
+        ]
+    }
+}

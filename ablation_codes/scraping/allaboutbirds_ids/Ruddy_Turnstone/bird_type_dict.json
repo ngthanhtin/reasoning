@@ -1,0 +1,92 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64811941-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64811941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64811941-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/483262-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483262-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/483262-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301241621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301241621-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301241621-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64811891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64811891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64811891-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Short, stocky, oval-shaped shorebird with a stout and slightly upturned bill. Breeding birds have a calico patterned back and a black-and-white face. Note orange legs.",
+            "Stout body tapers to a slender tail. Walks along shorelines turning over rocks and debris to look for flies and midges hiding underneath.",
+            "",
+            "Flips rocks, pebbles, and seaweed along shorelines in search of food with stout but sharply pointed bill."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301241431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301241431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301241431-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64811911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64811911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64811911-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Short, stocky, oval-shaped shorebird with a stout and slightly upturned bill. Nonbreeding birds have a brown ghosting of the breeding plumage pattern and orange legs.",
+            "Stocky and short-legged shorebird with orange legs. Nonbreeding birds are brownish overall with a rounded brown chest patch."
+        ]
+    },
+    "Nonbreeding and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301241461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301241461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301241461-480px.jpg"
+            ]
+        ],
+        "description": [
+            "In flight, note the white stripe down the back, a black tail stripe, a white rump, and white stripes down the wings."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64811901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64811901-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64811901-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301241651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301241651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301241651-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look like nonbreeding birds, but have rusty edges to the feathers on the upperparts.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64811921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64811921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64811921-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in the tundra. Uses freshwater shorelines, mudflats, rocky shorelines, and sandy beaches during migration and winter."
+        ]
+    }
+}

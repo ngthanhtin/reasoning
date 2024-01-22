@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40259871-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40259871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40259871-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized, sturdy-bodied songbird with a long tail, long, straight, spikelike bill, and strong legs and feet."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Bullock\u2019s Oriole, smaller than a Steller\u2019s Jay."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1 in (23 cm)",
+                "Weight: 1.1-1.4 oz (32-41 g)",
+                "Wingspan: 12.6 in (32 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40259851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40259851-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40259851-480px.jpg"
+        ],
+        "description": [
+            "Adult males are vivid lemon yellow below, velvety black above, with black throat and chest. They have white wingbars, a yellow shoulder, and a black-and-yellow tail. Adult females are dull yellow below, olive-green above, with faint wingbars and some stippling on the head. Immature (year-old) males are intermediate between female and adult male, with a black face, throat, and upper breast. Juveniles and immature females are similar to adult females but duller.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240091369",
+        "description": [
+            "Forages by hopping through taller vegetation and searching for insects, frequently stretching and hanging upside-down to inspect crevices. Also drinks floral nectar by inserting the bill directly into flowers. Occasionally eats fruit. Forages in pairs or small family groups, often singing or giving nasal calls.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71006001-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71006001-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71006001-480px.jpg"
+        ],
+        "description": [
+            "Nests and forages in deserts, upslope from cactus flats, where yuccas are abundant; as well as into arid foothills and lower portions of mountains with pinyon pine, juniper, live oak. In lower areas, also occurs in Joshua tree forests; oases with palms, cottonwoods, sycamores, and mesquite; and occasionally chaparral.",
+            ""
+        ]
+    }
+}

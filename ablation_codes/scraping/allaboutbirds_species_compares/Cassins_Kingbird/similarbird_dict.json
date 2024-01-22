@@ -1,0 +1,32 @@
+{
+    "Tropical Kingbird": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/36815591-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/36815591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/36815591-720px.jpg"
+            ],
+            "description": "Tropical Kingbirds have a yellowish breast while Cassin's Kingbirds have a dark gray breast. They also have an entirely brown tail while the tail on Cassin's is tipped in white."
+        }
+    },
+    "Western Kingbird": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65683361-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65683361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683361-720px.jpg"
+            ],
+            "description": "Western Kingbirds have a paler gray breast than Cassin's Kingbirds. In flight Western Kingbirds have white outer tail feathers while Cassin's Kingbirds have white on the tip of the tail."
+        }
+    },
+    "Couch's Kingbird": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70194231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70194231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70194231-1280px.jpg"
+            ],
+            "description": "Couch's Kingbirds have yellower chest and no white in tail while Cassin's Kingbirds have a grayer chest and a white-tipped tail."
+        }
+    }
+}

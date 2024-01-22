@@ -1,0 +1,22 @@
+{
+    "Hutton's Vireo": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65760531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760531-1280px.jpg"
+            ],
+            "description": "Hutton's Vireos are larger and move more slowly than Ruby-crowned Kinglets. They do not show a black bar on the wing below the white wingbar like Ruby-crowned Kinglets do."
+        }
+    },
+    "Golden-crowned Kinglet": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/161342541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/161342541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/161342541-720px.jpg"
+            ],
+            "description": "Golden-crowned Kinglets have a much bolder face pattern, with a yellow crown bordered by black stripes and a white stripe over the eye unlike Ruby-crowned, which have plain face with a white eyering."
+        }
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/300152741-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/300152741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300152741-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63739521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63739521-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/423412-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/423412-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/423412-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476560-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476560-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476560-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63739491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63739491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63739551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63739551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739551-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, thick-necked bird with a hefty bill and a shaggy neck.",
+            "In flight, note wedge-shaped tail.",
+            "Often pushes its head forward and fluffs up its throat feathers when calling.",
+            "Flies with heavy, slow wingbeats and interspersed glides. Note the wedge or diamond-shaped tail in flight.",
+            "Bill is long and heavy with feathers extending down bill.",
+            "Large, entirely black bird. Occurs over most of the Northern Hemisphere in nearly any habitat."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63739481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739481-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/300152051-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/300152051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300152051-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63739531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739531-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have dull brown breast and chest feathers.",
+            "",
+            "Nests on cliffs, in trees, and on structures such as power-line towers, telephone poles, billboards, and bridges. Found in North America, Europe, Asia, and North Africa."
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/312647111-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/312647111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/312647111-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/310769671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/310769671-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/310769671-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Adult ": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/454154-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454154-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454154-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/401634-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/401634-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/401634-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often seen alone or in pairs, but many may gather in larger groups at a carcass or landfill.",
+            "Eats almost anything it can find, including carrion. Note the shaggy feathers on the neck and hefty bill."
+        ]
+    },
+    "Adult (with American Crow)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63739471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739471-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63739471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Larger than an American Crow with a wedge-shaped tail."
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63739501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63739501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often forms communal nocturnal roosts and forages in groups especially at landfills or near a carcass."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/300151911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/300151911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/300151911-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64514491-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64514491-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64514491-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized warbler with a relatively wide, flat bill and fairly long, expressive tail. In flight it has a deep chest, slim belly, and long, somewhat club-shaped tail."
+            ],
+            "Compared Size": [
+                "About the size of a Black-capped Chickadee or Yellow Warbler."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.2-0.3 oz (6-9 g)",
+                "Wingspan: 6.3-7.5 in (16-19 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64514531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64514531-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64514531-480px.jpg"
+        ],
+        "description": [
+            "Adult male American Redstarts are mostly black with bright orange patches on the sides, wings, and tail. The belly is white. Females and immature males replace the orange with yellow or yellow-orange. They have gray head and underparts, with olive back and wings and dark-gray tail."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238643820",
+        "description": [
+            "American Redstarts are incredibly active insectivores that seem never to stand still. They rapidly spread their cocked tails, exposing the orange or yellow in a quick flash, which often startles insect prey into flushing, whereupon the redstart darts after it, attempting to catch it in the air."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64514511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64514511-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64514511-480px.jpg"
+        ],
+        "description": [
+            "American Redstarts breed in open wooded habitats, particularly those dominated by deciduous trees. In migration, the species can be found in nearly any treed habitats. Its tropical winter habitat is in woodlands and open forest at lower and middle elevations."
+        ]
+    }
+}

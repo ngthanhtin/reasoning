@@ -1,0 +1,22 @@
+{
+    "Spotted Towhee": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64991441-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64991441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64991441-720px.jpg"
+            ],
+            "description": "Spotted Towhees are much larger than Dark-eyed Juncos. They are black on the back rather than brown, and they have brighter rufous on the flanks than \"Oregon\" Dark-eyed Juncos."
+        }
+    },
+    "Black Phoebe": {
+        "Adult (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65681201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65681201-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65681201-1280px.jpg"
+            ],
+            "description": "Black Phoebes have a larger head and a straight, thin bill. They sit upright on exposed perches and catch flying insects instead of foraging on the ground like juncos."
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66119101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66119101-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66119101-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Yellow-rumped Warblers are fairly large, full-bodied warblers with a large head, sturdy bill, and long, narrow tail."
+            ],
+            "Compared Size": [
+                "Large warbler; about the size of a Black-capped Chickadee"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.5 in (12-14 cm)",
+                "Weight: 0.4-0.5 oz (12-13 g)",
+                "Wingspan: 7.5-9.1 in (19-23 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66119111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66119111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66119111-720px.jpg"
+        ],
+        "description": [
+            "In summer, both sexes are a smart gray with flashes of white in the wings and yellow on the face, sides, and rump. Males are very strikingly shaded; females are duller and may show some brown. Winter birds are paler brown, with bright yellow rump and usually some yellow on the sides."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238666208",
+        "description": [
+            "Yellow-rumped Warblers typically forage in the outer tree canopies at middle heights. They're active, and you'll often see them sally out to catch insects in midair, sometimes on long flights. In winter they spend lots of time eating berries from shrubs, and they often travel in large flocks."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66119131-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66119131-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66119131-480px.jpg"
+        ],
+        "description": [
+            "In summer, Yellow-rumped Warblers are birds of open coniferous forests and edges, and to a lesser extent deciduous forests. In fall and winter they move to open woods and shrubby habitats, including coastal vegetation, parks, and residential areas."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The Yellow-rumped Warbler has two distinct subspecies that used to be considered separate species: the \"Myrtle\" Warbler of the eastern U.S. and Canada's boreal forest, and \"Audubon\u2019s\" Warbler of the mountainous West. The Audubon\u2019s has a yellow throat; in the Myrtle subspecies the throat is white. Male \"Audubon's\" Warblers have more white in the wing than the \"Myrtle\" Warbler. Female Audubon's have less distinctly marked faces, lacking the dark ear patches of the \"Myrtle\" Warbler. Intermediate forms occur where the two subspecies' breeding ranges overlap, such as in the Canadian Rockies."
+        ]
+    }
+}

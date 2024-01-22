@@ -1,0 +1,80 @@
+{
+    "Male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64993561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993561-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402343-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402343-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402343-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64993541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64993541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64993521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64993521-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64993581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993581-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64993581-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/435710-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435710-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435710-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64993531-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64993531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993531-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Barred black-and-white woodpecker with a tan head and belly. Males have a red crown patch.",
+            "A desert woodpecker commonly found on saguaro cactus.",
+            "Barred black-and-white woodpecker with a tan head and belly. Males have a red crown patch.",
+            "Found in deserts of southwestern U.S. and western Mexico. Often eats saguaro cactus fruits. Males have a red crown patch.",
+            "Found in deserts of southwestern U.S. and western Mexico including urban areas, where it often visits feeders.",
+            "",
+            "Nests in holes in saguaro cacti and desert trees."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64993551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993551-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Barred black-and-white woodpecker with a tan head and belly. Females lack the red crown patch seen on males."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/435724-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435724-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435724-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64993591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64993591-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Barred black-and-white woodpecker with a tan belly and head. Males have a red crown patch that females lack. Nests in holes in cacti and desert trees."
+        ]
+    }
+}

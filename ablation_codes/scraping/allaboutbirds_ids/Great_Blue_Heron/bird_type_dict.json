@@ -1,0 +1,104 @@
+{
+    "Adult (Blue form)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304479371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304479371-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304479371-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314281-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/435241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314291-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314291-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464905-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464905-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464905-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314261-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314311-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314311-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/420183-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/420183-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/420183-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large and tall, with a long neck. Grayish-blue overall with long orangish-yellow bill and black crown and head plumes.",
+            "In flight shows black flight feathers contrasting with powdery-blue plumage. Usually flights with neck in, but sometimes outstretched.",
+            "Stalks prey by wading in shallow water, using daggerlike bill to spear or seize fish and other small animals.",
+            "When breeding has dense, shaggy plumes on the back and neck.",
+            "Heavy flight with very slow beats of the very broad wings. Usually flies with neck pulled back and head tucked into shoulders.",
+            "Hunts in a variety of shallow wetland habitats.",
+            "Nests in colonies of large stick nests high in trees, sometimes not near water.",
+            "Typically eats aquatic animals but also forages on land, catching mammals."
+        ]
+    },
+    "Immature (Blue form)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314241-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314241-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large and tall, with a long neck. Grayish-blue overall with pale belly, dark streaking on the neck, and brownish feathers mixed throughout. Bill long and dusky colored."
+        ]
+    },
+    "Adults with Cattle Egret and White Ibis": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475672-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/475672-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475672-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Often nests in colonies with other species of wading birds. Within colonies, territorial display includes ruffling the long breeding plumes and pointing the head and bill skyward."
+        ]
+    },
+    "Adult (White form)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314301-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large and tall, with a long neck. White form is all white with long yellow bill and dull yellowish legs."
+        ]
+    },
+    "Adult (Wurdemann's)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60314231-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60314231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60314231-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Very large and tall, with a long neck. Body powdery-blue with white head, and orangish-yellow bill and legs."
+        ]
+    }
+}

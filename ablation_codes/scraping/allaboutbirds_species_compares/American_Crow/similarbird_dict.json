@@ -1,0 +1,22 @@
+{
+    "Fish Crow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70580031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70580031-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70580031-720px.jpg"
+            ],
+            "description": "To distinguish Fish Crows from American Crows listen for the Fish Crow's more nasal calls."
+        }
+    },
+    "Common Raven": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63739541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63739541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63739541-720px.jpg"
+            ],
+            "description": "Common Ravens are larger, longer winged, and heavier billed than crows. Ravens' tails are tapered at the end, giving them a diamond or wedge shape compared to a crow's shorter, squarer tail."
+        }
+    }
+}

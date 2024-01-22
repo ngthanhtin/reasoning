@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70774731-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70774731-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70774731-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Northern Harriers are slender, medium-sized raptors with long, fairly broad wings and a long, rounded tail. They have a flat, owl-like face and a small, sharply hooked bill. Harriers often fly with their wings held in a dihedral, or V-shape above the horizontal."
+            ],
+            "Compared Size": [
+                "Smaller than a Red-tailed Hawk; larger than a Sharp-shinned Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-19.7 in (46-50 cm)",
+                "Weight: 10.6-26.5 oz (300-750 g)",
+                "Wingspan: 40.2-46.5 in (102-118 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70774751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70774751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70774751-720px.jpg"
+        ],
+        "description": [
+            "Males are gray above and whitish below with black wingtips, a dark trailing edge to the wing, and a black-banded tail. Females and immatures are brown, with black bands on the tail. Adult females have whitish undersides with brown streaks, whereas immatures are buffy, with less streaking. All Northern Harriers have a white rump patch that is obvious in flight."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238648946",
+        "description": [
+            "Northern Harriers fly low over the ground when hunting, weaving back and forth over fields and marshes as they watch and listen for small animals. They eat on the ground, and they perch on low posts or trees. On the breeding grounds, males perform elaborate flying barrel rolls to court females."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70774821-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70774821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70774821-480px.jpg"
+        ],
+        "description": [
+            "Northern Harriers breed in wide-open habitats ranging from Arctic tundra to prairie grasslands to fields and marshes. Their nests are concealed on the ground in grasses or wetland vegetation. In migration and winter, harriers typically move south away from areas that receive heavy snow cover, ending up in open habitats similar to those in which they breed."
+        ]
+    }
+}

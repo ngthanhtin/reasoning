@@ -1,0 +1,92 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/164897081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/164897081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/164897081-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/449536-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/449536-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/449536-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/449399-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/449399-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/449399-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66030561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66030561-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66030561-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66030601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66030601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66030601-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/449288-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/449288-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/449288-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66030621-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66030621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66030621-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66030581-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66030581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66030581-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized seabird with a thin bill. Breeding adults are entirely black with white wing patches.",
+            "",
+            "",
+            "Black overall with white wing patches bisected by a black bar.",
+            "Black seabird of rocky coastlines with white wing patches.",
+            "",
+            "Breeding birds have bright red legs and feet.",
+            "Found along rocky coastlines between Alaska and California. Nests on the ground in crevices or burrows in rocky cliffs. Forages in near-shore waters."
+        ]
+    },
+    "Nonbreeding adult and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302780281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302780281-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302780281-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302780481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302780481-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302780481-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66030551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66030551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66030551-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized seabird with a thin bill. Nonbreeding birds have smudgy black-and-white bodies with variable amounts of white on the head and underparts.",
+            "",
+            "Nonbreeding birds have smudgy black-and-white bodies with variable amounts of white on the head and underparts. Found more often in sheltered inshore waters in winter."
+        ]
+    },
+    "Breeding adult (snowi)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302780511-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302780511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302780511-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

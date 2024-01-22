@@ -1,0 +1,74 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296734001-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296734001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296734001-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65609571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65609571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65609571-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/423308-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/423308-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/423308-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65609541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65609541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65609541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65609521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65609521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65609521-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/423310-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/423310-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/423310-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65609491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65609491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65609491-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/436417-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/436417-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/436417-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65609531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65609531-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Plump game bird with peaked crest. Brownish head and wings with neat white-and-black scaling on upper body and belly.",
+            "Plump, short-legged game bird with short peaked crest. Intricate white-and-black scaling on the breast and belly.",
+            "",
+            "Plump game bird with short peaked crest. Tail is fairly short and grayer than back. Brown wings show white barring.",
+            "Plump game bird of dry, open habitats. Usually seen on the ground or standing on a low perch.",
+            "",
+            "Social game bird often found in groups or coveys. Sometimes huddles in shade to stay cool and watch for predators.",
+            "",
+            "Small plump game bird of desert grasslands and shrublands. Typically occurs in coveys of 10 to 40 birds (flocks are usually largest in winter)."
+        ]
+    },
+    "Adult and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65609551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65609551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65609551-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Plump, short-legged game bird of dry, open areas. Young are able to walk immediately after hatching."
+        ]
+    }
+}

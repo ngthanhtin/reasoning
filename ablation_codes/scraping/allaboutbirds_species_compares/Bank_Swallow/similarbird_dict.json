@@ -1,0 +1,42 @@
+{
+    "Northern Rough-winged Swallow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68280821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68280821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280821-1280px.jpg"
+            ],
+            "description": "Northern Rough-winged Swallows have a dingy throat and breast and lack the Bank Swallow's dark breast band."
+        }
+    },
+    "Tree Swallow": {
+        "Juvenile ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68280071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68280071-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280071-1280px.jpg"
+            ],
+            "description": "Juvenile Tree Swallows are brown above like Bank Swallows and have a dingy wash across the breast, but the band is not nearly as strong as it is on Bank Swallows."
+        }
+    },
+    "Violet-green Swallow": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68279801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68279801-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68279801-720px.jpg"
+            ],
+            "description": "Violet-green Swallows have white patches on the sides of their rump that Bank Swallows lack. Violet-greens are clean white underneath, lacking the Bank's dark breast band."
+        }
+    },
+    "Cliff Swallow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68122521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122521-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122521-720px.jpg"
+            ],
+            "description": "Cliff Swallows have a cream colored rump and collar, whereas Bank Swallows are entirely brown above."
+        }
+    }
+}

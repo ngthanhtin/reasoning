@@ -1,0 +1,128 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65533521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65533521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65533521-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299868091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299868091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299868091-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Gorgeous duck with intricate plumage: green, crested head, chestnut breast and other bold markings.",
+            "Glossy green head with prominent crest at the rear, white throat, bright red eye, and red-and-white bill."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59857401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59857401-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/59857361-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59857361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857361-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/443098-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/443098-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/443098-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59857391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857391-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Warm brown plumage with grayer, slightly crested head. White teardrop around the eye; white also along the edge of dark blue \"speculum\" patch in the wings.",
+            "In flight the blue secondaries with a bold white stripe on the trailing edge are obvious.",
+            "Often perches on tree limbs. Note white line at edge of blue \"speculum\" patch in the wing",
+            "Often perches on branches, sometimes far from water."
+        ]
+    },
+    "Female and male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/443110-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/443110-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/443110-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found on shallow lakes and ponds, often swimming near the edges among emergent or overhanging vegetation."
+        ]
+    },
+    "Eclipse male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299868371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299868371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299868371-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Grayish brown plumage with whiter throat, bright red eye, and red and white bill."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455132-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/455132-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/455132-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299869131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299869131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299869131-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/440440-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440440-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440440-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59857341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857341-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857341-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Female lacks bright patterns of male, but has unique crested head shape and large white teardrop patch around eye.",
+            "Gray underwings of breeding males contrast with the rest of the plumage.",
+            "In flight, look for dark chest contrasting with neat white belly patch.",
+            "Nests in cavities, including artificial nest boxes."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299868471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299868471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299868471-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Female and chick": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/59857431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59857431-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Fluffy young are dark above with pale yellowish underparts and face."
+        ]
+    }
+}

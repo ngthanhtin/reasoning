@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59953191-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59953191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59953191-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Canada Geese are big waterbirds with a long neck, large body, large webbed feet, and wide, flat bill."
+            ],
+            "Compared Size": [
+                "Larger than a Mallard, smaller than a Mute Swan"
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 29.9-43.3 in (76-110 cm)",
+                "Weight: 105.8-317.5 oz (3000-9000 g)",
+                "Wingspan: 50.0-66.9 in (127-170 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59953111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59953111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59953111-720px.jpg"
+        ],
+        "description": [
+            "Canada Geese have a black head with white cheeks and chinstrap, black neck, tan breast, and brown back."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238636089",
+        "description": [
+            "Canada Geese feed by dabbling in the water or grazing in fields and large lawns. They are often seen in flight moving in pairs or flocks; flocks often assume a V formation."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59953151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59953151-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59953151-480px.jpg"
+        ],
+        "description": [
+            "Just about anywhere near lakes, rivers, ponds, or other small or large bodies of water, and in yards, park lawns, and farm fields."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Canada Geese tend to be smaller as you move northward; plumage tends to be darker as you move westward."
+        ]
+    }
+}

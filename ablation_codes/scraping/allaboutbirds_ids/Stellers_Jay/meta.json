@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70582731-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70582731-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582731-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Steller\u2019s Jays are large songbirds with large heads, chunky bodies, rounded wings, and a long, full tail. The bill is long, straight, and powerful, with a slight hook. Steller\u2019s Jays have a prominent triangular crest that often stands nearly straight up from their head."
+            ],
+            "Compared Size": [
+                "About the same size as a Western Scrub-Jay"
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 11.8-13.4 in (30-34 cm)",
+                "Weight: 3.5-4.9 oz (100-140 g)",
+                "Wingspan: 17.3 in (44 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70582741-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582741-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582741-480px.jpg"
+        ],
+        "description": [
+            "At a distance, Steller\u2019s Jays are very dark jays, lacking the white underparts of most other species. The head is charcoal black and the body is all blue (lightest, almost sparkling, on the wings). White markings above the eye are fairly inconspicuous."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240086215",
+        "description": [
+            "Like other jays, Steller\u2019s Jays are bold, inquisitive, intelligent, and noisy. Steller\u2019s Jays spend much of their time exploring the forest canopy, flying with patient wingbeats. They come to the forest floor to investigate visitors and look for food, moving with decisive hops of their long legs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70582701-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582701-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70582701-480px.jpg"
+        ],
+        "description": [
+            "Look for Steller\u2019s Jays in evergreen forests of western North America, at elevations of 3,000-10,000 feet (lower along the Pacific coast). They\u2019re familiar birds of campgrounds, picnic areas, parks, and backyards."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Scientists have described 16 subspecies of the Steller\u2019s Jay in North and Central America, showing varying combinations of black and blue on the crest, head, and body. The Queen Charlotte Islands off British Columbia are home to the largest and darkest race. In mainland North America, you can notice differences between darker Pacific forms, with blue streaks over the eye, and lighter Rocky Mountain forms with white streaks and a partial white eyering."
+        ]
+    }
+}

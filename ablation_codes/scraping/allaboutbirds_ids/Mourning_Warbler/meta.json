@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64454401-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64454401-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64454401-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small but sturdy songbird with a fairly full body and thick neck. The bill is thin and straight, smaller than the bill of the similar-looking Connecticut Warbler. It has a moderately long tail and strong legs."
+            ],
+            "Compared Size": [
+                "Larger than a Carolina Chickadee, smaller than a Tufted Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-5.9 in (10-15 cm)",
+                "Weight: 0.4-0.5 oz (11-13 g)",
+                "Wingspan: 7.1 in (18 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64454351-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64454351-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64454351-480px.jpg"
+        ],
+        "description": [
+            "Adult males are olive above, yellow below, with a gray hood and black chest patch. Adult females are more muted in colors and lack the chest patch. Immatures are brownish above, yellow below, including center of throat. Both sexes usually lack an eyering, although some adult males show thin white eye arcs (recalling the bolder marks of MacGillivray\u2019s Warbler).",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238642761",
+        "description": [
+            "Forages low in shrubby vegetation, walking along branches or hopping on the ground to glean insects and larvae, and to eat fruit. Males sing while perched fairly low in undergrowth or saplings and make rapid, skylarking song flights toward evening. Migrants and wintering birds usually remain hidden in dense foliage.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64454381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64454381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64454381-720px.jpg"
+        ],
+        "description": [
+            "Nests in dense shrubby second-growth of berry-bearing plants in boreal forest and Appalachian highlands. Winters in undergrowth of lowland and highland tropical forest gaps and edges in Central and South America.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Adult males in Newfoundland show especially blackish lores compared to mainland, especially western birds.",
+            ""
+        ]
+    }
+}

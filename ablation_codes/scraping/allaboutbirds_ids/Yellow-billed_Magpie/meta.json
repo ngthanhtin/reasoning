@@ -1,0 +1,39 @@
+{
+    "Size": {
+        "description": {
+            "Shape": [
+                "A very large songbird with a heavy body, a large head, and an extremely long tail. The bill is stout and slightly curved. The wings are wide and rounded."
+            ],
+            "Compared Size": [
+                "Much larger than a California Scrub-Jay, slightly smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-21.3 in (43-54 cm)",
+                "Weight: 5.3-6.0 oz (150-170 g)",
+                "Wingspan: 24.0 in (61 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "description": [
+            "A black-and-white bird with iridescent blue in the wings and a bright yellow bill. When perched, the shoulders and belly are stark white against the black body. In flight, the primary feathers (in the outer wing) show extensive white as well.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "description": [
+            "Walks slowly on the ground looking for grain, insects, and rodents. Flies with deep, fairly slow wingbeats. A social bird that is usually in small flocks in summer and in larger flocks during the nonbreeding season.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "description": [
+            "Nests in tall trees in oak savanna or similar habitats of central California. Forages in grassland, pasture, cultivated fields, and orchards, sometimes in trees.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/53489301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/53489301-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/53489301-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A stout songbird with a short, thick-based, finely pointed bill and moderately long wings and tail."
+            ],
+            "Compared Size": [
+                "Slightly larger than an Eastern Bluebird, smaller than a Red-winged Blackbird."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/53489281-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/53489281-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/53489281-480px.jpg"
+        ],
+        "description": [
+            "Adult males appear blackish from a distance; in good light they are velvety purple. Adult females are brown overall with a pale eyebrow and throat. Juveniles are also brownish but heavily streaked below, similar to juvenile Brown-headed Cowbirds.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238641527",
+        "description": [
+            "Shiny Cowbirds forage in flocks, often with other blackbird species. They feed mostly on the ground, searching for seeds, grains, and insects. Males sing a gurgling song and display to females in the air, from a tree, or on the ground."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/53489321-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/53489321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/53489321-480px.jpg"
+        ],
+        "description": [
+            "Forages in many open and semiopen habitats, from parks and gardens, roadsides, and farm fields to the edges of riparian woodlands and mangrove forests."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize at least seven subspecies in the Caribbean and South America, all rather similar to one another. Only the smallest subspecies, minimus, is known in the United States.",
+            ""
+        ]
+    }
+}

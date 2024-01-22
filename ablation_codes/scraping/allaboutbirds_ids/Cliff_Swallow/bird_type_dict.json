@@ -1,0 +1,98 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305772321-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305772321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305772321-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305773651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773651-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/463010-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/463010-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/463010-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305772391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305772391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305772391-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305773391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773391-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305773391-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305773791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773791-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Compact swallow with pointed, broad pointed wings, a small head, and a squared tail. In good light, adults have metallic, dark-blue backs and pale, cinnamon rumps. Their face is rusty with a white forehead.",
+            "",
+            "Builds nests made of mud, which they cement to the walls of cliff ledges, under bridges, eaves, and culverts.",
+            "Compact swallow with a small head and squared tail. In flight note, pale rump patch and collar.",
+            "",
+            "Adults are dark blue above, but appear black in poor light. Key identification features include the pale rump and forehead and rusty cheeks."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68122561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122561-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305773081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773081-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look like messy adults with rusty or brown faces and a dingy breast.",
+            ""
+        ]
+    },
+    "Adult (melanogaster)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306144011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306144011-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306144011-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68122571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68122571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Groups gather mud in their bills along streambanks, lakesides, or puddles to build their nests."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305773011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305773011-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Builds mud nests in colonies on cliff ledges or under bridges, eaves, and culverts."
+        ]
+    }
+}

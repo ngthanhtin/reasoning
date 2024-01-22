@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64821911-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64821911-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64821911-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A chunky, small shorebird with medium-length legs, a short neck, and a long bill that is curved toward the tip."
+            ],
+            "Compared Size": [
+                "Larger than a Western Sandpiper, smaller than a Short-billed Dowitcher."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-8.7 in (16-22 cm)",
+                "Weight: 1.7-2.7 oz (48.7-75.9 g)",
+                "Wingspan: 14.2-15.0 in (36-38 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64821871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64821871-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64821871-480px.jpg"
+        ],
+        "description": [
+            "Breeding adult has bright rusty back and crown, black belly patch, and white underparts with dark stippling. Nonbreeding adults have grayish brown upperparts, head, and breast, and are pale below. Juveniles are browner, with a scaly black and rusty brown marbled pattern above, white below, with faint stippling and trace of dark belly patch. The legs are dark.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238647415",
+        "description": [
+            "Forages by picking and probing in mud, walking slowly, usually in large flocks. Breeding males display over territories with fluttering, gliding flights and give unusual trilling songs.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64821921-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64821921-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64821921-720px.jpg"
+        ],
+        "description": [
+            "Breeds in wet tundra, often in areas with many small ponds. Winters in coastal estuaries and lagoons. Migrants turn up in many wetland environments with muddy edges as well as sod farms, wet agricultural fields, and sewage ponds.",
+            ""
+        ]
+    }
+}

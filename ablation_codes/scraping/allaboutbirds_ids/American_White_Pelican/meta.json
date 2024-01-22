@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70589271-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70589271-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A huge waterbird with very broad wings, a long neck, and a massive bill that gives the head a unique, long shape. They have thick bodies, short legs, and short, square tails. During the breeding season, adults grow an unusual projection or horn on the upper mandible near the tip of the bill."
+            ],
+            "Compared Size": [
+                "One of our largest flying birds: considerably larger than a Bald Eagle; smaller than a California Condor."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 50.0-65.0 in (127-165 cm)",
+                "Weight: 158.7-317.5 oz (4500-9000 g)",
+                "Wingspan: 96.1-114.2 in (244-290 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70589231-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70589231-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70589231-480px.jpg"
+        ],
+        "description": [
+            "Adult American White Pelicans are snowy white with black flight feathers visible only when the wings are spread. A small patch of ornamental feathers on the chest can become yellow in spring. The bill and legs are yellow-orange. Immatures are mostly white as well, but the head, neck, and back are variably dusky."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240089430",
+        "description": [
+            "American White Pelicans feed from the water\u2019s surface, dipping their beaks into the water to catch fish and other aquatic organisms. They often upend, like a very large dabbling duck, in this process. They do not plunge-dive the way Brown Pelicans do. They are superb soarers (they are among the heaviest flying birds in the world) and often travel long distances in large flocks by soaring. When flapping, their wingbeats are slow and methodical."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70589291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70589291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70589291-720px.jpg"
+        ],
+        "description": [
+            "American White Pelicans typically breed on islands in shallow wetlands in the interior of the continent. They spend winters mainly on coastal waters, bays, and estuaries, or a little distance inland."
+        ]
+    }
+}

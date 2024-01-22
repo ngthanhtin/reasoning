@@ -1,0 +1,92 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297719081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297719081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297719081-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297720481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297720481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297720481-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476196-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476196-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476196-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64971271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64971271-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64971271-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64971281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64971281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64971281-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/467685-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/467685-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/467685-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64971261-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64971261-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64971261-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297719811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297719811-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297719811-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/463112-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/463112-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/463112-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297720421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297720421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297720421-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/477780-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/477780-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/477780-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64971251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64971251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64971251-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Rather plump sparrow with a long tail. A rusty cap and eyeline mark the gray face. Note bicolored bill and unstreaked underparts.",
+            "",
+            "",
+            "Small, round-headed birds that often fluff out their feathers, making their plump bodies look even chubbier. Note rusty crown and eyeline on a gray face.",
+            "A rusty crown and eyeline mark its gray face. Note unstreaked underparts.",
+            "",
+            "Plump sparrow with a rusty cap, bicolored bill, and a dark central breast spot.",
+            "Eats seeds including birdseed during the winter. Note rusty crown and eyeline on a gray face.",
+            "",
+            "",
+            "",
+            "In winter, found in weedy fields with hedgerows or shrubs, along forest edges, or near marshes. Note central breast spot on an unstreaked belly."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297720521-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297720521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297720521-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

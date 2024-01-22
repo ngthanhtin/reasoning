@@ -1,0 +1,98 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60324921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324921-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305686581-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305686581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305686581-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/465122-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465122-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465122-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/443850-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/443850-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/443850-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60324881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324881-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/433205-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/433205-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/433205-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60324861-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324861-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60324861-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Upright posture with a long tail. Bluish-gray upperparts with a contrasting black cap and a red eye. Underparts are pale with dense reddish barring. Bill is fairly small and strongly hooked.",
+            "Bluish-gray upperparts contrast with the paler cheek and dark cap. Note the long rounded tail with a wide white terminal band.",
+            "Adult Cooper's Hawks have gray backs, reddish-barred chests, and reddish eyes. Note the sharp division between the black cap and gray nape (neck).",
+            "Accipiters like Cooper's Hawk have rounded wings and very long tails. In flight, look for Cooper's Hawk's large head that projects out ahead of the wings. The long tail often appears slightly rounded at the tip.",
+            "In flight shows relatively short, rounded wings and a long, rounded tail with thick bands. Note that its head projects well beyond its wings.",
+            "Note the very long tail compared to the wings\u2014a distinctive feature of accipiters. The sharp black cap contrasting with the gray nape is a good ID feature for Cooper's Hawk.",
+            "From some angles white undertail contrasts with the reddish barred underparts and bluish-gray upperparts."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305687211-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305687211-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305687211-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305687791-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305687791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305687791-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305687541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305687541-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305687541-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60324941-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60324941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324941-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60324911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60324911-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "",
+            "Upright posture with a long tail. Immatures have brown upperparts that contrast with white underparts that have strong brown streaking. Note the yellow eye.",
+            "In flight shows relatively short, rounded wings and a long, rounded tail with thick bands. Note the wide white terminal band on tail, which can sometimes help with identification.",
+            "In flight from above, upperparts on immatures are brown with paler barring in the wings and tail. Note the larger head that sticks out well beyond the wings."
+        ]
+    },
+    "Adult with prey": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/454903-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454903-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454903-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Accipiters are specialist predators that eat mostly birds. They sometimes hunt at backyard feeders."
+        ]
+    }
+}

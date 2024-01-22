@@ -1,0 +1,48 @@
+{
+    "White-crowned Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978031-1280px.jpg"
+            ],
+            "description": "Adult White-crowned Sparrows have no yellow on the head and no white throat patch."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978001-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978001-720px.jpg"
+            ],
+            "description": "Immature White-crowned Sparrows have reddish-brown stripes on the head, whereas immature White-throated Sparrows have blackish head stripes and a neat white throat patch."
+        }
+    },
+    "Golden-crowned Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978511-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978511-720px.jpg"
+            ],
+            "description": "Golden-crowned Sparrows have no white on the head, have yellow in the crown, and lack White-throated Sparrow's white throat patch."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978521-1280px.jpg"
+            ],
+            "description": "Immature Golden-crowned Sparrows lack the brown-black head stripes and white throat of immature White-throated Sparrows."
+        }
+    },
+    "Song Sparrow": {
+        "Adult (Eastern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66116661-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66116661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66116661-720px.jpg"
+            ],
+            "description": "Song Sparrows can resemble \u201ctan-striped\u201d White-throated Sparrows, but are much more heavily streaked below and have no yellow on the face."
+        }
+    }
+}

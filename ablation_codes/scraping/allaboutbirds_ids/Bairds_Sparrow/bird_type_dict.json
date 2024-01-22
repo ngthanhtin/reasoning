@@ -1,0 +1,86 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308768371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308768371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308768371-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299419841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299419841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299419841-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476882-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476882-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476882-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299420291-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299420291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420291-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/33225461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/33225461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/33225461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299420181-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299420181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420181-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299420501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420501-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299420581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420581-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420581-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299420591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299420591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299420631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299420631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420631-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299422771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299422771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299422771-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Medium-sized, relatively short-tailed sparrow with a necklace of brown streaks and a buffy eyebrow and ear patch.",
+            "Sings a series of light ringing notes followed by a thin trill from the tops of grass clumps and small shrubs.",
+            "Flat-headed sparrow of grasslands. Note necklace of streaks on the chest and the buffy wash on the face.",
+            "Flat-headed sparrow with a buffy eyebrow and ear patch, and fine streaking on the nape. Note the \"broken\" eyeline and mustache stripe, neither of which fully extend across the face.",
+            "Uncommon sparrow of grasslands. Identified by the streaky necklace and buffy eyebrow and ear patch.",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299420371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299420371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299420371-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

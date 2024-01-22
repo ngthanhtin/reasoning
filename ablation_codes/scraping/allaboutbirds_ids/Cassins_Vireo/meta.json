@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65761321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761321-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small but sturdy songbird, with a fairly thick, short bill and relatively long wings and tail."
+            ],
+            "Compared Size": [
+                "Larger than a Red-breasted Nuthatch, smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.3 in (11-13.6 cm)",
+                "Weight: 0.5-0.6 oz (13-18 g)",
+                "Wingspan: 9.4 in (24 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65761191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761191-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761191-480px.jpg"
+        ],
+        "description": [
+            "Olive green above with a grayish head and a prominent white eyering and wingbars. White below, with yellow-olive wash on sides. Dark eye, bill, and legs.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238636626",
+        "description": [
+            "Forages by moving slowly along branches at lower and middle heights in mature trees, searching for insects. Joins mixed-species flocks after breeding.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65761231-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65761231-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65761231-720px.jpg"
+        ],
+        "description": [
+            "Nests in deciduous, coniferous, and mixed forest up to almost 8,000 feet elevation. Migrates through virtually all western forest types. Winters in almost all woodland habitats in Mexico, from mangrove forests at sea level to montane woodlands up to almost 10,000 feet elevation.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The cassinii subspecies occurs across most of the species\u2019 range in western North America. The lucasanus subspecies occurs only in southern Baja California, Mexico, and has a larger bill than cassinii. The cassinii form migrates, whereas lucasanus is a permanent resident in mountains at the tip of the Baja California Peninsula. As is expected in a migrant, the migratory subspecies has slightly longer wings than the sedentary lucasanus.",
+            ""
+        ]
+    }
+}

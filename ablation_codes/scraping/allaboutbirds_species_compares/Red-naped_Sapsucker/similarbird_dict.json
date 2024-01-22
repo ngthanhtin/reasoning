@@ -1,0 +1,40 @@
+{
+    "Red-breasted Sapsucker": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65053401-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65053401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65053401-720px.jpg"
+            ],
+            "description": "Red-breasted Sapsuckers have extensive red covering the head and continuing down onto the breast, while Red-naped has black and white patterning on the face."
+        }
+    },
+    "Yellow-bellied Sapsucker": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65051951-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65051951-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65051951-720px.jpg"
+            ],
+            "description": "Yellow-bellied Sapsuckers lack the red nape, have a black border around the red throat, and occur primarily in eastern North America, overlapping with Red-naped Sapsuckers only in southwest Alberta."
+        }
+    },
+    "Williamson's Sapsucker": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37165921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37165921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37165921-1280px.jpg"
+            ],
+            "description": "Female Williamson's Sapsuckers lack the vertical wing patch that is present on female Red-naped Sapsuckers and have an unmarked tan head."
+        },
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32805331-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32805331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32805331-1280px.jpg"
+            ],
+            "description": "Male Williamson's Sapsuckers have solid black backs unlike Red-naped Sapsuckers. Red is limited to the throat in Williamson's while Red-naped Sapsuckers have a red crown, nape, and throat."
+        }
+    }
+}

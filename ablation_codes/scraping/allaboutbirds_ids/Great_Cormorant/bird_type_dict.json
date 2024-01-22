@@ -1,0 +1,122 @@
+{
+    "Breeding adult (North Atlantic)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66026521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026521-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66026501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66026501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, chunky waterbird with a long tail and neck. Breeding birds are dark overall with white patches on the flanks and the throat.",
+            "Breeding birds have white flank patches that are most easily seen in flight."
+        ]
+    },
+    "Breeding adult (Eurasian)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304391791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304391791-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304391791-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413743-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/413743-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413743-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Like other cormorants, sits low in the water making its body look small compared to the long neck and head. Dives for fish."
+        ]
+    },
+    "Adult (White-breasted)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304391841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304391841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304391841-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304391821-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304391821-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304391821-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304391851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304391851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304391851-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "",
+            ""
+        ]
+    },
+    "Juvenile (North Atlantic)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/66026561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026561-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66026561-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/66026541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026541-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, chunky waterbird with a long tail and neck. Juveniles have a pale neck and a white belly.",
+            "Large, chunky waterbird with a big head, hefty bill, and long tail. Juveniles are dark above with a small white throat patch."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413787-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/413787-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413787-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413610-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/413610-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/413610-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Immature (White-breasted)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304391811-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304391811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304391811-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

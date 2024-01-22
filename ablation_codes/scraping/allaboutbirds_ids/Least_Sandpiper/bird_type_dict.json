@@ -1,0 +1,86 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301499501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301499501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301499501-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822781-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822781-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small sandpiper with yellow legs and a thin slightly curved bill. Breeding birds have rusty speckling on the back.",
+            "Breeding birds have a heavily streaked throat and breast. Note yellow legs and small size."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822711-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64822731-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64822731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822731-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small sandpiper with yellow legs. Nonbreeding birds are brownish with a smudgy brown breast.",
+            "Nonbreeding birds have a smudgy throat unlike similar sandpipers. Tends to have a more crouched posture when foraging."
+        ]
+    },
+    "Breeding adults": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472905-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/472905-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472905-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Very small sandpiper with yellowish legs and thin, slightly drooped bill. Favors muddy habitats."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822671-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822741-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822741-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822661-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822661-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have brighter rusty-colored speckling on the back than breeding adults.",
+            "Juveniles have yellow legs, like adults\u2014but note that mud can obscure leg color. Juveniles have brighter rusty-colored speckling on the back than breeding adults.",
+            "In flight, note short, dark wings and small overall size."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64822681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822681-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64822681-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Forages on mudflats and the edges of water bodies. Tends to favor muddier shores and estuaries than other sandpipers."
+        ]
+    }
+}

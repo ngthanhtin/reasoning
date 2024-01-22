@@ -1,0 +1,58 @@
+{
+    "Horned Grebe": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65055691-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65055691-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65055691-720px.jpg"
+            ],
+            "description": "Horned Grebes are smaller with shorter bills than Red-necked Grebes. In breeding plumage they have golden tufts along their heads and dark cheeks."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65055701-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65055701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65055701-1280px.jpg"
+            ],
+            "description": "Nonbreeding birds are separable by size. Horned Grebes are smaller with a smaller, darker bill and a shorter neck than Red-necked Grebes."
+        }
+    },
+    "Eared Grebe": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65058061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65058061-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65058061-720px.jpg"
+            ],
+            "description": "Eared Grebes are smaller with shorter, thinner bills than Red-necked Grebes. In breeding plumage they have dark necks with a golden fan of feathers on the cheek."
+        },
+        "Nonbreeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65058071-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65058071-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65058071-720px.jpg"
+            ],
+            "description": "Nonbreeding Eared Grebes have a dark smudge on the cheek whereas Red-necked Grebes have a cleaner border between crown and cheek."
+        }
+    },
+    "Western Grebe": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/101317251-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/101317251-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/101317251-720px.jpg"
+            ],
+            "description": "Western Grebes are larger and slimmer with a thinner, longer bill than Red-necked Grebes."
+        }
+    },
+    "Western x Clark's Grebe (hybrid)": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65074951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65074951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65074951-1280px.jpg"
+            ],
+            "description": "Clark's Grebes are larger and slimmer with a thinner, longer bill than Red-necked Grebes."
+        }
+    }
+}

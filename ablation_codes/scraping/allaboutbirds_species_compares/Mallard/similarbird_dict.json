@@ -1,0 +1,76 @@
+{
+    "Northern Shoveler": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60312481-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60312481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60312481-1280px.jpg"
+            ],
+            "description": "Northern Shovelers have a bill that is noticeably larger and wider than a mallard with a white (not brown) chest and chestnut sides."
+        },
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60312551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60312551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60312551-1280px.jpg"
+            ],
+            "description": "Northern Shovelers have a bill that is noticeably larger and wider than a mallard. Females do not have the dark crown patch that female Mallards have."
+        }
+    },
+    "Mottled Duck": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60291251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60291251-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60291251-720px.jpg"
+            ],
+            "description": "Female Mottled Ducks have a unmarked buffy face whereas female Mallards have a darker face."
+        },
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60291271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60291271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60291271-1280px.jpg"
+            ],
+            "description": "Mottled Ducks are slightly darker and don't have the broad white borders to the speculum seen on Mallards. They also have a black spot at the base of the bill and an unmarked buffy face that Mallards lack."
+        }
+    },
+    "American Black Duck": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60018901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018901-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018901-720px.jpg"
+            ],
+            "description": "American Black Ducks have a darker body, a greenish-yellow bill, and a purplish speculum patch in the wings that does not have white borders like Mallards."
+        },
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/60018911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018911-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60018911-720px.jpg"
+            ],
+            "description": "American Black Duck has a darker body, a greenish-yellow bill, and a purplish speculum patch in the wings that does not have white borders like Mallards."
+        }
+    },
+    "Common Merganser": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63910971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63910971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63910971-1280px.jpg"
+            ],
+            "description": "Mergansers are streamlined ducks with long, slender bills. Mergansers also behave differently, diving instead of dabbling."
+        }
+    },
+    "Red-breasted Merganser": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63911811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63911811-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63911811-720px.jpg"
+            ],
+            "description": "Mergansers are streamlined ducks with long, slender bills. Mergansers also behave differently, diving instead of dabbling."
+        }
+    }
+}

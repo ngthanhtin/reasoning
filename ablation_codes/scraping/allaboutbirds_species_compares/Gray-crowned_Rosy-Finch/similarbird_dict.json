@@ -1,0 +1,22 @@
+{
+    "Brown-capped Rosy-Finch": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63735551-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63735551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63735551-1280px.jpg"
+            ],
+            "description": "Brown-capped Rosy-Finch is lighter brown and does not have the Gray-crowned Rosy-Finch's gray crown."
+        }
+    },
+    "Black Rosy-Finch": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63734811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-1280px.jpg"
+            ],
+            "description": "Black Rosy-Finches are darker (almost black) overall than Gray-crowned Rosy-Finches, which have a brown belly and back."
+        }
+    }
+}

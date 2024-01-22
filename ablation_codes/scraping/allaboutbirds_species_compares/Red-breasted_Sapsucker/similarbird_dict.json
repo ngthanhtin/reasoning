@@ -1,0 +1,48 @@
+{
+    "Williamson's Sapsucker": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37165921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37165921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37165921-1280px.jpg"
+            ],
+            "description": "Female Williamson's Sapsuckers lack the vertical white wing patches that Red-breasted Sapsuckers have. They also have an unmarked tan head unlike Red-breasted Sapsuckers."
+        },
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32805331-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32805331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32805331-1280px.jpg"
+            ],
+            "description": "Male Williamson's Sapsuckers have a sold black back unlike male Red-breasted Sapsuckers. They also have less red on the head and breast than Red-breasted Sapsuckers."
+        }
+    },
+    "Red-naped Sapsucker": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65052431-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65052431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65052431-720px.jpg"
+            ],
+            "description": "Red-naped Sapsuckers have less red on the head and breast than Red-breasted Sapsuckers."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65052411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65052411-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65052411-1280px.jpg"
+            ],
+            "description": "Juvenile Red-naped Sapsuckers are paler brown overall and have distinct stripes on the face unlike Red-breasted Sapsuckers."
+        }
+    },
+    "Yellow-bellied Sapsucker": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65051951-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65051951-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65051951-720px.jpg"
+            ],
+            "description": "Yellow-bellied Sapsuckers have less red on the head than Red-breasted Sapsuckers and bold white head stripes. Note range differences."
+        }
+    }
+}

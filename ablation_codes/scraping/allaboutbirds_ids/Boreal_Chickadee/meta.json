@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68052641-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68052641-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68052641-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small songbird with husky body and head, and a slim, rather long tail."
+            ],
+            "Compared Size": [
+                "About the size of a Black-capped Chickadee."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68052651-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68052651-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68052651-720px.jpg"
+        ],
+        "description": [
+            "A grayish brown bird with a rich brown cap, a small black bib, and small white cheek (gray at the rear). Whitish below, with pinkish buff sides.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238640997",
+        "description": [
+            "Forages agilely and restlessly among limbs and branches, with frequent acrobatic turns while perched; sometimes hover-gleans prey from tips of branches.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68052671-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68052671-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68052671-480px.jpg"
+        ],
+        "description": [
+            "Restricted largely to mature spruce-fir forests in Canada and some adjacent states.",
+            ""
+        ]
+    }
+}

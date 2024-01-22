@@ -1,0 +1,32 @@
+{
+    "Grasshopper Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32804001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32804001-1280px.jpg"
+            ],
+            "description": "Grasshopper Sparrows have an unstreaked chest and a brown streaked nape unlike Nelson's Sparrows."
+        }
+    },
+    "Saltmarsh Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40641631-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40641631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40641631-1280px.jpg"
+            ],
+            "description": "Saltmarsh Sparrows are often more heavily streaked below than Nelson's Sparrows with a brighter orange mustache that contrasts with a paler breast and eyebrow. The bill is also larger than Nelson's."
+        }
+    },
+    "LeConte's Sparrow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40263691-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40263691-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40263691-720px.jpg"
+            ],
+            "description": "LeConte's Sparrows have a streaked nape while Nelson's Sparrows have an unstreaked gray nape. LeConte's also have a white crown stripe while Nelson's have a gray crown."
+        }
+    }
+}

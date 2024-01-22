@@ -1,0 +1,32 @@
+{
+    "Canyon Towhee": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64988801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988801-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64988801-720px.jpg"
+            ],
+            "description": "Canyon Towhee has a buffy tinged face, not the dark face of Abert's Towhee. Canyon lives in desert scrub whereas Abert's occurs in brushy thickets along streams."
+        }
+    },
+    "California Towhee": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64989841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989841-1280px.jpg"
+            ],
+            "description": "California Towhee has very little range overlap with Abert's Towhee. California had a rusty brown face and a gray bill, not the dark face and pale bill of Abert's."
+        }
+    },
+    "Rufous-crowned Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64990411-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64990411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64990411-720px.jpg"
+            ],
+            "description": "Rufous-crowned Sparrows are more strongly patterned than Abert's Towhees. They have a rusty cap and line through the eye, with a white eyering and a dark mustache stripe outlined with white."
+        }
+    }
+}

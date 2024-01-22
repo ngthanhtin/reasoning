@@ -1,0 +1,48 @@
+{
+    "Black-crowned Night-Heron": {
+        "Adult (American)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70693011-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70693011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70693011-720px.jpg"
+            ],
+            "description": "Black-crowned Night-Herons have shorter legs, that in flight don\u2019t extend as far past the tail as they do on Yellow-crowned Night-Herons."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70692991-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70692991-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70692991-720px.jpg"
+            ],
+            "description": "Immature Black-crowned Night-Herons have larger spots and bolder streaks compared to the Yellow-crowned\u2019s smaller, more distinct spots and streaks. They also have a pale yellowish (not black) bill."
+        }
+    },
+    "American Bittern": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/37758621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37758621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37758621-1280px.jpg"
+            ],
+            "description": "American Bitterns are more likely to be found in reedy freshwater marshes than Yellow-crowned Night-Herons. They also lack the boldly spotted upperparts of immature night-herons."
+        }
+    },
+    "Green Heron": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70691741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70691741-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70691741-720px.jpg"
+            ],
+            "description": "Adult Green Herons are darker and more richly colored in green and reddish tones than the gray Yellow-crowned Night-Heron."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70691791-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70691791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70691791-1280px.jpg"
+            ],
+            "description": "Juvenile Green Herons are redder on the neck than juvenile or immature night-herons. Green Herons are also smaller with a thinner bill than Yellow-crowned Night-Herons."
+        }
+    }
+}

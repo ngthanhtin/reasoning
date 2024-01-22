@@ -1,0 +1,30 @@
+{
+    "Magnolia Warbler": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64798651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798651-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798651-720px.jpg"
+            ],
+            "description": "Magnolia Warblers have a darker back than Canada Warbler with obvious wingbars."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798661-1280px.jpg"
+            ],
+            "description": "Female/immature Magnolia Warblers have a streakier back than female/immature Canada Warblers with 2 white wingbars."
+        }
+    },
+    "Yellow-throated Warbler": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64894611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64894611-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64894611-720px.jpg"
+            ],
+            "description": "Yellow-throated Warblers have a white (not yellow) belly and lack the black necklace that Canada Warblers have."
+        }
+    }
+}

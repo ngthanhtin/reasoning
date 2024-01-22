@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59860711-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59860711-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59860711-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Small and compact, with a flat head and fairly long, curved beak. Short-winged, often keeping its longish tail either cocked above the line of the body or slightly drooped."
+            ],
+            "Compared Size": [
+                "Smaller than a Carolina Wren; chickadee-sized."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.3-0.4 oz (10-12 g)",
+                "Wingspan: 5.9 in (15 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59860691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59860691-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59860691-480px.jpg"
+        ],
+        "description": [
+            "Subdued brown overall with darker barring on the wings and tail. The pale eyebrow that is characteristic of so many wren species is much fainter in House Wrens."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238640812",
+        "description": [
+            "Bubbly and energetic, just like their songs. Look for House Wrens hopping quickly through tangles and low branches and, in spring and summer, frequently pausing to deliver cheerful trilling songs."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59860661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59860661-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59860661-480px.jpg"
+        ],
+        "description": [
+            "In summer, House Wrens are at home in open forests, forest edges, and areas with scattered grass and trees. Backyards, farmyards, and city parks are perfect for them. In winter they become more secretive, preferring brushy tangles, thickets, and hedgerows."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "A \"brown-throated\" subspecies of the House Wren occurs in mountains of extreme southeastern Arizona. It has a distinct buffy eyebrow and cinnamon-buff throat and chest. House Wrens occur all the way through the Americas to southern Argentina. Individuals in the Caribbean and South America tend to be warmer colored and have somewhat different voices."
+        ]
+    }
+}

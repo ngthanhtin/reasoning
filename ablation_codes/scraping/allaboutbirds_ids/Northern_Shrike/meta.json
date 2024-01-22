@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65685791-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65685791-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65685791-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A fairly large songbird with a thick neck and a large, rounded head with a thick, hooked bill. It has short wings and a long, rounded tail."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Loggerhead Shrike, smaller than a Blue Jay."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-9.4 in (23-24 cm)",
+                "Weight: 2.0-2.8 oz (56-79 g)",
+                "Wingspan: 11.8-13.8 in (30-35 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65685811-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65685811-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65685811-480px.jpg"
+        ],
+        "description": [
+            "Adults are gray birds with black masks and black in the wings and tail. They are paler below, often with faint, fine gray barring. The black mask does not go across the top of the bill. The tail is edged in white and the wings have a white flash, especially noticeable in flight. Juveniles and immatures are brownish with a faint mask, and show more distinct barring below than adults.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670499",
+        "description": [
+            "Hunts insects, birds, and small mammals, ambushing or chasing them. Catches insects in the bill and larger animals with the feet, then uses the notched bill to kill. Often caches (stores) prey items by impaling them on thorns or barbed wire, or wedging them into a branch fork.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65685831-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65685831-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65685831-720px.jpg"
+        ],
+        "description": [
+            "Breeds in open parts of the boreal forest (taiga) and along the northern edge where boreal forest gives way to tundra. Winters in and migrates through similar open habitats with a patchwork of small trees and bushes.",
+            ""
+        ]
+    }
+}

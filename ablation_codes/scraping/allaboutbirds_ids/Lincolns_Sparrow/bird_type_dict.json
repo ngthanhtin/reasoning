@@ -1,0 +1,56 @@
+{
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299637291-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299637291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299637291-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299637281-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299637281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299637281-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299637271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299637271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299637271-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299637251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299637251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299637251-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299638131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299638131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299638131-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64984591-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64984591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64984591-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized sparrow with fairly small bill. Neat appearance with fine, crisp streaks, gray face with pale eyering, and buffy wash across breast.",
+            "",
+            "Medium-sized sparrow with fairly small bill. Crisp dark streaks on buffy breast transition to unmarked white belly.",
+            "Gray face, pale eyering, and very fine streaks on buffy breast are distinctive.",
+            "Gray face, pale eyering, and very fine streaks on buffy breast are distinctive.",
+            "Breeds in wet meadows among dense shrubs, particularly willows. Also found in wetlands with aspen and cottonwood, and in black spruce\u2013tamarack bogs."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476622-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476622-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476622-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Males sing a rich wrenlike song of trills, gurgles, and buzzes. Each song starts off with 2 or 3 bell-like notes before bursting into bubbly trills and gurgles that rapidly change pitch."
+        ]
+    }
+}

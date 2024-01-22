@@ -1,0 +1,86 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297970171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297970171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297970171-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472950-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/472950-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/472950-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978541-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with long tail and fairly small, grayish bill. Distinctive gray face with black cap and yellow crown patch.",
+            "Song consists of several clear whistles that slide downward in a melancholy-sounding phrase that\u2019s sometimes described as \u201cI\u2019m so tired\u201d or \u201coh, dear me.\u201d Sometimes adds a trill to the end.",
+            "Large, plump sparrow with grayish bill. Back is brown streaked with blackish. Bold black stripes on the side of the crown, with yellow stripe confined to the top of the head."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64978551-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978551-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297973141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297973141-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297973141-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, plump sparrow with long tail and grayish bill. In nonbreeding plumage, breast is mottled gray-brown, and yellow crown stripe is smaller and duller.",
+            ""
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297969681-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297969681-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297969681-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297971751-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297971751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297971751-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, plump sparrow with long tail. Immatures have broad rusty stripes on the cap with a yellowish stripe in the middle of the crown.",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297972531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297972531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297972531-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64978571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds among dense shrubs at edge of tundra and forest, or at treeline. Winters in shrubby thickets, chaparral, parks, gardens, and other open areas."
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "Male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305854841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854841-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402841-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305854091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854091-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305854291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854291-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305854291-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402416-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402416-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402416-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305854601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854601-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Consumes a large amount of fruit, which it swallows whole.",
+            "Long and slender songbird with a red eye and shaggy crest. Males are entirely glossy black.",
+            "Long and slender crested bird of dry woodlands and deserts. Males are glossy black overall, but have visible white wing patches in flight.",
+            "Sometimes drinks from temporary pools of water.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/305854161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854161-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67452771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67452771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67452771-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402276-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402276-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402276-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender medium-sized songbird with a long tail and shaggy crest. Females are dark gray overall with white edging on the wing feathers. Note red eye.",
+            "Females are dark gray overall with a red eye and a shaggy crest. Note long tail and slender appearance.",
+            "Found in the Sonoran and Mojave Deserts. Often seen perched on the tops of trees and shrubs."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305854591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305854591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854591-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406262-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406262-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/406262-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Juveniles look like females, but often have a yellowish bill."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/305854711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/305854711-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/305854711-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67452751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67452751-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67452751-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in dry woodlands and deserts. Often perches on top of tall trees and shrubs giving a rising \"wurp.\""
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "Breeding male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301536921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301536921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301536921-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895191-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895191-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895191-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301537281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537281-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301537281-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301537591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537591-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized diving duck with a peaked head. Glossy black head, front, rear, and back, with gray sides and white wedge at the shoulder. Gray bill has a black tip bordered by a white band.",
+            "Fairly common on lakes and ponds, especially small bodies of water. Less common in saltwater.",
+            "",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301537531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537531-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized brownish duck with a tall, peaked head. Brown top of head contrasts with gray face, white eyering, and white strip behind bill. Gray bill has white band and a black tip."
+        ]
+    },
+    "Breeding male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/479836-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/479836-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/479836-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63895231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895231-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301537321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537321-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537321-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301537071-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301537071-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537071-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Paddles across waterbodies like dabbling ducks, but dives to the bottom to eat submerged plants and aquatic invertebrates unlike dabbling ducks. Note the peaked head, white ring around the bill, and white \"spur\" on its side.",
+            "In flight, wings are dark with grayish, not white, wingstripe.",
+            "",
+            "Forms flocks, especially in winter and migration. Both sexes have distinctive gray bill with white band and black tip."
+        ]
+    },
+    "Nonbreeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63895241-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63895241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63895241-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized diving duck with a tall, peaked head and a white ring near the tip of the bill. Glossy ring around neck is very difficult to see. Nonbreeding males have gray-brown sides."
+        ]
+    },
+    "Female and chick": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/301537131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537131-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301537131-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

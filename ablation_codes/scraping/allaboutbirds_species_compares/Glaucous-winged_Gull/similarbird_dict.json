@@ -1,0 +1,74 @@
+{
+    "Glaucous Gull": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70197501-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70197501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70197501-720px.jpg"
+            ],
+            "description": "Glaucous Gulls of all ages have white wingtips unlike Glaucous-winged Gulls that have gray wingtips as adults and pale brown wingtips as immatures."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/39446161-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39446161-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39446161-720px.jpg"
+            ],
+            "description": "Glaucous Gulls have white wingtips and lack of a neat row of white dots seen on the wings of Glaucous-winged Gulls."
+        },
+        "First summer": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70197631-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70197631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70197631-720px.jpg"
+            ],
+            "description": "First and second cycle Glaucous Gulls have a pink bill with a black tip, whereas first and second cycle Glaucous-winged Gulls have an entirely dark bill. Also note white wingtips on Glaucous but not on Glaucous-winged."
+        }
+    },
+    "Herring Gull": {
+        "Nonbreeding adult (American)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71319281-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71319281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71319281-1280px.jpg"
+            ],
+            "description": "Adult Herring Gulls have black wingtips unlike adult Glaucous-winged Gulls, which have light gray wingtips."
+        },
+        "Second winter (American)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71319291-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71319291-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71319291-720px.jpg"
+            ],
+            "description": "Immature Herring Gulls have darker wingtips than immature Glaucous-winged Gulls."
+        }
+    },
+    "Western Gull": {
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316871-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316871-1280px.jpg"
+            ],
+            "description": "Adult and immature Western Gulls have darker gray back and black wingtips unlike Glaucous-winged Gulls that have paler gray backs and pale gray wingtips."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71316781-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71316781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71316781-720px.jpg"
+            ],
+            "description": "Juvenile Western Gulls are darker brown overall than juvenile Glaucous-winged Gulls."
+        }
+    },
+    "California Gull": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71318251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71318251-1280px.jpg"
+            ],
+            "description": "Adult and immature California Gulls have darker wingtips than adult and immature Glaucous-winged Gulls."
+        }
+    }
+}

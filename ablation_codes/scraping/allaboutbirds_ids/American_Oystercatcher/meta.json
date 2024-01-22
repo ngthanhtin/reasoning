@@ -1,0 +1,58 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64807501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807501-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807501-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A large, thickset shorebird with a long, stout bill, a large head, robust neck, and long, thick legs."
+            ],
+            "Compared Size": [
+                "Larger than a Willet, smaller than a Herring Gull."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807481-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64807481-480px.jpg"
+        ],
+        "description": [
+            "American Oystercatchers look black-and-white from a distance, with a bright orange-red bill. At closer range, the back and wings are brown, with a black head and breast, white underparts, yellow eye, and red eyering. In flight, look for a white wingbar and white tail base.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238649845",
+        "description": [
+            "American Oystercatchers probe sandy and stony areas for clams, oysters, and other mollusks, which they open by cutting or smashing. Much of their day is spent resting in roosts during high tide. They are vigorous, and very loud, during courtship displays, territorial conflicts, and interactions with intruders.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64807521-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64807521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64807521-480px.jpg"
+        ],
+        "description": [
+            "Barrier islands and beaches, saltmarshes, and shellfish reefs.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Compared with the Atlantic form (palliatus) the northernmost Pacific subspecies (frazari, rare in California) is darker above, lacks white in the inner primaries, and often shows dark mottling below. All of these plumage features could be a result of occasional hybridization with Black Oystercatcher.",
+            ""
+        ]
+    }
+}

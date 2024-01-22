@@ -1,0 +1,42 @@
+{
+    "Bufflehead": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63905271-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63905271-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63905271-720px.jpg"
+            ],
+            "description": "Female Buffleheads have a smaller white patch on their head and a shorter tail that they don\u2019t cock upward like Ruddy Ducks do."
+        }
+    },
+    "Black Scoter": {
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63901791-1280px.jpg"
+            ],
+            "description": "Female Black Scoters are larger than female Ruddy Ducks and they don't hold their tails up in the air like Ruddy Ducks often do."
+        }
+    },
+    "Surf Scoter": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63899821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63899821-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63899821-720px.jpg"
+            ],
+            "description": "Female Surf Scoters are larger than Ruddy Ducks with 2 small white patches on the cheek."
+        }
+    },
+    "White-winged Scoter": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63900501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63900501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63900501-1280px.jpg"
+            ],
+            "description": "Female White-winged Scoters are larger than Ruddy Ducks with 2 white spots on the face and a white wing panel (often concealed)."
+        }
+    }
+}

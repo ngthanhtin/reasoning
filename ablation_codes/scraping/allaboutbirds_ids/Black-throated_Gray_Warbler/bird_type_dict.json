@@ -1,0 +1,68 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297059311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297059311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297059311-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64896301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64896301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64896301-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464820-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464820-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464820-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64896321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64896321-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64896321-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64896311-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64896311-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a black-and-white face, gray back, and black side streaks. Adult males have black throat and a yellow spot in front of the eye.",
+            "Small warbler with a black-and-white face, gray back, and black side streaks. Adult males have black throat and a yellow spot in front of the eye.",
+            "Forages for caterpillars and other arthropods at middle levels in trees and shrubs, including oaks, Douglas-firs, pinyon pines, juniper, sagebrush, and bitterbrush.",
+            "Small warbler with a black-and-white face, gray back, and black side streaks. Adult males have black throat and a yellow spot in front of the eye.",
+            "Found in pinyon-juniper, pine, and mixed oak-pine forests."
+        ]
+    },
+    "Adult female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297059401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297059401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297059401-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464833-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464833-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464833-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a black-and-white face and gray back. Adult females have variable amounts of black on the throat and are often paler than males. Note small yellow spot in front of the eye.",
+            "The female builds a deep cup nest on top of a branch, using dried grasses or weeds and lined with feathers or animal hair."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297060091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297060091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297060091-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immatures are pale gray overall, but have the same facial pattern including the yellow spot in front of the eye."
+        ]
+    }
+}

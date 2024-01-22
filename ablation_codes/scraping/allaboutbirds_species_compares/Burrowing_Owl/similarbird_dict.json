@@ -1,0 +1,32 @@
+{
+    "Short-eared Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37180721-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37180721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37180721-720px.jpg"
+            ],
+            "description": "Short-eared Owls are much larger than Burrowing Owls with shorter legs and heavier vertical streaking."
+        }
+    },
+    "Northern Pygmy-Owl": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66047111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66047111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66047111-720px.jpg"
+            ],
+            "description": "Northern Pygmy-Owls are smaller than Burrowing Owls. They also behave differently; perches in trees rather than on the ground like Burrowing Owls."
+        }
+    },
+    "Northern Saw-whet Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113271-720px.jpg"
+            ],
+            "description": "Northern Saw-whet Owls are smaller with shorter legs than Burrowing Owls and are found in forests not in open areas where Burrowing Owls occur."
+        }
+    }
+}

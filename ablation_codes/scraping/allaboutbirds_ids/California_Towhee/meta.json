@@ -1,0 +1,53 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64989821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64989821-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64989821-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "California Towhees are essentially large sparrows, with a sparrow\u2019s short, rounded wings, long tail, and thick, seed-cracking beak\u2014but towhees are larger and bulkier. The long tail and short wings can give this bird an ungainly look in flight."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Spotted Towhee; slightly smaller than a robin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.3-9.8 in (21-25 cm)",
+                "Weight: 1.3-2.4 oz (37-67 g)",
+                "Wingspan: 11.4 in (29 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64989841-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64989841-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64989841-480px.jpg"
+        ],
+        "description": [
+            "Few birds are as uniformly matte brown as a California Towhee, except for a rusty patch under the tail (called the crissum, giving the bird its scientific name) and around their bill. Males look the same as females.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670810",
+        "description": [
+            "California Towhees hop or run on the ground but tend to stay close to the protection of low shrubs and trees. When not foraging they may perch on shrubs, rooftops, and backyard fences, to sit and chip for long periods. In flight they look out of practice, using lots of wingpower to travel short distances."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64989831-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64989831-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64989831-480px.jpg"
+        ],
+        "description": [
+            "California Towhees live in chaparral and other tangled, shrubby, and dry habitats. They\u2019re also at home in the small backyards and neighborhood parks of lowland California towns."
+        ]
+    }
+}

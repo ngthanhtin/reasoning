@@ -1,0 +1,50 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68038661-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68038661-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68038661-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A tiny bird with a relatively large, rounded head, no discernible neck, and a straight, sharp bill. The legs are short, the wings are short and broad, and the tail is short and square."
+            ],
+            "Compared Size": [
+                "Smaller than a White-breasted Nuthatch; slightly larger than a Golden-crowned Kinglet."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68038671-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68038671-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68038671-480px.jpg"
+        ],
+        "description": [
+            "Bluish-gray above with a sharply defined brown crown and pale nape spot. The throat is white and the underside creamy buff. Some subspecies show a blackish line through eye.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238640064",
+        "description": [
+            "These energetic songbirds forage by climbing pine trunks and branches to search under bark and in needle clusters for insects and seeds. They move constantly and give short, squeaky calls, often mixing with chickadees, kinglets, and other songbirds. Pygmy Nuthatches are highly social: they breed cooperatively and also pile in to cavities in groups to roost communally on cold winter nights."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68038691-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68038691-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68038691-720px.jpg"
+        ],
+        "description": [
+            "Pygmy Nuthatches live in pine forests in western North America; they especially favor mature ponderosa pine forests. They are typically found at lower and middle elevations where ponderosa pine grows, but can sometimes occur up to 10,000 feet."
+        ]
+    }
+}

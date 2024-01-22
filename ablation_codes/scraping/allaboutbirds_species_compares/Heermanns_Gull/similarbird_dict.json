@@ -1,0 +1,22 @@
+{
+    "Parasitic Jaeger": {
+        "Juvenile dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40624881-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40624881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40624881-720px.jpg"
+            ],
+            "description": "Immature Heermann's Gulls are sometimes mistaken for Jaegers, but Parasitic Jaegers have longer pointer wings with white flashes under the wing."
+        }
+    },
+    "Pomarine Jaeger": {
+        "Immature dark morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40624141-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40624141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40624141-720px.jpg"
+            ],
+            "description": "Pomarine Jaegers are dark like immature Heermann's Gulls, but they have pointer wings and white flashes under the wing that Heermann's Gulls don't have."
+        }
+    }
+}

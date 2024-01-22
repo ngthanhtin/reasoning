@@ -1,0 +1,134 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301309501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301309501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301309501-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63892941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63892941-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63892941-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63892971-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63892971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63892971-720px.jpg"
+            ]
+        ],
+        "description": [
+            "A long-necked duck. Breeding males have a very long tail, a white breast, and a white neck stripe.",
+            "A slender duck with a long neck and tail. In flight, breeding males have a green speculum.",
+            "Breeding males have very long black tails and a white stripe up the side of their neck."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63893021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63893021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893021-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893011-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are slender ducks with a long tail and neck. Females have rather plain tan heads compared to other female ducks.",
+            "Slender duck with a long neck and tail. Shape helps separate from other ducks."
+        ]
+    },
+    "Breeding male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/400034-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/400034-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/400034-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/407801-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/407801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/407801-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/485660-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/485660-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/485660-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Tips up and submerges head underwater to eat aquatic seeds and insects, filtering out the water with its bill.",
+            "Flies on long and slender wings and almost hovers before gently landing on the ground.",
+            "Frequently preens feathers after swimming. Note dark undertail feathers and bright white chest."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63893001-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893001-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63893001-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females are slender with a plain tan face. In flight, the speculum is brownish bronze."
+        ]
+    },
+    "Breeding male and female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/418292-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/418292-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/418292-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Courting males stretch their necks up, bob their heads, and tip their bill down while giving a whistle call to attract a female. Interested females follow with head bobbing, preening, and clucking."
+        ]
+    },
+    "Eclipse male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63892981-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63892981-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63892981-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender duck with a long tail and neck. Nonbreeding males in eclipse plumage are pale overall with a plain face."
+        ]
+    },
+    "Male (with Mallard)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63892961-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63892961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63892961-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Slimmer than a Mallard with a long tail."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/301311281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/301311281-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/301311281-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63892951-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63892951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63892951-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Uses shallow wetlands and flooded fields during the winter."
+        ]
+    }
+}

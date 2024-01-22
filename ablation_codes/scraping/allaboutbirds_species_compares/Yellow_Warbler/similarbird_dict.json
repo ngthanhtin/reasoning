@@ -1,0 +1,86 @@
+{
+    "Wilson's Warbler": {
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64914621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914621-1280px.jpg"
+            ],
+            "description": "Female and immature Wilson's Warblers are smaller than Yellow Warblers with a yellow eyebrow and darker cap."
+        },
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64914601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64914601-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64914601-720px.jpg"
+            ],
+            "description": "Smaller than Yellow Warbler. Males have a dark cap that Yellow Warblers do not have."
+        }
+    },
+    "Hooded Warbler": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64456381-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64456381-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64456381-720px.jpg"
+            ],
+            "description": "Female and immature Hooded Warblers have a yellow cheek patch offset by a faintly darker hood; Yellow Warblers have a uniform yellow head and face."
+        }
+    },
+    "Orange-crowned Warbler": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64441261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64441261-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64441261-720px.jpg"
+            ],
+            "description": "Orange-crowned Warblers have a thinner bill and are duller yellow-olive overall than Yellow Warblers."
+        }
+    },
+    "Palm Warbler": {
+        "Breeding adult (Yellow)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64892971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64892971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64892971-1280px.jpg"
+            ],
+            "description": "Larger than Yellow Warbler with a rusty cap and streaks on the sides."
+        },
+        "Nonbreeding/immature (Western)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64892951-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64892951-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64892951-720px.jpg"
+            ],
+            "description": "Larger than Yellow Warblers. Nonbreeding/immature Palm Warblers are browner overall with a pale eyebrow."
+        }
+    },
+    "Common Yellowthroat": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66117641-720px.jpg"
+            ],
+            "description": "Female Common Yellowthroats are browner than female/immature Yellow Warblers and do not have yellow bellies."
+        }
+    },
+    "American Goldfinch": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63737361-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737361-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63737361-720px.jpg"
+            ],
+            "description": "American Goldfinches have a shorter, thicker bill and darker wings than Yellow Warblers."
+        },
+        "Nonbreeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63737391-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737391-1280px.jpg"
+            ],
+            "description": "American Goldfinches have a shorter, thicker bill and darker wings than Yellow Warblers."
+        }
+    }
+}

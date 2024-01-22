@@ -1,0 +1,122 @@
+{
+    "Nonbreeding adult (American)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308468891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308468891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308468891-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/170459311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/170459311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/170459311-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308469081-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308469081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308469081-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large tern with pointed wings, a long forked tail, and a bright orange bill. Nonbreeding birds have a narrow often shaggy band at the back of the head.",
+            "Nonbreeding birds have a narrow often shaggy band at the back of the head.",
+            ""
+        ]
+    },
+    "Breeding adult (American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308469271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308469271-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308469271-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71427401-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71427401-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427401-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71427421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71427421-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427421-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large tern with a daggerlike orange bill. Breeding birds have a shaggy black crown that is sometimes held flat. Note black legs.",
+            "Pale gray above with a long forked tail and pointed wings. Flies with strong rowing wingbeats.",
+            "Social and colonial nesting waterbird found in groups year-round. Breeding adults have a shaggy black cap and a bright orange bill."
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/479106-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/479106-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/479106-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Plunge dives into shallow water to capture fish and crustaceans such as shrimp."
+        ]
+    },
+    "Immature (American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71427411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71427411-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308469481-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308469481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308469481-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature birds have darker wingtips and a narrow shaggy crest.",
+            ""
+        ]
+    },
+    "Juvenile (American)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/170459361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/170459361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/170459361-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308469361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308469361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308469361-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are spotted with black and gray above with a partial cap. Note gray bar across the wings.",
+            ""
+        ]
+    },
+    "Molting adult (American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308469651-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308469651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308469651-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock (American)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/71427441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71427441-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found along coastal warm waters and sandy beaches."
+        ]
+    }
+}

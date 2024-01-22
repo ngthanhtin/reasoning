@@ -1,0 +1,116 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297342281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297342281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297342281-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63738041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63738041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63738041-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297342421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297342421-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297342421-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63738021-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63738021-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63738021-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/63738011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63738011-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63738011-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/63738001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63738001-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63738001-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized owl with a white heart-shaped face. Gray and cinnamon above and white below, although some have cinnamon colored and spotty chests.",
+            "White heart-shaped face and dark eyes are distinctive.",
+            "Long, rounded wings and short tails contribute to their loping and buoyant flight style.",
+            "Gray and cinnamon above with a white heart-shaped face. Females are often darker than males, but there is much overlap.",
+            "Nests in holes in trees, cliff ledges and crevices, caves, burrows in river banks, barn lofts, church steeples, houses, and nest boxes.",
+            "Nests and roosts in rock crevices, holes in trees, abandoned barns and other buildings, and dense trees."
+        ]
+    },
+    "Hunting Barn Owl": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/218625811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/218625811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/218625811-720px.jpg"
+            ]
+        ],
+        "description": [
+            "During hard winters, or in times of food shortages, Barn Owls sometimes hunt during the day, often frequenting the same open country habitats used by Northern Harriers."
+        ]
+    },
+    "Adult (Galapagos)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297342541-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297342541-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297342541-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult (Lesser Antilles)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297342571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297342571-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297342571-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult and young (American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447878-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/447878-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447878-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Pale owl with large, heart-shaped facial disk. Capable of rotating head extensively. This video has no audio."
+        ]
+    },
+    "Adults (American)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447886-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447886-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/447886-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Light underparts can make Barn Owls look exceptionally pale in low light. Broad rounded wings give them a buoyant flight style."
+        ]
+    },
+    "Adult (American)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/410533-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410533-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410533-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Pale buffy-white underparts with darker spots. Active mainly at night; sleeps in well-hidden locations during daylight."
+        ]
+    }
+}

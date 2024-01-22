@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63741561-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63741561-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63741561-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "These are large, thick-bodied owls with two prominent feathered tufts on the head. The wings are broad and rounded. In flight, the rounded head and short bill combine to create a blunt-headed silhouette."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Red-tailed Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-24.8 in (46-63 cm)",
+                "Weight: 32.1-88.2 oz (910-2500 g)",
+                "Wingspan: 39.8-57.1 in (101-145 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63741611-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63741611-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63741611-720px.jpg"
+        ],
+        "description": [
+            "Great Horned Owls are mottled gray-brown, with reddish brown faces and a neat white patch on the throat. Their overall color tone varies regionally from sooty to pale."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238646202",
+        "description": [
+            "Great Horned Owls are nocturnal. You may see them at dusk sitting on fence posts or tree limbs at the edges of open areas, or flying across roads or fields with stiff, deep beats of their rounded wings. Their call is a deep, stuttering series of four to five hoots."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63741591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63741591-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63741591-480px.jpg"
+        ],
+        "description": [
+            "Look for this widespread owl in woods, particularly young woods interspersed with fields or other open areas. The broad range of habitats they use includes deciduous and evergreen forests, swamps, desert, tundra edges, and tropical rainforest, as well as cities, orchards, suburbs, and parks."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Great Horned Owls vary in color tone across their range: birds from the Pacific Northwest tend to be dark sooty; individuals across the Southwest are paler and grayer; and birds from subarctic Canada can be almost white."
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "Ross's Goose": {
+        "Adult white morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59940721-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59940721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59940721-720px.jpg"
+            ],
+            "description": "Smaller with a much smaller bill than Snow Goose. Lacks Snow Goose's black line or \"grinning patch\" on bill."
+        },
+        "Adult blue morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59940711-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59940711-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59940711-720px.jpg"
+            ],
+            "description": "Both color morphs of Ross's Goose are smaller with a much smaller bill than Snow Goose. Ross's lacks the black line or \"grinning patch\" on the bill."
+        }
+    },
+    "Tundra Swan": {
+        "Adult (Whistling)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59956021-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59956021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59956021-720px.jpg"
+            ],
+            "description": "Tundra Swans are larger with a longer neck and larger black bill than Snow Goose. Lacks dark wingtips."
+        }
+    },
+    "Trumpeter Swan": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954771-1280px.jpg"
+            ],
+            "description": "Trumpeter Swans are much larger with a longer neck and black bill than Snow Goose. Lacks dark wingtips."
+        }
+    },
+    "Mute Swan": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59954151-1280px.jpg"
+            ],
+            "description": "Mute Swans are much larger with a longer neck than Snow Goose. Lacks dark wingtips."
+        }
+    }
+}

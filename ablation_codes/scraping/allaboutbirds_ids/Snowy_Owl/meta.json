@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66046411-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66046411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66046411-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Snowy Owls are very large owls with smoothly rounded heads that rarely show ear tufts. The body is bulky, with dense feathering on the legs that makes the bird look wide at the base when sitting on the ground."
+            ],
+            "Compared Size": [
+                "About the size of a Great Horned Owl."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 20.5-27.9 in (52-71 cm)",
+                "Weight: 56.4-104.1 oz (1600-2950 g)",
+                "Wingspan: 49.6-57.1 in (126-145 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66046481-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66046481-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66046481-480px.jpg"
+        ],
+        "description": [
+            "Snowy Owls are white birds with varying amounts of black or brown markings on the body and wings. On females this can be quite dense, giving the bird a salt-and-pepper look. Males tend to be paler and become whiter as they age. The eyes are yellow."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238638877",
+        "description": [
+            "Look for Snowy Owls sitting on or near the ground in wide-open areas. They often perch on rises such as the crests of dunes, or on fenceposts, telephone poles, and hay bales. When they fly they usually stay close to the ground."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66046441-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66046441-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66046441-480px.jpg"
+        ],
+        "description": [
+            "In winter, look for Snowy Owls along shorelines of lakes and the ocean, as well as on agricultural fields and airport lands. Snowy Owls breed in the treeless arctic tundra."
+        ]
+    }
+}

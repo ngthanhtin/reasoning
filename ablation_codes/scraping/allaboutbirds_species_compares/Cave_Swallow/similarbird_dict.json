@@ -1,0 +1,22 @@
+{
+    "Cliff Swallow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68122521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122521-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122521-720px.jpg"
+            ],
+            "description": "Cliff Swallows have a paler rump and darker cheeks and throat than Cave Swallows, which have brighter rumps and pale cheeks and throat."
+        }
+    },
+    "Barn Swallow": {
+        "Adult (American)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68123041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68123041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68123041-1280px.jpg"
+            ],
+            "description": "Barn Swallows are slimmer than Cave Swallows with a longer, forked tail."
+        }
+    }
+}

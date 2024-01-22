@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113121-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113121-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Burrowing Owls are small owls with long legs and short tails. The head is rounded and does not have ear tufts."
+            ],
+            "Compared Size": [
+                "About the same length/height as an American Robin but much bulkier; slightly smaller than a Western Screech-Owl."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.5-9.8 in (19-25 cm)",
+                "Weight: 5.3 oz (150 g)",
+                "Wingspan: 21.6 in (55 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113141-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66113141-480px.jpg"
+        ],
+        "description": [
+            "Adults are brown birds mottled with sandy-pale spots on the upperparts. The breast is spotted, grading to dark brown bars on the belly. They have a bold white throat and eyebrows, and yellow eyes. The brown juveniles are less mottled than adults, with buffy-yellow underparts and wing patch."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238644409",
+        "description": [
+            "Burrowing Owls spend most of their time on the ground or on low perches such as fence posts. They hunt close to the ground catching insects and small animals. When alarmed they jerk their bodies quickly up and down. They are active during the day."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113161-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66113161-480px.jpg"
+        ],
+        "description": [
+            "Burrowing Owls live in open habitats with sparse vegetation such as prairie, pastures, desert or shrubsteppe, and airports. In parts of their range they are closely associated with prairie dogs and ground squirrels, whose burrows they use for nests."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Burrowing Owls have a very wide range that extends to the tip of South America and includes many subspecies, but there are few clear differences in plumage. The subspecies that occurs in Florida and the Caribbean tends to be slightly smaller, with whiter spots, than Burrowing Owls of the West."
+        ]
+    }
+}

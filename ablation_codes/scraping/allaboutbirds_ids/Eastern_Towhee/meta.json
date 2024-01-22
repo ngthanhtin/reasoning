@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64991961-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64991961-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64991961-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Towhees are a kind of large sparrow. Look for their thick, triangular, seed-cracking bill as a tip-off they\u2019re in the sparrow family. Also notice the chunky body and long, rounded tail."
+            ],
+            "Compared Size": [
+                "30% bigger than a Song Sparrow and twice as heavy. Smaller than a robin."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.8-8.2 in (17.3-20.8 cm)",
+                "Weight: 1.1-1.8 oz (32-52 g)",
+                "Wingspan: 7.9-11.0 in (20-28 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/64991941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64991941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64991941-720px.jpg"
+        ],
+        "description": [
+            "Males are striking: bold sooty black above and on the breast, with warm rufous sides and white on the belly. Females have the same pattern, but are rich brown where the males are black."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238651400",
+        "description": [
+            "Eastern Towhees spend most of their time on the ground, scratching at leaves using both feet at the same time, in a kind of backwards hop. They spend lots of time concealed beneath thick underbrush. You may see this bird more often when it climbs into shrubs and low trees to sing."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64992001-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64992001-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64992001-480px.jpg"
+        ],
+        "description": [
+            "Look for Eastern Towhees in brush, tangles, thickets, and along forest edges where there\u2019s plenty of leaf litter for the birds to forage in."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "A subspecies in southern Georgia and Florida has a pale yellow eye instead of the red eye seen elsewhere in the East."
+        ]
+    }
+}

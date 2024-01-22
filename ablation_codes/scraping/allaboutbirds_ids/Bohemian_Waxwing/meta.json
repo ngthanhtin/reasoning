@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59879551-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59879551-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59879551-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Bohemian Waxwings are full-bellied, thick-necked birds with a shaggy crest atop a pin head. The wings are broad and pointed, like a starling's. The tail is fairly short and square-tipped."
+            ],
+            "Compared Size": [
+                "Larger than a bluebird, smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.5 in (16-19 cm)",
+                "Weight: 1.6-2.4 oz (45-69 g)",
+                "Wingspan: 13.0 in (33 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59881001-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59881001-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59881001-720px.jpg"
+        ],
+        "description": [
+            "The Bohemian Waxwing is grayish brown overall with subtle peach blushing around its black mask. The wings have 2 distinctive white rectangular patches and red waxlike tips on the secondaries. The undertail is rusty and the tail is tipped in yellow. Juveniles are grayer overall with a streaked belly. Juveniles lack the adult's peach blushing around the face and the red-tipped secondaries.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/253617890",
+        "description": [
+            "Bohemian Waxwings are social birds that form large, compact, and noisy groups-sometimes in the thousands- as they scour the landscape looking for fruit during the nonbreeding season. They dangle on flimsy branches to reach fruit or perch side by side in fruiting trees.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59879511-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59879511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59879511-720px.jpg"
+        ],
+        "description": [
+            "Bohemian Waxwings breed in open evergreen forests and spend the nonbreeding season in open areas that have plentiful fruit, from city parks to forest patches near streams.",
+            ""
+        ]
+    }
+}

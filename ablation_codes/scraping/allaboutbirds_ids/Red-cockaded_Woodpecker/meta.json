@@ -1,0 +1,50 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/32804961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32804961-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32804961-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Red-cockaded Woodpeckers are small woodpeckers with short, straight bills."
+            ],
+            "Compared Size": [],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 7.9-9.1 in (20-23 cm)",
+                "Weight: 1.5-1.8 oz (42-52 g)",
+                "Wingspan: 14.2 in (36 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63316191-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63316191-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63316191-480px.jpg"
+        ],
+        "description": [
+            "Despite their name, they are largely black and white, with a large, bright-white cheek patch and a bold black malar stripe forming the lower border of the cheek. Males have a tiny, nearly invisible red streak (\u201ccockade\u201d) at the upper border of the cheek. The back has strong horizontal black-and-white bars."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238649319",
+        "description": [
+            "Red-cockaded Woodpeckers live in family groups and cooperate to raise young. They often forage in small groups and can be quite vocal. They excavate nest and roost cavities in living pine trees, pecking holes in the bark to keep a flow of sticky pitch around the nest cavity."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/39450501-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/39450501-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/39450501-720px.jpg"
+        ],
+        "description": [
+            "This endangered species is a habitat specialist that is strongly tied to old-growth pine forests that burn frequently, leaving the understory mostly clear of younger pines and hardwoods. They were once common in vast tracts of longleaf pine; now they also occur in loblolly, slash, and some other pine stands in the southeastern pine flatwoods."
+        ]
+    }
+}

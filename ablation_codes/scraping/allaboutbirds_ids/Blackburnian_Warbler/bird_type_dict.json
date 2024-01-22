@@ -1,0 +1,98 @@
+{
+    "Adult male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297045621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297045621-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297045621-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469393-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469393-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/469393-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466637-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466637-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466637-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64801391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801391-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801391-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64801351-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801351-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64801351-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64801401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801401-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64801401-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469388-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469388-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/469388-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small warbler with a long body. Adult males have a brilliant orange throat and face with a black crown and triangular ear patch.",
+            "Hops around in vegetation and nervously looks around. This video has no audio.",
+            "Hops among branches and gleans insects from the undersides of leaves.",
+            "Flame orange throat quickly identifies adult males.",
+            "The brilliant orange throat and head pattern is distinctive on adult males although the intensity of orange varies among individuals.",
+            "Breeds in mature evergreen and mixed evergreen-deciduous forests.",
+            "Males often sing from the tops of trees and branches. This video has no audio."
+        ]
+    },
+    "Female and immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64801381-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64801381-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801381-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64801361-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64801361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801361-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64801341-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801341-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64801341-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Females/immatures are paler and yellower overall with 2 white wingbars. Note distinctive triangular ear patch and yellow eyebrow.",
+            "Small warbler with a long body. Note triangular ear patch, pale eyebrow, and white wingbars.",
+            "Females/immatures lack the orange coloration, showing tones of yellow instead. Note triangular ear patch, pale eyebrow, and white wingbars."
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469397-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/469397-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/469397-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females/immatures have a distinctive dull black triangular ear patch and bold wingbars. This video has no audio."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64801371-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64801371-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64801371-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in all types of wooded areas during migration."
+        ]
+    }
+}

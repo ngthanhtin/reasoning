@@ -1,0 +1,54 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65617351-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617351-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617351-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Eastern Wood-Pewees are medium-sized flycatchers with long wings and tails. Like other pewee species, they have short legs, upright posture, and a peaked crown that tends to give the head a triangular shape. Their long wings are an important clue to separate them from",
+                "Empidonax",
+                "flycatcher species."
+            ],
+            "Compared Size": [
+                "A bit smaller than an Eastern Bluebird; larger than a chickadee."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9 in (15 cm)",
+                "Weight: 0.3-0.7 oz (10-19 g)",
+                "Wingspan: 9.1-10.2 in (23-26 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65617361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617361-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65617361-480px.jpg"
+        ],
+        "description": [
+            "Eastern Wood-Pewees are olive-gray birds with dark wings, and little to no yellow on the underparts. The sides of the breast are dark with an off-white throat and belly, giving a vested appearance typical of pewees. They show little or no eyering. Adults have thin, white wingbars; those of juveniles are buffy. The underside of the bill is mostly yellow-orange, except in some juveniles."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238671412",
+        "description": [
+            "Eastern Wood-Pewees are sit-and-wait predators that sally out from arboreal perches after insects and return to the same or a nearby perch. Like other members of their genus, they often perch high in trees, generally in fairly exposed places providing good viewpoints."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/65617341-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/65617341-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65617341-480px.jpg"
+        ],
+        "description": [
+            "Eastern Wood-Pewees are most common in deciduous forest and woodland, but you may find them in nearly any forested habitat, even smaller woodlots, for breeding as long as it is fairly open. As migrants, these pewees can occur in nearly any woodlot or other treed area."
+        ]
+    }
+}

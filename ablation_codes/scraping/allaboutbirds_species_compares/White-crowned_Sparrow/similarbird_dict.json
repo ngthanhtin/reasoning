@@ -1,0 +1,48 @@
+{
+    "White-throated Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64980371-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64980371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64980371-720px.jpg"
+            ],
+            "description": "Adult White-throated Sparrows have a bright white throat patch and yellow between the bill and the eyes. They often look dingier or less crisp overall than White-crowned Sparrows."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64980331-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64980331-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64980331-1280px.jpg"
+            ],
+            "description": "Immature White-throated Sparrows have black stripes on the crown, instead of immature White-crowned's reddish stripes. They have a grayish, not yellowish, bill, and usually show a neat white throat patch."
+        }
+    },
+    "Golden-crowned Sparrow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978511-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978511-720px.jpg"
+            ],
+            "description": "Adult Golden-crowned Sparrows have no white on the head. The crown stripe is yellow, not white."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64978521-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64978521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64978521-1280px.jpg"
+            ],
+            "description": "Immature Golden-crowned Sparrows usually have some yellow on the crown, helping to distinguish them from immature White-crowned Sparrows, which they closely resemble."
+        }
+    },
+    "House Sparrow": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63742371-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63742371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63742371-720px.jpg"
+            ],
+            "description": "Female House Sparrows are smaller, shorter tailed, and smaller billed, with an unmarked face and no white on the wing."
+        }
+    }
+}

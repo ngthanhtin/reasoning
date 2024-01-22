@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302412991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302412991-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302412991-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70579861-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70579861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579861-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/410188-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410188-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/410188-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70579871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579871-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70579871-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70579911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70579911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579911-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70579901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579901-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, entirely black corvid with a hefty bill and long nasal bristles.",
+            "In flight, note the diamond-shaped tail and broad, round wings.",
+            "Often flies closer to the ground with strong and shallow wingbeats. Note the wedge-shaped tail.",
+            "The base of the feathers around the neck are white, but they are only visible when the wind exposes them or if the individual is fluffing their feathers.",
+            "In good light, appears glossy black overall.",
+            "Large corvid with long nasal bristles and a hefty bill."
+        ]
+    },
+    "Adult (with Great-tailed Grackle)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70579881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579881-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Social bird often seen in small groups or large flocks. Uses power poles for perching as well as nesting."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70579891-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70579891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70579891-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in dry, open grasslands with scattered trees and shrubs, and unbroken desert scrub."
+        ]
+    }
+}

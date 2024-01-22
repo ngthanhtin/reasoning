@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60411301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60411301-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60411301-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warbler\u2019s but thinner than a finch\u2019s."
+            ],
+            "Compared Size": [
+                "Smaller than a sparrow"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.9 in (12-15 cm)",
+                "Weight: 0.3-0.5 oz (9-14 g)",
+                "Wingspan: 6.3-8.3 in (16-21 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60411291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60411291-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60411291-480px.jpg"
+        ],
+        "description": [
+            "The cap and bib are black, the cheeks white, the back soft gray, the wing feathers gray edged with white, and the underparts soft buffy on the sides grading to white beneath. The cap extends down just beyond the black eyes, making the small eyes tricky to see."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668638",
+        "description": [
+            "Black-capped Chickadees seldom remain at feeders except to grab a seed to eat elsewhere. They are acrobatic and associate in flocks\u2014the sudden activity when a flock arrives is distinctive. They often fly across roads and open areas one at a time with a bouncy flight."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60411281-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60411281-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60411281-480px.jpg"
+        ],
+        "description": [
+            "Chickadees may be found in any habitat that has trees or woody shrubs, from forests and woodlots to residential neighborhoods and parks, and sometimes weedy fields and cattail marshes. They frequently nest in birch or alder trees."
+        ]
+    }
+}

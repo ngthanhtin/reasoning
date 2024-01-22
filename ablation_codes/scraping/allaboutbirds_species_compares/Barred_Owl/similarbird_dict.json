@@ -1,0 +1,42 @@
+{
+    "Spotted Owl": {
+        "Adult (California)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40634431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40634431-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40634431-1280px.jpg"
+            ],
+            "description": "Spotted Owls have brown underparts marked by white spots, lacking the brown vertical barring of Barred Owls."
+        }
+    },
+    "Great Horned Owl": {
+        "Adult (Great Horned)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63741611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63741611-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63741611-720px.jpg"
+            ],
+            "description": "Great Horned Owls have yellow eyes and prominent ear tufts instead of the Barred Owl\u2019s black eyes and rounded head."
+        }
+    },
+    "Barn Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63737991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63737991-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63737991-720px.jpg"
+            ],
+            "description": "Barn Owls are much paler than Barred Owls, with a plain or lightly spotted belly without the streaking seen on Barred Owls. They occur in more open country rather than forests where Barred Owls occur."
+        }
+    },
+    "Great Gray Owl": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/37183541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37183541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37183541-720px.jpg"
+            ],
+            "description": "Great Gray Owls are considerably larger and grayer overall than Barred Owls with yellow (not dark) eyes."
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68054741-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054741-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054741-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Tiny, large-headed but small-billed, with a long, narrow tail and full, rounded wings."
+            ],
+            "Compared Size": [
+                "Same size as Black-capped Chickadee."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054751-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68054751-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054751-480px.jpg"
+        ],
+        "description": [
+            "Like all chickadees, strikingly black-and-white on the head, gray elsewhere. The white stripe over the eye identifies Mountain Chickadees from all other chickadees."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238671210",
+        "description": [
+            "Active and acrobatic, clinging to small limbs and twigs or hanging upside down from pine cones. In winter, Mountain Chickadees flock with kinglets and nuthatches, with birds following each other one by one from tree to tree."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68054871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68054871-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68054871-480px.jpg"
+        ],
+        "description": [
+            "Dry, mountainous forests of the West. The similar Black-capped Chickadee often occurs along streams and in broad-leaved trees, while Mountain Chickadees stick to the evergreens on higher slopes."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Mountain Chickadees of the Rocky Mountains tend to have short, blunt bills and buffy flanks. In the Great Basin the bill is longer, thinner, and more pointed. Birds in the Sierra Nevada and Cascades have the largest bills, and their flanks match their back color."
+        ]
+    }
+}

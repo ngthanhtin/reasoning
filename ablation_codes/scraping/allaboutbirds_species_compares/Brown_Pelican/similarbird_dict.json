@@ -1,0 +1,32 @@
+{
+    "American White Pelican": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70589231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589231-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70589231-720px.jpg"
+            ],
+            "description": "American White Pelicans are larger than Brown Pelicans. They are bright white with sharply contrasting black wingtips unlike Brown Pelicans."
+        }
+    },
+    "Double-crested Cormorant": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66027261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027261-1280px.jpg"
+            ],
+            "description": "Double-crested Cormorant are much smaller, darker birds with longer necks and smaller bills than Brown Pelicans."
+        }
+    },
+    "Black-footed Albatross": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/70095101-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70095101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70095101-720px.jpg"
+            ],
+            "description": "Black-footed Albatross are much larger than Brown Pelicans with longer more pointed wings. Their bill, while large, is smaller than the Brown Pelican's bill."
+        }
+    }
+}

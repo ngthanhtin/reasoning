@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64832001-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64832001-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64832001-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Wilson\u2019s Phalaropes are small shorebirds with long legs, slender necks, and very thin, straight, long bills. They have sharply pointed wings."
+            ],
+            "Compared Size": [
+                "Larger than a Least Sandpiper; smaller than a Killdeer."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.7-9.4 in (22-24 cm)",
+                "Weight: 1.3-3.9 oz (38-110 g)",
+                "Wingspan: 15.3-16.9 in (39-43 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64831941-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64831941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64831941-480px.jpg"
+        ],
+        "description": [
+            "Wilson\u2019s Phalaropes are grayish birds with cinnamon or rusty highlights especially on the neck. In the breeding season females are more colorful than males, with a dark line through the eye extending down the neck. The throat is white and the neck is washed rusty. Nonbreeding birds are pale gray above, white below, without the strong facial markings of other phalarope species."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238638602",
+        "description": [
+            "Phalaropes are the only shorebirds that regularly swim in deep water. They bob on the surface, often spinning in circles to bring small food items within reach of their slender bills."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64831971-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64831971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64831971-480px.jpg"
+        ],
+        "description": [
+            "Wilson\u2019s Phalaropes breed in marshes of the Great Plains and intermountain West. They spend winters in South America, mainly on high lakes in the Andes. On migration, great numbers congregate on salty lakes and coastal marshes of the West."
+        ]
+    }
+}

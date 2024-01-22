@@ -1,0 +1,56 @@
+{
+    "Prairie Falcon": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547421-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547421-720px.jpg"
+            ],
+            "description": "Prairie Falcons are more brown than the dark gray Peregrine Falcon. The underparts on adult Prairie Falcons also aren't barred like Peregrine Falcons."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547471-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547471-720px.jpg"
+            ],
+            "description": "Immature Prairie Falcons look similar to immature Peregrine Falcons, but they are paler brown with a paler mustache."
+        }
+    },
+    "Merlin": {
+        "Adult male (Taiga)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70585511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70585511-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70585511-720px.jpg"
+            ],
+            "description": "Merlins are smaller than Peregrine Falcons and they lack the Peregrine's helmeted look and thick mustache or sideburn."
+        },
+        "Female/immature (Taiga)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70585521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70585521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70585521-1280px.jpg"
+            ],
+            "description": "The average Merlin is substantially smaller than a Peregrine Falcon, with a more compact body, shorter wings, and a stockier appearance."
+        }
+    },
+    "Gyrfalcon": {
+        "Adult gray morph": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40537771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40537771-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40537771-720px.jpg"
+            ],
+            "description": "The Gyrfalcon is bulkier than a Peregrine Falcon and is very rare in the continental United States. They also lack the Peregrine's bold mustache."
+        },
+        "Immature gray morph": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40537751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40537751-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40537751-720px.jpg"
+            ],
+            "description": "Gyrfalcons are much larger and bulkier than Peregrine Falcons with a longer tail and broader more rounded wings."
+        }
+    }
+}

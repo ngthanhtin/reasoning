@@ -1,0 +1,58 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68042941-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68042941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68042941-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A tiny, chickadee-like songbird with a slight body, moderately long tail, small head, and tiny pointed bill."
+            ],
+            "Compared Size": [
+                "Larger than a Black-tailed Gnatcatcher, smaller than a Bridled Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68042961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68042961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68042961-720px.jpg"
+        ],
+        "description": [
+            "Adults are grayish with a yellow head. They have a small chestnut patch at the bend of the wing (the lesser coverts). Juveniles are similar but lack the yellow and chestnut colors.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238638746",
+        "description": [
+            "Forages with rapid, short flights and hops among outer branches of small trees and bushes, often hanging upside-down by the feet to search for insects and spiders.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68043011-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043011-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043011-480px.jpg"
+        ],
+        "description": [
+            "Nests and forages in thorny desert scrub with scattered trees.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize 6 or 7 subspecies, all of which are very similar to one another, differing only slightly in plumage tones and size. Two of these nest in the United States. The subspecies acaciarum is resident from southern California, Nevada, and Utah southward into Mexico; it is associated mostly with the Sonoran Desert. The subspecies ornatus is found from New Mexico and Oklahoma southward into Mexico and is associated more with the Chihuahuan Desert. The remaining 4-5 subspecies are resident in Mexico.",
+            ""
+        ]
+    }
+}

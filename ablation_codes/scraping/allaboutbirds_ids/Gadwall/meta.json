@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/65533461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65533461-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/65533461-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Gadwall are about the same size as Mallards. Gadwall have a fairly large, square head with a steep forehead. The bill is noticeably thinner than a Mallard's. In flight, the neck is slightly thinner and the wings slightly more slender than a Mallard\u2019s."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Mallard; larger than a Green-winged Teal."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.1-22.4 in (46-57 cm)",
+                "Weight: 17.6-44.1 oz (500-1250 g)",
+                "Wingspan: 33.1 in (84 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60015881-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60015881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60015881-720px.jpg"
+        ],
+        "description": [
+            "Male Gadwall are gray-brown with a black patch at the tail. Females are patterned with brown and buff. Females have a thin orange edge to their dark bills. In flight, both sexes have a white wing patch that is sometimes visible while swimming or resting."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238635995",
+        "description": [
+            "Gadwall feed with other dabbling ducks, tipping forward to feed on submerged vegetation without diving. They sometimes steal food from flocks of diving ducks or coots. You'll often see these ducks in pairs through the winter, because they select their mates for the breeding season as early as late fall."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60015861-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60015861-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60015861-720px.jpg"
+        ],
+        "description": [
+            "Gadwall breed mainly in the Great Plains and prairies. On migration and in winter, look for Gadwall in reservoirs, ponds, fresh and salt water marshes, city parks, sewage ponds, or muddy edges of estuaries."
+        ]
+    }
+}

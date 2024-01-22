@@ -1,0 +1,54 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63897091-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63897091-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63897091-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A large, heavyset sea duck with a distinctive long, sloping frontal lobe of the bill that extends almost to the crown."
+            ],
+            "Compared Size": [
+                "Larger than a Surf Scoter, smaller than a Snow Goose."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 19.7-28.0 in (50-71.1 cm)",
+                "Weight: 45.9-92.1 oz (1300-2611 g)",
+                "Wingspan: 37.4-38.6 in (95-98 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63897141-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63897141-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63897141-480px.jpg"
+        ],
+        "description": [
+            "Breeding males are mostly white above and black below, with a black cap, pale green on the nape (back of neck), and green to yellow-orange bill. Immature and nonbreeding males are chocolate brown with variable white on the breast and back. Females are warm brown with dense blackish barring and black bill."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238644909",
+        "description": [
+            "Look for flocks of Common Eiders in rocky marine waters, where they dive down, using their wings to swim, to pry mussels from rocks. Much of their day is spent resting, especially during high tides, and they frequently perform courtship displays in these flocks from fall into spring, with the males giving quiet dovelike calls.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63897171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63897171-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63897171-720px.jpg"
+        ],
+        "description": [
+            "Maritime environments, usually near rocky coastlines. Nests in tundra or taiga of the far north, usually on smaller islands.",
+            ""
+        ]
+    }
+}

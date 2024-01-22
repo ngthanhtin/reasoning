@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64995071-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64995071-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64995071-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A sleek, round-headed woodpecker, about the same size as a Hairy Woodpecker but without the blocky outlines."
+            ],
+            "Compared Size": [
+                "Same size as Hairy Woodpecker; three-quarters the size of a Northern Flicker"
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.4 in (24 cm)",
+                "Weight: 2.0-3.2 oz (56-91 g)",
+                "Wingspan: 13.0-16.5 in (33-42 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64995041-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64995041-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64995041-720px.jpg"
+        ],
+        "description": [
+            "Often appears pale overall, even the boldly black-and-white striped back, with flashing red cap and nape. Look for white patches near the wingtips as this bird flies."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670382",
+        "description": [
+            "Look for Red-bellied Woodpeckers hitching along branches and trunks of medium to large trees, picking at the bark surface more often than drilling into it. Like most woodpeckers, these birds have a characteristic undulating flight pattern."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64995081-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64995081-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64995081-480px.jpg"
+        ],
+        "description": [
+            "Red-bellied Woodpeckers are common in many Eastern woodlands and forests, from old stands of oak and hickory to young hardwoods and pines. They will also often venture from forests to appear at backyard feeders."
+        ]
+    }
+}

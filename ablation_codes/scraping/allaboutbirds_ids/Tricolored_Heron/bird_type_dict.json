@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304957351-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304957351-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304957351-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304958831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304958831-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304958831-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized delicate-looking and rather colorful heron. Adults are a mix of blue-gray, purple, and white. The white belly and stripe down the neck are distinctive.",
+            "Medium-sized slim heron with a long neck and bill. Breeding birds have small white plumes extending from the back of their head."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304957501-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304957501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304957501-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Long-necked heron with a sharp bill. Juveniles have a reddish neck with spots of reddish feathers on their wings and upper back."
+        ]
+    },
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/477987-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/477987-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/477987-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70689651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70689651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70689651-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70689671-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70689671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70689671-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Builds messy stick nests in small trees and shrubs near fresh or saltwater.",
+            "Mostly dark except for its distinctive white belly and white wing linings. Flies with its neck tucked in and legs trailing behind.",
+            "Forages for small fish by running, stalking, or crouching with its neck tucked in before stabbing prey with its bill."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70689691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70689691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70689691-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in estuaries, salt marshes, lagoons, swamps, freshwater marshes, and lake edges."
+        ]
+    }
+}

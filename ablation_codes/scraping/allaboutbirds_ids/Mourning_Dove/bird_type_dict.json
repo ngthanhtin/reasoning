@@ -1,0 +1,80 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60386921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60386901-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386901-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386901-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/479700-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/479700-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/479700-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60386911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386911-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447485-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/447485-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/447485-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60386941-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386941-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60386951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386951-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60386951-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402858-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402858-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402858-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Gray above with large black spots on the wing coverts and pale peach-colored below, with a long, thin tail. Note the thin, black bill and pinkish legs.",
+            "In flight shows a long, fan-shaped tail with large white tips. Its wings make a distinctive high-pitched whistle in flight.",
+            "Characteristic \"mourning\" call is made by puffing up the throat but without opening the bill.",
+            "Shows a black mark on the side of the neck that can be hidden, depending on the angle.",
+            "Note small, round head, straight, thin bill, and long, pointed tail with white edge. Often found in backyards and neighborhoods.",
+            "Constructs small, flimsy nests in a variety of trees and bushes.",
+            "Often occurs in flocks, sometimes quite large, and perches prominently in a variety of habitats.",
+            "Nest is a flimsy pile of twigs or needles arranged on a flat surface such as a tree branch, gutter, railing\u2014or cactus."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60386931-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60386931-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386931-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles look similar to adults, but with small white tips to most of the upperparts feathers, and white markings in the face."
+        ]
+    },
+    "Adults": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403436-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403436-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403436-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Typically feeds on the ground, in the open, and usually in small groups. Often comes to platform feeders and to seed scattered on the ground."
+        ]
+    }
+}

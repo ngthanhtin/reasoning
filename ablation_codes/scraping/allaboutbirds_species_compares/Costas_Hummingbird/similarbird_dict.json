@@ -1,0 +1,74 @@
+{
+    "Anna's Hummingbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66120941-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66120941-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66120941-720px.jpg"
+            ],
+            "description": "Anna's Hummingbirds, are larger with a less hunched posture than Costa's. When perched, the tail of Anna's extends farther past the wings than it does on Costa's Hummingbirds. The gorget and crown on male Anna's shines red rather than purple."
+        },
+        "Female/immature male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66120971-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66120971-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66120971-1280px.jpg"
+            ],
+            "description": "Female/immature Anna's Hummingbirds often have red feathers in the center of their throats that female/juvenile Costa's lack."
+        }
+    },
+    "Black-chinned Hummingbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66120141-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66120141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66120141-720px.jpg"
+            ],
+            "description": "Black-chinned Hummingbirds are slightly larger than Costa's with a more elongated posture and a longer bill. Males have a very dark purple throat that often looks black and they don't have the overgrown mustache look of Costa's Hummingbirds."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66120111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66120111-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66120111-1280px.jpg"
+            ],
+            "description": "Female/immature Black-chinned Hummingbirds have a longer bill than Costa's and a little bit of peachy color on their flanks that female/immature Costa's lack."
+        }
+    },
+    "Calliope Hummingbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65766661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65766661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766661-1280px.jpg"
+            ],
+            "description": "Calliope Hummingbirds are smaller than Costa's with a streaky pink throat unlike adult male Costa's which have a solid purple throat."
+        },
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65766641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766641-1280px.jpg"
+            ],
+            "description": "Female/immature Calliope Hummingbirds have peached wash flanks unlike female/immature Costa's Hummingbirds which have grayish flanks."
+        }
+    },
+    "Broad-tailed Hummingbird": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65766321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766321-1280px.jpg"
+            ],
+            "description": "Adult male Broad-tailed Hummingbirds have a rosy throat while adult male Costa's have a flared purple throat patch."
+        },
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65766281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766281-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65766281-720px.jpg"
+            ],
+            "description": "Female/immature Broad-tailed Hummingbirds have peachy flanks and a green stippled throat while female/immature Costa's have grayish flanks and a mostly clean throat."
+        }
+    }
+}

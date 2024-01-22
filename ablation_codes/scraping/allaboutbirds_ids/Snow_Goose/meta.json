@@ -1,0 +1,50 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59939451-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59939451-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59939451-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized goose with a hefty bill and long, thick neck. Juveniles are slightly smaller than adults in the fall, and this can be noticeable in flocks during fall and early winter."
+            ],
+            "Compared Size": [],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 27.2-32.7 in (69-83 cm)",
+                "Weight: 56.4-116.4 oz (1600-3300 g)",
+                "Wingspan: 54.3 in (138 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59939401-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59939401-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59939401-480px.jpg"
+        ],
+        "description": [
+            "The Snow Goose is a white-bodied goose with black wingtips that are barely visible on the ground but noticeable in flight. The pink bill has a dark line along it, often called a \"grinning patch\" or \"black lips.\" You may also see dark morph Snow Geese, or \"Blue Geese,\" with a white face, dark brown body, and white under the tail."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238667410",
+        "description": [
+            "Snow Geese don\u2019t like to travel without the company of another couple dozen geese and can form flocks of several hundred thousand. Family groups forage together on wintering grounds, digging up roots and tubers from muddy fields and marshes. In flight, they are steady on the wing with even wingbeats."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/59939421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59939421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59939421-720px.jpg"
+        ],
+        "description": [
+            "Snow Geese adapted quickly to use agricultural fields, which is one reason their populations are doing so well. During winter and migration, look for them in plowed cornfields or wetlands. Also check lakes, ponds, and marshes where they roost and bathe along shorelines and in open water. Snow Geese breed on Arctic tundra."
+        ]
+    }
+}

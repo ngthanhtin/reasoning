@@ -1,0 +1,28 @@
+{
+    "Double-crested Cormorant": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66027261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027261-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027261-1280px.jpg"
+            ],
+            "description": "Double-crested Cormorants are smaller than Great Cormorants. Nonbreeding birds have an orange chin and dark throat whereas nonbreeding Great Cormorants have a yellow chin and white throat."
+        },
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66027231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027231-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66027231-720px.jpg"
+            ],
+            "description": "Double-crested Cormorants are smaller than Great Cormorants. They have a darker face, a thinner bill, and a thinner neck than Great Cormorants, which have a whiter face and a thicker bill and neck."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66027241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027241-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66027241-720px.jpg"
+            ],
+            "description": "Juvenile Double-crested Cormorants have paler throat and a dingier belly than juvenile Great Cormorants, which have a darker neck and paler belly."
+        }
+    }
+}

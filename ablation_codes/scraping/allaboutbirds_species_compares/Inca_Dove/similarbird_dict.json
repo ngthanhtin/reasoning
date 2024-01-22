@@ -1,0 +1,22 @@
+{
+    "Mourning Dove": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60386921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60386921-1280px.jpg"
+            ],
+            "description": "Mourning Doves are larger than Inca Doves and have a long tapered tail scalloped in white. Mourning Doves lack the scaled appearance of Inca Doves."
+        }
+    },
+    "Common Ground Dove": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66036531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66036531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66036531-1280px.jpg"
+            ],
+            "description": "Common Ground-Doves lack the Inca Dove's scaled back; they also have shorter tails with much less white in them than Inca Doves. Common Ground-Doves also have dark brown spots on their wings."
+        }
+    }
+}

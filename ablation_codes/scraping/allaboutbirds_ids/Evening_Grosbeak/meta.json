@@ -1,0 +1,58 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67271821-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67271821-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67271821-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Evening Grosbeaks are large, heavyset finches with very thick, powerful, conical bills. They have a thick neck, full chest, and relatively short tail."
+            ],
+            "Compared Size": [
+                "About the size of a Northern Cardinal, but more compact and thicker bodied; smaller than a Steller\u2019s Jay or Blue Jay."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 6.3-7.1 in (16-18 cm)",
+                "Weight: 1.9-2.6 oz (53-74 g)",
+                "Wingspan: 11.8-14.2 in (30-36 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67271811-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67271811-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67271811-480px.jpg"
+        ],
+        "description": [
+            "Adult male Evening Grosbeaks are yellow and black birds with a prominent white patch in the wings. They have dark heads with a bright-yellow stripe over the eye. Females and immatures are mostly gray, with white-and-black wings and a greenish-yellow tinge to the neck and flanks. The bill is pale ivory on adult males and greenish-yellow on females."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639268",
+        "description": [
+            "These are social birds that are often found in flocks, particularly in winter. They forage in treetops for insect larvae during the summer, buds in spring, and seeds, berries, and small fruits in winter.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67271881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67271881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67271881-720px.jpg"
+        ],
+        "description": [
+            "They make very erratic movements south into the continental United States in some winters, when they can become common at backyard feeders. Away from backyards, they winter in forests and feed in both deciduous and coniferous trees, often at higher elevations. They breed in spruce-fir, pine-oak, pinyon-juniper, and aspen forests of northern North America and the mountains of the West."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "There is little geographic variation in plumage, but Evening Grosbeaks do consist of at least three distinct populations, each with distinct call notes."
+        ]
+    }
+}

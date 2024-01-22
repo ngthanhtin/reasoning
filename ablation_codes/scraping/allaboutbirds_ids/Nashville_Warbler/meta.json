@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64452101-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64452101-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64452101-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small songbird, compact with a round head, plump body and shortish tail. The bill is fine, straight, and pointed."
+            ],
+            "Compared Size": [
+                "Smaller than a White-breasted Nuthatch, larger than a Blue-gray Gnatcatcher."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3-5.1 in (11-13 cm)",
+                "Weight: 0.2-0.5 oz (6.7-13.9 g)",
+                "Wingspan: 6.7-7.9 in (17-20 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64452111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64452111-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64452111-480px.jpg"
+        ],
+        "description": [
+            "A mostly yellow warbler with a green back, gray head, and white eyering. The lower belly is white, sandwiched in between yellow breast and yellow undertail coverts; this is a distinctive pattern helpful for identifying the species from below. Females and young birds are similar but the colors are more washed out and pale.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238642807",
+        "description": [
+            "Forages for insects at middle levels in outer edges of trees, among twigs and foliage. Often joins other species in mixed foraging flocks. The western populations often flick or wag their tails; this is less common in eastern birds.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64452151-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64452151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64452151-480px.jpg"
+        ],
+        "description": [
+            "Nashville Warbler most commonly use shrubby tangles and regrowing clearings within broken forests. In the East, this often means mixed forest and spruce-cedar bogs. In the West, look for them in brushy oak and fir forests.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Nashville Warbler has two populations: a form that occurs in the mountains of the West Coast and is often called \u201cCalaveras Warbler\u201d; and a more widespread form that breeds across northeastern and north-central North America. The \"Calaveras\" form is brighter across the underparts and on the back than the eastern form, with a longer tail that it often bobs while foraging.",
+            ""
+        ]
+    }
+}

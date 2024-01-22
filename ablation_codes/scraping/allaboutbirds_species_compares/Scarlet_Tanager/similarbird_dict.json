@@ -1,0 +1,48 @@
+{
+    "Summer Tanager": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67450051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67450051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67450051-720px.jpg"
+            ],
+            "description": "Adult male Summer Tanagers are entirely red, without the black wings and tail of adult male Scarlet Tanagers."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67450011-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67450011-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67450011-720px.jpg"
+            ],
+            "description": "Female Summer Tanagers are yellow overall and do not have darker wings like female/nonbreeding male Scarlet Tanagers."
+        }
+    },
+    "Western Tanager": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67449081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449081-1280px.jpg"
+            ],
+            "description": "Adult male Western Tanagers have yellow underparts while Scarlet Tanagers have red underparts. Ranges rarely overlap: Western Tanagers breed in western North America and Scarlet Tanagers breed in eastern North America."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67449101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449101-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67449101-720px.jpg"
+            ],
+            "description": "Female Western Tanagers have 2 wingbars whereas female/nonbreeding male Scarlet Tanagers have unmarked dark wings. Ranges rarely overlap: Western Tanagers breed in western North America and Scarlet Tanagers breed in eastern North America."
+        }
+    },
+    "Northern Cardinal": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63667361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63667361-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63667361-720px.jpg"
+            ],
+            "description": "Northern Cardinals do not have the black wings or the black tail seen on breeding male Scarlet Tanagers."
+        }
+    }
+}

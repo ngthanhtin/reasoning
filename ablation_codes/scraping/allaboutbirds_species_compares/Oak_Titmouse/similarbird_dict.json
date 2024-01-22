@@ -1,0 +1,52 @@
+{
+    "Juniper Titmouse": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68044111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68044111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68044111-720px.jpg"
+            ],
+            "description": "Juniper and Oak Titmice look extremely similar, but generally do not overlap except in extreme northern California. Juniper Titmice average slightly grayer, and their calls are different."
+        }
+    },
+    "Gray Vireo": {
+        "Adult/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40261731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40261731-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40261731-720px.jpg"
+            ],
+            "description": "Gray Vireos have a heavier bill than Oak Titmice and they lack the Oak Titmouse's crest. They also have pale spectacles, a feature that Oak Titmice don't have."
+        }
+    },
+    "Plumbeous Vireo": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65763191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65763191-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65763191-720px.jpg"
+            ],
+            "description": "Plumbeous Vireos have heavier bills and show more contrast than Oak Titmice, with pale spectacles and white wingbars, 2 features that Oak Titmice don't have."
+        }
+    },
+    "Bushtit": {
+        "Male (Pacific)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68041771-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68041771-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68041771-720px.jpg"
+            ],
+            "description": "Bushtits are smaller and thinner, with even shorter, stubbier bills and more frenetic actions than Oak Titmice. They also lack the Oak Titmouse's crest."
+        }
+    },
+    "Tufted Titmouse": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63745741-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63745741-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63745741-1280px.jpg"
+            ],
+            "description": "The range of Tufted Titmice does not overlap with Oak Titmouse. Tufted Titmouse are darker gray with a cinnamon wash on the sides that Oak Titmice lack."
+        }
+    }
+}

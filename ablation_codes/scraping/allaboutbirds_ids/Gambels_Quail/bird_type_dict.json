@@ -1,0 +1,74 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296730461-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296730461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296730461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/401210-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/401210-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/401210-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/296730771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296730771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/296730771-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Plump game bird with comma-shaped, forward-facing crest. Useful markings include creamy buff belly with black central patch, chestnut sides, and bright cinnamon-brown crown.",
+            "Walks along the ground, jutting its head forward, and picking at seeds and plant material on the ground. This video has no audio.",
+            "Combination of cinnamon crown, buffy belly with black central patch, and chestnut sides make this species distinctive."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65613811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613811-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65613811-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/296730871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296730871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/296730871-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Plump, short-legged game bird with short, forward-facing crest. Buffy belly and chestnut sides. Females are fairly plain gray on the head and neck, and lack the male's black belly patch.",
+            "Plump game bird with gray-brown head and neck, chestnut sides, and buffy belly. Usually forages on the ground, but sometimes moves into low shrubs or cacti."
+        ]
+    },
+    "Male and female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65613801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613801-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65613801-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65613851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65613851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613851-720px.jpg"
+            ]
+        ],
+        "description": [
+            "A classic bird of the deserts of southwestern U.S. and northwestern Mexico. Usually forages on the ground, but sometimes moves into low shrubs or cacti.",
+            "Gambel's Quails walk or run along the ground in groups called coveys that can include a dozen or more birds."
+        ]
+    },
+    "Male and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65613771-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65613771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65613771-720px.jpg"
+            ]
+        ],
+        "description": [
+            "In summer, flocks or coveys usually consist of a male and female plus up to 16 offspring. Juveniles have buffy-brown heads and mottled brown and black bodies."
+        ]
+    }
+}

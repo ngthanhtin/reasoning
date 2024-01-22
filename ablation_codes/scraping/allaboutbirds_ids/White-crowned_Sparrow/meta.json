@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64978031-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64978031-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64978031-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The White-crowned Sparrow is a large sparrow with a small bill and a long tail. The head can look distinctly peaked or smooth and flat, depending on the bird\u2019s attitude."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Song Sparrow"
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9-6.3 in (15-16 cm)",
+                "Weight: 0.9-1.0 oz (25-28 g)",
+                "Wingspan: 8.3-9.4 in (21-24 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64978011-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64978011-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64978011-720px.jpg"
+        ],
+        "description": [
+            "First impressions of White-crowned Sparrows tend to be of a plain, pale-gray bird; next your eye is drawn to the very bold black-and-white stripes on the head and the pale pink or yellow bill. Learn this bird's size and shape so you're ready to identify young birds that have brown, not black, markings on the head."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639050",
+        "description": [
+            "You\u2019ll see White-crowned Sparrows low at the edges of brushy habitat, hopping on the ground or on branches usually below waist level. They\u2019re also found in open ground (particularly on their breeding grounds) but typically with the safety of shrubs or trees nearby."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64978041-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64978041-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64978041-480px.jpg"
+        ],
+        "description": [
+            "Look for White-crowned Sparrows in places where safe tangles of brush mix with open or grassy ground for foraging. For much of the United States, White-crowned Sparrows are most likely in winter (although two races live year round in the West, along the coast and in the mountains)."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "White-crowned Sparrows that breed along the Pacific Coast tend to have yellow bills and duller white head stripes. Birds that breed from Alaska to Hudson Bay tend to have orange bills and white or gray lores. Birds that breed east of Hudson Bay and in the Rockies tend to have pink bills with black lores that merge with the black head stripes."
+        ]
+    }
+}

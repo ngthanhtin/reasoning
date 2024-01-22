@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71534291-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71534291-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71534291-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Broad-winged Hawks are small, compact raptors with chunky bodies and large heads. In flight, their broad wings come to a distinct point. The tail is short and square."
+            ],
+            "Compared Size": [
+                "Slightly smaller than a Red-shouldered Hawk."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 13.4-17.3 in (34-44 cm)",
+                "Weight: 9.3-19.8 oz (265-560 g)",
+                "Wingspan: 31.9-39.4 in (81-100 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71534361-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71534361-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71534361-480px.jpg"
+        ],
+        "description": [
+            "Adult Broad-winged Hawks have reddish-brown heads, barred underparts, and broad black and white bands on the tail. The pale undersides of the wings are bordered in dark brown. Juveniles are lighter brown with coarse streaking on the underparts, particularly on the sides of the breast; the tail is narrowly banded. In the West, rare dark-morph adults are completely dark sooty brown with a banded tail."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238668382",
+        "description": [
+            "Broad-winged Hawks hunt small animals from perches underneath the forest canopy. They sometimes soar above the canopy or across gaps such as roadcuts. Their call is a piercing whistle on a single pitch."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71534301-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71534301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71534301-720px.jpg"
+        ],
+        "description": [
+            "Broad-winged Hawks live in forests and spend much of their time underneath the canopy. On migration they soar along coastlines and mountain ridges, often in very large flocks."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The rare dark morph of the Broad-winged Hawk is much more likely to be seen breeding in the western portion of its range and migrating through the eastern Great Plains and Texas. It is entirely sooty brown except for white bands in the tail."
+        ]
+    }
+}

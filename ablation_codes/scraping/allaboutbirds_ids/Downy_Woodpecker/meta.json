@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60397881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60397881-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60397881-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Downy Woodpeckers are small versions of the classic woodpecker body plan. They have a straight, chisel-like bill, blocky head, wide shoulders, and straight-backed posture as they lean away from tree limbs and onto their tail feathers. The bill tends to look smaller for the bird\u2019s size than in other woodpeckers."
+            ],
+            "Compared Size": [
+                "About two-thirds the size of a Hairy Woodpecker"
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.5-6.7 in (14-17 cm)",
+                "Weight: 0.7-1.0 oz (21-28 g)",
+                "Wingspan: 9.8-11.8 in (25-30 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60397941-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60397941-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60397941-480px.jpg"
+        ],
+        "description": [
+            "Downy Woodpeckers give a checkered black-and-white impression. The black upperparts are checked with white on the wings, the head is boldly striped, and the back has a broad white stripe down the center. Males have a small red patch on the back of the head. The outer tail feathers are typically white with a few black spots."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669270",
+        "description": [
+            "Downy Woodpeckers hitch around tree limbs and trunks or drop into tall weeds to feed on galls, moving more acrobatically than larger woodpeckers. Their rising-and-falling flight style is distinctive of many woodpeckers. In spring and summer, Downy Woodpeckers make lots of noise, both with their shrill whinnying call and by drumming on trees."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/60397961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60397961-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60397961-480px.jpg"
+        ],
+        "description": [
+            "You\u2019ll find Downy Woodpeckers in open woodlands, particularly among deciduous trees, and brushy or weedy edges. They\u2019re also at home in orchards, city parks, backyards and vacant lots."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Downy Woodpeckers in the West are darker overall, and they tend to have less white in the wings than birds from eastern North America. Pacific Northwest have a dusky wash overall."
+        ]
+    }
+}

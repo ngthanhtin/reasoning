@@ -1,0 +1,104 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308491271-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308491271-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308491271-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40625471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40625471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40625471-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308491921-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308491921-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308491921-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender seabird with thin, pointed wings. Neat black cap with creamy wash on throat and nape. Underside of wings show little to no white flash. Breeding adults have very long tail streamers.",
+            "The smallest and most ternlike of all jaegers: note the long, slender wings with white in the outer primaries. Only breeding adults have the very long tail streamers.",
+            ""
+        ]
+    },
+    "Juvenile dark morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/32801651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801651-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32801651-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308491871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308491871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308491871-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Juvenile jaegers are variable and can be very difficult to identify. Long-tailed Jaegers tend to have slender wings and relatively short, thick bills.",
+            ""
+        ]
+    },
+    "Common": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/456227-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/456227-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/456227-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "First summer light morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40625441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40625441-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40625441-480px.jpg"
+            ]
+        ],
+        "description": [
+            "First summer light-morphs tend to be more grayish and less brownish than other first summer jaegers. Note long, slender, pointed wings and relatively small body."
+        ]
+    },
+    "Subadult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308492881-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308492881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308492881-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Slender but powerful seabird with long, pointed wings, neat black cap, and relatively short, thick bill. Compared with other jaegers, the white flash in the wings is smaller and confined to 2-3 outermost primary feathers. Outside the breeding season, few adults show the long tail streamers."
+        ]
+    },
+    "Juvenile light morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308492251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308492251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308492251-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juvenile jaegers are very difficult to identify. Shape and proportions are the best features, including long, slender wings, slim body, and short, thick bill."
+        ]
+    },
+    "Immature intermediate morph": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/32801691-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32801691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801691-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Note long, slender wings and white outer primaries, unlike the broader white primary flashes of other jaeger species."
+        ]
+    }
+}

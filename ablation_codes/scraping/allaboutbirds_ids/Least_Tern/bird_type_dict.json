@@ -1,0 +1,104 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/320025631-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/320025631-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/320025631-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/37812051-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/37812051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/37812051-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478676-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478676-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478676-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308378811-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308378811-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308378811-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308382571-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308382571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308382571-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Smallest North American tern, with a yellow bill and white forehead. In flight, note pointed wings and black outer edge on the primaries.",
+            "Smallest tern in North America. Thin yellow bill and yellow legs during the breeding season help separate it from similar species.",
+            "Very small, neatly marked tern with white forehead and yellow bill (often with black tip).",
+            "Small with narrow, pointed wings. Breeding birds have a black crown and a white forehead. In flight, note black edge on outer flight feathers.",
+            ""
+        ]
+    },
+    "Nonbreeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308381501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308381501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308381501-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308381491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308381491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308381491-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308381691-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308381691-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308381691-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308381731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308381731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308381731-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature birds have a small smudgy black patch behind the eye and a dark bill unlike adults, but they still have yellow legs.",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308378871-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308378871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308378871-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Very small tern. Juveniles have a barred or scaly looking back and yellow legs. The crown patch on this bird is small and smudgy brown; others can have a darker black partial crown."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/308381451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308381451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308381451-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308382311-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308382311-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308382311-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Found along seacoasts, beaches, bays, estuaries, lagoons, lakes, and rivers. Breeds on sandy or gravelly beaches and banks of rivers or lakes."
+        ]
+    }
+}

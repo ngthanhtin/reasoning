@@ -1,0 +1,50 @@
+{
+    "Common": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302102281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302102281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302102281-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65683161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683161-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683161-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466342-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/466342-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/466342-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302101871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302101871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302101871-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302101961-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302101961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302101961-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/309029531-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/309029531-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/309029531-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65683171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683171-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65683171-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large, hefty flycatcher with a thick bill. The head and chest are dark gray with a white mustache.",
+            "Note dark tail with pale tips as opposed to pale outer tail feathers on similar species. White mustache not always visible, especially on birds with worn plumage.",
+            "Perches on branches, wires, or posts to watch for flying insects. Sallies out from its perch to grab an insect in flight.",
+            "Large, hefty flycatcher with a thick bill. The head and chest are dark gray with a white mustache. Note pale edging on the tip of the tail.",
+            "Often perches on exposed branches or wires where it waits for insects. Note dark gray head and white mustache.",
+            "",
+            "Found in open country with scattered trees or open woodlands."
+        ]
+    }
+}

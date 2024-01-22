@@ -1,0 +1,48 @@
+{
+    "House Finch": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63736771-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63736771-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63736771-720px.jpg"
+            ],
+            "description": "Adult male House Finches don't have the brighter red peaked crown like adult male Cassin's Finches. They also lack the Cassin's Finch's red-washed back."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63736721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63736721-1280px.jpg"
+            ],
+            "description": "Female/immature House Finches have blurrier streaks on their underparts than the crisp streaks of female/immature Cassin's Finches."
+        }
+    },
+    "Purple Finch": {
+        "Adult male (Eastern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67284371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67284371-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67284371-1280px.jpg"
+            ],
+            "description": "Adult male Purple Finches have more red on their backs and heads than adult male Cassin's Finches. Purple's crown is rounded and evenly colored, unlike the peaked bright red crown on Cassin's Finches."
+        },
+        "Female/immature (Eastern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67284191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67284191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67284191-1280px.jpg"
+            ],
+            "description": "Female/immature Purple Finches have white undertail coverts, whereas female and young Cassin's Finches have streaked undertail coverts. Purple Finches also have a more distinct brown \"ear\" patch outlined by the bold white eyebrow and cheek stripes."
+        }
+    },
+    "Pine Siskin": {
+        "Adult (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67276581-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67276581-720px.jpg"
+            ],
+            "description": "Pine Siskins are smaller and more active than Cassin\u2019s Finches. They also have a thinner, more pointed bill than Cassin's Finches and a yellow stripe in their wings."
+        }
+    }
+}

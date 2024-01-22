@@ -1,0 +1,104 @@
+{
+    "Adult (Atlantic)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299384491-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299384491-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299384761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384761-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299384761-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299384731-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299384731-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384731-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/39346971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39346971-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39346971-720px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "",
+            "",
+            "Medium-sized, hefty sparrow with a long bill. Atlantic populations have a bright yellow stripe in front of the eye and are grayer below with faint streaking. Note rusty wing patch."
+        ]
+    },
+    "Adult (Gulf of Mexico)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478461-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/478461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/478461-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/40695411-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40695411-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40695411-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299384721-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384721-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384721-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in tidal marshes with dense areas of marsh grass. Sings a soft buzzing song that sounds like a distant Red-winged Blackbird.",
+            "Gulf of Mexico populations have a yellow stripe in front of the eye and a buffy chest with obvious streaking. Note long bill.",
+            ""
+        ]
+    },
+    "Adult (Cape Sable)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/308772991-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/308772991-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/308772991-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile (Atlantic)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299385801-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299385801-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299385801-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles are buffier than adults, with a pale eyebrow. Juveniles also lack the rufous patch in the wing."
+        ]
+    },
+    "Juvenile (Gulf of Mexico)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/299384171-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299384171-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/299384171-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have only a hint of the yellow stripe in front of the eye. Note long bill."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/39346951-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39346951-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39346951-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeds in tidal marshes."
+        ]
+    }
+}

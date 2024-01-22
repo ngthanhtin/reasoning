@@ -1,0 +1,78 @@
+{
+    "Tennessee Warbler": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64440361-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64440361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440361-720px.jpg"
+            ],
+            "description": "Tennessee Warblers have whiter undertail coverts and a stronger eyeline than Orange-crowned Warblers."
+        },
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64440411-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64440411-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64440411-720px.jpg"
+            ],
+            "description": "Tennessee Warblers have whiter undertail coverts and do not have blurry streaks on the belly that Orange-crowned Warblers have."
+        }
+    },
+    "Philadelphia Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32804881-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32804881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32804881-720px.jpg"
+            ],
+            "description": "Philadelphia Vireos are larger than Orange-crowned Warblers with a thicker hooked bill and a pale eyebrow."
+        }
+    },
+    "Common Yellowthroat": {
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66117641-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66117641-720px.jpg"
+            ],
+            "description": "Female Common Yellowthroats are browner above than Orange-crowned Warblers. The yellow is concentrated on the throat and undertail coverts while most Orange-crowned Warblers are entirely yellow below. Note larger bill."
+        }
+    },
+    "Yellow Warbler": {
+        "Immature (Northern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802891-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64802891-720px.jpg"
+            ],
+            "description": "Immature Yellow Warblers have a cleaner face and belly than Orange-crowned Warblers and tend to be less olive colored overall. Note thicker bill."
+        },
+        "Adult female (Northern)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64802851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802851-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64802851-1280px.jpg"
+            ],
+            "description": "Yellow Warblers are brighter yellow than Orange-crowned Warblers with a thicker bill."
+        }
+    },
+    "Nashville Warbler": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64452081-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64452081-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64452081-720px.jpg"
+            ],
+            "description": "Nashville Warblers have a distinct gray head and a complete white eyering, 2 features that Orange-crowned Warblers do not have."
+        }
+    },
+    "Hutton's Vireo": {
+        "Adult ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65760531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760531-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65760531-1280px.jpg"
+            ],
+            "description": "Hutton's Vireos have prominent white wingbars and an eyering that Orange-crowned Warblers lack."
+        }
+    }
+}

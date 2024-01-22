@@ -1,0 +1,38 @@
+{
+    "King Eider": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40620881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620881-1280px.jpg"
+            ],
+            "description": "Male King Eiders have a blockier head than Common Eiders with blue and orange patches on the head. They also have a black (not white) back."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40620871-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40620871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620871-720px.jpg"
+            ],
+            "description": "Female King Eiders have a rounder head than the long sloping forehead of Common Eiders with an upturned line at the bill, giving King Eiders a grinning expression not seen on Common Eiders."
+        }
+    },
+    "Spectacled Eider": {
+        "Male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40620771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620771-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620771-720px.jpg"
+            ],
+            "description": "Male Spectacled Eiders have a white eye patch that Common Eiders lack. They also have a gray (not white) breast."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40620761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620761-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620761-720px.jpg"
+            ],
+            "description": "Female Spectacled Eiders have a pale eye patch not seen on female Common Eiders."
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "Neotropic Cormorant": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66026891-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66026891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026891-1280px.jpg"
+            ],
+            "description": "Neotropic Cormorants are smaller with a longer tail. The area in front of the eye is covered by feathers instead of bare facial skin as it is on Double-crested Cormorants."
+        }
+    },
+    "Brandt's Cormorant": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66025501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66025501-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66025501-1280px.jpg"
+            ],
+            "description": "Brandt\u2019s Cormorants are slightly larger with a shorter tail. Adults have bright bluish facial skin that Double-crested Cormorants do not have."
+        }
+    },
+    "Pelagic Cormorant": {
+        "Breeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/66026051-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026051-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026051-720px.jpg"
+            ],
+            "description": "Pelagic Cormorants are smaller, with very thin necks, a tiny head, and a slender bill. Breeding adults show large white hip patches in flight that Double-crested Cormorants do not have."
+        }
+    },
+    "Great Cormorant": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66026521-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66026521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66026521-720px.jpg"
+            ],
+            "description": "Great Cormorants are larger and thicker overall with bigger heads than Double-crested Cormorants. Breeding adults have prominent white flank patches and a white patch around the bill that Double-crested Cormorants lack."
+        }
+    },
+    "Anhinga": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66028931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66028931-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66028931-720px.jpg"
+            ],
+            "description": "Anhingas are more slender with a longer, straighter bill and longer tail than Double-crested Cormorants."
+        }
+    },
+    "Canada Goose": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/59953101-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/59953101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/59953101-720px.jpg"
+            ],
+            "description": "In flight at a distance, Canada Geese can look similar to Double-crested Cormorants, but goose flocks don\u2019t change shape as much, and geese don't pause flapping as cormorants do."
+        }
+    }
+}

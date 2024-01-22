@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59954801-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954801-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59954801-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Trumpeter Swans are immense waterfowl with heavy bodies and long necks typically held straight both on the water and in flight. The large bill slopes gradually down from the forehead."
+            ],
+            "Compared Size": [
+                "The largest waterfowl species in North America; slightly larger than a Mute Swan and considerably larger than a Tundra Swan."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 54.3-62.2 in (138-158 cm)",
+                "Weight: 271.6-448.0 oz (7700-12700 g)",
+                "Wingspan: 79.9 in (203 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59954771-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59954771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954771-720px.jpg"
+        ],
+        "description": [
+            "Adult Trumpeter Swans are entirely white with a black bill and black legs. Immatures are gray-brown."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238638999",
+        "description": [
+            "Trumpeter Swans forage in fairly shallow water, reaching under the surface to eat aquatic vegetation and at times tipping up in the manner of a dabbling duck. They also visit agricultural fields to eat spilled or leftover grains and crops."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/59954791-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/59954791-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/59954791-720px.jpg"
+        ],
+        "description": [
+            "Trumpeter Swans breed in open habitats near shallow water bodies. They winter on estuaries, large lakes, and rivers that remain at least partially ice-free year-round. They sometimes forage in fields."
+        ]
+    }
+}

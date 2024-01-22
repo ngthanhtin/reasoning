@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299670841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299670841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299670841-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64989231-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989231-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989231-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402356-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402356-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402356-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299670831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299670831-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299670831-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64989241-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989241-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464798-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464798-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464798-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64989251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64989251-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64989251-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/435722-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435722-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/435722-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Large, ground-dwelling sparrow with a thick bill and long tail. Brown overall with warm reddish brown undertail. Pale bill contrasts with dark face.",
+            "Found in dry habitats with dense woody vegetation, often along streams or dry streambeds.",
+            "Large, long-tailed sparrow with a restricted range in brushy woodlands of the southwestern U.S. and extreme northwest Mexico.",
+            "Large sparrow with a thick bill and long tail. Brown overall with contrasting pale bill and dark face.",
+            "Large, long-tailed sparrow typically found on or near the ground. The black patch around the bill is distinctive.",
+            "Occurs in cottonwood, willow, and mesquite brush mainly along tributaries of the Colorado River; also found in salt cedar and marshes.",
+            "Often uses a \"double-scratch\" technique to forage, hopping backwards and scratching with both feet to uncover prey underneath litter."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/299670791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299670791-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/299670791-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

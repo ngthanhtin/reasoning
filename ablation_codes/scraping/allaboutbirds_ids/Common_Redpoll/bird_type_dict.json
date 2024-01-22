@@ -1,0 +1,116 @@
+{
+    "Adult male (flammea)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/311370301-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/311370301-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/311370301-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67278121-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278121-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67278121-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/171454191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/171454191-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/171454191-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Small-billed finch with heavily streaked sides. Adult males have a red crown and a pink-washed chest.",
+            "Small finch with a small, pointed, seed-eating bill. Adult males have a red crown and a pink-washed chest. Back and sides are heavily streaked."
+        ]
+    },
+    "Female and immature (flammea)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/68754031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68754031-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68754031-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306347521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306347521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306347521-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306347451-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306347451-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306347451-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306347471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306347471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306347471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small finch with a short, conical yellow bill. Females/immatures are brown and streaky with a tiny red patch on the crown. Note streaking on undertail coverts on males and females.",
+            "",
+            "",
+            ""
+        ]
+    },
+    "Female and immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465793-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465793-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/465793-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Uses its small bill to eat small seeds from trees such as willow, birch, alder, and spruce, as well as from grasses and wildflowers."
+        ]
+    },
+    "Juvenile (flammea)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67278091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278091-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278091-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small finch with a notched tail. Juveniles are dark brown and heavily streaked overall."
+        ]
+    },
+    "Female and immature (rostrata and islandica)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306347481-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306347481-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306347481-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Flock": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306348181-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306348181-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306348181-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/67278101-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67278101-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278101-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/67278461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67278461-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "In the winter found in open woodlands, scrubby fields, and backyard feeders.",
+            "Travels in flocks of up to several hundred individuals. Often found at backyard bird feeders in the winter in the northern U.S. and southern Canada."
+        ]
+    }
+}

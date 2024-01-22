@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71315991-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71315991-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71315991-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Ring-billed is a medium-sized gull with a fairly short, slim bill. When the gull perches, its long, slender wings extend well past its square-tipped tail. In flight, the birds move lightly on easy flaps of their fairly slender wings."
+            ],
+            "Compared Size": [
+                "Roughly pigeon-sized body (but with long wings), smaller than Herring Gull"
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 16.9-21.3 in (43-54 cm)",
+                "Weight: 10.6-24.7 oz (300-700 g)",
+                "Wingspan: 41.3-46.1 in (105-117 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/71316011-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/71316011-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71316011-720px.jpg"
+        ],
+        "description": [
+            "Adults are clean gray above, with a white head, body and tail; their black wingtips are spotted with white. They have yellow legs and a yellow bill with a black band around it. Nonbreeding adults have brown-streaked heads. During their first two years, Ring-billed Gulls are a motley brown and gray with a pink bill and legs."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238666009",
+        "description": [
+            "These sociable gulls often fly overhead by the hundreds or feed together at a golf course, beach, or field. Strong, nimble flyers and opportunistic feeders, Ring-billed Gulls circle and hover acrobatically looking for food; they also forage afloat and on foot."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/71316001-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71316001-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/71316001-480px.jpg"
+        ],
+        "description": [
+            "Ring-billed Gulls often congregate around humans, at garbage dumps, parking lots, and freshly plowed fields. While the species is common on coastal beaches, particularly during winter, many Ring-billed Gulls lead inland lives, never setting eyes on the sea."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "None"
+        ]
+    }
+}

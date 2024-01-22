@@ -1,0 +1,116 @@
+{
+    "Male (Eastern)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/309038471-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/309038471-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/309038471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Birds east of the rockies have spotting on their wings and wider facial stripes that birds in the interior West. Note long bill, nearly as long as its head and unmarked outer tail feathers."
+        ]
+    },
+    "Female (Rocky Mts.)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297707441-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297707441-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297707441-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized woodpecker with a white patch down its back. Females look like males without the red crown patch. Birds in the interior West have nearly solid black wings and narrower facial stripes than those East of the Rockies."
+        ]
+    },
+    "Adult male at nest": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440645-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/440645-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/440645-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Hollows out a nest in a live or dead tree. Both males and females feed young soft-bodied insects."
+        ]
+    },
+    "Female (Eastern)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/297707281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297707281-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297707281-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/309037601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/309037601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/309037601-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Plumage varies regionally. East of the Rockies they have extensive spotting on the wings while western birds have much less spotting in the wings and narrower facial stripes.",
+            ""
+        ]
+    },
+    "Male (Pacific)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/309037611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/309037611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/309037611-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile (Pacific)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929251-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929251-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Birds in the Pacific Northwest are brown and black (rather than white and black) and look coffee-stained."
+        ]
+    },
+    "Adult (Costa Rican)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297707711-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297707711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297707711-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Individuals from the highlands of eastern Costa Rica and western Panama have cinnamon underparts."
+        ]
+    },
+    "Male (Eastern) (with Downy Woodpecker)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/309037621-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/309037621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/309037621-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68929221-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929221-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929221-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in in woodlots, suburbs, parks, and cemeteries, as well as forest edges, open pine-oak woodlands, recently burned forests, and stands infested by bark beetles."
+        ]
+    }
+}

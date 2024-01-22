@@ -1,0 +1,68 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64988761-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64988761-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988761-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64988801-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64988801-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988801-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402433-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402433-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402433-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64988781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988781-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64988781-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64988771-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988771-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988771-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402382-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/402382-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/402382-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64988791-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64988791-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64988791-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403084-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/403084-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/403084-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Large sparrow with thick bill and long tail. Brownish overall with buffy eyering and warm rufous patch under the tail. Throat is lighter buffy brown; crown usually warm brown.",
+            "Large sparrow with long tail. Grayish brown with warm rufous patch under tail.",
+            "",
+            "Large sparrow usually seen on or near the ground. Often has a dark spot in the center of the breast. Warm reddish brown crown and undertail.",
+            "Large sparrow with long tail, often found on the ground in arid areas. Whitish belly with dark spot in center of breast.",
+            "",
+            "Found on or near the ground in desert habitats including arroyos, mesquite thickets, desert grasslands, pinyon-juniper-oak woodland, and pine-oak.",
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406011-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/406011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406011-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

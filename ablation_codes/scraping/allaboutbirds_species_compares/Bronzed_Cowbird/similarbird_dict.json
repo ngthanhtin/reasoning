@@ -1,0 +1,66 @@
+{
+    "Brown-headed Cowbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362321-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362321-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362321-720px.jpg"
+            ],
+            "description": "Adult male Brown-headed Cowbirds are smaller with a shorter bill and a smaller head than male Bronzed Cowbirds Male which have a heavy bill and thick neck. Also note eye color difference; dark on Brown-headed and red on Bronzed."
+        },
+        "Female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67362271-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67362271-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67362271-720px.jpg"
+            ],
+            "description": "Female Brown-headed Cowbirds are smaller with a shorter and less heavy bill compared to female Bronzed Cowbirds, which have a hefty bill. Also note eye color difference; dark on Brown-headed and red on Bronzed."
+        }
+    },
+    "Shiny Cowbird": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/53489281-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489281-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/53489281-720px.jpg"
+            ],
+            "description": "Male Shiny Cowbirds have a thinner bill and lacks red eyes and neck ruff of male Bronzed Cowbirds."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/53489301-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489301-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/53489301-720px.jpg"
+            ],
+            "description": "Female Shiny Cowbirds are paler overall than female Bronzed Cowbirds with a dark eye (female Bronzed Cowbirds have a red eye)."
+        }
+    },
+    "Brewer's Blackbird": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67373991-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67373991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67373991-720px.jpg"
+            ],
+            "description": "Brewer's Blackbirds have a thinner bill than Bronzed Cowbirds, which have a thick and hefty bill. Adult male Brewer's Blackbirds have yellow eyes while Bronzed Cowbirds have red eyes."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67374031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67374031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67374031-1280px.jpg"
+            ],
+            "description": "Brewer's Blackbirds have a thinner bill than Bronzed Cowbirds, which have a thick and hefty bill. Females are generally darker overall than female Bronzed Cowbirds."
+        }
+    },
+    "Common Grackle": {
+        "Adult male ": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67364561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67364561-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67364561-720px.jpg"
+            ],
+            "description": "Overall Common Grackles appear slimmer and more elongated compared to the compact Bronzed Cowbird. They also have a yellow eye whereas Bronzed Cowbirds have a red eye."
+        }
+    }
+}

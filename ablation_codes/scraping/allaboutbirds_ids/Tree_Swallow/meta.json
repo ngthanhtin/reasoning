@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68280021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68280021-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68280021-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Tree Swallows are streamlined small songbirds with long, pointed wings and a short, squared or slightly notched tail. Their bills are very short and flat."
+            ],
+            "Compared Size": [
+                "Smaller than a Purple Martin; slightly larger than a Bank Swallow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.7-5.9 in (12-15 cm)",
+                "Weight: 0.6-0.9 oz (16-25 g)",
+                "Wingspan: 11.8-13.8 in (30-35 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68280091-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68280091-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68280091-480px.jpg"
+        ],
+        "description": [
+            "Adult males are blue-green above and white below with blackish flight feathers and a thin black eye mask; females are duller with more brown in their upperparts, and juveniles are completely brown above. Juveniles and some females can show a weak, blurry gray-brown breast band."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238647862",
+        "description": [
+            "Tree Swallows feed on small, aerial insects that they catch in their mouths during acrobatic flight. After breeding, Tree Swallows gather in large flocks to molt and migrate. In the nonbreeding season, they form huge communal roosts."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68280081-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68280081-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68280081-480px.jpg"
+        ],
+        "description": [
+            "Tree Swallows breed in open habitats such as fields and wetlands, usually adjacent to water. They nest in artificial nest boxes as well as tree cavities. Foraging flocks are frequently seen over wetlands, water, and agricultural fields."
+        ]
+    }
+}

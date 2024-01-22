@@ -1,0 +1,62 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302314711-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302314711-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302314711-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302314881-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302314881-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302314881-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/446960-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/446960-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/446960-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302314961-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302314961-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302314961-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65761571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761571-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761571-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302315031-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302315031-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302315031-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302315061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302315061-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302315061-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Small, chunky songbird with thick bill. Blue-gray head contrasts with olive-green back and with bold white \"spectacles.\" Breast and belly are clean white with yellow flanks.",
+            "Like most vireos, head is large, neck is short, and bill is thick with a slight hook at the tip. Bold white \"spectacles\" on rich gray head; two whitish wingbars.",
+            "Both sexes help build the nest, which is suspended in a horizontal fork, fairly low in the outer slender branches of trees or shrubs.",
+            "Small songbird with large head and thick bill. Blue-gray head and bold white spectacles contrast with olive-green back. Two whitish wingbars.",
+            "Small, chunky songbird with thick bill. Blue-gray head with bold white \"spectacles.\" Some individuals are gray on the upper back, grading to olive-green on the lower back.",
+            "",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65761621-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65761621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761621-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Breeding habitat is mature forest, where they tend to forage high among small branches and leaves. In eastern North America uses deciduous or hardwood forests; in northwestern range more often found among conifers."
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Male": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64992871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992871-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992871-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/464824-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464824-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/464824-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64992881-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992881-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64992881-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465756-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465756-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/465756-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized woodpecker with a clownish face. Males have a red cap and whitish forehead. In flight, note white rump and wing patches.",
+            "",
+            "Gathers acorns by the hundreds and wedges them into holes they\u2019ve made in a tree trunk or telephone pole, storing them for later use.",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64992841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992841-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/64992891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992891-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992891-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/454589-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454589-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/454589-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Clown-faced woodpecker with a black back. Females have a black cap and the red is restricted to the back of the head unlike males.",
+            "Individuals from Costa Rica and Panama have brighter yellow throats. Some individuals also have red feathers on the chest.",
+            ""
+        ]
+    },
+    "Male (Colombian form)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64992851-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64992851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992851-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Males in Colombia have reduced red crowns while females lack red crowns all together. The throat is yellower than individuals farther north in the United States."
+        ]
+    },
+    "Female and juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465954-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/465954-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465954-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/64992861-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64992861-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64992861-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in oak and pine-oak woodlands. Creates granaries in dead trees, storing acorns and other seeds for later use."
+        ]
+    }
+}

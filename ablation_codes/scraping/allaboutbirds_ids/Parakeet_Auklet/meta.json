@@ -1,0 +1,53 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67631951-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67631951-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67631951-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A plump seabird with an unusual rounded bill, thick neck, broad chest, and very short tail."
+            ],
+            "Compared Size": [
+                "Larger than a Least Auklet, smaller than a Pigeon Guillemot."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67632141-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67632141-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67632141-480px.jpg"
+        ],
+        "description": [
+            "Breeding adults are blackish above, mostly white below, with orange bill, and wispy white plumes behind the whitish eye. Nonbreeding adults are similar but breast and throat whitish, bill dusky orange, and reduced plumes. Juvenile similar but bill smaller and duskier."
+        ]
+    },
+    "Behavior": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67631991-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67631991-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67631991-720px.jpg"
+        ],
+        "description": [
+            "Forages by diving and swimming underwater, using wings for propulsion, to capture fish, jellies, and crustaceans with the bill. Usually solitary at sea. Males \u201csing\u201d from rocky shores to attract females, which duet with the male of their choice."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67632151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67632151-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67632151-720px.jpg"
+        ],
+        "description": [
+            "Nests in small, loose colonies of a few dozen pairs on rocky shorelines and cliffs of North Pacific islands. Forages in deep, open waters of the North Pacific, often very far from land."
+        ]
+    }
+}

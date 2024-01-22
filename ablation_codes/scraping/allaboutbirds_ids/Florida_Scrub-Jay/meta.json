@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70582381-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70582381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582381-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A large and sturdy bird with a long tail and hefty legs. This uncrested jay has a big flat head and a heavy bill."
+            ],
+            "Compared Size": [
+                "Larger than an Eastern Towhee, smaller than an American Crow."
+            ],
+            "Relative Size": [
+                "robin-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 9.1-11.0 in (23-28 cm)",
+                "Weight: 2.3-3.3 oz (66-92 g)",
+                "Wingspan: 13.0-14.2 in (33-36 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70582411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582411-720px.jpg"
+        ],
+        "description": [
+            "Dull blue overall with a whitish forehead and a pale gray back and belly. Juveniles are grayer overall than adults and lack the adult\u2019s blue head.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/280239070",
+        "description": [
+            "Hops on the ground or in trees and shrubs to pick insects and harvest acorns, which it buries in the ground to eat later. Often perches vertically on wires or exposed branches with its long tail hanging down.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70582421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582421-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70582421-720px.jpg"
+        ],
+        "description": [
+            "Found only in low-growing oak scrub and scrubby flatwoods with sandy soils in Florida. Within these patches of oak scrub, they frequent relatively open areas with bare sandy patches.",
+            ""
+        ]
+    }
+}

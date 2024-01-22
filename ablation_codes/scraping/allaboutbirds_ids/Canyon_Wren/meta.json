@@ -1,0 +1,61 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68036961-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68036961-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68036961-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A distinctive pot-bellied wren with a long, slender, slightly curved bill, a fairly long tail, and strong, short legs. The wings are short and rounded."
+            ],
+            "Compared Size": [
+                "Larger than a Blue-gray Gnatcatcher, smaller than a Cactus Wren."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.5-6.1 in (11.4-15.4 cm)",
+                "Weight: 0.3-0.7 oz (9.9-18.3 g)",
+                "Wingspan: 7.1-7.9 in (18-20 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68036991-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68036991-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68036991-720px.jpg"
+        ],
+        "description": [
+            "Canyon Wrens are rusty brown birds with a neat white throat. The head is a grayer brown than the body and speckled with white, while the tail is a brighter rusty brown than the back. The wings and tail are barred with black.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670831",
+        "description": [
+            "Canyon Wrens cling almost like nuthatches to rock walls, able to scale even vertical surfaces with ease. They generally move sideways or at an angle, a short distance at a time, securing themselves with the rear foot as they advance to the next foothold. They move deliberately and deftly, looking into crevices that might hold prey, which they extract with quick jabs of the fine bill. Males sing from favored rocky song perches, most regularly in spring and summer but occasionally in winter. Females sing on occasion.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68036971-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68036971-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68036971-720px.jpg"
+        ],
+        "description": [
+            "Rocky canyons and slopes in arid country, from about 1,000\u20136,000 feet elevation, sometimes higher.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Canyon Wrens are divided into 3 subspecies, differing mostly in plumage tones, bill length, and thickness of barring on tail. Subspecies conspersus in most of the species\u2019 United States range (and barely into Canada); albifrons in northern Mexico and West Texas; and mexicanus in the southern Mexican Plateau.",
+            ""
+        ]
+    }
+}

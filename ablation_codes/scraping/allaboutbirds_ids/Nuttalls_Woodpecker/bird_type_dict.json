@@ -1,0 +1,80 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297698041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297698041-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297698041-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406585-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406585-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/406585-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297698461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297698461-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297698461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297698611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297698611-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297698611-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/406600-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406600-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406600-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small woodpecker with black-and-white barring up its back. Note that the barring on the back does not go all the way up the back, leaving a solid black patch below the neck. Males have a red patch at the rear of the head.",
+            "",
+            "Small black-and-white barred woodpecker. Males have red patch at the rear of the head. Note solid black patch on the upper back and thin facial stripes.",
+            "",
+            ""
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/68929671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68929671-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297698621-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297698621-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297698621-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Females look like males, but lack the red crown patch. Note thin facial stripes and white underparts.",
+            ""
+        ]
+    },
+    "Male with Purple Finch": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406592-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/406592-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/406592-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/297698571-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/297698571-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/297698571-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in oak woodlands, wooded suburban areas, and woodlands near streams with cottonwoods, willows, and sycamores."
+        ]
+    }
+}

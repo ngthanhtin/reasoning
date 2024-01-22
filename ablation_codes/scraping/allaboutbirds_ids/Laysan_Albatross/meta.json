@@ -1,0 +1,56 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67654621-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67654621-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67654621-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Laysan Albatrosses are very large seabirds (though they are among the smaller albatrosses). They have very long, very narrow wings. The neck is thick and the head is large."
+            ],
+            "Compared Size": [
+                "Slightly smaller, more slender, and narrower-winged than a Brown Pelican; much larger than a Western Gull."
+            ],
+            "Relative Size": [
+                "goose-sized or larger"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 31.1-31.9 in (79-81 cm)",
+                "Weight: 77.6-151.7 oz (2200-4300 g)",
+                "Wingspan: 76.8-79.9 in (195-203 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67654611-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67654611-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67654611-480px.jpg"
+        ],
+        "description": [
+            "Laysan Albatrosses are white-headed birds with dark gray-brown upperwings and mostly white underwings (with variable dark markings). The underparts are clean white. They have a dark patch around the eye. In flight, note the dark back, white rump, and dark tail."
+        ]
+    },
+    "Behavior": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67654591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67654591-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67654591-480px.jpg"
+        ],
+        "description": [
+            "They fly by dynamic soaring: gliding low over the waves and then wheeling up into the sky to take advantage of the wind. They rarely flap their wings. They feed by sitting on the water, often at night, catching squid and other small prey with their bills."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67654571-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67654571-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67654571-480px.jpg"
+        ],
+        "description": [
+            "Laysan Albatrosses spend most of their time on the open Pacific Ocean, spanning tropical waters up to the southern Bering Sea. They nest on open, sandy or grassy islands, mostly in the Hawaiian Island chain."
+        ]
+    }
+}

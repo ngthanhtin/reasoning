@@ -1,0 +1,65 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68035331-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68035331-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035331-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Marsh Wren is a small, plump, round-bodied wren with a short tail that it often holds up almost vertically above its back. It has a thin bill and short wings."
+            ],
+            "Compared Size": [
+                "About the size of a House Wren, but smaller than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-5.5 in (10-14 cm)",
+                "Weight: 0.3-0.5 oz (9-14 g)",
+                "Wingspan: 5.9 in (15 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68035321-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68035321-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035321-480px.jpg"
+        ],
+        "description": [
+            "The Marsh Wren is a small, plump, round-bodied wren with a short tail that it often holds up almost vertically above its back. It has a thin bill and short wings.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68035301-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68035301-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035301-720px.jpg"
+        ],
+        "description": [
+            "Marsh Wrens bounce around with their tails cocked in marshes filled with cattails and rushes. They grasp stalks of vegetation, legs splayed with each foot wrapped around a different stalk. Males occasionally pop up to sing from taller cattails. They rapidly beat their wings to make short flights within the marsh.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68035291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035291-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68035291-720px.jpg"
+        ],
+        "description": [
+            "Marsh Wrens occupy wetlands filled with cattails, sedges, bulrushes, and Phragmites as well as cordgrass-filled saltmarshes year-round. In the winter they also use brushy thickets near wetlands, tidal saltmarshes, and weedy agricultural canals.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Multiple subspecies of Marsh Wrens occur throughout their range, and their taxonomy has yet to be fully evaluated. In general, individuals in the eastern United States are rustier and more brightly colored than individuals in the western U.S. Birds in the West also have a larger repertoire of songs that are harsher and more complex than those in the East (see Sounds). A small disjunct resident population also occurs in Mexico in the states of Hidalgo, Mexico, and Puebla.",
+            ""
+        ]
+    }
+}

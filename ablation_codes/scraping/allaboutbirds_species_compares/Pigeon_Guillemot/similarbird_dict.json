@@ -1,0 +1,40 @@
+{
+    "Marbled Murrelet": {
+        "Breeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/32801701-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/32801701-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/32801701-720px.jpg"
+            ],
+            "description": "Marbled Murrelets are smaller and browner overall than Pigeon Guillemots."
+        },
+        "Nonbreeding": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/70998321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70998321-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70998321-1280px.jpg"
+            ],
+            "description": "Marbled Murrelets are smaller and more compact than Pigeon Guillemots. Nonbreeding birds have a solid black back and cap that Pigeon Guillemots lack."
+        }
+    },
+    "Black Guillemot": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66029531-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66029531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66029531-720px.jpg"
+            ],
+            "description": "Black Guillemots, which overlap in distribution only in the Bering Sea, are very similar. Breeding and nonbreeding birds have white underwing linings whereas Pigeon Guillemots have gray underwing linings."
+        }
+    },
+    "White-winged Scoter": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63900451-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63900451-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63900451-720px.jpg"
+            ],
+            "description": "White-winged Scoters are much larger and heavier with a broader bill than Pigeon Guillemots."
+        }
+    }
+}

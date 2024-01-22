@@ -1,0 +1,62 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302146561-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302146561-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302146561-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/302146671-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302146671-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302146671-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/465869-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465869-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/465869-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65686611-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65686611-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65686611-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/65686591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65686591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65686591-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Small songbird with thick, straight, slightly hooked bill. Gray head contrasts with olive-green back. Yellow \"spectacles\" outline pale eye.",
+            "Small songbird with thick, straight bill. Gray head and yellow spectacles contrast with white throat. Flanks are washed with yellow.",
+            "Forages for caterpillars and other insects in shrubby tangles and other low, dense growth. Song is a fast jumble of notes, with a sharp chip at the beginning and end.",
+            "Dark wings with two white wingbars. Pale underparts: white throat and center of belly, with yellow wash on flanks.",
+            "White-eyed Vireos live in dense tangles including forest edges, wetland thickets, regrowing woodland, and overgrown fields."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/302146751-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/302146751-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/302146751-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/65686601-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65686601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65686601-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Young birds have dark eyes that turn pale in their first winter or spring."
+        ]
+    }
+}

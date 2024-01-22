@@ -1,0 +1,42 @@
+{
+    "Vermilion Flycatcher": {
+        "Adult female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65682371-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65682371-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65682371-1280px.jpg"
+            ],
+            "description": "Vermilion Flycatchers have shorter tails and rounder bodies compared to the long and slender Say\u2019s Phoebe. Females have a pinkish-red lower belly while it is cinnamon on Say\u2019s Phoebes."
+        }
+    },
+    "Mountain Bluebird": {
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67471181-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67471181-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67471181-720px.jpg"
+            ],
+            "description": "Female/immature Mountain Bluebirds have a bluish tint to the wings and tail that Say\u2019s Phoebes do not have. The undertail coverts are white on bluebirds, but cinnamon on Say's Phoebes."
+        }
+    },
+    "Western Bluebird": {
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67472521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67472521-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67472521-720px.jpg"
+            ],
+            "description": "Female/immature Western Bluebirds have a bluish tint to the wings and tail that Say\u2019s Phoebes do not have. The undertail coverts are white on bluebirds, but cinnamon on Say's Phoebes."
+        }
+    },
+    "Eastern Phoebe": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65681491-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65681491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65681491-720px.jpg"
+            ],
+            "description": "Eastern Phoebes have a pale belly as opposed to the cinnamon-washed belly on Say\u2019s Phoebe."
+        }
+    }
+}

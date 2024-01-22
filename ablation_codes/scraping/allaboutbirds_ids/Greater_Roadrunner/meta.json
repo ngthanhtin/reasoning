@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60388671-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60388671-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60388671-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Greater Roadrunners are large cuckoos with a distinctive shape: long legs, a very long, straight tail, and a long neck. The head has a short crest and the bill is long, heavy, and slightly downcurved."
+            ],
+            "Compared Size": [
+                "Larger than a Rock Pigeon; about the size (but more slender than) a Common Raven."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 20.5-21.3 in (52-54 cm)",
+                "Weight: 7.8-19.0 oz (221-538 g)",
+                "Wingspan: 19.3 in (49 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60388681-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60388681-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60388681-720px.jpg"
+        ],
+        "description": [
+            "They are tan or brown with extensive blackish streaking on the upperparts and chest. The crown is black with small, pale spots, and they have a patch of bare, blue skin behind the eye. The wings are dark with white highlights."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/240084384",
+        "description": [
+            "Greater Roadrunners spend most of their lives on the ground hunting lizards, small mammals, and birds. They are very fast runners, leaning over parallel to the ground with their tails streaming behind them. They are weak fliers, but you may see them perched above the ground on fence posts and sometimes telephone wires."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/60388651-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/60388651-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/60388651-480px.jpg"
+        ],
+        "description": [
+            "Greater Roadrunners are characteristic birds of the hot, shrubby expanses of the Desert Southwest. They aren\u2019t restricted to deserts, though: look for them in open country with patches of shrubs or small trees almost as far east as the Mississippi River."
+        ]
+    }
+}

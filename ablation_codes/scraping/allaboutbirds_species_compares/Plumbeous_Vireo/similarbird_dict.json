@@ -1,0 +1,32 @@
+{
+    "Cassin's Vireo": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/65761191-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761191-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761191-720px.jpg"
+            ],
+            "description": "Cassin's Vireos usually have greener backs than the all-gray Plumbeous Vireo, and Cassin's often has yellowish flanks. Cassin's and Plumbeous overlap mainly on their wintering grounds."
+        }
+    },
+    "Gray Vireo": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40261731-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40261731-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40261731-720px.jpg"
+            ],
+            "description": "Gray Vireos have longer tails than Plumbeous Vireos and live in more open habitats. Gray has duller wingbars and has a thin eyering but not the bold \"spectacles\" of Plumbeous."
+        }
+    },
+    "Blue-headed Vireo": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/65761591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/65761591-1280px.jpg"
+            ],
+            "description": "Blue-headed Vireos are more brightly colored than Plumbeous Vireos, with green backs and yellow-washed flanks. The two species do not overlap in range."
+        }
+    }
+}

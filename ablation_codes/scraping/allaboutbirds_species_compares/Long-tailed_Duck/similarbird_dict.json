@@ -1,0 +1,48 @@
+{
+    "Steller's Eider": {
+        "Male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/40620601-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620601-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/40620601-720px.jpg"
+            ],
+            "description": "Male Steller's Eiders have a buffy (not black) breast and a longer tail than Long-tailed Ducks."
+        },
+        "Male and female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/40620611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620611-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/40620611-720px.jpg"
+            ],
+            "description": "Female Steller's Eiders have less white on the face than female Long-tailed Ducks and they have dark (not white) rear ends. Males have buffier bellies than male Steller's Eiders."
+        }
+    },
+    "Harlequin Duck": {
+        "Breeding male and female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63898021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63898021-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63898021-720px.jpg"
+            ],
+            "description": "Male Harlequin Ducks have a dark gray (not buffy) belly and a chestnut patch on the side that male Steller's lack. Female Harlequin Ducks have 2 white spots on the face that female Steller's lack."
+        }
+    },
+    "Northern Pintail": {
+        "Breeding male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63892991-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63892991-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63892991-720px.jpg"
+            ],
+            "description": "Male Northern Pintails have a brown head, not white like Long-tailed Ducks and gray, not buffy sides."
+        },
+        "Female": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63893021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893021-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63893021-1280px.jpg"
+            ],
+            "description": "Female Northern Pintails are paler overall than female Steller's Eiders. Females don't have white patches on the face like female Steller's Eiders."
+        }
+    }
+}

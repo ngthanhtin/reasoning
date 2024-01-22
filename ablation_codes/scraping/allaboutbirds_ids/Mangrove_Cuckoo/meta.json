@@ -1,0 +1,51 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40628341-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40628341-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40628341-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A large, lanky bird with a long tail, long, full wings, and a fairly thick, curved bill."
+            ],
+            "Compared Size": [
+                "Larger than a Northern Mockingbird, smaller than a Common Grackle."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/40628331-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40628331-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40628331-720px.jpg"
+        ],
+        "description": [
+            "Brown above, buffy below, especially on the belly, with a dark mask, yellow or gray eyering, and bold black-and-white pattern on the underside of the tail. The bill is mostly black, with the lower (basal) portion yellow.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670199",
+        "description": [
+            "Perches in tree canopies and watches carefully for insects, lizards, and other prey, then hops or flies quickly at prey once spotted. \u201cTenderizes\u201d larger prey by beating it against a branch. Often sits motionless for long periods."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40628291-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40628291-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40628291-480px.jpg"
+        ],
+        "description": [
+            "Red mangrove and black mangrove stands in Florida, as well as in hardwood hammocks and beach scrub, usually near mangroves. In Caribbean and Latin America, look for them in scrubby woodlands, cultivated areas, rainforest, and cloud forest.",
+            ""
+        ]
+    }
+}

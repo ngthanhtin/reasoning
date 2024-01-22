@@ -1,0 +1,40 @@
+{
+    "Magnolia Warbler": {
+        "Adult male": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64798651-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798651-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798651-720px.jpg"
+            ],
+            "description": "Magnolia Warblers have yellow bellies unlike Yellow-rumped Warblers."
+        },
+        "Female/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64798661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64798661-1280px.jpg"
+            ],
+            "description": "Magnolia Warblers have yellow bellies unlike Yellow-rumped Warblers."
+        }
+    },
+    "Yellow-throated Warbler": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64894611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64894611-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64894611-720px.jpg"
+            ],
+            "description": "Yellow-throated Warblers have more extensive yellow on the throat than Yellow-rumped Warblers."
+        }
+    },
+    "Townsend's Warbler": {
+        "Adult female": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64897511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64897511-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64897511-720px.jpg"
+            ],
+            "description": "Townsend's Warblers have a yellower breast than Yellow-rumped Warblers."
+        }
+    }
+}

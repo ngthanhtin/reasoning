@@ -1,0 +1,20 @@
+{
+    "Red-winged Blackbird": {
+        "Breeding male (Red-winged)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744251-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744251-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744251-720px.jpg"
+            ],
+            "description": "Male Red-winged Blackbirds have a black head unlike Yellow-headed Blackbirds."
+        },
+        "Female (Red-winged)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63744241-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63744241-720px.jpg"
+            ],
+            "description": "Female Red-winged Blackbirds are more heavily streaked than female Yellow-headed Blackbirds."
+        }
+    }
+}

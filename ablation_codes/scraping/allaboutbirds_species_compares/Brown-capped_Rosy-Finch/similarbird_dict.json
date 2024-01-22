@@ -1,0 +1,46 @@
+{
+    "Black Rosy-Finch": {
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/63734811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734811-1280px.jpg"
+            ],
+            "description": "Black Rosy-Finches are darker overall, almost black, whereas Brown-capped Rosy-Finches are browner overall. They also have an obvious gray crown that Brown-capped lack."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/63734831-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/63734831-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/63734831-720px.jpg"
+            ],
+            "description": "Juvenile Black Rosy Finches tend to be darker brown with buffy wingbars, whereas juvenile Brown-capped Rosy-Finches are paler and don't have well-defined wingbars."
+        }
+    },
+    "Gray-crowned Rosy-Finch": {
+        "Adult (Gray-crowned)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356601-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356601-720px.jpg"
+            ],
+            "description": "Gray-crowned Rosy-Finches have a more obvious gray crown than Brown-capped Rosy-Finches, which have a dark grayish brown crown."
+        },
+        "Adult (Hepburn's)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/67356541-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/67356541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356541-1280px.jpg"
+            ],
+            "description": "Gray-crowned Rosy-Finches on the coast have a gray crown and gray cheeks unlike Brown-capped Rosy-Finches, which have a grayish brown crown and brown cheeks."
+        },
+        "Juvenile": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/67356591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356591-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/67356591-1280px.jpg"
+            ],
+            "description": "Juvenile Gray-crowned Rosy-Finches are brown overall like juvenile Brown-capped Rosy-Finches and are difficult to separate, but their breeding ranges do not overlap."
+        }
+    }
+}

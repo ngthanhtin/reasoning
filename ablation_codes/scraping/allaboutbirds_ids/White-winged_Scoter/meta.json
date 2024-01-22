@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63900451-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63900451-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63900451-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A stocky duck with a thick neck and a heavy head with a sloping forehead and a stout bill. Males have a knob at the base of the bill. The wings are rather broad. The tail is fairly long and may be held upward out of the water."
+            ],
+            "Compared Size": [
+                "Larger than an American Wigeon, smaller than a Common Eider."
+            ],
+            "Relative Size": [
+                "crow-sized"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 18.9-22.8 in (48-58 cm)",
+                "Weight: 33.5-63.5 oz (950-1800 g)",
+                "Wingspan: 31.5 in (80 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63900481-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63900481-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63900481-480px.jpg"
+        ],
+        "description": [
+            "Adult males are silken black overall with large white patches in the wings (fully visible in flight and often partly visible at rest). They have a comma-shaped white mark around and behind the eye. Black feathers extend onto the bill, and the tip of the bill is orange. Males\u2019 feet are bright orange-red. Juveniles and females also have the large white wing patches but are otherwise dark brown with a paler belly. They have 2 smudgy white patches on the face, and their bills are dark.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/407663009",
+        "description": [
+            "Forages by diving deep underwater and seizing prey with the bill, often tearing shellfish from underwater rocks. Winters in flocks, often with other scoters and sea ducks. Courtship displays occur over the winter, and pairs usually return to the breeding area together.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/63900541-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/63900541-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63900541-720px.jpg"
+        ],
+        "description": [
+            "Nests in northern forests, near shallow freshwater lakes surrounded by low, heavy brush such as berry bushes or roses. Forages in lakes and rivers near the nest during summer, and in saltwater environments such as bays and coastal ocean during the nonbreeding season.",
+            ""
+        ]
+    }
+}

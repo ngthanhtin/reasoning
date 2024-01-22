@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67450191-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450191-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67450191-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized, full-bodied songbird with a small conical bill."
+            ],
+            "Compared Size": [
+                "Larger than a Dark-eyed Junco, smaller than an American Robin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9 in (15 cm)",
+                "Weight: 1.1-1.6 oz (31-46 g)",
+                "Wingspan: 11.8 in (30 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/67450281-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450281-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450281-720px.jpg"
+        ],
+        "description": [
+            "Snow Buntings have several plumages, but they always show white inner wings with black wingtips and a black-and-white tail. Breeding males are sharp white with a black back. Breeding females are whitish overall with a brown, streaky back and a dusky head. Nonbreeding males are white below with rusty patches on the crown, \"ear,\" and shoulder, and dark streaks down the back. Nonbreeding females have a rusty wash on the face and darker rusty patches on the breast. Breeding males and females have a dark bill that turns yellowish orange during the nonbreeding season.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238647557",
+        "description": [
+            "Walks along barren places with a hunched-over posture, easily blending in with the ground, until the group takes flight in a burst of black and white. Forms large flocks often with Horned Larks and longspurs during the nonbreeding season.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/67450261-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/67450261-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/67450261-480px.jpg"
+        ],
+        "description": [
+            "Breeds on rocky tundra. Winters in open weedy and grassy fields and along shores of lakes and oceans. Often concentrates on shorelines where debris piles up along the edge from wave or wind action.",
+            ""
+        ]
+    }
+}

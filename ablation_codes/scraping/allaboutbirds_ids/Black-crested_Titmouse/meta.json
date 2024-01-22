@@ -1,0 +1,60 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68043611-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043611-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043611-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A medium-sized songbird with a long tail, short bill, and distinctive crest."
+            ],
+            "Compared Size": [
+                "Larger than a Carolina Chickadee, slightly smaller than a Red-eyed Vireo."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.9 in (15 cm)",
+                "Weight: 0.5-0.7 oz (15.2-18.4 g)",
+                "Wingspan: 9.1-9.8 in (23-25 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68043591-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68043591-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043591-480px.jpg"
+        ],
+        "description": [
+            "Medium gray above, pale below, with grayish flanks and black crest; sides and forehead sometimes tinged buff."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238645415",
+        "description": [
+            "Black-crested Titmice roam woodlands in small groups, often with other woodland birds, foraging for small invertebrates and seeds. They are usually in the inner portion of trees, typically 20 feet or less from the ground. They regularly attend backyard feeding stations.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68043581-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043581-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68043581-480px.jpg"
+        ],
+        "description": [
+            "A wide variety of wooded habitats, from mesquite bosques to montane evergreen forests, oak scrub, or suburbs.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Three subspecies are often recognized, but the differences between them are subtle. The southernmost, atricristatus, ranges from the Rio Grande Valley of Texas through much of central and eastern Mexico; it has dark gray flanks with an olive tint. The westernmost subspecies, paloduro, is found mostly from the Big Bend region of Texas into adjacent Mexico; it has dark gray flanks. The sennetti subspecies ranges from southern Oklahoma southward to central Texas. It has paler flanks and a rusty tint to the forehead.",
+            ""
+        ]
+    }
+}

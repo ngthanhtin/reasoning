@@ -1,0 +1,58 @@
+{
+    "Size": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/70601871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70601871-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70601871-720px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A sturdy jay without a crest. It has a thick, straight bill, a long, rounded tail, and fairly long legs. In flight the wings are broad and rounded."
+            ],
+            "Compared Size": [
+                "Larger than a Northern Mockingbird, smaller than a Northern Flicker; similar in size to a Blue Jay."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/36660891-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/36660891-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36660891-480px.jpg"
+        ],
+        "description": [
+            "Rich green above and pale yellow-green below, with a blue crown, black throat and eyepatch, and yellow outer tail feathers.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238671379",
+        "description": [
+            "Forages together in family flocks that rove woodlands and thickets, searching all levels of the vegetation for insects, fruit, and small vertebrates, maintaining contact with noisy calls. Highly social and territorial year-round, driving away rival Green Jays and mobbing predators such as owls or snakes.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/36661771-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/36661771-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36661771-480px.jpg"
+        ],
+        "description": [
+            "Woodlands, thickets, and parks, especially sites with native trees, but also citrus orchards and parks.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Seven fairly similar subspecies range from Texas (glaucescens) to Honduras (centralis). Another very different and geographically isolated set of subspecies inhabits northern South America. These differ in having tufted forecrowns and bright yellow bellies. The South American subspecies are collectively sometimes called the Inca Jay.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66114531-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66114531-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114531-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A fairly large swift with a long, slim body and very long, narrow wings that curve like a scimitar. The overall slim outline can make it appear small, especially at a distance."
+            ],
+            "Compared Size": [
+                "Larger than a Vaux\u2019s Swift, smaller and slenderer than a Purple Martin."
+            ],
+            "Relative Size": [
+                "between sparrow and robin"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66114511-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114511-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66114511-480px.jpg"
+        ],
+        "description": [
+            "A blackish brown bird with a white throat and a white strip down the center of the breast and belly. Upperparts are blackish with white flanks and a white trailing edge to the secondaries (the inner part of the wing).",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/66114541-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/66114541-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114541-720px.jpg"
+        ],
+        "description": [
+            "Catches tiny aerial insects, usually high in the sky. The fast, erratic flight and high-pitched calls are distinctive even when plumage pattern is hard to see.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/66114521-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114521-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/66114521-480px.jpg"
+        ],
+        "description": [
+            "Nests in natural crevices on rocky cliffs or canyon walls, from sea level to high mountain peaks. Forages over virtually any terrestrial habitat that features small aerial insects. Sometimes nests in buildings, bridges, and overpasses, sometimes in cities.",
+            ""
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Ornithologists recognize two very similar subspecies: saxatalis of North America and the darker nigrior of Central America.",
+            ""
+        ]
+    }
+}

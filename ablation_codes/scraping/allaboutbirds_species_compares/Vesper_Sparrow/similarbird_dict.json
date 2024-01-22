@@ -1,0 +1,40 @@
+{
+    "Savannah Sparrow": {
+        "Adult (Savannah)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64981761-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64981761-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64981761-720px.jpg"
+            ],
+            "description": "Savannah Sparrows have a yellowish stripe over the eye, and they lack Vesper Sparrow's white eyering and white outer tail feathers (visible in flight)."
+        }
+    },
+    "Song Sparrow": {
+        "Adult (Eastern)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66116661-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66116661-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66116661-720px.jpg"
+            ],
+            "description": "Song Sparrows have longer, more rounded tails and are more heavily streaked than Vesper Sparrows. Their face pattern is different, with a strong pale eyebrow stripe and thick dark malar or mustache stripe, without the Vesper's eyering."
+        },
+        "Adult (Pacific Northwest)": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66116641-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66116641-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66116641-1280px.jpg"
+            ],
+            "description": "Song Sparrows are variable across North America, but they never have the Vesper's white eyering and are usually more streaky and have more rufous and gray tones."
+        }
+    },
+    "Lark Sparrow": {
+        "Immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64973911-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64973911-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64973911-720px.jpg"
+            ],
+            "description": "Immature Lark Sparrows have a thicker bill and bolder face pattern than Vesper Sparrows, with a bold white stripe over the eye and dark cheek patch."
+        }
+    }
+}

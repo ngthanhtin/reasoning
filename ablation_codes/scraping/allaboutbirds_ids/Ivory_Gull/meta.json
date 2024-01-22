@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/55025061-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/55025061-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/55025061-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small, full-bellied gull with a short neck, a small, rounded head, and a fairly small, straight bill relative to other gulls."
+            ],
+            "Compared Size": [
+                "Larger than a Bonaparte's Gull, smaller than an Iceland Gull."
+            ],
+            "Relative Size": [
+                "between crow and goose"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 15.8-16.9 in (40-43 cm)",
+                "Weight: 15.8-24.2 oz (448-687 g)",
+                "Wingspan: 42.5-47.2 in (108-120 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/55025031-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/55025031-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/55025031-720px.jpg"
+        ],
+        "description": [
+            "Adults are clean snowy white with dark eyes, black legs, and a pale blue-green bill with a yellow tip. Juveniles and first-winter birds have sooty speckling on the face, dark gray spots on the tips of wing and tail feathers, and a dusky gray bill.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238649179",
+        "description": [
+            "Forages by hovering and dipping for prey in water, wading in the shallow water, sometimes in small flocks. Usually forages away from other birds except at carcasses. Often gathers near marine mammals, including polar bears.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/55025051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/55025051-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/55025051-720px.jpg"
+        ],
+        "description": [
+            "Nests on islands, cliffs, mountains (sometimes well inland), beaches, and even on floating ice. Forages around openings and edges in pack ice and drift ice of the High Arctic. Seldom forages in ice-free waters.",
+            ""
+        ]
+    }
+}

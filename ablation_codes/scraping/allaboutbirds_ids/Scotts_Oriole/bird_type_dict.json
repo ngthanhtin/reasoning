@@ -1,0 +1,80 @@
+{
+    "Male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306385361-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385361-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306385361-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/444008-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/444008-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/444008-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306385461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385461-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Large and slender with a thin, slightly curved, pointed bill. Males have a black back, head, and breast and are lemon yellow below. Shows one white wingbar, plus yellow shoulder bordered in white.",
+            "Found on arid slopes, where it forages fairly low on yuccas and small trees seeking insects and also drinking nectar.",
+            "Males have black head and breast and a lemon yellow belly and rump."
+        ]
+    },
+    "Female": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306385841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385841-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306385841-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306385911-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385911-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306385911-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/71005841-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71005841-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71005841-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "",
+            "Large and slender with a thin, slightly curved, pointed bill. Females are yellowish olive with dark wings marked with 2 white wingbars. Some females have variable black spotting on head and chest."
+        ]
+    },
+    "Immature male": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306385871-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306385871-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385871-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/306385851-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/306385851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385851-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/306385701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385701-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/306385701-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Uses drier areas with scattered trees and shrubs. Breeds in dry mountain foothills where yuccas are common."
+        ]
+    }
+}

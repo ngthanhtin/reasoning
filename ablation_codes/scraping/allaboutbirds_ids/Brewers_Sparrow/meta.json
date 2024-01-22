@@ -1,0 +1,63 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64973381-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64973381-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64973381-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "The Brewer\u2019s Sparrow is typical of the",
+                "Spizella",
+                "group of sparrows: dainty and slim, with a long, notched tail, short rounded wings, and a small, sharply conical bill. Its size varies somewhat by region and sex, but overall it is North America\u2019s smallest sparrow."
+            ],
+            "Compared Size": [
+                "About the size of a Black-capped Chickadee; noticeably smaller and slimmer than a Song Sparrow."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 5.1-5.9 in (13-15 cm)",
+                "Weight: 0.4-0.5 oz (11-14 g)",
+                "Wingspan: 7.1-7.9 in (18-20 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64973431-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64973431-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64973431-480px.jpg"
+        ],
+        "description": [
+            "Brewer\u2019s Sparrows are dusky gray-brown, with grayish underparts and a thin white eyering. The back and nape are streaked. A faint gray stripe over the eye contrasts with a darker eyeline. The throat is grayish white."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238638563",
+        "description": [
+            "On the breeding grounds, in spring and early summer, male Brewer\u2019s Sparrows sing long, trilled songs from atop sagebrush. These sparrows forage in dense shrubs to glean insect food and tend to stay out of open areas. During fall and winter they often convene in large flocks with other",
+            "Spizella",
+            "sparrows."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64973411-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64973411-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64973411-480px.jpg"
+        ],
+        "description": [
+            "Brewer\u2019s Sparrows live in the arid sagebrush steppe of the interior West of North America, where they are the region\u2019s most abundant bird. In some northwestern mountains, a form known as the \u201cTimberline Sparrow\u201d lives among subalpine trees and dwarf shrubs."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Brewer\u2019s Sparrows that live among subalpine trees and shrubs at high elevations in mountains of Alberta, British Columbia, Yukon, Alaska, and some parts of the northwestern U.S., are a separate subspecies (",
+            "S. b. taverneri",
+            ", often known as the \u201cTimberline Sparrow\u201d). They differ from birds in the rest of their range in having darker upperparts and bills, with more contrast to the underparts and facial pattern."
+        ]
+    }
+}

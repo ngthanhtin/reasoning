@@ -1,0 +1,55 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/70149601-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/70149601-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/70149601-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A small, compact warbler that often perches horizontally. It has a small, round bill and a shorter tail than some other warblers such as Magnolia Warbler."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Blue-gray Gnatcatcher, smaller than a Tufted Titmouse."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 4.3 in (11 cm)",
+                "Weight: 0.3-0.3 oz (8-10 g)",
+                "Wingspan: 7.9 in (20 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/36660111-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/36660111-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/36660111-720px.jpg"
+        ],
+        "description": [
+            "Males are sky-blue above with 2 white wing bars, dark streaking on the back, a thin blue neck band, and blue streaking on the sides of their white belly. Females are bluish green above with a slight yellow wash below. They lack the streaked sides and neck band seen on males. Females also have a whitish eyebrow and 2 white wingbars.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238670731",
+        "description": [
+            "Hops along branches high in the canopy. Often forages near gaps in the canopy. Males sing a buzzy, ascending song.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/38661331-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/38661331-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/38661331-480px.jpg"
+        ],
+        "description": [
+            "Breeds in older deciduous forests with tall trees and an open understory. Winters in broad-leaved, evergreen forests in South America.",
+            ""
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/32804061-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/32804061-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/32804061-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A fairly large, disheveled-looking bird with a long, rounded tail and short, rounded wings. It has a tall, heavy bill (though generally smaller than the bill of Smooth-billed Ani). At close range, several grooves in the upper mandible are visible."
+            ],
+            "Compared Size": [
+                "Larger than a Yellow-billed Cuckoo, smaller than a male Cooper\u2019s Hawk."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/40545701-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/40545701-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/40545701-480px.jpg"
+        ],
+        "description": [
+            "Entirely black. The feathers of the upperparts can show some purple or green gloss in optimal light.",
+            ""
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238666856",
+        "description": [
+            "Forages by hopping along on the ground or climbing clumsily through low vegetation. Looks for insects and small vertebrates, especially lizards, and pounces on them with the large bill. Also forages for insects flushing away from groups of cattle or army ant swarms. Occasionally picks ticks from livestock. Usually seen in groups.",
+            ""
+        ]
+    },
+    "Habitat": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/63289651-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289651-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/63289651-720px.jpg"
+        ],
+        "description": [
+            "Dense, low vegetation such as shrubs or small trees in arid, open country of lowlands. Nonbreeding birds sometimes move temporarily into wetter habitats such as marshes, especially during droughts.",
+            ""
+        ]
+    }
+}

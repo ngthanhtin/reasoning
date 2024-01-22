@@ -1,0 +1,58 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64994331-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64994331-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64994331-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "A robust, medium-sized woodpecker with a long, pointed bill."
+            ],
+            "Compared Size": [
+                "Larger than a Downy Woodpecker, smaller than a Northern Flicker."
+            ],
+            "Relative Size": [
+                "between robin and crow"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 8.7-10.2 in (22-26 cm)",
+                "Weight: 2.6-3.5 oz (73-99 g)",
+                "Wingspan: 16.5-17.3 in (42-44 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64994361-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64994361-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64994361-720px.jpg"
+        ],
+        "description": [
+            "Golden-fronted Woodpeckers have grayish brown heads and bodies, golden napes and nasal tufts, black-and-white barred wings, and black tails. Males have a red central crown. The yellow in the lower belly can be difficult to see."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238669117",
+        "description": [
+            "Golden-fronted Woodpeckers forage mostly in trees for insects (or fruit), which they find by pecking, gleaning (picking up from vegetation), and probing, mostly on larger branches and trunks. In the morning and late afternoon, they perch in conspicuous places and call frequently."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/64994351-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/64994351-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/64994351-720px.jpg"
+        ],
+        "description": [
+            "Brushlands and dry woodlands, especially with mesquite, oaks, and cottonwoods; fairly common in well-wooded suburbs and urban parks."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "The Golden-fronted Woodpecker is composed of four subspecies that differ in size, amount of barring on the tail, and the color of the nape, nasal tufts, and belly. Whereas the nape of the form found in Texas and most of Mexico is yellow to orange, it is red in the Yucatan Peninsula and orange farther south. The four forms were formerly considered different species. Only the subspecies aurifrons is found in the United States; the others are found from Mexico through Central America.",
+            ""
+        ]
+    }
+}

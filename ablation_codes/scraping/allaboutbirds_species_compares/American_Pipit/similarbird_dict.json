@@ -1,0 +1,22 @@
+{
+    "Sprague's Pipit": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39462611-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39462611-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39462611-1280px.jpg"
+            ],
+            "description": "Sprague's Pipits have streaked or scaled upperparts and a paler face unlike American Pipits, which have an unstreaked back and a darker looking face with an eyering. Sprague's don't bob their tails like American Pipits."
+        }
+    },
+    "Vesper Sparrow": {
+        "Unknown Type": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64980841-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64980841-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64980841-720px.jpg"
+            ],
+            "description": "Vesper Sparrows have a smaller conical bill and a streaked back unlike American Pipits, which have an unstreaked back and a thin bill."
+        }
+    }
+}

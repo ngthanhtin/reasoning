@@ -1,0 +1,57 @@
+{
+    "Size": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68033811-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033811-480px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68033811-480px.jpg"
+        ],
+        "description": {
+            "Shape": [
+                "Blue-gray Gnatcatchers are tiny, slim songbirds with long legs; a long tail; and a thin, straight bill."
+            ],
+            "Compared Size": [
+                "Slightly larger than a Ruby-throated Hummingbird, Slightly smaller than a House Wren."
+            ],
+            "Relative Size": [
+                "sparrow-sized or smaller"
+            ],
+            "Measurements": [
+                "Sex: Both Sexes",
+                "Length: 3.9-4.3 in (10-11 cm)",
+                "Weight: 0.2-0.3 oz (4.8-8.9 g)",
+                "Wingspan: 6.3 in (16 cm)"
+            ]
+        }
+    },
+    "Color": {
+        "link": [
+            "https://www.allaboutbirds.org/guide/assets/photo/68033861-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033861-720px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033861-480px.jpg"
+        ],
+        "description": [
+            "Blue-gray Gnatcatchers are pale blue-gray birds with grayish-white underparts and a mostly black tail with white edges. The underside of the tail is mostly white. The face is highlighted by a thin but obvious white eyering. In summer, male Blue-gray Gnatcatchers sport a black \u2018V\u2019 on their foreheads extending above their eyes."
+        ]
+    },
+    "Behavior": {
+        "link": "https://player.vimeo.com/video/238639343",
+        "description": [
+            "The energetic Blue-gray Gnatchatcher rarely slows down, fluttering after small insects among shrubs and trees with its tail cocked at a jaunty angle. Blue-gray Gnatcatchers often take food from spiderwebs and also abscond with strands of webbing for their tiny nests, which are shaped like tree knots."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            " https://www.allaboutbirds.org/guide/assets/photo/68033851-480px.jpg",
+            " https://www.allaboutbirds.org/guide/assets/photo/68033851-720px.jpg",
+            "https://www.allaboutbirds.org/guide/assets/photo/68033851-480px.jpg"
+        ],
+        "description": [
+            "In the East, gnatcatchers breed in deciduous forests and near edges, often in moister areas. In the West, look for them in shorter woodlands and shrublands including pinyon-juniper and oak woodlands."
+        ]
+    },
+    "Regional_Difference": {
+        "description": [
+            "Blue-gray Gnatcatchers from the Rocky Mountains and westward are generally drabber than gnatcatchers of the East. Western females tend to have a brownish cast to their upperparts and summer males have a shorter and wider black forehead \u201cV.\u201d They also show black at the base of the underside of the tail, unlike the eastern birds\u2019 entirely white underside to the closed tail. The calls and particularly the songs of the two forms differ as well."
+        ]
+    }
+}

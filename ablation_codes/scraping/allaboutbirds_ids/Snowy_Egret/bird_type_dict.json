@@ -1,0 +1,86 @@
+{
+    "Breeding adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70611061-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70611061-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611061-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/304481651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304481651-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304481651-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Medium-sized snow white heron with a black bill and yellow feet.",
+            "During the breeding season, adult Snowy Egrets develop long, wispy feathers on their backs, necks, and heads."
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70611091-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70611091-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611091-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Immature birds look similar to adults, but have dull yellowish green legs."
+        ]
+    },
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475494-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/475494-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/475494-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/304481821-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/304481821-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/304481821-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/70611051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611051-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611051-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70611081-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611081-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70611081-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Often eats insects attracted to washed up beach debris. While foraging, sometimes they vibrate their bills, sway their heads, or flick their wings. This video has no audio and was filmed in slow motion.",
+            "",
+            "Stalks, walks, or runs after fish, frogs, and aquatic invertebrates. Often uses its bright yellow feet to stir up the water or probe in the mud, rounding up prey before striking with its bill.",
+            "Medium-sized heron with a long neck and daggerlike bill. Entirely white with a yellow patch of skin in front of the eye."
+        ]
+    },
+    "Adult (with Great Egret)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70611011-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70611011-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611011-720px.jpg"
+            ]
+        ],
+        "description": [
+            "Snowy Egrets are smaller than Great Egrets and have a black (not yellow) bill and yellow (not black) feet."
+        ]
+    },
+    "Habitat": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/70611041-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/70611041-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/70611041-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Found in mudflats, beaches, and wetlands, but also forages in wet agricultural fields and along the edges of rivers and lakes."
+        ]
+    }
+}

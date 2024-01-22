@@ -1,0 +1,30 @@
+{
+    "Common Gallinule": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/71546931-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546931-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71546931-720px.jpg"
+            ],
+            "description": "Common Gallinules have a white stripe down their side that Purple Gallinules don't have."
+        }
+    },
+    "American Coot": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547131-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547131-720px.jpg"
+            ],
+            "description": "American Coots are entirely black and lack the Purple Gallinule's bright red bill and purple neck."
+        },
+        "Juvenile": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/71547101-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/71547101-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/71547101-720px.jpg"
+            ],
+            "description": "Juvenile American Coots can be separated from juvenile Purple Gallinules by their overall gray color; juvenile Purple Gallinules are brownish."
+        }
+    }
+}

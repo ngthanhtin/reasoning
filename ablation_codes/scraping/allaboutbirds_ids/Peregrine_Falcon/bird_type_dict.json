@@ -1,0 +1,194 @@
+{
+    "Adult": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303618951-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303618951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303618951-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476116-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476116-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476116-480px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303616431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616431-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/401602-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/401602-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/401602-720px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60410441-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60410441-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410441-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/481159-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/481159-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/481159-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476121-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/videoThumbs/476121-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/videoThumbs/476121-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60410431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410431-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60410431-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60410501-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410501-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60410501-480px.jpg"
+            ]
+        ],
+        "description": [
+            "",
+            "Large falcon with bold black \"sideburns\" and strongly barred underparts. Often hunts shorebirds along coastlines.",
+            "Long, pointed wings. In flight shows strongly checkered whitish and black underwings and flanks.",
+            "Call is a long series of harsh \"kak\" notes, usually given as an alarm.",
+            "Primarily hunts other birds, but will take a variety of prey.",
+            "Powerful but relaxed flight style with fluid beats of the long, sharply pointed wings. Hefty body and fairly long tail. Sometimes mobbed by other species trying to drive away the danger.",
+            "Large falcon with dark upperparts and sharply pointed wings.",
+            "Sometimes nests and roosts on tall buildings.",
+            "Sometimes nests and roosts on tall cliffs."
+        ]
+    },
+    "Juvenile": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/160655951-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/160655951-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/160655951-720px.jpg"
+            ],
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/60410461-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410461-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410461-480px.jpg"
+            ],
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303616591-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303616591-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616591-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Juveniles have buffy underparts that are densely streaked with dark brown. Note brown mask and whisker, and paler eyebrow imparting a distinctive face pattern.",
+            "Long, pointed wings. In flight juveniles show boldly checked brown and whitish underwings, dense brown streaking on the underparts, and fine barring in the flight feathers and tail.",
+            ""
+        ]
+    },
+    "Immature": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/60410471-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/60410471-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/60410471-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Long, pointed wings. In flight immatures show boldly checked brown and whitish underwings, dense brown streaking on the underparts, and fine barring in the flight feathers and tail."
+        ]
+    },
+    "Adult (Barbary)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/312645911-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/312645911-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/312645911-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile (Peale's)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303616511-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616511-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616511-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Juvenile (Tundra)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/303616521-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616521-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616521-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult (Australian)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/160654851-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/160654851-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/160654851-480px.jpg"
+            ]
+        ],
+        "description": [
+            "Dark gray above with a blackish helmet and a yellow eyering and cere. Bill small and strongly hooked. Underparts pale whitish, with fine dark barring on the flanks."
+        ]
+    },
+    "Immature (Mediterranean)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303616551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616551-480px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303616551-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult (Red-capped)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303616561-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616561-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303616561-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Adult (Shaheen)": {
+        "link": [
+            [
+                " https://www.allaboutbirds.org/guide/assets/photo/303616601-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/303616601-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/303616601-480px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    },
+    "Immature (Shaheen)": {
+        "link": [
+            [
+                "https://www.allaboutbirds.org/guide/assets/photo/312646431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/312646431-480px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/312646431-720px.jpg"
+            ]
+        ],
+        "description": [
+            ""
+        ]
+    }
+}

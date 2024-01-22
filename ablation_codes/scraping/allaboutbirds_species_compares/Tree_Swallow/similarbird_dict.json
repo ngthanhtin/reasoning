@@ -1,0 +1,90 @@
+{
+    "Violet-green Swallow": {
+        "Adult male ": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68279801-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68279801-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68279801-720px.jpg"
+            ],
+            "description": "Violet-green Swallows have a white face and white patches that extend around the sides of the rump. In Tree Swallows, the face is darker and the white does not wrap up the sides of the rump."
+        }
+    },
+    "Cliff Swallow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68122541-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68122541-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68122541-720px.jpg"
+            ],
+            "description": "Cliff Swallows are less clean white below, with a dark reddish throat and a buffy forehead and rump, whereas Tree Swallows are dark steely blue above and white below."
+        }
+    },
+    "Northern Rough-winged Swallow": {
+        "Adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280781-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280781-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280781-720px.jpg"
+            ],
+            "description": "Northern Rough-winged Swallows are brown above, not steely blue like Tree Swallows. Rough-winged has a dingy brownish breast unlike Tree Swallow's clean white breast."
+        }
+    },
+    "Bank Swallow": {
+        "Adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68123421-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68123421-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68123421-1280px.jpg"
+            ],
+            "description": "Bank Swallows are slightly smaller than Tree Swallows and always brown above with a solid dark breast band."
+        }
+    },
+    "Barn Swallow": {
+        "Adult (American)": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68123041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68123041-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68123041-1280px.jpg"
+            ],
+            "description": "Barn Swallows have long, deeply forked tails, unlike the shallow forked tail of Tree Swallow. They also have reddish throats and peachy bellies."
+        }
+    },
+    "Purple Martin": {
+        "Adult male": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/68280401-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/68280401-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280401-720px.jpg"
+            ],
+            "description": "Purple Martins are larger than Tree Swallows; males are glossy purple blue all over, without the Tree Swallow's pale belly."
+        },
+        "Female/immature": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/68280361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280361-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/68280361-1280px.jpg"
+            ],
+            "description": "Purple Martins are larger than Tree Swallows. Females have dingy gray-white underparts rather than Tree Swallow's bright white breast and belly."
+        }
+    },
+    "Chimney Swift": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66113891-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66113891-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66113891-720px.jpg"
+            ],
+            "description": "Chimney Swifts are smaller than Tree Swallows with narrower, straighter wings and a choppy, stiff-winged flight style. They are brown overall without the clean white underparts of Tree Swallows."
+        }
+    },
+    "Vaux's Swift": {
+        "Adult/immature": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/66114141-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/66114141-720px.jpg"
+            ],
+            "description": "Vaux's Swifts are smaller than Tree Swallows with narrower, straighter wings and a choppy, stiff-winged flight style. They are brown overall without the clean white underparts of Tree Swallows."
+        }
+    }
+}

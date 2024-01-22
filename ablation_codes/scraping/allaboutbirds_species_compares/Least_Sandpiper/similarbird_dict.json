@@ -1,0 +1,68 @@
+{
+    "Semipalmated Sandpiper": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824531-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824531-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824531-720px.jpg"
+            ],
+            "description": "Semipalmated Sandpipers are slightly larger with stouter bills and black legs rather than the Least Sandpiper\u2019s yellowish legs."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64824491-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64824491-1280px.jpg"
+            ],
+            "description": "Semipalmated Sandpipers are slightly larger with stouter bills than Least Sandpipers and black (not yellow) legs. They tend to have grayer backs than Least Sandpipers, which are often browner."
+        }
+    },
+    "Western Sandpiper": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/64827111-1280px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827111-720px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/64827111-720px.jpg"
+            ],
+            "description": "Western Sandpipers are slightly larger with stouter bills and black legs instead of the Least Sandpiper\u2019s yellowish legs."
+        },
+        "Nonbreeding adult": {
+            "link": [
+                "https://www.allaboutbirds.org/guide/assets/photo/64827141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827141-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/64827141-1280px.jpg"
+            ],
+            "description": "Western Sandpipers are slightly larger with stouter bills and black legs instead of the Least Sandpiper\u2019s yellowish legs. Nonbreeding Western Sandpipers tend to have a whiter breast than the brownish breast on Least Sandpipers."
+        }
+    },
+    "Pectoral Sandpiper": {
+        "Breeding": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39412991-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39412991-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39412991-720px.jpg"
+            ],
+            "description": "Pectoral Sandpipers have yellow legs like Least Sandpipers, but they are much larger with a dark shield of streaking on the chest."
+        }
+    },
+    "Piping Plover": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39531551-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39531551-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39531551-720px.jpg"
+            ],
+            "description": "Piping Plovers are plumper and paler, with shorter bills than Least Sandpipers. Piping Plovers tend to occur higher up on the beach than Least Sandpipers."
+        }
+    },
+    "Snowy Plover": {
+        "Breeding adult": {
+            "link": [
+                " https://www.allaboutbirds.org/guide/assets/photo/39430311-1280px.jpg",
+                "https://www.allaboutbirds.org/guide/assets/photo/39430311-720px.jpg",
+                " https://www.allaboutbirds.org/guide/assets/photo/39430311-720px.jpg"
+            ],
+            "description": "Snowy Plovers are plumper and paler, with shorter bills than Least Sandpipers. Snowy Plovers tend to occur higher up on the beach than Least Sandpipers."
+        }
+    }
+}
