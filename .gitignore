@@ -1,29 +1,28 @@
 __pycache__
-cnn_habitat_reaasoning/class_accuracies/
-keypoint_detection/sam_vit_h_4b8939.pth
+cnn_habitat_reaasoning/metadata/class_accuracies/
+cnn_habitat_reaasoning/metadata/concat_images/
+ablation_codes/keypoint_detection/sam_vit_h_4b8939.pth
 plain_clip/bird_alignment_clip_vs_uni.pdf
 cnn_habitat_reaasoning/irrelevant_same_diff_habitat.csv
 
 allaboutbirds/
-scraping/old_searching/
-demo_image2text/__pycache__/
-demo_image2text/__init__.py
-demo_image2text/image2text/__pycache__
-demo_image2text/image2text/image_text_matching/__pycache__
+ablation_codes/scraping/old_searching/
+ablation_codes/demo_image2text/__pycache__/
+ablation_codes/demo_image2text/__init__.py
+ablation_codes/demo_image2text/image2text/__pycache__
+ablation_codes/demo_image2text/image2text/image_text_matching/__pycache__
 *.zip
-scraping/allaboutbirds_data/
-demo_image2text/templates/test.html
-demo_image2text/templates/home_answer.html
-test.py
-templates/test.py
-ConceptBottleneck/*
+ablation_codes/ablation_codes/scraping/allaboutbirds_data/
+ablation_codes/demo_image2text/templates/test.html
+ablation_codes/demo_image2text/templates/home_answer.html
+ablation_codes/test.py
+ablation_codes/templates/test.py
 
-keypoint_detection/unsup-parts/unsup-parts/checkpoints/
-demo_image2text/image2text/
+ablation_codes/keypoint_detection/unsup-parts/unsup-parts/checkpoints/
+ablation_codes/demo_image2text/image2text/
 
 plain_clip/__pycache__
 .vscode/
-ConceptBottleneck/
 test_blip2.py
 plain_clip/ImageNetV2_pytorch/
 plain_clip/correct_inaturalist_replaced_id_figs/
@@ -39,15 +38,7 @@ plain_clip/cub_retrieval_acc.json
 plain_clip/inat21_retrieval_acc.json
 plain_clip/nabirds_retrieval_acc.json
 
-inpainting/Inpaint_Anything/
-inpainting/cub_inpaint/
-inpainting/nabirds_inpaint/
-inpainting/inat21_inpaint/
-inpainting/test_bird.jpeg
-inpainting/cub_bird_bb.json
-inpainting/nabirds_bird_bb.json
-inpainting/inat21_bird_bb.json
-
+ablation_codes/inpainting/Inpaint_Anything/
 
 *.jpg
 *.png
