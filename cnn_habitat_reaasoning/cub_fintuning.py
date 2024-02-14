@@ -39,11 +39,11 @@ if not os.path.exists('results/'):
 if not os.path.exists('results/cub/'):
     os.makedirs('results/cub/')
 class CFG:
-    seed = 42
+    seed = 45
     dataset = 'cub'
-    model_name = 'mohammad' #mohammad, vit, transfg
+    model_name = 'transfg' #mohammad, vit, transfg
     use_cont_loss = True
-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'cub': 200, 'nabirds': 555, 'inat21':1486}
@@ -55,10 +55,10 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    orig_train_img_folder = 'CUB_augmix_train_small_2/'#'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
+    orig_train_img_folder = 'CUB_augmix_train_small_2/' #'CUB_augmix_train_small_2/'#'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
     #CUB/test, CUB_inpaint_all_test (onlybackground), CUB_no_bg_test, CUB_random_test, CUB_bb_on_birds_test, CUB_big_bb_on_birds_test, CUB_nobirds_test (blackout-birds)
     orig_test_img_folder = 'CUB/test/'
-    orig_test_img_folder = 'CUB_inpaint_all_test/'
+    # orig_test_img_folder = 'CUB_inpaint_all_test/'
     # orig_test_img_folder = 'CUB_no_bg_test/'
     # orig_test_img_folder = 'CUB_random_test/'
     # orig_test_img_folder = 'CUB_bb_on_birds_test/'
@@ -80,7 +80,7 @@ class CFG:
     epochs = 50 if model_name in {'vit', 'transfg'} else 20
 
     # train or test
-    train = False
+    train = True
     return_paths = not train
     batch_size = 64
     if model_name == 'transfg':
@@ -274,7 +274,7 @@ dataset_sizes = {
 dataset_sizes
 
 # %%
-from FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
+from visual_correspondence_XAI.ResNet50.CUB_iNaturalist_17.FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
     
 class MultiTaskModel_3(nn.Module):
     def __init__(self, num_classes_task1=CFG.bird_num_classes, num_classes_task2=CFG.habitat_num_classes):
@@ -479,6 +479,39 @@ else:
 
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_11_15_2023-15:43:19/45-0.895-cutmix_False.pth' # same old
     
+
+    # test multi runs
+    # 1/ aug mix
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-11:13:32/15-0.863-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-11:26:54/11-0.865-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-11:28:08/19-0.864-cutmix_False.pth'
+
+    # normal
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-11:59:06/16-0.863-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-11:59:48/19-0.864-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-12:00:23/18-0.863-cutmix_False.pth'
+    
+    # augsame
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-12:20:53/15-0.865-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-12:21:28/19-0.865-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-12:21:55/12-0.864-cutmix_False.pth'
+
+    # irrelevant
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-13:25:48/18-0.858-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-13:26:03/18-0.860-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_mohammad_02_12_2024-13:26:25/7-0.859-cutmix_False.pth'
+
+
+    # transfg
+    #normal
+    model_path = ''
+    # same
+    # mix
+    # irrelevant
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_12_2024-14:04:13/20-0.887-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-00:59:31/44-0.887-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-01:00:55/21-0.884-cutmix_False.pth'
+
     print(model_path)
     print(CFG.orig_test_img_folder)
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
