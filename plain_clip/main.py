@@ -38,6 +38,8 @@ elif hparams['dataset'] == 'places365':
     num_classes = 365
 elif hparams['dataset'] == 'inaturalist2021':
     num_classes = 425#1486
+elif hparams['dataset'] == 'part_imagenet': # subset
+    num_classes = 78
 
 print("Evaluating...")
 lang_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=num_classes).to(device)
@@ -55,7 +57,7 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
         images, labels, path = batch
     else:
         images, labels = batch
-    
+
     images = images.to(device)
     labels = labels.to(device)
     
@@ -105,9 +107,9 @@ elif hparams['model_size'] == "ViT-B/16":
     save_model = "B_16"
 else:
     save_model = "L_14"
-with open(f'class_accuracies/{hparams["dataset"]}/{save_model}_habitat_class_accuracies.txt', 'w') as f:
-    for i, acc in enumerate(class_accuracies):
-        f.write(f"{acc.item() * 100:.2f}%\n")
+# with open(f'class_accuracies/{hparams["dataset"]}/{save_model}_habitat_class_accuracies.txt', 'w') as f:
+#     for i, acc in enumerate(class_accuracies):
+#         f.write(f"{acc.item() * 100:.2f}%\n")
 
 # After the loop, save the paths to a text file
 # with open('correctly_predicted_paths.txt', 'w') as f:

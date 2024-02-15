@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 from torchvision.datasets import ImageNet, ImageFolder
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
-from datasets import _transform, CUBDataset, NABirdsDataset, INaturalistDataset
+from datasets import _transform, CUBDataset, NABirdsDataset, INaturalistDataset, PartImageNetDataset
 from collections import OrderedDict
 import clip
 
@@ -33,7 +33,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'cub'
+hparams['dataset'] = 'part_imagenet'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
@@ -78,7 +78,7 @@ hparams['descriptor_fname'] = None
 CUB_DIR = '/home/tin/datasets/cub/CUB/' # REPLACE THIS WITH YOUR OWN PATH
 NABIRD_DIR = '/home/tin/datasets/nabirds/'
 INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
-
+PART_IMAGENET_DIR = '/home/tin/datasets/PartImageNet/'
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
 
@@ -165,9 +165,14 @@ elif hparams['dataset'] == 'inaturalist2021':
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_inaturalist2021'
 
-
+elif hparams['dataset'] == 'part_imagenet':
+    hparams['data_dir'] = pathlib.Path(PART_IMAGENET_DIR)
+    f = open("./descriptors/part_imagenet/part_imagenet_descriptions.json", "r")
+    data = json.load(f)
+    dataset = PartImageNetDataset(root_dir=hparams['data_dir'], train=False, n_pixel=hparams['image_size'], transform=tfms)
+    
     classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors/others/descriptors_eurosat.json'
+    hparams['descriptor_fname'] = 'descriptors_part_imagenet'
 
 hparams['model_size'] = "ViT-B/32" 
 if hparams["model_size"] == 'ViT-B/32':
@@ -176,14 +181,14 @@ elif hparams["model_size"] == 'ViT-B/16':
     model_size = 'B16'
 else:
     model_size = 'L14'
-hparams['device'] = "cuda:5" if torch.cuda.is_available() else "cpu"
+hparams['device'] = "cuda:4" if torch.cuda.is_available() else "cpu"
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 
 # imagenet
 # hparams['descriptor_fname'] = './descriptors/others/descriptors_imagenet.json'
 
 # cub
-hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
+# hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/additional_sachit_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/chatgpt_descriptors_{hparams['dataset']}.json"
 # hparams['descriptor_fname'] = f"./descriptors/cub/additional_chatgpt_descriptors_{hparams['dataset']}.json"
@@ -207,7 +212,11 @@ hparams['descriptor_fname'] = f"./descriptors/cub/descriptors_{hparams['dataset'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_sachit_descriptors_inaturalist.json'
 # hparams['descriptor_fname'] = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
-    
+
+# part imagenet
+hparams['descriptor_fname'] = './descriptors/part_imagenet/part_imagenet_descriptions.json'
+hparams['descriptor_fname'] = './descriptors/part_imagenet/habitat_part_imagenet_descriptions.json'
+
 print(hparams['descriptor_fname'])
 print("Creating descriptors...")
 sci2comm=None

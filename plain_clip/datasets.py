@@ -152,6 +152,56 @@ from nabirds_horn import load_bounding_box_annotations, load_part_annotations, l
 
 import random
 
+class PartImageNetDataset(Dataset):
+    def __init__(self, root_dir: str, transform: Compose = None, train: bool = True, n_pixel: int = 224) -> None:
+        super().__init__()
+        if not train:
+            self.data_dir = f"{root_dir}/images/test_folders/"
+            self.transform = transform
+            self.totensor = transforms.ToTensor()
+            self.loader=datasets.folder.default_loader
+            self.n_pixel = n_pixel
+        self.load_meta()
+
+    def load_meta(self):
+        # load synset mapping
+        with open("/home/tin/projects/reasoning/plain_clip/descriptors/part_imagenet/pi_synset2name.json", "r") as f:
+            synset_2_classname = json.load(f)
+
+        with open("/home/tin/projects/reasoning/plain_clip/descriptors/part_imagenet/part_imagenet_descriptions.json", 'r') as f:
+            classname_2_descriptions = json.load(f)
+        
+        classname_2_idx = {} # load from description files
+        for i, (classname, desc) in enumerate(classname_2_descriptions.items()):
+            classname_2_idx[classname] = i
+
+        self.samples = []
+        self.targets = []
+        class_folders = os.listdir(self.data_dir)
+        for class_fol in class_folders: # synset
+            if class_fol not in synset_2_classname:
+                continue
+            image_names = os.listdir(f"{self.data_dir}/{class_fol}")
+            for name in image_names:
+                self.samples.append(f"{self.data_dir}/{class_fol}/{name}")
+                classname = synset_2_classname[class_fol]
+                self.targets.append(classname_2_idx[classname])
+
+    def __len__(self):
+        return len(self.samples)
+
+    def __getitem__(self, idx):
+        image_path, target = self.samples[idx], self.targets[idx]
+
+        sample = self.loader(image_path)
+
+        if self.transform is not None:
+            sample = self.transform(sample)
+
+        return sample, target, image_path
+
+
+
 
 class NABirdsDataset(Dataset):
     allowed_keys = ['crop', 'box_dir', 'return_path', 'trivial_aug', 'ops', 'high_res', 'n_pixel', 'return_mask', 'all_data', 'zeroshot_split']
