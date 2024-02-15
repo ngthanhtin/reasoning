@@ -39,7 +39,7 @@ if not os.path.exists('results/'):
 if not os.path.exists('results/cub/'):
     os.makedirs('results/cub/')
 class CFG:
-    seed = 45
+    seed = 42
     dataset = 'cub'
     model_name = 'transfg' #mohammad, vit, transfg
     use_cont_loss = True
@@ -55,7 +55,7 @@ class CFG:
         'nabirds': '/home/tin/datasets/nabirds/',
         'inat21': '/home/tin/datasets/inaturalist2021_onlybird/'
     }
-    orig_train_img_folder = 'CUB_augmix_train_small_2/' #'CUB_augmix_train_small_2/'#'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
+    orig_train_img_folder = 'CUB_aug_train_4_small/' #'CUB_augmix_train_small_2/'#'temp_gen_data/CUB_aug_irrelevant_with_orig_birds_train_60/' # 'CUB_irrelevant_augmix_train_small', 'CUB_augmix_train_small/', 'CUB_aug_train_4_small'
     #CUB/test, CUB_inpaint_all_test (onlybackground), CUB_no_bg_test, CUB_random_test, CUB_bb_on_birds_test, CUB_big_bb_on_birds_test, CUB_nobirds_test (blackout-birds)
     orig_test_img_folder = 'CUB/test/'
     # orig_test_img_folder = 'CUB_inpaint_all_test/'
@@ -80,7 +80,7 @@ class CFG:
     epochs = 50 if model_name in {'vit', 'transfg'} else 20
 
     # train or test
-    train = True
+    train = False
     return_paths = not train
     batch_size = 64
     if model_name == 'transfg':
@@ -504,13 +504,23 @@ else:
 
     # transfg
     #normal
-    model_path = ''
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-12:00:52/38-0.889-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-12:01:56/42-0.892-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-12:02:08/25-0.885-cutmix_False.pth'
+
     # same
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-22:06:02/41-0.890-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-22:06:21/41-0.893-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-22:06:39/32-0.888-cutmix_False.pth'
+
     # mix
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_14_2024-10:30:43/34-0.892-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_14_2024-10:31:17/48-0.897-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_14_2024-10:31:33/46-0.894-cutmix_False.pth'
     # irrelevant
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_12_2024-14:04:13/20-0.887-cutmix_False.pth'
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-00:59:31/44-0.887-cutmix_False.pth'
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-01:00:55/21-0.884-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_12_2024-14:04:13/20-0.887-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-00:59:31/44-0.887-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/cub/cub_single_transfg_02_13_2024-01:00:55/21-0.884-cutmix_False.pth'
 
     print(model_path)
     print(CFG.orig_test_img_folder)
