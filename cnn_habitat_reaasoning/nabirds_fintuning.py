@@ -40,8 +40,8 @@ if not os.path.exists('results/nabirds/'):
 class CFG:
     seed = 42
     dataset = 'nabirds' 
-    model_name = 'mohammad' # vit, mohammad, transfg
-    device = torch.device('cuda:6' if torch.cuda.is_available() else 'cpu')
+    model_name = 'transfg' # vit, mohammad, transfg
+    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -52,8 +52,8 @@ class CFG:
         'cub': '/home/tin/datasets/cub',
         'nabirds': '/home/tin/datasets/nabirds/',
     }
-
-    orig_train_img_folder = 'gen_data/augmix_images_small_diff_30_added_1/' # 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small', augirrelevant_images_small_60_added_samples
+    
+    orig_train_img_folder = 'gen_data/augmix_images_small_diff_30_added_1/'#'gen_data/augmix_images_small_diff_30_added_1/' # 'train/', 'augirrelevant_images_small', 'augmix_images_small', 'augsame_images_small', gen_data/temp_gen_data/augirrelevant_with_orig_birds_train_60/
     #'gen_data/inpaint_images/test_inpaint/', 'gen_data/onlybird_images_test/', 'test/', 'gen_data/bb_on_birds_test/', 'gen_data/big_bb_on_birds_test/'
     orig_test_img_folder = 'test/'
 
@@ -81,6 +81,7 @@ class CFG:
 
     # train or test
     train = False
+
     return_paths = not train
     batch_size = 64
     if model_name == 'transfg':
@@ -218,7 +219,7 @@ dataset_sizes = {
 dataset_sizes
 
 # %%
-from FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
+from visual_correspondence_XAI.ResNet50.CUB_iNaturalist_17.FeatureExtractors import ResNet_AvgPool_classifier, Bottleneck
     
 class MultiTaskModel_3(nn.Module):
     def __init__(self, num_classes_task=CFG.bird_num_classes):
@@ -257,88 +258,6 @@ class ViTBase16(nn.Module):
     def forward(self, x):
         x = self.model(x[:,:3,:,:])
         return x
-# %%
-# cut mix rand bbox
-def rand_bbox(size, lam, to_tensor=True):
-    W = size[-2]
-    H = size[-1]
-    cut_rat = np.sqrt(1. - lam)
-    cut_w = int(W * cut_rat)
-    cut_h = int(H * cut_rat)
-
-    #uniform
-    cx = np.random.randint(W)
-    cy = np.random.randint(H)
-
-    bbx1 = np.clip(cx - cut_w // 2, 0, W)
-    bby1 = np.clip(cy - cut_h // 2, 0, H)
-    bbx2 = np.clip(cx + cut_w // 2, 0, W)
-    bby2 = np.clip(cy + cut_h // 2, 0, H)
-
-    if to_tensor:
-        bbx1 = torch.tensor(bbx1)
-        bby1 = torch.tensor(bby1)
-        bbx2 = torch.tensor(bbx2)
-        bby2 = torch.tensor(bby2)
-
-    return bbx1, bby1, bbx2, bby2
-
-def cutmix_same_class(images, labels, alpha=0.4):
-    batch_size = len(images)
-
-    images = images.detach().cpu().numpy()
-    labels = labels.detach().cpu().numpy()
-
-    num_classes = len(np.unique(labels))
-    
-    indices_by_class = [np.where(labels == c)[0] for c in range(num_classes)]
-    class_indices = [c_indices for c_indices in indices_by_class if len(c_indices) > 1]
-    class_indices = [np.random.permutation(c_indices) for c_indices in class_indices]
-
-    lam = np.random.beta(alpha, alpha)
-    cut_rat = np.sqrt(1.0 - lam)
-
-    image_h, image_w, _ = images.shape[1:]  # Assuming image shape in (height, width, channels)
-
-    mixed_images = images.copy()
-    mixed_labels = labels.copy()
-
-    for c_indices in class_indices:
-        shuffled_indices = np.roll(c_indices, random.randint(1, len(c_indices) - 1))
-        indices_pairs = zip(c_indices, shuffled_indices)
-
-        for idx1, idx2 in indices_pairs:
-            image1 = images[idx1]
-            image2 = images[idx2]
-
-            cx = np.random.randint(0, image_w)
-            cy = np.random.randint(0, image_h)
-
-            bbx1 = np.clip(int(cx - image_w * cut_rat / 2), 0, image_w)
-            bby1 = np.clip(int(cy - image_h * cut_rat / 2), 0, image_h)
-            bbx2 = np.clip(int(cx + image_w * cut_rat / 2), 0, image_w)
-            bby2 = np.clip(int(cy + image_h * cut_rat / 2), 0, image_h)
-
-            mixed_images[idx1, bby1:bby2, bbx1:bbx2, :] = image2[bby1:bby2, bbx1:bbx2, :]
-
-            lam = 1 - ((bbx2 - bbx1) * (bby2 - bby1) / (image_h * image_w))
-            mixed_labels[idx1] = lam * labels[idx1] + (1.0 - lam) * labels[idx2]
-
-    return torch.tensor(mixed_images), torch.tensor(labels)#torch.tensor(mixed_labels)
-
-# %%
-def show_batch_cutmix_images(dataloader):
-    for images,labels in dataloader:
-        images = images.to(CFG.device)
-        labels = labels.to(CFG.device)
-        images, labels = cutmix_same_class(images, labels, CFG.cutmix_beta)
-
-        fig,ax = plt.subplots(figsize = (16,12))
-        ax.set_xticks([])
-        ax.set_yticks([])
-        ax.imshow(make_grid(images,nrow=16).permute(1,2,0))
-        break
-
 # %%
 def train(trainloader, validloader, optimizer, criterion, scheduler, model, num_epochs = 10):
     
@@ -537,17 +456,56 @@ else:
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/transfg/SAME_2_nabirds_single_transfg_09_05_2023-16:02:00/34-0.887-cutmix_False.pth'
     # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/mohammad/FINETUNE_nabirds_single_mohammad_08_14_2023-18:27:21/17-0.802-cutmix_False.pth'
     
+    # mix
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-11:18:57/17-0.808-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-11:32:23/17-0.808-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-11:33:53/18-0.807-cutmix_False.pth'
+
+    #irrelevant
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:51:47/18-0.810-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:52:22/19-0.809-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:52:58/18-0.810-cutmix_False.pth'
+
+    # same
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:40:22/19-0.807-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:40:53/17-0.809-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:41:15/18-0.806-cutmix_False.pth'
+
+    # normal
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:36:52/19-0.806-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:37:05/17-0.806-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_mohammad_02_12_2024-13:37:17/19-0.807-cutmix_False.pth'
+
+    # transfg
+
+    # normal
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:19:09/35-0.887-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:19:32/44-0.883-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:19:50/46-0.884-cutmix_False.pth'
+    # same
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:22:15/30-0.884-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:22:46/35-0.884-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:23:21/30-0.885-cutmix_False.pth'
+    # mix
+    # model_path = ''
+    # model_path = ''
+    # model_path = ''
+    #irrelevant
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:29:51/13-0.878-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:30:10/34-0.877-cutmix_False.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:30:30/28-0.879-cutmix_False.pth'
+
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
     print(model_path)
     print(CFG.orig_test_img_folder)
     # write result to file
-    acc_filepath = 'class_accuracies/nabirds/group_mohammad_class_accuracy.txt'
-    f = open(f"{acc_filepath}", "a")
+    # acc_filepath = 'class_accuracies/nabirds/group_mohammad_class_accuracy.txt'
+    # f = open(f"{acc_filepath}", "a")
 
     with torch.no_grad():    
         acc, class_acc, embeds, true_labels, predicted_labels = test_epoch(test_loader, model, return_paths=CFG.return_paths)   
-        for k, acc_ in enumerate(class_acc):
-            f.write(f"{acc_ * 100:.2f}%\n")
-        f.close()
+        # for k, acc_ in enumerate(class_acc):
+        #     f.write(f"{acc_ * 100:.2f}%\n")
+        # f.close()
         
