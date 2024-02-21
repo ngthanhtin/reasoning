@@ -8,6 +8,34 @@ from torchvision.transforms import Compose
 
 from PIL import Image
 
+class CustomImageDataset(torch.utils.data.Dataset):
+    def __init__(self, data_dir, selected_folders, transform=None):
+        self.data_dir = data_dir
+        self.selected_folders = selected_folders
+        self.transform = transform
+        self.data = self._load_data()
+
+    def _load_data(self):
+        data = []
+        for folder_name in self.selected_folders:
+            folder_path = os.path.join(self.data_dir, folder_name)
+            class_index = self.selected_folders.index(folder_name)
+            for filename in os.listdir(folder_path):
+                if filename.endswith(".jpg") or filename.endswith(".png"):
+                    file_path = os.path.join(folder_path, filename)
+                    data.append((file_path, class_index))
+        return data
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        img_path, label = self.data[idx]
+        image = Image.open(img_path).convert("RGB")
+        if self.transform:
+            image = self.transform(image)
+        return image, label
+    
 class CUBDataset(datasets.ImageFolder):
     """
     Wrapper for the CUB-200-2011 dataset. 
