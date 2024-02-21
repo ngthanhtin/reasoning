@@ -27,21 +27,10 @@ def make_descriptor_sentence(descriptor):
     else:
         return f"which has {descriptor}."
     
-# def make_descriptor_sentence(descriptor):
-#     return descriptor.replace('It', 'which').replace('.', ',')
-    
 def modify_descriptor(descriptor, apply_changes):
     if apply_changes:
         return make_descriptor_sentence(descriptor)
     return descriptor
-
-def generate_adversarial_text(text):
-    """ Generate adversarial text by replacing characters with visually similar symbols or altering case. """
-    substitutions = {
-        'a': '@', 'e': '3', 'i': '!', 'o': '0', 's': '$',
-        'A': '4', 'E': '€', 'I': '|', 'O': '()', 'S': '5'
-    }
-    return ''.join(substitutions.get(c, c) for c in text)
 
 def generate_naturally_corrupted_text(text):
     """ Generate naturally corrupted text by introducing common typos. """
@@ -74,8 +63,6 @@ def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
         for i, (k, v) in enumerate(gpt_descriptions.items()):
             if len(v) == 0:
                 v = ['']
-            # v = [generate_adversarial_text(vv) for vv in v]
-            # v = [generate_naturally_corrupted_text(vv) for vv in v]
 
             if sci_2_comm:
                 word_to_add = wordify(sci_2_comm[k])
@@ -100,6 +87,112 @@ def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
                 print(f"\nExample description for class {k}: \"{gpt_descriptions[k][0]}\"\n")
     
     return gpt_descriptions, unmodify_dict
+
+def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: str='clip'):    
+    ### Prepare extracted descriptions.
+    gpt_descriptions = load_json(opt.descriptor_fname)
+    
+    # Replace empty descriptor lists if necessary.
+    gpt_descriptions = {key: item if len(item) else [''] for key, item in gpt_descriptions.items()}
+    
+    ### (Lazy - uses gpt descriptions) Use the default CLIP setup.
+    if not 'label_to_classname' in vars(opt):
+        opt.label_to_classname = list(gpt_descriptions.keys())
+        opt.n_classes = len(opt.label_to_classname)
+        
+    ### (Lazy - uses gpt descriptions) Use the default CLIP setup.    
+    if mode == 'clip':
+        gpt_descriptions = {l: opt.label_before_text + wordify(l) + opt.label_after_text for l in opt.label_to_classname}
+        
+    # Get complete list of available descriptions.
+    descr_list = [list(values) for values in gpt_descriptions.values()]
+    descr_list = np.array([x for y in descr_list for x in y])
+    # List of available classes.
+    key_list = list(gpt_descriptions.keys())                                       
+    
+    ### Descriptor Makers.
+    structured_descriptor_builder = lambda item, cls: f"{opt.pre_descriptor_text}{opt.label_before_text}{wordify(cls)}{opt.descriptor_separator}{modify_descriptor(item, opt.apply_descriptor_modification)}{opt.label_after_text}"    
+    # generic_descriptor_builder = lambda item, cls: f"{opt.pre_descriptor_text}{opt.label_before_text}{wordify(cls)}{opt.descriptor_separator}{item}{opt.label_after_text}"    
+    
+    ### Use description-based CLIP (DCLIP).
+    if mode == 'gpt_descriptions':
+        gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
+
+    ### Use DCLIP with randomly assigned descriptions (every class gets its own random subset).
+    if mode == 'random_descriptions':
+        # Average number of descriptions per class.
+        num_descr_per_class = int(np.ceil(len(descr_list)/len(gpt_descriptions)))
+        # Number of randomly assigned descriptions per class.
+        num_rand_descr_per_class = num_descr_per_class * opt.randomization_budget
+        # Fill description dictionary.
+        gpt_descriptions = {
+            key: list(np.random.choice(descr_list, np.min([len(descr_list), num_rand_descr_per_class]), replace=False)) for key in gpt_descriptions.keys()}
+        gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
+        
+    ### Use DCLIP where every class uses the same set of random descriptions.
+    if mode == 'shared_random_descriptions':
+        # Average number of descriptions per class.
+        num_descr_per_class = int(np.ceil(len(descr_list)/len(gpt_descriptions)))
+        num_samples = int(num_descr_per_class * opt.randomization_budget)
+        replace = False if num_samples <= len(descr_list) else True
+        list_shared_descr = np.random.choice(descr_list, num_samples, replace=replace)
+        gpt_descriptions = {key: list_shared_descr for key in gpt_descriptions.keys()}    
+        gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
+
+    if mode == 'waffle':
+        import pickle as pkl
+        # np.random.seed(2)
+        seed_everything(opt.seed)
+        word_list = pkl.load(open('word_list.pkl', 'rb'))
+
+        avg_num_words = int(np.max([np.round(np.mean([len(wordify(x).split(' ')) for x in key_list])), 1]))
+        avg_word_length = int(np.round(np.mean([np.mean([len(y) for y in wordify(x).split(' ')]) for x in key_list])))        
+        word_list = [x[:avg_word_length] for x in word_list]
+
+        # (Lazy solution) Extract list of available random characters from gpt description list. Ideally we utilize a separate list.
+        character_list = [x.split(' ') for x in descr_list]
+        character_list = [x.replace(',', '').replace('.', '') for x in np.unique([x for y in character_list for x in y])]
+        character_list = np.unique(list(''.join(character_list)))
+        
+        num_spaces = int(np.round(np.mean([np.sum(np.array(list(x)) == ' ') for x in key_list]))) + 1
+        num_chars = int(np.ceil(np.mean([np.max([len(y) for y in x.split(' ')]) for x in key_list])))
+            
+        num_chars += num_spaces - num_chars%num_spaces
+        sample_key = ''
+        
+        for s in range(num_spaces):
+            for _ in range(num_chars//num_spaces):
+                sample_key += 'a'
+            if s < num_spaces - 1:
+                sample_key += ' '
+
+        original_gpt_descriptions = gpt_descriptions.copy()        
+        gpt_descriptions = {key: [] for key in gpt_descriptions.keys()}
+        
+        for key in key_list:
+            for _ in range(opt.waffle_count):
+                base_word = ''                
+                for a in range(avg_num_words):
+                    base_word += np.random.choice(word_list, 1, replace=False)[0]
+                    if a < avg_num_words - 1:
+                        base_word += ' '
+                gpt_descriptions[key].append(structured_descriptor_builder(base_word, key))
+                noise_word = ''                
+                use_key = sample_key if len(key) >= len(sample_key) else key
+                for c in sample_key:
+                    if c != ' ':
+                        noise_word += np.random.choice(character_list, 1, replace=False)[0]
+                    else:
+                        noise_word += ', '
+                gpt_descriptions[key].append(structured_descriptor_builder(noise_word, key))
+                                
+        match_key = np.random.choice(key_list)
+        gpt_descriptions = {key: gpt_descriptions[match_key] for key in key_list}
+        for key in gpt_descriptions:
+            gpt_descriptions[key] = [x.replace(wordify(match_key), wordify(key)) for x in gpt_descriptions[key]]
+            gpt_descriptions[key].append(structured_descriptor_builder(original_gpt_descriptions[key][-1], key))
+
+    return gpt_descriptions, []
 
 
 def seed_everything(seed: int):
