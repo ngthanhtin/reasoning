@@ -41,7 +41,7 @@ class CFG:
     seed = 42
     dataset = 'nabirds' 
     model_name = 'transfg' # vit, mohammad, transfg
-    device = torch.device('cuda:7' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:4' if torch.cuda.is_available() else 'cpu')
     use_cont_loss = True
 
     # data params
@@ -67,8 +67,8 @@ class CFG:
     # # test with inat
     # orig_test_img_folder = '../overlapping_nabirds_inat_test/'
     # # # #test fly-nonfly birds
-    # orig_test_img_folder = 'non_flybird_nabirds_test/'
-    # orig_test_img_folder = 'flybird_nabirds_test/'
+    # orig_test_img_folder = 'gen_data/non_flybird_nabirds_test/'
+    # orig_test_img_folder = 'gen_data/flybird_nabirds_test/'
 
     # cutmix
     cutmix = False
@@ -487,13 +487,13 @@ else:
     model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:22:46/35-0.884-cutmix_False.pth'
     model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_17_2024-16:23:21/30-0.885-cutmix_False.pth'
     # mix
-    # model_path = ''
-    # model_path = ''
-    # model_path = ''
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_18_2024-21:43:22/44-0.887-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_18_2024-21:44:24/37-0.887-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_18_2024-21:44:45/39-0.886-cutmix_False.pth'
     #irrelevant
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:29:51/13-0.878-cutmix_False.pth'
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:30:10/34-0.877-cutmix_False.pth'
-    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:30:30/28-0.879-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:29:51/13-0.878-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:30:10/34-0.877-cutmix_False.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/nabirds/nabirds_single_transfg_02_16_2024-08:30:30/28-0.879-cutmix_False.pth'
 
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
