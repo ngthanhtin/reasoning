@@ -20,7 +20,7 @@ for dataset in "${datasets[@]}"; do
     for model_size in "${model_sizes[@]}"; do
         for descriptor_fname in "${descriptor_paths[@]}"; do
             # Run the Python script with the current combination
-            python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fname="$descriptor_fname" --device cuda:3 --savename="pi_accuracy"
+            python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fname="$descriptor_fname" --device cuda:3 --savename="normal_pi_accuracy"
         done
     done
     
@@ -28,7 +28,7 @@ for dataset in "${datasets[@]}"; do
         for descriptor_fname in "${descriptor_paths[@]}"; do
             for seed in "${seeds[@]}"; do
                 # Run the Python script with the current combination
-                python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fname="$descriptor_fname" --device cuda:3 --savename="pi_accuracy" --seed=$seed
+                python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fname="$descriptor_fname" --device cuda:3 --savename="waffle_pi_accuracy" --seed=$seed
             done
         done
     done
