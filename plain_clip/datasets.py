@@ -181,7 +181,7 @@ from nabirds_horn import load_bounding_box_annotations, load_part_annotations, l
 import random
 
 class PartImageNetDataset(Dataset):
-    def __init__(self, root_dir: str, transform: Compose = None, train: bool = True, n_pixel: int = 224) -> None:
+    def __init__(self, root_dir: str, description_dir: str, transform: Compose = None, train: bool = True, n_pixel: int = 224) -> None:
         super().__init__()
         if not train:
             self.data_dir = f"{root_dir}/images/test_folders/"
@@ -189,14 +189,18 @@ class PartImageNetDataset(Dataset):
             self.totensor = transforms.ToTensor()
             self.loader=datasets.folder.default_loader
             self.n_pixel = n_pixel
+
+            self.description_dir = description_dir
+            self.synset2name_dir = "/home/tin/projects/reasoning/plain_clip/descriptors/part_imagenet/pi_synset2name.json"
+            
         self.load_meta()
 
     def load_meta(self):
         # load synset mapping
-        with open("/home/tin/projects/reasoning/plain_clip/descriptors/part_imagenet/pi_synset2name.json", "r") as f:
+        with open(self.synset2name_dir, "r") as f:
             synset_2_classname = json.load(f)
 
-        with open("/home/tin/projects/reasoning/plain_clip/descriptors/part_imagenet/part_imagenet_descriptions.json", 'r') as f:
+        with open(self.description_dir, 'r') as f:
             classname_2_descriptions = json.load(f)
         
         classname_2_idx = {} # load from description files
