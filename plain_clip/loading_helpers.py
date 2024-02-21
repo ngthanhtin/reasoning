@@ -143,7 +143,7 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
         import pickle as pkl
         # np.random.seed(2)
         seed_everything(opt.seed)
-        word_list = pkl.load(open('word_list.pkl', 'rb'))
+        word_list = pkl.load(open('/home/tin/projects/reasoning/plain_clip/word_list.pkl', 'rb'))
 
         avg_num_words = int(np.max([np.round(np.mean([len(wordify(x).split(' ')) for x in key_list])), 1]))
         avg_word_length = int(np.round(np.mean([np.mean([len(y) for y in wordify(x).split(' ')]) for x in key_list])))        

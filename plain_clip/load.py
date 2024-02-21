@@ -56,8 +56,6 @@ def setup(opt):
         print(f'Model size is {opt.model_size} but image size is {opt.image_size}. Setting image size to 448.')
         opt.image_size = 448
 
-    opt.descriptor_fname = None
-
     CUB_DIR = '/home/tin/datasets/cub/CUB/'
     NABIRD_DIR = '/home/tin/datasets/nabirds/'
     INATURALIST_DIR = '/home/tin/datasets/inaturalist2021_onlybird/'
@@ -73,21 +71,11 @@ def setup(opt):
         # dataset = ImageFolder(root='/home/tin/datasets/cub/CUB_bb_on_birds_test/', transform=tfms)
 
         opt.classes_to_load = None #dataset.classes
-        opt.descriptor_fname = 'cub/descriptors_cub'
         opt.num_classes = 200
-
-        opt.descriptor_fname = f"./descriptors/cub/descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/cub/additional_sachit_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/cub/chatgpt_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/cub/additional_chatgpt_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/cub/ID_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/cub/ID2_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/cub/gpt_4_sachit_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/hier_additional_chatgpt_descriptors_{opt.dataset}.json"
 
     elif opt.dataset == 'nabirds':
         opt.data_dir = pathlib.Path(NABIRD_DIR)
-        f = open("./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_nabirds.json", "r")
+        f = open(opt.descriptor_fname, "r")
         # f = open("./descriptors/nabirds/chatgpt_descriptors_nabirds.json", "r")
         data = json.load(f)
         subset_class_names = list(data.keys())
@@ -116,20 +104,11 @@ def setup(opt):
         dataset = CustomImageDataset(data_dir='/home/tin/datasets/nabirds/images/', selected_folders=selected_folders, transform=opt.tfms)
         # dataset = ImageFolder(root='/home/tin/datasets/nabirds/test/', transform=opt.tfms)
         opt.classes_to_load = None #dataset.classes
-        opt.descriptor_fname = 'nabirds/descriptors_nabirds'
         opt.num_classes = 267
 
-        opt.descriptor_fname = f"./descriptors/nabirds/no_ann_chatgpt_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/nabirds/no_ann_ID_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/nabirds/no_ann_ID2_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/nabirds/no_ann_additional_chatgpt_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/nabirds/no_ann_sachit_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/nabirds/no_ann_additional_sachit_descriptors_{opt.dataset}.json"
-        # opt.descriptor_fname = f"./descriptors/nabirds/additional_sachit_descriptors_{opt.dataset}.json"
-
-    elif opt.dataset == 'inaturalist2021':
+    elif opt.dataset == 'inaturalist':
         opt.data_dir = pathlib.Path(INATURALIST_DIR)
-        f = open("./descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json", "r")
+        f = open(opt.descriptor_fname, "r")
         data = json.load(f)
         subset_class_names = list(data.keys())
         dataset = INaturalistDataset(root_dir=opt.data_dir, train=False, subset_class_names=subset_class_names, n_pixel=opt.image_size, transform=opt.tfms)
@@ -141,37 +120,24 @@ def setup(opt):
         opt.sci2comm = json.load(opt.sci2comm)
 
         opt.classes_to_load = None #dataset.classes
-        opt.descriptor_fname = 'descriptors_inaturalist2021'
         opt.num_classes = 425
-
-        opt.descriptor_fname = './descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json'
-        # opt.descriptor_fname = './descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json'
-        # opt.descriptor_fname = './descriptors/inaturalist2021/425_ID_descriptors_inaturalist.json'
-        # opt.descriptor_fname = './descriptors/inaturalist2021/425_ID2_descriptors_inaturalist.json'
-        # opt.descriptor_fname = './descriptors/inaturalist2021/425_additional_sachit_descriptors_inaturalist.json'
-        # opt.descriptor_fname = './descriptors/inaturalist2021/425_additional_chatgpt_descriptors_inaturalist.json'
 
     elif opt.dataset == 'part_imagenet':
         opt.data_dir = pathlib.Path(PART_IMAGENET_DIR)
-        f = open("./descriptors/part_imagenet/part_imagenet_descriptions.json", "r")
+        f = open(opt.descriptor_fname, "r")
         data = json.load(f)
-        dataset = PartImageNetDataset(root_dir=opt.data_dir, train=False, n_pixel=opt.image_size, transform=opt.tfms)
+        dataset = PartImageNetDataset(root_dir=opt.data_dir, description_dir=opt.descriptor_fname, train=False, n_pixel=opt.image_size, transform=opt.tfms)
         
         opt.classes_to_load = None #dataset.classes
-        opt.descriptor_fname = 'descriptors_part_imagenet'
         opt.num_classes = 78
 
-        opt.descriptor_fname = './descriptors/part_imagenet/part_imagenet_descriptions.json'
-        # opt.descriptor_fname = './descriptors/part_imagenet/habitat_part_imagenet_descriptions.json'
-
-    print(opt.descriptor_fname)
-
-    # allaboutbirds_example_images_path = f'./image_descriptions/cub/allaboutbirds_example_images_40.json' # 30 is the best for cub
-    allaboutbirds_example_images_path = f'./image_descriptions/nabirds/nabirds_same_example_images_50.json' # 30 is the best
-    # allaboutbirds_example_images_path = f'./image_descriptions/inaturalist/inaturalist_example_images_50.json'
-    # allaboutbirds_example_images_path = f'./image_descriptions/imagenet/imagenet_example_images_500.json'
-    allaboutbirds_example_images = open(allaboutbirds_example_images_path, 'r')
-    allaboutbirds_example_images = json.load(allaboutbirds_example_images)
+    if opt.support_images_path:
+        # support_images_path = f'./image_descriptions/cub/allaboutbirds_example_images_40.json' # 30 is the best for cub
+        # support_images_path = f'./image_descriptions/nabirds/nabirds_same_example_images_50.json' # 30 is the best
+        # support_images_path = f'./image_descriptions/inaturalist/inaturalist_example_images_50.json'
+        
+        support_images = open(opt.support_images_path, 'r')
+        support_images = json.load(support_images)
 
     return opt, dataset
 
@@ -184,7 +150,7 @@ def compute_description_encodings(opt, model):
     for k in gpt_descriptions:
         print(f"\nExample description for class {k}: \"{gpt_descriptions[k]}\"\n")
         break
-    
+
     label_to_classname = list(gpt_descriptions.keys())
 
     if 'sci2comm' in vars(opt):
@@ -226,39 +192,9 @@ def compute_description_encodings(opt, model):
     #     gpt_descriptions[k] = [k, gpt_descriptions[k][-1]] # classname and habitat
 
     for k, v in gpt_descriptions.items():
-        # v = v[:limited_descs]
-        
-        if len(v[-3]) >= cut_len:
-            v[-3] = v[-3][:cut_len]
-        if len(v[-2]) >= cut_len:
-            v[-2] = v[-2][:cut_len]
-        if len(v[-1]) >= cut_len:
-            v[-1] = v[-1][:cut_len]
-        
-        if opt.descriptor_fname in ["./descriptors/nabirds/no_ann_additional_sachit_descriptors_nabirds.json", \
-                                           './descriptors/inaturalist2021/replaced_425_additional_sachit_descriptors_inaturalist.json',\
-                                            './descriptors/inaturalist2021/425_additional_sachit_descriptors_inaturalist.json']:
-            if len(v[-4]) >= cut_len:
-                v[-4] = v[-4][:cut_len]    
-
-        # if opt.descriptor_fname in ["./descriptors/ID_descriptors_cub.json",
-        #                                     "./descriptors/ID2_descriptors_cub.json",
-        #                                     "./descriptors/ID_descriptors_nabirds.json",
-        #                                     "./descriptors/ID2_descriptors_nabirds.json",
-        #                                     "./descriptors/ID_diffshape_descriptors_nabirds.json",
-        #                                     "./descriptors/ID2_diffshape_descriptors_nabirds.json",
-        #                                     "./descriptors/no_ann_ID_descriptors_nabirds.json"]:
-        if len(v[0]) >= cut_len:
-            v[0] = v[0][:cut_len]
-
-        
-        new_v = []# for testing gpt4+habitat
-        for i in range(len(v)):
-            # if i not in [len(v)-1, len(v)-2, len(v)-3]: # sachit
-            # if i not in [len(v)-2, len(v)-3]: # gpt4
-            if i not in [len(v)-1]:
-                new_v.append(v[i])
-        
+        # v = v[:limited_descs] # limit the number of descriptions per class
+        v = [v_[:cut_len] for v_ in v] # limit the number of character per description
+    
         tokens = clip.tokenize(v).to(opt.device)
         description_encodings[k] = F.normalize(model.encode_text(tokens))
     
