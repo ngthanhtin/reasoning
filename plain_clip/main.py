@@ -46,7 +46,11 @@ parser.add_argument('--pre_descriptor_text', type=str, default='',
 parser.add_argument('--descriptor_separator', type=str, default=', ', 
                     help='Text separating descriptor part and classname.')
 
-parser.add_argument('--descriptor_fname', type=str, help='Descriptor filename')
+parser.add_argument('--descriptor_fname', default=None, type=str, help='Descriptor filename')
+
+###
+parser.add_argument('--support_images_path', default=None, type=str, help='Support images json path')
+
 ###
 parser.add_argument('--category_name_inclusion', type=str, default='prepend', choices=['append', 'prepend'], help='How to include category names')
 parser.add_argument('--dont_apply_descriptor_modification', action='store_true',
@@ -60,6 +64,8 @@ parser.add_argument('--waffle_count', type=int, default=15,
 parser.add_argument('--reps', type=int, default=1, 
                     help='Number of repetitions to run a method for with changing randomization. Default value should be >7 for WaffleCLIP variants.')
 
+parser.add_argument('--savename', type=str, default='results',
+                    help='Name of csv-file in which results are stored.')
 
 ###
 opt = parser.parse_args()
@@ -152,12 +158,30 @@ class_accuracies[torch.isnan(class_accuracies)] = 0
 
 accuracy_logs = {}
 accuracy_logs["Total Description-based Top-1 Accuracy: "] = 100*lang_accuracy_metric.compute().item()
-accuracy_logs["Total Description-based Top-5 Accuracy: "] = 100*lang_accuracy_metric_top5.compute().item()
+# accuracy_logs["Total Description-based Top-5 Accuracy: "] = 100*lang_accuracy_metric_top5.compute().item()
 
 accuracy_logs["Total CLIP-Standard Top-1 Accuracy: "] = 100*clip_accuracy_metric.compute().item()
-accuracy_logs["Total CLIP-Standard Top-5 Accuracy: "] = 100*clip_accuracy_metric_top5.compute().item()
+# accuracy_logs["Total CLIP-Standard Top-5 Accuracy: "] = 100*clip_accuracy_metric_top5.compute().item()
 
 # print the dictionary
 colors =['red', 'red', 'white', 'white']
 for i, (key, value) in enumerate(accuracy_logs.items()):
     print(colored(f"{key} {value}", colors[i], attrs=["bold"]))
+
+
+### Save results as csv.
+import csv
+os.makedirs('results', exist_ok=True)
+# Open the file in write mode
+with open(f'results/{opt.savename}.csv', 'a', newline='') as file:
+    # Create a writer object
+    writer = csv.writer(file)
+    
+    # Optionally write headers
+    writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"])
+    
+    # Write accuracy logs to CSV
+    for key, value in accuracy_logs.items():
+        writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)])
+
+print(f"Accuracy logs saved to {opt.savename}")
