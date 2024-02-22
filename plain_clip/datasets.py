@@ -191,8 +191,8 @@ class PartImageNetDataset(Dataset):
             self.n_pixel = n_pixel
 
             self.description_dir = description_dir
-            self.synset2name_dir = "/home/tin/projects/reasoning/plain_clip/descriptors/part_imagenet/pi_synset2name.json"
-            
+            self.synset2name_dir = "/home/tin/projects/reasoning/plain_clip/descriptors/part_imagenet/158_pi_synset2name.json"
+
         self.load_meta()
 
     def load_meta(self):
