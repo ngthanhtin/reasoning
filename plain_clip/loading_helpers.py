@@ -141,7 +141,6 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
 
     if mode == 'waffle':
         import pickle as pkl
-        # np.random.seed(2)
         seed_everything(opt.seed)
         word_list = pkl.load(open('/home/tin/projects/reasoning/plain_clip/word_list.pkl', 'rb'))
 

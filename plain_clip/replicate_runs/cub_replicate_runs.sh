@@ -18,19 +18,11 @@ seeds=(
 )
 # Loop through each combination of dataset, mode, model size, and descriptor file
 for dataset in "${datasets[@]}"; do
-    # for model_size in "${model_sizes[@]}"; do
-    #     for descriptor_fname in "${descriptor_paths[@]}"; do
-    #         # Run the Python script with the current combination
-    #         python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fname="$descriptor_fname" --device cuda:0 --savename="normal_cub_accuracy"
-    #     done
-    # done
-
     for model_size in "${model_sizes[@]}"; do
-        for descriptor_fname in "${descriptor_paths[@]}"; do
-            for seed in "${seeds[@]}"; do
-                # Run the Python script with the current combination
-                python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fname="$descriptor_fname" --device cuda:0 --savename="waffle_cub_accuracy" --seed=$seed
-            done
-        done
+        python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="normal_cub_accuracy"
+    done
+
+    for model_size in "${model_sizes[@]}"; do        
+        python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="waffle_cub_accuracy" --seeds "${seeds[@]}"
     done
 done
