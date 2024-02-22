@@ -1,0 +1,633 @@
+{
+    "kingsnake": [
+        "a non-venomous snake",
+        "black, brown, or olive-colored",
+        "a light-colored stripe down the center of the body",
+        "a pointed head",
+        "round eyes",
+        "a long, slender body",
+        "smooth scales"
+    ],
+    "tree frog": [
+        "four-limbed amphibian",
+        "green, brown, or grey",
+        "wet and hairless nose",
+        "long, sticky tongue",
+        "large eyes",
+        "webbed hands and feet",
+        "often has spots or stripes"
+    ],
+    "desert grassland whiptail lizard": [
+        "a small to medium sized lizard",
+        "a long, thin body",
+        "a long tail",
+        "short legs",
+        "a pointed snout",
+        "small, round eyes",
+        "smooth, dry skin",
+        "a light brown or tan coloration with dark stripes running down the body"
+    ],
+    "ruddy turnstone": [
+        "a small, stocky bird",
+        "black, brown, and white plumage",
+        "a black head with a white stripe behind the eye",
+        "a short, stout bill",
+        "strong legs and feet adapted for walking on rocky shores",
+        "a wingspan of 15-17 inches"
+    ],
+    "American alligator": [
+        "large, stocky reptile",
+        "greenish-brown or greyish-black",
+        "long, thick tail",
+        "short, blunt snout",
+        "large, powerful jaws",
+        "webbed feet",
+        "rough, scaly skin"
+    ],
+    "African rock python": [
+        "large, non-venomous snake",
+        "brown or olive green with dark brown or black markings",
+        "thick body",
+        "long, narrow head",
+        "small eyes",
+        "large, triangular head scale"
+    ],
+    "garbage truck": [
+        "large, boxy vehicle",
+        "brightly colored",
+        "\"Garbage Truck\" or \"Sanitation Truck\" markings",
+        "rear loading door",
+        "hydraulic lift arm",
+        "large tires",
+        "often has a rear-view camera"
+    ],
+    "race car": [
+        "a car with a sleek, aerodynamic design",
+        "brightly colored with sponsors' logos",
+        "large, powerful engine",
+        "racing tires",
+        "roll cage to protect the driver",
+        "safety equipment such as a fire extinguisher and helmet"
+    ],
+    "great egret": [
+        "large, white bird",
+        "long neck",
+        "long, thin legs",
+        "long, pointed bill",
+        "large wingspan"
+    ],
+    "hammerhead shark": [
+        "large, flat head with protruding eyes",
+        "long, wide body",
+        "large fins",
+        "grey or brown coloration",
+        "white underside"
+    ],
+    "golf cart": [
+        "four-wheeled vehicle",
+        "typically has a roof and windshield",
+        "may have a rear seat and storage area",
+        "may be electric or gas-powered",
+        "typically has a golf bag holder or rack",
+        "may have a club cleaner on the side"
+    ],
+    "chameleon": [
+        "a reptile with a long, prehensile tongue",
+        "a body that can change color",
+        "large, protruding eyes",
+        "a crest of spikes or horns on the head",
+        "clawed hands and feet",
+        "a long tail"
+    ],
+    "loggerhead sea turtle": [
+        "large, hard shell",
+        "brown, red, or yellow-brown",
+        "long neck",
+        "large head",
+        "two sets of flippers",
+        "a tail",
+        "a small mouth"
+    ],
+    "tench": [
+        "a freshwater fish",
+        "olive green or brown in color",
+        "a dark bar on the side of the body",
+        "a thick, fleshy body",
+        "a large, flattened head",
+        "small eyes",
+        "a large mouth with thick lips"
+    ],
+    "leatherback sea turtle": [
+        "large, dark-colored turtle",
+        "smooth, leathery shell",
+        "long, narrow head",
+        "small, clawed flippers",
+        "long, powerful tail",
+        "small, black eyes"
+    ],
+    "albatross": [
+        "large, long-winged bird",
+        "white or grey plumage",
+        "black wingtips",
+        "long, hooked bill",
+        "webbed feet",
+        "long, narrow wings",
+        "slow, powerful flight"
+    ],
+    "garter snake": [
+        "a long, thin body",
+        "a small head",
+        "a pointed snout",
+        "small, round eyes",
+        "stripes running along the length of the body",
+        "a long, forked tongue"
+    ],
+    "agama": [
+        "four-limbed reptile",
+        "scaly skin",
+        "long tail",
+        "small, triangular head",
+        "large eyes",
+        "brightly colored body"
+    ],
+    "jacamar": [
+        "a brightly colored bird",
+        "a long, curved beak",
+        "a short tail",
+        "long legs",
+        "webbed feet",
+        "large eyes"
+    ],
+    "green mamba": [
+        "long, slender body",
+        "green or olive-green coloration",
+        "black or dark brown bands on the body",
+        "black or dark brown markings on the head",
+        "black or dark brown eyes",
+        "long, black or dark brown tongue"
+    ],
+    "snoek fish": [
+        "a long, slender body",
+        "a large mouth with sharp teeth",
+        "dark green or brownish-green coloration",
+        "white spots on the body",
+        "a forked tail"
+    ],
+    "go-kart": [
+        "a small, open-wheeled vehicle",
+        "a seat for the driver",
+        "pedals for the driver to operate",
+        "a steering wheel",
+        "a small engine",
+        "a chain or belt to connect the engine to the wheels",
+        "a frame to support the engine, seat, and wheels"
+    ],
+    "vine snake": [
+        "long, thin body",
+        "green or brown coloration",
+        "pattern of light and dark bands running the length of the body",
+        "pointed head",
+        "long, thin tongue",
+        "small, round eyes"
+    ],
+    "European green lizard": [
+        "green or brown body with black spots",
+        "long tail",
+        "small head",
+        "long, thin legs",
+        "webbed feet",
+        "long, sticky tongue"
+    ],
+    "killer whale": [
+        "large, black, white, and grey marine mammal",
+        "long, curved dorsal fin",
+        "large flippers",
+        "small eyes",
+        "large mouth with sharp teeth"
+    ],
+    "ambulance": [
+        "a vehicle with emergency lights and sirens",
+        "a large, boxy shape",
+        "a red, white, or blue color scheme",
+        "the word \"ambulance\" written on the side",
+        "a medical symbol such as a cross or a caduceus",
+        "a patient on a stretcher inside"
+    ],
+    "Saharan horned viper": [
+        "a venomous snake",
+        "light brown or tan with dark brown or black markings",
+        "a triangular head with horns",
+        "a thick body",
+        "a long tail",
+        "small eyes"
+    ],
+    "black stork": [
+        "large, black bird",
+        "long, red bill",
+        "red legs and feet",
+        "white underparts",
+        "long, black tail",
+        "black wings with white wingtips"
+    ],
+    "recreational vehicle": [
+        "a large, boxy vehicle",
+        "often brightly colored",
+        "may have awnings, solar panels, or other accessories",
+        "typically has four wheels",
+        "may be towed behind a car or truck"
+    ],
+    "clownfish": [
+        "orange, white, or black coloration with white stripes",
+        "small size, typically less than six inches in length",
+        "round shape",
+        "protruding eyes",
+        "large fins",
+        "long, flowing tail"
+    ],
+    "night snake": [
+        "small, slender snake",
+        "black or dark brown",
+        "smooth scales",
+        "vertical pupils",
+        "heat-sensing pits on the head"
+    ],
+    "station wagon": [
+        "a car with a long roof and rear cargo area",
+        "often has wood paneling on the sides",
+        "typically has four doors",
+        "may have a rear-facing third row of seats",
+        "often used for family vacations or road trips"
+    ],
+    "ring-necked snake": [
+        "a snake with a distinctive ring of color around its neck",
+        "a long, slender body",
+        "a pointed head",
+        "small, black eyes",
+        "a forked tongue",
+        "smooth, shiny scales",
+        "a long, coiled tail"
+    ],
+    "limousine": [
+        "a long, luxury car",
+        "black or white",
+        "a chauffeur",
+        "passengers in the back seat",
+        "tinted windows",
+        "a partition between the driver and the passengers",
+        "a long wheelbase"
+    ],
+    "Gila monster": [
+        "large, stocky lizard",
+        "black, orange, or pink body with dark spots or bands",
+        "a blunt snout",
+        "a forked tongue",
+        "small eyes",
+        "short legs",
+        "a thick tail"
+    ],
+    "trolleybus": [
+        "an electric bus",
+        "typically red or green",
+        "two or more sets of double doors",
+        "a raised platform at the front or rear of the bus",
+        "a trolley pole extending from the roof of the bus",
+        "wires overhead"
+    ],
+    "bee eater": [
+        "a brightly colored bird",
+        "a long, curved beak",
+        "a small head",
+        "a slender body",
+        "long tail feathers",
+        "a black stripe through the eye",
+        "a black band on the wing"
+    ],
+    "tailed frog": [
+        "four-limbed amphibian",
+        "green, brown, or black",
+        "a long tail",
+        "large eyes",
+        "moist skin",
+        "webbed hands and feet"
+    ],
+    "jeep": [
+        "four-wheeled vehicle",
+        "off-road capability",
+        "rugged design",
+        "open body style",
+        "exposed engine and other mechanical parts",
+        "large tires",
+        "roll bars or a soft top"
+    ],
+    "minivan": [
+        "a van with a lower roofline and sloping rear window",
+        "typically has four doors and room for seven or eight passengers",
+        "may have sliding doors on one or both sides",
+        "may have a rear hatchback for easy loading and unloading",
+        "typically has a V6 engine"
+    ],
+    "little blue heron": [
+        "a long, thin neck",
+        "a long, thin bill",
+        "blue-grey plumage",
+        "long, thin legs",
+        "webbed feet",
+        "a long, pointed tail"
+    ],
+    "common gallinule": [
+        "a waterbird with a chicken-like body",
+        "a short, thick neck",
+        "a small head with a red and yellow bill",
+        "red eyes",
+        "greenish-brown plumage",
+        "long, greenish-yellow legs",
+        "webbed feet",
+        "a long, chicken-like tail"
+    ],
+    "eastern diamondback rattlesnake": [
+        "a large, heavy-bodied snake",
+        "a brown, tan, or grey body with dark brown or black bands",
+        "a rattle at the end of the tail",
+        "large, triangular head",
+        "slit-like pupils",
+        "heat-sensing pits on the sides of the head"
+    ],
+    "alligator lizard": [
+        "a four-limbed reptile",
+        "a long, thick body",
+        "a long tail",
+        "a short snout",
+        "small eyes",
+        "a rough, scaly skin",
+        "clawed hands and feet"
+    ],
+    "tractor": [
+        "a large, heavy vehicle",
+        "four wheels",
+        "a large engine",
+        "a cab for the driver",
+        "a hitch for attaching trailers or other implements",
+        "a bucket or other device for scooping or moving materials"
+    ],
+    "snowplow": [
+        "a large, heavy vehicle",
+        "a large plow blade in the front",
+        "a cab for the driver",
+        "large wheels",
+        "a bright, reflective safety light"
+    ],
+    "worm snake": [
+        "small, thin snake",
+        "brown or reddish brown",
+        "head is barely wider than the body",
+        "no visible eyes",
+        "smooth, glossy scales",
+        "burrows underground"
+    ],
+    "American bullfrog": [
+        "large size",
+        "green or brown body",
+        "dark spots on the body",
+        "webbed feet",
+        "long hind legs for jumping",
+        "large eardrums",
+        "long tongue"
+    ],
+    "police van": [
+        "large, boxy vehicle",
+        "blue or black",
+        "emergency lights on the roof",
+        "police markings or decals",
+        "siren",
+        "spotlights",
+        "bull bars",
+        "push bars",
+        "cages or grates over the windows"
+    ],
+    "eastern hog-nosed snake": [
+        "a snake with a distinctive upturned nose",
+        "brown, black, or grey in color",
+        "a pattern of dark spots or bands on the body",
+        "a light-colored belly",
+        "a relatively thick body",
+        "a length of 2-3 feet"
+    ],
+    "Komodo dragon": [
+        "large, lizard-like reptile",
+        "scaly skin",
+        "long tail",
+        "sharp claws",
+        "long, forked tongue",
+        "large head with sharp teeth"
+    ],
+    "Nile crocodile": [
+        "large, scaly reptile",
+        "greenish-brown or grey coloration",
+        "long, muscular body",
+        "sharp teeth",
+        "small eyes",
+        "webbed feet",
+        "long tail"
+    ],
+    "Indian cobra": [
+        "a large, venomous snake",
+        "brown, black, or olive-coloured",
+        "a hood that can be expanded when the snake is threatened",
+        "a long, slender body",
+        "a long, tapered tail",
+        "small eyes"
+    ],
+    "dowitcher": [
+        "a long-necked, wading bird",
+        "black, brown, or grey plumage",
+        "a white or pale underside",
+        "a long, straight bill",
+        "webbed feet",
+        "a long, pointed tail"
+    ],
+    "goldfish": [
+        "a fish with a bright orange or yellow color",
+        "a long, flowing tail",
+        "small, black eyes",
+        "a small mouth",
+        "scales that shimmer in the light"
+    ],
+    "coucal": [
+        "a large, dark-coloured bird",
+        "a long tail",
+        "a round body",
+        "a short, curved beak",
+        "small eyes",
+        "legs that are adapted for perching"
+    ],
+    "mud turtle": [
+        "a small to medium sized turtle",
+        "a dark brown or black shell",
+        "a light brown or white underside",
+        "webbed feet",
+        "a long tail",
+        "a pointed head"
+    ],
+    "kite (bird of prey)": [
+        "a bird of prey",
+        "wingspan of 2-3 feet",
+        "long, narrow tail",
+        "hooked beak",
+        "talons on feet",
+        "plumage that is mostly white, black, or grey"
+    ],
+    "pufferfish": [
+        "a fish with a round body",
+        "spines sticking out from the body",
+        "a large, round mouth",
+        "eyes on the sides of the head",
+        "a dark, mottled coloration"
+    ],
+    "sidewinder rattlesnake": [
+        "a snake with a rattle at the end of its tail",
+        "a light-colored body with dark bands",
+        "a triangular head",
+        "a slender body",
+        "a long, curved tail",
+        "small eyes",
+        "a heat-sensing pit between the eye and the nostril"
+    ],
+    "great white shark": [
+        "large, torpedo-shaped body",
+        "white or grey coloration",
+        "large, triangular dorsal fin",
+        "large, powerful tail",
+        "sharp, serrated teeth",
+        "small eyes"
+    ],
+    "school bus": [
+        "large, yellow vehicle",
+        "typically has the words \"school bus\" written on the side",
+        "typically has a stop sign that deploys from the side of the bus",
+        "typically has flashing lights on the top of the bus",
+        "typically has large windows"
+    ],
+    "bald eagle": [
+        "large, powerful bird",
+        "white head and tail",
+        "dark brown body",
+        "hooked beak",
+        "talons",
+        "wingspan of up to 2.5 meters"
+    ],
+    "silver salmon": [
+        "fish",
+        "silver or grey",
+        "large, curved mouth",
+        "small eyes",
+        "streamlined body",
+        "fins on the sides and bottom",
+        "a long, forked tail"
+    ],
+    "goose": [
+        "waterfowl",
+        "white or grey plumage",
+        "black neck and head",
+        "webbed feet",
+        "long, curved bill",
+        "honking call"
+    ],
+    "box turtle": [
+        "a turtle with a hard, hinged shell",
+        "a head and legs that can retract into the shell",
+        "a brown, black, or green shell",
+        "a yellow, orange, or red underside",
+        "a long tail"
+    ],
+    "spoonbill": [
+        "a long, thin bill",
+        "a white or pink body",
+        "long legs",
+        "webbed feet",
+        "black wingtips"
+    ],
+    "terrapin": [
+        "four-limbed reptile",
+        "green, brown, or black shell",
+        "webbed feet",
+        "beak-like mouth",
+        "small eyes",
+        "long tail"
+    ],
+    "smooth green snake": [
+        "long, slender body",
+        "green coloration",
+        "smooth scales",
+        "pointed head",
+        "slit-like pupils"
+    ],
+    "sports car": [
+        "a vehicle with two or four doors",
+        "a sleek, aerodynamic design",
+        "a powerful engine",
+        "large wheels and tires",
+        "a spoiler or other performance-enhancing features",
+        "a stylish interior"
+    ],
+    "convertible": [
+        "a vehicle with a retractable or removable roof",
+        "typically two doors and four seats",
+        "a soft top or hard top",
+        "a windshield frame that extends over the roof",
+        "chrome accents",
+        "a long, sloping hood"
+    ],
+    "boa constrictor": [
+        "a large, heavy-bodied snake",
+        "a long, thick tail",
+        "a triangular head",
+        "large, round eyes",
+        "a wide mouth with sharp teeth",
+        "smooth, shiny scales",
+        "a pattern of light and dark colors"
+    ],
+    "tiger shark": [
+        "large, predatory fish",
+        "dark stripes on a light background",
+        "a blunt, rounded snout",
+        "large, triangular fins",
+        "a long, powerful tail",
+        "razor-sharp teeth"
+    ],
+    "spotted salamander": [
+        "four-limbed amphibian",
+        "black or dark brown body with yellow spots",
+        "long tail",
+        "small eyes",
+        "moist skin",
+        "clawed hands and feet"
+    ],
+    "frilled-necked lizard": [
+        "a lizard with a frill around its neck",
+        "a long tail",
+        "small, clawed hands and feet",
+        "a long body",
+        "a scaly skin",
+        "a bright, colourful body (usually green, yellow, or orange)"
+    ],
+    "minibus": [
+        "a van or bus that is smaller than a standard size bus",
+        "typically has 10-16 seats",
+        "may have windows all around or just in the front and back",
+        "may have a luggage rack on top"
+    ],
+    "taxicab": [
+        "a car with a yellow or green roof light",
+        "a car with a taxi sign on the roof",
+        "a car with a taxi meter",
+        "a car with a partition between the front and back seats"
+    ],
+    "smooth newt": [
+        "a small, dark-colored salamander",
+        "a long, slender body",
+        "a long tail",
+        "small, black eyes",
+        "smooth, moist skin",
+        "four legs that are each about the same length"
+    ]
+}

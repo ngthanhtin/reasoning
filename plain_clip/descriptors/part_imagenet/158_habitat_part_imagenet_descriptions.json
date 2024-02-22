@@ -1,0 +1,1459 @@
+{
+    "husky": [
+        "four-limbed canine",
+        "thick fur coat",
+        "pointed ears",
+        "bushy tail",
+        "typically white, black, and grey, but can also be red or brown",
+        "blue or green eyes",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "kingsnake": [
+        "a non-venomous snake",
+        "black, brown, or olive-colored",
+        "a light-colored stripe down the center of the body",
+        "a pointed head",
+        "round eyes",
+        "a long, slender body",
+        "smooth scales",
+        "forests, grasslands, and deserts, but many species prefer wooded areas"
+    ],
+    "tree frog": [
+        "four-limbed amphibian",
+        "green, brown, or grey",
+        "wet and hairless nose",
+        "long, sticky tongue",
+        "large eyes",
+        "webbed hands and feet",
+        "often has spots or stripes",
+        "trees in tropical rainforests and wetlands"
+    ],
+    "common squirrel monkey": [
+        "small, four-limbed primate",
+        "reddish-brown or grey fur",
+        "long tail",
+        "small face with large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "desert grassland whiptail lizard": [
+        "a small to medium sized lizard",
+        "a long, thin body",
+        "a long tail",
+        "short legs",
+        "a pointed snout",
+        "small, round eyes",
+        "smooth, dry skin",
+        "a light brown or tan coloration with dark stripes running down the body",
+        "desert, semi-arid regions, and grasslands"
+    ],
+    "white-headed capuchin": [
+        "four-limbed primate",
+        "white head and face",
+        "dark body",
+        "long tail",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "Soft-coated Wheaten Terrier": [
+        "a small to medium-sized dog",
+        "a soft, wavy coat that is wheaten in color",
+        "black nose",
+        "dark eyes",
+        "long, floppy ears",
+        "a long tail that is often held curled over the back",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "cougar": [
+        "a large, powerful cat",
+        "tawny or brown fur",
+        "a long tail",
+        "sharp claws",
+        "a muscular body",
+        "a large head with pointed ears",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "impala (antelope)": [
+        "four-limbed mammal",
+        "reddish-brown or tan coat",
+        "black stripes on the hindquarters",
+        "long, black tail with a white tuft at the end",
+        "black horns",
+        "large, dark eyes",
+        "inhabit open plains, savannahs, and grasslands, these animals are adapted to living in wide, open spaces where they can find their food, whether grazing for plants or hunting"
+    ],
+    "beer bottle": [
+        "a glass or plastic container",
+        "a brown, green, or clear color",
+        "a label with the name of the beer",
+        "a neck and cap",
+        "bubbles inside the beer",
+        "containers for beer, these bottles are common in homes, bars, breweries, and restaurants. They are designed for short-term storage and serving of beer"
+    ],
+    "ruddy turnstone": [
+        "a small, stocky bird",
+        "black, brown, and white plumage",
+        "a black head with a white stripe behind the eye",
+        "a short, stout bill",
+        "strong legs and feet adapted for walking on rocky shores",
+        "a wingspan of 15-17 inches",
+        "frequents coastal areas, especially during migration"
+    ],
+    "American alligator": [
+        "large, stocky reptile",
+        "greenish-brown or greyish-black",
+        "long, thick tail",
+        "short, blunt snout",
+        "large, powerful jaws",
+        "webbed feet",
+        "rough, scaly skin",
+        "freshwater environments such as ponds, marshes, wetlands, and rivers"
+    ],
+    "African rock python": [
+        "large, non-venomous snake",
+        "brown or olive green with dark brown or black markings",
+        "thick body",
+        "long, narrow head",
+        "small eyes",
+        "large, triangular head scale",
+        "savannas, grasslands, and forests in tropical and subtropical regions"
+    ],
+    "garbage truck": [
+        "large, boxy vehicle",
+        "brightly colored",
+        "\"Garbage Truck\" or \"Sanitation Truck\" markings",
+        "rear loading door",
+        "hydraulic lift arm",
+        "large tires",
+        "often has a rear-view camera",
+        "residential and commercial areas for waste collection"
+    ],
+    "race car": [
+        "a car with a sleek, aerodynamic design",
+        "brightly colored with sponsors' logos",
+        "large, powerful engine",
+        "racing tires",
+        "roll cage to protect the driver",
+        "safety equipment such as a fire extinguisher and helmet",
+        "racing tracks, motorsport events"
+    ],
+    "badger": [
+        "four-limbed mammal",
+        "black, white, or brown fur",
+        "short legs",
+        "stocky body",
+        "long, black-tipped tail",
+        "small eyes",
+        "large, black-and-white striped head",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "wine bottle": [
+        "a glass or ceramic container",
+        "a long, narrow neck",
+        "a round body",
+        "a cork or screw-top lid",
+        "a label with the name of the wine and other information",
+        "often, a wine glass next to the bottle",
+        "used for storing wine, these bottles are found in homes, restaurants, wineries, and wine shops. They are designed for long-term storage and aging of wine, as well as serving"
+    ],
+    "great egret": [
+        "large, white bird",
+        "long neck",
+        "long, thin legs",
+        "long, pointed bill",
+        "large wingspan",
+        "wetlands, rivers, lakes, and coastal areas"
+    ],
+    "hammerhead shark": [
+        "large, flat head with protruding eyes",
+        "long, wide body",
+        "large fins",
+        "grey or brown coloration",
+        "white underside",
+        "found in warmer waters along coastlines and in the open ocean"
+    ],
+    "golf cart": [
+        "four-wheeled vehicle",
+        "typically has a roof and windshield",
+        "may have a rear seat and storage area",
+        "may be electric or gas-powered",
+        "typically has a golf bag holder or rack",
+        "may have a club cleaner on the side",
+        "golf courses, large private estates"
+    ],
+    "chameleon": [
+        "a reptile with a long, prehensile tongue",
+        "a body that can change color",
+        "large, protruding eyes",
+        "a crest of spikes or horns on the head",
+        "clawed hands and feet",
+        "a long tail",
+        "trees and bushes in a variety of climates, from rainforest to desert edges"
+    ],
+    "loggerhead sea turtle": [
+        "large, hard shell",
+        "brown, red, or yellow-brown",
+        "long neck",
+        "large head",
+        "two sets of flippers",
+        "a tail",
+        "a small mouth",
+        "coastal and open ocean"
+    ],
+    "tench": [
+        "a freshwater fish",
+        "olive green or brown in color",
+        "a dark bar on the side of the body",
+        "a thick, fleshy body",
+        "a large, flattened head",
+        "small eyes",
+        "a large mouth with thick lips",
+        "inhabits slow-moving freshwater bodies like lakes and ponds"
+    ],
+    "St. Bernard": [
+        "large, stocky dog",
+        "short, smooth coat",
+        "black, brown, or brindle markings",
+        "long, drooping ears",
+        "thick neck",
+        "large, square head",
+        "dark eyes",
+        "black nose",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "leatherback sea turtle": [
+        "large, dark-colored turtle",
+        "smooth, leathery shell",
+        "long, narrow head",
+        "small, clawed flippers",
+        "long, powerful tail",
+        "small, black eyes",
+        "open ocean"
+    ],
+    "Saluki": [
+        "a sighthound breed of dog",
+        "typically tan or fawn with white markings",
+        "long, silky fur",
+        "long legs",
+        "slender body",
+        "long, curved tail",
+        "large, floppy ears",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "cheetah": [
+        "large, spotted cat",
+        "long legs and tail",
+        "small head",
+        "black spots on a tan or light-colored coat",
+        "black tear-like streaks on the face",
+        "inhabit open plains, savannahs, and grasslands, these animals are adapted to living in wide, open spaces where they can find their food, whether grazing for plants or hunting"
+    ],
+    "Redbone Coonhound": [
+        "four-legged mammal",
+        "red, brown, or black coat",
+        "long, droopy ears",
+        "long snout",
+        "bushy tail",
+        "webbed feet",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "orangutan": [
+        "four-limbed primate",
+        "reddish-brown or orange-brown",
+        "long hair on the body",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "warthog": [
+        "four-legged mammal",
+        "black, grey, or brown",
+        "large, curved tusks",
+        "short, bristly hair",
+        "a large, round body",
+        "small eyes and ears",
+        "a long, narrow snout",
+        "inhabit open plains, savannahs, and grasslands, these animals are adapted to living in wide, open spaces where they can find their food, whether grazing for plants or hunting"
+    ],
+    "albatross": [
+        "large, long-winged bird",
+        "white or grey plumage",
+        "black wingtips",
+        "long, hooked bill",
+        "webbed feet",
+        "long, narrow wings",
+        "slow, powerful flight",
+        "primarily pelagic (open ocean), coming to land only to breed"
+    ],
+    "garter snake": [
+        "a long, thin body",
+        "a small head",
+        "a pointed snout",
+        "small, round eyes",
+        "stripes running along the length of the body",
+        "a long, forked tongue",
+        "wide range including woodlands, meadows, and near water bodies"
+    ],
+    "agama": [
+        "four-limbed reptile",
+        "scaly skin",
+        "long tail",
+        "small, triangular head",
+        "large eyes",
+        "brightly colored body",
+        "arid regions, savannahs, and rocky areas"
+    ],
+    "jacamar": [
+        "a brightly colored bird",
+        "a long, curved beak",
+        "a short tail",
+        "long legs",
+        "webbed feet",
+        "large eyes",
+        "tropical and subtropical forests"
+    ],
+    "green mamba": [
+        "long, slender body",
+        "green or olive-green coloration",
+        "black or dark brown bands on the body",
+        "black or dark brown markings on the head",
+        "black or dark brown eyes",
+        "long, black or dark brown tongue",
+        "forests and woodland areas in parts of Africa, particularly in the coastal regions"
+    ],
+    "snoek fish": [
+        "a long, slender body",
+        "a large mouth with sharp teeth",
+        "dark green or brownish-green coloration",
+        "white spots on the body",
+        "a forked tail",
+        "found in coastal areas but can also be found offshore; not as habitat-specific as the others, typically found in cooler waters"
+    ],
+    "siamang": [
+        "four-limbed primate",
+        "black, grey, or brown fur",
+        "long arms",
+        "long hair on the head and body",
+        "large eyes",
+        "furry bodies",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "go-kart": [
+        "a small, open-wheeled vehicle",
+        "a seat for the driver",
+        "pedals for the driver to operate",
+        "a steering wheel",
+        "a small engine",
+        "a chain or belt to connect the engine to the wheels",
+        "a frame to support the engine, seat, and wheels",
+        "racing tracks, amusement parks"
+    ],
+    "vine snake": [
+        "long, thin body",
+        "green or brown coloration",
+        "pattern of light and dark bands running the length of the body",
+        "pointed head",
+        "long, thin tongue",
+        "small, round eyes",
+        "tropical forests, known for living in trees"
+    ],
+    "hartebeest": [
+        "large, stocky antelope",
+        "long, narrow face",
+        "long, curved horns",
+        "dark brown or reddish brown coat",
+        "white belly and rump",
+        "inhabit open plains, savannahs, and grasslands, these animals are adapted to living in wide, open spaces where they can find their food, whether grazing for plants or hunting"
+    ],
+    "European green lizard": [
+        "green or brown body with black spots",
+        "long tail",
+        "small head",
+        "long, thin legs",
+        "webbed feet",
+        "long, sticky tongue",
+        "forests, shrublands, and grasslands"
+    ],
+    "Egyptian Mau": [
+        "a medium-sized, short-haired cat",
+        "black, silver, or smoke-colored fur",
+        "black spots on the body",
+        "green or gold eyes",
+        "long, black-tipped tail",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "killer whale": [
+        "large, black, white, and grey marine mammal",
+        "long, curved dorsal fin",
+        "large flippers",
+        "small eyes",
+        "large mouth with sharp teeth",
+        "occupies a variety of marine environments from the Arctic and Antarctic to tropical seas. Known for being highly adaptable, living in open ocean, coastal areas, and even semi-enclosed bodies of water"
+    ],
+    "Boston Terrier": [
+        "short-haired dog",
+        "black, white, or brindle coat",
+        "short, square muzzle",
+        "large, round eyes",
+        "erect ears",
+        "muscular body",
+        "short tail",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "ambulance": [
+        "a vehicle with emergency lights and sirens",
+        "a large, boxy shape",
+        "a red, white, or blue color scheme",
+        "the word \"ambulance\" written on the side",
+        "a medical symbol such as a cross or a caduceus",
+        "a patient on a stretcher inside",
+        "emergency medical services locations."
+    ],
+    "grey wolf": [
+        "four-legged mammal",
+        "grey, black, or white fur",
+        "pointy ears",
+        "long snout",
+        "bushy tail",
+        "sharp teeth",
+        "inhabits a wide range of environments, including forests, tundras, grasslands, and deserts, showcasing remarkable adaptability from the Arctic regions to temperate areas across North America, Europe, Asia, and North Africa. They prefer large, wilderness areas where they can hunt and roam extensively"
+    ],
+    "fox squirrel": [
+        "reddish brown fur",
+        "white belly",
+        "black tail with a white tip",
+        "large, bushy tail",
+        "long, furry ears",
+        "small, pointed face",
+        "sharp claws",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "vespa": [
+        "a type of wasp",
+        "black and yellow stripes",
+        "a stinger",
+        "two pairs of wings",
+        "six legs",
+        "a narrow waist",
+        "are adaptable and can be found in a variety of habitats, including forests, meadows, gardens, and urban areas. They often build their nests in sheltered spots like tree branches, under eaves, or within ground burrows, thriving in environments that offer access to food sources such as insects, nectar, and human waste"
+    ],
+    "Saharan horned viper": [
+        "a venomous snake",
+        "light brown or tan with dark brown or black markings",
+        "a triangular head with horns",
+        "a thick body",
+        "a long tail",
+        "small eyes",
+        "deserts and arid regions, recognized by the horn-like scales above its eyes"
+    ],
+    "pirate ship": [
+        "a large, sailing vessel",
+        "a flag with a skull and crossbones",
+        "cannons on the deck",
+        "a wooden hull",
+        "portholes",
+        "rigging",
+        "a crow's nest",
+        "referring to vessels used by pirates, these would typically be modified sailing ships optimized for speed and maneuverability, historically found in all kinds of waters, from the high seas to coastal areas, wherever they could find lucrative targets"
+    ],
+    "black stork": [
+        "large, black bird",
+        "long, red bill",
+        "red legs and feet",
+        "white underparts",
+        "long, black tail",
+        "black wings with white wingtips",
+        "woodland and forested wetlands, often in more secluded areas"
+    ],
+    "tandem bicycle": [
+        "two bicycles side by side",
+        "both bicycles have two wheels",
+        "both bicycles have a seat and handlebars",
+        "both bicycles have pedals",
+        "both bicycles are connected by a frame",
+        "designed for two riders, these are often used for recreational purposes, touring, and leisure rides in parks, bike paths, or on scenic roads"
+    ],
+    "military aircraft": [
+        "large and powerful",
+        "designed for carrying weapons and other military equipment",
+        "typically has a camouflage paint job",
+        "often has a \"star\" or other symbol on the fuselage to identify the country of origin",
+        "may have a tailfin with a \"missile\" or other symbol",
+        "these are military aircraft designed for combat purposes, including air-to-air combat, air-to-ground attack, and strategic bombing. Warplanes operate from military air bases and aircraft carriers, and are deployed in conflict zones as well as peacekeeping and surveillance missions globally"
+    ],
+    "recreational vehicle": [
+        "a large, boxy vehicle",
+        "often brightly colored",
+        "may have awnings, solar panels, or other accessories",
+        "typically has four wheels",
+        "may be towed behind a car or truck",
+        "campgrounds, national parks, highways"
+    ],
+    "clownfish": [
+        "orange, white, or black coloration with white stripes",
+        "small size, typically less than six inches in length",
+        "round shape",
+        "protruding eyes",
+        "large fins",
+        "long, flowing tail",
+        "lives in the warm waters of coral reefs, closely associated with sea anemones"
+    ],
+    "arabian camel": [
+        "a humped, ungulate mammal",
+        "light brown or tan in color",
+        "long neck",
+        "long legs",
+        "two toes on each foot",
+        "a tuft of hair on the hump",
+        "a bushy tail",
+        "adapted to hot, arid environments with abilities to conserve water and navigate sand dunes"
+    ],
+    "night snake": [
+        "small, slender snake",
+        "black or dark brown",
+        "smooth scales",
+        "vertical pupils",
+        "heat-sensing pits on the head",
+        "deserts and semi-arid regions, known for its nocturnal habits"
+    ],
+    "American black bear": [
+        "four-limbed mammal",
+        "black fur",
+        "a large, round head",
+        "small eyes",
+        "a short, blunt snout",
+        "large, round ears",
+        "a long, shaggy coat",
+        "short, stocky legs",
+        "large, clawed paws",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "Cairn Terrier": [
+        "small to medium-sized dog",
+        "shaggy, wiry coat",
+        "black, grey, or brindle coat",
+        "small, pointed ears",
+        "short legs",
+        "long body",
+        "bushy tail",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "station wagon": [
+        "a car with a long roof and rear cargo area",
+        "often has wood paneling on the sides",
+        "typically has four doors",
+        "may have a rear-facing third row of seats",
+        "often used for family vacations or road trips",
+        "family trips, daily commuting, versatile transport needs"
+    ],
+    "ring-necked snake": [
+        "a snake with a distinctive ring of color around its neck",
+        "a long, slender body",
+        "a pointed head",
+        "small, black eyes",
+        "a forked tongue",
+        "smooth, shiny scales",
+        "a long, coiled tail",
+        "forests, grasslands, and under rocks and leaf litter, preferring moist environments"
+    ],
+    "limousine": [
+        "a long, luxury car",
+        "black or white",
+        "a chauffeur",
+        "passengers in the back seat",
+        "tinted windows",
+        "a partition between the driver and the passengers",
+        "a long wheelbase",
+        "special events, airports, luxury venues"
+    ],
+    "Gila monster": [
+        "large, stocky lizard",
+        "black, orange, or pink body with dark spots or bands",
+        "a blunt snout",
+        "a forked tongue",
+        "small eyes",
+        "short legs",
+        "a thick tail",
+        "desert and semi-desert regions"
+    ],
+    "trolleybus": [
+        "an electric bus",
+        "typically red or green",
+        "two or more sets of double doors",
+        "a raised platform at the front or rear of the bus",
+        "a trolley pole extending from the roof of the bus",
+        "wires overhead",
+        "city streets for public transportation"
+    ],
+    "bee eater": [
+        "a brightly colored bird",
+        "a long, curved beak",
+        "a small head",
+        "a slender body",
+        "long tail feathers",
+        "a black stripe through the eye",
+        "a black band on the wing",
+        "open woodlands, forests, and scrub"
+    ],
+    "marmoset": [
+        "small, four-limbed primate",
+        "black, grey, white, or brown fur",
+        "long tail",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "tailed frog": [
+        "four-limbed amphibian",
+        "green, brown, or black",
+        "a long tail",
+        "large eyes",
+        "moist skin",
+        "webbed hands and feet",
+        "streams in forested areas"
+    ],
+    "moped": [
+        "two-wheeled vehicle",
+        "small engine",
+        "pedals",
+        "handlebars",
+        "seat",
+        "headlight",
+        "taillight",
+        "similar to motor scooters but often with a smaller engine and sometimes pedal-assist, mopeds are used for short-distance urban or suburban commuting. They share the habitat with motor scooters but might be more prevalent in areas with more restrictive licensing or insurance requirements"
+    ],
+    "ox": [
+        "four-legged mammal",
+        "large and muscular body",
+        "short fur that is usually red, black, or brown",
+        "long horns that curve upward",
+        "a wide and square-shaped head",
+        "inhabit open plains, savannahs, and grasslands, these animals are adapted to living in wide, open spaces where they can find their food, whether grazing for plants or hunting"
+    ],
+    "gorilla": [
+        "large, stocky body",
+        "short limbs",
+        "long, shaggy fur",
+        "black or dark brown coloration",
+        "silverback (mature male) gorillas have a saddle of silver-gray or white hair on their backs",
+        "large head with prominent brow ridge",
+        "small eyes and ears",
+        "short snout",
+        "wide, powerful jaws",
+        "large canine teeth",
+        "are found in a variety of forested environments, including both lowland and mountainous areas. Colobus monkeys are adapted to living in both primary and secondary forests, macaques can be found in a wide range of environments from forests to urban areas across Asia and North Africa, and gorillas live in dense forests and mountainous regions in Africa. Their diets and social structures vary significantly, with some species being more arboreal and others more terrestrial"
+    ],
+    "Irish Water Spaniel": [
+        "brown or black fur",
+        "curly or wavy fur",
+        "long ears",
+        "long snout",
+        "webbed feet",
+        "muscular body",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "schooner": [
+        "a sailing vessel with two or more masts",
+        "typically has a square-rigged foremast and a fore-and-aft rigged mainmast",
+        "the masts are usually tall and slender",
+        "has a large, deep hull",
+        "the sails are typically white with blue or red stripes",
+        "a sailing ship with two or more masts, historically used for a variety of purposes including cargo transport, fishing, and whaling. Schooners were known for their speed and ability to handle different types of waters, from coastal and inland waters to transoceanic voyages"
+    ],
+    "jeep": [
+        "four-wheeled vehicle",
+        "off-road capability",
+        "rugged design",
+        "open body style",
+        "exposed engine and other mechanical parts",
+        "large tires",
+        "roll bars or a soft top",
+        "off-road trails, rugged terrains"
+    ],
+    "minivan": [
+        "a van with a lower roofline and sloping rear window",
+        "typically has four doors and room for seven or eight passengers",
+        "may have sliding doors on one or both sides",
+        "may have a rear hatchback for easy loading and unloading",
+        "typically has a V6 engine",
+        "family-oriented locations, suburbs"
+    ],
+    "proboscis monkey": [
+        "four-limbed primate",
+        "reddish-brown or orange-brown fur",
+        "long tail",
+        "large nose",
+        "furry body",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "little blue heron": [
+        "a long, thin neck",
+        "a long, thin bill",
+        "blue-grey plumage",
+        "long, thin legs",
+        "webbed feet",
+        "a long, pointed tail",
+        "freshwater or estuarine wetlands"
+    ],
+    "common gallinule": [
+        "a waterbird with a chicken-like body",
+        "a short, thick neck",
+        "a small head with a red and yellow bill",
+        "red eyes",
+        "greenish-brown plumage",
+        "long, greenish-yellow legs",
+        "webbed feet",
+        "a long, chicken-like tail",
+        "freshwater wetlands and marshes"
+    ],
+    "ram (adult male sheep)": [
+        "four-legged mammal",
+        "woolly coat",
+        "horns",
+        "large body size",
+        "inhabits grassy pasturelands and meadows, thriving in temperate to mountainous regions where they graze on a variety of vegetation"
+    ],
+    "Alpine ibex": [
+        "four-limbed mammal",
+        "black, grey, or brown fur",
+        "long, curved horns",
+        "short tail",
+        "hooves",
+        "adapted to life in high-altitude environments, rocky mountains, and rugged terrain, these animals are equipped for climbing steep slopes and enduring harsh conditions"
+    ],
+    "eastern diamondback rattlesnake": [
+        "a large, heavy-bodied snake",
+        "a brown, tan, or grey body with dark brown or black bands",
+        "a rattle at the end of the tail",
+        "large, triangular head",
+        "slit-like pupils",
+        "heat-sensing pits on the sides of the head",
+        "inhabit dry, sandy areas, and grassy plains"
+    ],
+    "Japanese Chin": [
+        "small, compact body",
+        "short legs",
+        "round head",
+        "large, dark eyes",
+        "black nose",
+        "long, silky coat",
+        "plumed tail",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "alligator lizard": [
+        "a four-limbed reptile",
+        "a long, thick body",
+        "a long tail",
+        "a short snout",
+        "small eyes",
+        "a rough, scaly skin",
+        "clawed hands and feet",
+        "woodlands, grasslands, and streams"
+    ],
+    "polar bear": [
+        "large, white bear",
+        "long neck",
+        "small ears",
+        "large, round head",
+        "black eyes",
+        "large, furry body",
+        "short legs",
+        "long claws",
+        "inhabit the Arctic regions, tundra, and ice-covered landscapes. Adapted to extremely cold temperatures and hunting on ice"
+    ],
+    "English Springer Spaniel": [
+        "four-limbed animal",
+        "black, white, or liver-colored coat",
+        "long ears",
+        "long, feathered tail",
+        "large, dark eyes",
+        "muscular body",
+        "short, stubby legs",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "tractor": [
+        "a large, heavy vehicle",
+        "four wheels",
+        "a large engine",
+        "a cab for the driver",
+        "a hitch for attaching trailers or other implements",
+        "a bucket or other device for scooping or moving materials",
+        "farms, agricultural fields"
+    ],
+    "Treeing Walker Coonhound": [
+        "four-legged mammal",
+        "black, brown, or tan",
+        "short, smooth coat",
+        "long, droopy ears",
+        "long snout",
+        "muscular body",
+        "bushy tail",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "pill bottle": [
+        "a small, cylindrical container",
+        "made of plastic or glass",
+        "a screw-on or snap-on lid",
+        "a label with information about the contents",
+        "often found in a medicine cabinet or on a nightstand",
+        "specifically designed for storing medication, pill bottles are commonly found in pharmacies, hospitals, and homes. They are made to be secure and often child-resistant, providing a controlled environment for various medications"
+    ],
+    "soda bottle": [
+        "a plastic or glass container",
+        "a screw-on or snap-on lid",
+        "a label with the name of the product",
+        "brightly colored",
+        "often has a straw or spout for drinking",
+        "may be held or placed in a cup holder",
+        "used for carbonated soft drinks, these bottles are found in a wide range of settings including homes, restaurants, convenience stores, and vending machines"
+    ],
+    "guenon": [
+        "four-limbed primate",
+        "black, grey, white, brown, or red-brown",
+        "wet and hairless nose with curved nostrils",
+        "long tail",
+        "large eyes",
+        "furry bodies",
+        "clawed hands and feet",
+        "are adapted to more open habitats such as savannas, grasslands, and open woodlands, primarily in Africa. They are more terrestrial than their rainforest counterparts but can climb trees to escape predators or to forage. Their diets are diverse, including fruits, leaves, seeds, and small animals"
+    ],
+    "snowplow": [
+        "a large, heavy vehicle",
+        "a large plow blade in the front",
+        "a cab for the driver",
+        "large wheels",
+        "a bright, reflective safety light",
+        "areas with heavy snowfall, mountain roads"
+    ],
+    "giant panda": [
+        "large, black-and-white bear-like mammal",
+        "black fur on ears, eye patches, muzzle, legs, and shoulders",
+        "white fur on the rest of the body",
+        "short tail",
+        "round head",
+        "small eyes",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "weasel": [
+        "small, elongated body",
+        "short legs",
+        "long, narrow head",
+        "small eyes and ears",
+        "brown or black fur",
+        "white underbelly",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "worm snake": [
+        "small, thin snake",
+        "brown or reddish brown",
+        "head is barely wider than the body",
+        "no visible eyes",
+        "smooth, glossy scales",
+        "burrows underground",
+        "includes forested areas, woodlands, and under rocks or logs in eastern and central United States"
+    ],
+    "American bullfrog": [
+        "large size",
+        "green or brown body",
+        "dark spots on the body",
+        "webbed feet",
+        "long hind legs for jumping",
+        "large eardrums",
+        "long tongue",
+        "freshwater lakes, ponds, rivers, and marshes"
+    ],
+    "police van": [
+        "large, boxy vehicle",
+        "blue or black",
+        "emergency lights on the roof",
+        "police markings or decals",
+        "siren",
+        "spotlights",
+        "bull bars",
+        "push bars",
+        "cages or grates over the windows",
+        "urban and suburban areas for law enforcement"
+    ],
+    "eastern hog-nosed snake": [
+        "a snake with a distinctive upturned nose",
+        "brown, black, or grey in color",
+        "a pattern of dark spots or bands on the body",
+        "a light-colored belly",
+        "a relatively thick body",
+        "a length of 2-3 feet",
+        "grasslands, farmlands, and forests, known for its distinctive upturned snout"
+    ],
+    "Geoffroy's spider monkey": [
+        "four-limbed primate",
+        "black, grey, or brown fur",
+        "long tail",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "gibbon": [
+        "four-limbed primate",
+        "black, grey, white, or brown fur",
+        "long arms",
+        "short legs",
+        "long tail",
+        "small head",
+        "large eyes",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "Komodo dragon": [
+        "large, lizard-like reptile",
+        "scaly skin",
+        "long tail",
+        "sharp claws",
+        "long, forked tongue",
+        "large head with sharp teeth",
+        "dry open grasslands, savannahs, and forests"
+    ],
+    "titi monkey": [
+        "four-limbed primate",
+        "black, grey, white, or brown fur",
+        "long tail",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "Nile crocodile": [
+        "large, scaly reptile",
+        "greenish-brown or grey coloration",
+        "long, muscular body",
+        "sharp teeth",
+        "small eyes",
+        "webbed feet",
+        "long tail",
+        "freshwater rivers, lakes, and sometimes in brackish water"
+    ],
+    "Indian cobra": [
+        "a large, venomous snake",
+        "brown, black, or olive-coloured",
+        "a hood that can be expanded when the snake is threatened",
+        "a long, slender body",
+        "a long, tapered tail",
+        "small eyes",
+        "a wide range of habitats including forests, fields, agricultural lands, and populated areas"
+    ],
+    "dowitcher": [
+        "a long-necked, wading bird",
+        "black, brown, or grey plumage",
+        "a white or pale underside",
+        "a long, straight bill",
+        "webbed feet",
+        "a long, pointed tail",
+        "mudflats and marshy shorelines"
+    ],
+    "goldfish": [
+        "a fish with a bright orange or yellow color",
+        "a long, flowing tail",
+        "small, black eyes",
+        "a small mouth",
+        "scales that shimmer in the light",
+        "originally from East Asia, now widely kept in freshwater aquariums and ponds worldwide"
+    ],
+    "coucal": [
+        "a large, dark-coloured bird",
+        "a long tail",
+        "a round body",
+        "a short, curved beak",
+        "small eyes",
+        "legs that are adapted for perching",
+        "various species inhabit bushlands, forests, and mangroves"
+    ],
+    "mud turtle": [
+        "a small to medium sized turtle",
+        "a dark brown or black shell",
+        "a light brown or white underside",
+        "webbed feet",
+        "a long tail",
+        "a pointed head",
+        "freshwater habitats, including ponds, rivers, and swamps"
+    ],
+    "patas monkey": [
+        "reddish-brown fur",
+        "long, black tail",
+        "black hands and feet",
+        "white tuft of fur on the forehead",
+        "are adapted to more open habitats such as savannas, grasslands, and open woodlands, primarily in Africa. They are more terrestrial than their rainforest counterparts but can climb trees to escape predators or to forage. Their diets are diverse, including fruits, leaves, seeds, and small animals"
+    ],
+    "kite (bird of prey)": [
+        "a bird of prey",
+        "wingspan of 2-3 feet",
+        "long, narrow tail",
+        "hooked beak",
+        "talons on feet",
+        "plumage that is mostly white, black, or grey",
+        "depends on the species, many prefer woodland or forested habitats"
+    ],
+    "pufferfish": [
+        "a fish with a round body",
+        "spines sticking out from the body",
+        "a large, round mouth",
+        "eyes on the sides of the head",
+        "a dark, mottled coloration",
+        "many species inhabit tropical and subtropical coral reefs, though some can be found in brackish or freshwater"
+    ],
+    "sidewinder rattlesnake": [
+        "a snake with a rattle at the end of its tail",
+        "a light-colored body with dark bands",
+        "a triangular head",
+        "a slender body",
+        "a long, curved tail",
+        "small eyes",
+        "a heat-sensing pit between the eye and the nostril",
+        "deserts, known for its unique movement across sand"
+    ],
+    "great white shark": [
+        "large, torpedo-shaped body",
+        "white or grey coloration",
+        "large, triangular dorsal fin",
+        "large, powerful tail",
+        "sharp, serrated teeth",
+        "small eyes",
+        "prefers cooler water temperatures and is often found in coastal waters but also ventures into the open ocean"
+    ],
+    "sloth bear": [
+        "four-limbed mammal",
+        "black, brown, or reddish-brown",
+        "shaggy fur",
+        "long claws",
+        "small eyes",
+        "large head",
+        "long snout",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "school bus": [
+        "large, yellow vehicle",
+        "typically has the words \"school bus\" written on the side",
+        "typically has a stop sign that deploys from the side of the bus",
+        "typically has flashing lights on the top of the bus",
+        "typically has large windows",
+        "residential areas, schools"
+    ],
+    "macaque": [
+        "four-limbed primate",
+        "black, grey, white, brown, or red-brown",
+        "wet and hairless nose with curved nostrils",
+        "long tail",
+        "large eyes",
+        "furry bodies",
+        "clawed hands and feet",
+        "are found in a variety of forested environments, including both lowland and mountainous areas. Colobus monkeys are adapted to living in both primary and secondary forests, macaques can be found in a wide range of environments from forests to urban areas across Asia and North Africa, and gorillas live in dense forests and mountainous regions in Africa. Their diets and social structures vary significantly, with some species being more arboreal and others more terrestrial"
+    ],
+    "leopard": [
+        "four-limbed animal",
+        "black, grey, or brown fur",
+        "spots or rosettes on the fur",
+        "long tail",
+        "large eyes",
+        "muscular body",
+        "sharp claws",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "bald eagle": [
+        "large, powerful bird",
+        "white head and tail",
+        "dark brown body",
+        "hooked beak",
+        "talons",
+        "wingspan of up to 2.5 meters",
+        "found near large bodies of open water with an abundant food supply and old-growth trees for nesting"
+    ],
+    "mink": [
+        "small, weasel-like animal",
+        "black, brown, or silver-brown fur",
+        "long, slender body",
+        "small head",
+        "short legs",
+        "long, bushy tail",
+        "inhabit rivers, lakes, and coastal areas, these animals are adapted to life both in and out of water, showing great proficiency in swimming and diving"
+    ],
+    "Arctic fox": [
+        "small, compact body",
+        "short legs",
+        "thick fur",
+        "bushy tail",
+        "white or pale grey coat",
+        "black-tipped ears",
+        "black-tipped tail",
+        "inhabit the Arctic regions, tundra, and ice-covered landscapes. Adapted to extremely cold temperatures and hunting on ice"
+    ],
+    "silver salmon": [
+        "fish",
+        "silver or grey",
+        "large, curved mouth",
+        "small eyes",
+        "streamlined body",
+        "fins on the sides and bottom",
+        "a long, forked tail",
+        "salmon species that hatch in freshwater streams, migrate to the ocean, then return to freshwater to spawn"
+    ],
+    "baboon": [
+        "four-limbed primate",
+        "black, grey, white, or brown fur",
+        "long tail",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are adapted to more open habitats such as savannas, grasslands, and open woodlands, primarily in Africa. They are more terrestrial than their rainforest counterparts but can climb trees to escape predators or to forage. Their diets are diverse, including fruits, leaves, seeds, and small animals"
+    ],
+    "chimpanzee": [
+        "four-limbed primate",
+        "black, grey, or brown fur",
+        "long arms",
+        "short legs",
+        "a long, furry tail",
+        "large eyes",
+        "a hairless face",
+        "a protruding lower jaw",
+        "large ears",
+        "clawed hands and feet",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "Brittany dog": [
+        "four-legged animal",
+        "short, smooth coat",
+        "orange and white or liver and white coloration",
+        "pointed ears",
+        "long, straight tail",
+        "athletic build",
+        "friendly expression",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "unicycle": [
+        "a single, large wheel",
+        "a metal frame",
+        "a seat",
+        "pedals",
+        "handlebars",
+        "requires significant skill and balance, used mainly by performers or for recreational challenges. Habitats include circuses, entertainment venues, or in areas designated for practice and performance"
+    ],
+    "goose": [
+        "waterfowl",
+        "white or grey plumage",
+        "black neck and head",
+        "webbed feet",
+        "long, curved bill",
+        "honking call",
+        "many species inhabit grasslands, wetlands, and agricultural fields"
+    ],
+    "box turtle": [
+        "a turtle with a hard, hinged shell",
+        "a head and legs that can retract into the shell",
+        "a brown, black, or green shell",
+        "a yellow, orange, or red underside",
+        "a long tail",
+        "forested areas, meadows, and grasslands"
+    ],
+    "tiger": [
+        "large, orange and black striped cat",
+        "long tail",
+        "sharp claws",
+        "big teeth",
+        "muscular body",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "spoonbill": [
+        "a long, thin bill",
+        "a white or pink body",
+        "long legs",
+        "webbed feet",
+        "black wingtips",
+        "wetlands, shallow lakes, and marshes"
+    ],
+    "gazelle": [
+        "four-limbed mammal",
+        "brown, tan, or white fur",
+        "long, slender neck",
+        "long legs",
+        "small head",
+        "horns",
+        "inhabit open plains, savannahs, and grasslands, these animals are adapted to living in wide, open spaces where they can find their food, whether grazing for plants or hunting"
+    ],
+    "trimaran": [
+        "a sailboat with three hulls",
+        "the main hull is usually larger than the two side hulls",
+        "the side hulls are usually connected to the main hull with beams or struts",
+        "the mast is usually located in the center of the main hull",
+        "the sails are attached to the mast and the beams or struts",
+        "there is usually a cabin or cockpit located in the",
+        "a type of multihulled boat with one main hull and two smaller outrigger hulls (floats), used for recreational and racing purposes. Trimarans are known for their stability and speed, making them suitable for open-ocean sailing as well as competitive sailing events"
+    ],
+    "Weimaraner": [
+        "a large, muscular dog",
+        "short, smooth coat",
+        "blue-grey or silver-grey coloration",
+        "long head",
+        "long, floppy ears",
+        "long legs",
+        "a long, slender tail",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "Golden Retriever": [
+        "four-legged animal",
+        "yellow, gold, or cream-colored fur",
+        "black nose",
+        "long tail",
+        "floppy ears",
+        "friendly expression",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "terrapin": [
+        "four-limbed reptile",
+        "green, brown, or black shell",
+        "webbed feet",
+        "beak-like mouth",
+        "small eyes",
+        "long tail",
+        "freshwater swamps, rivers, and ponds"
+    ],
+    "howler monkey": [
+        "four-limbed primate",
+        "black, grey, or brown fur",
+        "long tail",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "loud, guttural calls",
+        "are primarily arboreal, living in the dense, humid tropical rainforests of Africa, Asia, and South America. They are adapted to a life in the canopy, relying on fruits, leaves, and sometimes insects or smaller animals for food. Their habitats are characterized by high biodiversity and complex ecosystems"
+    ],
+    "smooth green snake": [
+        "long, slender body",
+        "green coloration",
+        "smooth scales",
+        "pointed head",
+        "slit-like pupils",
+        "forests and fields, often found in trees and bushes"
+    ],
+    "European polecat": [
+        "small to medium-sized mammal",
+        "brown or black fur",
+        "white underbelly",
+        "long, black-tipped tail",
+        "black mask around eyes",
+        "pointed ears",
+        "sharp claws",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "sports car": [
+        "a vehicle with two or four doors",
+        "a sleek, aerodynamic design",
+        "a powerful engine",
+        "large wheels and tires",
+        "a spoiler or other performance-enhancing features",
+        "a stylish interior",
+        "highways, city streets, car shows"
+    ],
+    "sailboat": [
+        "a boat with sails",
+        "a mast to support the sails",
+        "a hull, or body, typically made of wood or fiberglass",
+        "a keel, or fin, running along the bottom of the hull to provide stability",
+        "one or more masts, each with a sail",
+        "rigging, or lines, to support and control the sails",
+        "a rudder, or steering device",
+        "a two-masted sailing craft with its mizzen mast positioned aft of the rudder post, used for cruising and racing, primarily in coastal waters or on larger lakes where leisure sailing and racing are popular"
+    ],
+    "Chow Chow": [
+        "a large, stocky dog",
+        "a broad head with a flat top",
+        "a short, thick coat that is either red, black, blue, or cream",
+        "a bushy tail that is curled over the back",
+        "small, triangular ears",
+        "dark, almond-shaped eyes",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "otter": [
+        "four-limbed mammal",
+        "webbed feet",
+        "long, tapered body",
+        "small head",
+        "large eyes",
+        "furry coat",
+        "inhabit rivers, lakes, and coastal areas, these animals are adapted to life both in and out of water, showing great proficiency in swimming and diving"
+    ],
+    "convertible": [
+        "a vehicle with a retractable or removable roof",
+        "typically two doors and four seats",
+        "a soft top or hard top",
+        "a windshield frame that extends over the roof",
+        "chrome accents",
+        "a long, sloping hood",
+        "scenic drives, coastal areas"
+    ],
+    "mountain bike": [
+        "two wheels",
+        "a frame",
+        "handlebars",
+        "pedals",
+        "gears",
+        "a seat",
+        "tires with treads",
+        "built for off-road trails, mountain bikes are used in rugged terrains, mountains, forest trails, and anywhere requiring durability and enhanced performance on rough surfaces"
+    ],
+    "boa constrictor": [
+        "a large, heavy-bodied snake",
+        "a long, thick tail",
+        "a triangular head",
+        "large, round eyes",
+        "a wide mouth with sharp teeth",
+        "smooth, shiny scales",
+        "a pattern of light and dark colors",
+        "tropical forests, shrublands, and often near human settlements"
+    ],
+    "tiger shark": [
+        "large, predatory fish",
+        "dark stripes on a light background",
+        "a blunt, rounded snout",
+        "large, triangular fins",
+        "a long, powerful tail",
+        "razor-sharp teeth",
+        "has a wide range, from coastal areas to the open ocean"
+    ],
+    "spotted salamander": [
+        "four-limbed amphibian",
+        "black or dark brown body with yellow spots",
+        "long tail",
+        "small eyes",
+        "moist skin",
+        "clawed hands and feet",
+        "woodland ponds and marshes"
+    ],
+    "frilled-necked lizard": [
+        "a lizard with a frill around its neck",
+        "a long tail",
+        "small, clawed hands and feet",
+        "a long body",
+        "a scaly skin",
+        "a bright, colourful body (usually green, yellow, or orange)",
+        "woodland, savannah, and desert areas"
+    ],
+    "brown bear": [
+        "four-limbed mammal",
+        "brown fur",
+        "large body",
+        "short ears",
+        "long snout",
+        "small eyes",
+        "large claws",
+        "are primarily found in dense forests, woodlands, and jungles. They are adapted to a life that may include climbing, burrowing, or navigating dense underbrush"
+    ],
+    "Gordon Setter": [
+        "a large, muscular dog",
+        "black and tan or liver and tan coat",
+        "long, feathered ears",
+        "long legs",
+        "a long, thick tail",
+        "a deep chest",
+        "a square muzzle",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "tricycle": [
+        "three wheels",
+        "a seat for the rider",
+        "handlebars",
+        "pedals",
+        "a chain or belt to connect the pedals to the wheels",
+        "typically used by children or for adult riders needing stability, tricycles are common in safe, flat environments like parks or quiet residential areas"
+    ],
+    "Vizsla": [
+        "a medium-sized, short-coated hunting dog",
+        "a solid, golden-rust color",
+        "a tapered muzzle",
+        "a docked tail",
+        "dark brown eyes",
+        "webbed feet",
+        "a muscular body",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "minibus": [
+        "a van or bus that is smaller than a standard size bus",
+        "typically has 10-16 seats",
+        "may have windows all around or just in the front and back",
+        "may have a luggage rack on top",
+        "charter services, tour locations"
+    ],
+    "taxicab": [
+        "a car with a yellow or green roof light",
+        "a car with a taxi sign on the roof",
+        "a car with a taxi meter",
+        "a car with a partition between the front and back seats",
+        "urban areas, near airports, hotels, and train stations"
+    ],
+    "water buffalo": [
+        "four-legged mammal",
+        "black, grey, or brown",
+        "large body",
+        "short tail",
+        "long, curved horns",
+        "hairy coat",
+        "inhabit open plains, savannahs, and grasslands, these animals are adapted to living in wide, open spaces where they can find their food, whether grazing for plants or hunting"
+    ],
+    "smooth newt": [
+        "a small, dark-colored salamander",
+        "a long, slender body",
+        "a long tail",
+        "small, black eyes",
+        "smooth, moist skin",
+        "four legs that are each about the same length",
+        "freshwater habitats like ponds and streams"
+    ],
+    "bighorn sheep": [
+        "four-legged mammal",
+        "hooves",
+        "thick fur coat",
+        "large horns",
+        "dark brown or black in coloration",
+        "live in mountainous regions",
+        "adapted to life in high-altitude environments, rocky mountains, and rugged terrain, these animals are equipped for climbing steep slopes and enduring harsh conditions"
+    ],
+    "Tibetan Terrier": [
+        "four-limbed canine",
+        "black, white, or grey",
+        "long, shaggy fur",
+        "triangular ears",
+        "dark eyes",
+        "compact body",
+        "short tail",
+        "are primarily found in human homes or farms as pets or working animals. Their habitats include a wide range of human-occupied environments, from apartments and houses to farms and rural areas"
+    ],
+    "water bottle": [
+        "a container made of plastic, glass, or metal",
+        "typically has a screw-on or snap-on lid",
+        "may have a carrying strap or handle",
+        "often has a label or branding",
+        "may be transparent or opaque",
+        "typically holds around 20 ounces (600 milliliters) of liquid",
+        "designed for personal use, water bottles are commonly found in homes, offices, gyms, schools, and outdoor activities, serving the purpose of hydration"
+    ],
+    "black-and-white colobus": [
+        "four-limbed primate",
+        "black and white fur",
+        "long tail",
+        "large eyes",
+        "furry body",
+        "clawed hands and feet",
+        "are found in a variety of forested environments, including both lowland and mountainous areas. Colobus monkeys are adapted to living in both primary and secondary forests, macaques can be found in a wide range of environments from forests to urban areas across Asia and North Africa, and gorillas live in dense forests and mountainous regions in Africa. Their diets and social structures vary significantly, with some species being more arboreal and others more terrestrial"
+    ],
+    "airliner": [
+        "large, metal aircraft",
+        "wings and tail fin",
+        "engines mounted on the wings or under the fuselage",
+        "a fuselage with a pointed nose and passenger windows",
+        "landing gear with wheels and tires",
+        "a livery or paint scheme",
+        "designed for transporting passengers and cargo over short, medium, and long distances. Airliners are primarily found in civilian airports and air routes around the world, operating within the global commercial aviation infrastructure"
+    ]
+}
