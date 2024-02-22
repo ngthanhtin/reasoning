@@ -14,8 +14,8 @@ from Inpaint_Anything.lama_inpaint import inpaint_img_with_lama
 from Inpaint_Anything.utils import load_img_to_array, save_array_to_img, dilate_mask
 
 # %% init inpainting module
-dataset = 'nabirds' # inat21, cub, nabirds
-device = "cuda:5" if torch.cuda.is_available() else "cpu"
+dataset = 'part_imagenet' # inat21, cub, nabirds, part_imagenet
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 def inpaint_and_save(image_path, point_coords, output_dir, pre_cal_mask=None):
     point_labels=[1 for i in range(len(point_coords))]
@@ -71,9 +71,10 @@ def inpaint_and_save(image_path, point_coords, output_dir, pre_cal_mask=None):
             try:
                 img_inpainted = inpaint_img_with_lama(
                     img, mask, lama_config, lama_ckpt, device=device)
+                save_array_to_img(img_inpainted, img_inpainted_p)
             except:
                 print(mask.shape, img.shape, image_path)
-            save_array_to_img(img_inpainted, img_inpainted_p)
+            
 # %% --inpaint CUB--
 if dataset == 'cub':
     inpaint_dir = './cub_inpaint_all/'
@@ -251,4 +252,48 @@ elif dataset == 'inat21':
             
             # do inpaint
             inpaint_and_save(image_path, [0,0], output_dir, pre_cal_mask=mask)
-# %%
+elif dataset == 'part_imagenet':
+    inpaint_dir = './pi_inpaint_test/'
+    if not os.path.exists(inpaint_dir):
+        os.makedirs(inpaint_dir)
+
+    # get all mask file of CUB dataset
+    mask_folder ='/home/tin/datasets/PartImageNet/annotations/test/'
+    
+    mask_image_paths = []
+    files = os.listdir(mask_folder)
+    
+    mask_image_paths = [os.path.join(mask_folder, file) for file in files if 'png' in file]
+
+    # get images from retrieve folder
+    image_folder_path = '/home/tin/datasets/PartImageNet/images/test_folders/'
+
+    folders = os.listdir(image_folder_path)
+    folders = [os.path.join(image_folder_path, f) for f in folders]
+
+    for i, folder in tqdm(enumerate(folders)):
+        folder_name = folder
+        output_dir = inpaint_dir + '/' + folder_name.split("/")[-1]
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+
+        image_files = os.listdir(folder)
+        for image_name in tqdm(image_files):
+            if 'txt' in image_name:
+                continue
+
+            mask = None
+            for mask_path in mask_image_paths:
+                if image_name[:-4] in mask_path:
+                    mask = cv2.imread(mask_path, 0)
+                    mask[mask != 40] = 255 # 40 is the background value
+                    mask[mask == 40] = 0
+                    break
+
+            image_path = f"{folder}/{image_name}"
+            # plt.imshow(mask)
+            # plt.axis('off')
+            # plt.show()
+            
+            # do inpaint
+            inpaint_and_save(image_path, [0,0], output_dir, pre_cal_mask=mask)
