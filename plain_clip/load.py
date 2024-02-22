@@ -114,10 +114,10 @@ def setup(opt):
         dataset = INaturalistDataset(root_dir=opt.data_dir, train=False, subset_class_names=subset_class_names, n_pixel=opt.image_size, transform=opt.tfms)
         
         # scientific names to common names and vice versa
-        opt.sci2comm=None
-        sci2comm_path = "/home/tin/projects/reasoning/plain_clip/sci2comm_inat_425.json"
-        opt.sci2comm = open(sci2comm_path, 'r')
-        opt.sci2comm = json.load(opt.sci2comm)
+        if opt.sci2comm:
+            sci2comm_path = "/home/tin/projects/reasoning/plain_clip/sci2comm_inat_425.json"
+            opt.sci2comm = open(sci2comm_path, 'r')
+            opt.sci2comm = json.load(opt.sci2comm)
 
         opt.classes_to_load = None #dataset.classes
         opt.num_classes = 425
@@ -145,17 +145,11 @@ def setup(opt):
 
 def compute_description_encodings(opt, model):
     print(f"Creating {opt.mode} descriptors...")
-    gpt_descriptions, unmodify_dict = load_gpt_descriptions_2(opt, opt.classes_to_load, sci_2_comm=None, mode=opt.mode)
+    gpt_descriptions, unmodify_dict = load_gpt_descriptions_2(opt, opt.classes_to_load, sci_2_comm=opt.sci2comm, mode=opt.mode)
 
     for k in gpt_descriptions:
         print(f"\nExample description for class {k}: \"{gpt_descriptions[k]}\"\n")
         break
-
-    label_to_classname = list(gpt_descriptions.keys())
-
-    if 'sci2comm' in vars(opt):
-        if opt.sci2comm:
-            label_to_classname = [opt.sci2comm[i] for i in label_to_classname]
 
     # global allaboutbirds_example_images  # Declare as global
 
@@ -213,13 +207,9 @@ def compute_description_encodings(opt, model):
 
 def compute_label_encodings(opt, model):
     print("Creating label descriptors...")
-    gpt_descriptions, unmodify_dict = load_gpt_descriptions_2(opt, opt.classes_to_load, sci_2_comm=None, mode=opt.mode)
+    gpt_descriptions, unmodify_dict = load_gpt_descriptions_2(opt, opt.classes_to_load, sci_2_comm=opt.sci2comm, mode=opt.mode)
 
     label_to_classname = list(gpt_descriptions.keys())
-
-    if 'sci2comm' in vars(opt):
-        if opt.sci2comm:
-            label_to_classname = [opt.sci2comm[i] for i in label_to_classname]
 
     label_encodings = F.normalize(model.encode_text(clip.tokenize([opt.label_before_text + wordify(l) + opt.label_after_text for l in label_to_classname]).to(opt.device)))
     return label_encodings

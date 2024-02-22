@@ -92,6 +92,10 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
     ### Prepare extracted descriptions.
     gpt_descriptions = load_json(opt.descriptor_fname)
     
+    # convert sci 2 common names
+    if sci_2_comm:
+        gpt_descriptions = {wordify(sci_2_comm[k]):v for k,v in gpt_descriptions.items()}
+    
     # Replace empty descriptor lists if necessary.
     gpt_descriptions = {key: item if len(item) else [''] for key, item in gpt_descriptions.items()}
     
@@ -116,27 +120,6 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
     
     ### Use description-based CLIP (DCLIP).
     if mode == 'gpt_descriptions':
-        gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
-
-    ### Use DCLIP with randomly assigned descriptions (every class gets its own random subset).
-    if mode == 'random_descriptions':
-        # Average number of descriptions per class.
-        num_descr_per_class = int(np.ceil(len(descr_list)/len(gpt_descriptions)))
-        # Number of randomly assigned descriptions per class.
-        num_rand_descr_per_class = num_descr_per_class * opt.randomization_budget
-        # Fill description dictionary.
-        gpt_descriptions = {
-            key: list(np.random.choice(descr_list, np.min([len(descr_list), num_rand_descr_per_class]), replace=False)) for key in gpt_descriptions.keys()}
-        gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
-        
-    ### Use DCLIP where every class uses the same set of random descriptions.
-    if mode == 'shared_random_descriptions':
-        # Average number of descriptions per class.
-        num_descr_per_class = int(np.ceil(len(descr_list)/len(gpt_descriptions)))
-        num_samples = int(num_descr_per_class * opt.randomization_budget)
-        replace = False if num_samples <= len(descr_list) else True
-        list_shared_descr = np.random.choice(descr_list, num_samples, replace=replace)
-        gpt_descriptions = {key: list_shared_descr for key in gpt_descriptions.keys()}    
         gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
 
     if mode == 'waffle':

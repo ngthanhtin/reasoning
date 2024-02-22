@@ -71,6 +71,9 @@ parser.add_argument('--reps', type=int, default=1,
 parser.add_argument('--savename', type=str, default='results',
                     help='Name of csv-file in which results are stored.')
 
+### for INat dataset, use common names or sci names
+parser.add_argument('--sci2comm', action='store_true',
+                    help='Flag. If set, will convert sci 2 common names.')
 ###
 opt = parser.parse_args()
 opt.apply_descriptor_modification = not opt.dont_apply_descriptor_modification
