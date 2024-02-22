@@ -129,7 +129,7 @@ def setup(opt):
         dataset = PartImageNetDataset(root_dir=opt.data_dir, description_dir=opt.descriptor_fname, train=False, n_pixel=opt.image_size, transform=opt.tfms)
         
         opt.classes_to_load = None #dataset.classes
-        opt.num_classes = 78
+        opt.num_classes = 158
 
     if opt.support_images_path:
         # support_images_path = f'./image_descriptions/cub/allaboutbirds_example_images_40.json' # 30 is the best for cub

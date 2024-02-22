@@ -70,10 +70,14 @@ parser.add_argument('--reps', type=int, default=1,
 
 parser.add_argument('--savename', type=str, default='results',
                     help='Name of csv-file in which results are stored.')
+parser.add_argument('--save_class_acc', action='store_true',
+                    help='Flag. If set, will save class accuracy to the result file csv.')
+
 
 ### for INat dataset, use common names or sci names
 parser.add_argument('--sci2comm', action='store_true',
                     help='Flag. If set, will convert sci 2 common names.')
+
 ###
 opt = parser.parse_args()
 opt.apply_descriptor_modification = not opt.dont_apply_descriptor_modification
@@ -168,7 +172,7 @@ for seed in seeds:
         class_accuracies = final_conf_matrix.diag() / final_conf_matrix.sum(1)
 
         # Handle cases where a class never appears in the batch (to avoid division by zero)
-        class_accuracies[torch.isnan(class_accuracies)] = 0
+        # class_accuracies[torch.isnan(class_accuracies)] = 0
 
         accuracy_logs = {}
         accuracy_logs["description-based: "] = 100*lang_accuracy_metric.compute().item()
@@ -192,10 +196,16 @@ for seed in seeds:
             writer = csv.writer(file)
             
             # Optionally write headers
-            writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"])
+            if opt.save_class_acc:
+                writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"] + [str(i) for i in range(num_classes)])
+            else:
+                writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"])
             
             # Write accuracy logs to CSV
             for key, value in accuracy_logs.items():
-                writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)])
+                if opt.save_class_acc:
+                    writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)] + class_accuracies.tolist())
+                else:
+                    writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)])
 
         print(f"Accuracy logs saved to {opt.savename}")
