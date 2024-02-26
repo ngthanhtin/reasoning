@@ -191,8 +191,9 @@ def compute_description_encodings(opt, model):
     for k, v in gpt_descriptions.items():
         # v = v[:limited_descs] # limit the number of descriptions per class
         v = [v_[:cut_len] for v_ in v] # limit the number of character per description
-    
-        tokens = clip.tokenize(v).to(opt.device)
+        
+        tokens = clip.tokenize(v, truncate=True).to(opt.device)
+        
         description_encodings[k] = F.normalize(model.encode_text(tokens))
     
     # loaded_data = np.load(f'./pre_feats/{opt.dataset}/{model_size}_visual_encodings.npz')
