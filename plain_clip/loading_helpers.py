@@ -107,7 +107,7 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
     ### (Lazy - uses gpt descriptions) Use the default CLIP setup.    
     if mode == 'clip':
         gpt_descriptions = {l: opt.label_before_text + wordify(l) + opt.label_after_text for l in opt.label_to_classname}
-        
+    
     # Get complete list of available descriptions.
     descr_list = [list(values) for values in gpt_descriptions.values()]
     descr_list = np.array([x for y in descr_list for x in y])
@@ -118,6 +118,16 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
     structured_descriptor_builder = lambda item, cls: f"{opt.pre_descriptor_text}{opt.label_before_text}{wordify(cls)}{opt.descriptor_separator}{modify_descriptor(item, opt.apply_descriptor_modification)}{opt.label_after_text}"    
     # generic_descriptor_builder = lambda item, cls: f"{opt.pre_descriptor_text}{opt.label_before_text}{wordify(cls)}{opt.descriptor_separator}{item}{opt.label_after_text}"    
     
+    # classname + habitat descriptions
+    if mode == 'clip_habitat':
+        gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
+        gpt_descriptions = {key: [class_descr_list[-1]] for key, class_descr_list in gpt_descriptions.items()}
+        gpt_descriptions = {key: [opt.label_before_text + wordify(key) + opt.label_after_text, class_descr_list[-1]] for key, class_descr_list in gpt_descriptions.items()}
+        
+        if 'habitat' not in opt.descriptor_fname:
+            print("The descriptions do not contain habitat descriptions. Exit...")
+            exit()
+
     ### Use description-based CLIP (DCLIP).
     if mode == 'gpt_descriptions':
         gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}

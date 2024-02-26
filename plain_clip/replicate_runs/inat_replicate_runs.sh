@@ -20,10 +20,19 @@ seeds=(
     4
 )
 
+# run CLIP + Habitat
+# for dataset in "${datasets[@]}"; do
+#     for model_size in "${model_sizes[@]}"; do
+#     python ../main.py --dataset="$dataset" --mode="clip_habitat" --save_class_acc --model_size="$model_size" --descriptor_fnames "../descriptors/inaturalist2021/habitat_425_sachit_descriptors_inaturalist.json" --device cuda:3 --savename="${datasets[@]}/clip_habitat_accuracy"
+#     python ../main.py --dataset="$dataset" --sci2comm --mode="clip_habitat" --save_class_acc --model_size="$model_size" --descriptor_fnames "../descriptors/inaturalist2021/habitat_425_sachit_descriptors_inaturalist.json" --device cuda:3 --savename="${datasets[@]}/sci2comm_clip_habitat_accuracy"
+#     done
+# done
+
+#run GPT descriptions and the waffle CLIP
 for dataset in "${datasets[@]}"; do
-    for model_size in "${model_sizes[@]}"; do
-        python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:1 --savename="normal_inat_accuracy"
-    done
+    # for model_size in "${model_sizes[@]}"; do
+    #     python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:1 --savename="normal_inat_accuracy"
+    # done
     
     for model_size in "${model_sizes[@]}"; do
         python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:1 --savename="waffle_inat_accuracy" --seeds "${seeds[@]}"

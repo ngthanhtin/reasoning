@@ -17,13 +17,20 @@ seeds=(
     9
     10
 )
+# run CLIP + Habitat
+# for dataset in "${datasets[@]}"; do
+#     for model_size in "${model_sizes[@]}"; do
+#     python ../main.py --dataset="$dataset" --mode="clip_habitat" --save_class_acc --model_size="$model_size" --descriptor_fnames "../descriptors/part_imagenet/158_habitat_part_imagenet_descriptions.json" --device cuda:0 --savename="${datasets[@]}/clip_habitat_accuracy"
+#     done
+# done
 
+#run GPT descriptions and the waffle CLIP
 for dataset in "${datasets[@]}"; do
-    for model_size in "${model_sizes[@]}"; do
-        python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --save_class_acc --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="158_normal_pi_accuracy"
-    done
+    # for model_size in "${model_sizes[@]}"; do
+    #     python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --save_class_acc --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="normal_accuracy" --seeds "${seeds[@]}"
+    # done
 
     for model_size in "${model_sizes[@]}"; do
-        python ../main.py --dataset="$dataset" --mode="waffle" --save_class_acc --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="158_waffle_pi_accuracy" --seeds "${seeds[@]}"
+        python ../main.py --dataset="$dataset" --mode="waffle" --save_class_acc --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="waffle_accuracy" --seeds "${seeds[@]}"
     done
 done

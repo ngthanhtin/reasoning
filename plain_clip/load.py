@@ -22,6 +22,7 @@ from tqdm import tqdm
 # List of methods available to use.
 METHODS = [
     'clip',
+    'clip_habitat',
     'gpt_descriptions',
     'waffle'
 ]

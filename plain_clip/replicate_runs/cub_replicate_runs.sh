@@ -16,13 +16,21 @@ seeds=(
     3
     4
 )
-# Loop through each combination of dataset, mode, model size, and descriptor file
+
+# run CLIP + Habitat
+# for dataset in "${datasets[@]}"; do
+#     for model_size in "${model_sizes[@]}"; do
+#     python ../main.py --dataset="$dataset" --mode="clip_habitat" --save_class_acc --model_size="$model_size" --descriptor_fnames "../descriptors/cub/habitat_sachit_descriptors_cub.json" --device cuda:0 --savename="${datasets[@]}/clip_habitat_accuracy"
+#     done
+# done
+
+#run GPT descriptions and the waffle CLIP
 for dataset in "${datasets[@]}"; do
-    for model_size in "${model_sizes[@]}"; do
-        python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="normal_cub_accuracy"
-    done
+    # for model_size in "${model_sizes[@]}"; do
+    #     python ../main.py --dataset="$dataset" --mode="gpt_descriptions" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="normal_cub_accuracy"
+    # done
 
     for model_size in "${model_sizes[@]}"; do        
-        python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="waffle_cub_accuracy" --seeds "${seeds[@]}"
+        python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:0 --savename="test_waffle_cub_accuracy" --seeds "${seeds[@]}"
     done
 done
