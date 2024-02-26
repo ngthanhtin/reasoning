@@ -24,7 +24,9 @@ METHODS = [
     'clip',
     'clip_habitat',
     'gpt_descriptions',
-    'waffle'
+    'waffle',
+    'waffle_habitat',
+    'waffle_habitat_only'
 ]
 
 # List of compatible datasets.

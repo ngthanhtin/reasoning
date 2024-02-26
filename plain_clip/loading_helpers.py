@@ -132,10 +132,13 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
     if mode == 'gpt_descriptions':
         gpt_descriptions = {key: [structured_descriptor_builder(item, key) for item in class_descr_list] for key, class_descr_list in gpt_descriptions.items()}
 
-    if mode == 'waffle':
+    if 'waffle' in mode:
         import pickle as pkl
         seed_everything(opt.seed)
         word_list = pkl.load(open('/home/tin/projects/reasoning/plain_clip/word_list.pkl', 'rb'))
+
+        descr_list = [list(values)[-1] for values in gpt_descriptions.values()] # get only one habitat description
+        descr_list = np.array([x for y in descr_list for x in y])
 
         avg_num_words = int(np.max([np.round(np.mean([len(wordify(x).split(' ')) for x in key_list])), 1]))
         avg_word_length = int(np.round(np.mean([np.mean([len(y) for y in wordify(x).split(' ')]) for x in key_list])))        
@@ -146,7 +149,8 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
         character_list = [x.replace(',', '').replace('.', '') for x in np.unique([x for y in character_list for x in y])]
         character_list = np.unique(list(''.join(character_list)))
         
-        num_spaces = int(np.round(np.mean([np.sum(np.array(list(x)) == ' ') for x in key_list]))) + 1
+        #TODO: # replace x by the habitat description which is gpt_descriptions[x][-1]
+        num_spaces = int(np.round(np.mean([np.sum(np.array(list(x)) == ' ') for x in key_list]))) + 1 
         num_chars = int(np.ceil(np.mean([np.max([len(y) for y in x.split(' ')]) for x in key_list])))
             
         num_chars += num_spaces - num_chars%num_spaces
@@ -163,27 +167,38 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
         
         for key in key_list:
             for _ in range(opt.waffle_count):
-                base_word = ''                
+                # random words
+                base_word = ''            
+                avg_num_words = len(wordify(original_gpt_descriptions[key][-1]).split(' '))
                 for a in range(avg_num_words):
                     base_word += np.random.choice(word_list, 1, replace=False)[0]
                     if a < avg_num_words - 1:
                         base_word += ' '
                 gpt_descriptions[key].append(structured_descriptor_builder(base_word, key))
-                noise_word = ''                
-                use_key = sample_key if len(key) >= len(sample_key) else key
-                for c in sample_key:
-                    if c != ' ':
-                        noise_word += np.random.choice(character_list, 1, replace=False)[0]
-                    else:
-                        noise_word += ', '
-                gpt_descriptions[key].append(structured_descriptor_builder(noise_word, key))
+                
+                #random characters
+                # noise_word = ''                
+                # use_key = sample_key if len(key) >= len(sample_key) else key
+                # for c in sample_key:
+                #     if c != ' ':
+                #         noise_word += np.random.choice(character_list, 1, replace=False)[0]
+                #     else:
+                #         noise_word += ', '
+                # gpt_descriptions[key].append(structured_descriptor_builder(noise_word, key))
                                 
         match_key = np.random.choice(key_list)
-        gpt_descriptions = {key: gpt_descriptions[match_key] for key in key_list}
+        # gpt_descriptions = {key: gpt_descriptions[match_key] for key in key_list}
+        gpt_descriptions = {key: gpt_descriptions[key] for key in key_list}
+        
         for key in gpt_descriptions:
-            gpt_descriptions[key] = [x.replace(wordify(match_key), wordify(key)) for x in gpt_descriptions[key]]
-            gpt_descriptions[key].append(structured_descriptor_builder(original_gpt_descriptions[key][-1], key))
-
+            if mode == 'waffle':
+                gpt_descriptions[key] = [x.replace(wordify(match_key), wordify(key)) for x in gpt_descriptions[key]]
+            elif mode == 'waffle_habitat':
+                gpt_descriptions[key] = [x.replace(wordify(match_key), wordify(key)) for x in gpt_descriptions[key]]
+                gpt_descriptions[key].append(structured_descriptor_builder(original_gpt_descriptions[key][-1], key))
+            elif mode == 'waffle_habitat_only':
+                gpt_descriptions[key] = [structured_descriptor_builder(original_gpt_descriptions[key][-1], key)]
+    
     return gpt_descriptions, []
 
 
