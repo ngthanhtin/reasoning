@@ -6,11 +6,11 @@ modes=(
     )
 model_sizes=("ViT-B/32" "ViT-B/16" "ViT-L/14")
 descriptor_paths=(
-    "../descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json"
-    "../descriptors/inaturalist2021/habitat_425_sachit_descriptors_inaturalist.json"
-    "../descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json"
-    "../descriptors/inaturalist2021/habitat_425_chatgpt_descriptors_inaturalist.json"
-    "../descriptors/inaturalist2021/425_ssc_descriptors_inaturalist.json"
+    # "../descriptors/inaturalist2021/425_sachit_descriptors_inaturalist.json"
+    # "../descriptors/inaturalist2021/habitat_425_sachit_descriptors_inaturalist.json"
+    # "../descriptors/inaturalist2021/425_chatgpt_descriptors_inaturalist.json"
+    # "../descriptors/inaturalist2021/habitat_425_chatgpt_descriptors_inaturalist.json"
+    # "../descriptors/inaturalist2021/425_ssc_descriptors_inaturalist.json"
     "../descriptors/inaturalist2021/425_ssch_descriptors_inaturalist.json"
 )
 seeds=(
@@ -35,6 +35,10 @@ for dataset in "${datasets[@]}"; do
     # done
     
     for model_size in "${model_sizes[@]}"; do
-        python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:1 --savename="waffle_inat_accuracy" --seeds "${seeds[@]}"
+        # python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --descriptor_fnames "${descriptor_paths[@]}" --device cuda:1 --savename="${datasets[@]}/waffle_inat_accuracy" --seeds "${seeds[@]}"
+
+        python ../main.py --dataset="$dataset" --mode="waffle" --model_size="$model_size" --waffle_count 1 --descriptor_fnames "${descriptor_paths[@]}" --device cuda:7 --savename="${datasets[@]}/random_chars_accuracy" --seeds "${seeds[@]}"
+        python ../main.py --dataset="$dataset" --mode="waffle_habitat" --model_size="$model_size" --waffle_count 1 --descriptor_fnames "${descriptor_paths[@]}" --device cuda:7 --savename="${datasets[@]}/random_chars_habitat_accuracy" --seeds "${seeds[@]}"
+        python ../main.py --dataset="$dataset" --mode="waffle_habitat_only" --model_size="$model_size" --waffle_count 1 --descriptor_fnames "${descriptor_paths[@]}" --device cuda:7 --savename="${datasets[@]}/random_chars_habitat_only_accuracy"
     done
 done
