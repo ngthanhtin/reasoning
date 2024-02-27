@@ -148,8 +148,9 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
         character_list = [x.split(' ') for x in descr_list]
         character_list = [x.replace(',', '').replace('.', '') for x in np.unique([x for y in character_list for x in y])]
         character_list = np.unique(list(''.join(character_list)))
-        
-        #TODO: # replace x by the habitat description which is gpt_descriptions[x][-1]
+
+        # character_list = [char for char in character_list if char not in ["'", '"', '’', '“', '”']]
+
         num_spaces = int(np.round(np.mean([np.sum(np.array(list(x)) == ' ') for x in key_list]))) + 1 
         num_chars = int(np.ceil(np.mean([np.max([len(y) for y in x.split(' ')]) for x in key_list])))
             
@@ -167,25 +168,33 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
         
         for key in key_list:
             for _ in range(opt.waffle_count):
-                # random words
-                base_word = ''            
-                avg_num_words = len(wordify(original_gpt_descriptions[key][-1]).split(' '))
-                for a in range(avg_num_words):
-                    base_word += np.random.choice(word_list, 1, replace=False)[0]
-                    if a < avg_num_words - 1:
-                        base_word += ' '
-                gpt_descriptions[key].append(structured_descriptor_builder(base_word, key))
+                # # random words
+                # base_word = ''            
+                # avg_num_words = len(wordify(original_gpt_descriptions[key][-1]).split(' '))
+                # for a in range(avg_num_words):
+                #     base_word += np.random.choice(word_list, 1, replace=False)[0]
+                #     if a < avg_num_words - 1:
+                #         base_word += ' '
+                # gpt_descriptions[key].append(structured_descriptor_builder(base_word, key))
                 
                 #random characters
-                # noise_word = ''                
+                noise_word = ''               
+
                 # use_key = sample_key if len(key) >= len(sample_key) else key
-                # for c in sample_key:
-                #     if c != ' ':
-                #         noise_word += np.random.choice(character_list, 1, replace=False)[0]
-                #     else:
-                #         noise_word += ', '
-                # gpt_descriptions[key].append(structured_descriptor_builder(noise_word, key))
-                                
+                sample_key = ''
+                for word in wordify(original_gpt_descriptions[key][-1]).split(' '):
+                    for c in word:
+                        sample_key += 'a'
+                    sample_key += ' '
+                
+                for c in sample_key:
+                    if c != ' ':
+                        noise_word += np.random.choice(character_list, 1, replace=False)[0]
+                    else:
+                        noise_word += ' '
+                
+                gpt_descriptions[key].append(structured_descriptor_builder(noise_word, key))
+        
         match_key = np.random.choice(key_list)
         # gpt_descriptions = {key: gpt_descriptions[match_key] for key in key_list}
         gpt_descriptions = {key: gpt_descriptions[key] for key in key_list}
