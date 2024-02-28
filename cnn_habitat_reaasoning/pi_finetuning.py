@@ -39,20 +39,21 @@ if not os.path.exists('results/'):
 if not os.path.exists('results/cub/'):
     os.makedirs('results/cub/')
 class CFG:
-    seed = 42
+    seed = 45
     dataset = 'part_imagenet'
-    model_name = 'cnn' #cnn or transfg
+    model_name = 'transfg' #cnn or transfg
     use_cont_loss = True
-    device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
 
     # data params
     dataset2num_classes = {'part_imagenet': 158}
     
     # train, test data paths
     dataset2path = {
-        'part_imagenet': '/home/tin/datasets/PartImageNet/images'
+        # 'part_imagenet': '/home/tin/datasets/PartImageNet/images'
+        'part_imagenet': '/home/tin/datasets/PartImageNet/aug_images'
     }
-    orig_train_img_folder = 'train_folders/'
+    orig_train_img_folder = 'augsame_train/' #'augsame_train/' #'train_folders/'
     orig_val_img_folder = 'val_folders/'
     orig_test_img_folder = 'test_folders/'
     
@@ -63,7 +64,7 @@ class CFG:
     epochs = 50 if model_name in {'transfg'} else 20
 
     # train or test
-    train = False
+    train = True
     return_paths = not train
     batch_size = 64
     if model_name == 'transfg':
@@ -168,8 +169,8 @@ def get_data_loaders(dataset, batch_size):
     """
     
     orig_train_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_train_img_folder}"
-    orig_val_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_val_img_folder}"
-    orig_test_data_dir = f"{CFG.dataset2path[dataset]}/{CFG.orig_test_img_folder}"
+    orig_val_data_dir = f"/home/tin/datasets/PartImageNet/images/{CFG.orig_val_img_folder}"
+    orig_test_data_dir = f"/home/tin/datasets/PartImageNet/images/{CFG.orig_test_img_folder}"
 
     train_data = ImageFolderWithPaths(root=orig_train_data_dir, transform=Augment(train=True)) #, num_images_per_class=0)
     val_data = ImageFolderWithPaths(root=orig_val_data_dir, transform=Augment(train=False)) #, num_images_per_class=3)
@@ -386,7 +387,30 @@ if CFG.train:
     model_ft = train(train_loader, val_loader, optimizer, criterion, exp_lr_scheduler, model, num_epochs=CFG.epochs)
 else:
     model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_12_2024-15:00:39/16-0.895.pth'
+    # mix-s
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-00:16:00/18-0.891.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:28:09/18-0.889.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:28:33/18-0.890.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:29:14/19-0.891.pth'
 
+    # mix-g
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:07:38/7-0.897.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:30:15/19-0.899.pth'
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:30:49/12-0.898.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:31:16/9-0.899.pth'
+    # mix-irr
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:08:38/19-0.897.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:31:59/18-0.897.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:32:24/13-0.899.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/part_imagenet_single_cnn_02_27_2024-02:32:53/10-0.900.pth'
+
+    # baseline
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/transfg/normal/part_imagenet_single_transfg_02_27_2024-00:02:04/11-0.893.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/transfg/normal/part_imagenet_single_transfg_02_27_2024-10:27:33/23-0.892.pth'
+    # model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/transfg/normal/part_imagenet_single_transfg_02_27_2024-10:27:52/8-0.897.pth'
+
+    # same
+    model_path = '/home/tin/projects/reasoning/cnn_habitat_reaasoning/results/part_imagenet/transfg/augsame/part_imagenet_single_transfg_02_27_2024-00:52:34/6-0.897.pth'
     print(model_path)
     print(CFG.orig_test_img_folder)
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))

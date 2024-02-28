@@ -9,6 +9,23 @@ import random
 from tqdm import tqdm
 import pandas as pd
 
+def get_graph_of_part_imagenet():
+    cluster_path = '/home/tin/projects/reasoning/ablation_codes/class_part_imagenet_clusters.json'
+    f = open(cluster_path, 'r')
+    cluster_data = json.load(f)
+
+    graph = {}
+    for k,v in cluster_data.items():
+        for v_ in v:
+            if v_ not in graph:
+                graph[v_] = []
+            for v__ in v:
+                # if v__ == v_:
+                #     continue
+                graph[v_].append(v__)
+    
+    return graph
+
 def get_graph_of_cub():
     cub_path = '/home/tin/datasets/cub/CUB/images/'
     n_clusters = 50
@@ -50,106 +67,106 @@ def get_graph_of_cub():
     return graph
 
 
-def read_hierarchy(bird_dir='/home/tin/datasets/nabirds/'):
-    """Loads table of class hierarchies. Returns hierarchy table
-    parent-child class map, top class levels, and bottom class levels.
-    """
-    hierarchy = pd.read_table(f'{bird_dir}/hierarchy.txt', sep=' ',
-                              header=None)
-    hierarchy.columns = ['child', 'parent']
+# def read_hierarchy(bird_dir='/home/tin/datasets/nabirds/'):
+#     """Loads table of class hierarchies. Returns hierarchy table
+#     parent-child class map, top class levels, and bottom class levels.
+#     """
+#     hierarchy = pd.read_table(f'{bird_dir}/hierarchy.txt', sep=' ',
+#                               header=None)
+#     hierarchy.columns = ['child', 'parent']
 
-    child_graph = {0: []}
-    name_level = {0: 0}
-    for _, row in hierarchy.iterrows():
-        child_graph[row['parent']].append(row['child'])
-        child_graph[row['child']] = []
-        name_level[row['child']] = name_level[row['parent']] + 1
+#     child_graph = {0: []}
+#     name_level = {0: 0}
+#     for _, row in hierarchy.iterrows():
+#         child_graph[row['parent']].append(row['child'])
+#         child_graph[row['child']] = []
+#         name_level[row['child']] = name_level[row['parent']] + 1
     
-    terminal_levels = set()
-    for key, value in name_level.items():
-        if not child_graph[key]:
-            terminal_levels.add(key)
+#     terminal_levels = set()
+#     for key, value in name_level.items():
+#         if not child_graph[key]:
+#             terminal_levels.add(key)
 
-    parent_map = {row['child']: row['parent'] for _, row in hierarchy.iterrows()}
-    return hierarchy, parent_map, set(child_graph[0]), terminal_levels
+#     parent_map = {row['child']: row['parent'] for _, row in hierarchy.iterrows()}
+#     return hierarchy, parent_map, set(child_graph[0]), terminal_levels
 
-hierarchy, parent_map, _, terminal_levels = read_hierarchy()
-discrete_labels = set(hierarchy.parent.values.tolist())
+# hierarchy, parent_map, _, terminal_levels = read_hierarchy()
+# discrete_labels = set(hierarchy.parent.values.tolist())
 
-def read_class_labels(top_levels, parent_map, bird_dir='/home/tin/datasets/nabirds/'):
-    """Loads table of image IDs and labels. Add top level ID to table."""
-    def get_class(l):
-        return l if l in top_levels else get_class(parent_map[l])
+# def read_class_labels(top_levels, parent_map, bird_dir='/home/tin/datasets/nabirds/'):
+#     """Loads table of image IDs and labels. Add top level ID to table."""
+#     def get_class(l):
+#         return l if l in top_levels else get_class(parent_map[l])
 
-    class_labels = pd.read_table(f'{bird_dir}/image_class_labels.txt', sep=' ',
-                                 header=None)
-    class_labels.columns = ['image', 'id']
-    class_labels['class_id'] = class_labels['id'].apply(get_class)
+#     class_labels = pd.read_table(f'{bird_dir}/image_class_labels.txt', sep=' ',
+#                                  header=None)
+#     class_labels.columns = ['image', 'id']
+#     class_labels['class_id'] = class_labels['id'].apply(get_class)
 
-    return class_labels
+#     return class_labels
 
-class_labels = read_class_labels(terminal_levels, parent_map)
+# class_labels = read_class_labels(terminal_levels, parent_map)
 
-def read_classes(terminal_levels, bird_dir='/home/tin/datasets/nabirds/'):
-    """Loads DataFrame with class labels. Returns full class table
-    and table containing lowest level classes.
-    """
-    def make_annotation(s):
-        try:
-            return s.split('(')[1].split(')')[0]
-        except Exception as e:
-            return None
+# def read_classes(terminal_levels, bird_dir='/home/tin/datasets/nabirds/'):
+#     """Loads DataFrame with class labels. Returns full class table
+#     and table containing lowest level classes.
+#     """
+#     def make_annotation(s):
+#         try:
+#             return s.split('(')[1].split(')')[0]
+#         except Exception as e:
+#             return None
 
-    classes = pd.read_table('/home/tin/projects/reasoning/scraping/nabird_data/nabird_classes.txt', header=None) # this file does not have double spaces
-    classes['id'] = classes[0].apply(lambda s: int(s.split(' ')[0]))
-    classes['label_name'] = classes[0].apply(lambda s: ' '.join(s.split(' ')[1:]))
-    classes.drop(0, inplace=True, axis=1)
-    classes['annotation'] = classes['label_name'].apply(make_annotation)
-    classes['name'] = classes['label_name'].apply(lambda s: s.split('(')[0].strip())
+#     classes = pd.read_table('/home/tin/projects/reasoning/scraping/nabird_data/nabird_classes.txt', header=None) # this file does not have double spaces
+#     classes['id'] = classes[0].apply(lambda s: int(s.split(' ')[0]))
+#     classes['label_name'] = classes[0].apply(lambda s: ' '.join(s.split(' ')[1:]))
+#     classes.drop(0, inplace=True, axis=1)
+#     classes['annotation'] = classes['label_name'].apply(make_annotation)
+#     classes['name'] = classes['label_name'].apply(lambda s: s.split('(')[0].strip())
 
-    terminal_classes = classes[classes['id'].isin(terminal_levels)]#.reset_index(drop=True)
-    return classes, terminal_classes
+#     terminal_classes = classes[classes['id'].isin(terminal_levels)]#.reset_index(drop=True)
+#     return classes, terminal_classes
 
-nabirds_classes, nabirds_terminal_classes = read_classes(terminal_levels)
-labelname2labelidx = nabirds_terminal_classes.set_index('label_name')['id'].to_dict()
+# nabirds_classes, nabirds_terminal_classes = read_classes(terminal_levels)
+# labelname2labelidx = nabirds_terminal_classes.set_index('label_name')['id'].to_dict()
 
-def get_graph_of_nabirds():
-    """
-    return graph = {'0297': ['0295', '0294', etc], etc}
-    """
+# def get_graph_of_nabirds():
+#     """
+#     return graph = {'0297': ['0295', '0294', etc], etc}
+#     """
 
-    nabirds_path = '/home/tin/datasets/nabirds/images/'
-    n_clusters = 100 #196
-    class_nabirds_cluster_path = f'../plain_clip/class_nabirds_clusters_{n_clusters}.json'
+#     nabirds_path = '/home/tin/datasets/nabirds/images/'
+#     n_clusters = 100 #196
+#     class_nabirds_cluster_path = f'../plain_clip/class_nabirds_clusters_{n_clusters}.json'
     
-    f = open(class_nabirds_cluster_path, 'r')
-    cluster_data = json.load(f)
+#     f = open(class_nabirds_cluster_path, 'r')
+#     cluster_data = json.load(f)
 
-    graph = {}
-    # labelname2labelidx = {}
-    # labelname2labelidx = nabirds_classes.set_index('name')['index'].to_dict()
+#     graph = {}
+#     # labelname2labelidx = {}
+#     # labelname2labelidx = nabirds_classes.set_index('name')['index'].to_dict()
 
-    for k,v in cluster_data.items():
-        for label_name in v:
-            label_idx = labelname2labelidx[label_name]
-            label_idx = str(label_idx)
-            if len(label_idx) == 2:
-                label_idx = '00' + label_idx
-            elif len(label_idx) == 3:
-                label_idx = '0' + label_idx
+#     for k,v in cluster_data.items():
+#         for label_name in v:
+#             label_idx = labelname2labelidx[label_name]
+#             label_idx = str(label_idx)
+#             if len(label_idx) == 2:
+#                 label_idx = '00' + label_idx
+#             elif len(label_idx) == 3:
+#                 label_idx = '0' + label_idx
 
-            if label_idx not in graph:
-                graph[label_idx] = []
-            for label_name2 in v:
-                vertice = labelname2labelidx[label_name2]
-                vertice = str(vertice)
-                if len(vertice) == 2:
-                    vertice = '00' + vertice
-                elif len(vertice) == 3:
-                    vertice = '0' + vertice
-                graph[label_idx].append(vertice)
+#             if label_idx not in graph:
+#                 graph[label_idx] = []
+#             for label_name2 in v:
+#                 vertice = labelname2labelidx[label_name2]
+#                 vertice = str(vertice)
+#                 if len(vertice) == 2:
+#                     vertice = '00' + vertice
+#                 elif len(vertice) == 3:
+#                     vertice = '0' + vertice
+#                 graph[label_idx].append(vertice)
 
-    return graph
+#     return graph
 
 def mask_image(file_path, out_dir_name, remove_bkgnd=True):
     """
@@ -259,7 +276,7 @@ if __name__ == '__main__':
         description='Make segmentations',
         formatter_class=ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('--dataset', default='nabirds', help='cub or nabirds')
+    parser.add_argument('--dataset', default='nabirds', help='cub or nabirds or part_imagenet')
     parser.add_argument('--places_dir', default='/home/tin/datasets/cub/CUB_inpaint_all_train/', help='Path to Places dataset')
     parser.add_argument('--out_dir', default='/home/tin/datasets/cub/CUB_irrelevant_augmix_train/', help='Output directory')
     parser.add_argument('--seed', type=int, default=42, help='Random seed')
@@ -285,12 +302,20 @@ if __name__ == '__main__':
         args.out_dir = '/home/tin/datasets/nabirds/gen_data/temp_gen_data/augirrelevant_with_orig_birds_train/'
         # args.out_dir = '/home/tin/datasets/nabirds/gen_data/augmix_images_100/'
 
-        graph = get_graph_of_nabirds()
+        # graph = get_graph_of_nabirds()
+        graph = None
 
+    elif args.dataset == 'part_imagenet':
+        img_dir = '/home/tin/datasets/PartImageNet/images/train_folders/'
+        seg_dir = '/home/tin/datasets/PartImageNet/annotations/train/'
+        args.places_dir = '/home/tin/projects/reasoning/ablation_codes/inpainting/pi_inpaint_all'
+        args.out_dir = '/home/tin/projects/reasoning/ablation_codes/inpainting/augirr_pi_train'
+        graph = get_graph_of_part_imagenet()
+        
     args.save_black_bg_img = False
     args.augsame = False
-    args.augmix = False
-    args.augirrelevant = True
+    args.augmix = True
+    args.augirrelevant = False
 
     # Make output directory
     os.makedirs(args.out_dir, exist_ok=True)
@@ -303,6 +328,8 @@ if __name__ == '__main__':
             folder_index = int(folder.split('.')[0])
             clusters = graph[folder_index]
         elif args.dataset == 'nabirds':
+            clusters = graph[folder]
+        elif args.dataset == 'part_imagenet':
             clusters = graph[folder]
 
         # create label folders for out_dir
@@ -318,14 +345,26 @@ if __name__ == '__main__':
                 full_seg_path = f"{seg_dir}/{folder}/{file[:-4]}.png"
             if args.dataset == 'nabirds':
                 full_seg_path = f"{seg_dir}/{folder}/{file}"
+            if args.dataset == 'part_imagenet':
+                full_seg_path = f"{seg_dir}/{file[:-5]}.png"
 
             # Load images
             img_np = np.asarray(Image.open(full_img_path).convert('RGB'))
             # Turn into opacity filter
             seg_np = np.asarray(Image.open(full_seg_path).convert('RGB')) / 255
+            if args.dataset == 'part_imagenet':
+                seg_np = np.asarray(Image.open(full_seg_path).convert('RGB'))
+                seg_np = seg_np.copy()
+                seg_np[seg_np != 40] = 255
+                seg_np[seg_np == 40] = 0
+                seg_np = seg_np / 255
 
             # Black background
-            img_black_np = np.around(img_np * seg_np).astype(np.uint8)
+            try:
+                img_black_np = np.around(img_np * seg_np).astype(np.uint8)
+            except:
+                print(full_img_path)
+                continue
 
             full_black_path = f"{args.out_dir}/{folder}/{file}"
             img_black = Image.fromarray(img_black_np)
@@ -334,15 +373,25 @@ if __name__ == '__main__':
 
             # aug background
             if args.augsame:
-                for file2 in tqdm(image_files):
+                shuffled_image_files = image_files.copy()
+                # Shuffle the copy
+                random.seed(42)
+                random.shuffle(shuffled_image_files)
+                for file2 in tqdm(shuffled_image_files[:3]):
                     # if os.path.exists(f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"):
                     #     continue
                     train_place_path = f"{args.places_dir}/{folder}/{file2}"
-                    train_place = Image.open(train_place_path).convert('RGB')
+                    try:
+                        train_place = Image.open(train_place_path).convert('RGB')
+                    except:
+                        print(train_place_path)
+                        continue
 
                     img_train = combine_and_mask(train_place, seg_np, img_black)
-
+                        
                     full_train_path = f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"
+                    if args.dataset == 'part_imagenet':
+                        full_train_path = f"{args.out_dir}/{folder}/{file[:-5]}_{file2}"
                     img_train.save(full_train_path)
                     
             if args.augmix or args.augirrelevant:
@@ -351,6 +400,9 @@ if __name__ == '__main__':
                     not_neigbors = [i for i in range(200) if i not in clusters] # for cub
                 if args.dataset == 'nabirds':
                     not_neigbors = [i for i in os.listdir(img_dir) if i in clusters] # for nabirds
+                if args.dataset == 'part_imagenet':
+                    all_pi_synset = os.listdir(img_dir)
+                    not_neigbors = [i for i in all_pi_synset if i not in clusters]
                 # take only 3 irrelevant neighbors:
                 try:
                     not_neigbors = get_random_subset(not_neigbors, 3)
@@ -363,27 +415,38 @@ if __name__ == '__main__':
                         image_files2 = os.listdir(f"{img_dir}/{label_folders[neigbor-1]}") # if it is cub
                     if args.dataset == 'nabirds':
                         image_files2 = os.listdir(f"{img_dir}/{neigbor}") # if it is nabirds
-                    # image_files2 = get_random_subset(image_files2, 2)
-
+                    if args.dataset == 'part_imagenet':
+                        image_files2 = os.listdir(f"{img_dir}/{neigbor}") # if it is cub
+                    
+                    image_files2 = get_random_subset(image_files2, 3)
                     # get random habitat
-                    random_image_file = get_random_subset(image_files2, 1)[0]
+                    # random_image_file = get_random_subset(image_files2, 1)[0]
 
                     for file2 in image_files2:
-                        file2 = random_image_file
-                        if os.path.exists(f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"):
-                            continue
+                        # file2 = random_image_file
+                        # if os.path.exists(f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"):
+                        #     continue
                         if args.dataset == 'cub':
                             train_place_path = f"{args.places_dir}/{label_folders[neigbor-1]}/{file2}" # if it is cub
                         if args.dataset == 'nabirds':
                             train_place_path = f"{args.places_dir}/{neigbor}/{file2}" # if it is nabirds
+                        if args.dataset == 'part_imagenet':
+                            train_place_path = f"{args.places_dir}/{neigbor}/{file2}" # if it is cub
                         # train_place_path = f"{args.places_dir}/{folder}/{file2}"
-                        train_place = Image.open(train_place_path).convert('RGB')
+                        
+                        try:
+                            train_place = Image.open(train_place_path).convert('RGB')
+                        except:
+                            continue
 
                         img_train = combine_and_mask(train_place, seg_np, img_black)
 
                         # full_train_path = f"{args.out_dir}/{folder}/{file[:-4]}_{file2}"
-                        full_train_path = f"{args.out_dir}/{folder}/{file}"
+                        # full_train_path = f"{args.out_dir}/{folder}/{file}"
+                        if args.dataset == 'part_imagenet':
+                            full_train_path = f"{args.out_dir}/{folder}/{file[:-5]}_{file2}"
                         img_train.save(full_train_path)
                         break
 
 #%%
+ 
