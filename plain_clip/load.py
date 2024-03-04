@@ -134,78 +134,99 @@ def setup(opt):
         opt.classes_to_load = None #dataset.classes
         opt.num_classes = 158
 
-    if opt.support_images_path:
-        # support_images_path = f'./image_descriptions/cub/allaboutbirds_example_images_40.json' # 30 is the best for cub
-        # support_images_path = f'./image_descriptions/nabirds/nabirds_same_example_images_50.json' # 30 is the best
-        # support_images_path = f'./image_descriptions/inaturalist/inaturalist_example_images_50.json'
+    if opt.compute_support_images_embedding:        
+        if opt.dataset == 'cub':
+            support_images_json_path = '/home/tin/projects/reasoning/plain_clip/image_descriptions/cub/allaboutbirds_example_images_40.json'
+        elif opt.dataset == 'nabirds':
+            support_images_json_path = '/home/tin/projects/reasoning/plain_clip/image_descriptions/nabirds/nabirds_example_images_50.json'
+        elif opt.dataset == 'inaturalist':
+            support_images_json_path = '/home/tin/projects/reasoning/plain_clip/image_descriptions/inaturalist/inaturalist_example_images_50.json'
+        elif opt.dataset == 'part_imagenet':
+            support_images_json_path = '/home/tin/projects/reasoning/plain_clip/image_descriptions/part_imagenet/support_images.json'
         
-        support_images = open(opt.support_images_path, 'r')
-        support_images = json.load(support_images)
+        # dict: classname: paths
+        support_images_dict = open(support_images_json_path, 'r')
+        opt.support_images_dict = json.load(support_images_dict)
 
     return opt, dataset
 
-
-
 def compute_description_encodings(opt, model):
     print(f"Creating {opt.mode} descriptors...")
-    gpt_descriptions, unmodify_dict = load_gpt_descriptions_2(opt, opt.classes_to_load, sci_2_comm=opt.sci2comm, mode=opt.mode)
+    gpt_descriptions, unmodify_descriptions = load_gpt_descriptions_2(opt, opt.classes_to_load, sci_2_comm=opt.sci2comm, mode=opt.mode)
 
     for k in gpt_descriptions:
         print(f"\nExample description for class {k}: \"{gpt_descriptions[k]}\"\n")
         break
 
-    # global allaboutbirds_example_images  # Declare as global
-
     cut_len = 250 # 250
     limited_descs = 5
     description_encodings = OrderedDict()
 
-    # save_visual_feat = False
-    # if save_visual_feat:
-    #     for i, (k, image_paths) in tqdm(enumerate(allaboutbirds_example_images.items())):
-    #         imgs = []
-    #         for ii, p in enumerate(image_paths[::-1]):
-    #             # if ii > 100:
-    #             #     break
-    #             img = Image.open(p)
-    #             imgs.append(tfms(img))
-                    
-    #         imgs = torch.stack(imgs)
-    #         imgs = imgs.to(opt.device)
-    #         description_encodings[k] = F.normalize(model.encode_image(imgs)).to('cpu')
-    #     # save embs files
+    if opt.compute_support_images_embedding:
+        if opt.model_size == "ViT-B/32":
+            output_filename = f'/home/tin/projects/reasoning/plain_clip/pre_feats/{opt.dataset}/B32_visual_encodings.npz'
+        if opt.model_size == "ViT-B/16":
+            output_filename = f'/home/tin/projects/reasoning/plain_clip/pre_feats/{opt.dataset}/B16_visual_encodings.npz'
+        if opt.model_size == "ViT-L/14":
+            output_filename = f'/home/tin/projects/reasoning/plain_clip/pre_feats/{opt.dataset}/L14_visual_encodings.npz'
         
-    #     output_filename = f'./pre_feats/{opt.dataset}/{model_size}_no_ann_same_visual_encodings_reversed.npz'
+        if os.path.exists(output_filename):
+            print("The support images embedding is existed")
+        else:
+            print("Computing support images embedding...")
+            from PIL import Image
+            for i, (k, image_paths) in tqdm(enumerate(opt.support_images_dict.items())):
+                imgs = []
+                for ii, p in enumerate(image_paths):
+                    img = Image.open(p)
+                    imgs.append(opt.tfms(img))
+                        
+                imgs = torch.stack(imgs)
+                imgs = imgs.to(opt.device)
+                description_encodings[k] = F.normalize(model.encode_image(imgs)).to('cpu')
+            
+            # save embs files
+            os.makedirs(f'./pre_feats/{opt.dataset}', exist_ok=True)
 
-    #     keys = list(description_encodings.keys())
-    #     values = [description_encodings[key] for key in keys]
-    #     np.savez(output_filename, **dict(zip(keys, values)))
-    #     exit()
-
-    # desired_order = list(gpt_descriptions.keys())
-    # allaboutbirds_example_images = {k.lower(): v for k,v in allaboutbirds_example_images.items()}
-    # allaboutbirds_example_images = {key: allaboutbirds_example_images[key] for key in desired_order}
-    # for k, v in gpt_descriptions.items():
-    #     gpt_descriptions[k] = [k, gpt_descriptions[k][-1]] # classname and habitat
+            keys = list(description_encodings.keys())
+            values = [description_encodings[key] for key in keys]
+            np.savez(output_filename, **dict(zip(keys, values)))
 
     for k, v in gpt_descriptions.items():
-        # v = v[:limited_descs] # limit the number of descriptions per class
         v = [v_[:cut_len] for v_ in v] # limit the number of character per description
         
         tokens = clip.tokenize(v, truncate=True).to(opt.device)
         
         description_encodings[k] = F.normalize(model.encode_text(tokens))
     
-    # loaded_data = np.load(f'./pre_feats/{opt.dataset}/{model_size}_visual_encodings.npz')
-    # # for i, (k, image_paths) in enumerate(allaboutbirds_example_images.items()):
-    # for k, v in gpt_descriptions.items():
-    #     num=16
-    #     # random_indices = np.random.choice(loaded_data[k].shape[0], num, replace=False) if loaded_data[k].shape[0] >= num else [i for i in range(loaded_data[k].shape[0])]
-    #     # random_vectors = loaded_data[k][random_indices]
+    if opt.use_support_images_embedding:
+        if opt.model_size == "ViT-B/32":
+            support_image_embedding_filename = f'/home/tin/projects/reasoning/plain_clip/pre_feats/{opt.dataset}/B32_visual_encodings.npz'
+        if opt.model_size == "ViT-B/16":
+            support_image_embedding_filename = f'/home/tin/projects/reasoning/plain_clip/pre_feats/{opt.dataset}/B16_visual_encodings.npz'
+        if opt.model_size == "ViT-L/14":
+            support_image_embedding_filename = f'/home/tin/projects/reasoning/plain_clip/pre_feats/{opt.dataset}/L14_visual_encodings.npz'
 
-    #     # description_encodings[k] = torch.Tensor(loaded_data[k][:num]).to(opt.device, dtype=torch.float16)
-    #     img_feats = torch.Tensor(loaded_data[k][:num]).to(opt.device, dtype=torch.float16) # loaded_data[k][:num]
-    #     description_encodings[k] = torch.cat([description_encodings[k], img_feats], dim=0)
+        if not os.path.exists(support_image_embedding_filename):
+            print("Can not find the support images embedding...Use text embedding only...")
+        else:
+            print("Loading support images embedding...")
+            loaded_data = np.load(support_image_embedding_filename)
+
+            if opt.num_support_images == 1000: # use all the support images
+                for k, v in gpt_descriptions.items():    
+                    full_support_image_size = len(loaded_data[k])
+                    break
+                opt.num_support_images = full_support_image_size
+
+            for i, (k, v) in enumerate(gpt_descriptions.items()):
+                if opt.dataset == 'inaturalist' and opt.sci2comm:
+                    comm_name = list(unmodify_descriptions.keys())[i]
+                    img_feats = torch.Tensor(loaded_data[comm_name][:opt.num_support_images]).to(opt.device, dtype=torch.float16)
+                else:
+                    img_feats = torch.Tensor(loaded_data[k][:opt.num_support_images]).to(opt.device, dtype=torch.float16)
+                # no need to normalize img_feats, because it was normalized at the time of precalculation
+                description_encodings[k] = torch.cat([description_encodings[k], img_feats], dim=0)
        
     return description_encodings
 

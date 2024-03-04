@@ -91,6 +91,7 @@ def load_gpt_descriptions(hparams, classes_to_load=None, sci_2_comm=None):
 def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: str='clip'):    
     ### Prepare extracted descriptions.
     gpt_descriptions = load_json(opt.descriptor_fname)
+    unmodify_descriptions = gpt_descriptions.copy()
     
     # convert sci 2 common names
     if sci_2_comm:
@@ -208,7 +209,7 @@ def load_gpt_descriptions_2(opt, classes_to_load=None, sci_2_comm=None, mode: st
             elif mode == 'waffle_habitat_only':
                 gpt_descriptions[key] = [structured_descriptor_builder(original_gpt_descriptions[key][-1], key)]
     
-    return gpt_descriptions, []
+    return gpt_descriptions, unmodify_descriptions
 
 
 def seed_everything(seed: int):

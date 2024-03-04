@@ -53,8 +53,10 @@ parser.add_argument('--descriptor_fname', default=None, type=str, help='Descript
 parser.add_argument('--descriptor_fnames', nargs='+', default=None, help='List of Descriptor filenames')
 
 ###
-parser.add_argument('--support_images_path', default=None, type=str, help='Support images json path')
-
+parser.add_argument('--compute_support_images_embedding', action='store_true', help='Flag. If set, use compute suppport images embedding.')
+parser.add_argument('--use_support_images_embedding', action='store_true', help='Flag. If set, use suppport images.')
+parser.add_argument('--num_support_images', type=int, default=30,
+                    help='The number of support images used in CLIP evaluation')
 ###
 parser.add_argument('--category_name_inclusion', type=str, default='prepend', choices=['append', 'prepend'], help='How to include category names')
 parser.add_argument('--dont_apply_descriptor_modification', action='store_true',
@@ -197,15 +199,27 @@ for seed in seeds:
             
             # Optionally write headers
             if opt.save_class_acc:
-                writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"] + [str(i) for i in range(num_classes)])
+                if opt.use_support_images_embedding and opt.num_support_images > 0:
+                    writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value", "Num Support Images"] + [str(i) for i in range(num_classes)])
+                else:
+                    writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"] + [str(i) for i in range(num_classes)])
             else:
-                writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"])
-            
+                if opt.use_support_images_embedding and opt.num_support_images > 0:
+                    writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value", "Num Support Images"])
+                else:
+                    writer.writerow(["Mode", "Descriptor Path", "Model Size", "Metric", "Value"])
+
             # Write accuracy logs to CSV
             for key, value in accuracy_logs.items():
                 if opt.save_class_acc:
-                    writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)] + class_accuracies.tolist())
+                    if opt.use_support_images_embedding and opt.num_support_images > 0:
+                        writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2), opt.num_support_images] + class_accuracies.tolist())
+                    else:
+                        writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)] + class_accuracies.tolist())
                 else:
-                    writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)])
+                    if opt.use_support_images_embedding and opt.num_support_images > 0:
+                        writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2), opt.num_support_images])
+                    else:
+                        writer.writerow([opt.mode, opt.descriptor_fname, opt.model_size, key, round(value, 2)])
 
         print(f"Accuracy logs saved to {opt.savename}")
