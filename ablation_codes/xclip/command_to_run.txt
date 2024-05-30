@@ -1,5 +1,0 @@
-python src/run_owl_vit.py --xclip_v3 --dataset cub --device cuda:6 --clip_topk 50 --num_workers 4
-
-python run_owl_vit.py --xclip_v3 --dataset nabirds --device cuda:6 --clip_topk 50 --num_workers 1 --batch_size 32 --descriptors chatgpt --ablation boxes_only
-
-python run_owl_vit.py --xclip_v3 --dataset cub --device cuda:0 --clip_topk 50 --num_workers 1 --batch_size 32 --descriptors chatgpt --ablation boxes_only --add_allaboutbirds_descs --indexes_to_keep 1 2 10 8 7 --visualize

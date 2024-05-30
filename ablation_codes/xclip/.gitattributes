@@ -1,1 +1,0 @@
-data/models/mask2former/mask2former_r101_lsj_8x2_50e_coco-panoptic_20220329_225104-c54e64c9.pth filter=lfs diff=lfs merge=lfs -text
